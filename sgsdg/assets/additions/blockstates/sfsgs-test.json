@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:sfsgs-test"
+    },
+    "facing\u003deast": {
+      "model": "additions:sfsgs-test",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:sfsgs-test",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:sfsgs-test",
+      "y": 270
+    }
+  }
+}

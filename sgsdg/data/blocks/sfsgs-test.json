@@ -1,0 +1,11 @@
+{
+  "item_block": {
+    "name": "test",
+    "type": "additions:block_ladder"
+  },
+  "name": "test",
+  "material": "minecraft:wood",
+  "step_sound": "minecraft:block.ladder.step",
+  "light_opacity": 0,
+  "type": "additions:ladder"
+}
