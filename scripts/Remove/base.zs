@@ -1,0 +1,2 @@
+recipes.remove(<base:wrench>);
+ 

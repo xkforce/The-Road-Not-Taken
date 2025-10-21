@@ -1,0 +1,31 @@
+//this doesnt work
+//mods.charset.Cauldron.addItemFluidRecipe(<minecraft:beef>, <liquid:boilingwater> * 1000, <minecraft:air>, <liquid:beefstock> * 1000, true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

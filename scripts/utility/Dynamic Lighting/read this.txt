@@ -1,0 +1,7 @@
+the example files are designed to spawn a pair of vertically stacked black light emitting lit air blocks at the player's position when
+the player is holding a carrot in their main hand. If you do not want the colored lighting or want to create other colored lighting
+air blocks, copy those files and modify as needed AND modify the coloredlux pack or disable the coloredlux mod if you dont want
+colored lighting at all.
+
+Each combination of light level and colored light needs its own lit air block to be added if you want support for all colors and
+15 light levels. This gives a total of 240 lit air blocks for full support.
