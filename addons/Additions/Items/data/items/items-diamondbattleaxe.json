@@ -1,0 +1,23 @@
+{
+  "name": "Diamond Battle Axe",
+  "max_stack": 1,
+  "durability": 1561,
+  "harvest_level": 3,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 8.0,
+  "enchantability": 10,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "minecraft:diamond",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "axe"
+  ],
+  "type": "additions:multitool"
+}

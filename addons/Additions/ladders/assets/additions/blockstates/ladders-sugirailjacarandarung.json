@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-sugirailjacarandarung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-sugirailjacarandarung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-sugirailjacarandarung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-sugirailjacarandarung",
+      "y": 270
+    }
+  }
+}

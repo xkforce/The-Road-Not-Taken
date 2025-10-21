@@ -1,0 +1,6 @@
+{
+  "name": "Electrum Axe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ELECTRUMTOOLS",
+  "type": "additions:axe"
+}

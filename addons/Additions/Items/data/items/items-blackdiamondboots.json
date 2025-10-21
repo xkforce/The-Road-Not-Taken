@@ -1,0 +1,7 @@
+{
+  "name": "Black Diamond Boots",
+  "max_stack": 1,
+  "material": "additions-items-blackdiamondarmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

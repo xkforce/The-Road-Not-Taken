@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "Gold Ore",
+    "type": "additions:block_simple"
+  },
+  "name": "Gold Ore",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 3.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 14,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

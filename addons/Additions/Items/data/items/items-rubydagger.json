@@ -1,0 +1,14 @@
+{
+  "name": "Ruby Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "d36d63e9-9899-4b4a-945c-11c154ae87dc"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-RUBYTOOLS",
+  "type": "additions:sword"
+}

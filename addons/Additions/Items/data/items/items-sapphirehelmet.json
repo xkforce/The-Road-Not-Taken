@@ -1,0 +1,7 @@
+{
+  "name": "Sapphire Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SAPPHIRE",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

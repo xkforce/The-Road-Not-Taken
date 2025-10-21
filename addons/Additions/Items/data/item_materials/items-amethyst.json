@@ -1,0 +1,13 @@
+{
+  "enchantability": 10,
+  "base_armor_durability": 11,
+  "toughness": 0.0,
+  "helmet_armor": 2,
+  "chestplate_armor": 5,
+  "leggings_armor": 4,
+  "boots_armor": 2,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:amethyst",
+  "repair_meta": 32767,
+  "type": "armor"
+}

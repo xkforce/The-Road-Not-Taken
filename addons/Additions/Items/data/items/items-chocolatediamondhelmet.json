@@ -1,0 +1,7 @@
+{
+  "name": "Chocolate Diamond Helmet",
+  "max_stack": 1,
+  "material": "additions-items-chocolatediamondarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

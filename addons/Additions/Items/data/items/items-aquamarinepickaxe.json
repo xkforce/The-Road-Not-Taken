@@ -1,0 +1,6 @@
+{
+  "name": "Aquamarine Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-AQUAMARINETOOLS",
+  "type": "additions:pickaxe"
+}

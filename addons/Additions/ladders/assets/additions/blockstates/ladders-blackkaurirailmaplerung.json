@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-blackkaurirailmaplerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-blackkaurirailmaplerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-blackkaurirailmaplerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-blackkaurirailmaplerung",
+      "y": 270
+    }
+  }
+}

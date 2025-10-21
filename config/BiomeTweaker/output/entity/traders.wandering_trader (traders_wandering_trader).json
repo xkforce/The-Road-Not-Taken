@@ -1,0 +1,6 @@
+
+{
+  "Name": "traders.wandering_trader",
+  "Registry ID": "traders:wandering_trader",
+  "Class": "net.smileycorp.traders.common.entities.EntityWanderingTrader"
+}

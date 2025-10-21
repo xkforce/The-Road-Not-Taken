@@ -1,0 +1,14 @@
+{
+  "name": "Aquamarine Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "2ff88269-dae0-4c09-83d8-2be9c86ee9fc"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-AQUAMARINETOOLS",
+  "type": "additions:sword"
+}

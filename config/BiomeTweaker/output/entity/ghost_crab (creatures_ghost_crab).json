@@ -1,0 +1,6 @@
+
+{
+  "Name": "ghost_crab",
+  "Registry ID": "creatures:ghost_crab",
+  "Class": "com.creatures.afrikinzi.entity.ghostcrab.EntityGhostCrab"
+}

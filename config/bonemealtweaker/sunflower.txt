@@ -1,0 +1,19 @@
+{
+  "block": "minecraft:grass",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:forest"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:double_plant[half=lower,variant=sunflower]",
+      "weight": 80
+    }
+  ]
+}

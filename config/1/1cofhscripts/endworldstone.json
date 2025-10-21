@@ -1,0 +1,348 @@
+{
+	"populate": {
+		"blueendbloodstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-blueendbloodstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"blueendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-blueendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"endjasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-endjasper"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"endmookaitejasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-endmookaitejasper"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"greenendbloodstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greenendbloodstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"greenendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greenendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"lightblueendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-lightblueendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"lightendjasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-lightendjasper"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"orangeendbloodstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangeendbloodstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"orangeendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangeendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"pinkendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-pinkendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"purpleendbloodstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purpleendbloodstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"purpleendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purpleendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"redendbloodstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-redendbloodstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"redendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-redendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"whiteendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-whiteendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+
+{
+  "Name": "camel",
+  "Registry ID": "camels:camel",
+  "Class": "com.talhanation.camels.entity.EntityCamel"
+}

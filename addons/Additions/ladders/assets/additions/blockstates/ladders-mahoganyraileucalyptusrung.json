@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mahoganyraileucalyptusrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mahoganyraileucalyptusrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mahoganyraileucalyptusrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mahoganyraileucalyptusrung",
+      "y": 270
+    }
+  }
+}

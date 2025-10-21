@@ -1,0 +1,67 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:redwood_taiga_hills"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 100
+    },
+    {
+      "block": "minecraft:tallgrass[type=fern]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:double_plant[facing=north,half=lower,variant=double_fern]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_mushroom",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:mushroom[variant=toadstool]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:mushroom[variant=portobello]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:mushroom[variant=blue_milk_cap]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:mushroom[variant=flat_mushroom]",
+      "weight": 1
+    },
+    {
+      "block": "ferdinandsflowers:block_cff_fungus[type=webcap]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 1
+    }
+  ]
+}

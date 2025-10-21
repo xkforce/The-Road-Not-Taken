@@ -1,0 +1,6 @@
+{
+  "name": "Emerald Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-EMERALDTOOLS",
+  "type": "additions:shovel"
+}

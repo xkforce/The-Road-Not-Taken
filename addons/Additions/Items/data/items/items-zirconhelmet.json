@@ -1,0 +1,7 @@
+{
+  "name": "Zircon Helmet",
+  "max_stack": 1,
+  "material": "additions-items-zirconarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

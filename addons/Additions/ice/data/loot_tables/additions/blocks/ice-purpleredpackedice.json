@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ice-purpleredpackedice",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ice-purpleredpackedice"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

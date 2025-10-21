@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "Halite",
+    "type": "additions:block_simple"
+  },
+  "name": "Halite",
+  "material": "minecraft:stone",
+  "hardness": 0.5,
+  "resistance": 2.5,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 3,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

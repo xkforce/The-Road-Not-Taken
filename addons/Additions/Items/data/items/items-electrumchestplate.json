@@ -1,0 +1,7 @@
+{
+  "name": "Electrum Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ELECTRUM",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Rose Gold Helmet",
+  "max_stack": 1,
+  "material": "additions-items-rosegoldarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

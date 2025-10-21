@@ -1,0 +1,151 @@
+{
+	"populate": {
+            "ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-spinelore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "topaz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-topazore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "citrine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-citrineore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "aquamarine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-aquamarineore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-sapphireore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "amethyst": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-amethystore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+            "spinel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "additions:blocks-rubyore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

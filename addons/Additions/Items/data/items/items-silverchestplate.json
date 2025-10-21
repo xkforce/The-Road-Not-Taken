@@ -1,0 +1,7 @@
+{
+  "name": "Silver Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVER",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

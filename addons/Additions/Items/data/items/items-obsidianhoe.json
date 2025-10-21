@@ -1,0 +1,15 @@
+{
+  "name": "Obsidian Hoe",
+  "max_stack": 1,
+  "durability": 131,
+  "harvest_level": 3,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 4.0,
+  "enchantability": 10,
+  "repair_stacks": {
+    "ore_name": "obsidian"
+  },
+  "tool_classes": "hoe",
+  "type": "additions:multitool"
+}

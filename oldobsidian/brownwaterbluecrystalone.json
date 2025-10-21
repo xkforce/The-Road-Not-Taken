@@ -1,0 +1,11 @@
+[
+{
+"liquid1": "minecraft:flowing_lava",
+"liquids2": [
+"contenttweaker:flowing_browndyedwater",
+"contenttweaker:browndyedwater"
+],
+"dust": "random_grabbag:bluequartz_small_bud",
+"result": "contenttweaker:bluebrowndiorite"
+}
+] 

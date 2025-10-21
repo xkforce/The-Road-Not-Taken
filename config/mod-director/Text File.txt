@@ -1,0 +1,10 @@
+		{
+			"url": "https://my-mod.com/download/mod.jar",
+			"folder": "resourcepacks",
+			"metadata": {
+			"hash": {
+            "SHA-256": "fb7b04aeb26dfa82eb28807f282e7acd130630358e44d6cee189f313e02b5cb9",
+            "MD5": "bcb6544158730c8fbb133affe2fbce1b"
+				}
+			}
+		}, 

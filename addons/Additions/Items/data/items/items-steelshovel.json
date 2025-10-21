@@ -1,0 +1,6 @@
+{
+  "name": "Steel Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEELTOOLS",
+  "type": "additions:shovel"
+}

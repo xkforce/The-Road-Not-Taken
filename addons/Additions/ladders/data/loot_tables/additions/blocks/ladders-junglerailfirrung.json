@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-junglerailfirrung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-junglerailfirrung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

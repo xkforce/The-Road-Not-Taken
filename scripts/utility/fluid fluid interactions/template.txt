@@ -1,0 +1,19 @@
+import mods.fluidintetweaker.FITweaker;
+import mods.fluidintetweaker.event.CustomFluidInteractionEvent;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBlockPos;
+
+cobblestone: FITweaker.addRecipe(<liquid:water>, false, <liquid:lava>, <blockstate:minecraft:cobblestone>);
+stone: FITweaker.addRecipe(<liquid:lava>, false, <liquid:water>, <blockstate:minecraft:stone>);
+obsidian: FITweaker.addRecipe(<liquid:lava>, true, <liquid:water>, <blockstate:minecraft:cobblestone>);
+arbitrary "fluid": FITweaker.addRecipe(<liquid:lava>, true, <blockstate:minecraft:sand>, <blockstate:minecraft:glass>);
+
+import mods.fluidintetweaker.FITweaker;
+import mods.fluidintetweaker.FBTweaker;
+import mods.fluidintetweaker.event.CustomFluidInteractionEvent;
+import mods.fluidintetweaker.interaction.Condition; 
+
+FITweaker.addRecipe(<liquid:lava>, <liquid:water>, FITweaker.outputBuilder()
+.addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:minecraft:end_stone>).addCondition(Condition.byChance, [0.7f]).addCondition(Condition.biome, ["minecraft:sky"]))
+.addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:minecraft:glass>).addCondition(Condition.byChance, [0.3f]).addCondition(Condition.biome, ["minecraft:sky"])));
+

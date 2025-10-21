@@ -1,0 +1,11 @@
+[
+{
+"liquid1": "minecraft:flowing_lava",
+"liquids2": [
+"contenttwaker:flowing_graydyedwater",
+"contenttwaker:graydyedwater"
+],
+"dust": "minecraft:redstone_wire",
+"result": "contenttweaker:grayredobsidian"
+}
+] 

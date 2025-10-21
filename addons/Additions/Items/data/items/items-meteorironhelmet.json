@@ -1,0 +1,7 @@
+{
+  "name": "Meteor Iron Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-METEORIRON",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

@@ -1,0 +1,89 @@
+{
+	"populate": {
+		"marstone": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:marstone"
+					}
+				],
+				"surface": [
+					"bblsom:martiandirt",
+					"contenttweaker:marstone"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+				"bblsom:martiandirt",
+				"contenttweaker:marstone"
+			],
+			"cluster-count": 50,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:martianrockyplains"
+				]
+			}
+		},
+		"marsaegirine": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:aegirine"
+					}
+				],
+				"surface": [
+					"bblsom:martiandirt",
+					"contenttweaker:marstone"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+				"bblsom:martiandirt",
+				"contenttweaker:marstone"
+			],
+			"cluster-count": 50,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:martianbasaltrockplains"
+				]
+			}
+		},
+		"lunarrocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:lunastone"
+					}
+				],
+				"surface": [
+					"bblsom:lunardirt",
+					"contenttweaker:lunastone"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+				"bblsom:lunardirt",
+				"contenttweaker:lunastone"
+			],
+			"cluster-count": 10,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:lunarplains",
+					"biometweaker:lunarmountains"
+				]
+			}
+		}
+	}
+} 

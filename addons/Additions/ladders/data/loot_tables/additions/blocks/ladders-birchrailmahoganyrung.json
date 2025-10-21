@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-birchrailmahoganyrung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-birchrailmahoganyrung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

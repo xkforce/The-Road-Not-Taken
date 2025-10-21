@@ -1,0 +1,43 @@
+{
+  dimensions: [
+    61
+  ]
+  layers: [
+    {
+      #water
+      matchers: [
+        minecraft:air
+      ]
+      state: minecraft:water
+      height: [ 0, 188 ]
+      ceiling: {
+        frequency: 0.02
+        range: [ -8, 8 ]
+      }
+    }
+    {
+      #blueice
+      matchers: [
+        minecraft:air
+      ]
+      state: futuremc:blue_ice
+      height: [ 180, 200 ]
+      ceiling: {
+        frequency: 0.02
+        range: [ -8, 8 ]
+      }
+    }
+    {
+      #packedice
+      matchers: [
+        minecraft:air
+      ]
+      state: minecraft:packed_ice
+      height: [ 192, 225 ]
+      ceiling: {
+        frequency: 0.02
+        range: [ -2, 2 ]
+      }
+    }
+  ]
+}

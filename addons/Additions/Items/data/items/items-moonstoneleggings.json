@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Leggings",
+  "max_stack": 1,
+  "material": "additions-items-moonstonearmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Opal Leggings",
+  "max_stack": 1,
+  "material": "additions-items-opalarmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

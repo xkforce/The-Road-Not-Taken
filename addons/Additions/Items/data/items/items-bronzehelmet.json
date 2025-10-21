@@ -1,0 +1,7 @@
+{
+  "name": "Bronze Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRONZE",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

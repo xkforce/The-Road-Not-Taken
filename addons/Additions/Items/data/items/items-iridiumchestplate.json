@@ -1,0 +1,7 @@
+{
+  "name": "Iridium Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-IRIDIUM",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

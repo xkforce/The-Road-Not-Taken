@@ -1,0 +1,7 @@
+{
+  "name": "Tin Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TIN",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

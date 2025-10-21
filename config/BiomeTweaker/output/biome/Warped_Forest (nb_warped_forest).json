@@ -1,0 +1,55 @@
+
+{
+  "ID": 273,
+  "Name": "Warped Forest",
+  "Resource Location": "nb:warped_forest",
+  "Class": "com.unseen.nb.common.world.biome.BiomeWarpedForest",
+  "Root Height": 3.8,
+  "Height Variation": 0.2,
+  "Top Block": "nb:warped_grass",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "4159204",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 4159204,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "VOID",
+    "NETHER"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.unseen.nb.common.entity.entities.EntityStrider",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {},
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

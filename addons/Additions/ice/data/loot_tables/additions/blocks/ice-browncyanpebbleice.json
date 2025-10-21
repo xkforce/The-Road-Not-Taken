@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ice-browncyanpebbleice",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ice-browncyanpebbleice"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

@@ -1,0 +1,10 @@
+{
+  "enchantability": 22,
+  "harvest_level": 2,
+  "base_tool_durability": 33,
+  "efficiency": 12.0,
+  "base_attack_damage": 1.0,
+  "repair_item": "contenttweaker:rosegold",
+  "repair_meta": 32767,
+  "type": "tool"
+}

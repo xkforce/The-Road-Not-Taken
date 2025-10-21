@@ -1,0 +1,653 @@
+{
+	"populate": {
+		"blackdiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-blackdiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"bluediorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-bluediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"browndiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-bluediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"cyandiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-bluediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"graydiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-graydiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"greendiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greendiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"lightbluediorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greendiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"lightgraydiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greendiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"limediorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greendiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"magentadiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greendiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},	
+		"orangediorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"pinkdiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purplediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"purplediorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purplediorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},	
+		"reddiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-reddiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},		
+		"yellowdiorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-yellowdiorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"blueobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-grayobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},	
+		"brownobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-grayobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"cyanobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-grayobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},	
+		"grayobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-grayobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"greenobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greenobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"lightblueobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-lightblueobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"lightgrayobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-lightgrayobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"limegreenobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-limegreenobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"magentaobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-magentaobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"orangeobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangeobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"pinkobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-pinkobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"purpleobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purpleobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"redobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-redobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"yellowobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-yellowobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"whiteobsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-whiteobsidian"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		},
+		"lavapocket": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:lava",
+				"material": [
+							"minecraft:obsidian",
+							"additions:blocks-blueobsidian",
+							"additions:blocks-brownobsidian",
+							"additions:blocks-cyanobsidian",
+							"additions:blocks-grayobsidian",
+							"additions:blocks-greenobsidian",
+							"additions:blocks-yellowobsidian",
+							"additions:blocks-whiteobsidian",
+							"additions:blocks-lightblueobsidian",
+							"additions:blocks-lightgrayobsidian",
+							"additions:blocks-limegreenobsidian",
+							"additions:blocks-magentaobsidian",
+							"additions:blocks-orangeobsidian",
+							"additions:blocks-pinkobsidian",
+							"additions:blocks-purpleobsidian",
+							"additions:blocks-redobsidian"
+							],
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": false,
+			"biome": {
+				"enabled": true,
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

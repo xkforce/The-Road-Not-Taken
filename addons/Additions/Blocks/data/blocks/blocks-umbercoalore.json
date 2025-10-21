@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "Coal Ore",
+    "type": "additions:block_simple"
+  },
+  "name": "Coal Ore",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 3.0,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 14,
+  "semi_transparent": true,
+  "xp_dropped_max": 2,
+  "type": "additions:simple"
+}

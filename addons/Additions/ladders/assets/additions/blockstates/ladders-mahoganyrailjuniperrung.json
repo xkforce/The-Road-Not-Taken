@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mahoganyrailjuniperrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mahoganyrailjuniperrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mahoganyrailjuniperrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mahoganyrailjuniperrung",
+      "y": 270
+    }
+  }
+}

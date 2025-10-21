@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-junglerailmahoganyrung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-junglerailmahoganyrung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

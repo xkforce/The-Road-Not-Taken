@@ -1,0 +1,7 @@
+{
+  "name": "Morganite Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MORGANITE",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

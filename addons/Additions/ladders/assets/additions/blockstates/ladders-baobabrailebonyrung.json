@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-baobabrailebonyrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-baobabrailebonyrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-baobabrailebonyrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-baobabrailebonyrung",
+      "y": 270
+    }
+  }
+}

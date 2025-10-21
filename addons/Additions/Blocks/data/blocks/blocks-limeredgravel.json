@@ -1,0 +1,12 @@
+{
+  "item_block": {
+    "name": "Lime Red Gravel",
+    "type": "additions:block_simple"
+  },
+  "name": "Lime Red Gravel",
+  "material": "minecraft:dirt",
+  "hardness": 0.6,
+  "resistance": 3.0,
+  "effective_tools": "shovel",
+  "type": "additions:falling"
+}

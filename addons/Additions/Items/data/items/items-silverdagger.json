@@ -1,0 +1,14 @@
+{
+  "name": "Silver Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "25377bf3-6135-438d-b99c-0c96e6fa18fd"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-SILVERTOOLS",
+  "type": "additions:sword"
+}

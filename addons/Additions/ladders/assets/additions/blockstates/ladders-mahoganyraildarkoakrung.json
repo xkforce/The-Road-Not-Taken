@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mahoganyraildarkoakrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mahoganyraildarkoakrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mahoganyraildarkoakrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mahoganyraildarkoakrung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enchantability": 30,
+  "harvest_level": 2,
+  "base_tool_durability": 60,
+  "efficiency": 16.0,
+  "base_attack_damage": 0.0,
+  "repair_item": "contenttweaker:electrum",
+  "repair_meta": 32767,
+  "type": "tool"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-umbranrailumbranrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-umbranrailumbranrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-umbranrailumbranrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-umbranrailumbranrung",
+      "y": 270
+    }
+  }
+}

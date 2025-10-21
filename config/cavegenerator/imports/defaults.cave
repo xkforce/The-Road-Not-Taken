@@ -1,0 +1,97 @@
+{
+  dimensions: [ -15, -14, -13, -12, -11, -10, -9, -8, -7, -6, -5, -4, -3, -2, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80 ]
+  replaceableBlocks: [ "minecraft:netherrack", "contenttweaker:augite", "contenttweaker:diopside", "contenttweaker:enstatite", "contenttweaker:fayalite", "contenttweaker:forsterite", "contenttweaker:oldhamite", "contenttweaker:orthoclase", "contenttweaker:orthopyroxene", "contenttweaker:pigeonite", "contenttweaker:plagioclase", "contenttweaker:tephroite", "contenttweaker:troilite", "minecraft:end_stone", "contenttweaker:yellowobsidian", "contenttweaker:whiteyellowobsidian", "contenttweaker:whiteobsidian", "contenttweaker:redobsidian", "contenttweaker:purpleyellowobsidian", "contenttweaker:purplewhiteobsidian", "contenttweaker:purpleredobsidian", "contenttweaker:purpleobsidian", "contenttweaker:pinkyellowobsidian", "contenttweaker:pinkwhiteobsidian", "contenttweaker:pinkredobsidian", "contenttweaker:pinkobsidian", "contenttweaker:orangeyellowobsidian", "contenttweaker:orangewhiteobsidian", "contenttweaker:orangeredobsidian", "contenttweaker:orangepurpleobsidian", "contenttweaker:orangepinkobsidian", "contenttweaker:orangeobsidian", "contenttweaker:magentayellowobsidian", "contenttweaker:magentawhiteobsidian", "contenttweaker:magentaredobsidian", "contenttweaker:magentapurpleobsidian", "contenttweaker:magentapinkobsidian", "contenttweaker:magentaorangeobsidian", "contenttweaker:magentaobsidian", "contenttweaker:limeyellowobsidian", "contenttweaker:limewhiteobsidian", "contenttweaker:limeredobsidian", "contenttweaker:limepurpleobsidian", "contenttweaker:limepinkobsidian", "contenttweaker:limeorangeobsidian", "contenttweaker:limemagentaobsidian", "contenttweaker:limeobsidian", "contenttweaker:lightgrayyellowobsidian", "contenttweaker:lightgraywhiteobsidian", "contenttweaker:lightgrayredobsidian", "contenttweaker:lightgraypurpleobsidian", "contenttweaker:lightgraypinkobsidian", "contenttweaker:lightgrayorangeobsidian", "contenttweaker:lightgraymagentaobsidian", "contenttweaker:lightgraylimeobsidian", "contenttweaker:lightgrayobsidian", "contenttweaker:lightblueyellowobsidian", "contenttweaker:lightbluewhiteobsidian", "contenttweaker:lightblueredobsidian", "contenttweaker:lightbluepurpleobsidian", "contenttweaker:lightbluepinkobsidian", "contenttweaker:lightblueorangeobsidian", "contenttweaker:lightbluemagentaobsidian", "contenttweaker:lightbluelimeobsidian", "contenttweaker:lightbluelightgrayobsidian", "contenttweaker:lightblueobsidian", "contenttweaker:greenyellowobsidian", "contenttweaker:greenredobsidian", "contenttweaker:greenpurpleobsidian", "contenttweaker:greenpinkobsidian", "contenttweaker:greenorangeobsidian", "contenttweaker:greenmagentaobsidian", "contenttweaker:greenlimeobsidian", "contenttweaker:greenlightgrayobsidian", "contenttweaker:greenlightblueobsidian", "contenttweaker:greenobsidian", "contenttweaker:grayyellowobsidian", "contenttweaker:grayredobsidian", "contenttweaker:graypurpleobsidian", "contenttweaker:graypinkobsidian", "contenttweaker:grayorangeobsidian", "contenttweaker:graymagentaobsidian", "contenttweaker:graylimeobsidian", "contenttweaker:graylightgrayobsidian", "contenttweaker:graylightblueobsidian", "contenttweaker:graygreenobsidian", "contenttweaker:grayobsidian", "contenttweaker:cyanyellowobsidian", "contenttweaker:cyanwhiteobsidian", "contenttweaker:cyanpurpleobsidian", "contenttweaker:cyanpinkobsidian", "contenttweaker:cyanorangeobsidian", "contenttweaker:cyanmagentaobsidian", "contenttweaker:cyanlimeobsidian", "contenttweaker:cyanlightgrayobsidian", "contenttweaker:cyanlightblueobsidian", "contenttweaker:cyangreenobsidian", "contenttweaker:cyangrayobsidian", "contenttweaker:cyanobsidian", "contenttweaker:brownyellowobsidian", "contenttweaker:brownwhiteobsidian", "contenttweaker:brownredobsidian", "contenttweaker:brownpurpleobsidian", "contenttweaker:brownpinkobsidian", "contenttweaker:brownorangeobsidian", "contenttweaker:brownmagentaobsidian", "contenttweaker:brownlimeobsidian", "contenttweaker:brownlightgrayobsidian", "contenttweaker:brownlightblueobsidian", "contenttweaker:browngreenobsidian", "contenttweaker:browngrayobsidian", "contenttweaker:browncyanobsidian", "contenttweaker:brownobsidian", "contenttweaker:bluepurpleobsidian", "contenttweaker:bluepinkobsidian", "contenttweaker:blueorangeobsidian", "contenttweaker:bluemagentaobsidian", "contenttweaker:bluelimeobsidian", "contenttweaker:bluelightgrayobsidian", "contenttweaker:bluelightblueobsidian", "contenttweaker:bluegrayobsidian", "contenttweaker:bluecyanobsidian", "contenttweaker:bluebrownobsidian", "contenttweaker:blueobsidian", "contenttweaker:blackyellowobsidian", "contenttweaker:blackredobsidian", "contenttweaker:blackpurpleobsidian", "contenttweaker:blackmagentaobsidian", "contenttweaker:blacklightblueobsidian", "contenttweaker:blackgreenobsidian", "contenttweaker:blackgrayobsidian", "contenttweaker:blackcyanobsidian", "contenttweaker:blackbrownobsidian", "contenttweaker:blackblueobsidian", "contenttweaker:yellownetherrack", "contenttweaker:whiteyellownetherrack", "contenttweaker:whitenetherrack", "contenttweaker:purpleyellownetherrack", "contenttweaker:purplewhitenetherrack", "contenttweaker:purplerednetherrack", "contenttweaker:purplenetherrack", "contenttweaker:pinkyellownetherrack", "contenttweaker:pinkwhitenetherrack", "contenttweaker:pinkrednetherrack", "contenttweaker:pinknetherrack", "contenttweaker:orangeyellownetherrack", "contenttweaker:orangewhitenetherrack", "contenttweaker:orangerednetherrack", "contenttweaker:orangepurplenetherrack", "contenttweaker:orangepinknetherrack", "contenttweaker:orangenetherrack", "contenttweaker:magentayellownetherrack", "contenttweaker:magentawhitenetherrack", "contenttweaker:magentarednetherrack", "contenttweaker:magentapurplenetherrack", "contenttweaker:magentapinknetherrack", "contenttweaker:magentaorangenetherrack", "contenttweaker:magentanetherrack", "contenttweaker:limeyellownetherrack", "contenttweaker:limewhitenetherrack", "contenttweaker:limerednetherrack", "contenttweaker:limepurplenetherrack", "contenttweaker:limepinknetherrack", "contenttweaker:limeorangenetherrack", "contenttweaker:limemagentanetherrack", "contenttweaker:limenetherrack", "contenttweaker:lightgrayyellownetherrack", "contenttweaker:lightgraywhitenetherrack", "contenttweaker:lightgrayrednetherrack", "contenttweaker:lightgraypurplenetherrack", "contenttweaker:lightgraypinknetherrack", "contenttweaker:lightgrayorangenetherrack", "contenttweaker:lightgraymagentanetherrack", "contenttweaker:lightgraylimenetherrack", "contenttweaker:lightgraynetherrack", "contenttweaker:lightblueyellownetherrack", "contenttweaker:lightbluewhitenetherrack", "contenttweaker:lightbluerednetherrack", "contenttweaker:lightbluepurplenetherrack", "contenttweaker:lightbluepinknetherrack", "contenttweaker:lightblueorangenetherrack", "contenttweaker:lightbluemagentanetherrack", "contenttweaker:lightbluelimenetherrack", "contenttweaker:lightbluelightgraynetherrack", "contenttweaker:lightbluenetherrack", "contenttweaker:greenyellownetherrack", "contenttweaker:greenrednetherrack", "contenttweaker:greenpurplenetherrack", "contenttweaker:greenpinknetherrack", "contenttweaker:greenorangenetherrack", "contenttweaker:greenmagentanetherrack", "contenttweaker:greenlimenetherrack", "contenttweaker:greenlightgraynetherrack", "contenttweaker:greenlightbluenetherrack", "contenttweaker:greennetherrack", "contenttweaker:grayyellownetherrack", "contenttweaker:grayrednetherrack", "contenttweaker:graypurplenetherrack", "contenttweaker:graypinknetherrack", "contenttweaker:grayorangenetherrack", "contenttweaker:graymagentanetherrack", "contenttweaker:graylimenetherrack", "contenttweaker:graylightgraynetherrack", "contenttweaker:graylightbluenetherrack", "contenttweaker:graygreennetherrack", "contenttweaker:graynetherrack", "contenttweaker:cyanyellownetherrack", "contenttweaker:cyanwhitenetherrack", "contenttweaker:cyanpurplenetherrack", "contenttweaker:cyanpinknetherrack", "contenttweaker:cyanorangenetherrack", "contenttweaker:cyanmagentanetherrack", "contenttweaker:cyanlimenetherrack", "contenttweaker:cyanlightgraynetherrack", "contenttweaker:cyanlightbluenetherrack", "contenttweaker:cyangreennetherrack", "contenttweaker:cyangraynetherrack", "contenttweaker:cyannetherrack", "contenttweaker:brownyellownetherrack", "contenttweaker:brownwhitenetherrack", "contenttweaker:brownrednetherrack", "contenttweaker:brownpurplenetherrack", "contenttweaker:brownpinknetherrack", "contenttweaker:brownorangenetherrack", "contenttweaker:brownmagentanetherrack", "contenttweaker:brownlimenetherrack", "contenttweaker:brownlightgraynetherrack", "contenttweaker:brownlightbluenetherrack", "contenttweaker:browngreennetherrack", "contenttweaker:browngraynetherrack", "contenttweaker:browncyannetherrack", "contenttweaker:brownnetherrack", "contenttweaker:bluepurplenetherrack", "contenttweaker:bluepinknetherrack", "contenttweaker:blueorangenetherrack", "contenttweaker:bluemagentanetherrack", "contenttweaker:bluelimenetherrack", "contenttweaker:bluelightgraynetherrack", "contenttweaker:bluelightbluenetherrack", "contenttweaker:bluegraynetherrack", "contenttweaker:bluecyannetherrack", "contenttweaker:bluebrownnetherrack", "contenttweaker:bluenetherrack", "contenttweaker:blackyellownetherrack", "contenttweaker:blackrednetherrack", "contenttweaker:blackpurplenetherrack", "contenttweaker:blackmagentanetherrack", "contenttweaker:blacklightbluenetherrack", "contenttweaker:blackgreennetherrack", "contenttweaker:blackgraynetherrack", "contenttweaker:blackcyannetherrack", "contenttweaker:blackbrownnetherrack", "contenttweaker:blackbluenetherrack", "contenttweaker:blacknetherrack", "stone", "dirt", "grass", "hardened_clay", "minecraft:soul_sand", "bblsom:martiangrass", "bblsom:mercuriangrass", "bblsom:venusiangrass", "bblsom:greengrass", "bblsom:orangegrass", "bblsom:orangeredgrass", "bblsom:orangeyellowgrass", "bblsom:yellowgrass", "bblsom:redgrass", "biomesoplenty:dirt", "bblsom:blueasteroiddirt", "bblsom:grayasteroiddirt", "bblsom:greenasteroiddirt", "bblsom:redasteroiddirt", "bblsom:lunardirt", "bblsom:martiandirt", "bblsom:mercuriandirt", "bblsom:venusiandirt", "bblsom:greendirt", "bblsom:orangedirt", "bblsom:orangereddirt", "bblsom:orangeyellowdirt", "bblsom:yellowdirt", "bblsom:reddirt", "bblsom:whitedirt", "bblsom:blackdirt", "bblsom:graydirt", "bblsom:purplereddirt", "bblsom:blueasteroidgrass", "bblsom:grayasteroidgrass", "bblsom:greenasteroidgrass", "bblsom:redasteroidgrass", "bblsom:lunargrass", "contenttweaker:marstone", "contenttweaker:lunastone", "contenttweaker:mercurystone", "erebus:umberstone", "bblsom:whitegrass", "bblsom:blackgrass", "bblsom:graygrass", "bblsom:purpleredgrass" ]
+  caveBlocks: {
+    states: lava
+    height: [ 0, 10 ]
+  }
+  tunnels: {
+    height: [ 2, 255 ]
+    resolution: 4
+    distance: 0
+    systemChance: 0.25
+    chance: 0.142
+    systemDensity: 4
+    noiseYReduction: true
+    resizeBranches: true
+    dYaw: {
+      startVal: 0
+      factor: 0.75
+      randFactor: 4
+      exponent: 1
+    }
+    dPitch: {
+      startVal: 0
+      factor: 0.9
+      randFactor: 2
+      exponent: 1
+    }
+    scale: {
+      startVal: 0
+      startValRandFactor: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    stretch: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    yaw: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    pitch: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+    rooms: {
+      scale: 6
+      stretch: 0.5
+      chance: 0.1
+    }
+    count: 15
+  }
+  ravines: {
+    chance: 0.02
+    height: [ 10, 130 ]
+    resolution: 4
+    distance: 0
+    dYaw: {
+      startVal: 0
+      factor: 0.5
+      randFactor: 4
+      exponent: 1
+    }
+    dPitch: {
+      startVal: 0
+      factor: 0.8
+      randFactor: 2
+      exponent: 1
+    }
+    scale: {
+      startVal: 0
+      startValRandFactor: 2
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    stretch: {
+      startVal: 3
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    yaw: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    pitch: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+    noiseYFactor: 0.7
+  }
+}

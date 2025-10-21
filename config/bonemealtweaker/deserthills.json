@@ -1,0 +1,27 @@
+{
+  "block": "minecraft:sand",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:desert_hills"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 200
+    },
+    {
+      "block": "minecraft:cactus[age=0]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:deadbush",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Amethyst Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-AMETHYST",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

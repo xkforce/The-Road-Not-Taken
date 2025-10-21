@@ -1,0 +1,7 @@
+{
+  "name": "Citrine Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CITRINE",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

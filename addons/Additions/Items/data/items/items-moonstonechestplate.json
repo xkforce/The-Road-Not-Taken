@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-moonstonearmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Steel Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEEL",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

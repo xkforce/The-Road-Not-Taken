@@ -1,0 +1,159 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "texture": "blocks/ladder",
+        "particle": "blocks/ladder",
+        "siderail": "pvj:blocks/planks_maple",
+        "siderail": "pvj:blocks/planks_maple",
+        "rung": "pvj:blocks/planks_cottonwood",
+        "rung": "pvj:blocks/planks_cottonwood",
+        "rung": "pvj:blocks/planks_cottonwood",
+        "rung": "pvj:blocks/planks_cottonwood"
+    },
+    "elements": [
+        {
+            "from": [2,0,14],
+            "to": [4,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#siderail"
+                },
+                "down": {
+                    "texture": "#siderail"
+                },
+                "west": {
+                    "texture": "#siderail"
+                },
+                "east": {
+                    "texture": "#siderail"
+                },
+                "north": {
+                    "texture": "#siderail"
+                },
+                "south": {
+                    "texture": "#siderail"
+                }
+            }
+        },
+        {
+            "from": [12,0,14],
+            "to": [14,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#siderail"
+                },
+                "down": {
+                    "texture": "#siderail"
+                },
+                "west": {
+                    "texture": "#siderail"
+                },
+                "east": {
+                    "texture": "#siderail"
+                },
+                "north": {
+                    "texture": "#siderail"
+                },
+                "south": {
+                    "texture": "#siderail"
+                }
+            }
+        },
+        {
+            "from": [1,1,15],
+            "to": [15,3,16],
+            "faces": {
+                "up": {
+                    "texture": "#rung"
+                },
+                "down": {
+                    "texture": "#rung"
+                },
+                "west": {
+                    "texture": "#rung"
+                },
+                "east": {
+                    "texture": "#rung"
+                },
+                "north": {
+                    "texture": "#rung"
+                },
+                "south": {
+                    "texture": "#rung"
+                }
+            }
+        },
+        {
+            "from": [1,13,15],
+            "to": [15,15,15],
+            "faces": {
+                "up": {
+                    "texture": "#rung"
+                },
+                "down": {
+                    "texture": "#rung"
+                },
+                "west": {
+                    "texture": "#rung"
+                },
+                "east": {
+                    "texture": "#rung"
+                },
+                "north": {
+                    "texture": "#rung"
+                },
+                "south": {
+                    "texture": "#rung"
+                }
+            }
+        },
+        {
+            "from": [1,9,15],
+            "to": [15,11,16],
+            "faces": {
+                "up": {
+                    "texture": "#rung"
+                },
+                "down": {
+                    "texture": "#rung"
+                },
+                "west": {
+                    "texture": "#rung"
+                },
+                "east": {
+                    "texture": "#rung"
+                },
+                "north": {
+                    "texture": "#rung"
+                },
+                "south": {
+                    "texture": "#rung"
+                }
+            }
+        },
+        {
+            "from": [1,5,15],
+            "to": [15,7,16],
+            "faces": {
+                "up": {
+                    "texture": "#rung"
+                },
+                "down": {
+                    "texture": "#rung"
+                },
+                "west": {
+                    "texture": "#rung"
+                },
+                "east": {
+                    "texture": "#rung"
+                },
+                "north": {
+                    "texture": "#rung"
+                },
+                "south": {
+                    "texture": "#rung"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "enchantability": 20,
+  "base_armor_durability": 23,
+  "toughness": 0.0,
+  "helmet_armor": 2,
+  "chestplate_armor": 6,
+  "leggings_armor": 5,
+  "boots_armor": 2,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:hepatizon",
+  "repair_meta": 32767,
+  "type": "armor"
+}

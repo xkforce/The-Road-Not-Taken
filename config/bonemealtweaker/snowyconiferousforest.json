@@ -1,0 +1,39 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:snow_layer",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:snowy_coniferous_forest"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 50
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:tallgrass[type=fern]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 1
+    },
+    {
+      "block": "futuremc:sweet_berry_bush[age=0]",
+      "weight": 1
+    }
+  ]
+}

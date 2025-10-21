@@ -1,0 +1,6 @@
+
+{
+  "Name": "traders.trader_llama",
+  "Registry ID": "traders:trader_llama",
+  "Class": "net.smileycorp.traders.common.entities.EntityTraderLlama"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Gold Chainmail Leggings",
+  "max_stack": 1,
+  "material": "additions-items-goldchainmail",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

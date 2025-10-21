@@ -1,0 +1,7 @@
+{
+  "name": "Steel Leggings",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEEL",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

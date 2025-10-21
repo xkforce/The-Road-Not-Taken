@@ -1,0 +1,7 @@
+{
+  "name": "Electrum Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ELECTRUM",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

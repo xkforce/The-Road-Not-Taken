@@ -1,0 +1,725 @@
+<galaxy>
+    <star name="Sol" temp="100" x="100" y="100" numPlanets="0" numGasGiants="0" size="1.0">
+        <planet name="Haunted Overworld" customIcon="Earth" DIMID="-6" dimMapping="">
+            <orbitalDistance>100</orbitalDistance>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Lilith" customIcon="Lilith" DIMID="-9" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Haunted Overworld" customIcon="Earth" DIMID="500" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Lilith Sky Islands" customIcon="Lilith" DIMID="-10" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Lilith Caves" customIcon="Lilith" DIMID="-8" dimMapping="">
+            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Overworld" customIcon="Earth" DIMID="0" dimMapping="">
+            <orbitalDistance>100</orbitalDistance>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Lunar Nearside" customIcon="Luna" DIMID="4" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Lunar Farside" customIcon="Luna" DIMID="7" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Lunar Nearside Caves" customIcon="Luna" DIMID="3" dimMapping="">
+            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Lunar Farside Caves" customIcon="Luna" DIMID="6" dimMapping="">
+            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Dummy Earth" customIcon="Earth" DIMID="501" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>5</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Lunar Nearside Sky Islands" customIcon="Luna" DIMID="5" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Lunar Farside Sky Islands" customIcon="Luna" DIMID="8" dimMapping="">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Mercury Caves" customIcon="Mercury" DIMID="9" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Mercury Dayside" customIcon="Mercury" DIMID="10" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Dummy Mercury" customIcon="Mercury" DIMID="502" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Mercury Dayside Sky Islands" customIcon="Mercury" DIMID="11" dimMapping="">
+                <gravitationalMultiplier>38</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>7</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Mercury Twilight Sky Islands" customIcon="Mercury" DIMID="14" dimMapping="">
+                <gravitationalMultiplier>38</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>7</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Mercury Two" customIcon="Mercury" DIMID="503" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>5000</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Mercury Nightside Sky Islands" customIcon="Mercury" DIMID="17" dimMapping="">
+                <gravitationalMultiplier>38</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>180</orbitalTheta>
+                <orbitalPhi>7</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Mercury Twilight Caves" customIcon="Mercury" DIMID="12" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Mercury Twilight" customIcon="Mercury" DIMID="13" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Mercury Nightside Caves" customIcon="Mercury" DIMID="15" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>5000</orbitalDistance>
+            <orbitalTheta>300</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Mercury Nightside" customIcon="Mercury" DIMID="16" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>39</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Mars Caves" customIcon="Mars" DIMID="18" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>152</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>10</atmosphereDensity>
+        </planet>
+        <planet name="Mars" customIcon="Mars" DIMID="19" dimMapping="">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>152</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>10</atmosphereDensity>
+            <planet name="Phobos and Deimos" customIcon="Phobos" DIMID="20" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalTheta>300</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+                <atmosphereDensity>10</atmosphereDensity>
+                </planet>
+            <planet name="Deimos" customIcon="Deimos" DIMID="504" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>300</orbitalDistance>
+                <orbitalTheta>180</orbitalTheta>
+                <orbitalPhi>5</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Ceres Caves" customIcon="Ceres" DIMID="21" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>298</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>11</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Ceres" customIcon="Ceres" DIMID="22" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>298</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>11</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Dummy Ceres" customIcon="Ceres" DIMID="505" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>298</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>11</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Inner Belt Asteroids" customIcon="Ceres" DIMID="23" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>11</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Saturnian Caves" customIcon="Saturn" DIMID="24" dimMapping="">
+            <gravitationalMultiplier>106</gravitationalMultiplier>
+            <orbitalDistance>950</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Enceladus Caves" customIcon="Enceladus" DIMID="27" dimMapping="">
+            <gravitationalMultiplier>11</gravitationalMultiplier>
+            <orbitalDistance>62</orbitalDistance>
+            <orbitalTheta>80</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Titan Caves" customIcon="Titan" DIMID="30" dimMapping="">
+            <gravitationalMultiplier>14</gravitationalMultiplier>
+            <orbitalDistance>313</orbitalDistance>
+            <orbitalTheta>240</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Saturn" customIcon="Saturn" DIMID="25" dimMapping="">
+            <gravitationalMultiplier>106</gravitationalMultiplier>
+            <orbitalDistance>950</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <planet name="Dummy Enceladus" customIcon="Enceladus" DIMID="506" dimMapping="">
+                <gravitationalMultiplier>11</gravitationalMultiplier>
+                <orbitalDistance>62</orbitalDistance>
+                <orbitalTheta>80</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Dummy Titan" customIcon="Titan" DIMID="507" dimMapping="">
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <orbitalDistance>313</orbitalDistance>
+                <orbitalTheta>240</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Saturn1" customIcon="Saturn" DIMID="508" dimMapping="">
+            <gravitationalMultiplier>106</gravitationalMultiplier>
+            <orbitalDistance>950</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>10</atmosphereDensity>
+            <planet name="Saturn's Rings" customIcon="Asteroids" DIMID="26" dimMapping="">
+                <gravitationalMultiplier>106</gravitationalMultiplier>
+                <orbitalDistance>950</orbitalDistance>
+                <orbitalTheta>150</orbitalTheta>
+                <orbitalPhi>3</orbitalPhi>
+                <atmosphereDensity>10</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Saturn2" customIcon="Saturn" DIMID="509" dimMapping="">
+            <gravitationalMultiplier>106</gravitationalMultiplier>
+            <orbitalDistance>950</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>10</atmosphereDensity>
+            <planet name="Enceladus" customIcon="Enceladus" DIMID="28" dimMapping="">
+                <gravitationalMultiplier>11</gravitationalMultiplier>
+                <orbitalDistance>62</orbitalDistance>
+                <orbitalTheta>80</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Titan" customIcon="Titan" DIMID="31" dimMapping="">
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <orbitalDistance>313</orbitalDistance>
+                <orbitalTheta>240</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Enceladus" customIcon="Enceladus" DIMID="510" dimMapping="">
+            <gravitationalMultiplier>11</gravitationalMultiplier>
+            <orbitalDistance>62</orbitalDistance>
+            <orbitalTheta>80</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Enceladus Sky Islands" customIcon="Enceladus" DIMID="29" dimMapping="">
+                <gravitationalMultiplier>11</gravitationalMultiplier>
+                <orbitalDistance>62</orbitalDistance>
+                <orbitalTheta>80</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Titan" customIcon="Titan" DIMID="511" dimMapping="">
+            <gravitationalMultiplier>14</gravitationalMultiplier>
+            <orbitalDistance>313</orbitalDistance>
+            <orbitalTheta>240</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Titan Sky Islands" customIcon="Titan" DIMID="32" dimMapping="">
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <orbitalDistance>313</orbitalDistance>
+                <orbitalTheta>240</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Neptune Caves" customIcon="Neptune" DIMID="33" dimMapping="">
+            <gravitationalMultiplier>114</gravitationalMultiplier>
+            <orbitalDistance>3010</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Triton Caves" customIcon="Triton" DIMID="36" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>93</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>157</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Neptune" customIcon="Neptune" DIMID="34" dimMapping="">
+            <gravitationalMultiplier>114</gravitationalMultiplier>
+            <orbitalDistance>3010</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Triton" customIcon="Triton" DIMID="37" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>93</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>157</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Neptune" customIcon="Neptune" DIMID="512" dimMapping="">
+            <gravitationalMultiplier>114</gravitationalMultiplier>
+            <orbitalDistance>3010</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Neptune Small Moons" customIcon="Neptune" DIMID="35" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>93</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>157</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Triton" customIcon="Triton" DIMID="513" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>93</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>157</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Triton Sky Islands" customIcon="Triton" DIMID="38" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>93</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>157</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Persephone Caves" customIcon="Persephone" DIMID="39" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>4000</orbitalDistance>
+            <orbitalTheta>250</orbitalTheta>
+            <orbitalPhi>20</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Zagreus Caves" customIcon="Zagreus" DIMID="42" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>10</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Melinoe Caves" customIcon="Melinoe" DIMID="45" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>20</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Persephone" customIcon="Persephone" DIMID="40" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>4000</orbitalDistance>
+            <orbitalTheta>250</orbitalTheta>
+            <orbitalPhi>20</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <planet name="Zagreus" customIcon="Zagreus" DIMID="43" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>10</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+            <planet name="Melinoe" customIcon="Melinoe" DIMID="46" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>20</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Persephone" customIcon="Persephone" DIMID="514" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>10</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <planet name="Persephone Rings" customIcon="Persephone" DIMID="41" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>10</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Zagreus" customIcon="Zagreus" DIMID="515" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>10</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Zagreus Sky Islands" customIcon="Zagreus" DIMID="44" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>10</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Melinoe" customIcon="Melinoe" DIMID="516" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>20</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Melinoe Sky Islands" customIcon="Melinoe" DIMID="47" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>20</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Uranian Caves" customIcon="Uranus" DIMID="48" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>1900</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>98</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Miranda Caves" customIcon="Miranda" DIMID="51" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>34</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>4</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Uranus" customIcon="Uranus" DIMID="49" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>1900</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>98</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <planet name="Miranda" customIcon="Miranda" DIMID="52" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>34</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>4</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Uranus" customIcon="Uranus" DIMID="517" dimMapping="">
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>1900</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>98</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <hasRings>true</hasRings>
+            <planet name="Uranus Rings" customIcon="Uranus" DIMID="49" dimMapping="">
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>1900</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>98</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Miranda" customIcon="Miranda" DIMID="518" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>34</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>4</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Miranda Sky Islands" customIcon="Miranda" DIMID="53" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>34</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>4</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Jupiter Caves" customIcon="Jupiter" DIMID="54" dimMapping="">
+            <gravitationalMultiplier>253</gravitationalMultiplier>
+            <orbitalDistance>520</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>1</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Ionian Caves" customIcon="Io" DIMID="57" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>110</orbitalDistance>
+            <orbitalTheta>50</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Europan Caves" customIcon="Europa" DIMID="60" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>175</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Ganymede Caves" customIcon="Ganymede" DIMID="63" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>114</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Callisto Caves" customIcon="Callisto" DIMID="66" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>492</orbitalDistance>
+            <orbitalTheta>350</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+        </planet>
+        <planet name="Jupiter" customIcon="Jupiter" DIMID="55" dimMapping="">
+            <gravitationalMultiplier>253</gravitationalMultiplier>
+            <orbitalDistance>520</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>1</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Io" customIcon="Io" DIMID="58" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>110</orbitalDistance>
+                <orbitalTheta>50</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Europa" customIcon="Europa" DIMID="61" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>175</orbitalDistance>
+                <orbitalTheta>150</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Ganymede" customIcon="Ganymede" DIMID="64" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>279</orbitalDistance>
+                <orbitalTheta>250</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+            <planet name="Callisto" customIcon="Callisto" DIMID="67" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>492</orbitalDistance>
+                <orbitalTheta>350</orbitalTheta>
+                <orbitalPhi>2</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Jupiter" customIcon="Jupiter" DIMID="519" dimMapping="">
+            <gravitationalMultiplier>253</gravitationalMultiplier>
+            <orbitalDistance>520</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>1</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Jupiter Small Moons" customIcon="Jupiter" DIMID="56" dimMapping="">
+                <gravitationalMultiplier>253</gravitationalMultiplier>
+                <orbitalDistance>520</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>1</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Io" customIcon="Io" DIMID="520" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>110</orbitalDistance>
+            <orbitalTheta>50</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Ionian Sky Islands" customIcon="Io" DIMID="59" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>50</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Europa" customIcon="Europa" DIMID="521" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>175</orbitalDistance>
+            <orbitalTheta>150</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Europan Sky Islands" customIcon="Europa" DIMID="62" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>150</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Ganymede" customIcon="Ganymede" DIMID="522" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>279</orbitalDistance>
+            <orbitalTheta>250</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Ganymede Sky Islands" customIcon="Ganymede" DIMID="65" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>250</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Dummy Callisto" customIcon="Callisto" DIMID="523" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>492</orbitalDistance>
+            <orbitalTheta>350</orbitalTheta>
+            <orbitalPhi>2</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Callisto Sky Islands" customIcon="Callisto" DIMID="68" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>350</orbitalTheta>
+                <orbitalPhi>2</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Vesta Caves" customIcon="Vesta" DIMID="69" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>236</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Vesta" customIcon="Vesta" DIMID="70" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>236</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Dummy Vesta" customIcon="Vesta" DIMID="524" dimMapping="">
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>236</orbitalDistance>
+            <orbitalTheta>350</orbitalTheta>
+            <orbitalPhi>7</orbitalPhi>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Outer Asteroid Belt" customIcon="Vesta" DIMID="71" dimMapping="">
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>350</orbitalTheta>
+                <orbitalPhi>7</orbitalPhi>
+                <atmosphereDensity>0</atmosphereDensity>
+            </planet>
+        </planet>
+        <planet name="Venusian Caves" customIcon="Venus" DIMID="72" dimMapping="">
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>72</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Venus" customIcon="Venus" DIMID="73" dimMapping="">
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>72</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+        <planet name="Dummy Venus" customIcon="Venus" DIMID="525" dimMapping="">
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>72</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>3</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+            <planet name="Venusian Sky Islands" customIcon="Venus" DIMID="74" dimMapping="">
+                <gravitationalMultiplier>90</gravitationalMultiplier>
+                <orbitalDistance>72</orbitalDistance>
+                <orbitalTheta>200</orbitalTheta>
+                <orbitalPhi>3</orbitalPhi>
+                <atmosphereDensity>100</atmosphereDensity>
+            </planet>
+        </planet>
+    </star>
+</galaxy>

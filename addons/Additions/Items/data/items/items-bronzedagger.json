@@ -1,0 +1,14 @@
+{
+  "name": "Bronze Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "f436137b-48ab-432b-ae20-c1ea108de059"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-BRONZETOOLS",
+  "type": "additions:sword"
+}

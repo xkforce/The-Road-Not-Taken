@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-junglerailredwoodrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-junglerailredwoodrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-junglerailredwoodrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-junglerailredwoodrung",
+      "y": 270
+    }
+  }
+}

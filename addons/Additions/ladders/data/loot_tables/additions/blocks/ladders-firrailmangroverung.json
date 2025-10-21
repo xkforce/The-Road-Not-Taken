@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-firrailmangroverung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-firrailmangroverung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

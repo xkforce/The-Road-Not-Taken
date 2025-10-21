@@ -1,0 +1,31 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:grassland"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 25
+    },
+    {
+      "block": "biomesoplenty:plant_0[variant=cloverpatch]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=clover]",
+      "weight": 1
+    },
+    {
+      "block": "bimesoplenty:double_plant[half=lower,variant=flax]",
+      "weight": 1
+    }
+  ]
+}

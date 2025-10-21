@@ -1,0 +1,7 @@
+{
+  "name": "Ruby Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-RUBY",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

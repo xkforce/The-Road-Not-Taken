@@ -1,0 +1,7 @@
+{
+  "name": "Chocolate Diamond Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CHOCOLATEDIAMONDARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

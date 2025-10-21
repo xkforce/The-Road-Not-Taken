@@ -1,0 +1,6 @@
+{
+  "name": "Bronze Axe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRONZETOOLS",
+  "type": "additions:axe"
+}

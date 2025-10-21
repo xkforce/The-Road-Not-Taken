@@ -1,0 +1,7 @@
+{
+  "name": "Zircon Leggings",
+  "max_stack": 1,
+  "material": "additions-items-zirconarmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

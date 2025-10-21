@@ -1,0 +1,7 @@
+{
+  "name": "Hepatizon Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-hepatizonarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

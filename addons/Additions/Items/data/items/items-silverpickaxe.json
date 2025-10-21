@@ -1,0 +1,6 @@
+{
+  "name": "Silver Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVERTOOLS",
+  "type": "additions:pickaxe"
+}

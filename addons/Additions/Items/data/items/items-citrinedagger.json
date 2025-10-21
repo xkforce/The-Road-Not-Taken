@@ -1,0 +1,14 @@
+{
+  "name": "Citrine Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "33215830-c878-42da-b53a-54226405b59a"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-CITRINETOOLS",
+  "type": "additions:sword"
+}

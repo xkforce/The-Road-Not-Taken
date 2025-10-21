@@ -1,0 +1,19 @@
+#reloadable
+import mods.contenttweaker.VanillaFactory;
+import crafttweaker.world.IFacing;
+import crafttweaker.block.IBlockState;
+//script template by girouxdudes
+
+//if you want to add additional double plants, you need to format it like this "name" : [<the bottom block state>,<the top block state>]. You also need to ensure that however you place your block in worldgen allows you to specify its nbt.
+val plantArray = {
+"large_fern" : [<blockstate:minecraft:double_plant:facing=north,half=lower,variant=double_fern>,<blockstate:minecraft:double_plant:facing=north,half=upper,variant=double_fern>]
+} as IBlockState[][string];
+
+VanillaFactory.putTileEntityTickFunction(1, function(tileEntity, world, pos){
+    for mode, blocks in plantArray {
+if(tileEntity.data.mode.asString().matches(mode)) {
+            world.setBlockState(blocks[0], pos);
+            world.setBlockState(blocks[1], pos.getOffset(IFacing.up, 1));
+        }
+    }
+});
