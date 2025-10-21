@@ -1,0 +1,6 @@
+
+{
+  "Name": "gourami",
+  "Registry ID": "creatures:gourami",
+  "Class": "com.creatures.afrikinzi.entity.gourami.EntityGourami"
+}

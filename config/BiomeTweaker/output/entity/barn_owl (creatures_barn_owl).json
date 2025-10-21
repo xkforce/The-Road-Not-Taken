@@ -1,0 +1,6 @@
+
+{
+  "Name": "barn_owl",
+  "Registry ID": "creatures:barn_owl",
+  "Class": "com.creatures.afrikinzi.entity.barn_owl.EntityBarnOwl"
+}

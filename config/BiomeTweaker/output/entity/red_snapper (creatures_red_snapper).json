@@ -1,0 +1,6 @@
+
+{
+  "Name": "red_snapper",
+  "Registry ID": "creatures:red_snapper",
+  "Class": "com.creatures.afrikinzi.entity.red_snapper.EntityRedSnapper"
+}

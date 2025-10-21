@@ -1,0 +1,47 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:boreal_forest"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 100
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:tallgrass[type=fern]",
+      "weight": 10
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_mushroom",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 1
+    },
+    {
+      "block": "futuremc:sweet_berry_bush[age=0]",
+      "weight": 1
+    }
+  ]
+}

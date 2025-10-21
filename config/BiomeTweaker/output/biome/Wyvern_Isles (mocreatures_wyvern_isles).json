@@ -1,0 +1,67 @@
+
+{
+  "ID": 71,
+  "Name": "Wyvern Isles",
+  "Resource Location": "mocreatures:wyvern_isles",
+  "Class": "drzhark.mocreatures.dimension.biome.MoCBiomeWyvernIsles",
+  "Root Height": 4.5,
+  "Height Variation": 0.5,
+  "Top Block": "mocreatures:wyvgrass",
+  "Filler Block": "mocreatures:wyvdirt",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "1315923",
+  "Temperature": 0.25,
+  "Humidity": 0.0,
+  "Water Tint": 1315923,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "VOID",
+    "WYVERN_LAIR",
+    "MAGICAL",
+    "COLD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBunny",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityDragonfly",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntitySnake",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.neutral.MoCEntityWyvern",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {},
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

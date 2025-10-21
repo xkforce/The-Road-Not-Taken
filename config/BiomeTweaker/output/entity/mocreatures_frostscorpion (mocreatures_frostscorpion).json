@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:frostscorpion",
+  "Registry ID": "mocreatures:frostscorpion",
+  "Class": "drzhark.mocreatures.entity.hostile.MoCEntityFrostScorpion"
+}

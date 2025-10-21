@@ -1,0 +1,25 @@
+{
+  biomes: {
+    names: [
+      biometweaker:sanddunes
+    ]
+  }
+  layers: [
+    {
+      #sand
+      matchers: [
+        minecraft:air
+        minecraft:grass
+        minecraft:dirt
+        minecraft:stone
+        minecraft:water
+      ]
+      state: minecraft:sand
+      height: [ 127, 130 ]
+      ceiling: {
+        frequency: 0.0025
+        range: [ -2, 60 ]
+      }
+    }
+  ]
+}

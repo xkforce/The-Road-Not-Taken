@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.goat",
+  "Registry ID": "rebornmod:entities.goat",
+  "Class": "mod.reborn.server.entity.animal.GoatEntity"
+}

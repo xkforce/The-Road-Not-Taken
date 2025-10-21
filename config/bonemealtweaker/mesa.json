@@ -1,0 +1,23 @@
+{
+  "block": "minecraft:hardened_clay",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:mesa"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 1000
+    },
+    {
+      "block": "minecraft:deadbush",
+      "weight": 1
+    }
+  ]
+}

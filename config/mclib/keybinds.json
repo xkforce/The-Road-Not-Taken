@@ -1,0 +1,797 @@
+{
+    "minecraft": {
+        "": {}
+    },
+    "mcp": {
+        "": {}
+    },
+    "theimpossiblelibrary": {
+        "": {}
+    },
+    "FML": {
+        "": {}
+    },
+    "forge": {
+        "": {}
+    },
+    "ColorUtility": {
+        "": {}
+    },
+    "creativecoredummy": {
+        "": {}
+    },
+    "ivtoolkit": {
+        "": {}
+    },
+    "specifiedspawningcore": {
+        "": {}
+    },
+    "mixinbooter": {
+        "": {}
+    },
+    "biometweakercore": {
+        "": {}
+    },
+    "bnbgamingcore": {
+        "": {}
+    },
+    "jsonpaintings": {
+        "": {}
+    },
+    "obfuscate": {
+        "": {}
+    },
+    "randompatches": {
+        "": {}
+    },
+    "minieffects": {
+        "": {}
+    },
+    "configanytime": {
+        "": {}
+    },
+    "redcore": {
+        "": {}
+    },
+    "fermiumbooter": {
+        "": {}
+    },
+    "abyssaldepths": {
+        "": {}
+    },
+    "additionalbanners": {
+        "": {}
+    },
+    "redstoneflux": {
+        "": {}
+    },
+    "cofhcore": {
+        "": {}
+    },
+    "libvulpes": {
+        "": {}
+    },
+    "advancedrocketry": {
+        "": {}
+    },
+    "alfheim": {
+        "": {}
+    },
+    "alfinivia": {
+        "": {}
+    },
+    "a_lot_of_records": {
+        "": {}
+    },
+    "ambientenvironment": {
+        "": {}
+    },
+    "creativecore": {
+        "": {}
+    },
+    "ambientsounds": {
+        "": {}
+    },
+    "angermanagement": {
+        "": {}
+    },
+    "anvilpatch": {
+        "": {}
+    },
+    "applecore": {
+        "": {}
+    },
+    "aquaacrobatics": {
+        "": {}
+    },
+    "arrowharvest": {
+        "": {}
+    },
+    "artemislib": {
+        "": {}
+    },
+    "asmc": {
+        "": {}
+    },
+    "astikorcarts": {
+        "": {}
+    },
+    "atlaslib": {
+        "": {}
+    },
+    "charset": {
+        "": {}
+    },
+    "crafttweaker": {
+        "": {}
+    },
+    "jei": {
+        "": {}
+    },
+    "quark": {
+        "": {}
+    },
+    "autoreglib": {
+        "": {}
+    },
+    "backstab": {
+        "": {}
+    },
+    "bannerelytra": {
+        "": {}
+    },
+    "bard_mania": {
+        "": {}
+    },
+    "base": {
+        "": {}
+    },
+    "bblsom": {
+        "": {}
+    },
+    "betteranimalsplus": {
+        "": {}
+    },
+    "bettermobgriefinggamerule": {
+        "": {}
+    },
+    "collective": {
+        "": {}
+    },
+    "betterspawnercontrol": {
+        "": {}
+    },
+    "sbetterwatersplash": {
+        "": {}
+    },
+    "biomeheighttweaker": {
+        "": {}
+    },
+    "biometweaker": {
+        "": {}
+    },
+    "biomesoplenty": {
+        "": {}
+    },
+    "blockhighlighter": {
+        "": {}
+    },
+    "bps": {
+        "": {}
+    },
+    "bloodmoon": {
+        "": {}
+    },
+    "bnbgaminglib": {
+        "": {}
+    },
+    "bonemealtweaker": {
+        "": {}
+    },
+    "bookdisplay": {
+        "": {}
+    },
+    "birdwmod": {
+        "": {}
+    },
+    "bookworm": {
+        "": {}
+    },
+    "brownmooshrooms": {
+        "": {}
+    },
+    "bundles": {
+        "": {}
+    },
+    "camels": {
+        "": {}
+    },
+    "camoucreepers": {
+        "": {}
+    },
+    "cavegenerator": {
+        "": {}
+    },
+    "mclib": {
+        "": {}
+    },
+    "metamorph": {
+        "": {}
+    },
+    "charm": {
+        "": {}
+    },
+    "cherishedworlds": {
+        "": {}
+    },
+    "chesttransporter": {
+        "": {}
+    },
+    "toolprogression": {
+        "": {}
+    },
+    "codechickenlib": {
+        "": {}
+    },
+    "cofhworld": {
+        "": {}
+    },
+    "coloredredstone": {
+        "": {}
+    },
+    "hammercore": {
+        "": {}
+    },
+    "lux": {
+        "": {}
+    },
+    "colorednametags": {
+        "": {}
+    },
+    "colorfulpotions": {
+        "": {}
+    },
+    "colorfulslimes": {
+        "": {}
+    },
+    "comforts": {
+        "": {}
+    },
+    "commandextras": {
+        "": {}
+    },
+    "commandomatic": {
+        "": {}
+    },
+    "contentcreator": {
+        "": {}
+    },
+    "zenutils": {
+        "": {}
+    },
+    "contenttweaker": {
+        "": {}
+    },
+    "fantasticlib": {
+        "": {}
+    },
+    "controlledburn": {
+        "": {}
+    },
+    "controlling": {
+        "": {}
+    },
+    "cosmeticarmorreworked": {
+        "": {}
+    },
+    "cosmeticbeds": {
+        "": {}
+    },
+    "craftingautomat": {
+        "": {}
+    },
+    "ctgui": {
+        "": {}
+    },
+    "crafttweakerjei": {
+        "": {}
+    },
+    "creaturebeacons": {
+        "": {}
+    },
+    "crossbows": {
+        "": {}
+    },
+    "customizableelytra": {
+        "": {}
+    },
+    "customparticles": {
+        "": {}
+    },
+    "cyclicmagic": {
+        "": {}
+    },
+    "dimensionalcontrol": {
+        "": {}
+    },
+    "dctweaks": {
+        "": {}
+    },
+    "deathquotes": {
+        "": {}
+    },
+    "deeperdepths": {
+        "": {}
+    },
+    "dismountentity": {
+        "": {}
+    },
+    "distinctpaintings": {
+        "": {}
+    },
+    "malisiscore": {
+        "": {}
+    },
+    "ddb": {
+        "": {}
+    },
+    "doubleslabs": {
+        "": {}
+    },
+    "mocreatures": {
+        "": {}
+    },
+    "orelib": {
+        "": {}
+    },
+    "dsurround": {
+        "": {}
+    },
+    "easiervillagertrading": {
+        "": {}
+    },
+    "shulker_access": {
+        "": {}
+    },
+    "easyelytratakeoff": {
+        "": {}
+    },
+    "editableedibles": {
+        "": {}
+    },
+    "enchanting_tweaks": {
+        "": {}
+    },
+    "enchdesc": {
+        "": {}
+    },
+    "enchcontrol": {
+        "": {}
+    },
+    "enderstorage": {
+        "": {}
+    },
+    "entityculling": {
+        "": {}
+    },
+    "environmentalcreepers": {
+        "": {}
+    },
+    "erebus": {
+        "": {}
+    },
+    "erosion": {
+        "": {}
+    },
+    "eruditetweaks": {
+        "": {}
+    },
+    "eruptionspawner": {
+        "": {}
+    },
+    "exoticbirds": {
+        "": {}
+    },
+    "konkrete": {
+        "": {}
+    },
+    "fancymenu": {
+        "": {}
+    },
+    "ferdinandsflowers": {
+        "": {}
+    },
+    "normalasm": {
+        "": {}
+    },
+    "fermiummixins": {
+        "": {}
+    },
+    "ffenchants": {
+        "": {}
+    },
+    "fishbonanza": {
+        "": {}
+    },
+    "xporbclump": {
+        "": {}
+    },
+    "fluidintetweaker": {
+        "": {}
+    },
+    "fluidlogged_api": {
+        "": {}
+    },
+    "forgelin_continuous": {
+        "": {}
+    },
+    "forgelin": {
+        "": {}
+    },
+    "forgemultipartcbe": {
+        "": {}
+    },
+    "microblockcbe": {
+        "": {}
+    },
+    "minecraftmultipartcbe": {
+        "": {}
+    },
+    "freelook": {
+        "": {}
+    },
+    "creatures": {
+        "": {}
+    },
+    "iceologer": {
+        "": {}
+    },
+    "futuremc": {
+        "": {}
+    },
+    "gamblingstyle": {
+        "": {}
+    },
+    "geckolib3": {
+        "": {}
+    },
+    "giacomos_map_merging": {
+        "": {}
+    },
+    "globalgamerules": {
+        "": {}
+    },
+    "gnetum": {
+        "": {}
+    },
+    "grapplemod": {
+        "": {}
+    },
+    "greenery": {
+        "": {}
+    },
+    "gbook": {
+        "": {}
+    },
+    "hardcorebuoy": {
+        "": {}
+    },
+    "hooklib": {
+        "": {}
+    },
+    "hotswap": {
+        "": {}
+    },
+    "waila": {
+        "": {}
+    },
+    "icepreventscropgrowth": {
+        "": {}
+    },
+    "incontrol": {
+        "": {}
+    },
+    "infinitefluids": {
+        "": {}
+    },
+    "infinitetrading": {
+        "": {}
+    },
+    "mantle": {
+        "": {}
+    },
+    "inspirations": {
+        "": {}
+    },
+    "invmove": {
+        "": {}
+    },
+    "itemzoom": {
+        "": {}
+    },
+    "jepb": {
+        "": {}
+    },
+    "jjmeteor": {
+        "": {}
+    },
+    "jsonedoldobsidian": {
+        "": {}
+    },
+    "justenoughdimensions": {
+        "": {}
+    },
+    "jeresources": {
+        "": {}
+    },
+    "kleeslabs": {
+        "": {}
+    },
+    "lava_walker": {
+        "": {}
+    },
+    "dogslie": {
+        "": {}
+    },
+    "lilliputian": {
+        "": {}
+    },
+    "limitlessstructureblocks": {
+        "": {}
+    },
+    "lpb": {
+        "": {}
+    },
+    "loadingprofiler": {
+        "": {}
+    },
+    "lock_minecart_view": {
+        "": {}
+    },
+    "locks": {
+        "": {}
+    },
+    "lootoverhaul": {
+        "": {}
+    },
+    "lottweaks": {
+        "": {}
+    },
+    "maleksinfinitygauntlet": {
+        "": {}
+    },
+    "maptooltip": {
+        "": {}
+    },
+    "mechanics": {
+        "": {}
+    },
+    "minejurassic": {
+        "": {}
+    },
+    "modifierkeyfix": {
+        "": {}
+    },
+    "mrtjpcore": {
+        "": {}
+    },
+    "multimob": {
+        "": {}
+    },
+    "naturescompass": {
+        "": {}
+    },
+    "nb": {
+        "": {}
+    },
+    "nether_api": {
+        "": {}
+    },
+    "netherchest": {
+        "": {}
+    },
+    "noisethreader": {
+        "": {}
+    },
+    "nee": {
+        "": {}
+    },
+    "noteblock_backport": {
+        "": {}
+    },
+    "oe": {
+        "": {}
+    },
+    "particleculling": {
+        "": {}
+    },
+    "patpatpat": {
+        "": {}
+    },
+    "patternbanners": {
+        "": {}
+    },
+    "performancemonitoringenhanc": {
+        "": {}
+    },
+    "petnames": {
+        "": {}
+    },
+    "placebo": {
+        "": {}
+    },
+    "plants2": {
+        "": {}
+    },
+    "pogosticks": {
+        "": {}
+    },
+    "potioncore": {
+        "": {}
+    },
+    "potiondescriptions": {
+        "": {}
+    },
+    "powerdrop": {
+        "": {}
+    },
+    "presents": {
+        "": {}
+    },
+    "primitivemobs": {
+        "": {}
+    },
+    "projectred-core": {
+        "": {}
+    },
+    "projectred-integration": {
+        "": {}
+    },
+    "projectred-transmission": {
+        "": {}
+    },
+    "pvj": {
+        "": {}
+    },
+    "quarkoddities": {
+        "": {}
+    },
+    "radenchants": {
+        "": {}
+    },
+    "railsplus": {
+        "": {}
+    },
+    "random_grabbag": {
+        "": {}
+    },
+    "randomenchantments": {
+        "": {}
+    },
+    "randomportals": {
+        "": {}
+    },
+    "randomtweaks": {
+        "": {}
+    },
+    "realisticbrewingstand": {
+        "": {}
+    },
+    "reccomplex": {
+        "": {}
+    },
+    "resize": {
+        "": {}
+    },
+    "resourceloader": {
+        "": {}
+    },
+    "rbeacons": {
+        "": {}
+    },
+    "rockhounding_core": {
+        "": {}
+    },
+    "rockhounding_rocks": {
+        "": {}
+    },
+    "jeid": {
+        "": {}
+    },
+    "sbmpuntanimal": {
+        "": {}
+    },
+    "secureenderstorage": {
+        "": {}
+    },
+    "selfcontrol": {
+        "": {}
+    },
+    "soundfilters": {
+        "": {}
+    },
+    "spark": {
+        "": {}
+    },
+    "specifiedspawning": {
+        "": {}
+    },
+    "speedbasedfalldamage": {
+        "": {}
+    },
+    "speedyhoppers": {
+        "": {}
+    },
+    "startuptimer": {
+        "": {}
+    },
+    "sasit": {
+        "": {}
+    },
+    "sugiforest": {
+        "": {}
+    },
+    "switchbow": {
+        "": {}
+    },
+    "tabulator": {
+        "": {}
+    },
+    "tellme": {
+        "": {}
+    },
+    "testdummy": {
+        "": {}
+    },
+    "thenarrowgate": {
+        "": {}
+    },
+    "tips": {
+        "": {}
+    },
+    "traders": {
+        "": {}
+    },
+    "treetweaker": {
+        "": {}
+    },
+    "universaltweaks": {
+        "": {}
+    },
+    "villagernames": {
+        "": {}
+    },
+    "vintagefix": {
+        "": {}
+    },
+    "witherproof": {
+        "": {}
+    },
+    "wgblockreplacer": {
+        "": {}
+    },
+    "worldprimer": {
+        "": {}
+    },
+    "zawa": {
+        "": {}
+    },
+    "lonelybiome": {
+        "": {}
+    },
+    "dshuds": {
+        "": {}
+    },
+    "totemexpansion": {
+        "": {}
+    },
+    "additions": {
+        "": {}
+    },
+    "hungeroverhaul": {
+        "": {}
+    },
+    "": {
+        "": {}
+    }
+}

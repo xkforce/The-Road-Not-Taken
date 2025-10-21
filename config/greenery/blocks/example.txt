@@ -1,0 +1,12 @@
+{
+  "blocks": [
+    "minecraft:glowstone",
+    "minecraft:glass"
+  ],
+  "worldGen": [
+    "0 | biome:minecraft:plains | 1.0 | 16 | 32"
+  ],
+  "soil": [
+    "block:minecraft:grass"
+  ]
+} 

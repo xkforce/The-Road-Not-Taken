@@ -1,0 +1,35 @@
+{
+    "maxAge": 3,
+    "worldGen": [
+        "0 | minecraft:minecraft:forest | 1.0 | 8 | 32",
+        "0 | minecraft:taiga | 1.0 | 8 | 32",
+        "0 | minecraft:forest_hills | 1.0 | 8 | 32",
+        "0 | minecraft:taiga_hills | 1.0 | 8 | 32",
+        "0 | minecraft:birch_forest | 1.0 | 8 | 32",
+        "0 | minecraft:birch_forest_hills | 1.0 | 8 | 32",
+        "0 | minecraft:redwood_taiga | 1.0 | 8 | 32",
+        "0 | minecraft:redwood_taiga_hills | 1.0 | 8 | 32",
+        "0 | biomesoplenty:coniferous_forest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:maple_woods | 1.0 | 8 | 32",
+        "0 | biomesoplenty:meadow | 1.0 | 8 | 32",
+        "0 | biomesoplenty:redwood_forest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:snowy_coniferous_forest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:snowy_forest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:temperate_rainforest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:tropical_rainforest | 1.0 | 8 | 32",
+        "0 | biomesoplenty:woodland | 1.0 | 8 | 32",
+        "0 | biomesoplenty:redwood_forest_edge | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_forest | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_taiga | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_birch_forest | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_birch_forest_hills | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_redwood_taiga | 1.0 | 8 | 32",
+        "0 | minecraft:mutated_redwood_taiga_hills | 1.0 | 8 | 32",
+        "0 | biometweaker:sugiforest | 1.0 | 8 | 32",
+        "0 | biometweaker:mixedmapleforest | 1.0 | 8 | 32"
+    ],
+    "soil": [
+        "material:grass"
+    ],
+    "isHarmful": true
+}

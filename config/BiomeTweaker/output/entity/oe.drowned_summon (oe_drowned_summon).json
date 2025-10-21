@@ -1,0 +1,6 @@
+
+{
+  "Name": "oe.drowned_summon",
+  "Registry ID": "oe:drowned_summon",
+  "Class": "com.sirsquidly.oe.entity.EntityDrownedSummon"
+}
