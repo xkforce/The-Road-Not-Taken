@@ -1,0 +1,135 @@
+[
+    {
+        "motive": "backyard",
+        "width": 3,
+        "height": 4,
+		"iscreative": true
+    },
+    {
+        "motive": "pond",
+        "width": 1,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "meditative",
+        "width": 1,
+        "height": 1,
+		"iscreative": true
+    },
+    {
+        "motive": "prairie ride",
+        "width": 1,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "baroque",
+        "width": 2,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "changing",
+        "width": 4,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "finding",
+        "width": 4,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "lowmist",
+        "width": 4,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "passage",
+        "width": 4,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "bouquet",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "cavebird",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "cotan",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "endboss",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "fern",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "owlemons",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "sunflowers",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "tides",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "unpacked",
+        "width": 4,
+        "height": 4,
+		"iscreative": true
+    },
+    {
+        "motive": "orb",
+        "width": 4,
+        "height": 4,
+		"iscreative": true
+    },
+    {
+        "motive": "humble",
+        "width": 3,
+        "height": 3,
+		"iscreative": true
+    },
+    {
+        "motive": "saint francis of assisi in his tomb",
+        "width": 1,
+        "height": 2,
+		"iscreative": true
+    },
+    {
+        "motive": "apple",
+        "textures": {
+            "front": "items/apple"
+        },
+		"iscreative": true
+    }
+]
