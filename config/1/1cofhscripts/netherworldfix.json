@@ -1,0 +1,28 @@
+{
+	"populate": {
+		"nethersurfacelake": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:lava",
+				"material": "minecraft:netherrack",
+				"use-material": true,
+				"outline-block": [
+					"minecraft:soul_sand"
+				]
+			},
+			"cluster-count": 5,
+			"chunk-chance": 5,
+			"min-height": 1,
+			"max-height": 255,
+			"follow-terrain": true,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4,5,6,7,8,9,10,11,12,13,14,15
+				]
+			}
+		}
+	}
+}

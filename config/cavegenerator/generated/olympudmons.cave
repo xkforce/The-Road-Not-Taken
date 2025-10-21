@@ -1,0 +1,21 @@
+{
+  biomes: {
+    names: [
+      biometweaker:olympusmons
+    ]
+  }
+  layers: [
+    {
+      #sand
+      matchers: [
+        minecraft:air
+      ]
+      state: contenttweaker:marstone
+      height: [ 117, 120 ]
+      ceiling: {
+        frequency: 0.0025
+        range: [ -2, 60 ]
+      }
+    }
+  ]
+}

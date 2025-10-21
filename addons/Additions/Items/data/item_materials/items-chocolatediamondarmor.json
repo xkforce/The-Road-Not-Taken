@@ -1,0 +1,13 @@
+{
+  "enchantability": 10,
+  "base_armor_durability": 39,
+  "toughness": 2.0,
+  "helmet_armor": 3,
+  "chestplate_armor": 8,
+  "leggings_armor": 6,
+  "boots_armor": 3,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:chocolatediamond",
+  "repair_meta": 32767,
+  "type": "armor"
+}

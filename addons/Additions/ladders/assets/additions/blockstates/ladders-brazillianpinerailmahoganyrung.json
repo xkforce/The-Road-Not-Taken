@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-brazillianpinerailmahoganyrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-brazillianpinerailmahoganyrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-brazillianpinerailmahoganyrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-brazillianpinerailmahoganyrung",
+      "y": 270
+    }
+  }
+}

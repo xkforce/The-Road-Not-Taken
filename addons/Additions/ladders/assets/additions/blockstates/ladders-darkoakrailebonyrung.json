@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-darkoakrailebonyrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-darkoakrailebonyrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-darkoakrailebonyrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-darkoakrailebonyrung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Moonstone Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "type": "additions:shovel"
+}

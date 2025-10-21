@@ -1,0 +1,14 @@
+{
+  "name": "Emerald Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "0fdd116c-6cc6-473b-85b5-bd4558a63e5c"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-EMERALDTOOLS",
+  "type": "additions:sword"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Steel Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEELTOOLS",
+  "type": "additions:pickaxe"
+}

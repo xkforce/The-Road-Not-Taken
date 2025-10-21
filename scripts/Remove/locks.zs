@@ -1,0 +1,15 @@
+recipes.remove(<locks:wood_lock_pick>);
+recipes.remove(<locks:iron_lock_pick> * 2);
+recipes.remove(<locks:gold_lock_pick> * 2);
+recipes.remove(<locks:diamond_lock_pick> * 2);
+recipes.remove(<locks:diamond_lock>);
+recipes.remove(<locks:gold_lock>);
+recipes.remove(<locks:steel_lock>);
+recipes.remove(<locks:iron_lock>);
+recipes.remove(<locks:wood_lock>);
+recipes.remove(<locks:spring>);
+recipes.remove(<locks:wood_lock_mechanism>);
+recipes.remove(<locks:iron_lock_mechanism>);
+recipes.remove(<locks:steel_lock_mechanism>);
+recipes.remove(<locks:key_ring>);
+recipes.remove(<locks:key_blank>);

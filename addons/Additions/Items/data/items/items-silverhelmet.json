@@ -1,0 +1,7 @@
+{
+  "name": "Silver Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVER",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

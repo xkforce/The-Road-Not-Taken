@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "Amethyst Ore",
+    "type": "additions:block_simple"
+  },
+  "name": "Amethyst Ore",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 9.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "xp_dropped_min": 3,
+  "xp_dropped_max": 7,
+  "type": "additions:simple"
+}

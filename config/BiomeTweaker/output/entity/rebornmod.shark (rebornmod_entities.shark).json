@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.shark",
+  "Registry ID": "rebornmod:entities.shark",
+  "Class": "mod.reborn.server.entity.animal.EntityShark"
+}

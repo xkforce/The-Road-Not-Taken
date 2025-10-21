@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-jacarandaraileucalyptusrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-jacarandaraileucalyptusrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-jacarandaraileucalyptusrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-jacarandaraileucalyptusrung",
+      "y": 270
+    }
+  }
+}

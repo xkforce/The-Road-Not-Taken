@@ -1,0 +1,7 @@
+{
+  "name": "Morganite Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MORGANITE",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

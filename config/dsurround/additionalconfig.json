@@ -1,0 +1,388 @@
+{
+    "biomes":[
+    {
+        "conditions":"biome.name == 'Lunar Mare'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Lunar Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Lunar Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Extinct Lunar Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Lunar Alps'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Frozen Ocean'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Frozen Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Ice Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Ice Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Jungle'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Mare'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Ocean'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Swamp'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Twilight Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Twilight Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Twilight Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Mercury Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Martian Ice Cap'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Martian Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Martian Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Olympus Mons'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'B Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'C Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'D Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'E Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'F Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'M Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'P Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'S Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'V Type Asteroid'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Jupiter Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Jupiter Sea'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Jupiter Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Ganymede Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Ganymede Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Ganymede Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Ganymede Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Io Lava Ocean'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Io Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Io Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Io Sulfur Sea'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Io Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Callisto Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Callisto Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Callisto Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Europan Ocean'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Saturnian Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Saturnian Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Saturnian Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Saturnian Rings'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Saturnian Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Titanic Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Titanic Ocean'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Titanic Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Titanic Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Enceladus Geysers'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Enceladus Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Urainian Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Uranian Rings'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Uranian Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Miranda Cliffs'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Miranda Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Neptune Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Neptune Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Neptune Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Neptune Moons'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Neptune Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Triton Mountains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Triton Plains'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Triton Volcano'",
+	    "aurora":false
+	},
+	{
+        "conditions":"biome.name == 'Persephone Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Persephone Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Persephone Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Persephone Rings'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Persephone Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Desert'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Jungle'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Plains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Zagrean Swamp'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Mountains'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Poison Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Poison Swamp'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Volcano'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Wastes'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Wither Ocean'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Melinoe Wither Swamp'",
+	    "aurora":true
+	},
+	{
+        "conditions":"biome.name == 'Plains'",
+	    "aurora":false
+	}
+    ],
+    "blocks":[
+    ],
+    "dimensions":[
+    {
+	    "dimId":28,
+	    "seaLevel":188
+	},
+    {
+	    "dimId":61,
+	    "seaLevel":188
+	},
+	{
+	    "dimId":73,
+	    "seaLevel":127
+	}
+    ],
+    "footsteps":{
+    },
+    "forgeMappings":[
+    ]
+} 

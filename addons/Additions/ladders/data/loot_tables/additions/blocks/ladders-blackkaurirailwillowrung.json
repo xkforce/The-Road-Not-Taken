@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-blackkaurirailwillowrung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-blackkaurirailwillowrung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

@@ -1,0 +1,23 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:highland"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 25
+    },
+    {
+      "block": "minecraft:double_plant[variant=double_grass]",
+      "weight": 25
+    }
+  ]
+}

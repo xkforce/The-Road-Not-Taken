@@ -1,0 +1,19 @@
+{
+  "name": "Wood Hammer",
+  "burn_time": 1900,
+  "max_stack": 1,
+  "durability": 60,
+  "harvest_level": 0,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 2.0,
+  "enchantability": 15,
+  "repair_stacks": {
+    "ore_name": "plankWood"
+  },
+  "tool_classes": [
+    "sword",
+    "pickaxe"
+  ],
+  "type": "additions:multitool"
+}

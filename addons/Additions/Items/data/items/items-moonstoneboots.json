@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Boots",
+  "max_stack": 1,
+  "material": "additions-items-moonstonearmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

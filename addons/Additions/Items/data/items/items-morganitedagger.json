@@ -1,0 +1,14 @@
+{
+  "name": "Morganite Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "47760def-cced-4f60-9b55-b447bb3c29fe"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-MORGANITETOOLS",
+  "type": "additions:sword"
+}

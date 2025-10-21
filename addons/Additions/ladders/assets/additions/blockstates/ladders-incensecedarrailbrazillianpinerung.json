@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-incensecedarrailbrazillianpinerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-incensecedarrailbrazillianpinerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-incensecedarrailbrazillianpinerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-incensecedarrailbrazillianpinerung",
+      "y": 270
+    }
+  }
+}

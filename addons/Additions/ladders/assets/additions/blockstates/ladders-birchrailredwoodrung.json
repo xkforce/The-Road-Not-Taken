@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-birchrailredwoodrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-birchrailredwoodrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-birchrailredwoodrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-birchrailredwoodrung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "lapwing",
+  "Registry ID": "creatures:lapwing",
+  "Class": "com.creatures.afrikinzi.entity.lapwing.EntityLapwing"
+}

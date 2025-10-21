@@ -1,0 +1,23 @@
+{
+  "name": "Obsidian Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "057cbc83-4336-4a95-b8b9-82886a952fce"
+    }
+  ],
+  "durability": 131,
+  "harvest_level": 3,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 4.0,
+  "enchantability": 10,
+  "repair_stacks": {
+    "ore_name": "obsidian"
+  },
+  "tool_classes": "sword",
+  "type": "additions:multitool"
+}

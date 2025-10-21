@@ -1,0 +1,7 @@
+{
+  "name": "Hepatizon Leggings",
+  "max_stack": 1,
+  "material": "additions-items-hepatizonarmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Sapphire Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SAPPHIRE",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

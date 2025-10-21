@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-cottonwoodrailincensecedarrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-cottonwoodrailincensecedarrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-cottonwoodrailincensecedarrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-cottonwoodrailincensecedarrung",
+      "y": 270
+    }
+  }
+}

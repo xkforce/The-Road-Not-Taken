@@ -1,0 +1,7 @@
+{
+  "name": "Rose Gold Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-rosegoldarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

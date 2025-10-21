@@ -1,0 +1,63 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:plains"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 200
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 200
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=houstonia]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=red_tulip]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=orange_tulip]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=white_tulip]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=pink_tulip]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=oxeye_daisy]",
+      "weight": 1
+    },
+    {
+      "block": "futuremc:cornflower",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:double_plant[half=lower,variant=double_grass]",
+      "weight": 10
+    }
+  ]
+}

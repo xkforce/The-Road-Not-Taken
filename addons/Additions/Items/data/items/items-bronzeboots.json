@@ -1,0 +1,7 @@
+{
+  "name": "Bronze Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRONZE",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

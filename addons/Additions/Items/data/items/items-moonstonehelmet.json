@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Helmet",
+  "max_stack": 1,
+  "material": "additions-items-moonstonearmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

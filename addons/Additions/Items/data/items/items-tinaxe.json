@@ -1,0 +1,6 @@
+{
+  "name": "Tin Axe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TINTOOLS",
+  "type": "additions:axe"
+}

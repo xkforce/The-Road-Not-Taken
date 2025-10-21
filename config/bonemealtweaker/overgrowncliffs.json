@@ -1,0 +1,39 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:overgrown_cliffs"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 5000
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 1000
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 100
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 100
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=orange_cosmos]",
+      "weight": 400
+    },
+    {
+      "block": "minecraft:pumpkin",
+      "weight": 1
+    }
+  ]
+}

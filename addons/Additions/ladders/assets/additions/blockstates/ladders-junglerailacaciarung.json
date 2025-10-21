@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-junglerailacaciarung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-junglerailacaciarung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-junglerailacaciarung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-junglerailacaciarung",
+      "y": 270
+    }
+  }
+}

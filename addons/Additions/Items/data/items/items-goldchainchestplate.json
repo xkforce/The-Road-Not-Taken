@@ -1,0 +1,7 @@
+{
+  "name": "Gold Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-goldchainmail",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

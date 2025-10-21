@@ -1,0 +1,7 @@
+{
+  "name": "Topaz Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TOPAZ",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

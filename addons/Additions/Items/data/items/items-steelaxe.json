@@ -1,0 +1,6 @@
+{
+  "name": "Steel Axe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEELTOOLS",
+  "type": "additions:axe"
+}

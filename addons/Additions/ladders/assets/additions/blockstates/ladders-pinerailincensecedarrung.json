@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-pinerailincensecedarrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-pinerailincensecedarrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-pinerailincensecedarrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-pinerailincensecedarrung",
+      "y": 270
+    }
+  }
+}

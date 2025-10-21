@@ -1,0 +1,3470 @@
+{
+    "dimensions": [
+        {
+            "dim": -999,
+            "unregister": true
+        },
+        {
+            "dim": -15,
+            "dimensiontype": {
+                "id": -15,
+                "name": "End Surface",
+                "suffix": "_dim-15",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "WaterVaporizes": false,
+                "sky_teleport": {
+                "dimension": 1,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "raining": 0
+            }
+        },
+        {
+            "dim": -14,
+            "dimensiontype": {
+                "id": -14,
+                "name": "End Caves",
+                "suffix": "_dim-14",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*minecraft:end_stone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -13,
+            "dimensiontype": {
+                "id": -13,
+                "name": "Niflheim Sky Islands",
+                "suffix": "_dim-13",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "eeeeff",
+                "FogColor": "eeeeff",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "sky_teleport": {
+                "dimension": 1,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": -12,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -12,
+            "dimensiontype": {
+                "id": -12,
+                "name": "Niflheim",
+                "suffix": "_dim-12",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "eeeeff",
+                "FogColor": "eeeeff",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "DontAdvanceWeatherWhenSleeping": true,
+                "sky_teleport": {
+                "dimension": -13,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "raining": 1
+            }
+        },
+        {
+            "dim": -11,
+            "dimensiontype": {
+                "id": -11,
+                "name": "Niflheim Caves",
+                "suffix": "_dim-11",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "eeeeff",
+                "FogColor": "eeeeff",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lightbluenetherrack,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "raining": 1
+            }
+        },
+        {
+            "dim": -10,
+            "dimensiontype": {
+                "id": -10,
+                "name": "Lilith Sky Islands",
+                "suffix": "_dim-10",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "440088",
+                "FogColor": "880000",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "sky_teleport": {
+                "dimension": -13,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": -9,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -9,
+            "dimensiontype": {
+                "id": -9,
+                "name": "Lilith",
+                "suffix": "_dim-9",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "440088",
+                "FogColor": "880000",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "sky_teleport": {
+                "dimension": -10,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -8,
+            "dimensiontype": {
+                "id": -8,
+                "name": "Lilith Caves",
+                "suffix": "_dim-8",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "440088",
+                "FogColor": "880000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -7,
+            "dimensiontype": {
+                "id": -7,
+                "name": "Haunted Overworld Sky Islands",
+                "suffix": "_dim-7",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 1,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "sky_teleport": {
+                "dimension": -10,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": -6,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -6,
+            "dimensiontype": {
+                "id": -6,
+                "name": "Haunted Overworld",
+                "suffix": "_dim-6",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "SkyDisableFlags": 1,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "sky_teleport": {
+                "dimension": -7,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -5,
+            "dimensiontype": {
+                "id": -5,
+                "name": "Haunted Overworld Caves",
+                "suffix": "_dim-5",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP",
+                "generatorOptions": "3;minecraft:bedrock,254*minecraft:stone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -4,
+            "dimensiontype": {
+                "id": -4,
+                "name": "Nether Sky Islands",
+                "suffix": "_dim-4",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "660000",
+                "FogColor": "880000",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "WaterVaporizes": true,
+                "sky_teleport": {
+                "dimension": -7,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": -3,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "raining": 0
+            }
+        },
+        {
+            "dim": -3,
+            "dimensiontype": {
+                "id": -3,
+                "name": "Nether Surface",
+                "suffix": "_dim-3",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "660000",
+                "FogColor": "880000",
+                "SkyBlend": "1.0",
+                "SkyDisableFlags": 7,
+                "CanRespawnHere": false,
+                "CanSleepHere": "bed_explodes",
+                "WaterVaporizes": true,
+                "sky_teleport": {
+                "dimension": -4,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "raining": 0,
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": -2,
+            "dimensiontype": {
+                "id": -2,
+                "name": "Deep Dark",
+                "suffix": "_dim-2",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*minecraft:stone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 0,
+            "override": true,
+            "dimensiontype": {
+                "id": 0,
+                "name": "Overworld",
+                "keeploaded": true,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+            "sky_teleport": {
+                "dimension": 2,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "CloudHeight": 256
+            }
+        },
+        {
+            "dim": 2,
+            "dimensiontype": {
+                "id": 2,
+                "name": "Overworld Sky Islands",
+                "suffix": "_dim2",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 5,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 0,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 3,
+            "dimensiontype": {
+                "id": 3,
+                "name": "Lunar Nearside Caves",
+                "suffix": "_dim3",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 4,
+            "dimensiontype": {
+                "id": 4,
+                "name": "Lunar Nearside",
+                "suffix": "_dim4",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 3,
+                "CustomDayCycle": true,
+                "DayLength": 96000,
+                "NightLength": 96000,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 5,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 5,
+            "dimensiontype": {
+                "id": 5,
+                "name": "Lunar Nearside Sky Islands",
+                "suffix": "_dim5",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 5000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "sky_teleport": {
+                "dimension": 8,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 4,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+                },
+            "worldinfo_onetime": {
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 6,
+            "dimensiontype": {
+                "id": 6,
+                "name": "Lunar Farside Caves",
+                "suffix": "_dim6",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 7,
+            "dimensiontype": {
+                "id": 7,
+                "name": "Luna Farside",
+                "suffix": "_dim7",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 3,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 96000,
+                "NightLength": 96000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 8,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 8,
+            "dimensiontype": {
+                "id": 8,
+                "name": "Luna Farside Sky Islands",
+                "suffix": "_dim8",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 5000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "sky_teleport": {
+                "dimension": 11,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 7,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+                },
+            "worldinfo_onetime": {
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 9,
+            "dimensiontype": {
+                "id": 9,
+                "name": "Mercury Dayside Caves",
+                "suffix": "_dim9",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 10,
+            "dimensiontype": {
+                "id": 10,
+                "name": "Mercury Dayside",
+                "suffix": "_dim10",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 11,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "DayTime": "500000",
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 11,
+            "dimensiontype": {
+                "id": 11,
+                "name": "Mercury Dayside Sky Islands",
+                "suffix": "_dim11",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CustomDayCycle": true,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 14,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 10,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "DayTime": "500000",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 12,
+            "dimensiontype": {
+                "id": 12,
+                "name": "Mercury Twilight Caves",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "suffix": "_dim12",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "DayTime": "750000",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 13,
+            "dimensiontype": {
+                "id": 13,
+                "name": "Mercury Twilight",
+                "suffix": "_dim13",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 14,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "DayTime": "750000",
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                },
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 14,
+            "dimensiontype": {
+                "id": 14,
+                "name": "Mercury Twilight Sky Islands",
+                "suffix": "_dim14",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CustomDayCycle": true,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 17,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 13,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "DayTime": "750000",
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },        
+        {
+            "dim": 15,
+            "dimensiontype": {
+                "id": 15,
+                "name": "Mercury Nightside Caves",
+                "suffix": "_dim15",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "DayTime": "1000000",
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 16,
+            "dimensiontype": {
+                "id": 16,
+                "name": "Mercury Nightside",
+                "suffix": "_dim16",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 17,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}",
+                "DayTime": "1000000",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 17,
+            "dimensiontype": {
+                "id": 17,
+                "name": "Mercury Nightside Sky Islands",
+                "suffix": "_dim17",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 20,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 16,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "DayTime": "1000000",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },        
+        {
+            "dim": 18,
+            "dimensiontype": {
+                "id": 18,
+                "name": "Mars Caves",
+                "suffix": "_dim18",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "d09869",
+                "FogColor": "e0baad",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 19,
+            "dimensiontype": {
+                "id": 19,
+                "name": "Mars",
+                "suffix": "_dim19",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12308,
+                "NightLength": 12308,
+                "SkyDisableFlags": 2,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "d09869",
+                "FogColor": "e0baad",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 20,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"seaLevel\":127,\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 20,
+            "dimensiontype": {
+                "id": 20,
+                "name": "Phobos and Deimos",
+                "suffix": "_dim20",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 2,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "d09869",
+                "FogColor": "e0baad",
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "sky_teleport": {
+                "dimension": 23,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 19,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+                },
+            "worldinfo_onetime": {
+                "DayTime": "1000000",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 21,
+            "dimensiontype": {
+                "id": 21,
+                "name": "Ceres Caves",
+                "suffix": "_dim21",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:fayalite,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 22,
+            "dimensiontype": {
+                "id": 22,
+                "name": "Ceres",
+                "suffix": "_dim22",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 4500,
+                "NightLength": 4500,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 23,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "DayTime": "0",
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 23,
+            "dimensiontype": {
+                "id": 23,
+                "name": "Inner Belt Asteroids",
+                "suffix": "_dim23",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 1000000,
+                "NightLength": 1000000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 26,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 22,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "DayTime": "1000000",
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 24,
+            "dimensiontype": {
+                "id": 24,
+                "name": "Saturnian Caves",
+                "suffix": "_dim24",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 25,
+            "dimensiontype": {
+                "id": 25,
+                "name": "Saturn",
+                "suffix": "_dim25",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 5350,
+                "NightLength": 5350,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 26,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 26,
+            "dimensiontype": {
+                "id": 26,
+                "name": "Saturn's Rings",
+                "suffix": "_dim26",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 29,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 25,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 27,
+            "dimensiontype": {
+                "id": 27,
+                "name": "Enceladus Caves",
+                "suffix": "_dim27",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 28,
+            "dimensiontype": {
+                "id": 28,
+                "name": "Enceladus",
+                "suffix": "_dim28",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 16450,
+                "NightLength": 16450,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 29,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 29,
+            "dimensiontype": {
+                "id": 29,
+                "name": "Enceladus Sky Islands",
+                "suffix": "_dim29",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 32,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 28,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 30,
+            "dimensiontype": {
+                "id": 30,
+                "name": "Titanian Caves",
+                "suffix": "_dim30",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 31,
+            "dimensiontype": {
+                "id": 31,
+                "name": "Titan",
+                "suffix": "_dim31",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 51800,
+                "NightLength": 51800,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 32,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 32,
+            "dimensiontype": {
+                "id": 32,
+                "name": "Titanian Sky Islands",
+                "suffix": "_dim32",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 35,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 31,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 33,
+            "dimensiontype": {
+                "id": 33,
+                "name": "Neptunian Caves",
+                "suffix": "_dim33",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 34,
+            "dimensiontype": {
+                "id": 34,
+                "name": "Neptune",
+                "suffix": "_dim34",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 8050,
+                "NightLength": 8050,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "4dd8eb",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 35,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 35,
+            "dimensiontype": {
+                "id": 35,
+                "name": "Neptune Small Moons",
+                "suffix": "_dim35",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 38,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 34,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 36,
+            "dimensiontype": {
+                "id": 36,
+                "name": "Triton Caves",
+                "suffix": "_dim36",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 37,
+            "dimensiontype": {
+                "id": 37,
+                "name": "Triton",
+                "suffix": "_dim37",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 19100,
+                "NightLength": 19100,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 38,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 38,
+            "dimensiontype": {
+                "id": 38,
+                "name": "Triton Sky Islands",
+                "suffix": "_dim38",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 41,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 37,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 39,
+            "dimensiontype": {
+                "id": 39,
+                "name": "Persephone Caves",
+                "suffix": "_dim39",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 40,
+            "dimensiontype": {
+                "id": 40,
+                "name": "Persephone",
+                "suffix": "_dim40",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12000,
+                "NightLength": 12000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 41,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 41,
+            "dimensiontype": {
+                "id": 41,
+                "name": "Persephone Rings",
+                "suffix": "_dim41",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 44,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 40,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 42,
+            "dimensiontype": {
+                "id": 42,
+                "name": "Zagreus Caves",
+                "suffix": "_dim42",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 43,
+            "dimensiontype": {
+                "id": 43,
+                "name": "Zagreus",
+                "suffix": "_dim43",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12000,
+                "NightLength": 12000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": true,
+                "sky_teleport": {
+                "dimension": 46,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 44,
+            "dimensiontype": {
+                "id": 44,
+                "name": "Zagreus Sky Islands",
+                "suffix": "_dim44",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "sky_teleport": {
+                "dimension": 47,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 43,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 45,
+            "dimensiontype": {
+                "id": 45,
+                "name": "Melinoe Caves",
+                "suffix": "_dim45",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 46,
+            "dimensiontype": {
+                "id": 46,
+                "name": "Melinoe",
+                "suffix": "_dim46",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12000,
+                "NightLength": 12000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 47,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 47,
+            "dimensiontype": {
+                "id": 47,
+                "name": "Melinoe Sky Islands",
+                "suffix": "_dim47",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "sky_teleport": {
+                "dimension": 50,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 46,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 48,
+            "dimensiontype": {
+                "id": 48,
+                "name": "Uranian Caves",
+                "suffix": "_dim48",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 49,
+            "dimensiontype": {
+                "id": 49,
+                "name": "Uranus",
+                "suffix": "_dim49",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 8620,
+                "NightLength": 8620,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 50,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 50,
+            "dimensiontype": {
+                "id": 50,
+                "name": "Uranus Rings",
+                "suffix": "_dim50",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 53,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 49,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 51,
+            "dimensiontype": {
+                "id": 51,
+                "name": "Miranda Caves",
+                "suffix": "_dim51",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 52,
+            "dimensiontype": {
+                "id": 52,
+                "name": "Miranda",
+                "suffix": "_dim52",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 17000,
+                "NightLength": 17000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 53,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 53,
+            "dimensiontype": {
+                "id": 53,
+                "name": "Miranda Sky Islands",
+                "suffix": "_dim53",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 56,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 52,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 54,
+            "dimensiontype": {
+                "id": 54,
+                "name": "Jupiter Caves",
+                "suffix": "_dim54",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 55,
+            "dimensiontype": {
+                "id": 55,
+                "name": "Jupiter",
+                "suffix": "_dim55",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 4970,
+                "NightLength": 4970,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 56,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 56,
+            "dimensiontype": {
+                "id": 56,
+                "name": "Jupiter Small Moons",
+                "suffix": "_dim56",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "sky_teleport": {
+                "dimension": 59,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 55,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 57,
+            "dimensiontype": {
+                "id": 57,
+                "name": "Ionian Caves",
+                "suffix": "_dim57",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 58,
+            "dimensiontype": {
+                "id": 58,
+                "name": "Io",
+                "suffix": "_dim58",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 21000,
+                "NightLength": 21000,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 59,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 59,
+            "dimensiontype": {
+                "id": 59,
+                "name": "Ionian Sky Islands",
+                "suffix": "_dim59",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 68,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 60,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 60,
+            "dimensiontype": {
+                "id": 60,
+                "name": "Europan Caves",
+                "suffix": "_dim60",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 61,
+            "dimensiontype": {
+                "id": 61,
+                "name": "Europa",
+                "suffix": "_dim61",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 42500,
+                "NightLength": 42500,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 62,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 62,
+            "dimensiontype": {
+                "id": 62,
+                "name": "Europan Sky Islands",
+                "suffix": "_dim62",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "sky_teleport": {
+                "dimension": 65,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 61,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 63,
+            "dimensiontype": {
+                "id": 63,
+                "name": "Ganymede Caves",
+                "suffix": "_dim63",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 64,
+            "dimensiontype": {
+                "id": 64,
+                "name": "Ganymede",
+                "suffix": "_dim64",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 23186,
+                "NightLength": 23186,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 65,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 65,
+            "dimensiontype": {
+                "id": 65,
+                "name": "Ganymede Sky Islands",
+                "suffix": "_dim65",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 68,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 64,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 66,
+            "dimensiontype": {
+                "id": 66,
+                "name": "Callisto Caves",
+                "suffix": "_dim66",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 67,
+            "dimensiontype": {
+                "id": 67,
+                "name": "Callisto",
+                "suffix": "_dim67",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 54345,
+                "NightLength": 54345,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 68,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 68,
+            "dimensiontype": {
+                "id": 68,
+                "name": "Callisto Sky Islands",
+                "suffix": "_dim68",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "sky_teleport": {
+                "dimension": 71,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 67,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 69,
+            "dimensiontype": {
+                "id": 69,
+                "name": "Vesta Caves",
+                "suffix": "_dim69",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 70,
+            "dimensiontype": {
+                "id": 70,
+                "name": "Vesta",
+                "suffix": "_dim70",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 17360,
+                "NightLength": 17360,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 71,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 71,
+            "dimensiontype": {
+                "id": 71,
+                "name": "Outer Asteroid Belt",
+                "suffix": "_dim71",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": false,
+                "sky_teleport": {
+                "dimension": 74,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 70,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 72,
+            "dimensiontype": {
+                "id": 72,
+                "name": "Venusian Caves",
+                "suffix": "_dim72",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e5c853",
+                "FogColor": "c5ac0a",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": false
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 73,
+            "dimensiontype": {
+                "id": 73,
+                "name": "Venus",
+                "suffix": "_dim73",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "CustomDayCycle": true,
+                "DayLength": 790800,
+                "NightLength": 790800,
+                "SkyDisableFlags": 2,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 256,
+                "SkyColor": "e5c853",
+                "FogColor": "c5ac0a",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": true,
+                "DontAdvanceWeatherWhenSleeping": true,
+                "sky_teleport": {
+                "dimension": 74,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "raining": 1,
+                "thundering": 1,
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 74,
+            "dimensiontype": {
+                "id": 74,
+                "name": "Venusian Sky Islands",
+                "suffix": "_dim74",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "e5c853",
+                "FogColor": "c5ac0a",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": true,
+                "sky_teleport": {
+                "dimension": 2,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 73,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false,
+                "raining": 0
+                }
+            }
+        }
+    ]
+}

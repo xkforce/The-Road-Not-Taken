@@ -1,0 +1,7 @@
+{
+  "name": "Bronze Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRONZE",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-juniperrailebonyrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-juniperrailebonyrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-juniperrailebonyrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-juniperrailebonyrung",
+      "y": 270
+    }
+  }
+}

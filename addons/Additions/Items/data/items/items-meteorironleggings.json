@@ -1,0 +1,7 @@
+{
+  "name": "Meteor Iron Leggings",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-METEORIRON",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

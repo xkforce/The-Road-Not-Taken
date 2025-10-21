@@ -1,0 +1,51 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:cherry_blossom_grove"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 50
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=white_anemone]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:plant_0[variant=cloverpatch]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=clover]",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:double_plant[half=lower,variant=syringa]",
+      "weight": 1
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=pink_daffoodil]",
+      "weight": 1
+    }
+  ]
+}

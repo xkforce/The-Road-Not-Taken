@@ -1,0 +1,7 @@
+{
+  "name": "Topaz Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TOPAZ",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

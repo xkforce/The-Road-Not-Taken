@@ -1,0 +1,7 @@
+{
+  "name": "Zircon Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-zirconarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

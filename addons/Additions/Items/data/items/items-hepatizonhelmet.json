@@ -1,0 +1,7 @@
+{
+  "name": "Hepatizon Helmet",
+  "max_stack": 1,
+  "material": "additions-items-hepatizonarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

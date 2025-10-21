@@ -1,0 +1,7 @@
+{
+  "name": "Hepatizon Boots",
+  "max_stack": 1,
+  "material": "additions-items-hepatizonarmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Pants with one pocket",
+  "max_stack": 1,
+  "material": "additions-items-clothing",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

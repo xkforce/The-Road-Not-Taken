@@ -1,0 +1,23 @@
+{
+	"populate": {
+		"salt_flats_small": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "additions:blocks-salt",
+				"material": [
+					"minecraft:sand"				],
+				"use-material": true
+			},
+			"cluster-count": 8,
+			"chunk-chance": 40,
+			"min-height": 50,
+			"max-height": 80,
+			"material": [
+					"minecraft:sand"
+                        ],
+			"enabled": true		
+        }
+	}
+} 

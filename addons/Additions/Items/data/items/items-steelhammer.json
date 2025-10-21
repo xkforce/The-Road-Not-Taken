@@ -1,0 +1,23 @@
+{
+  "name": "Steel Hammer",
+  "max_stack": 1,
+  "durability": 626,
+  "harvest_level": 3,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 7.0,
+  "enchantability": 14,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:steel",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "pickaxe"
+  ],
+  "type": "additions:multitool"
+}

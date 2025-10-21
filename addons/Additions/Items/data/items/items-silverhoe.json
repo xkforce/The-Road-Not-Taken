@@ -1,0 +1,6 @@
+{
+  "name": "Silver Hoe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVERTOOLS",
+  "type": "additions:hoe"
+}

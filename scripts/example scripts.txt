@@ -1,0 +1,116 @@
+//written by kindlich  https://gist.github.com/kindlich/473dd6b168a99a35b2c4e91afbb13ce9
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.recipes.IRecipeFunction;
+import crafttweaker.data.IData;
+
+
+val recipes as IData[IIngredient[]] = {
+	//[Brush, dyeIngredient] : [repairValue, maxDyeCount]
+	//[Brush, dyeIngredient] : repairValue
+	[<minecraft:iron_pickaxe>, <ore:dyeRed>] : [10, 3],
+	[<minecraft:iron_pickaxe>, <minecraft:gold_ingot>] : 15
+};
+
+
+var recipeNo = 0;
+for recipe, data in recipes {
+	if(recipe.length == 2 & recipe[0] instanceof IItemStack) {
+		val brush as IItemStack = recipe[0];
+		var maxDyeCount = 8;
+		var repairValue as int;
+		if(data.length == 2) {
+			maxDyeCount = data[1].asInt();
+			repairValue = data[0].asInt();
+		} else {
+			repairValue = data.asInt();
+		}
+		generateRecipe(brush, recipe[1], repairValue, recipeNo, maxDyeCount);
+		recipeNo += 1;
+	}
+}
+
+
+function calcNewDamage(map as IItemStack[string]) as int {
+	var newDamage = map.mark.damage;
+	for key, value in map {
+		if("mark" != key) {
+			newDamage -= key.split("↔")[1] as int;
+		}
+	}
+	return newDamage;
+}
+
+
+function generateRecipe(brush as IItemStack, dye as IIngredient, value as int, recipeNo as int, maxDyeCount as int) as void {
+	var ingredients as IIngredient[] = [brush.anyDamage().marked("mark")];
+	val recipeFunction as IRecipeFunction = function(out, ins, cInfo) {return ins.mark.withDamage(max(0, calcNewDamage(ins)));};
+	for i in 0 .. maxDyeCount {
+		ingredients += dye.marked(i ~ "↔" ~ value as string);
+		recipes.addShapeless("brushRecipe" ~ recipeNo ~ "_" ~ i, brush, ingredients, recipeFunction, null);
+	}
+
+} 
+
+
+
+//unknown author    https://pastebin.com/h4PW69ji
+recipes.addShapeless(<bloodmagic:ItemSoulGem:0>, [<bloodmagic:ItemSoulGem:0>.marked("gem")], function(outputs, inputs, crafting) {
+  var will = inputs.gem.tag.souls + 1;
+  return <bloodmagic:ItemSoulGem:0>.withTag({souls: will});
+});
+
+
+//fluids
+#loader contenttweaker
+#modloaded contenttweaker
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
+
+var whitedyedwater = VanillaFactory.createFluid("whitedyedwater", Color.fromHex("FFFFFF"));
+whitedyedwater.material = <blockmaterial:Lava>;
+whitedyedwater.stillLocation = "contenttweaker:fluids/whitedyedwater";
+whitedyedwater.flowingLocation = "contenttweaker:fluids/whitedyedwater_flow";
+whitedyedwater.register(); 
+
+example by Karnepae for adding the same tooltip to an array of items
+val Farms = [
+<forestry:arboretum:*>,
+<forestry:farm_crops:*>,
+<forestry:farm_ender:*>,
+<forestry:farm_gourd:*>,
+<forestry:farm_mushroom:*>,
+<forestry:farm_nether:*>,
+<forestry:peat_bog:*>
+] as IItemStack[];
+for item in Farms{item.addTooltip(format.darkGreen("Module 9: Cultivation"));}
+
+//groovyscript
+//script by WaitingIdly
+import net.minecraftforge.fml.common.registry.VillagerRegistry
+import mod.reborn.server.world.structure.GeneticistVillagerHouse
+
+VillagerRegistry.metaClass.makePublic('villageCreationHandlers')
+VillagerRegistry.instance().villageCreationHandlers.remove(GeneticistVillagerHouse.class) // might be able to skip the ".class"?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

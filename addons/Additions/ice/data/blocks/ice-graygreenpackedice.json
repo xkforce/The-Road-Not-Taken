@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "Gray Green Packed Ice",
+    "type": "additions:block_simple"
+  },
+  "name": "Gray Green Packed Ice",
+  "material": "minecraft:ice",
+  "hardness": 0.5,
+  "resistance": 2.5,
+  "effective_tools": "pickaxe",
+  "slipperiness": 0.98,
+  "type": "additions:simple"
+}

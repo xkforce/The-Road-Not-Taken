@@ -1,0 +1,58 @@
+// DO NOT EDIT!
+[
+    {
+        "allowMissing": true,
+        "blockId": [
+            "charm:gold_lantern",
+            "charm:iron_lantern",
+            "charm:rune_portal_frame"
+        ]
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "states": {"level": 0}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 3},
+        "states": {"level": 1}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 5},
+        "states": {"level": 2}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 7},
+        "states": {"level": 3}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 9},
+        "states": {"level": 4}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 11},
+        "states": {"level": 5}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 13},
+        "states": {"level": 6}
+    },
+    {
+        "allowMissing": true,
+        "blockId": "charm:composter",
+        "boxes": {"min": 0, "max": 15},
+        "states": {"level": [7, 8]}
+    }
+]

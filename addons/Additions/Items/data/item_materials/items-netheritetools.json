@@ -1,0 +1,10 @@
+{
+  "enchantability": 15,
+  "harvest_level": 3,
+  "base_tool_durability": 2031,
+  "efficiency": 9.0,
+  "base_attack_damage": 4.0,
+  "repair_item": "futuremc:netherite_ingot",
+  "repair_meta": 32767,
+  "type": "tool"
+}

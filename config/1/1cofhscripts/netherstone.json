@@ -1,0 +1,126 @@
+{
+	"populate": {
+		"brownporphyry": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-brownporphyry"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"foolsgold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-foolsgold"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"netherjasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-netherjasper"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"orangenetherrack": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangenetherrack"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"redporphyry": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-redporphyry"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"yellownetherrack": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-yellownetherrack"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		},
+		"yellowporphyry": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-yellowporphyry"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

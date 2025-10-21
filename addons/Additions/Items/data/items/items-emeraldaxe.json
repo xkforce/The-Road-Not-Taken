@@ -1,0 +1,6 @@
+{
+  "name": "Emerald Axe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-EMERALDTOOLS",
+  "type": "additions:axe"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Silver Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVER",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

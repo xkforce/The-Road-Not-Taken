@@ -1,0 +1,14 @@
+{
+  "name": "Chocolate Diamond Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "91a37c80-e60e-4169-9358-5a0ccd734ac2"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-CHOCOLATEDIAMOND",
+  "type": "additions:sword"
+}

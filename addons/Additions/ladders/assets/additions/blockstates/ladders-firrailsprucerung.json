@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-firrailsprucerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-firrailsprucerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-firrailsprucerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-firrailsprucerung",
+      "y": 270
+    }
+  }
+}

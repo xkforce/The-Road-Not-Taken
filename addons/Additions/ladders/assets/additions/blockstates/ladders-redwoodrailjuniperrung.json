@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-redwoodrailjuniperrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-redwoodrailjuniperrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-redwoodrailjuniperrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-redwoodrailjuniperrung",
+      "y": 270
+    }
+  }
+}

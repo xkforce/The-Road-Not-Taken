@@ -1,0 +1,23 @@
+{
+  "name": "Meteor Iron Hammer",
+  "max_stack": 1,
+  "durability": 250,
+  "harvest_level": 2,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 6.0,
+  "enchantability": 14,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:meteoriron",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "pickaxe"
+  ],
+  "type": "additions:multitool"
+}

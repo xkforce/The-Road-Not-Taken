@@ -1,0 +1,50 @@
+{
+	"populate": {
+		"obsidianvolcanolavalakes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:lava",
+				"material": [
+							"minecraft:obsidian",
+							"additions:blocks-blueobsidian",
+							"additions:blocks-brownobsidian",
+							"additions:blocks-cyanobsidian",
+							"additions:blocks-grayobsidian",
+							"additions:blocks-greenobsidian",
+							"additions:blocks-yellowobsidian",
+							"additions:blocks-whiteobsidian",
+							"additions:blocks-lightblueobsidian",
+							"additions:blocks-lightgrayobsidian",
+							"additions:blocks-limegreenobsidian",
+							"additions:blocks-magentaobsidian",
+							"additions:blocks-orangeobsidian",
+							"additions:blocks-pinkobsidian",
+							"additions:blocks-purpleobsidian",
+							"additions:blocks-redobsidian"
+							],
+				"use-material": true,
+				"outline-block": [
+					"minecraft:obsidian"
+				]
+			},
+			"cluster-count": 5,
+			"chunk-chance": 10,
+			"min-height": 1,
+			"max-height": 255,
+			"follow-terrain": false,
+			"enabled": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+                        "biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			}
+		}
+	}
+}

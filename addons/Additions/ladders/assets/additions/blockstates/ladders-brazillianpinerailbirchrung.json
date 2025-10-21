@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-brazillianpinerailbirchrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-brazillianpinerailbirchrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-brazillianpinerailbirchrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-brazillianpinerailbirchrung",
+      "y": 270
+    }
+  }
+}

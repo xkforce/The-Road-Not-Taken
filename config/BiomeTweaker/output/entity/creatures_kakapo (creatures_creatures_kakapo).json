@@ -1,0 +1,6 @@
+
+{
+  "Name": "creatures_kakapo",
+  "Registry ID": "creatures:creatures_kakapo",
+  "Class": "com.creatures.afrikinzi.entity.kakapo.EntityKakapo"
+}

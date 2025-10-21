@@ -1,0 +1,14 @@
+{
+  "name": "Steel Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "004a1316-bdbe-4283-bf7e-60d17fe146f0"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-STEELTOOLS",
+  "type": "additions:sword"
+}

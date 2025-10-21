@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-willowrailsprucerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-willowrailsprucerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-willowrailsprucerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-willowrailsprucerung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Emerald Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-EMERALD",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

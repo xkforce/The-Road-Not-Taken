@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-acaciarailjunglerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-acaciarailjunglerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-acaciarailjunglerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-acaciarailjunglerung",
+      "y": 270
+    }
+  }
+}

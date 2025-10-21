@@ -1,0 +1,6 @@
+
+{
+  "Name": "zawa.AnimalTrader",
+  "Registry ID": "zawa:animaltrader",
+  "Class": "org.zawamod.entity.npc.EntityAnimalTrader"
+}

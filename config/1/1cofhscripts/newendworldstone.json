@@ -1,0 +1,188 @@
+{
+	"populate": {
+		"blueendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-blueendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"greenendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-greenendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"lightblueendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-lightblueendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"orangeendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-orangeendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"pinkendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-pinkendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"purpleendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-purpleendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"redendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-redendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		},
+		"whiteendstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "additions:blocks-whiteendstone"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 255,
+			"enabled": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					2,3,4,5,6,7
+				]
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

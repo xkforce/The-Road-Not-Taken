@@ -1,0 +1,6 @@
+{
+  "name": "Chocolate Diamond Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CHOCOLATEDIAMOND",
+  "type": "additions:shovel"
+}

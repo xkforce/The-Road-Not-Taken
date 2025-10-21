@@ -1,0 +1,6 @@
+{
+  "name": "Tin Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TINTOOLS",
+  "type": "additions:pickaxe"
+}

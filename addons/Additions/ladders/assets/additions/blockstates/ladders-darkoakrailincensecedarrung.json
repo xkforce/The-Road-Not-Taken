@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-darkoakrailincensecedarrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-darkoakrailincensecedarrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-darkoakrailincensecedarrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-darkoakrailincensecedarrung",
+      "y": 270
+    }
+  }
+}

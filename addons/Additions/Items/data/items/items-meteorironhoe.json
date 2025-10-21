@@ -1,0 +1,6 @@
+{
+  "name": "Meteor Iron Hoe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-METEORIRONTOOLS",
+  "type": "additions:hoe"
+}

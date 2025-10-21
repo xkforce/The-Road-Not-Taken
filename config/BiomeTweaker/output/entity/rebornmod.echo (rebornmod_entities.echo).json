@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.echo",
+  "Registry ID": "rebornmod:entities.echo",
+  "Class": "mod.reborn.server.entity.dinosaur.VelociraptorEchoEntity"
+}

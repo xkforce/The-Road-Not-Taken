@@ -1,0 +1,116 @@
+// DO NOT EDIT!
+[
+    {
+        "blockId": [
+            "erebus:altar_base",
+            "erebus:altar_healing",
+            "erebus:altar_lightning",
+            "erebus:altar_repair",
+            "erebus:altar_xp"
+        ],
+        "boxes": [{"min": 0, "max": 2}, {"min": 14, "max": 16}],
+        "canFluidFlow": ["north", "south", "east", "west"]
+    },
+    {
+        "blockId": [
+            "erebus:altar_offering",
+            "erebus:antlion_egg",
+            "erebus:bamboo_bridge",
+            "erebus:bamboo_crate",
+            "erebus:bamboo_extender",
+            "erebus:bamboo_nerd_pole",
+            "erebus:bamboo_pipe",
+            "erebus:bamboo_pipe_extract",
+            "erebus:bamboo_pipe_extract_active",
+            "erebus:composter",
+            "erebus:block_of_bones",
+            "erebus:fence_asper",
+            "erebus:fence_balsam",
+            "erebus:fence_bamboo",
+            "erebus:fence_baobab",
+            "erebus:fence_cypress",
+            "erebus:fence_eucalyptus",
+            "erebus:fence_gate_asper",
+            "erebus:fence_gate_balsam",
+            "erebus:fence_gate_bamboo",
+            "erebus:fence_gate_baobab",
+            "erebus:fence_gate_cypress",
+            "erebus:fence_gate_eucalyptus",
+            "erebus:fence_gate_mahogany",
+            "erebus:fence_gate_marshwood",
+            "erebus:fence_gate_mossbark",
+            "erebus:fence_gate_rotten",
+            "erebus:fence_gate_scorched",
+            "erebus:fence_gate_varnished",
+            "erebus:fence_gate_white",
+            "erebus:fence_mahogany",
+            "erebus:fence_marshwood",
+            "erebus:fence_mossbark",
+            "erebus:fence_rotten",
+            "erebus:fence_scorched",
+            "erebus:fence_varnished",
+            "erebus:fence_white",
+            "erebus:fluid_jar",
+            "erebus:glow_gem_active",
+            "erebus:glow_gem_inactive",
+            "erebus:glowing_jar",
+            "erebus:glowshroom",
+            "erebus:hollow_log",
+            "erebus:petrified_wood_chest",
+            "erebus:silo_tank",
+            "erebus:tarantula_egg",
+            "erebus:umber_golem_statue",
+            "erebus:wall_plants_cultivated",
+            "erebus:wall_plants"
+        ],
+        "canFluidFlow": true
+    },
+    {
+        "blockId": "erebus:gaean_keystone",
+        "boxes": {"min": 0, "max": 13},
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": "erebus:silo_roof",
+        "boxes": {"min": 0, "max": 2},
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": "erebus:silo_supports",
+        "boxes": {"min": 14, "max": 16},
+        "canFluidFlow": ["down", "north", "south", "east", "west"]
+    },
+    {
+        "blockId": [
+            "erebus:slab_amber_bricks",
+            "erebus:slab_amber",
+            "erebus:slab_mir_bricks",
+            "erebus:slab_mud_bricks",
+            "erebus:slab_planks_asper",
+            "erebus:slab_planks_balsam",
+            "erebus:slab_planks_bamboo",
+            "erebus:slab_planks_baobab",
+            "erebus:slab_planks_cypress",
+            "erebus:slab_planks_eucalyptus",
+            "erebus:slab_planks_mahogany",
+            "erebus:slab_planks_marshwood",
+            "erebus:slab_planks_mossbark",
+            "erebus:slab_planks_petrified_wood",
+            "erebus:slab_planks_rotten",
+            "erebus:slab_planks_scorched",
+            "erebus:slab_planks_varnished",
+            "erebus:slab_planks_white",
+            "erebus:slab_umbercobble_mossy",
+            "erebus:slab_umbercobble_webbed",
+            "erebus:slab_umbercobble",
+            "erebus:slab_umberpaver_mossy",
+            "erebus:slab_umberpaver_webbed",
+            "erebus:slab_umberpaver",
+            "erebus:slab_umberstone_bricks",
+            "erebus:slab_umberstone",
+            "erebus:slab_umbertile_smooth_small",
+            "erebus:slab_umbertile_smooth"
+        ],
+        "states": {"half": ["bottom", "top"]}
+    }
+]

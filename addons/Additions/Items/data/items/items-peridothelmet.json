@@ -1,0 +1,7 @@
+{
+  "name": "Peridot Helmet",
+  "max_stack": 1,
+  "material": "additions-items-peridotarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

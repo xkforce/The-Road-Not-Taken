@@ -1,0 +1,7 @@
+{
+  "name": "Meteor Iron Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-METEORIRON",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}
