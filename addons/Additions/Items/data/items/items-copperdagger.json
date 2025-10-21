@@ -1,0 +1,14 @@
+{
+  "name": "Copper Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "e6a44823-e12d-4819-8d78-842bdac88c27"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-COPPERTOOLS",
+  "type": "additions:sword"
+}

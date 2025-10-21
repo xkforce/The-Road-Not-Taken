@@ -1,0 +1,7 @@
+{
+  "name": "Gold Chainmail Helmet",
+  "max_stack": 1,
+  "material": "additions-items-goldchainmail",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

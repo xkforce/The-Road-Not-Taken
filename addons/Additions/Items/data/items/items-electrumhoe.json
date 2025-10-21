@@ -1,0 +1,6 @@
+{
+  "name": "Electrum Hoe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ELECTRUMTOOLS",
+  "type": "additions:hoe"
+}

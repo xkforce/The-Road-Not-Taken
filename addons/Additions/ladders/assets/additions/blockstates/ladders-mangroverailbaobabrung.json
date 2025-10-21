@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mangroverailbaobabrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mangroverailbaobabrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mangroverailbaobabrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mangroverailbaobabrung",
+      "y": 270
+    }
+  }
+}

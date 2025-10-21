@@ -1,0 +1,28 @@
+{
+  "name": "Netherite Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "0b74da33-889a-4a25-8ac2-3ff4b0f07314"
+    }
+  ],
+  "durability": 2031,
+  "harvest_level": 3,
+  "harvest_radius_width": 0,
+  "harvest_depth": 0,
+  "efficiency": 9.0,
+  "enchantability": 15,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "minecraft:stone",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": "sword",
+  "type": "additions:multitool"
+}

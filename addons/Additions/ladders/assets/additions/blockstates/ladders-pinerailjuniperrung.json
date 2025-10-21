@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-pinerailjuniperrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-pinerailjuniperrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-pinerailjuniperrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-pinerailjuniperrung",
+      "y": 270
+    }
+  }
+}

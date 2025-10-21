@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mahoganyrailsprucerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mahoganyrailsprucerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mahoganyrailsprucerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mahoganyrailsprucerung",
+      "y": 270
+    }
+  }
+}

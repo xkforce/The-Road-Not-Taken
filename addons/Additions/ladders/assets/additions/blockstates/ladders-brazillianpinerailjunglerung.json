@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-brazillianpinerailjunglerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-brazillianpinerailjunglerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-brazillianpinerailjunglerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-brazillianpinerailjunglerung",
+      "y": 270
+    }
+  }
+}

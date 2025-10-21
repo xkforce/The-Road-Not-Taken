@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-incensecedarrailebonyrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-incensecedarrailebonyrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-incensecedarrailebonyrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-incensecedarrailebonyrung",
+      "y": 270
+    }
+  }
+}

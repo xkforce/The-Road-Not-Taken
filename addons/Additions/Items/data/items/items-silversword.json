@@ -1,0 +1,6 @@
+{
+  "name": "Silver Sword",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SILVERTOOLS",
+  "type": "additions:sword"
+}

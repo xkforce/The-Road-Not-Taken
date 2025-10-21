@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-mahoganyrailwillowrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-mahoganyrailwillowrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-mahoganyrailwillowrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-mahoganyrailwillowrung",
+      "y": 270
+    }
+  }
+}

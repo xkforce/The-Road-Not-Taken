@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-ebonyrailsprucerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-ebonyrailsprucerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-ebonyrailsprucerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-ebonyrailsprucerung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enchantability": 10,
+  "harvest_level": 3,
+  "base_tool_durability": 1561,
+  "efficiency": 8.0,
+  "base_attack_damage": 3.0,
+  "repair_item": "contenttweaker:blackdiamond",
+  "repair_meta": 32767,
+  "type": "tool"
+}

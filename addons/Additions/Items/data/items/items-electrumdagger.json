@@ -1,0 +1,14 @@
+{
+  "name": "Electrum Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "09a51afb-cf78-41d7-ad5f-2c04fa26bec3"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-ELECTRUMTOOLS",
+  "type": "additions:sword"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Electrum Hammer",
+  "max_stack": 1,
+  "durability": 60,
+  "harvest_level": 2,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 16.0,
+  "enchantability": 30,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:electrum",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "pickaxe"
+  ],
+  "type": "additions:multitool"
+}

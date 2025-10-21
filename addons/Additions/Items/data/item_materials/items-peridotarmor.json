@@ -1,0 +1,13 @@
+{
+  "enchantability": 10,
+  "base_armor_durability": 11,
+  "toughness": 0.0,
+  "helmet_armor": 1,
+  "chestplate_armor": 3,
+  "leggings_armor": 2,
+  "boots_armor": 1,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:peridot",
+  "repair_meta": 32767,
+  "type": "armor"
+}

@@ -1,0 +1,13 @@
+{
+  "enchantability": 0,
+  "base_armor_durability": 0,
+  "toughness": 0.0,
+  "helmet_armor": 0.1,
+  "chestplate_armor": 0.1,
+  "leggings_armor": 0.1,
+  "boots_armor": 0.1,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "minecraft:bedrock",
+  "repair_meta": 32767,
+  "type": "armor"
+}

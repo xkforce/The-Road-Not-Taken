@@ -1,0 +1,7 @@
+{
+  "name": "Black Diamond Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-blackdiamondarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

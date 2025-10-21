@@ -1,0 +1,10 @@
+{
+  "enchantability": 20,
+  "harvest_level": 2,
+  "base_tool_durability": 250,
+  "efficiency": 6.0,
+  "base_attack_damage": 2.0,
+  "repair_item": "contenttweaker:hepatizon",
+  "repair_meta": 32767,
+  "type": "tool"
+}

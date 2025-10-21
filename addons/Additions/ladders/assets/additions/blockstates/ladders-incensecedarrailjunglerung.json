@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-incensecedarrailjunglerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-incensecedarrailjunglerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-incensecedarrailjunglerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-incensecedarrailjunglerung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Tin Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "5e1cace1-60b3-4869-a406-17bd4af94ec9"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-TINTOOLS",
+  "type": "additions:sword"
+}

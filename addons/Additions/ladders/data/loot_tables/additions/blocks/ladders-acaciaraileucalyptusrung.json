@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:ladders-acaciaraileucalyptusrung",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:ladders-acaciaraileucalyptusrung"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

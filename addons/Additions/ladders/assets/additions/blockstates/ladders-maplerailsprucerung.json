@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-maplerailsprucerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-maplerailsprucerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-maplerailsprucerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-maplerailsprucerung",
+      "y": 270
+    }
+  }
+}

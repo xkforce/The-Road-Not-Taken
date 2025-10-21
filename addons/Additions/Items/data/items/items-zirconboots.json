@@ -1,0 +1,7 @@
+{
+  "name": "Zircon Boots",
+  "max_stack": 1,
+  "material": "additions-items-zirconarmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

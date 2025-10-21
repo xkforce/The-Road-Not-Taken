@@ -1,0 +1,7 @@
+{
+  "name": "Emerald Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-EMERALD",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

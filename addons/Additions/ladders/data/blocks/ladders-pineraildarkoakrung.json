@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "Ladder",
+    "burn_time": 30,
+    "type": "additions:block_ladder"
+  },
+  "name": "Ladder",
+  "material": "minecraft:wood",
+  "place_sound": "minecraft:block.ladder.place",
+  "break_sound": "minecraft:block.ladder.break",
+  "hit_sound": "minecraft:block.ladder.hit",
+  "step_sound": "minecraft:block.ladder.step",
+  "fall_sound": "minecraft:block.ladder.fall",
+  "hardness": 0.4,
+  "resistance": 0.4,
+  "effective_tools": "axe",
+  "light_opacity": 0,
+  "can_pistons_push": false,
+  "type": "additions:ladder"
+}

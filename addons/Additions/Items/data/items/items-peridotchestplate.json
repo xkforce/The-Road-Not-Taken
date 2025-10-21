@@ -1,0 +1,7 @@
+{
+  "name": "Peridot Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-peridotarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-cherryrailcottonwoodrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-cherryrailcottonwoodrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-cherryrailcottonwoodrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-cherryrailcottonwoodrung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Topaz Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "b8bde6cc-8ce3-4be2-9b6e-3136aa29c020"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-TOPAZTOOLS",
+  "type": "additions:sword"
+}

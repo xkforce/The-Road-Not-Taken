@@ -1,0 +1,6 @@
+{
+  "name": "Citrine Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CITRINETOOLS",
+  "type": "additions:shovel"
+}

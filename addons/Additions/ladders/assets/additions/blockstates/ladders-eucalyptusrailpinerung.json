@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-eucalyptusrailpinerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-eucalyptusrailpinerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-eucalyptusrailpinerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-eucalyptusrailpinerung",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Moonstone Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "type": "additions:pickaxe"
+}

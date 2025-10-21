@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-bambooladder"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-bambooladder",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-bambooladder",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-bambooladder",
+      "y": 270
+    }
+  }
+}

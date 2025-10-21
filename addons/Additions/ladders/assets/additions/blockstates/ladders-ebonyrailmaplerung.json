@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-ebonyrailmaplerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-ebonyrailmaplerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-ebonyrailmaplerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-ebonyrailmaplerung",
+      "y": 270
+    }
+  }
+}

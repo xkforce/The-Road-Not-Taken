@@ -1,0 +1,6 @@
+{
+  "name": "Iridium Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-IRIDIUMTOOLS",
+  "type": "additions:pickaxe"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sapphire Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "97367542-1d8d-4c30-923d-3c445d23be88"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-SAPPHIRETOOLS",
+  "type": "additions:sword"
+}

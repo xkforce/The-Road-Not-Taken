@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-sugirailpinerung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-sugirailpinerung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-sugirailpinerung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-sugirailpinerung",
+      "y": 270
+    }
+  }
+}

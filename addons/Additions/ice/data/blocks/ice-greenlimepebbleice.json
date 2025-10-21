@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "Green Lime Pebble Ice",
+    "type": "additions:block_simple"
+  },
+  "name": "Green Lime Pebble Ice",
+  "material": "minecraft:ice",
+  "hardness": 0.5,
+  "resistance": 0.5,
+  "effective_tools": "shovel",
+  "light_opacity": 3,
+  "slipperiness": 0.98,
+  "semi_transparent": true,
+  "type": "additions:falling"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Peridot Leggings",
+  "max_stack": 1,
+  "material": "additions-items-peridotarmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

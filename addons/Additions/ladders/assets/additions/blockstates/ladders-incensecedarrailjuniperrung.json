@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-incensecedarrailjuniperrung"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-incensecedarrailjuniperrung",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-incensecedarrailjuniperrung",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-incensecedarrailjuniperrung",
+      "y": 270
+    }
+  }
+}

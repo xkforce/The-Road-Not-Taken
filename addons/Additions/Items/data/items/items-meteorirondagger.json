@@ -1,0 +1,14 @@
+{
+  "name": "Meteor Iron Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "e1721b97-d51f-4cf4-be13-36495c8955fd"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-METEORIRONTOOLS",
+  "type": "additions:sword"
+}

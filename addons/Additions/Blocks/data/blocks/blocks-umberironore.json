@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "Iron Ore",
+    "type": "additions:block_simple"
+  },
+  "name": "Iron Ore",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 3.0,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 14,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

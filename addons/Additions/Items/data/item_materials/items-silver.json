@@ -1,0 +1,13 @@
+{
+  "enchantability": 22,
+  "base_armor_durability": 8,
+  "toughness": 0.0,
+  "helmet_armor": 2,
+  "chestplate_armor": 5,
+  "leggings_armor": 3,
+  "boots_armor": 1,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:silver",
+  "repair_meta": 32767,
+  "type": "armor"
+}

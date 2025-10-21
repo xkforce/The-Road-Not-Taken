@@ -1,0 +1,14 @@
+{
+  "name": "Iridium Dagger",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.reachDistance",
+      "amount": -2.0,
+      "slot": "mainhand",
+      "uuid": "810a6a36-aa55-4040-8d10-20353fa8fc1e"
+    }
+  ],
+  "material": "ADDITIONS-ITEMS-IRIDIUMTOOLS",
+  "type": "additions:sword"
+}
