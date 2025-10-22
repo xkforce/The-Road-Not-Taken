@@ -1,0 +1,22 @@
+{
+  "max_health": 18.0,
+  "damage": 3.0,
+  "variants": 10,
+  "diet": "PARROT",
+  "kibble": "zawa:bird_kibble",
+  "vial": "zawa:bird_vial",
+  "nature": "PROVOKED",
+  "activity": "NORMAL",
+  "mc_speed": 0.2,
+  "speed": 1.5,
+  "drops": [
+    {
+      "item": "zawa:bird_meat",
+      "cooked_item": "zawa:bird_meat_cooked"
+    },
+    {
+      "item": "minecraft:feather",
+      "max": 2
+    }
+  ]
+}

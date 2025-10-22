@@ -1,0 +1,19 @@
+{
+  "max_health": 6.0,
+  "damage": 1.0,
+  "variants": 1,
+  "diet": "OMNIVORE",
+  "kibble": "zawa:canine_kibble",
+  "vial": "zawa:canine_vial",
+  "nature": "PROVOKED",
+  "activity": "ACTIVE",
+  "mc_speed": 0.29,
+  "speed": 1.0,
+  "flee_speed": 1.5,
+  "drops": [
+    {
+      "item": "zawa:rat_raw",
+      "cooked_item": "zawa:rat_cooked"
+    }
+  ]
+}

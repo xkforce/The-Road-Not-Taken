@@ -1,0 +1,17 @@
+{
+  "max_health": 7.0,
+  "variants": 3,
+  "diet": "INSECTIVORE",
+  "kibble": "zawa:frog_kibble",
+  "vial": "zawa:frog_vial",
+  "nature": "NEUTRAL",
+  "activity": "CALM",
+  "mc_speed": 0.29,
+  "speed": 1.0,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    }
+  ]
+}

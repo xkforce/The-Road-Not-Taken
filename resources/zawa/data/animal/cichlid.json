@@ -1,0 +1,15 @@
+{
+  "max_health": 5.0,
+  "variants": 5,
+  "nature": "NEUTRAL",
+  "activity": "LAZY",
+  "mc_speed": 0.1,
+  "speed": 0.3,
+  "jump_upwards_motion": 1.02,
+  "drops": [
+    {
+      "item": "zawa:raw_cichlid",
+      "cooked_item": "zawa:cooked_cichlid"
+    }
+  ]
+}

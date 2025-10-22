@@ -1,0 +1,10 @@
+{
+  "max_health": 15.0,
+  "variants": 7,
+  "diet": "PISCIVORE",
+  "kibble": "zawa:shark_kibble",
+  "vial": "zawa:shark_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "speed": 0.4
+}

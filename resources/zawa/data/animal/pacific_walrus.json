@@ -1,0 +1,24 @@
+{
+  "max_health": 35.0,
+  "variants": 4,
+  "diet": "SHELLFISH",
+  "kibble": "zawa:pinniped_kibble",
+  "vial": "zawa:pinniped_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "mc_speed": 0.16,
+  "speed": 1.0,
+  "damage": 10.0,
+  "jump_upwards_motion": 1.02,
+  "transportable": true,
+  "drops": [
+    {
+      "item": "zawa:blubber",
+      "max": 5
+    }
+  ],
+  "targets": [
+    "zawa:bluefish",
+    "zawa:sockeyesalmon"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "max_health": 36.0,
+  "variants": 4,
+  "damage": 3.0,
+  "diet": "PISCIVORE",
+  "kibble": "zawa:crocodile_kibble",
+  "vial": "zawa:crocodile_vial",
+  "nature": "PROTECTIVE",
+  "activity": "LAZY",
+  "water_breathing": true,
+  "mc_speed": 0.13,
+  "speed": 1.35,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked",
+      "max": 3
+    },
+    {
+      "item": "zawa:reptile_hide",
+      "max": 2
+    }
+  ],
+  "targets": [
+    "zawa:bluefish",
+    "zawa:cichlid",
+    "zawa:marinetang",
+    "zawa:treefrog",
+    "zawa:japanesegiantsalamander",
+    "zawa:brownrat"
+  ]
+}

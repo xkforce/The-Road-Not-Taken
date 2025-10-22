@@ -1,0 +1,19 @@
+{
+  "max_health": 4.0,
+  "variants": 11,
+  "kibble": "minecraft:slimeball",
+  "vial": "zawa:frog_vial",
+  "nature": "NEUTRAL",
+  "damage": 8.0,
+  "activity": "HASTY",
+  "mc_speed": 0.29,
+  "speed": 0.1,
+  "transportable": false,
+  "water_breathing": true,
+  "drops": [
+    {
+      "item": "zawa:raw_frog_leg",
+      "cooked_item": "zawa:cooked_frog_leg"
+    }
+  ]
+}

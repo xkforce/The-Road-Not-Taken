@@ -1,0 +1,35 @@
+{
+  "max_health": 35.0,
+  "damage": 7.0,
+  "variants": 6,
+  "diet": "LARGE_CARNIVORE",
+  "kibble": "zawa:big_cat_kibble",
+  "vial": "zawa:bigcat_vial",
+  "nature": "AGGRESSIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.28,
+  "speed": 1.1,
+  "drops": [
+    {
+      "item": "zawa:carnivore_meat_raw",
+      "cooked_item": "zawa:carnivore_meat_cooked",
+      "max": 2
+    },
+    {
+      "item": "zawa:thick_fur",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "minecraft:villager",
+    "zawa:grevyszebra",
+    "zawa:reticulatedgiraffe",
+    "zawa:nilehippo",
+    "zawa:pygmyhippo",
+    "minecraft:wolf",
+    "minecraft:sheep",
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:pig"
+  ]
+}

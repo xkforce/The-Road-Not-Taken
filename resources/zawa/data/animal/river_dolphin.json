@@ -1,0 +1,26 @@
+{
+  "max_health": 31.0,
+  "variants": 4,
+  "diet": "PISCIVORE",
+  "kibble": "zawa:whale_kibble",
+  "vial": "zawa:whale_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "mc_speed": 0.19,
+  "speed": 1.0,
+  "jump_upwards_motion": 1.02,
+  "drops": [
+    {
+      "item": "zawa:cetacean_meat_raw",
+      "cooked_item": "zawa:cetacean_meat_cooked"
+    },
+    {
+      "item": "zawa:blubber",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "zawa:bluefish",
+    "zawa:cichlid"
+  ]
+}

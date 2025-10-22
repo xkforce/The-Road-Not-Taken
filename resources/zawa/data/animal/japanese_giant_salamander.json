@@ -1,0 +1,26 @@
+{
+  "max_health": 21.0,
+  "damage": 7.0,
+  "variants": 4,
+  "diet": "PISCIVORE",
+  "kibble": "zawa:crocodile_kibble",
+  "vial": "zawa:crocodile_vial",
+  "nature": "NEUTRAL",
+  "activity": "LAZY",
+  "mc_speed": 0.29,
+  "speed": 0.6,
+  "water_breathing": true,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    },
+    {
+      "item": "zawa:toxin_sac"
+    }
+  ],
+"targets": [
+    "zawa:bluefish",
+    "zawa:cichlid"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "max_health": 10.0,
+  "variants": 6,
+  "diet": "SMALL_CARNIVORE",
+  "kibble": "zawa:snake_kibble",
+  "vial": "zawa:snake_vial",
+  "nature": "PROTECTIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.29,
+  "damage": 6.0,
+  "speed": 0.8,
+  "swimming": false,
+  "water_breathing": true,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    }
+  ],
+  "targets": [
+    "zawa:brownrat"
+  ]
+}

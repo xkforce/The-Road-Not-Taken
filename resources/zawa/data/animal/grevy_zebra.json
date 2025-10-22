@@ -1,0 +1,19 @@
+{
+  "max_health": 34.0,
+  "variants": 4,
+  "diet": "GRAZER",
+  "kibble": "zawa:unglate_kibble",
+  "vial": "zawa:unglate_vial",
+  "nature": "PROTECTIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.28,
+  "speed": 1.1,
+  "controllable": true,
+ "drops": [
+    {
+      "item": "zawa:large_meat_raw",
+      "cooked_item": "zawa:large_meat_cooked",
+      "max": 2
+    }
+  ]
+}

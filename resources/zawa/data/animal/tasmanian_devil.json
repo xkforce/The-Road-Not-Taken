@@ -1,0 +1,25 @@
+{
+  "max_health": 18.0,
+  "variants": 3,
+  "diet": "SCAVENGER",
+  "kibble": "zawa:canine_kibble",
+  "vial": "zawa:canine_vial",
+  "nature": "PROTECTIVE",
+  "activity": "CALM",
+  "mc_speed": 0.29,
+  "damage": 3.0,
+  "speed": 1.0,
+  "drops": [
+    {
+      "item": "contenttweaker:rawtasmaniandevil",
+      "cooked_item": "contenttweaker:cookedtasmaniandevil"
+    }
+  ],
+  "targets": [
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "zawa:brownrat"
+  ]
+}

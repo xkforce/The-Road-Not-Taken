@@ -1,0 +1,29 @@
+{
+  "max_health": 75.0,
+  "variants": 5,
+  "diet": "PISCIVORE",
+  "kibble": "zawa:whale_kibble",
+  "vial": "zawa:whale_vial",
+  "nature": "PROTECTIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.19,
+  "speed": 1.0,
+  "damage": 10.0,
+  "jump_upwards_motion": 1.02,
+  "drops": [
+    {
+      "item": "zawa:cetacean_meat_raw",
+      "cooked_item": "zawa:cetacean_meat_cooked",
+      "max": 5
+    },
+    {
+      "item": "zawa:blubber",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "zawa:pacificwalrus",
+    "zawa:bluefish",
+    "minecraft:squid"
+  ]
+}

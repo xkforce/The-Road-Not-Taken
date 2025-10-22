@@ -1,0 +1,24 @@
+{
+  "max_health": 52.0,
+  "variants": 3,
+  "diet": "LEAF_EATER",
+  "kibble": "zawa:unglate_kibble",
+  "vial": "zawa:unglate_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "mc_speed": 0.26,
+  "speed": 1.0,
+  "controllable": true,
+  "transportable": false,
+  "drops": [
+    {
+      "item": "zawa:bush_meat_raw",
+      "cooked_item": "zawa:bush_meat_cooked",
+      "max": 4
+    },
+    {
+      "item": "minecraft:leather",
+      "max": 3
+    }
+  ]
+}

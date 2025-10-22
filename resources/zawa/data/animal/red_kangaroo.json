@@ -1,0 +1,23 @@
+{
+  "max_health": 26.0,
+  "damage": 5,
+  "variants": 3,
+  "diet": "GRAZER",
+  "kibble": "zawa:unglate_kibble",
+  "vial": "zawa:unglate_vial",
+  "nature": "PROTECTIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.19,
+  "speed": 0.1,
+  "swimming": false,
+  "drops": [
+    {
+      "item": "zawa:bush_meat_raw",
+      "cooked_item": "zawa:bush_meat_cooked"
+    },
+    {
+      "item": "minecraft:leather",
+      "max": 2
+    }
+  ]
+}

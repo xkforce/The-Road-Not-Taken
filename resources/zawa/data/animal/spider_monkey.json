@@ -1,0 +1,21 @@
+{
+  "max_health": 20.0,
+  "variants": 4,
+  "diet": "HERBIVORE",
+  "kibble": "zawa:monkey_kibble",
+  "vial": "zawa:monkey_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "mc_speed": 0.39,
+  "speed": 1.0,
+  "drops": [
+    {
+      "item": "zawa:bush_meat_raw",
+      "cooked_item": "zawa:bush_meat_cooked"
+    },
+    {
+      "item": "zawa:fur",
+      "max": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "max_health": 25.0,
+  "variants": 4,
+  "diet": "LARGE_CARNIVORE",
+  "kibble": "zawa:crocodile_kibble",
+  "vial": "zawa:crocodile_vial",
+  "nature": "PROTECTIVE",
+  "activity": "ACTIVE",
+  "damage": 6.0,
+  "mc_speed": 0.29,
+  "speed": 1.0,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    }
+  ],
+  "targets": [
+    "minecraft:villager",
+    "minecraft:pig",
+    "minecraft:wolf",
+    "minecraft:sheep",
+    "minecraft:cow",
+    "zawa:brownrat",
+    "minecraft:chicken",
+    "minecraft:rabbit"
+  ]
+}

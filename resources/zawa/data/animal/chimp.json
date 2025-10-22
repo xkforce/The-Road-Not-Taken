@@ -1,0 +1,11 @@
+{
+  "max_health": 26.0,
+  "variants": 5,
+  "diet": "HERBIVORE",
+  "kibble": "zawa:ape_kibble",
+  "vial": "zawa:ape_vial",
+  "nature": "PROVOKED",
+  "activity": "CALM",
+  "mc_speed": 0.24,
+  "speed": 1.0
+}

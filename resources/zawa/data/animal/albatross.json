@@ -1,0 +1,26 @@
+{
+  "max_health": 24.0,
+  "damage": 6.0,
+  "diet": "PISCIVORE",
+  "variants": 7,
+  "kibble": "zawa:bird_kibble",
+  "vial": "zawa:bird_vial",
+  "nature": "NEUTRAL",
+  "activity": "CALM",
+  "mc_speed": 0.24,
+  "speed": 1.5,
+  "drops": [
+    {
+      "item": "zawa:bird_meat",
+      "cooked_item": "zawa:bird_meat_cooked"
+    },
+    {
+      "item": "minecraft:feather",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "zawa:sockeyesalmon",
+    "zawa:bluefish"
+  ]
+}

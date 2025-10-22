@@ -1,0 +1,24 @@
+{
+  "max_health": 42.0,
+  "variants": 3,
+  "diet": "HERBIVORE",
+  "kibble": "zawa:pachyderm_kibble",
+  "vial": "zawa:pachyderm_vial",
+  "nature": "PROTECTIVE",
+  "activity": "LAZY",
+  "damage": 6.0,
+  "mc_speed": 0.29,
+  "speed": 0.7,
+  "water_breathing": true,
+  "drops": [
+    {
+      "item": "zawa:large_meat_raw",
+      "cooked_item": "zawa:large_meat_cooked",
+      "max": 2
+    },
+    {
+      "item": "minecraft:leather",
+      "max": 3
+    }
+  ]
+}

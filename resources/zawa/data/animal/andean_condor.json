@@ -1,0 +1,26 @@
+{
+  "max_health": 28.0,
+  "damage": 4.0,
+  "variants": 4,
+  "diet": "SCAVENGER",
+  "kibble": "zawa:raptor_kibble",
+  "vial": "zawa:raptor_vial",
+  "nature": "PROVOKED",
+  "activity": "LAZY",
+  "mc_speed": 0.24,
+  "speed": 1.5,
+  "drops": [
+    {
+      "item": "zawa:bird_meat",
+      "cooked_item": "zawa:bird_meat_cooked"
+    },
+    {
+      "item": "minecraft:feather",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "minecraft:zombie",
+    "minecraft:skeleton"
+  ]
+}

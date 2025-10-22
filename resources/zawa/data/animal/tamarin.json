@@ -1,0 +1,18 @@
+{
+  "max_health": 10.0,
+  "variants": 4,
+  "diet": "OMNIVORE",
+  "kibble": "zawa:monkey_kibble",
+  "vial": "zawa:monkey_vial",
+  "nature": "SKITTISH",
+  "activity": "NORMAL",
+  "mc_speed": 0.21,
+  "speed": 1.0,
+  "swimming": false,
+  "drops": [
+    {
+      "item": "contenttweaker:rawtamarin",
+      "cooked_item": "contenttweaker:cookedtamarin"
+    }
+  ]
+}

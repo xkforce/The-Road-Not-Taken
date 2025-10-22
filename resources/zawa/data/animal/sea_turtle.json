@@ -1,0 +1,23 @@
+{
+  "max_health": 35.0,
+  "variants": 5,
+  "diet": "SEA_TURTLE",
+  "kibble": "zawa:tortoise_kibble",
+  "vial": "zawa:tortoise_vial",
+  "nature": "NEUTRAL",
+  "activity": "LAZY",
+  "mc_speed": 0.1,
+  "speed": 0.4,
+  "transportable": true,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    },
+    {
+      "item": "zawa:tortoise_shell",
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

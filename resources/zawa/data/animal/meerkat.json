@@ -1,0 +1,22 @@
+{
+  "max_health": 8.0,
+  "variants": 4,
+  "diet": "INSECTIVORE",
+  "kibble": "zawa:frog_kibble",
+  "vial": "zawa:frog_vial",
+  "nature": "SKITTISH",
+  "activity": "HASTY",
+  "mc_speed": 0.38,
+  "speed": 0.9,
+  "swimming": false,
+  "transportable": false,
+  "drops": [
+    {
+      "item": "zawa:bush_meat_raw",
+      "cooked_item": "zawa:bush_meat_cooked"
+    },
+    {
+      "item": "zawa:fur"
+    }
+  ]
+}

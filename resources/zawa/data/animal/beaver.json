@@ -1,0 +1,22 @@
+{
+  "max_health": 20.0,
+  "variants": 3,
+  "diet": "WOOD_EATER",
+  "kibble": "zawa:unglate_kibble",
+  "vial": "zawa:unglate_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "water_breathing": true,
+  "mc_speed": 0.2,
+  "speed": 1.0,
+  "drops": [
+    {
+      "item": "zawa:bush_meat_raw",
+      "cooked_item": "zawa:bush_meat_cooked"
+    },
+    {
+      "item": "zawa:fur",
+      "max": 2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "max_health": 14.0,
+  "variants": 3,
+  "diet": "SHELLFISH",
+  "kibble": "zawa:bird_kibble",
+  "vial": "zawa:bird_vial",
+  "nature": "NEUTRAL",
+  "activity": "ACTIVE",
+  "mc_speed": 0.2,
+  "speed": 0.7,
+  "drops": [
+    {
+      "item": "zawa:bird_meat",
+      "cooked_item": "zawa:bird_meat_cooked"
+    },
+    {
+      "item": "minecraft:feather",
+      "max": 2
+    }
+  ]
+}

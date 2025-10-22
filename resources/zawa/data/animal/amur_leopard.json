@@ -1,0 +1,34 @@
+{
+  "max_health": 30.0,
+  "damage": 7.0,
+  "variants": 7,
+  "diet": "LARGE_CARNIVORE",
+  "kibble": "zawa:big_cat_kibble",
+  "vial": "zawa:bigcat_vial",
+  "nature": "AGGRESSIVE",
+  "activity": "CALM",
+  "mc_speed": 0.26,
+  "speed": 1.1,
+  "drops": [
+    {
+      "item": "zawa:carnivore_meat_raw",
+      "cooked_item": "zawa:carnivore_meat_cooked",
+      "max": 2
+    },
+    {
+      "item": "minecraft:leather",
+      "max": 2
+    }
+  ],
+  "targets": [
+    "minecraft:villager",
+    "minecraft:rabbit",
+    "minecraft:chicken",
+    "minecraft:sheep",
+    "minecraft:pig",
+    "minecraft:wolf"
+  ],
+  "breed_variants": [
+    6
+  ]
+}

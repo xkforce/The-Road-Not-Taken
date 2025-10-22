@@ -1,0 +1,23 @@
+{
+  "max_health": 25.0,
+  "variants": 3,
+  "diet": "LEAF_EATER",
+  "kibble": "zawa:unglate_kibble",
+  "vial": "zawa:unglate_vial",
+  "nature": "SKITTISH",
+  "activity": "CALM",
+  "mc_speed": 0.28,
+  "speed": 0.9,
+  "water_breathing": true,
+  "controllable": true,
+  "drops": [
+    {
+      "item": "zawa:large_meat_raw",
+      "cooked_item": "zawa:large_meat_cooked"
+    },
+    {
+      "item": "minecraft:leather",
+      "max": 2
+    }
+  ]
+}

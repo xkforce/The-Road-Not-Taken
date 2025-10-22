@@ -1,0 +1,21 @@
+{
+  "max_health": 120.0,
+  "variants": 4,
+  "kibble": "zawa:whale_kibble",
+  "vial": "zawa:whale_vial",
+  "nature": "NEUTRAL",
+  "activity": "NORMAL",
+  "mc_speed": 0.1,
+  "speed": 0.8,
+  "jump_upwards_motion": 1.01,
+  "drops": [
+    {
+      "item": "zawa:cetacean_meat_raw",
+      "cooked_item": "zawa:cetacean_meat_cooked"
+    },
+    {
+      "item": "zawa:blubber",
+      "max": 3
+    }
+  ]
+}

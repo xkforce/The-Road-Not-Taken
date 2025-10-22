@@ -1,0 +1,25 @@
+{
+  "max_health": 17.0,
+  "damage": 5.0,
+  "variants": 4,
+  "diet": "SMALL_CARNIVORE",
+  "kibble": "zawa:snake_kibble",
+  "vial": "zawa:snake_vial",
+  "nature": "PROTECTIVE",
+  "activity": "CALM",
+  "mc_speed": 0.29,
+  "speed": 0.6,
+  "swimming": false,
+  "drops": [
+    {
+      "item": "zawa:reptile_meat_raw",
+      "cooked_item": "zawa:reptile_meat_cooked"
+    },
+    {
+      "item": "zawa:toxin_sac"
+    }
+  ],
+  "targets": [
+    "zawa:brownrat"
+  ]
+}

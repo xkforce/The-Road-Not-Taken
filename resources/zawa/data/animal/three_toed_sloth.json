@@ -1,0 +1,19 @@
+{
+  "max_health": 12.0,
+  "variants": 6,
+  "diet": "LEAF_EATER",
+  "kibble": "zawa:monkey_kibble",
+  "vial": "zawa:monkey_vial",
+  "nature": "NEUTRAL",
+  "activity": "LAZY",
+  "mc_speed": 0.29,
+  "speed": 0.35,
+  "swimmer": false,
+  "step_height": 0.1,
+  "drops": [
+    {
+      "item": "contenttweaker:rawsloth",
+      "cooked_item": "contenttweaker:cookedsloth"
+    }
+  ]
+}

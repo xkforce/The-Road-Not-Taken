@@ -1,0 +1,46 @@
+{
+  "max_health": 35.0,
+  "damage": 7.0,
+  "variants": 6,
+  "diet": "LARGE_CARNIVORE",
+  "kibble": "zawa:big_cat_kibble",
+  "vial": "zawa:bigcat_vial",
+  "nature": "AGGRESSIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.28,
+  "speed": 1.1,
+  "jump_upwards_motion": 0.52,
+  "mx_fall_height": 6,
+  "step_height": 2,
+  "drops": [
+    {
+      "item": "zawa:carnivore_meat_raw",
+      "cooked_item": "zawa:carnivore_meat_cooked",
+      "max": 3
+    },
+    {
+      "item": "zawa:thick_fur",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "minecraft:villager",
+    "minecraft:cow",
+    "minecraft:sheep",
+    "minecraft:pig",
+    "minecraft:rabbit",
+    "minecraft:chicken",
+    "minecraft:llama",
+    "minecraft:wolf",
+    "zawa:braziliantapir",
+    "zawa:threetoedsloth",
+    "zawa:blackspidermonkey",
+    "zawa:goldenliontamarin",
+    "zawa:greenanaconda",
+    "zawa:macaw",
+    "zawa:toucan"
+  ],
+  "rare_variants": [
+    4, 5
+  ]
+}

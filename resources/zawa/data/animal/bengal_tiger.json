@@ -1,0 +1,37 @@
+{
+  "max_health": 35.0,
+  "damage": 7.0,
+  "variants": 6,
+  "diet": "LARGE_CARNIVORE",
+  "kibble": "zawa:big_cat_kibble",
+  "vial": "zawa:bigcat_vial",
+  "nature": "AGGRESSIVE",
+  "activity": "NORMAL",
+  "mc_speed": 0.28,
+  "speed": 1.1,
+  "jump_upwards_motion": 0.52,
+  "mx_fall_height": 6,
+  "step_height": 2,
+  "drops": [
+    {
+      "item": "zawa:carnivore_meat_raw",
+      "cooked_item": "zawa:carnivore_meat_cooked",
+      "max": 2
+    },
+    {
+      "item": "zawa:tiger_fur",
+      "max": 3
+    }
+  ],
+  "targets": [
+    "minecraft:villager",
+    "zawa:asianelephant",
+    "zawa:gaur",
+    "zawa:indianpangolin",
+    "zawa:sumatranrhinoceros",
+    "zawa:brownrat"
+  ],
+  "breed_variants": [
+    1, 5
+  ]
+}
