@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "north": "novelties:blocks/oven_lit",
+    "south": "novelties:blocks/south",
+    "west":  "novelties:blocks/west",
+    "east":  "novelties:blocks/east",
+    "up":    "novelties:blocks/up",
+    "down":  "novelties:blocks/down",
+    "particle": "minecraft:blocks/brick"
+  }
+}
