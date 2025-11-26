@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/lightgraypinkcryingobsidianpolishedslab",
+      "bottom": "contentcreator:blocks/lightgraypinkcryingobsidianpolishedslab",
+      "side": "contentcreator:blocks/lightgraypinkcryingobsidianpolishedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

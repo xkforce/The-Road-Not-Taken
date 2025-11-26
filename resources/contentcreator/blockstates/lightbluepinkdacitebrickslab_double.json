@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_column",
+    "textures": {
+      "end": "contentcreator:blocks/lightbluepinkdacitebrickslab_double",
+      "side": "contentcreator:blocks/lightbluepinkdacitebrickslab_double"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {}
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

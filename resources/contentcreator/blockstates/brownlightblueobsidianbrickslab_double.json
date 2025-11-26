@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_column",
+    "textures": {
+      "end": "contentcreator:blocks/brownlightblueobsidianbrickslab_double",
+      "side": "contentcreator:blocks/brownlightblueobsidianbrickslab_double"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {}
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

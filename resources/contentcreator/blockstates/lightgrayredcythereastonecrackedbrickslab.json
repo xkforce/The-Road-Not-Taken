@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/lightgrayredcythereastonecrackedbrickslab",
+      "bottom": "contentcreator:blocks/lightgrayredcythereastonecrackedbrickslab",
+      "side": "contentcreator:blocks/lightgrayredcythereastonecrackedbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

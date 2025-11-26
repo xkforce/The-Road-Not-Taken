@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0,top=false": {
+      "model": "greenery:plant/emergent/arrowhead/bottom"
+    },
+    "age=1,top=false": {
+      "model": "greenery:plant/emergent/arrowhead/bottom"
+    },
+    "age=2,top=false": {
+      "model": "greenery:plant/emergent/arrowhead/bottom"
+    },
+    "age=3,top=false": {
+      "model": "greenery:plant/emergent/arrowhead/bottom"
+    },
+    "age=0,top=true": {
+      "model": "greenery:plant/emergent/arrowhead/age_0"
+    },
+    "age=1,top=true": {
+      "model": "greenery:plant/emergent/arrowhead/age_1"
+    },
+    "age=2,top=true": {
+      "model": "greenery:plant/emergent/arrowhead/age_2"
+    },
+    "age=3,top=true": {
+      "model": "greenery:plant/emergent/arrowhead/age_3"
+    }
+  }
+}

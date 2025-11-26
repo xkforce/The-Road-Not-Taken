@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/blackgraycryingobsidiancrackedbrickslab",
+      "bottom": "contentcreator:blocks/blackgraycryingobsidiancrackedbrickslab",
+      "side": "contentcreator:blocks/blackgraycryingobsidiancrackedbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

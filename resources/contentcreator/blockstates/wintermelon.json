@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/wintermelon",
+      "bottom": "contentcreator:blocks/wintermelon",
+      "side": "contentcreator:blocks/wintermelon",
+      "front": "contentcreator:blocks/wintermelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

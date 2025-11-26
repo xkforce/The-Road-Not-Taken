@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/lightgraylimeviolecitechiseledbrickslab",
+      "bottom": "contentcreator:blocks/lightgraylimeviolecitechiseledbrickslab",
+      "side": "contentcreator:blocks/lightgraylimeviolecitechiseledbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

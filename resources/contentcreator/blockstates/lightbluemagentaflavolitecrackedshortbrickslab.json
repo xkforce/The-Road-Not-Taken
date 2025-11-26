@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/lightbluemagentaflavolitecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/lightbluemagentaflavolitecrackedshortbrickslab",
+      "side": "contentcreator:blocks/lightbluemagentaflavolitecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

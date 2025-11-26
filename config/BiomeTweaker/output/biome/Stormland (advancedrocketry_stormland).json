@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "HOT",
+    "WASTELAND",
     "VOID",
-    "WASTELAND"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -33,6 +33,12 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

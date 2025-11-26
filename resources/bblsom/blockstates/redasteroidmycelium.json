@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:redasteroidmycelium" },
+    "snowy=true":  { "model": "bblsom:redasteroidgrasssnow" }
+  }
+}

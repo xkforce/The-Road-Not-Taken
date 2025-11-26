@@ -1,0 +1,77 @@
+import mods.zenutils.StaticString;
+
+val netherquartzcolor as string[] = [
+"black",
+"blue",
+"brown",
+"cyan",
+"gray",
+"green",
+"lightblue",
+"lightgray",
+"lime",
+"magenta",
+"orange",
+"pink",
+"purple",
+"red",
+"yellow"
+];
+val stonetype as string[] = ["netherquartz"];
+val texturevariants as string[] = [" ", "chiseled", "pillar", "smooth"];
+val slabs as string[] = ["brickslab"];
+
+for c in netherquartzcolor {
+  for s in stonetype {
+    for t in texturevariants {
+      stairs(c, s, t);
+      slab(c, s, t);
+    }
+    chiseled(c, s);
+    smooth(c, s);
+    smelt(c, s);
+  }
+}
+
+function registryKey(netherquartzcolor as string, stonetype as string, texturevariants as string) as string {
+  return StaticString.trim(netherquartzcolor + stonetype + texturevariants);
+}
+
+function stairs(netherquartzcolor as string, stonetype as string, texturevariants as string) {
+  val name as string = registryKey(netherquartzcolor, stonetype, texturevariants);
+  val recipeName as string = name + "stairs";
+  val output = itemUtils.getItem("contentcreator:" + recipeName);
+  val input = itemUtils.getItem("contenttweaker:" + name);
+  recipes.addShaped(recipeName, output * 4, [[input, null, null], [input, input, null], [input, input, input]]);
+}
+
+function slab(netherquartzcolor as string, stonetype as string, texturevariants as string) {
+  val name as string = registryKey(netherquartzcolor, stonetype, texturevariants);
+  val recipeName as string = name + "slab";
+  val output = itemUtils.getItem("contentcreator:" + recipeName);
+  val input = itemUtils.getItem("contenttweaker:" + name);
+  recipes.addShaped(recipeName, output * 6, [[input, input, input]]);
+}
+
+function chiseled(netherquartzcolor as string, stonetype as string) {
+  val name as string = registryKey(netherquartzcolor, stonetype, "chiseled");
+  val recipeName as string = name;
+  val output = itemUtils.getItem("contenttweaker:" + recipeName);
+  val input = itemUtils.getItem("contentcreator:" + registryKey(netherquartzcolor, stonetype, "brickslab"));
+  recipes.addShaped(recipeName, output, [[input], [input]]);
+}
+
+function smooth(netherquartzcolor as string, stonetype as string) {
+  val name as string = registryKey(netherquartzcolor, stonetype, "smooth");
+  val recipeName as string = name;
+  val output = itemUtils.getItem("contenttweaker:" + recipeName);
+  val input = itemUtils.getItem("contentcreator:" + registryKey(netherquartzcolor, stonetype));
+  recipes.addShaped(recipeName, output, [[input], [input]]);
+}
+
+function smelt(netherquartzcolor as string, stonetype as string) {
+  val name as string = registryKey(netherquartzcolor, stonetype, " ");
+  val output = itemUtils.getItem("contenttweaker:" + name);
+  val input = itemUtils.getItem("contenttweaker:" + registryKey(netherquartzcolor, stonetype, " "));
+  furnace.addRecipe(output, input, 0.1);
+}

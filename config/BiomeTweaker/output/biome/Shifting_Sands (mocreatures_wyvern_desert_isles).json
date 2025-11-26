@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
-    "VOID",
     "WYVERN_LAIR",
     "MAGICAL",
-    "COLD"
+    "SANDY",
+    "COLD",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -61,7 +61,14 @@
       "Max Group Count": 3
     }
   ],
-  "Spawnable Monsters": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,

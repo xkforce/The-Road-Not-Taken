@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "random_grabbag:blocks/haytop",
+        "side": "random_grabbag:blocks/lightgraystripehayside"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/sweetdumplingsquash",
+      "bottom": "contentcreator:blocks/sweetdumplingsquash",
+      "side": "contentcreator:blocks/sweetdumplingsquash",
+      "front": "contentcreator:blocks/sweetdumplingsquash"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

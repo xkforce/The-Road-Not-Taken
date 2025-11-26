@@ -9,7 +9,6 @@ recipes.removeByMod("astikorcarts");
 recipes.removeByMod("backstab");
 recipes.removeByMod("betteranimalsplus");
 recipes.removeByMod("biomesoplenty");
-recipes.removeByMod("charset");
 recipes.removeByMod("chesttransporter");
 recipes.removeByMod("colorfulslimes");
 recipes.removeByMod("comforts");
@@ -28,9 +27,11 @@ recipes.removeByMod("greenery");
 recipes.removeByMod("inspirations");
 recipes.removeByMod("jjmeteor");
 recipes.removeByMod("libvulpes");
+recipes.removeByMod("locks");
 recipes.removeByMod("mechanics");
 recipes.removeByMod("microblockcbe");
 recipes.removeByMod("mocreatures");
+recipes.removeByMod("mowziesmobs");
 recipes.removeByMod("naturescompass");
 recipes.removeByMod("oe");
 recipes.removeByMod("plants2");
@@ -50,7 +51,6 @@ recipes.removeByMod("switchbow");
 recipes.removeByMod("testdummy2");
 recipes.removeByMod("totemexpansion");
 recipes.removeByMod("zawa");
-
 
 
 

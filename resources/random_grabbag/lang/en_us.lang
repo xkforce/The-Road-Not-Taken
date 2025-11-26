@@ -1,0 +1,149 @@
+
+language.name=English
+language.region=United States
+language.code=en_us
+
+tile.amethyst_cluster.name=Amethyst Crystal Stage 4
+tile.amethyst_large_bud.name=Amethyst Crystal Stage 3
+tile.amethyst_medium_bud.name=Amethyst Crystal Stage 2
+tile.amethyst_small_bud.name=Amethyst Crystal Stage 1
+tile.aquamarine_cluster.name=Aquamarine Crystal Stage 4
+tile.aquamarine_large_bud.name=Aquamarine Crystal Stage 3
+tile.aquamarine_medium_bud.name=Aquamarine Crystal Stage 2
+tile.aquamarine_small_bud.name=Aquamarine Crystal Stage 1
+tile.blackdiamond_cluster.name=Black Diamond Crystal Stage 4
+tile.blackdiamond_large_bud.name=Black Diamond Crystal Stage 3
+tile.blackdiamond_medium_bud.name=Black Diamond Crystal Stage 2
+tile.blackdiamond_small_bud.name=Black Diamond Crystal Stage 1
+tile.blackquartz_cluster.name=Black Nether Quartz Crystal Stage 4
+tile.blackquartz_large_bud.name=Black Nether Quartz Crystal Stage 3
+tile.blackquartz_medium_bud.name=Black Nether Quartz Crystal Stage 2
+tile.blackquartz_small_bud.name=Black Nether Quartz Crystal Stage 1
+tile.bluequartz_cluster.name=Blue Nether Quartz Crystal Stage 4
+tile.bluequartz_large_bud.name=Blue Nether Quartz Crystal Stage 3
+tile.bluequartz_medium_bud.name=Blue Nether Quartz Crystal Stage 2
+tile.bluequartz_small_bud.name=Blue Nether Quartz Crystal Stage 1
+tile.brownquartz_cluster.name=Brown Nether Quartz Crystal Stage 4
+tile.brownquartz_large_bud.name=Brown Nether Quartz Crystal Stage 3
+tile.brownquartz_medium_bud.name=Brown Nether Quartz Crystal Stage 2
+tile.brownquartz_small_bud.name=Brown Nether Quartz Crystal Stage 1
+tile.chocolatediamond_cluster.name=Chocolate Diamond Crystal Stage 4
+tile.chocolatediamond_large_bud.name=Chocolate Diamond Crystal Stage 3
+tile.chocolatediamond_medium_bud.name=Chocolate Diamond Crystal Stage 2
+tile.chocolatediamond_small_bud.name=Chocolate Diamond Crystal Stage 1
+tile.citrine_cluster.name=Citrine Crystal Stage 4
+tile.citrine_large_bud.name=Citrine Crystal Stage 3
+tile.citrine_medium_bud.name=Citrine Crystal Stage 2
+tile.citrine_small_bud.name=Citrine Crystal Stage 1
+tile.cyanquartz_cluster.name=Cyan Nether Quartz Crystal Stage 4
+tile.cyanquartz_large_bud.name=Cyan Nether Quartz Crystal Stage 3
+tile.cyanquartz_medium_bud.name=Cyan Nether Quartz Crystal Stage 2
+tile.cyanquartz_small_bud.name=Cyan Nether Quartz Crystal Stage 1
+tile.diamond_cluster.name=Diamond Crystal Stage 4
+tile.diamond_large_bud.name=Diamond Crystal Stage 3
+tile.diamond_medium_bud.name=Diamond Crystal Stage 2
+tile.diamond_small_bud.name=Diamond Crystal Stage 1
+tile.emerald_cluster.name=Emerald Crystal Stage 4
+tile.emerald_large_bud.name=Emerald Crystal Stage 3
+tile.emerald_medium_bud.name=Emerald Crystal Stage 2
+tile.emerald_small_bud.name=Emerald Crystal Stage 1
+tile.grayquartz_cluster.name=Gray Nether Quartz Crystal Stage 4
+tile.grayquartz_large_bud.name=Gray Nether Quartz Crystal Stage 3
+tile.grayquartz_medium_bud.name=Gray Nether Quartz Crystal Stage 2
+tile.grayquartz_small_bud.name=Gray Nether Quartz Crystal Stage 1
+tile.greenquartz_cluster.name=Green Nether Quartz Crystal Stage 4
+tile.greenquartz_large_bud.name=Green Nether Quartz Crystal Stage 3
+tile.greenquartz_medium_bud.name=Green Nether Quartz Crystal Stage 2
+tile.greenquartz_small_bud.name=Green Nether Quartz Crystal Stage 1
+tile.lightbluequartz_cluster.name=Light Blue Nether Quartz Crystal Stage 4
+tile.lightbluequartz_large_bud.name=Light Blue Nether Quartz Crystal Stage 3
+tile.lightbluequartz_medium_bud.name=Light Blue Nether Quartz Crystal Stage 2
+tile.lightbluequartz_small_bud.name=Light Blue Nether Quartz Crystal Stage 1
+tile.lightgrayquartz_cluster.name=Light Gray Nether Quartz Crystal Stage 4
+tile.lightgrayquartz_large_bud.name=Light Gray Nether Quartz Crystal Stage 3
+tile.lightgrayquartz_medium_bud.name=Light Gray Nether Quartz Crystal Stage 2
+tile.lightgrayquartz_small_bud.name=Light Gray Nether Quartz Crystal Stage 1
+tile.limequartz_cluster.name=Lime Nether Quartz Crystal Stage 4
+tile.limequartz_large_bud.name=Lime Nether Quartz Crystal Stage 3
+tile.limequartz_medium_bud.name=Lime Nether Quartz Crystal Stage 2
+tile.limequartz_small_bud.name=Lime Nether Quartz Crystal Stage 1
+tile.magentaquartz_cluster.name=Magenta Nether Quartz Crystal Stage 4
+tile.magentaquartz_large_bud.name=Magenta Nether Quartz Crystal Stage 3
+tile.magentaquartz_medium_bud.name=Magenta Nether Quartz Crystal Stage 2
+tile.magentaquartz_small_bud.name=Magenta Nether Quartz Crystal Stage 1
+tile.moonstone_cluster.name=Moonstone Crystal Stage 4
+tile.moonstone_large_bud.name=Moonstone Crystal Stage 3
+tile.moonstone_medium_bud.name=Moonstone Crystal Stage 2
+tile.moonstone_small_bud.name=Moonstone Crystal Stage 1
+tile.opal_cluster.name=Opal Crystal Stage 4
+tile.opal_large_bud.name=Opal Crystal Stage 3
+tile.opal_medium_bud.name=Opal Crystal Stage 2
+tile.opal_small_bud.name=Opal Crystal Stage 1
+tile.orangequartz_cluster.name=Orange Nether Quartz Crystal Stage 4
+tile.orangequartz_large_bud.name=Orange Nether Quartz Crystal Stage 3
+tile.orangequartz_medium_bud.name=Orange Nether Quartz Crystal Stage 2
+tile.orangequartz_small_bud.name=Orange Nether Quartz Crystal Stage 1
+tile.peridot_cluster.name=Peridot Crystal Stage 4
+tile.peridot_large_bud.name=Peridot Crystal Stage 3
+tile.peridot_medium_bud.name=Peridot Crystal Stage 2
+tile.peridot_small_bud.name=Peridot Crystal Stage 1
+tile.pinkquartz_cluster.name=Pink Nether Quartz Crystal Stage 4
+tile.pinkquartz_large_bud.name=Pink Nether Quartz Crystal Stage 3
+tile.pinkquartz_medium_bud.name=Pink Nether Quartz Crystal Stage 2
+tile.pinkquartz_small_bud.name=Pink Nether Quartz Crystal Stage 1
+tile.purplequartz_cluster.name=Purple Nether Quartz Crystal Stage 4
+tile.purplequartz_large_bud.name=Purple Nether Quartz Crystal Stage 3
+tile.purplequartz_medium_bud.name=Purple Nether Quartz Crystal Stage 2
+tile.purplequartz_small_bud.name=Purple Nether Quartz Crystal Stage 1
+tile.redquartz_cluster.name=Red Nether Quartz Crystal Stage 4
+tile.redquartz_large_bud.name=Red Nether Quartz Crystal Stage 3
+tile.redquartz_medium_bud.name=Red Nether Quartz Crystal Stage 2
+tile.redquartz_small_bud.name=Red Nether Quartz Crystal Stage 1
+tile.ruby_cluster.name=Ruby Crystal Stage 4
+tile.ruby_large_bud.name=Ruby Crystal Stage 3
+tile.ruby_medium_bud.name=Ruby Crystal Stage 2
+tile.ruby_small_bud.name=Ruby Crystal Stage 1
+tile.sapphire_cluster.name=Sapphire Crystal Stage 4
+tile.sapphire_large_bud.name=Sapphire Crystal Stage 3
+tile.sapphire_medium_bud.name=Sapphire Crystal Stage 2
+tile.sapphire_small_bud.name=Sapphire Crystal Stage 1
+tile.morganite_cluster.name=Morganite Crystal Stage 4
+tile.morganite_large_bud.name=Morganite Crystal Stage 3
+tile.morganite_medium_bud.name=Morganite Crystal Stage 2
+tile.morganite_small_bud.name=Morganite Crystal Stage 1
+tile.topaz_cluster.name=Topaz Crystal Stage 4
+tile.topaz_large_bud.name=Topaz Crystal Stage 3
+tile.topaz_medium_bud.name=Topaz Crystal Stage 2
+tile.topaz_small_bud.name=Topaz Crystal Stage 1
+tile.whitequartz_cluster.name=White Nether Quartz Crystal Stage 4
+tile.whitequartz_large_bud.name=White Nether Quartz Crystal Stage 3
+tile.whitequartz_medium_bud.name=White Nether Quartz Crystal Stage 2
+tile.whitequartz_small_bud.name=White Nether Quartz Crystal Stage 1
+tile.yellowquartz_cluster.name=Yellow Nether Quartz Crystal Stage 4
+tile.yellowquartz_large_bud.name=Yellow Nether Quartz Crystal Stage 3
+tile.yellowquartz_medium_bud.name=Yellow Nether Quartz Crystal Stage 2
+tile.yellowquartz_small_bud.name=Yellow Nether Quartz Crystal Stage 1
+tile.zircon_cluster.name=Zircon Crystal Stage 4
+tile.zircon_large_bud.name=Zircon Crystal Stage 3
+tile.zircon_medium_bud.name=Zircon Crystal Stage 2
+tile.zircon_small_bud.name=Zircon Crystal Stage 1
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "random_grabbag:brownstripehay" },
+        "axis=z": { "model": "random_grabbag:brownstripehay", "x": 90 },
+        "axis=x": { "model": "random_grabbag:brownstripehay", "x": 90, "y": 90 }
+    }
+}

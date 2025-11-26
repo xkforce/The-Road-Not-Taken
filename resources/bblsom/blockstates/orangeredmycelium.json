@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:orangeredmycelium" },
+    "snowy=true":  { "model": "bblsom:orangeredgrasssnow" }
+  }
+}

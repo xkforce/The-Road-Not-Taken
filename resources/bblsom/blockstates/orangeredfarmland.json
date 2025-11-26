@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "moisture=0": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=1": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=2": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=3": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=4": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=5": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=6": { "model": "bblsom:orangeredfarmland_dry" },
+    "moisture=7": { "model": "bblsom:orangeredfarmland_moist" }
+  }
+}

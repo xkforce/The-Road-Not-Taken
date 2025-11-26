@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/australianbluepumpkin",
+      "bottom": "contentcreator:blocks/australianbluepumpkin",
+      "side": "contentcreator:blocks/australianbluepumpkin",
+      "front": "contentcreator:blocks/australianbluepumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -5,7 +5,6 @@ val rock = Mat.rock();
 
 
 val colors as string[] = [
-"black",
 "blackblue",
 "blackbrown",
 "blackcyan",
@@ -133,13 +132,15 @@ for color in colors {
     GenericBlock.createStairs(color ~ "obsidianstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "obsidianbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "obsidianchiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
-    GenericBlock.createStairs(color ~ "obsidiancobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "obsidiancrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "obsidiancrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "obsidianpolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "obsidianshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "obsidianslab").register();
     GenericBlock.createSlab(rock, color ~ "obsidianbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "obsidianchiseledbrickslab").register();
-    GenericBlock.createSlab(rock, color ~ "obsidiancobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "obsidiancrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "obsidiancrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "obsidianpolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "obsidianshortbrickslab").register();
 }

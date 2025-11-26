@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/acornsquash",
+      "bottom": "contentcreator:blocks/acornsquash",
+      "side": "contentcreator:blocks/acornsquash",
+      "front": "contentcreator:blocks/acornsquash"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

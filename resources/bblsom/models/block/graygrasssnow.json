@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "bblsom:blocks/graydirt",
+    "bottom": "bblsom:blocks/graydirt",
+    "top": "bblsom:blocks/grass_top",
+    "side": "bblsom:blocks/graygrasssnow"
+  }
+}

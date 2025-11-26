@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "bblsom:pressureplate_black_up" },
+    "powered=true": { "model": "bblsom:pressureplate_black_down" }
+  }
+}

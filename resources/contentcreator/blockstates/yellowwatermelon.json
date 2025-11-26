@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/yellowwatermelon",
+      "bottom": "contentcreator:blocks/yellowwatermelon",
+      "side": "contentcreator:blocks/yellowwatermelon",
+      "front": "contentcreator:blocks/yellowwatermelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

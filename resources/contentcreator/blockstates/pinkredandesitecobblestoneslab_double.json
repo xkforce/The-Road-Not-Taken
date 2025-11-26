@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_column",
+    "textures": {
+      "end": "contentcreator:blocks/pinkredandesitecobblestoneslab_double",
+      "side": "contentcreator:blocks/pinkredandesitecobblestoneslab_double"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {}
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

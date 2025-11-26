@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/casabamelon",
+      "bottom": "contentcreator:blocks/casabamelon",
+      "side": "contentcreator:blocks/casabamelon",
+      "front": "contentcreator:blocks/casabamelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -5,7 +5,6 @@ val rock = Mat.rock();
 
 
 val colors as string[] = [
-"black",
 "blackblue",
 "blackbrown",
 "blackcyan",
@@ -17,7 +16,6 @@ val colors as string[] = [
 "blackpurple",
 "blackred",
 "blackyellow",
-"blue",
 "bluebrown",
 "bluecyan",
 "bluegray",
@@ -28,7 +26,6 @@ val colors as string[] = [
 "blueorange",
 "bluepink",
 "bluepurple",
-"brown",
 "browncyan",
 "browngray",
 "browngreen",
@@ -65,7 +62,6 @@ val colors as string[] = [
 "graypurple",
 "grayred",
 "grayyellow",
-"green",
 "greenlightblue",
 "greenlightgray",
 "greenlime",
@@ -123,10 +119,8 @@ val colors as string[] = [
 "purplered",
 "purplewhite",
 "purpleyellow",
-"red",
 "white",
-"whiteyellow",
-"yellow"
+"whiteyellow"
 ];
 
 for color in colors {
@@ -134,16 +128,19 @@ for color in colors {
     GenericBlock.createStairs(color ~ "aventurinebrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "aventurinechiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "aventurinecobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "aventurinecrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "aventurinecrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "aventurinepolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "aventurineshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "aventurineslab").register();
     GenericBlock.createSlab(rock, color ~ "aventurinebrickslab").register();
     GenericBlock.createSlab(rock, color ~ "aventurinechiseledbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "aventurinecobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "aventurinecrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "aventurinecrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "aventurinepolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "aventurineshortbrickslab").register();
 }
-
 
 
 

@@ -34,6 +34,12 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

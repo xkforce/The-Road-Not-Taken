@@ -82,7 +82,6 @@ val colors as string[] = [
 "lightblueorange",
 "lightbluepink",
 "lightbluepurple",
-"lightbluered",
 "lightbluewhite",
 "lightblueyellow",
 "lightgray",
@@ -134,12 +133,16 @@ for color in colors {
     GenericBlock.createStairs(color ~ "dacitebrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "dacitechiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "dacitecobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "dacitecrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "dacitecrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "dacitepolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "daciteshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "daciteslab").register();
     GenericBlock.createSlab(rock, color ~ "dacitebrickslab").register();
     GenericBlock.createSlab(rock, color ~ "dacitechiseledbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "dacitecobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "dacitecrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "dacitecrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "dacitepolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "daciteshortbrickslab").register();
 }

@@ -43,12 +43,12 @@ key.command
 key.categories.misc
 key.advancements
 key.spectatorOutlines
+gnetum.config.keyMapping
 key.screenshot
 key.smoothCamera
 key.fullscreen
 key.narrator
 key.togglePerspective
-gnetum.key.open_config
 
 Advanced Rocketry
 Move Vehicle Down
@@ -184,9 +184,6 @@ key.vehicle_helicopter.rotate_right
 key.vehicle_helicopter.third_person_view_zoom_in
 key.vehicle_helicopter.third_person_view_zoom_out
 key.vehicle_helicopter.up
-
-Universal Tweaks
-keybind.universaltweaks.clear_toasts
 
 Waila
 waila.keybind.wailaconfig

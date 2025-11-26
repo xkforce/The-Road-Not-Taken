@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:overgrownstone" },
+    "snowy=true":  { "model": "bblsom:overgrownstonesnow" }
+  }
+}

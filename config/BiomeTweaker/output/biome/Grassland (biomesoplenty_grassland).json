@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
     "PLAINS",
+    "WET",
     "HILLS"
   ],
   "BiomeManager Entries": {},
@@ -137,6 +137,12 @@
       "Weight": 7,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

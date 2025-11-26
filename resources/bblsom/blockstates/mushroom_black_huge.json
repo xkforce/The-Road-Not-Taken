@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "variant=north_west": { "model": "bblsom:mushroom_black_huge_nw" },
+    "variant=north": { "model": "bblsom:mushroom_black_huge_n" },
+    "variant=north_east": { "model": "bblsom:mushroom_black_huge_ne" },
+    "variant=west": { "model": "bblsom:mushroom_black_huge_w" },
+    "variant=center": { "model": "bblsom:mushroom_black_huge_c" },
+    "variant=east": { "model": "bblsom:mushroom_black_huge_e" },
+    "variant=south_west": { "model": "bblsom:mushroom_black_huge_sw" },
+    "variant=south": { "model": "bblsom:mushroom_black_huge_s" },
+    "variant=south_east": { "model": "bblsom:mushroom_black_huge_se" },
+    "variant=stem": { "model": "bblsom:mushroom_black_huge_stem" },
+    "variant=all_stem": { "model": "bblsom:mushroom_black_huge_stem_all" },
+    "variant=all_outside": { "model": "bblsom:mushroom_black_huge_cap_all" },
+    "variant=all_inside": { "model": "bblsom:mushroom_black_huge_inside_all" }
+  }
+}

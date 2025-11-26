@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_column",
+    "textures": {
+      "end": "contentcreator:blocks/blackblueumbralithpolishedslab_double",
+      "side": "contentcreator:blocks/blackblueumbralithpolishedslab_double"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {}
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

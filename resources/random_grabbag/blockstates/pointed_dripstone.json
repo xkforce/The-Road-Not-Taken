@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "dripstone_state=pointed_down": {
+      "model": "random_grabbag:pointed_dripstone_down"
+    },
+    "dripstone_state=pointed_up": {
+      "model": "random_grabbag:pointed_dripstone_up"
+    },
+    "dripstone_state=middle": {
+      "model": "random_grabbag:pointed_dripstone_middle"
+    },
+    "dripstone_state=support_lower": {
+      "model": "random_grabbag:pointed_dripstone_lower"
+    },
+    "dripstone_state=support_upper": {
+      "model": "random_grabbag:pointed_dripstone_upper"
+    }
+  }
+}

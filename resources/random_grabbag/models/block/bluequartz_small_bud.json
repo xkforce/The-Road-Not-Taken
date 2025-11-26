@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "random_grabbag:blocks/bluequartz_small_bud"
+  }
+}

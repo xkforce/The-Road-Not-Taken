@@ -201,7 +201,7 @@ redstonetorch.add(<minecraft:redstone_torch>,
 <ore:BlockIridium>.add(<contenttweaker:iridium>);
 <ore:ingotSteel>.add(<contenttweaker:steel>);
 <ore:BlockSteel>.add(<contenttweaker:steel>);
-
+/*
 stone.add([<contenttweaker:blackandesite>,
 <contenttweaker:blackblueandesite>,
 <contenttweaker:blackbrownandesite>,
@@ -1813,7 +1813,7 @@ netherrack.add([<contenttweaker:blacknetherrack>,
 <contenttweaker:whitenetherrack>,
 <contenttweaker:whiteyellownetherrack>,
 <contenttweaker:yellownetherrack>]);
-
+*/
 candle.add(<deeperdepths:candle>,
 <deeperdepths:orange_candle>,
 <deeperdepths:magenta_candle>,
@@ -1830,7 +1830,6 @@ candle.add(<deeperdepths:candle>,
 <deeperdepths:green_candle>,
 <deeperdepths:red_candle>,
 <deeperdepths:black_candle>);
-
 
 stick.add(<contenttweaker:oakstick>,
 <contenttweaker:birchstick>,

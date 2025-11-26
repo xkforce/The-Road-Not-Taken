@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "random_grabbag:blocks/moonstone_large_bud"
+  }
+}

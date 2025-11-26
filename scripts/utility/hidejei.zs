@@ -262,6 +262,10 @@ mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "potion
 mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "potioncore:archery"}));
 mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "potioncore:strong_archery"}));
 mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "potioncore:long_archery"}));
+mods.jei.JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:ferrous_wroughtnaut"}}));
+mods.jei.JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:barako"}}));
+mods.jei.JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:grottol"}}));
+mods.jei.JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:frostmaw"}}));
 
 
 mods.jei.JEI.hide(<minecraft:painting>);

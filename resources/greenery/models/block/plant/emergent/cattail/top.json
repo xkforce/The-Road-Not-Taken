@@ -1,0 +1,6 @@
+{
+  "parent": "greenery:block/cross",
+  "textures": {
+    "cross": "biomesoplenty:blocks/tall_cattail_upper"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/spaghettisquash",
+      "bottom": "contentcreator:blocks/spaghettisquash",
+      "side": "contentcreator:blocks/spaghettisquash",
+      "front": "contentcreator:blocks/spaghettisquash"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

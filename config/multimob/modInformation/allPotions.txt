@@ -32,6 +32,10 @@ deeperdepths:oozing
 deeperdepths:infested
 deeperdepths:weaving
 deeperdepths:wind_charged
+mowziesmobs:suns_blessing
+mowziesmobs:geomancy
+mowziesmobs:frozen
+mowziesmobs:poison_resist
 oe:conduit_power
 oe:descent
 oe:dolphins_grace

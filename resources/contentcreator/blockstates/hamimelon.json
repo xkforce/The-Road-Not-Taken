@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/hamimelon",
+      "bottom": "contentcreator:blocks/hamimelon",
+      "side": "contentcreator:blocks/hamimelon",
+      "front": "contentcreator:blocks/hamimelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "bblsom:block/leaves_growable",
+  "textures": {
+    "all": "bblsom:blocks/normal_leaves_black",
+    "overlay": "bblsom:blocks/flowering_leaves_black"
+  }
+}

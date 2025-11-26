@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/pepinomelon",
+      "bottom": "contentcreator:blocks/pepinomelon",
+      "side": "contentcreator:blocks/pepinomelon",
+      "front": "contentcreator:blocks/pepinomelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

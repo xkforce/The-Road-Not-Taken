@@ -16,7 +16,6 @@ Teksturepako: created the teleportation zenscript that allows the end to connect
 
 Voidsongdragonfly: technical assistance with advanced rocketry
 
-Enderman: They basically rewrote the zenscript scripts singlehandedly.
 
 
 

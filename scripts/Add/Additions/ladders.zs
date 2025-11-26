@@ -417,6 +417,7 @@ recipes.addShaped(<additions:ladders-juniperrailwillowrung> * 3, [[juniperstick,
 
 recipes.addShaped(<additions:ladders-bambooladder>, [[<futuremc:bamboo>, null, <futuremc:bamboo>],[<futuremc:bamboo>, <futuremc:bamboo>, <futuremc:bamboo>], [<futuremc:bamboo>, null, <futuremc:bamboo>]]);
 
+recipes.addShaped(<minecraft:ladder> * 3, [[<contenttweaker:oakstick>, null, <contenttweaker:oakstick>],[<contenttweaker:oakstick>, <contenttweaker:oakstick>, <contenttweaker:oakstick>], [<contenttweaker:oakstick>, null, <contenttweaker:oakstick>]]);
 
 
 

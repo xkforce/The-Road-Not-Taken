@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MOUNTAIN",
     "STEEP",
-    "HILLS",
-    "MOUNTAIN"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -136,6 +136,12 @@
     {
       "Entity Class": "com.unoriginal.iceologer.entity.Entity.EntityIceologer",
       "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

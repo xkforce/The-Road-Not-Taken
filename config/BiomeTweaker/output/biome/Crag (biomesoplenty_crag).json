@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MOUNTAIN",
     "DRY",
+    "MAGICAL",
     "WASTELAND",
     "HILLS",
-    "MOUNTAIN",
-    "MAGICAL",
     "COLD"
   ],
   "BiomeManager Entries": {},
@@ -77,6 +77,12 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

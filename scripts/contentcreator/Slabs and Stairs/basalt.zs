@@ -133,17 +133,18 @@ for color in colors {
     GenericBlock.createStairs(color ~ "basaltstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "basaltbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "basaltchiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
-    GenericBlock.createStairs(color ~ "basaltcobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "basaltcrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "basaltcrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "basaltpolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "basaltshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "basaltslab").register();
     GenericBlock.createSlab(rock, color ~ "basaltbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "basaltchiseledbrickslab").register();
-    GenericBlock.createSlab(rock, color ~ "basaltcobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "basaltcrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "basaltcrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "basaltpolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "basaltshortbrickslab").register();
 }
-
 
 
 

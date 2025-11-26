@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "bblsom:blocks/door_black_lower",
+    "top": "bblsom:blocks/door_black_upper"
+  }
+}

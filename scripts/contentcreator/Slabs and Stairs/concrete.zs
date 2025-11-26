@@ -5,7 +5,6 @@ val rock = Mat.rock();
 
 
 val colors as string[] = [
-"black",
 "blackblue",
 "blackbrown",
 "blackcyan",
@@ -17,7 +16,6 @@ val colors as string[] = [
 "blackpurple",
 "blackred",
 "blackyellow",
-"blue",
 "bluebrown",
 "bluecyan",
 "bluegray",
@@ -28,7 +26,6 @@ val colors as string[] = [
 "blueorange",
 "bluepink",
 "bluepurple",
-"brown",
 "browncyan",
 "browngray",
 "browngreen",
@@ -42,7 +39,6 @@ val colors as string[] = [
 "brownred",
 "brownwhite",
 "brownyellow",
-"cyan",
 "cyangray",
 "cyangreen",
 "cyanlightblue",
@@ -54,7 +50,6 @@ val colors as string[] = [
 "cyanpurple",
 "cyanwhite",
 "cyanyellow",
-"gray",
 "graygreen",
 "graylightblue",
 "graylightgray",
@@ -65,7 +60,6 @@ val colors as string[] = [
 "graypurple",
 "grayred",
 "grayyellow",
-"green",
 "greenlightblue",
 "greenlightgray",
 "greenlime",
@@ -75,7 +69,6 @@ val colors as string[] = [
 "greenpurple",
 "greenred",
 "greenyellow",
-"lightblue",
 "lightbluelightgray",
 "lightbluelime",
 "lightbluemagenta",
@@ -85,7 +78,6 @@ val colors as string[] = [
 "lightbluered",
 "lightbluewhite",
 "lightblueyellow",
-"lightgray",
 "lightgraylime",
 "lightgraymagenta",
 "lightgrayorange",
@@ -94,7 +86,6 @@ val colors as string[] = [
 "lightgrayred",
 "lightgraywhite",
 "lightgrayyellow",
-"lime",
 "limemagenta",
 "limeorange",
 "limepink",
@@ -102,44 +93,39 @@ val colors as string[] = [
 "limered",
 "limewhite",
 "limeyellow",
-"magenta",
 "magentaorange",
 "magentapink",
 "magentapurple",
 "magentared",
 "magentawhite",
 "magentayellow",
-"orange",
 "orangepink",
 "orangepurple",
 "orangered",
 "orangewhite",
 "orangeyellow",
-"pink",
 "pinkred",
 "pinkwhite",
 "pinkyellow",
-"purple",
 "purplered",
 "purplewhite",
 "purpleyellow",
-"red",
-"white",
-"whiteyellow",
-"yellow"
+"whiteyellow"
 ];
 
 for color in colors {
     GenericBlock.createStairs(color ~ "concretestairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "concretebrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "concretechiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
-    GenericBlock.createStairs(color ~ "concretecobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "concretecrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "concretecrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "concretepolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "concreteshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "concreteslab").register();
     GenericBlock.createSlab(rock, color ~ "concretebrickslab").register();
     GenericBlock.createSlab(rock, color ~ "concretechiseledbrickslab").register();
-    GenericBlock.createSlab(rock, color ~ "concretecobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "concretecrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "concretecrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "concretepolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "concreteshortbrickslab").register();
 }

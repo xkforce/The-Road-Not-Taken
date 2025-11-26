@@ -82,7 +82,6 @@ val color as string[] = [
 "lightblueorange",
 "lightbluepink",
 "lightbluepurple",
-"lightbluered",
 "lightbluewhite",
 "lightblueyellow",
 "lightgray",
@@ -129,7 +128,7 @@ val color as string[] = [
 "yellow"
 ];
 val stonetype as string[] = ["andesite"];
-val texturevariants as string[] = [" ", "brick", "chiseledbrick", "cobblestone", "polished", "shortbrick"];
+val texturevariants as string[] = [" ", "brick", "chiseledbrick", "cobblestone", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"];
 
 for c in color {
   for s in stonetype {
@@ -146,7 +145,6 @@ for c in color {
 function registryKey(color as string, stonetype as string, texturevariant as string) as string {
   return StaticString.trim(color + stonetype + texturevariant);
 }
-
 
 
 

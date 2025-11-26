@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0,top=false": {
+      "model": "greenery:plant/emergent/cattail/bottom"
+    },
+    "age=0,top=true": {
+      "model": "greenery:plant/emergent/cattail/top"
+    }
+  }
+}

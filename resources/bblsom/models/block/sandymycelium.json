@@ -1,0 +1,9 @@
+{
+  "parent": "bblsom:block/mycelium",
+  "textures": {
+    "particle": "biomesoplenty:blocks/dirt_sandy",
+    "bottom": "biomesoplenty:blocks/dirt_sandy",
+    "top": "bblsom:blocks/mycelium_top",
+    "side": "bblsom:blocks/sandymycelium"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "bblsom:block/mycelium",
+  "textures": {
+    "particle": "bblsom:blocks/orangereddirt",
+    "bottom": "bblsom:blocks/orangereddirt",
+    "top": "bblsom:blocks/mycelium_top",
+    "side": "bblsom:blocks/orangeredmycelium"
+  }
+}

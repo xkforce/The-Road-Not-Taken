@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/lever",
+  "textures": {
+    "particle": "minecraft:blocks/cobblestone",
+    "base": "minecraft:blocks/cobblestone",
+    "lever": "bblsom:blocks/lever_birch_cobblestone"
+  }
+}

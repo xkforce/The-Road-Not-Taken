@@ -206,6 +206,16 @@ deeperdepths:wind_charged
        deeperdepths:wind_charged - 3600 - 0 - false - true
 
 
+mowziesmobs:poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 3600 - 0 - false - true
+
+
+mowziesmobs:long_poison_resist
+   - Effects: 
+       mowziesmobs:poison_resist - 9600 - 0 - false - true
+
+
 oe:turtle_master
    - Effects: 
        minecraft:resistance - 400 - 3 - false - true

@@ -39,6 +39,8 @@ deeperdepths:oozing
 deeperdepths:infested
 deeperdepths:weaving
 deeperdepths:wind_charged
+mowziesmobs:poison_resist
+mowziesmobs:long_poison_resist
 oe:turtle_master
 oe:turtle_master_long
 oe:turtle_master_strong

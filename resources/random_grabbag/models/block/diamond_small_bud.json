@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "random_grabbag:blocks/diamond_small_bud"
+  }
+}

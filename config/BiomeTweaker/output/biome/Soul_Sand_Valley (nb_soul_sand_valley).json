@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "HOT",
+    "NETHER",
     "VOID",
-    "NETHER"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -54,6 +54,12 @@
       "Weight": 36,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

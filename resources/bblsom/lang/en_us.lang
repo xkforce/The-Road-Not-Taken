@@ -1,0 +1,190 @@
+tile.bblsom.button_black.name=Black Button
+tile.bblsom.lever_birchcobblestone.name=Birch Cobblestone Lever
+item.tile.bblsom.door_black.name=Black Door
+tile.bblsom.trapdoor_black.name=Black Trap Door
+tile.bblsom.pressureplate_black.name=Black Pressure Plate
+tile.bblsom.weightedpressureplate_black.name=Black Weighted Pressure Plate
+item.bblsom.sign_black.name=Black Sign
+item.bblsom.boat_black.name=Black Boat
+tile.bblsom.lever_black.name=Black Lever
+tile.bblsom.fallingdirt_black.name=Black Falling Dirt
+tile.bblsom.leaves_black.normal.name=Black Tree Leaves
+tile.bblsom.leaves_black.flowering.name=Flowering Black Tree Leaves
+tile.bblsom.leaves_black.fruiting.name=Fruiting Black Tree Leaves
+tile.bblsom.mushroom_black.name=Black Mushroom
+tile.bblsom.blueasteroiddirt.name=Dirt
+tile.bblsom.grayasteroiddirt.name=Dirt
+tile.bblsom.greenasteroiddirt.name=Dirt
+tile.bblsom.redasteroiddirt.name=Dirt
+tile.bblsom.lunardirt.name=Dirt
+tile.bblsom.martiandirt.name=Dirt
+tile.bblsom.mercuriandirt.name=Dirt
+tile.bblsom.venusiandirt.name=Dirt
+tile.bblsom.blackdirt.name=Chernozem Dirt
+tile.bblsom.graydirt.name=Volcanic Dirt
+tile.bblsom.greendirt.name=Dirt
+tile.bblsom.orangedirt.name=Dirt
+tile.bblsom.orangereddirt.name=Dirt
+tile.bblsom.orangeyellowdirt.name=Dirt
+tile.bblsom.purplereddirt.name=Dirt
+tile.bblsom.reddirt.name=Dirt
+tile.bblsom.whitedirt.name=Dirt
+tile.bblsom.yellowdirt.name=Dirt
+tile.bblsom.blueasteroidgrass.name=Grass
+tile.bblsom.grayasteroidgrass.name=Grass
+tile.bblsom.greenasteroidgrass.name=Grass
+tile.bblsom.redasteroidgrass.name=Grass
+tile.bblsom.lunargrass.name=Grass
+tile.bblsom.martiangrass.name=Grass
+tile.bblsom.mercuriangrass.name=Grass
+tile.bblsom.venusiangrass.name=Grass
+tile.bblsom.blackgrass.name=Chernozem Grass
+tile.bblsom.graygrass.name=Volcanic Grass
+tile.bblsom.greengrass.name=Grass
+tile.bblsom.orangegrass.name=Grass
+tile.bblsom.orangeredgrass.name=Grass
+tile.bblsom.orangeyellowgrass.name=Grass
+tile.bblsom.purpleredgrass.name=Grass
+tile.bblsom.redgrass.name=Grass
+tile.bblsom.whitegrass.name=Grass
+tile.bblsom.yellowgrass.name=Grass
+tile.bblsom.blueasteroidmycelium.name=Mycelium
+tile.bblsom.grayasteroidmycelium.name=Mycelium
+tile.bblsom.greenasteroidmycelium.name=Mycelium
+tile.bblsom.redasteroidmycelium.name=Mycelium
+tile.bblsom.lunarmycelium.name=Mycelium
+tile.bblsom.martianmycelium.name=Mycelium
+tile.bblsom.mercurianmycelium.name=Mycelium
+tile.bblsom.venusianmycelium.name=Mycelium
+tile.bblsom.blackmycelium.name=Chernozem Mycelium
+tile.bblsom.graymycelium.name=Volcanic Mycelium
+tile.bblsom.greenmycelium.name=Mycelium
+tile.bblsom.orangemycelium.name=Mycelium
+tile.bblsom.orangeredmycelium.name=Mycelium
+tile.bblsom.orangeyellowmycelium.name=Mycelium
+tile.bblsom.purpleredmycelium.name=Mycelium
+tile.bblsom.redmycelium.name=Mycelium
+tile.bblsom.whitemycelium.name=Mycelium
+tile.bblsom.yellowmycelium.name=Mycelium
+tile.bblsom.blueasteroidfarmland.name=Farmland
+tile.bblsom.grayasteroidfarmland.name=Farmland
+tile.bblsom.greenasteroidfarmland.name=Farmland
+tile.bblsom.redasteroidfarmland.name=Farmland
+tile.bblsom.lunarfarmland.name=Farmland
+tile.bblsom.martianfarmland.name=Farmland
+tile.bblsom.mercurianfarmland.name=Farmland
+tile.bblsom.venusianfarmland.name=Farmland
+tile.bblsom.blackfarmland.name=Chernozem Farmland
+tile.bblsom.grayfarmland.name=Volcanic Farmland
+tile.bblsom.greenfarmland.name=Farmland
+tile.bblsom.orangefarmland.name=Farmland
+tile.bblsom.orangeredfarmland.name=Farmland
+tile.bblsom.orangeyellowfarmland.name=Farmland
+tile.bblsom.purpleredfarmland.name=Farmland
+tile.bblsom.redfarmland.name=Farmland
+tile.bblsom.whitefarmland.name=Farmland
+tile.bblsom.yellowfarmland.name=Farmland
+item.bblsom.horsearmor_black.name=Black Horse Armor
+item.bblsom.horsearmor_copper.name=Copper Horse Armor
+item.bblsom.horsearmor_tin.name=Tin Horse Armor
+item.bblsom.horsearmor_bronze.name=Bronze Horse Armor
+item.bblsom.horsearmor_steel.name=Steel Horse Armor
+item.bblsom.horsearmor_ruby.name=Ruby Horse Armor
+item.bblsom.horsearmor_topaz.name=Topaz Horse Armor
+item.bblsom.horsearmor_citrine.name=Citrine Horse Armor
+item.bblsom.horsearmor_emerald.name=Emerald Horse Armor
+item.bblsom.horsearmor_aquamarine.name=Aquamarine Horse Armor
+item.bblsom.horsearmor_sapphire.name=Sapphire Horse Armor
+item.bblsom.horsearmor_amethyst.name=Amethyst Horse Armor
+item.bblsom.horsearmor_morganite.name=Morganite Horse Armor
+item.bblsom.horsearmor_silver.name=Silver Horse Armor
+item.bblsom.horsearmor_electrum.name=Electrum Horse Armor
+tile.bblsom.blacksand.name=Black Sand
+tile.bblsom.cyansand.name=Cyan Sand
+tile.bblsom.orangesand.name=Orange Sand
+tile.bblsom.yellowsand.name=Yellow Sand
+tile.bblsom.greensand.name=Green Sand
+tile.bblsom.bluesand.name=Blue Sand
+tile.bblsom.brownsand.name=Brown Sand
+tile.bblsom.whitesand.name=White Sand
+tile.bblsom.graysand.name=Gray Sand
+tile.bblsom.lightgraysand.name=Light Gray Sand
+tile.bblsom.pinksand.name=Pink Sand
+tile.bblsom.purplesand.name=Purple Sand
+tile.bblsom.lightbluesand.name=Light Blue Sand
+tile.bblsom.magentasand.name=Magenta Sand
+tile.bblsom.limesand.name=Lime Sand
+tile.bblsom.vanillagrass.name=Grass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

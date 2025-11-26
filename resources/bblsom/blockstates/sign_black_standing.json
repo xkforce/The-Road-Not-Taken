@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "rotation=0": { "model": "bblsom:sign_black_standing" },
+    "rotation=1": { "model": "bblsom:sign_black_standing" },
+    "rotation=2": { "model": "bblsom:sign_black_standing" },
+    "rotation=3": { "model": "bblsom:sign_black_standing" },
+    "rotation=4": { "model": "bblsom:sign_black_standing" },
+    "rotation=5": { "model": "bblsom:sign_black_standing" },
+    "rotation=6": { "model": "bblsom:sign_black_standing" },
+    "rotation=7": { "model": "bblsom:sign_black_standing" },
+    "rotation=8": { "model": "bblsom:sign_black_standing" },
+    "rotation=9": { "model": "bblsom:sign_black_standing" },
+    "rotation=10": { "model": "bblsom:sign_black_standing" },
+    "rotation=11": { "model": "bblsom:sign_black_standing" },
+    "rotation=12": { "model": "bblsom:sign_black_standing" },
+    "rotation=13": { "model": "bblsom:sign_black_standing" },
+    "rotation=14": { "model": "bblsom:sign_black_standing" },
+    "rotation=15": { "model": "bblsom:sign_black_standing" }
+  }
+}

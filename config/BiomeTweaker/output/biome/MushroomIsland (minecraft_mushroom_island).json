@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MUSHROOM",
-    "RARE"
+    "RARE",
+    "MUSHROOM"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -40,7 +40,14 @@
       "Max Group Count": 8
     }
   ],
-  "Spawnable Monsters": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {

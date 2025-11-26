@@ -133,13 +133,15 @@ for color in colors {
     GenericBlock.createStairs(color ~ "rutilestairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "rutilebrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "rutilechiseledbrickstairs", <blockstate:minecraft:stone_stairs>).register();
-    GenericBlock.createStairs(color ~ "rutilecobblestonestairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "rutilecrackedbrickstairs", <blockstate:minecraft:stone_stairs>).register();
+    GenericBlock.createStairs(color ~ "rutilecrackedshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "rutilepolishedstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createStairs(color ~ "rutileshortbrickstairs", <blockstate:minecraft:stone_stairs>).register();
     GenericBlock.createSlab(rock, color ~ "rutileslab").register();
     GenericBlock.createSlab(rock, color ~ "rutilebrickslab").register();
     GenericBlock.createSlab(rock, color ~ "rutilechiseledbrickslab").register();
-    GenericBlock.createSlab(rock, color ~ "rutilecobblestoneslab").register();
+    GenericBlock.createSlab(rock, color ~ "rutilecrackedbrickslab").register();
+    GenericBlock.createSlab(rock, color ~ "rutilecrackedshortbrickslab").register();
     GenericBlock.createSlab(rock, color ~ "rutilepolishedslab").register();
     GenericBlock.createSlab(rock, color ~ "rutileshortbrickslab").register();
 }

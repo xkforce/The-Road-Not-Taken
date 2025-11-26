@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": { "model": "bblsom:sign_black_wall" },
+    "facing=south": { "model": "bblsom:sign_black_wall" },
+    "facing=west": { "model": "bblsom:sign_black_wall" },
+    "facing=north": { "model": "bblsom:sign_black_wall" }
+  }
+}
