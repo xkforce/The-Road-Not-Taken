@@ -21,6 +21,17 @@ import scripts.variables.colors.yellow;
 static rockData as string[][string][string] = {
     "andesite": {
         "colors": mergeStringArray([black, blue, brown, cyan, gray, green, lightblue, lightgray, lime, magenta, orange, pink, purple, red, white, yellow]),
-        "texturevariants": [" ", "brick", "chiseledbrick", "cobblestone", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"]
+        "texturevariants": [" ", "brick", "chiseledbrick", "cobblestone", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"],
     }
+};
+
+static rockHardness as float[string] = {
+    "basalt": 1.25,
+    "obsidian": 50.0,
+};
+
+static rockResistance as float[string] = {
+    "basalt": 4.2,
+    "blackstone" : 6.0,
+    "obsidian": 1200.0,
 };

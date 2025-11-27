@@ -1,3 +1,7 @@
+#loader crafttweaker
+#modloaded quark
+#priority 2000
+
 recipes.remove(<quark:paper_wall_big> * 4);
 recipes.remove(<quark:paper_wall> * 6);
 recipes.remove(<quark:paper_lantern:1>);

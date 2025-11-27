@@ -1,2 +1,0 @@
-recipes.remove(<inspirations:arrow>);
- 

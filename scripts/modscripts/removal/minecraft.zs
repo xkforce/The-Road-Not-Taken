@@ -1,3 +1,6 @@
+#loader crafttweaker
+#priority 2000
+
 recipes.remove(<minecraft:diamond_helmet>);
 recipes.remove(<minecraft:diamond_chestplate>);
 recipes.remove(<minecraft:diamond_leggings>);

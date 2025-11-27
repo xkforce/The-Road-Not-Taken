@@ -1,4 +1,5 @@
 #loader contenttweaker
+#modloaded contenttweaker
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
