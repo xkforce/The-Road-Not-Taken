@@ -22,6 +22,8 @@ global uniqueStringArray as function(string[][])string[] = function(arrays as st
         for item in array {
             if (!result.contains(item)) {
                 result += item;
+            } else {
+                print("Duplicate entry found in string array: " + item);
             }
         }
     }

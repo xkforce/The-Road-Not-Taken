@@ -1,5 +1,7 @@
 #loader contenttweaker
 #modloaded contenttweaker
+#priority 1000
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
@@ -85,10 +87,3 @@ oil.register();
 var lila = VanillaFactory.createFluid("lila", Color.fromHex("8000D0"));
 lila.vaporize = true;
 lila.register(); 
-
-
-
-
-
-
-

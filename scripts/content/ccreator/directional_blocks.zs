@@ -1,5 +1,6 @@
 #loader preinit
 #modloaded contentcreator
+#priority 500
 
 import contentcreator.block.GenericBlock;
 import crafttweaker.block.IMaterial as Mat;
