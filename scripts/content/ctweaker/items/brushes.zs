@@ -10,9 +10,11 @@ import scripts.functions.contenttweaker.creativeTab;
 
 import scripts.variables.misc.oreColors;
 
-for brush in mergeStringArray([["empty"], oreColors]) {
-    val itemName as string = brush.toLowerCase() + "paintbrush";
-    var item = VanillaFactory.createItem(itemName);
+val brushes as string[] = mergeStringArray([["empty"], oreColors]);
+
+for brush in brushes {
+    var itemName as string = brush + "paintbrush";
+    var item = VanillaFactory.createItem(itemName.toLowerCase());
     if (brushes.indexOf(brush) == 0) {
         createCreativeTabWithItem(modpackID + ".paintbrushes", item);
     }

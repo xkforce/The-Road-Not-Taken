@@ -1,35 +1,21 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 999
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-val dyes as string[] = [
-    "black",
-    "blue",
-    "brown",
-    "camouflage",
-    "cyan",
-    "gray",
-    "green",
-    "lightblue",
-    "lightgray",
-    "lime",
-    "magenta",
-    "orange",
-    "pink",
-    "purple",
-    "red",
-    "white",
-    "yellow",
-];
+import scripts.variables.misc.oreColors;
 
-for dye in dyes {
-    var block = VanillaFactory.createBlock(dye + "dyeblock", <blockmaterial:rock>);
+val colors as string[] = mergeStringArray([["camouflage"], oreColors]);
+
+for dye in colors {
+    var c as string = dye + "dyeblock";
+    var block = VanillaFactory.createBlock(c.toLowerCase(), <blockmaterial:rock>);
     block.setBlockHardness(3.0);
     block.setBlockResistance(15.0);
     block.setToolClass("pickaxe");
     block.setToolLevel(0);
+    block.creativeTab = <creativetab:trnt.colored>;
     block.register();
 }

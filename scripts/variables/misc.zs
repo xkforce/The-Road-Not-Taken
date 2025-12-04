@@ -19,3 +19,21 @@ static oreColors as string[] = [
     "Orange",
     "White",
 ];
+
+static coloredStone as string[] = [
+    "black",
+    "blue",
+    "brown",
+    "cyan",
+    "gray",
+    "green",
+    "silver",
+    "light_blue",
+    "lime",
+    "magenta",
+    "orange",
+    "pink",
+    "purple",
+    "white",
+    "yellow",
+];

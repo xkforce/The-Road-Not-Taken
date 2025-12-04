@@ -7,9 +7,9 @@ import scripts.functions.contenttweaker.createItem;
 
 import scripts.variables.misc.oreColors;
 
-for color in colors {
+for color in oreColors {
     val c as string = color.toLowerCase();
-    if (colors.indexOf(color) == 0) {
+    if (oreColors.indexOf(color) == 0) {
         createCreativeTabAndItem(c + "dyenugget", modpackID + ".colored");
     } else {
         createItem(c + "dyenugget");

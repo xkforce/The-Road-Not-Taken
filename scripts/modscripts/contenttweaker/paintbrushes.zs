@@ -15,15 +15,17 @@ val dyeData as int[][string] = {
 };
 
 for color in oreColors {
-    val itemName as string = color.toLowerCase() + "paintbrush";
-    val brush as IItemStack = itemUtil.getItem("contenttweaker:", itemName);
+    val itemName as string = "contenttweaker:" + color.toLowerCase() + "paintbrush";
+    val brush as IItemStack = itemUtils.getItem(itemName);
 
     for dye, data in dyeData {
-        val dyeItem as IIngredient = oreDict.get(dye + color);
-        val dyeBrush as IItemStack = itemUtil.getItem("contenttweaker:", itemName, data[0]);
+        val d as string = dye.toLowerCase();
+        val dyeItem as IIngredient = oreDict.get(d + color);
+        val dyeBrush as IItemStack = itemUtils.getItem(itemName, data[0]);
+        val recipeName as string = itemName.replace("contenttweaker:", "");
 
-        recipes.addShapeless(itemName + "_" + dye.toLowerCase(), dyeBrush, [brush, dyeItem]);
-        recipes.addShapeless(itemName + "_repair_" + dye.toLowerCase(), brush, [brush.anyDamage().marked("mark"), dyeItem],
+        recipes.addShapeless(itemName + "_" + d, dyeBrush, [brush, dyeItem]);
+        recipes.addShapeless(itemName + "_repair_" + d, brush, [brush.anyDamage().marked("mark"), dyeItem],
             function(out, ins, cInfo) { return ins.mark.withDamage(max(0, ins.mark.damage - data[1])); }, null);
     }
 }
