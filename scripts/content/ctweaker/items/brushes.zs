@@ -8,28 +8,10 @@ import mods.contenttweaker.VanillaFactory;
 import scripts.functions.contenttweaker.createCreativeTabWithItem;
 import scripts.functions.contenttweaker.creativeTab;
 
-val brushes as string[] = [
-    "empty",
-    "red",
-    "orange",
-    "yellow",
-    "green",
-    "blue",
-    "purple",
-    "pink",
-    "magenta",
-    "brown",
-    "lightblue",
-    "lightgray",
-    "lime",
-    "gray",
-    "black",
-    "white",
-    "cyan",
-];
+import scripts.variables.misc.oreColors;
 
-for brush in brushes {
-    val itemName as string = brush + "paintbrush";
+for brush in mergeStringArray([["empty"], oreColors]) {
+    val itemName as string = brush.toLowerCase() + "paintbrush";
     var item = VanillaFactory.createItem(itemName);
     if (brushes.indexOf(brush) == 0) {
         createCreativeTabWithItem(modpackID + ".paintbrushes", item);

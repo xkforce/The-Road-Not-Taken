@@ -5,17 +5,15 @@
 import scripts.functions.contenttweaker.createCreativeTabAndItem;
 import scripts.functions.contenttweaker.createItem;
 
-val colors as string[] = [
-    "white", "orange", "magenta", "lightblue", "yellow", "lime", "pink", "gray",
-    "lightgray", "cyan", "purple", "blue", "brown", "green", "red", "black",
-];
+import scripts.variables.misc.oreColors;
 
 for color in colors {
+    val c as string = color.toLowerCase();
     if (colors.indexOf(color) == 0) {
-        createCreativeTabAndItem(color + "dyenugget", modpackID + ".colored");
+        createCreativeTabAndItem(c + "dyenugget", modpackID + ".colored");
     } else {
-        createItem(color + "dyenugget");
+        createItem(c + "dyenugget");
     }
-    createItem(color + "sparkler");
-    createItem(color + "feather");
+    createItem(c + "sparkler");
+    createItem(c + "feather");
 }
