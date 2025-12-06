@@ -4,6 +4,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.zenutils.I18n;
 
 import scripts.variables.misc.oreColors;
 import scripts.variables.misc.coloredStone;
@@ -13,6 +14,7 @@ for color in oreColors {
         val ore as IOreDictEntry = oreDict.get(key + color);
         var itemName as string = "contenttweaker:" + color + key;
         val item as IItemStack = itemUtils.getItem(itemName.toLowerCase());
+        item.displayName = I18n.format(modpackID + ".item." + key.toLowerCase() + ".name", I18n.format(modpackID + ".color." + color.toLowerCase() + ".name"));
         ore.add(item);
     }
 }

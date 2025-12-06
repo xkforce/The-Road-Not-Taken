@@ -1,4 +1,3 @@
-trnt.stone.name=%s %s %s
 # Color
 # -- Black
 trnt.color.black.name=Black
@@ -155,3 +154,12 @@ trnt.variant.shortbrick.name=%s %s Short Bricks
 trnt.block.wall.name=%s Wall
 trnt.block.slab.name=%s Slab
 trnt.block.stairs.name=%s Stairs
+
+# Items
+# -- Paintbrush
+item.contenttweaker.emptypaintbrush.name=Paintbrush
+trnt.item.paintbrush.name=%s Paintbrush
+# -- Dye
+tile.contenttweaker.camouflageddyeblock.name=Camouflaged Dye Block
+trnt.item.dyenugget.name=%s Dye Nugget
+trnt.item.dyeblock.name=%s Dye Block
