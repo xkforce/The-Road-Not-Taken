@@ -24,8 +24,8 @@ for color in oreColors {
         val dyeBrush as IItemStack = itemUtils.getItem(itemName, data[0]);
         val recipeName as string = itemName.replace("contenttweaker:", "");
 
-        recipes.addShapeless(itemName + "_" + d, dyeBrush, [brush, dyeItem]);
-        recipes.addShapeless(itemName + "_repair_" + d, brush, [brush.anyDamage().marked("mark"), dyeItem],
+        recipes.addShapeless(recipeName + "_" + d, dyeBrush, [brush, dyeItem]);
+        recipes.addShapeless(recipeName + "_repair_" + d, brush, [brush.anyDamage().marked("mark"), dyeItem],
             function(out, ins, cInfo) { return ins.mark.withDamage(max(0, ins.mark.damage - data[1])); }, null);
     }
 }

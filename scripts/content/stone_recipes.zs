@@ -11,6 +11,8 @@ for stonetype in rockData {
             stoneStair(color, stonetype, texturevariant);
             stoneSlab(color, stonetype, texturevariant);
             stoneWall(color, stonetype, texturevariant);
+            // handle block names for easier translation
+            stoneName(color, stonetype, texturevariant);
         }
         stoneChiseledbrick(color, stonetype);
         stoneBrick(color, stonetype);

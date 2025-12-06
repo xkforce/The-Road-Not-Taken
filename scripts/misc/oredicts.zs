@@ -22,9 +22,13 @@ for color in oreColors {
 <ore:redstonetorch>.add(<minecraft:redstone_torch>);
 <ore:dustRedstone>.add(<minecraft:redstone>);
 
-for color in coloredStone {
-    <ore:repeater>.add(itemUtils.getItem("coloredstone:" + color + "stone_repeater"));
-    <ore:comparator>.add(itemUtils.getItem("coloredstone:" + color + "stone_comparator"));
-    <ore:redstonetorch>.add(itemUtils.getItem("coloredstone:" + color + "stone_torch"));
-    <ore:dustRedstone>.add(itemUtils.getItem("coloredstone:" + color + "stone_wire"));
+if loadedMods has "coloredstone" {
+    for color in coloredStone {
+        <ore:repeater>.add(itemUtils.getItem("coloredstone:" + color + "stone_repeater"));
+        <ore:comparator>.add(itemUtils.getItem("coloredstone:" + color + "stone_comparator"));
+        <ore:redstonetorch>.add(itemUtils.getItem("coloredstone:" + color + "stone_torch"));
+        <ore:dustRedstone>.add(itemUtils.getItem("coloredstone:" + color + "stone_wire"));
+    }
+} else {
+    print("Colored Stone mod not loaded, skipping adding colored stone redstone components to oredict.");
 }
