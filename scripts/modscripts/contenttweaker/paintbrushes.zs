@@ -3,6 +3,7 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.zenutils.I18n;
 
 import scripts.variables.misc.oreColors;
 
@@ -18,9 +19,12 @@ for color in oreColors {
     val itemName as string = "contenttweaker:" + color.toLowerCase() + "paintbrush";
     val brush as IItemStack = itemUtils.getItem(itemName);
 
+    val langColor as string = I18n.format(modpackID + ".color." + color.toLowerCase() + ".name");
+    brush.displayName = I18n.format(modpackID + ".item.paintbrush.name", langColor);
+
     for dye, data in dyeData {
         val d as string = dye.toLowerCase();
-        val dyeItem as IIngredient = oreDict.get(d + color);
+        val dyeItem as IIngredient = oreDict.get(dye + color);
         val dyeBrush as IItemStack = itemUtils.getItem(itemName, data[0]);
         val recipeName as string = itemName.replace("contenttweaker:", "");
 
