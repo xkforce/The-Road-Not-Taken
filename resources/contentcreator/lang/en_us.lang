@@ -160,6 +160,8 @@ trnt.block.stairs.name=%s Stairs
 item.contenttweaker.emptypaintbrush.name=Paintbrush
 trnt.item.paintbrush.name=%s Paintbrush
 # -- Dye
-tile.contenttweaker.camouflageddyeblock.name=Camouflaged Dye Block
+tile.contenttweaker.camouflagedyeblock.name=Camouflage Dye Block
 trnt.item.dyenugget.name=%s Dye Nugget
 trnt.item.dyeblock.name=%s Dye Block
+trnt.item.feather.name=%s Feather
+trnt.item.sparkler.name=%s Sparkler
