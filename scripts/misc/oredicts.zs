@@ -14,7 +14,11 @@ for color in oreColors {
         val ore as IOreDictEntry = oreDict.get(key + color);
         var itemName as string = "contenttweaker:" + color + key;
         val item as IItemStack = itemUtils.getItem(itemName.toLowerCase());
-        item.displayName = I18n.format(modpackID + ".item." + key.toLowerCase() + ".name", I18n.format(modpackID + ".color." + color.toLowerCase() + ".name"));
+
+        val langKey as string = modpackID + ".item." + key.toLowerCase() + ".name";
+        val langColor as string = modpackID + ".color." + color.toLowerCase() + ".name";
+        item.displayName = I18n.format(langKey, I18n.format(langColor));
+
         ore.add(item);
     }
 }
