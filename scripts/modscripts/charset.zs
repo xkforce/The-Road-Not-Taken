@@ -31,4 +31,3 @@ recipes.addShapeless(<charset:slime_block_colored:1>, [<colorfulslimes:slimeball
 recipes.addShapeless(<colorfulslimes:slimeball/orange> * 9, [<charset:slime_block_colored:1>]);
 recipes.addShapeless(<colorfulslimes:slimeball/white> * 9, [<charset:slime_block_colored>]);
 recipes.addShapeless(<charset:slime_block_colored>, [<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>,<colorfulslimes:slimeball/white>]);
-

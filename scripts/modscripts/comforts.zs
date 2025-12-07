@@ -66,38 +66,3 @@ recipes.addShaped(<comforts:sleeping_bag:3>, [[<minecraft:wool:3>, <minecraft:wo
 recipes.addShaped(<comforts:sleeping_bag:2>, [[<minecraft:wool:2>, <minecraft:wool:2>, <minecraft:wool:2>]]);
 recipes.addShaped(<comforts:sleeping_bag:1>, [[<minecraft:wool:1>, <minecraft:wool:1>, <minecraft:wool:1>]]);
 recipes.addShaped(<comforts:sleeping_bag>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

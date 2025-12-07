@@ -169,3 +169,10 @@ static white as string[] = [
 static yellow as string[] = [
     "yellow"
 ];
+
+static all as string[] = mergeStringArray([
+    black, blue, brown, cyan,
+    gray, green, lightblue, lightgray,
+    lime, magenta, orange, pink,
+    purple, red, white, yellow
+]);

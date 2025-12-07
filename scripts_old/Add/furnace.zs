@@ -148,12 +148,3 @@ furnace.addRecipe(<greenery:dried_kelp>, <greenery:plant/submerged/yellowkelp>, 
 furnace.addRecipe(<greenery:dried_kelp>, <greenery:plant/submerged/redkelp>, 0.1);
 
 furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "boilingwater", Amount: 1000}), <minecraft:water_bucket>, 0.1);
-
-
-
-
-
-
-
-
- 

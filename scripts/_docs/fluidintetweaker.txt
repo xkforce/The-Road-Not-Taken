@@ -16,4 +16,3 @@ import mods.fluidintetweaker.interaction.Condition;
 FITweaker.addRecipe(<liquid:lava>, <liquid:water>, FITweaker.outputBuilder()
 .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:minecraft:end_stone>).addCondition(Condition.byChance, [0.7f]).addCondition(Condition.biome, ["minecraft:sky"]))
 .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:minecraft:glass>).addCondition(Condition.byChance, [0.3f]).addCondition(Condition.biome, ["minecraft:sky"])));
-

@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 5000
+#priority 1000
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -19,7 +19,7 @@ for i in 0 .. 15 {
     for key in ["wool", "stained_hardened_clay", "stained_glass", "stained_glass_pane", "bed", "concrete_powder", "concrete", "carpet"] {
         var itemName as string = "minecraft:" + key;
         val item as IItemStack = itemUtils.getItem(itemName, i);
-        val meta as IItemStack = itemUtils.getItem(itemName, 32767);
+        val meta as IItemStack = itemUtils.getItem(itemName, anyMeta);
 
         recipes.removeByRecipeName(itemName);
         recipes.addShapeless("recolor_nugget_" + color.toLowerCase() + "_" + key, item, [meta, nugget]);
