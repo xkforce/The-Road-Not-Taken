@@ -3,7 +3,7 @@
 
 import scripts.variables.stone.rockData;
 
-print("/--- CraftTweaker Stone Recipe Registration ---/");
+info("/--- CraftTweaker Stone Recipe Registration ---/");
 
 for stonetype in rockData {
     for color in rockData[stonetype]["colors"] {

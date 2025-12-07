@@ -16,8 +16,7 @@ events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
             }
         }
     }
-}
-);
+});
 
 events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
     val wasplavadamage = event.entity;
@@ -29,8 +28,7 @@ events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
             }
         }
     }
-}
-);
+});
 
 events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
     val wasponfiredamage = event.entity;
@@ -42,8 +40,7 @@ events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
             }
         }
     }
-}
-);
+});
 
 events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
     val waspinfiredamage = event.entity;
@@ -55,5 +52,4 @@ events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
             }
         }
     }
-}
-);
+});

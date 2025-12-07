@@ -16,11 +16,11 @@ global stoneStair as function(string, string, string)bool = function(color as st
     val output as IItemStack = itemUtils.getItem("contentcreator:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stone);
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output * 4, [[input, null, null], [input, input, null], [input, input, input]]);
@@ -33,11 +33,11 @@ global stoneSlab as function(string, string, string)bool = function(color as str
     val output as IItemStack = itemUtils.getItem("contentcreator:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stone);
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output * 6, [[input, input, input]]);
@@ -50,11 +50,11 @@ global stoneChiseledbrick as function(string, string)bool = function(color as st
     val output as IItemStack = itemUtils.getItem("contenttweaker:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contentcreator:" + stoneRegistryKey(color, stonetype, "brickslab"));
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output, [[input], [input]]);
@@ -66,11 +66,11 @@ global stoneBrick as function(string, string)bool = function(color as string, st
     val output as IItemStack = itemUtils.getItem("contenttweaker:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stoneRegistryKey(color, stonetype, " "));
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output * 4, [[input, input], [input, input]]);
@@ -82,11 +82,11 @@ global stonePolished as function(string, string)bool = function(color as string,
     val output as IItemStack = itemUtils.getItem("contenttweaker:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stoneRegistryKey(color, stonetype, " "));
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output * 4, [[input, input], [input, input]]);
@@ -99,11 +99,11 @@ global stoneWall as function(string, string, string)bool = function(color as str
     val output as IItemStack = itemUtils.getItem("contentcreator:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stone);
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     recipes.addShaped(recipeName, output * 6, [[input, input, input], [input, input, input]]);
@@ -115,11 +115,11 @@ global stoneSmelt as function(string, string)bool = function(color as string, st
     val output as IItemStack = itemUtils.getItem("contenttweaker:" + recipeName);
     val input as IItemStack = itemUtils.getItem("contenttweaker:" + stoneRegistryKey(color, stonetype, "cobblestone"));
     if (isNull(output)) {
-        print("Error: Output item for <" + recipeName + "> is null!");
+        error("Output item for <" + recipeName + "> is null!");
         return false;
     }
     if (isNull(input)) {
-        print("Error: Input item for <" + recipeName + "> is null!");
+        error("Input item for <" + recipeName + "> is null!");
         return false;
     }
     furnace.addRecipe(output, input, 0.1);
@@ -130,7 +130,7 @@ global stoneName as function(string, string, string)bool = function(color as str
     val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
     val item as IItemStack = itemUtils.getItem("contenttweaker:" + stone);
     if (isNull(item)) {
-        print("Error: Item for <" + stone + "> is null!");
+        error("Item for <" + stone + "> is null!");
         return false;
     }
     val nameColor as string = I18n.format(modpackID + ".color." + color + ".name");

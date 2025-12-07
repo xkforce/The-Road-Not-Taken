@@ -23,7 +23,7 @@ global uniqueStringArray as function(string[][])string[] = function(arrays as st
             if (!result.contains(item)) {
                 result += item;
             } else {
-                print("Duplicate entry found in string array: " + item);
+                warn("Duplicate entry found in string array: " + item);
             }
         }
     }

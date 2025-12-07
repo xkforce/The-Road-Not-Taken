@@ -26,7 +26,7 @@ if loadedMods has "quark" {
     };
 
     for slab, material in slabs {
-        val input as IItemStack = itemUtils.getItem(material);
+        val input as IItemStack = item(material);
         recipes.addShaped(slab * 6, [[input, input, input]]);
     }
 }

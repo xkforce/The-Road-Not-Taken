@@ -11,9 +11,9 @@ import scripts.variables.misc.coloredStone;
 
 for color in oreColors {
     for key in ["dyeNugget", "dyeBlock"] {
-        val ore as IOreDictEntry = oreDict.get(key + color);
+        val ore as IOreDictEntry = ore(key + color);
         var itemName as string = "contenttweaker:" + color + key;
-        val item as IItemStack = itemUtils.getItem(itemName.toLowerCase());
+        val item as IItemStack = item(itemName);
 
         val langKey as string = modpackID + ".item." + key.toLowerCase() + ".name";
         val langColor as string = modpackID + ".color." + color.toLowerCase() + ".name";
@@ -30,11 +30,11 @@ for color in oreColors {
 
 if loadedMods has "coloredstone" {
     for color in coloredStone {
-        <ore:repeater>.add(itemUtils.getItem("coloredstone:" + color + "stone_repeater"));
-        <ore:comparator>.add(itemUtils.getItem("coloredstone:" + color + "stone_comparator"));
-        <ore:redstonetorch>.add(itemUtils.getItem("coloredstone:" + color + "stone_torch"));
-        <ore:dustRedstone>.add(itemUtils.getItem("coloredstone:" + color + "stone_wire"));
+        <ore:repeater>.add(item("coloredstone:" + color + "stone_repeater"));
+        <ore:comparator>.add(item("coloredstone:" + color + "stone_comparator"));
+        <ore:redstonetorch>.add(item("coloredstone:" + color + "stone_torch"));
+        <ore:dustRedstone>.add(item("coloredstone:" + color + "stone_wire"));
     }
 } else {
-    print("Colored Stone mod not loaded, skipping adding colored stone redstone components to oredict.");
+    warn("Colored Stone mod not loaded, skipping adding colored stone redstone components to oredict.");
 }

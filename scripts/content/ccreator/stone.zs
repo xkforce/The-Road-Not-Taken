@@ -9,7 +9,7 @@ import scripts.variables.stone.rockData;
 import scripts.variables.stone.rockHardness;
 import scripts.variables.stone.rockResistance;
 
-print("/--- Content Creator Stone Registration ---/");
+info("/--- Content Creator Stone Registration ---/");
 
 val rock = Mat.rock();
 

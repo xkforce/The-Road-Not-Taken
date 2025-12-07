@@ -34,7 +34,7 @@ for crop in crops {
     if (allCrops.contains(crop)) {
         GenericBlock.createCrop(crop, item).register();
     } else {
-        print("Crop item <" + item + "> not found, skipping crop creation.");
+        warn("Crop item <" + item + "> not found, skipping crop creation.");
     }
 }
 
@@ -60,7 +60,7 @@ for squash in squashes {
     if (allCrops.contains(squash)) {
         GenericBlock.createStem(squash + "seeds", item, 0).register();
     } else {
-        print("Squash item <" + item + "> not found, skipping stem creation.");
+        warn("Squash item <" + item + "> not found, skipping stem creation.");
     }
 }
 
@@ -82,7 +82,7 @@ for melon in melons {
     if (allCrops.contains(melon)) {
         GenericBlock.createStem(melon + "seeds", item, 0).register();
     } else {
-        print("Melon item <" + item + "> not found, skipping stem creation.");
+        warn("Melon item <" + item + "> not found, skipping stem creation.");
     }
 }
 
@@ -103,7 +103,7 @@ for vine in vineCrops {
     if (allCrops.contains(vine)) {
         GenericBlock.createCropRestrictedByBlock(vine, item, "minecraft:string", 0, 0, 1, 3).register();
     } else {
-        print("Vine crop item <" + item + "> not found, skipping crop creation.");
+        warn("Vine crop item <" + item + "> not found, skipping crop creation.");
     }
 }
 
@@ -131,6 +131,6 @@ for vine in tallVines {
     if (allCrops.contains(vine)) {
         GenericBlock.createCropTallRestrictedByOreDictionary(vine, item, "ore:fence", 0, 1, 3).register();
     } else {
-        print("Tall vine crop item <" + item + "> not found, skipping crop creation.");
+        warn("Tall vine crop item <" + item + "> not found, skipping crop creation.");
     }
 }

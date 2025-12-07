@@ -20,7 +20,7 @@ val tooltips as string[][string][string] = {
 for mod in tooltips.keys {
     if loadedMods has mod {
         for item in tooltips[mod].keys {
-            val fullName as IItemStack = itemString(mod, item);
+            val fullName as IItemStack = itemString(`${mod}:${item}`);
             val tooltipList as string[] = tooltips[mod][item];
             if (!isNull(fullName)) {
                 for tip in tooltipList {
@@ -29,14 +29,6 @@ for mod in tooltips.keys {
             }
         }
     } else {
-        print("Mod " + mod + " not loaded, skipping tooltips for it.");
+        warn(`Mod *${mod}* not loaded, skipping tooltips for it.`);
     }
-}
-
-function itemString(mod as string, name as string) as IItemStack {
-    if StaticString.contains(name, ":") {
-        val parts as string[] = name.split(":");
-        return itemUtils.getItem(mod + ":" + parts[0], parts[1]);
-    }
-    return itemUtils.getItem(mod + ":" + name);
 }

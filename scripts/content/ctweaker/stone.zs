@@ -6,7 +6,7 @@ import mods.contenttweaker.Block;
 
 import scripts.variables.stone.rockData;
 
-print("/--- ContentTweaker Stone Registration ---/");
+info("/--- ContentTweaker Stone Registration ---/");
 
 for stonetype in rockData {
     for color in rockData[stonetype]["colors"] {

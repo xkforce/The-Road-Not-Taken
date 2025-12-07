@@ -111,7 +111,7 @@ val armorMap as IItemStack[][string] = {
 };
 
 for material, armorList in armorMap {
-    val input as IItemStack = itemUtils.getItemStack("contenttweaker:" + material + "plate");
+    val input as IItemStack = item("contenttweaker:" + material + "plate");
     if (!isNull(input)) {
         recipes.addShaped(material + " Helmet", armorList[0], [
             [input, input, input],
@@ -132,6 +132,6 @@ for material, armorList in armorMap {
             [input, null, input]
         ]);
     } else {
-        print("Armor material " + material + " not found, skipping armor recipe.");
+        warn("Armor material " + material + " not found, skipping armor recipe.");
     }
 }

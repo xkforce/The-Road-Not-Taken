@@ -56,6 +56,6 @@ for mod in mods {
     if (loadedMods in mod) {
         recipes.removeByMod(mod);
     } else {
-        print("Mod " + mod + " is not loaded, skipping removal of recipes.");
+        info(`Mod *${mod}* is not loaded, skipping removal of recipes.`);
     }
 }

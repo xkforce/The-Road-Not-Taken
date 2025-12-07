@@ -1,79 +1,84 @@
 #loader crafttweaker
-#modloaded additions
+#priority 10
 
 import crafttweaker.item.IIngredient;
 
-val fuelMap as IIngredient[][int] = {
+val fuelMap as string[][int] = {
     100: [
-        <minecraft:paper>,
-        <minecraft:shield>,
-        <astikorcarts:plowcart>,
-        <astikorcarts:cargocart>,
-        <astikorcarts:mobcart>,
-        <astikorcarts:wheel>,
-        <pvj:cottonwood_button>,
+        "minecraft:paper",
+        "minecraft:shield",
+        "astikorcarts:plowcart",
+        "astikorcarts:cargocart",
+        "astikorcarts:mobcart",
+        "astikorcarts:wheel",
+        "pvj:cottonwood_button",
     ],
     200: [
-        <contenttweaker:charcoalnugget>,
-        <quark:paper_wall_sakura>,
+        "contenttweaker:charcoalnugget",
+        "quark:paper_wall_sakura",
     ],
     300: [
-        <minecraft:book>,
-        <minecraft:writable_book>,
-        <minecraft:written_book>,
-        <minecraft:enchanted_book>,
+        "minecraft:book",
+        "minecraft:writable_book",
+        "minecraft:written_book",
+        "minecraft:enchanted_book",
     ],
     400: [
-        <ore:torch>,
-        <quark:colored_item_frame:*>,
-        <minecraft:item_frame>,
-        <contenttweaker:cokenugget>,
+        "ore:torch",
+        "quark:colored_item_frame:*",
+        "minecraft:item_frame",
+        "contenttweaker:cokenugget",
     ],
     450: [
-        <minecraft:painting>,
+        "minecraft:painting",
     ],
     500: [
-        <contenttweaker:graphitenugget>,
+        "contenttweaker:graphitenugget",
     ],
     700: [
-        <presents:present>,
-        <presents:present_empty>,
+        "presents:present",
+        "presents:present_empty",
     ],
     800: [
-        <minecraft:map:0>,
-        <minecraft:map:1>,
+        "minecraft:map:0",
+        "minecraft:map:1",
     ],
     900: [
-        <quark:paper_wall>,
-        <quark:paper_wall_big>,
+        "quark:paper_wall",
+        "quark:paper_wall_big",
     ],
     1200: [
-        <minecraft:bed:*>,
+        "minecraft:bed:*",
     ],
     1600: [
-        <minecraft:map:2>,
+        "minecraft:map:2",
     ],
     2400: [
-        <minecraft:map:3>,
+        "minecraft:map:3",
     ],
     3200: [
-        <minecraft:map:4>,
-        <contenttweaker:coke>,
+        "minecraft:map:4",
+        "contenttweaker:coke",
     ],
     4000: [
-        <minecraft:map:5>,
-        <contenttweaker:graphite>,
+        "minecraft:map:5",
+        "contenttweaker:graphite",
     ],
     32000: [
-        <contenttweaker:cokeblock>,
+        "contenttweaker:cokeblock",
     ],
     40000: [
-        <contenttweaker:graphiteblock>,
+        "contenttweaker:graphiteblock",
     ],
 };
 
 for burntime, itemList in fuelMap {
     for item in itemList {
-        furnace.setFuel(item, burntime);
+        val modID as string = mod(item);
+        if (modLoaded(modID)) {
+            furnace.setFuel(ingredient(item), burntime);
+        } else {
+            warn(`Mod *${modID}* not loaded; skipping furnace fuel registration for item *${item}*.`);
+        }
     }
 }

@@ -2,26 +2,27 @@
 #modloaded jei
 #priority 1
 
-import crafttweaker.item.IIngredient;
-
 import mods.jei.JEI;
 
-val fluidsToHide as IIngredient[] = [
-    <liquid:sand>,
-    <liquid:honey>,
-    <liquid:poison>,
-    <liquid:hot_spring_water>,
-    <liquid:blood>,
-    <liquid:nitrogen>,
-    <liquid:rocketfuel>,
-    <liquid:enrichedlava>,
-    <liquid:oxygen>,
-    <liquid:hydrogen>,
-    <liquid:milk>,
+val fluidsToHide as string[] = [
+    "sand",
+    "honey",
+    "poison",
+    "hot_spring_water",
+    "blood",
+    "nitrogen",
+    "rocketfuel",
+    "enrichedlava",
+    "oxygen",
+    "hydrogen",
+    "milk",
 ];
 
-for fluid in fluidsToHide {
-    JEI.hide(fluid);
+for f in fluidsToHide {
+    val fl = fluid(f);
+    if (!isNull(fl)) {
+        JEI.hide(fl);
+    }
 }
 
 val bucketFluids as string[] = [
@@ -44,5 +45,7 @@ val bucketFluids as string[] = [
 ];
 
 for fluidName in bucketFluids {
-    JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: fluidName, Amount: 1000}), true);
+    if (!isNull(fluid(fluidName))) {
+        JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: fluidName, Amount: 1000}), true);
+    }
 }

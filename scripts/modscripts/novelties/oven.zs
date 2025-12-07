@@ -1,5 +1,5 @@
 #loader crafttweaker
-#modloaded novelties
+#modloaded novelties deeperdepths charset colorfulslimes projectred-transmission
 
 import mods.novelties.Oven;
 

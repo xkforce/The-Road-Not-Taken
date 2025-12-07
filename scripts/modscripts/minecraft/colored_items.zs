@@ -13,17 +13,17 @@ mcColor.reverse();
 
 for i in 0 .. 15 {
     val color as string = mcColor[i];
-    val dye as IIngredient = oreDict.get("dye" + color);
-    val nugget as IIngredient = oreDict.get("dyeNugget" + color);
+    val dye as IIngredient = ore("dye" + color);
+    val nugget as IIngredient = ore("dyeNugget" + color);
 
     for key in ["wool", "stained_hardened_clay", "stained_glass", "stained_glass_pane", "bed", "concrete_powder", "concrete", "carpet"] {
         var itemName as string = "minecraft:" + key;
-        val item as IItemStack = itemUtils.getItem(itemName, i);
-        val meta as IItemStack = itemUtils.getItem(itemName, anyMeta);
+        val item as IItemStack = itemMeta(itemName, i);
+        val meta as IItemStack = itemMeta(itemName, anyMeta);
 
         recipes.removeByRecipeName(itemName);
-        recipes.addShapeless("recolor_nugget_" + color.toLowerCase() + "_" + key, item, [meta, nugget]);
-        recipes.addShapeless("recolor_dye_" + color.toLowerCase() + "_" + key, item * 8, [
+        recipes.addShapeless(`recolor_nugget_${color.toLowerCase()}_${key}`, item, [meta, nugget]);
+        recipes.addShapeless(`recolor_dye_${color.toLowerCase()}_${key}`, item * 8, [
             meta, meta, meta,
             meta, dye, meta,
             meta, meta, meta

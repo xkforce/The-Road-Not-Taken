@@ -13,9 +13,10 @@ val armor as IItemStack[string] = {
 };
 
 for key, material in armor {
-    val horseArmor as IItemStack = itemUtils.getItem("minecraft:" + key + "_horse_armor");
+    val horseArmor as IItemStack = item(`minecraft:${key}_horse_armor`);
+    val recipeName as string = `craft_${key}_horse_armor`;
 
-    recipes.addShaped("craft_" + key + "_horse_armor", horseArmor, [
+    recipes.addShaped(recipeName, horseArmor, [
         [null, null, material],
         [material, <minecraft:saddle>, material],
         [material, material, material]
