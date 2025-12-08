@@ -84,6 +84,7 @@ trnt.color.lightblueorange.name=Lightblue-Orange
 trnt.color.lightbluepink.name=Lightblue-Pink
 trnt.color.lightbluepurple.name=Lightblue-Purple
 trnt.color.lightbluewhite.name=Lightblue-White
+trnt.color.lightbluered.name=Lightblue-Red
 trnt.color.lightblueyellow.name=Lightblue-Yellow
 # -- Lightgray
 trnt.color.lightgray.name=Lightgray
@@ -138,7 +139,44 @@ trnt.color.whiteyellow.name=White-Yellow
 trnt.color.yellow.name=Yellow
 
 # Stonetype
+# -- Overworld
 trnt.stonetype.andesite.name=Andesite
+trnt.stonetype.aventurine.name=Aventurine
+trnt.stonetype.concrete.name=Concrete
+trnt.stonetype.dacite.name=Dacite
+trnt.stonetype.diorite.name=Diorite
+trnt.stonetype.granite.name=Granite
+trnt.stonetype.obsidian.name=Obsidian
+# -- Nether
+trnt.stonetype.cryingobsidian.name=Crying Obsidian
+trnt.stonetype.netherstone.name=Nether Stone
+# -- End
+trnt.stonetype.endstone.name=End Stone
+trnt.stonetype.flavolite.name=Flavolite
+trnt.stonetype.purpur.name=Purpur
+# -- Extraterrestrial
+trnt.stonetype.basalt.name=Basalt
+trnt.stonetype.cythereastone.name=Cytherea Stone
+trnt.stonetype.rutile.name=Rutile
+trnt.stonetype.venusstone.name=Venus Stone
+trnt.stonetype.augite.name=Augite
+trnt.stonetype.diopside.name=Diopside
+trnt.stonetype.enstatite.name=Enstatite
+trnt.stonetype.fayalite.name=Fayalite
+trnt.stonetype.forsterite.name=Forsterite
+trnt.stonetype.lunastone.name=Luna Stone
+trnt.stonetype.marsstone.name=Mars Stone
+trnt.stonetype.mercurystone.name=Mercury Stone
+trnt.stonetype.oldhamite.name=Oldhamite
+trnt.stonetype.orthoclase.name=Orthoclase
+trnt.stonetype.orthopyroxene.name=Orthopyroxene
+trnt.stonetype.pigeonite.name=Pigeonite
+trnt.stonetype.plagioclase.name=Plagioclase
+trnt.stonetype.tephroite.name=Tephroite
+trnt.stonetype.troilite.name=Troilite
+trnt.stonetype.aegirine.name=Aegirine
+# -- Misc
+trnt.stonetype.wool.name=Wool
 
 # Texture Variant
 trnt.variant.base.name=%s %s
