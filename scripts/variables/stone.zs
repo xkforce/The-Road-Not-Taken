@@ -66,7 +66,7 @@ static rockData as string[][string][string] = {
         "texturevariants": [" ", "brick", "chiseledbrick", "polished"]
     },
     "sandstone": {
-        "colors": mergeStringArray([c124, [" "]]),
+        "colors": mergeStringArray([c124, none]),
         "texturevariants": sandstoneVariants,
         "flags": ["--onlyBlocks"]
     },
