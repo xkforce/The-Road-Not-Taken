@@ -45,7 +45,7 @@ static rockData as string[][string][string] = {
         "colors": c109,
         "texturevariants": defaultVariants
     },
-    "dacite": {
+    "apacherhyolite": {
         "colors": c124,
         "texturevariants": defaultVariants
     },

@@ -96,3 +96,7 @@ assetmover/
 dynmap/
 config/dynmap.cfg
 config/dynmapblockscan.cfg
+
+*.cache
+
+icon.png
