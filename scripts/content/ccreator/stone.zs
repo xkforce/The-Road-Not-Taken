@@ -14,17 +14,25 @@ info("/--- Content Creator Stone Registration ---/");
 val rock = Mat.rock();
 
 for stonetype in rockData {
-    for color in rockData[stonetype]["colors"] {
-        for texturevariant in rockData[stonetype]["texturevariants"] {
-            val base as string = stoneRegistryKey(color, stonetype, texturevariant);
-            val stair as string = base + "stairs";
-            val wall as string = base + "wall";
-            val slab as string = base + "slab";
-            val hardness as float = getHardness(stonetype);
-            val resistance as float = getResistance(stonetype);
-            GenericBlock.createStairs(stair, <blockstate:minecraft:stone_stairs>).setStrength(hardness, resistance).register();
-            GenericBlock.createFence(rock, wall).setStrength(hardness, resistance).register();
-            GenericBlock.createSlab(rock, slab).setStrength(hardness, resistance).register();
+    if (isNull(rockData[stonetype]["colors"])) {
+        error(`Stonetype *${stonetype}* misses the *colors* field!`);
+    }
+    if (isNull(rockData[stonetype]["texturevariants"])) {
+        error(`Stonetype *${stonetype}* misses the *texturevariants* field!`);
+    }
+    if (shouldProcess(stonetype)) {
+        for color in rockData[stonetype]["colors"] {
+            for texturevariant in rockData[stonetype]["texturevariants"] {
+                val base as string = stoneRegistryKey(color, stonetype, texturevariant);
+                val stair as string = base + "stairs";
+                val wall as string = base + "wall";
+                val slab as string = base + "slab";
+                val hardness as float = getHardness(stonetype);
+                val resistance as float = getResistance(stonetype);
+                GenericBlock.createStairs(stair, <blockstate:minecraft:stone_stairs>).setStrength(hardness, resistance).register();
+                GenericBlock.createFence(rock, wall).setStrength(hardness, resistance).register();
+                GenericBlock.createSlab(rock, slab).setStrength(hardness, resistance).register();
+            }
         }
     }
 }
@@ -41,4 +49,17 @@ function getResistance(stonetype as string) as float {
         return rockResistance[stonetype] as float;
     }
     return 10.0 as float;
+}
+
+function shouldProcess(stonetype as string) as bool {
+    if (isNull(rockData[stonetype]["flags"])) {
+        // stone has no flags, process...
+        return true;
+    } else {
+        if (rockData[stonetype]["flags"] has "--onlyBlocks") {
+            info(`Found *--onlyBlocks* flag for ${stonetype}! No additional blocks will be added.`);
+            return false;
+        }
+        return true;
+    }
 }

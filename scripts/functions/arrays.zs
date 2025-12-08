@@ -30,10 +30,11 @@ global uniqueStringArray as function(string[][])string[] = function(arrays as st
     return result;
 };
 
-global filterStringArray as function(string[], string[])string[] = function(array as string[], toRemove as string[]) as string[] {
+global filterStringArray as function(string[], string[][])string[] = function(array as string[], toRemove as string[][]) as string[] {
     var result as string[] = [];
+    val removalSet as string[] = mergeStringArray(toRemove);
     for item in array {
-        if (!toRemove.contains(item)) {
+        if (!removalSet.contains(item)) {
             result += item;
         }
     }

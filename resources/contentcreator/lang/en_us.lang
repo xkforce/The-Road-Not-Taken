@@ -139,6 +139,7 @@ trnt.color.whiteyellow.name=White-Yellow
 trnt.color.yellow.name=Yellow
 
 # Stonetype
+trnt.stonetype.smoothstone.name=Stone
 # -- Overworld
 trnt.stonetype.andesite.name=Andesite
 trnt.stonetype.aventurine.name=Aventurine
@@ -147,11 +148,16 @@ trnt.stonetype.dacite.name=Dacite
 trnt.stonetype.diorite.name=Diorite
 trnt.stonetype.granite.name=Granite
 trnt.stonetype.obsidian.name=Obsidian
+trnt.stonetype.sandstone.name=Sandstone
+trnt.stonetype.sandstonered.name=Red Sandstone
 # -- Nether
 trnt.stonetype.cryingobsidian.name=Crying Obsidian
+trnt.stonetype.netherquartz.name=Nether Quartz
+trnt.stonetype.netherrack.name=Netherrack
 trnt.stonetype.netherstone.name=Nether Stone
 # -- End
 trnt.stonetype.endstone.name=End Stone
+trnt.stonetype.enderstone.name=Ender Stone
 trnt.stonetype.flavolite.name=Flavolite
 trnt.stonetype.purpur.name=Purpur
 # -- Extraterrestrial
@@ -182,11 +188,61 @@ trnt.stonetype.wool.name=Wool
 trnt.variant.base.name=%s %s
 trnt.variant.brick.name=%s %s Bricks
 trnt.variant.chiseledbrick.name=%s Chiseled %s Bricks
+trnt.variant.chiseled.name=%s Chiseled %s
 trnt.variant.cobblestone.name=%s %s Cobblestone
 trnt.variant.crackedbrick.name=%s Cracked %s Bricks
 trnt.variant.crackedshortbrick.name=%s Cracked %s Short Bricks
+trnt.variant.debossed.name=%s Debossed %s
+trnt.variant.gilded.name=%s Gilded %s
+trnt.variant.pillar.name=%s %s Pillar
 trnt.variant.polished.name=%s Polished %s
 trnt.variant.shortbrick.name=%s %s Short Bricks
+trnt.variant.smooth.name=%s Smooth %s
+# -- Sandstone
+trnt.variant.archerleft.name=Archer (Left) %s
+trnt.variant.archerright.name=Archer (Right) %s
+trnt.variant.armsdown.name=Arms (Down) %s
+trnt.variant.armsup.name=Arms (Up) %s
+trnt.variant.axeleft.name=Axe (Left) %s
+trnt.variant.axeright.name=Axe (Right) %s
+trnt.variant.bladeleft.name=Blade (Left) %s
+trnt.variant.bladeright.name=Blade (Right) %s
+trnt.variant.brokenheart.name=Broken Heart %s
+trnt.variant.carvedcreeper.name=Carved Creeper %s
+trnt.variant.carvedskeleton.name=Carved Skeleton %s
+trnt.variant.carvedzombie.name=Carved Zombie %s
+trnt.variant.chestleft.name=Chest (Left) %s
+trnt.variant.chestright.name=Chest (Right) %s
+trnt.variant.chibicreeperleft.name=Chibi Creeper (Left) %s
+trnt.variant.chibicreeperright.name=Chibi Creeper (Right) %s
+trnt.variant.cut.name=Cut %s
+trnt.variant.dogleft.name=Dog (Left) %s
+trnt.variant.dogright.name=Dog (Right) %s
+trnt.variant.explorerleft.name=Explorer (Left) %s
+trnt.variant.explorerright.name=Explorer (Right) %s
+trnt.variant.fire.name=Fire %s
+trnt.variant.fishingrodleft.name=Fishingrod (Left) %s
+trnt.variant.fishingrodright.name=Fishingrod (Right) %s
+trnt.variant.friend.name=Friend %s
+trnt.variant.ghast.name=Ghast %s
+trnt.variant.guster.name=Guster %s
+trnt.variant.heart.name=Heart %s
+trnt.variant.miner.name=Miner %s
+trnt.variant.mourner.name=Mourner %s
+trnt.variant.potion.name=Potion %s
+trnt.variant.prize.name=Prize %s
+trnt.variant.sheaf.name=Sheaf %s
+trnt.variant.shelter.name=Shelter %s
+trnt.variant.slimeleft.name=Slime (Left) %s
+trnt.variant.slimeright.name=Slime (Right) %s
+trnt.variant.swirlcb.name=Swirl (cb) %s
+trnt.variant.swirlccb.name=Swirl (ccb) %s
+trnt.variant.swirlcct.name=Swirl (cct) %s
+trnt.variant.swirlct.name=Swirl (ct) %s
+trnt.variant.turtleleft.name=Turtle (Left) %s
+trnt.variant.turtleright.name=Turtle (Right) %s
+trnt.variant.waveleft.name=Wave (Left) %s
+trnt.variant.waveright.name=Wave (Right) %s
 
 # Block Types
 trnt.block.wall.name=%s Wall

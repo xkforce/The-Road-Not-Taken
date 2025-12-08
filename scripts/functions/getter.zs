@@ -1,4 +1,5 @@
-#loader crafttweaker
+#loader preinit contenttweaker crafttweaker
+#modloaded zenutils
 #priority 100000
 
 import crafttweaker.item.IItemStack;
@@ -7,24 +8,6 @@ import crafttweaker.liquid.ILiquidDefinition;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
-global fluid as function(string)ILiquidStack = function(fluidName as string) as ILiquidStack {
-    var bucket as IItemStack = <minecraft:bucket>;
-    if (fluidName == "water") {
-        bucket = <minecraft:water_bucket>;
-    }
-    if (fluidName == "lava") {
-        bucket = <minecraft:lava_bucket>;
-    }
-    if (fluidName != "lava" & fluidName != "water") {
-        bucket = <forge:bucketfilled>.withTag({FluidName: fluidName, Amount: 1000});
-    }
-    for liquid in bucket.liquids {
-        return liquid.definition * 1;
-    }
-    error("Fluid '" + fluidName + "' not found.");
-    return null;
-};
 
 global item as function(string)IItemStack = function(itemName as string) as IItemStack {
     return itemUtils.getItem(itemName.toLowerCase());
@@ -94,4 +77,22 @@ global ingredient as function(string)IIngredient = function(ingredientName as st
         return ore(ingredientName) as IIngredient;
     }
     return itemString(ingredientName) as IIngredient;
+};
+
+global fluid as function(string)ILiquidStack = function(fluidName as string) as ILiquidStack {
+    var bucket as IItemStack = item("minecraft:bucket");
+    if (fluidName == "water") {
+        bucket = item("minecraft:water_bucket");
+    }
+    if (fluidName == "lava") {
+        bucket = item("minecraft:lava_bucket");
+    }
+    if (fluidName != "lava" & fluidName != "water") {
+        bucket = item("forge:bucketfilled").withTag({FluidName: fluidName, Amount: 1000});
+    }
+    for liquid in bucket.liquids {
+        return liquid.definition * 1;
+    }
+    error("Fluid '" + fluidName + "' not found.");
+    return null;
 };
