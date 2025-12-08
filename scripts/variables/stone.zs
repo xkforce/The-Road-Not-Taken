@@ -9,6 +9,7 @@ import scripts.variables.colors.c124end;
 import scripts.variables.colors.c125;
 import scripts.variables.colors.c18;
 import scripts.variables.colors.c112;
+import scripts.variables.colors.c259;
 import scripts.variables.colors.none;
 
 static defaultVariants as string[] = [
@@ -46,7 +47,7 @@ static rockData as string[][string][string] = {
         "texturevariants": defaultVariants
     },
     "apacherhyolite": {
-        "colors": c124,
+        "colors": c259,
         "texturevariants": defaultVariants
     },
     "diorite": {
