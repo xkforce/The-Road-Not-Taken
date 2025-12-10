@@ -243,11 +243,14 @@ trnt.variant.turtleleft.name=%s Turtle (Left) %s
 trnt.variant.turtleright.name=%s Turtle (Right) %s
 trnt.variant.waveleft.name=%s Wave (Left) %s
 trnt.variant.waveright.name=%s Wave (Right) %s
+# Texture Modifier
+trnt.modifier.apacherhyolite.name=%s dotted %s %s
 
 # Block Types
 trnt.block.wall.name=%s Wall
 trnt.block.slab.name=%s Slab
 trnt.block.stairs.name=%s Stairs
+trnt-block.ladder.name=Ladder (%s Railings and %s Rungs)
 
 # Items
 # -- Paintbrush
@@ -259,3 +262,29 @@ trnt.item.dyenugget.name=%s Dye Nugget
 trnt.item.dyeblock.name=%s Dye Block
 trnt.item.feather.name=%s Feather
 trnt.item.sparkler.name=%s Sparkler
+# -- Stick / Wood
+trnt.item.stick.name=%s Stick
+trnt.wood.oak.name=Oak
+trnt.wood.birch.name=Birch
+trnt.wood.jungle.name=Jungle
+trnt.wood.acacia.name=Acacia
+trnt.wood.darkoak.name=Dark Oak
+trnt.wood.cherry.name=Cherry
+trnt.wood.umbran.name=Umbran
+trnt.wood.fir.name=Fir
+trnt.wood.mangrove.name=Mangrove
+trnt.wood.redwood.name=Redwood
+trnt.wood.willow.name=Willow
+trnt.wood.pine.name=Pine
+trnt.wood.jacaranda.name=Jacaranda
+trnt.wood.mahogany.name=Mahogany
+trnt.wood.ebony.name=Ebony
+trnt.wood.eucalyptus.name=Eucalyptus
+trnt.wood.blackkauri.name=Blackkauri
+trnt.wood.brazillianpine.name=Brazillian Pine
+trnt.wood.incensecedar.name=Incense Cedar
+trnt.wood.maple.name=Maple
+trnt.wood.baobab.name=Baobab
+trnt.wood.cottonwood.name=Cotton Wood
+trnt.wood.juniper.name=Juniper
+trnt.wood.sugi.name=Sugi

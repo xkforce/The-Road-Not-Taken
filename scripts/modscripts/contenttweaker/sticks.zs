@@ -1,6 +1,7 @@
 #loader crafttweaker
 
 import crafttweaker.item.IItemStack;
+import mods.zenutils.I18n;
 
 val sticks as string[string] = {
     "acaciastick" : "minecraft:planks:4",
@@ -38,4 +39,7 @@ for stick, input in sticks {
     } else {
         warn(`Mod *${mod}* not loaded or item *contenttweaker:${stick}* not found, skipping stick recipe.`);
     }
+    val woodKey as string = I18n.format(`${modpackID}.wood.${stick.replace("stick", "")}.name`);
+    val stickName as string = I18n.format(`${modpackID}.item.stick.name`, woodKey);
+    output.displayName = stickName;
 }

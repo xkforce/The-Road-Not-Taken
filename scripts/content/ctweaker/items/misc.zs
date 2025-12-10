@@ -4,6 +4,7 @@
 
 import scripts.functions.contenttweaker.createCreativeTabAndItem;
 import scripts.functions.contenttweaker.createItem;
+import scripts.variables.misc.sticks;
 
 val miscs as string[] = [
     "charcoalnugget",
@@ -29,33 +30,6 @@ for misc in miscs {
         createItem(misc);
     }
 }
-
-val sticks as string[] = [
-    "oak",
-    "birch",
-    "jungle",
-    "acacia",
-    "darkoak",
-    "cherry",
-    "umbran",
-    "fir",
-    "mangrove",
-    "redwood",
-    "willow",
-    "pine",
-    "jacaranda",
-    "mahogany",
-    "ebony",
-    "eucalyptus",
-    "blackkauri",
-    "brazillianpine",
-    "incensecedar",
-    "maple",
-    "baobab",
-    "cottonwood",
-    "juniper",
-    "sugi",
-];
 
 for stick in sticks {
     val name as string = stick + "stick";
