@@ -39,7 +39,11 @@ for stick, input in sticks {
     } else {
         warn(`Mod *${mod}* not loaded or item *contenttweaker:${stick}* not found, skipping stick recipe.`);
     }
+    // proper translation
     val woodKey as string = I18n.format(`${modpackID}.wood.${stick.replace("stick", "")}.name`);
     val stickName as string = I18n.format(`${modpackID}.item.stick.name`, woodKey);
     output.displayName = stickName;
+
+    // add all sticks to the appropiate oredict
+    <ore:stickWood>.add(output);
 }

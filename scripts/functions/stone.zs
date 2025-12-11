@@ -3,6 +3,7 @@
 #priority 10000
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.zenutils.I18n;
 import mods.zenutils.StaticString;
 
@@ -12,9 +13,9 @@ global stoneRegistryKey as function(string, string, string)string = function(col
 
 global stoneStair as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
     val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
-    val recipeName as string = stone + "stairs";
-    val output as IItemStack = item("contentcreator:" + recipeName);
-    val input as IItemStack = item("contenttweaker:" + stone);
+    val recipeName as string = `${stone}stairs`;
+    val output as IItemStack = item(`contentcreator:${recipeName}`);
+    val input as IItemStack = item(`contenttweaker:${stone}`);
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
         return false;
@@ -29,9 +30,9 @@ global stoneStair as function(string, string, string)bool = function(color as st
 
 global stoneSlab as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
     val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
-    val recipeName as string = stone + "slab";
-    val output as IItemStack = item("contentcreator:" + recipeName);
-    val input as IItemStack = item("contenttweaker:" + stone);
+    val recipeName as string = `${stone}slab`;
+    val output as IItemStack = item(`contentcreator:${recipeName}`);
+    val input as IItemStack = item(`contenttweaker:${stone}`);
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
         return false;
@@ -47,7 +48,7 @@ global stoneSlab as function(string, string, string)bool = function(color as str
 global stoneChiseledbrick as function(string, string)bool = function(color as string, stonetype as string) as bool {
     val stone as string = stoneRegistryKey(color, stonetype, "chiseledbrick");
     val recipeName as string = stone;
-    val output as IItemStack = item("contenttweaker:" + recipeName);
+    val output as IItemStack = item(`contenttweaker:${recipeName}`);
     val input as IItemStack = item("contentcreator:" + stoneRegistryKey(color, stonetype, "brickslab"));
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
@@ -63,7 +64,7 @@ global stoneChiseledbrick as function(string, string)bool = function(color as st
 
 global stoneBrick as function(string, string)bool = function(color as string, stonetype as string) as bool {
     val recipeName as string = stoneRegistryKey(color, stonetype, "brick");
-    val output as IItemStack = item("contenttweaker:" + recipeName);
+    val output as IItemStack = item(`contenttweaker:${recipeName}`);
     val input as IItemStack = item("contenttweaker:" + stoneRegistryKey(color, stonetype, " "));
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
@@ -79,7 +80,7 @@ global stoneBrick as function(string, string)bool = function(color as string, st
 
 global stonePolished as function(string, string)bool = function(color as string, stonetype as string) as bool {
     val recipeName as string = stoneRegistryKey(color, stonetype, "polished");
-    val output as IItemStack = item("contenttweaker:" + recipeName);
+    val output as IItemStack = item(`contenttweaker:${recipeName}`);
     val input as IItemStack = item("contenttweaker:" + stoneRegistryKey(color, stonetype, " "));
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
@@ -96,8 +97,8 @@ global stonePolished as function(string, string)bool = function(color as string,
 global stoneWall as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
     val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
     val recipeName as string = stone + "wall";
-    val output as IItemStack = item("contentcreator:" + recipeName);
-    val input as IItemStack = item("contenttweaker:" + stone);
+    val output as IItemStack = item(`contentcreator:${recipeName}`);
+    val input as IItemStack = item(`contenttweaker:${stone}`);
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
         return false;
@@ -112,7 +113,7 @@ global stoneWall as function(string, string, string)bool = function(color as str
 
 global stoneSmelt as function(string, string)bool = function(color as string, stonetype as string) as bool {
     val recipeName as string = stoneRegistryKey(color, stonetype, " ");
-    val output as IItemStack = item("contenttweaker:" + recipeName);
+    val output as IItemStack = item(`contenttweaker:${recipeName}`);
     val input as IItemStack = item("contenttweaker:" + stoneRegistryKey(color, stonetype, "cobblestone"));
     if (isNull(output)) {
         error(`Ouput item for *${recipeName}* is null!`);
@@ -128,7 +129,7 @@ global stoneSmelt as function(string, string)bool = function(color as string, st
 
 global stoneName as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
     val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
-    val stoneItem as IItemStack = item("contenttweaker:" + stone);
+    val stoneItem as IItemStack = item(`contenttweaker:${stone}`);
     if (isNull(stoneItem)) {
         error(`Item fot *${stone}* is null!`);
         return false;
@@ -146,5 +147,17 @@ global stoneName as function(string, string, string)bool = function(color as str
         }
     }
 
+    return true;
+};
+
+global stoneOre as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
+    val stone as string = stoneRegistryKey(color, stonetype, texturevariants);
+    val stoneItem as IItemStack = item(`contenttweaker:${stone}`);
+    val stoneDict as IOreDictEntry = ore(stonetype);
+    if (stoneDict.items has stoneItem) {
+        error(`<ore:${stonetype} already contains ${stone}!`);
+        return false;
+    }
+    stoneDict.add(stoneItem);
     return true;
 };

@@ -15,6 +15,8 @@ for stonetype in rockData {
             }
             // handle block names for easier translation
             stoneName(color, stonetype, texturevariant);
+            // setup oredicts for all rock types
+            stoneOre(color, stonetype, texturevariant);
         }
         if (rockData[stonetype]["texturevariants"] has "chiseledbrick") {
             stoneChiseledbrick(color, stonetype);

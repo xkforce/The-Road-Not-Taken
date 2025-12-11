@@ -58,15 +58,3 @@ saltblock.setBlockResistance(2.5);
 saltblock.setGravity(true);
 saltblock.setToolLevel(0);
 saltblock.register();
-
-
-
-
-
-
-
-
-
-
-
-
