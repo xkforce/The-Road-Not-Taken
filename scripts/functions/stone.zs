@@ -135,8 +135,16 @@ global stoneName as function(string, string, string)bool = function(color as str
         return false;
     }
     val nameColor as string = (color == " ") ? " " : I18n.format(`${modpackID}.color.${color}.name`);
+    val nameColorSplit as string[] = nameColor.split("-");
     val nameStoneType as string = I18n.format(`${modpackID}.stonetype.${stonetype}.name`);
-    val displayName as string = I18n.format(`${modpackID}.variant.${(texturevariants == " " ? "base" : texturevariants)}.name`, nameColor, nameStoneType);
+    var nameStoneVariant as string= I18n.format(`${modpackID}.variant.${(texturevariants == " " ? "base" : texturevariants)}.name`, nameStoneType);
+    var displayName as string = I18n.format(`${modpackID}.modifier.base.name`, nameColor, nameStoneVariant);
+    if (nameColorSplit.length == 2) {
+        displayName = I18n.format(`${modpackID}.modifier.split.name`, nameColorSplit[0], nameColorSplit[1], nameStoneVariant);
+        if (stonetype == "apacherhyolite") {
+            displayName = I18n.format(`${modpackID}.modifier.apacherhyolite.name`, nameColorSplit[1], nameColorSplit[0], nameStoneVariant);
+        }
+    }
 
     stoneItem.displayName = StaticString.trim(displayName);
 
@@ -155,7 +163,7 @@ global stoneOre as function(string, string, string)bool = function(color as stri
     val stoneItem as IItemStack = item(`contenttweaker:${stone}`);
     val stoneDict as IOreDictEntry = ore(stonetype);
     if (stoneDict.items has stoneItem) {
-        error(`<ore:${stonetype} already contains ${stone}!`);
+        error(`<ore:${stonetype}> already contains ${stone}!`);
         return false;
     }
     stoneDict.add(stoneItem);
