@@ -37,7 +37,7 @@ val materials as string[string] = {
     "meteoriron": "contenttweaker:meteoriron",
     "moonstone": "contenttweaker:moonstone",
     "netherite": "contenttweaker:netherite",
-    "obsidian": "ore:obsidian",
+    "obsidian": "minecraft:obsidian",
     "opal": "contenttweaker:opal",
     "peridot": "contenttweaker:peridot",
     "rosegold": "contenttweaker:rosegold",

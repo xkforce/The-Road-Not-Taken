@@ -16,6 +16,7 @@ val fluidsToHide as string[] = [
     "oxygen",
     "hydrogen",
     "milk",
+    "liquidsulfur"
 ];
 
 for f in fluidsToHide {
@@ -49,3 +50,8 @@ for fluidName in bucketFluids {
         JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: fluidName, Amount: 1000}), true);
     }
 }
+
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11}]}), true);
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 157}]}));
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 157}]}));
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 157}]}));

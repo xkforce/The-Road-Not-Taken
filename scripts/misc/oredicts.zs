@@ -56,7 +56,7 @@ if loadedMods has "deeperdepths" {
         ore("candle").add(item(`deeperdepths:${c}`));
     }
 } else {
-    warn("Deeper Depths mod not loaded, skipping adding deeper depth candles to oredict.")
+    warn("Deeper Depths mod not loaded, skipping adding deeper depth candles to oredict.");
 }
 
 ore("grain").addItems([
