@@ -212,3 +212,14 @@ static c101 as string[] = [
 static c18 as string[] = [
     "black", "blue", "brown", "cyan", "gray", "green", "lightblue", "lightgray", "lime", "magenta", "orange", "pink", "purple", "red", "yellow"
 ];
+
+
+
+
+
+
+
+
+
+
+

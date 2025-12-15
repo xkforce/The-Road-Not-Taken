@@ -25,12 +25,10 @@ for stonetype in rockData {
             for texturevariant in rockData[stonetype]["texturevariants"] {
                 val base as string = stoneRegistryKey(color, stonetype, texturevariant);
                 val stair as string = base + "stairs";
-                val wall as string = base + "wall";
                 val slab as string = base + "slab";
                 val hardness as float = getHardness(stonetype);
                 val resistance as float = getResistance(stonetype);
                 GenericBlock.createStairs(stair, <blockstate:minecraft:stone_stairs>).setStrength(hardness, resistance).register();
-                GenericBlock.createFence(rock, wall).setStrength(hardness, resistance).register();
                 GenericBlock.createSlab(rock, slab).setStrength(hardness, resistance).register();
             }
         }

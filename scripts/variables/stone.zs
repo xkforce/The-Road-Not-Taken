@@ -6,6 +6,28 @@ import scripts.variables.colors.c101;
 import scripts.variables.colors.c18;
 import scripts.variables.colors.none;
 
+static OverworldVariants as string[] = [
+    " ",
+    "brick",
+    "chiseledbrick",
+    "cobblestone",
+    "crackedbrick",
+    "crackedshortbrick",
+    "debossed",
+    "lichenbrown",
+    "lichenorange",
+    "lichenred",
+    "lichenyellow",
+    "mossybrick",
+    "mossychiseledbrick",
+    "mossydebossed",
+    "mossycobblestone",
+    "mossypolished",
+    "mossyshortbrick",
+    "polished",
+    "shortbrick"
+];
+
 static defaultVariants as string[] = [
     " ",
     "brick",
@@ -18,20 +40,16 @@ static defaultVariants as string[] = [
     "shortbrick"
 ];
 
-static OverworldVariants as string[] = mergeStringArray([defaultVariants, [
-    "lichenbrown",
-    "lichenorange",
-    "lichenred",
-    "lichenyellow",
-    "mossybrick",
-    "mossychiseledbrick",
-    "mossydebossed",
-    "mossycobblestone",
-    "mossypolished",
-    "mossyshortbrick",
-]]);
-
-static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, [["cobblestone"]]);
+static defaultnocobbleVariants as string[] = [
+    " ",
+    "brick",
+    "chiseledbrick",
+    "crackedbrick",
+    "crackedshortbrick",
+    "debossed",
+    "polished",
+    "shortbrick"
+];
 
 static sandstoneVariants as string[] = [
     " ", "archerleft", "archerright", "armsdown", "armsup", "axeleft", "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper", "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft", "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright", "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart", "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright", "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft", "waveright", "wither"
