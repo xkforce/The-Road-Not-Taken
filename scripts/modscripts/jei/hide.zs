@@ -16,7 +16,7 @@ val fluidsToHide as string[] = [
     "oxygen",
     "hydrogen",
     "milk",
-    "liquidsulfur"
+    "liquidsulfur",
 ];
 
 for f in fluidsToHide {
@@ -40,7 +40,7 @@ val bucketFluids as string[] = [
     "hot_spring_water",
     "anti_venom",
     "beetle_juice",
-    "formic_acid"
+    "formic_acid",
 ];
 
 for fluidName in bucketFluids {
