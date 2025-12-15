@@ -14,7 +14,7 @@ val metals as string[] = [
     "rosegold",
     "silver",
     "steel",
-    "tin"
+    "tin",
 ];
 
 for metal in metals {
