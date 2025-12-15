@@ -11,7 +11,6 @@ for stonetype in rockData {
             if (shouldProcess(stonetype)) {
                 stoneStair(color, stonetype, texturevariant);
                 stoneSlab(color, stonetype, texturevariant);
-                stoneWall(color, stonetype, texturevariant);
             }
             // handle block names for easier translation
             stoneName(color, stonetype, texturevariant);

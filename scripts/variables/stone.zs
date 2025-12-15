@@ -1,15 +1,9 @@
 #loader preinit contenttweaker crafttweaker
 #priority 10000
 
-import scripts.variables.colors.c123;
-import scripts.variables.colors.c119;
-import scripts.variables.colors.c109;
-import scripts.variables.colors.c124;
-import scripts.variables.colors.c124end;
-import scripts.variables.colors.c125;
+import scripts.variables.colors.c100;
+import scripts.variables.colors.c101;
 import scripts.variables.colors.c18;
-import scripts.variables.colors.c112;
-import scripts.variables.colors.c259;
 import scripts.variables.colors.none;
 
 static defaultVariants as string[] = [
@@ -24,6 +18,21 @@ static defaultVariants as string[] = [
     "shortbrick"
 ];
 
+static OverworldVariants as string[] = mergeStringArray([defaultVariants, [
+    "lichenbrown",
+    "lichenorange",
+    "lichenred",
+    "lichenyellow",
+    "mossybrick",
+    "mossychiseledbrick",
+    "mossydebossed",
+    "mossycobblestone",
+    "mossypolished",
+    "mossyshortbrick",
+]]);
+
+static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, [["cobblestone"]]);
+
 static sandstoneVariants as string[] = [
     " ", "archerleft", "archerright", "armsdown", "armsup", "axeleft", "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper", "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft", "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright", "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart", "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright", "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft", "waveright", "wither"
 ];
@@ -35,51 +44,46 @@ static rockData as string[][string][string] = {
     },
     // Overworld Stones
     "andesite": {
-        "colors": c123,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": OverworldVariants
     },
     "aventurine": {
-        "colors": c119,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": OverworldVariants
     },
     "concrete": {
-        "colors": c109,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "apacherhyolite": {
-        "colors": c259,
-        "texturevariants": defaultVariants
+        "colors": c101,
+        "texturevariants": OverworldVariants
     },
     "diorite": {
-        "colors": c124,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": OverworldVariants
     },
     "granite": {
-        "colors": c124,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": OverworldVariants
     },
     "obsidian": {
-        "colors": c124,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "prismarine": {
-        "colors": c125,
-        "texturevariants": [" ", "brick", "chiseledbrick", "polished"]
+        "colors": c100,
+        "texturevariants": [" ", "brick", "chiseledguardian", "chiseledsquid","polished"]
     },
     "sandstone": {
-        "colors": mergeStringArray([c124, none]),
-        "texturevariants": sandstoneVariants,
-        "flags": ["--onlyBlocks"]
-    },
-    "sandstonered": {
-        "colors": none,
+        "colors": mergeStringArray([c100, none]),
         "texturevariants": sandstoneVariants,
         "flags": ["--onlyBlocks"]
     },
     // Nether Stones
     "cryingobsidian": {
-        "colors": c109,
-        "texturevariants": defaultVariants
+        "colors": c101,
+        "texturevariants": defaultnocobbleVariants
     },
     "netherquartz": {
         "colors" : c18,
@@ -87,46 +91,46 @@ static rockData as string[][string][string] = {
         "flags": ["--onlyBlocks"]
     },
     "netherrack": {
-        "colors": c125,
+        "colors": c100,
         "texturevariants": none
     },
     "netherstone": {
-        "colors": c125,
-        "texturevariants": mergeStringArray([defaultVariants, ["gilded"]])
+        "colors": c100,
+        "texturevariants": mergeStringArray([defaultnocobbleVariants, ["gilded"]])
     },
     // End Stones
     "endstone": {
-        "colors": c124end,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "enderstone": {
-        "colors": c124end,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "flavolite": {
-        "colors": c124,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "purpur": {
-        "colors": c124,
+        "colors": c100,
         "texturevariants": [" ", "pillar"],
         "flags": ["--onlyBlocks"]
     },
     // Extraterrestrial Stones
     "basalt": {
-        "colors": c125,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "cythereastone": {
-        "colors": c125,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "rutile": {
-        "colors": c125,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "venusstone": {
-        "colors": c125,
+        "colors": c100,
         "texturevariants": defaultVariants
     },
     "augite": {
@@ -153,7 +157,7 @@ static rockData as string[][string][string] = {
         "colors": none,
         "texturevariants": defaultVariants
     },
-    "marsstone": {
+    "marstone": {
         "colors": none,
         "texturevariants": defaultVariants
     },
@@ -195,16 +199,16 @@ static rockData as string[][string][string] = {
     },
     // Unknown
     "umbralith": {
-        "colors": c125,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     "violecite": {
-        "colors": c125,
-        "texturevariants": defaultVariants
+        "colors": c100,
+        "texturevariants": defaultnocobbleVariants
     },
     // Misc
     "wool": {
-        "colors": c112,
+        "colors": c100,
         "texturevariants": none
     },
 };

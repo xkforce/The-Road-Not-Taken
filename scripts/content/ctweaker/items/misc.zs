@@ -21,6 +21,11 @@ val miscs as string[] = [
     "salt",
     "saltpeter",
     "sulfur",
+    "moss",
+    "brownlichen",
+    "redlichen",
+    "orangelichen",
+    "yellowlichen"
 ];
 
 for misc in miscs {

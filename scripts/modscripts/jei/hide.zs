@@ -34,7 +34,6 @@ val bucketFluids as string[] = [
     "oxygen",
     "rocketfuel",
     "enrichedlava",
-    "slop",
     "sand",
     "honey",
     "poison",
@@ -42,7 +41,6 @@ val bucketFluids as string[] = [
     "anti_venom",
     "beetle_juice",
     "formic_acid",
-    "deadblood",
 ];
 
 for fluidName in bucketFluids {
