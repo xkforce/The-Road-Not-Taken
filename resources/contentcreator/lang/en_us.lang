@@ -143,6 +143,7 @@ trnt.color.yellow.name=Yellow
 
 # Stonetype
 trnt.stonetype.smoothstone.name=Stone
+trnt.stonetype.hardenedclay.name=Hardened Clay
 # -- Overworld
 trnt.stonetype.andesite.name=Andesite
 trnt.stonetype.aventurine.name=Aventurine

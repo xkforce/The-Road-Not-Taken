@@ -20,6 +20,8 @@ static oreColors as string[] = [
     "White",
 ];
 
+static lowerColors as string[] = lowerStringArray(oreColors);
+
 static coloredStone as string[] = [
     "black",
     "blue",

@@ -5,6 +5,7 @@ import scripts.variables.colors.c100;
 import scripts.variables.colors.c101;
 import scripts.variables.colors.c18;
 import scripts.variables.colors.none;
+import scripts.variables.misc.lowerColors;
 
 static defaultVariants as string[] = [
     " ",
@@ -42,6 +43,10 @@ static rockData as string[][string][string] = {
         "colors": none,
         "texturevariants": none
     },
+    "hardenedclay": {
+        "colors": mergeStringArray([none, lowerColors]),
+        "texturevariants": [" ", "brick", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"]
+    },
     // Overworld Stones
     "andesite": {
         "colors": c100,
@@ -73,7 +78,7 @@ static rockData as string[][string][string] = {
     },
     "prismarine": {
         "colors": c100,
-        "texturevariants": [" ", "brick", "chiseledguardian", "chiseledsquid","polished"]
+        "texturevariants": [" ", "brick", "chiseledguardian", "chiseledsquid", "polished"]
     },
     "sandstone": {
         "colors": mergeStringArray([c100, none]),

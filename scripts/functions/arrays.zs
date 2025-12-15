@@ -40,3 +40,10 @@ global filterStringArray as function(string[], string[][])string[] = function(ar
     }
     return result;
 };
+
+global lowerStringArray as function(string[])string[] = function(array as string[]) as string[] {
+    var result as string[] = [];
+    for item in array {
+        result += item.toLowerCase();
+    }
+}
