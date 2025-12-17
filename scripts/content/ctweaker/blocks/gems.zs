@@ -21,7 +21,7 @@ val gemBlocks as string[] = [
     "zircon",
 ];
 
-for gem, count in gemBlocks {
+for gem in gemBlocks {
     for i in 0 to 4 {
         val blockName = stoneRegistryKey(gem, "block", (i == 0) ? " " : toString(i));
         var block = VanillaFactory.createBlock(blockName, <blockmaterial:rock>);

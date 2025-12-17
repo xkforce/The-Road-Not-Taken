@@ -1,9 +1,6 @@
 #loader preinit contenttweaker crafttweaker
 #priority 10000
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-
 // Strings
 
 global mergeStringArray as function(string[][])string[] = function(arrays as string[][]) as string[] {
@@ -46,4 +43,5 @@ global lowerStringArray as function(string[])string[] = function(array as string
     for item in array {
         result += item.toLowerCase();
     }
-}
+    return result;
+};

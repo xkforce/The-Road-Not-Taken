@@ -169,3 +169,25 @@ global stoneOre as function(string, string, string)bool = function(color as stri
     stoneDict.add(stoneItem);
     return true;
 };
+
+global stoneShapeless as function(string, string, string, string, string)bool = function(color as string, stonetype as string, outputvariant as string, inputvariant as string, item as string) as bool {
+    val output as string = stoneRegistryKey(color, stonetype, outputvariant);
+    val input as string = stoneRegistryKey(color, stonetype, inputvariant);
+    val outputItem as IItemStack = itemString(`contenttweaker:${output}`);
+    val inputItem as IItemStack = itemString(`contenttweaker:${input}`);
+    val craftingItem as IItemStack = itemString(item);
+    if (isNull(outputItem)) {
+        error(`Ouput item for *${output}* is null!`);
+        return false;
+    }
+    if (isNull(inputItem)) {
+        error(`Input item for *${output}* is null!`);
+        return false;
+    }
+    if (isNull(craftingItem)) {
+        error(`Crafing Item for *${output}* is null!`);
+        return false;
+    }
+    recipes.addShapeless(output, outputItem, [inputItem, craftingItem]);
+    return true;
+};
