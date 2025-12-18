@@ -23,3 +23,4 @@ _We're still in development, but at least we have a changelog!_
 ### Fixed
 
 - contenttweaker gem blocks having the wrong name
+- furnace recycling recipes erroring on items with meta data

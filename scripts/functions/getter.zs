@@ -61,7 +61,7 @@ global mod as function(string)string = function(itemString as string) as string 
 
 global itemLoaded as function(string)bool = function(itemName as string) as bool {
     if (modLoaded(mod(itemName))) {
-        val stack as IItemStack = item(itemName);
+        val stack as IItemStack = itemString(itemName);
         if (isNull(stack)) {
             error("Item '" + itemName + "' is null.");
             return false;
