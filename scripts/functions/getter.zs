@@ -96,3 +96,21 @@ global fluid as function(string)ILiquidStack = function(fluidName as string) as 
     error("Fluid '" + fluidName + "' not found.");
     return null;
 };
+
+global itemList as function(string[])IItemStack[] = function(itemList as string[]) as IItemStack[] {
+    var itemListArray as IItemStack[] = [];
+    for itemName in itemList {
+        if (itemLoaded(itemName)) {
+            itemListArray += itemString(itemName);
+        }
+    }
+    return itemListArray;
+};
+
+global oreList as function(string[])IOreDictEntry[] = function(oreList as string[]) as IOreDictEntry[] {
+    var oreListArray as IOreDictEntry[] = [];
+    for oreName in oreList {
+        oreListArray += ore(oreName);
+    }
+    return oreListArray;
+};

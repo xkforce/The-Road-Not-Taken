@@ -43,7 +43,8 @@ for stonetype in rockData {
                 stoneShapeless(color, stonetype, lichenvariant, " ", `contenttweaker:${lichenvariant.substring(6)}lichen`);
             }
         }
-
+        
+        stoneDrops(color, stonetype);
     }
 }
 
