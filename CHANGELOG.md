@@ -13,7 +13,7 @@ _We're still in development, but at least we have a changelog!_
 
 - there is a changelog now
 - the mossy and lichen variations now automatically generate a recipe
-- hammers can now me used to recycle various stone blocks
+- hammers can now be used to recycle various stone blocks
 
 ### Changes
 
