@@ -9,7 +9,7 @@ val OUTPUT_BRICKS as int = 4;
 
 val letters as string[] = ["a","b","c","d","e","f","g", "h"];
 
-for i in 0 .. 15 {
+for i in 0 .. 16 {
     for letter in letters {
         val block as IItemStack = getBlock("blocks", letter, i);
         val wall as IItemStack = getBlock("walls", letter, i);
