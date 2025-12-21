@@ -49,14 +49,14 @@ global stoneDrops as function(string, string)void = function(color as string, st
     val variants as string[] = rockData[stonetype]["texturevariants"];
     // handle default variants
     for vari in defaultVariants {
-        if (variants has vari) {
+        if (variants has vari && variants has "cobblestone") {
             val rock as string = stoneRegistryKey(color, stonetype, vari);
             replaceToolDrops(`contenttweaker:${rock}`, hammers, [cobblestone]);
         }
     }
     // handle mossy variants
     for vari in mossyVariants {
-        if (variants has vari) {
+        if (variants has vari && variants has "cobblestone") {
             val rock as string = stoneRegistryKey(color, stonetype, vari);
             replaceToolDrops(`contenttweaker:${rock}`, hammers, [cobblestone, "contenttweaker:moss"]);
         }
