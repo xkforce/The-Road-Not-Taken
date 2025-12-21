@@ -48,7 +48,6 @@ val templates as string[] = [
     "shortbrick",
     "slimeleft",
     "slimeright",
-    "smoothsandstone",
     "swirlcb", 
     "swirlccb", 
     "swirlcct", 
@@ -69,3 +68,7 @@ for template in templates {
         createItem(itemName);
     }
 }
+
+
+ 
+
