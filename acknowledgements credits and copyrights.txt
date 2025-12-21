@@ -1,3 +1,6 @@
+Enderman: Single handedly rewrote the zenscript scripting, developed several pack making tools such as PaletteCreator, PaletteMixer
+and PngBlender, developed and maintains the Ender's tweaks mod and contributes directly to pack development via Git
+
 FonnyMunkey: RLMixins commissions, BBLSOMY commissions, Technical assistance with Recurrant Complex, scripts, debugging
 
 Masa: developer of multiple mods foremost of which is just enough dimensions which is critical to the workings of this pack. I am also
