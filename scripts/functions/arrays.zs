@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10000
+#priority 100000
 
 // Strings
 

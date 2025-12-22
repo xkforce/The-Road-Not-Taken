@@ -1,6 +1,6 @@
 #loader preinit contenttweaker crafttweaker
 #modloaded zenutils
-#priority 1000000
+#priority 1111111
 
 global msg as function(string)string = function(message as string) as string {
     return `[${modpackName}] ${message.replace("*", "'")}`;

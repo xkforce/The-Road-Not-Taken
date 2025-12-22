@@ -1,6 +1,6 @@
 #loader preinit contenttweaker crafttweaker
 #modloaded zenutils
-#priority 100000
+#priority 1111110
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
