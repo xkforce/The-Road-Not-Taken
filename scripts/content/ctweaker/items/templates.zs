@@ -5,70 +5,13 @@
 import scripts.functions.contenttweaker.createCreativeTabAndItem;
 import scripts.functions.contenttweaker.createItem;
 
-val templates as string[] = [
-    "archerleft",
-    "archerright",
-    "armsdown",
-    "armsup",
-    "axeleft",
-    "axeright",
-    "bladeleft",
-    "bladeright",
-    "blank",
-    "brick",
-    "brokenheart",
-    "carvedcreeper",
-    "carvedskeleton",
-    "carvedzombie",
-    "chestleft",
-    "chestright",
-    "chibicreeperleft",
-    "chibicreeperright",
-    "chiseledbrick",
-    "cut", 
-    "deboss",
-    "dogleft",
-    "dogright",
-    "explorerleft", 
-    "explorerright",
-    "fire",
-    "fishingrodleft",
-    "fishingrodright",
-    "friend",
-    "ghast", 
-    "guster", 
-    "heart",
-    "miner", 
-    "mourner", 
-    "polished",
-    "potion",
-    "prize", 
-    "sheaf", 
-    "shelter",
-    "shortbrick",
-    "slimeleft",
-    "slimeright",
-    "swirlcb", 
-    "swirlccb", 
-    "swirlcct", 
-    "swirlct", 
-    "tile",
-    "turtleleft",
-    "turtleright",
-    "waveleft",
-    "waveright",
-    "wither"
-];
+import scripts.variables.templates.itemTemplates;
 
-for template in templates {
+for template in itemTemplates {
     val itemName as string = template + "template";
-    if (templates.indexOf(template) == 0) {
+    if (itemTemplates.indexOf(template) == 0) {
         createCreativeTabAndItem(itemName, modpackID + ".templates");
     } else {
         createItem(itemName);
     }
 }
-
-
- 
-
