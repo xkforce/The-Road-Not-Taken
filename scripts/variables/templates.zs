@@ -1,0 +1,11 @@
+#loader preinit contenttweaker crafttweaker
+#priority 10000
+
+import scripts.variables.stone.defaultVariants;
+import scripts.variables.stone.sandstoneVariants;
+
+static itemTemplates as string[] = mergeStringArray([
+    filterStringArray(defaultVariants, [[" ", "cobblestone", "crackedbrick", "crackedshortbrick", "debossed"]]),
+    filterStringArray(sandstoneVariants, [[" "]]),
+    ["tile", "blank"],
+]);
