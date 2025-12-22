@@ -552,3 +552,5 @@ item.contenttweaker.teff.name=Teff
 item.contenttweaker.spelt.name=Spelt
 item.contenttweaker.lymegrass.name=Lyme Grass
 item.contenttweaker.kaniwa.name=Kaniwa
+# -- Templates
+trnt.item.template.name=Template
