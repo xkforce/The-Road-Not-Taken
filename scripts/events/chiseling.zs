@@ -19,9 +19,14 @@ events.register(
         val item = event.item;
         val world = event.world;
 
+        if (isNull(item) || isNull(player.offHandHeldItem)) {
+            return;
+        }
+
         if (block.definition.id == "minecraft:stone"
             && item.definition.id == "contenttweaker:steelchisel"
             && player.offHandHeldItem.definition.id == "minecraft:diamond"
+            && player.offHandHeldItem.amount >= 1
         ) {
             world.setBlockState(<blockstate:minecraft:grass>, event.position);
             event.damageItem(1);
