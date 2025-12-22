@@ -1,4 +1,5 @@
 #loader crafttweaker
+#modloaded contenttweaker
 #priority 5000
 
 import crafttweaker.item.IItemStack;
