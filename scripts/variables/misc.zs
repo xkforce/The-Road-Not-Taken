@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10000
+#priority 11000
 
 static oreColors as string[] = [
     "Black",

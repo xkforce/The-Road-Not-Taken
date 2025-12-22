@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10000
+#priority 10100
 
 import scripts.variables.colors.c100;
 import scripts.variables.colors.c101;
