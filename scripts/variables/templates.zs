@@ -7,5 +7,5 @@ import scripts.variables.stone.sandstoneVariants;
 static itemTemplates as string[] = mergeStringArray([
     filterStringArray(defaultVariants, [[" ", "cobblestone", "crackedbrick", "crackedshortbrick"]]),
     filterStringArray(sandstoneVariants, [[" "]]),
-    ["tile", "blank", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "pillar"],
+    ["tile", "blank", "fourxfour", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "pillar"],
 ]);
