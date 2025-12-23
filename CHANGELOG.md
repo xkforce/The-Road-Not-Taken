@@ -23,9 +23,11 @@ _We're still in development, but at least we have a changelog!_
 - contenttweaker blocks now properly use the hardness and resistance values from the rock data map
 - improved template registration
 - I'm still trying to figure out a good way to organize all the priorities for the scripts
+- crops and fruit items can now have custom food and saturation values
 
 ### Fixed
 
 - contenttweaker gem blocks having the wrong name
 - furnace recycling recipes erroring on items with meta data
 - drops will only be changed for blocks that actually have a cobblestone variant
+- missing lang keys for some templat/stone variations
