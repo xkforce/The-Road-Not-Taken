@@ -14,11 +14,10 @@ static edible_crops as string[] = [
     "broccoflower", "sugarbeet", "alfalfa", "arugala", "whitebeet", "yellowbeet", "orangebeet", "blackbeet", "candystripebeet",
     "celeriac", "greenchard", "redchard", "orangechard", "yellowchard", "chives", "galangal", "greenkohlrabi", "redkohlrabi", "leek",
     "yellowpineapple", "pinkpineapple", "shallot", "redcherrytomatoes", "orangecherrytomatoes", "yellowcherrytomatoes",
-    "purplecherrytomatoes", "whitecherrytomatoes", "pinkcherrytomatoes", "blackcherrytomatoes", "canarymelon", "cantaloupemelon",
-    "casabamelon", "hamimelon", "honeydewmelon", "hornedmelon", "pepinomelon", "orangewatermelon", "yellowwatermelon", "wintermelon",
-    "blackeyedpea", "waxbeans", "anaheimpepper", "bananapepper", "greenbellpepper", "redbellpepper", "orangebellpepper", "yellowbellpepper",
-    "blackbellpepper", "purplebellpepper", "whitebellpepper", "brownbellpepper", "chilipepper", "blackhungarianpepper", "birdseyepepper",
-    "cayennepepper", "paprika", "szechuanpepper", "tobascopepper", "pigeonpea", "fishpepper", "fresnopepper", "ghostpepper", "habaneropepper",
+    "purplecherrytomatoes", "whitecherrytomatoes", "pinkcherrytomatoes", "blackcherrytomatoes", "blackeyedpea", "waxbeans", 
+    "anaheimpepper", "bananapepper", "greenbellpepper", "redbellpepper", "orangebellpepper", "yellowbellpepper", "blackbellpepper", 
+    "purplebellpepper", "whitebellpepper", "brownbellpepper", "chilipepper", "blackhungarianpepper", "birdseyepepper", "cayennepepper", 
+    "paprika", "szechuanpepper", "tobascopepper", "pigeonpea", "fishpepper", "fresnopepper", "ghostpepper", "habaneropepper",
     "greenjalapenopepper", "redjalapenopepper", "papricapepper", "bananasquash", "greencucumbers", "yellowcucumbers", "pimentopepper",
     "greensnappeas", "purplesnappeas", "piripiripepper", "poblanopepper", "serranopepper", "tabascopepper", "scotchbonnetpepper",
     "adzukibean", "blackeyedpeas", "garbanzobean", "favabean", "greensoybean", "yellowsoybean", "blacksoybean", "greenbean", "longbean",
@@ -28,13 +27,12 @@ static edible_crops as string[] = [
     "greenasparagus", "purpleasparagus", "whiteasparagus", "cookedbambooshoots", "greenbasil", "purplebasil", "brakenfern", "burdock",
     "horseradish", "lambsquarters", "pinkmelocactusfruit", "whitemelocactusfruit", "redmelocactusfruit", "sunchoke", "morobloodorange",
     "purslane", "sealettuce", "pitpit", "cookedfiddleheads",
-    // These are used in contentcreator but where missing in contenttweaker
     // Squashes
-    "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash",
-    "australianbluepumpkin", "jarrahdalepumpkin", "rougedetampespumpkin", "whitepumpkin", "yellowpumpkin", "spaghettisquash",
-    "sweetdumplingsquash",
-    // Vine Crops
-    "jalapenopepper",
+    "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash", 
+    "spaghettisquash", "sweetdumplingsquash",
+    // Melons
+    "canarymelon", "cantaloupemelon", "casabamelon", "hamimelon", "honeydewmelon", "hornedmelon", "pepinomelon", "orangewatermelon", 
+    "yellowwatermelon", "wintermelon",
 ];
 
 static inedible_crops as string[] = [
@@ -42,8 +40,5 @@ static inedible_crops as string[] = [
     "cardamom", "chia", "cotton", "cranberrybean", "cumin", "dill", "fenugreek", "fingermillet", "foxtailmillet", "gentianroot",
     "grainsofparadise", "greatnorthernbean", "greensplitpea", "hops", "japanesemillet", "kaniwa", "kodomillet", "limabean", "lymegrass",
     "navybean", "oats", "pearlmillet", "peppercorns", "pinkbean", "pintobean", "poppyseed", "quinoa", "redkidneybean", "rye", "seasame",
-    "sesameseed", "sorghum", "spelt", "teff", "wasabi", "whitekidneybean", "yellowsplitpea",
-    // These are used in contentcreator but where missing in contenttweaker
-    // Crops
-    "flax"
+    "sesameseed", "sorghum", "spelt", "teff", "wasabi", "whitekidneybean", "yellowsplitpea", "flax"
 ];
