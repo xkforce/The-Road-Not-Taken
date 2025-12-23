@@ -83,7 +83,7 @@ static rockData as string[][string][string] = {
     },
     "prismarine": {
         "colors": c100,
-        "texturevariants": [" ", "brick", "chiseledguardian", "chiseledsquid", "polished"]
+        "texturevariants": [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]
     },
     "sandstone": {
         "colors": mergeStringArray([c100, none]),
@@ -97,7 +97,7 @@ static rockData as string[][string][string] = {
     },
     "netherquartz": {
         "colors" : c18,
-        "texturevariants": [" ", "chiseled", "pillar", "smooth"],
+        "texturevariants": [" ", "chiseled", "pillar", "polished"],
         "flags": ["--onlyBlocks"]
     },
     "netherrack": {
