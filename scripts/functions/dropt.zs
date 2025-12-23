@@ -43,7 +43,7 @@ global replaceToolDrops as function(string, string[], string[])void = function(n
 global stoneDrops as function(string, string)void = function(color as string, stonetype as string) as void {
     val hammers as string[] = [];
     for material in materials {
-        hammers += `additions:items-${material}${tool}`;
+        hammers += `additions:items-${material}hammer`;
     }
     val cobblestone as string = `contenttweaker:${stoneRegistryKey(color, stonetype, "cobblestone")}`;
     if (isNull(itemString(cobblestone))) {
