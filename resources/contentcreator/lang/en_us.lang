@@ -335,6 +335,7 @@ trnt.stonetype.troilite.name=Troilite
 trnt.stonetype.aegirine.name=Aegirine
 # -- Misc
 trnt.stonetype.wool.name=Wool
+trnt.stonetype.prismarine.name=Prismarine
 # -- Rockhounding Rocks
 trnt.stonetype.basanite.name=Basanite
 trnt.stonetype.bluejasper.name=Blue Jasper
@@ -488,6 +489,12 @@ trnt.variant.turtleleft.name=Turtle (Left) %s
 trnt.variant.turtleright.name=Turtle (Right) %s
 trnt.variant.waveleft.name=Wave (Left) %s
 trnt.variant.waveright.name=Wave (Right) %s
+# -- Misc
+trnt.variant.fourxfour.name=Four-by-Four %s
+trnt.variant.chiseledjellyfish.name=Chiseled Jellyfish %s
+trnt.variant.hexagonalbrick.name=Hexagonal %s Bricks
+trnt.variant.pentagonalbrick.name=Pentagonal %s Bricks
+trnt.variant.pillar.name=%s Pillar
 # Texture Modifier
 trnt.modifier.base.name=%s %s
 trnt.modifier.split.name=%s-%s %s
