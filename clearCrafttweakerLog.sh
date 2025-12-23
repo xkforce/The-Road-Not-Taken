@@ -7,3 +7,9 @@ mv crafttweaker.tmp crafttweaker.log
 
 # Clear all log archives, which just waste disk space
 rm logs/*.gz
+
+# This script will search the scripts directory for TODOs and @endermans and print them to the crafttweaker.log file.
+{
+  echo "Looking for open TODOs and @endermans in scripts..."
+  grep -rnw scripts -e 'TODO' -e '@enderman'
+} >> crafttweaker.log

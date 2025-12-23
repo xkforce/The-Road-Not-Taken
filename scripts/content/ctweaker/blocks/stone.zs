@@ -10,6 +10,8 @@ import scripts.variables.stone.rockResistance;
 
 info("/--- ContentTweaker Stone Registration ---/");
 
+// @enderman can we implement creative tabs for these?
+
 for stonetype in rockData {
     for color in rockData[stonetype]["colors"] {
         for texturevariant in rockData[stonetype]["texturevariants"] {
