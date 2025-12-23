@@ -37,11 +37,19 @@ val fruits as string[] = [
     "goldenraspberry", "salmonberry", "seabuckthorn", "redstrawberry", "whitestrawberry", "tayberry", "applecactusfruit",
     "elgrullodragonfruit", "triciadragonfruit", "whitedragonfruit", "americanbeautydragonfruit", "axdragonfruit", "reddragonfruit",
     "yellowdragonfruit", "cottoncandydragonfruit", "pricklypear", "rosecactusfruit", "torchcactusfruit", "wheelcactusfruit", "xoconostle",
-    "redmelocactus", "pinkmelocactus", "whitemelocactus", "yellowlemon", "pinklemon", "redlemon", 
+    "redmelocactus", "pinkmelocactus", "whitemelocactus", "yellowlemon", "pinklemon", "redlemon",
 ];
 
+val overrideFruits as float[][string] = {
+    // foodItemName: [hunger, saturation]
+    "acai": [3.0, 0.6],
+    "cempedak": [2.0, 0.6]
+};
+
 for fruit in fruits {
-    val foodItem = VanillaFactory.createItemFood(fruit, 3);
+    val hunger as int = ((overrideFruits has fruit) ? overrideFruits[fruit][0] : 3) as int;
+    val saturation as float = ((overrideFruits has fruit) ? overrideFruits[fruit][1] : 0.6) as float;
+    val foodItem = VanillaFactory.createItemFood(fruit, hunger);
     if (fruits.indexOf(fruit) == 0) {
         createCreativeTabWithItem(modpackID + ".fruits", foodItem);
     }
