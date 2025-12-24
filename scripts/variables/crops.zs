@@ -45,4 +45,3 @@ static inedible_crops as string[] = [
     "navybean", "oats", "pearlmillet", "peppercorns", "pinkbean", "pintobean", "poppyseed", "quinoa", "redkidneybean", "rye", "seasame",
     "sesameseed", "sorghum", "spelt", "teff", "wasabi", "whitekidneybean", "yellowsplitpea", "flax"
 ];
-[PREINITIALIZATION][CLIENT][WARNING] [The Road not taken] Vine crop item <contenttweaker:jalapenopepper> not found, skipping crop creation.
