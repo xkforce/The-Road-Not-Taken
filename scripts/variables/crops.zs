@@ -29,7 +29,8 @@ static edible_crops as string[] = [
     "purslane", "sealettuce", "pitpit", "cookedfiddleheads",
     // Squashes
     "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash", 
-    "spaghettisquash", "sweetdumplingsquash",
+    "spaghettisquash", "sweetdumplingsquash", "australianbluepumpkin", "jarrahdalepumpkin", "rougedetampespumpkin", "whitepumpkin", 
+    "yellowpumpkin", "spaghettisquash", "sweetdumplingsquash",
     // Melons
     "canarymelon", "cantaloupemelon", "casabamelon", "hamimelon", "honeydewmelon", "hornedmelon", "pepinomelon", "orangewatermelon", 
     "yellowwatermelon", "wintermelon",
