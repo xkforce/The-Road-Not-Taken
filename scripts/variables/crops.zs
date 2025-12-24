@@ -27,6 +27,8 @@ static edible_crops as string[] = [
     "greenasparagus", "purpleasparagus", "whiteasparagus", "cookedbambooshoots", "greenbasil", "purplebasil", "brakenfern", "burdock",
     "horseradish", "lambsquarters", "pinkmelocactusfruit", "whitemelocactusfruit", "redmelocactusfruit", "sunchoke", "morobloodorange",
     "purslane", "sealettuce", "pitpit", "cookedfiddleheads",
+    // Vine Crops
+    "jalapenopepper",
     // Squashes
     "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash", 
     "spaghettisquash", "sweetdumplingsquash", "australianbluepumpkin", "jarrahdalepumpkin", "rougedetampespumpkin", "whitepumpkin", 
@@ -43,3 +45,4 @@ static inedible_crops as string[] = [
     "navybean", "oats", "pearlmillet", "peppercorns", "pinkbean", "pintobean", "poppyseed", "quinoa", "redkidneybean", "rye", "seasame",
     "sesameseed", "sorghum", "spelt", "teff", "wasabi", "whitekidneybean", "yellowsplitpea", "flax"
 ];
+[PREINITIALIZATION][CLIENT][WARNING] [The Road not taken] Vine crop item <contenttweaker:jalapenopepper> not found, skipping crop creation.
