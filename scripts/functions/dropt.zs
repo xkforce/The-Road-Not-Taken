@@ -41,7 +41,7 @@ global replaceToolDrops as function(string, string[], string[])void = function(n
 };
 
 global stoneDrops as function(string, string)void = function(color as string, stonetype as string) as void {
-    val hammers as string[] = [];
+    var hammers as string[] = [];
     for material in materials {
         hammers += `additions:items-${material}hammer`;
     }
