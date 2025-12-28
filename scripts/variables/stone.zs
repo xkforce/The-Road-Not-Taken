@@ -1,7 +1,6 @@
 #loader preinit contenttweaker crafttweaker
 #priority 10100
 
-import scripts.variables.colors.c100;
 import scripts.variables.colors.c101;
 import scripts.variables.colors.c18;
 import scripts.variables.colors.none;
@@ -54,15 +53,15 @@ static rockData as string[][string][string] = {
     },
     // Overworld Stones
     "andesite": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": OverworldVariants
     },
     "aventurine": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": OverworldVariants
     },
     "concrete": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "apacherhyolite": {
@@ -70,23 +69,23 @@ static rockData as string[][string][string] = {
         "texturevariants": OverworldVariants
     },
     "diorite": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": OverworldVariants
     },
     "granite": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": OverworldVariants
     },
     "obsidian": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "prismarine": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]
     },
     "sandstone": {
-        "colors": mergeStringArray([c100, none]),
+        "colors": mergeStringArray([COLORS.keys, none]),
         "texturevariants": sandstoneVariants,
         "flags": ["--onlyBlocks"]
     },
@@ -101,46 +100,46 @@ static rockData as string[][string][string] = {
         "flags": ["--onlyBlocks"]
     },
     "netherrack": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": none
     },
     "netherstone": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": mergeStringArray([defaultnocobbleVariants, ["gilded"]])
     },
     // End Stones
     "endstone": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "enderstone": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "flavolite": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "purpur": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": [" ", "pillar"],
         "flags": ["--onlyBlocks"]
     },
     // Extraterrestrial Stones
     "basalt": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "cythereastone": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "rutile": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "venusstone": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultVariants
     },
     "augite": {
@@ -209,16 +208,16 @@ static rockData as string[][string][string] = {
     },
     // Unknown
     "umbralith": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     "violecite": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": defaultnocobbleVariants
     },
     // Misc
     "wool": {
-        "colors": c100,
+        "colors": COLORS.keys,
         "texturevariants": none
     },
     // Rockhounding Rocks

@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10000000
+#priority 11111111
 
 global modpackID as string = "trnt";
 global modpackName as string = "The Road not taken";
