@@ -14,9 +14,9 @@ static edible_crops as string[] = [
     "broccoflower", "sugarbeet", "alfalfa", "arugala", "whitebeet", "yellowbeet", "orangebeet", "blackbeet", "candystripebeet",
     "celeriac", "greenchard", "redchard", "orangechard", "yellowchard", "chives", "galangal", "greenkohlrabi", "redkohlrabi", "leek",
     "yellowpineapple", "pinkpineapple", "shallot", "redcherrytomatoes", "orangecherrytomatoes", "yellowcherrytomatoes",
-    "purplecherrytomatoes", "whitecherrytomatoes", "pinkcherrytomatoes", "blackcherrytomatoes", "blackeyedpea", "waxbeans", 
-    "anaheimpepper", "bananapepper", "greenbellpepper", "redbellpepper", "orangebellpepper", "yellowbellpepper", "blackbellpepper", 
-    "purplebellpepper", "whitebellpepper", "brownbellpepper", "chilipepper", "blackhungarianpepper", "birdseyepepper", "cayennepepper", 
+    "purplecherrytomatoes", "whitecherrytomatoes", "pinkcherrytomatoes", "blackcherrytomatoes", "blackeyedpea", "waxbeans",
+    "anaheimpepper", "bananapepper", "greenbellpepper", "redbellpepper", "orangebellpepper", "yellowbellpepper", "blackbellpepper",
+    "purplebellpepper", "whitebellpepper", "brownbellpepper", "chilipepper", "blackhungarianpepper", "birdseyepepper", "cayennepepper",
     "paprika", "szechuanpepper", "tobascopepper", "pigeonpea", "fishpepper", "fresnopepper", "ghostpepper", "habaneropepper",
     "greenjalapenopepper", "redjalapenopepper", "papricapepper", "bananasquash", "greencucumbers", "yellowcucumbers", "pimentopepper",
     "greensnappeas", "purplesnappeas", "piripiripepper", "poblanopepper", "serranopepper", "tabascopepper", "scotchbonnetpepper",
@@ -30,11 +30,11 @@ static edible_crops as string[] = [
     // Vine Crops
     "jalapenopepper",
     // Squashes
-    "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash", 
-    "spaghettisquash", "sweetdumplingsquash", "australianbluepumpkin", "jarrahdalepumpkin", "rougedetampespumpkin", "whitepumpkin", 
-    "yellowpumpkin", "spaghettisquash", "sweetdumplingsquash",
+    "acornsquash", "buttercupsquash", "butternutsquash", "delicatasquash", "hubbardsquash", "lakotasquash", "pattypansquash",
+    "spaghettisquash", "sweetdumplingsquash", "australianbluepumpkin", "jarrahdalepumpkin", "rougedetampespumpkin", "whitepumpkin",
+    "yellowpumpkin",
     // Melons
-    "canarymelon", "cantaloupemelon", "casabamelon", "hamimelon", "honeydewmelon", "hornedmelon", "pepinomelon", "orangewatermelon", 
+    "canarymelon", "cantaloupemelon", "casabamelon", "hamimelon", "honeydewmelon", "hornedmelon", "pepinomelon", "orangewatermelon",
     "yellowwatermelon", "wintermelon",
 ];
 
