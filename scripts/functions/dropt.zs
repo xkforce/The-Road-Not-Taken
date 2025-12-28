@@ -12,10 +12,20 @@ import scripts.variables.stone.defaultVariants;
 import scripts.variables.stone.mossyVariants;
 import scripts.variables.stone.rockData;
 
+/**
+ * Formats a string to be a valid dropt list name.
+ * @param name The name to format.
+ * @return The formatted name.
+ */
 global droptName as function(string)string = function(name as string) as string {
     return `dropt_${name}`.replace(":", "_");
 };
 
+/**
+ * Replaces the drops of a block with a new set of drops.
+ * @param name The name of the block.
+ * @param drops The new drops.
+ */
 global replaceDrops as function(string, string[])void = function(name as string, drops as string[]) as void {
     Dropt.list(droptName(name))
     .add(Dropt.rule()
@@ -26,6 +36,12 @@ global replaceDrops as function(string, string[])void = function(name as string,
     );
 };
 
+/**
+ * Replaces the drops of a block with a new set of drops, but only for a specific harvester.
+ * @param name The name of the block.
+ * @param tools The tools that can harvest the block.
+ * @param drops The new drops.
+ */
 global replaceToolDrops as function(string, string[], string[])void = function(name as string, tools as string[], drops as string[]) as void {
     Dropt.list(droptName(name))
     .add(Dropt.rule()
