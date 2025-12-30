@@ -7,8 +7,10 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.zenutils.I18n;
 import mods.zenutils.StaticString;
 
+import scripts.classes.color.Color;
+
 global stoneRegistryKey as function(string, string, string)string = function(color as string, stonetype as string, texturevariant as string) as string {
-    return StaticString.trim(color + stonetype + texturevariant).replace(" ", "");
+    return StaticString.trim(`${color}${stonetype}${texturevariant}`).replace(" ", "");
 };
 
 global stoneStair as function(string, string, string)bool = function(color as string, stonetype as string, texturevariants as string) as bool {
@@ -134,7 +136,13 @@ global stoneName as function(string, string, string)bool = function(color as str
         error(`Item fot *${stone}* is null!`);
         return false;
     }
-    val nameColor as string = (color == " ") ? " " : I18n.format(`${modpackID}.color.${color}.name`);
+    val cColor as Color = getColor(color);
+    var nameColor as string = "";
+    if (isNull(cColor)) {
+        nameColor = (color == " ") ? " " : I18n.format(`${modpackID}.color.${color}.name`);
+    } else {
+        nameColor = I18n.format(cColor.langKey());
+    }
     val nameColorSplit as string[] = nameColor.split("-");
     val nameStoneType as string = I18n.format(`${modpackID}.stonetype.${stonetype}.name`);
     var nameStoneVariant as string= I18n.format(`${modpackID}.variant.${(texturevariants == " " ? "base" : texturevariants)}.name`, nameStoneType);
