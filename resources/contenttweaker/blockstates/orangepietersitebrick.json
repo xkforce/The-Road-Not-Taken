@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/orangepietersitebrick",
+      "particle": "contenttweaker:blocks/orangepietersitebrick"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

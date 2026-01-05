@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/pinot_noirpinkporphyrydebossed",
+      "particle": "contenttweaker:blocks/pinot_noirpinkporphyrydebossed"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
