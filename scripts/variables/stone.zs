@@ -1,561 +1,184 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10100
+#priority 1000
+
+import scripts.classes.stone.Stone;
 
 import scripts.variables.colors.c101;
 import scripts.variables.colors.c18;
-import scripts.variables.colors.none;
+
 import scripts.variables.misc.lowerColors;
 
-static defaultVariants as string[] = [
-    " ",
-    "brick",
-    "chiseledbrick",
-    "cobblestone",
-    "crackedbrick",
-    "crackedshortbrick",
-    "debossed",
-    "polished",
-    "shortbrick"
-];
+import scripts.variables.variants.none;
+import scripts.variables.variants.defaultVariants;
+import scripts.variables.variants.mossyVariants;
+import scripts.variables.variants.lichenVariants;
+import scripts.variables.variants.OverworldVariants;
+import scripts.variables.variants.sandstoneVariants;
+import scripts.variables.variants.defaultnocobbleVariants;
 
-static mossyVariants as string[] = [
-    "mossybrick",
-    "mossychiseledbrick",
-    "mossydebossed",
-    "mossycobblestone",
-    "mossypolished",
-    "mossyshortbrick",
-];
+// Overworld Stones
+global Andesite as Stone = Stone("andesite", COLORS.keys, OverworldVariants);
+global Aventurine as Stone = Stone("aventurine", COLORS.keys, OverworldVariants);
+global Concrete as Stone = Stone("concrete", COLORS.keys, defaultnocobbleVariants);
+global ApacheRhyolite as Stone = Stone("apacherhyolite", c101, OverworldVariants);
+global Diorite as Stone = Stone("diorite", COLORS.keys, OverworldVariants);
+global Granite as Stone = Stone("granite", COLORS.keys, OverworldVariants);
+global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariants);
+Obsidian.setHardness(50.0);
+Obsidian.setResistance(1200.0);
+global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
+global Sandstone as Stone = Stone("sandstone", mergeStringArray([COLORS.keys, none]), sandstoneVariants);
+Sandstone.addFlag("--onlyBlocks");
 
-static lichenVariants as string[] = [
-    "lichenbrown",
-    "lichenorange",
-    "lichenred",
-    "lichenyellow",
-];
+// Misc
+global HardenedClay as Stone = Stone("hardenedclay", mergeStringArray([none, lowerColors]), [" ", "brick", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"]);
+global SmoothStone as Stone = Stone("smoothstone", none, none);
+SmoothStone.addReplacement("minecraft:stone", " ", " ");
+global Wool as Stone = Stone("wool", COLORS.keys, none);
+Wool.addReplacement("minecraft:wool:0", "white", " ");
+Wool.addReplacement("minecraft:wool:1", "orange", " ");
+Wool.addReplacement("minecraft:wool:2", "magenta", " ");
+Wool.addReplacement("minecraft:wool:3", "light_blue", " ");
+Wool.addReplacement("minecraft:wool:4", "yellow", " ");
+Wool.addReplacement("minecraft:wool:5", "lime", " ");
+Wool.addReplacement("minecraft:wool:6", "pink", " ");
+Wool.addReplacement("minecraft:wool:7", "gray", " ");
+Wool.addReplacement("minecraft:wool:8", "light_gray", " ");
+Wool.addReplacement("minecraft:wool:9", "cyan", " ");
+Wool.addReplacement("minecraft:wool:10", "purple", " ");
+Wool.addReplacement("minecraft:wool:11", "blue", " ");
+Wool.addReplacement("minecraft:wool:12", "brown", " ");
+Wool.addReplacement("minecraft:wool:13", "green", " ");
+Wool.addReplacement("minecraft:wool:14", "red", " ");
+Wool.addReplacement("minecraft:wool:15", "black", " ");
 
-static OverworldVariants as string[] = mergeStringArray([defaultVariants, mossyVariants, lichenVariants]);
+// End Stones
+global EndStone as Stone = Stone("endstone", COLORS.keys, defaultnocobbleVariants);
+global EnderStone as Stone = Stone("enderstone", COLORS.keys, defaultnocobbleVariants);
+global Flavolite as Stone = Stone("flavolite", COLORS.keys, defaultnocobbleVariants);
+global Purpur as Stone = Stone("purpur", COLORS.keys, [" ", "pillar"]);
+Purpur.addFlag("--onlyBlocks");
 
-static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, [["cobblestone"]]);
+// Nether Stones
+// global BlackStone as Stone = Stone("blackstone", none, none);
+// BlackStone.setHardness(6.0);
+global CryingObsidian as Stone = Stone("cryingobsidian", c101, defaultnocobbleVariants);
+global NetherQuartz as Stone = Stone("netherquartz", c18, [" ", "chiseled", "pillar", "polished"]);
+NetherQuartz.addFlag("--onlyBlocks");
+global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
+global NetherStone as Stone = Stone("netherstone", COLORS.keys, mergeStringArray([defaultnocobbleVariants, ["gilded"]]));
 
-static sandstoneVariants as string[] = [
-    " ", "archerleft", "archerright", "armsdown", "armsup", "axeleft", "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper", "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft", "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright", "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart", "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright", "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft", "waveright", "wither"
-];
+// Extraterrestrial Stones
+global Basalt as Stone = Stone("basalt", COLORS.keys, defaultnocobbleVariants);
+Basalt.setHardness(1.25);
+Basalt.setResistance(4.2);
+global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
+global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
+global VenusStone as Stone = Stone("venusstone", COLORS.keys, defaultVariants);
+global Augite as Stone = Stone("augite", COLORS.keys, defaultVariants);
+global Diopside as Stone = Stone("diopside", COLORS.keys, defaultVariants);
+global Enstatite as Stone = Stone("enstatite", COLORS.keys, defaultVariants);
+global Fayelite as Stone = Stone("fayelite", COLORS.keys, defaultVariants);
+global Forsterite as Stone = Stone("forsterite", COLORS.keys, defaultVariants);
+global Lunastone as Stone = Stone("lunastone", COLORS.keys, defaultVariants);
+global Marstone as Stone = Stone("marstone", COLORS.keys, defaultVariants);
+global MercuryStone as Stone = Stone("mercurystone", COLORS.keys, defaultVariants);
+global Oldhamite as Stone = Stone("oldhamite", COLORS.keys, defaultVariants);
+global Orthoclase as Stone = Stone("orthoclase", COLORS.keys, defaultVariants);
+global Orthopyroxene as Stone = Stone("orthopyroxene", COLORS.keys, defaultVariants);
+global Pigeonite as Stone = Stone("pigeonite", COLORS.keys, defaultVariants);
+global Plagioclase as Stone = Stone("plagioclase", COLORS.keys, defaultVariants);
+global Tephroite as Stone = Stone("tephroite", COLORS.keys, defaultVariants);
+global Troilite as Stone = Stone("troilite", COLORS.keys, defaultVariants);
+global Aegirine as Stone = Stone("aegirine", COLORS.keys, defaultVariants);
 
-static rockData as string[][string][string] = {
-    "smoothstone": {
-        "colors": none,
-        "texturevariants": none
-    },
-    "hardenedclay": {
-        "colors": mergeStringArray([none, lowerColors]),
-        "texturevariants": [" ", "brick", "crackedbrick", "crackedshortbrick", "polished", "shortbrick"]
-    },
-    // Overworld Stones
-    "andesite": {
-        "colors": COLORS.keys,
-        "texturevariants": OverworldVariants
-    },
-    "aventurine": {
-        "colors": COLORS.keys,
-        "texturevariants": OverworldVariants
-    },
-    "concrete": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "apacherhyolite": {
-        "colors": c101,
-        "texturevariants": OverworldVariants
-    },
-    "diorite": {
-        "colors": COLORS.keys,
-        "texturevariants": OverworldVariants
-    },
-    "granite": {
-        "colors": COLORS.keys,
-        "texturevariants": OverworldVariants
-    },
-    "obsidian": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "prismarine": {
-        "colors": COLORS.keys,
-        "texturevariants": [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]
-    },
-    "sandstone": {
-        "colors": mergeStringArray([COLORS.keys, none]),
-        "texturevariants": sandstoneVariants,
-        "flags": ["--onlyBlocks"]
-    },
-    // Nether Stones
-    "cryingobsidian": {
-        "colors": c101,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "netherquartz": {
-        "colors" : c18,
-        "texturevariants": [" ", "chiseled", "pillar", "polished"],
-        "flags": ["--onlyBlocks"]
-    },
-    "netherrack": {
-        "colors": COLORS.keys,
-        "texturevariants": none
-    },
-    "netherstone": {
-        "colors": COLORS.keys,
-        "texturevariants": mergeStringArray([defaultnocobbleVariants, ["gilded"]])
-    },
-    // End Stones
-    "endstone": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "enderstone": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "flavolite": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "purpur": {
-        "colors": COLORS.keys,
-        "texturevariants": [" ", "pillar"],
-        "flags": ["--onlyBlocks"]
-    },
-    // Extraterrestrial Stones
-    "basalt": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "cythereastone": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "rutile": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "venusstone": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultVariants
-    },
-    "augite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "diopside": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "enstatite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "fayalite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "forsterite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "lunastone": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "marstone": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "mercurystone": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "oldhamite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "orthoclase": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "orthopyroxene": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "pigeonite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "plagioclase": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "tephroite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "troilite": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    "aegirine": {
-        "colors": none,
-        "texturevariants": defaultVariants
-    },
-    // Unknown
-    "umbralith": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    "violecite": {
-        "colors": COLORS.keys,
-        "texturevariants": defaultnocobbleVariants
-    },
-    // Misc
-    "wool": {
-        "colors": COLORS.keys,
-        "texturevariants": none
-    },
-    // Rockhounding Rocks
-    "basanite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "bluejasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "chrysocolla": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "gabbro": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "jet": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "labradorite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "luxulyanite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "portoro": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "slate": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "arkose": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "bronzite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "browncarnelian": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "brownporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "ignimbrite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "larimar": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "laterite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "pietersite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "scoria": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "amazonite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "dacite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "grayporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "graytrachyte": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "graytravertine": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "migmatite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "pumice": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "spiderwebjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "zebrajasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "chrysoprase": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "dunite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "glauconite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "greenjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "greenporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "jadeite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "kakortokite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "rainforestjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "rhodochrosite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "serpentinite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "zoisite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "aplite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "charoite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "dumortierite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "jasperoid": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "pinkporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "pinktrachyte": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "pinktravertine": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "purpleporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "redcarnelian": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "rhodonite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "stichtite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "sugilite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "alabaster": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "jaspilite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "mookaitejasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "noreenajasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "porcelainjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "redjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "redporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "redtrachyte": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "rosered": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "sunstone": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "dalmatianjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "diatomite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "felsite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "howlite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "mudstone": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "oceanjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "yellowjasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "yellowporphyry": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "yellowtrachyte": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "actinolite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "ammolite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "apatite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "blueschist": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "breccia": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "eclogite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "grayschist": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "guadalupejasper": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "oolite": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "treeagate": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "umber": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-    "wonderstone": {
-        "colors": none,
-        "texturevariants": OverworldVariants
-    },
-};
+// Unknown
+global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
+global Violecite as Stone = Stone("violecite", COLORS.keys, defaultnocobbleVariants);
 
-static rockHardness as float[string] = {
-    "basalt": 1.25,
-    "obsidian": 50.0,
-    "hardenedclay": 1.25,
-};
+// Rockhounding Rocks
+global Basanite as Stone = Stone("basanite", COLORS.keys, OverworldVariants);
+global BlueJasper as Stone = Stone("bluejasper", COLORS.keys, OverworldVariants);
+global Chrysocolla as Stone = Stone("chrysocolla", COLORS.keys, OverworldVariants);
+global Gabbro as Stone = Stone("gabbro", COLORS.keys, OverworldVariants);
+global Jet as Stone = Stone("jet", COLORS.keys, OverworldVariants);
+global Labradorite as Stone = Stone("labradorite", COLORS.keys, OverworldVariants);
+global Luxulyanite as Stone = Stone("luxulyanite", COLORS.keys, OverworldVariants);
+global Portoro as Stone = Stone("portoro", COLORS.keys, OverworldVariants);
+global Slate as Stone = Stone("slate", COLORS.keys, OverworldVariants);
+global Arkose as Stone = Stone("arkose", COLORS.keys, OverworldVariants);
+global Bronzite as Stone = Stone("bronzite", COLORS.keys, OverworldVariants);
+global Browncarnelian as Stone = Stone("browncarnelian", COLORS.keys, OverworldVariants);
+global Brownporphyry as Stone = Stone("brownporphyry", COLORS.keys, OverworldVariants);
+global Ignimbrite as Stone = Stone("ignimbrite", COLORS.keys, OverworldVariants);
+global Larimar as Stone = Stone("larimar", COLORS.keys, OverworldVariants);
+global Laterite as Stone = Stone("laterite", COLORS.keys, OverworldVariants);
+global Pietersite as Stone = Stone("pietersite", COLORS.keys, OverworldVariants);
+global Scoria as Stone = Stone("scoria", COLORS.keys, OverworldVariants);
+global Amazonite as Stone = Stone("amazonite", COLORS.keys, OverworldVariants);
+global Dacite as Stone = Stone("dacite", COLORS.keys, OverworldVariants);
+global Grayporphyry as Stone = Stone("grayporphyry", COLORS.keys, OverworldVariants);
+global Graytrachyte as Stone = Stone("graytrachyte", COLORS.keys, OverworldVariants);
+global Graytravertine as Stone = Stone("graytravertine", COLORS.keys, OverworldVariants);
+global Migmatite as Stone = Stone("migmatite", COLORS.keys, OverworldVariants);
+global Pumice as Stone = Stone("pumice", COLORS.keys, OverworldVariants);
+global Spiderwebjasper as Stone = Stone("spiderwebjasper", COLORS.keys, OverworldVariants);
+global Zebrajasper as Stone = Stone("zebrajasper", COLORS.keys, OverworldVariants);
+global Chrysoprase as Stone = Stone("chrysoprase", COLORS.keys, OverworldVariants);
+global Dunite as Stone = Stone("dunite", COLORS.keys, OverworldVariants);
+global Glauconite as Stone = Stone("glauconite", COLORS.keys, OverworldVariants);
+global Greenjasper as Stone = Stone("greenjasper", COLORS.keys, OverworldVariants);
+global Greenporphyry as Stone = Stone("greenporphyry", COLORS.keys, OverworldVariants);
+global Jadeite as Stone = Stone("jadeite", COLORS.keys, OverworldVariants);
+global Kakortokite as Stone = Stone("kakortokite", COLORS.keys, OverworldVariants);
+global Rainforestjasper as Stone = Stone("rainforestjasper", COLORS.keys, OverworldVariants);
+global Rhodocrite as Stone = Stone("rhodocrit", COLORS.keys, OverworldVariants);
+global Serpentinite as Stone = Stone("serpentinite", COLORS.keys, OverworldVariants);
+global Zoisite as Stone = Stone("zoisite", COLORS.keys, OverworldVariants);
+global Aplite as Stone = Stone("aplite", COLORS.keys, OverworldVariants);
+global Charoite as Stone = Stone("charoite", COLORS.keys, OverworldVariants);
+global Dumortierite as Stone = Stone("dumortierite", COLORS.keys, OverworldVariants);
+global Jasperoid as Stone = Stone("jasperoid", COLORS.keys, OverworldVariants);
+global Pinkporphyry as Stone = Stone("pinkporphyry", COLORS.keys, OverworldVariants);
+global Pinktrachyte as Stone = Stone("pinktrachyte", COLORS.keys, OverworldVariants);
+global Pinktravertine as Stone = Stone("pinktravertine", COLORS.keys, OverworldVariants);
+global Purpurporphyry as Stone = Stone("purpleporphyry", COLORS.keys, OverworldVariants);
+global Redcarnelian as Stone = Stone("redcarnelian", COLORS.keys, OverworldVariants);
+global Rhodonite as Stone = Stone("rhodonite", COLORS.keys, OverworldVariants);
+global Stichtite as Stone = Stone("stichtite", COLORS.keys, OverworldVariants);
+global Sugilite as Stone = Stone("sugilite", COLORS.keys, OverworldVariants);
+global Alabaster as Stone = Stone("alabaster", COLORS.keys, OverworldVariants);
+global Jaspilite as Stone = Stone("jaspilite", COLORS.keys, OverworldVariants);
+global Mookaitejasper as Stone = Stone("mookaitejasper", COLORS.keys, OverworldVariants);
+global Noreenajasper as Stone = Stone("noreenajasper", COLORS.keys, OverworldVariants);
+global Porcelainjasper as Stone = Stone("porcelainjasper", COLORS.keys, OverworldVariants);
+global Redjasper as Stone = Stone("redjasper", COLORS.keys, OverworldVariants);
+global Redporphyry as Stone = Stone("redporphyry", COLORS.keys, OverworldVariants);
+global Redtrachyte as Stone = Stone("redtrachyte", COLORS.keys, OverworldVariants);
+global Rosered as Stone = Stone("rosered", COLORS.keys, OverworldVariants);
+global Sunstone as Stone = Stone("sunstone", COLORS.keys, OverworldVariants);
+global Dalmatianjasper as Stone = Stone("dalmatianjasper", COLORS.keys, OverworldVariants);
+global Diatomite as Stone = Stone("diatomite", COLORS.keys, OverworldVariants);
+global Felsite as Stone = Stone("felsite", COLORS.keys, OverworldVariants);
+global Howlite as Stone = Stone("howlite", COLORS.keys, OverworldVariants);
+global Mudstone as Stone = Stone("mudstone", COLORS.keys, OverworldVariants);
+global Oceanjasper as Stone = Stone("oceanjasper", COLORS.keys, OverworldVariants);
+global Yellowjasper as Stone = Stone("yellowjasper", COLORS.keys, OverworldVariants);
+global Yellowporphyry as Stone = Stone("yellowporphyry", COLORS.keys, OverworldVariants);
+global Yellowtrachyte as Stone = Stone("yellowtrachyte", COLORS.keys, OverworldVariants);
+global Actinolite as Stone = Stone("actinolite", COLORS.keys, OverworldVariants);
+global Ammolite as Stone = Stone("ammolite", COLORS.keys, OverworldVariants);
+global Apatite as Stone = Stone("apatite", COLORS.keys, OverworldVariants);
+global Blueschist as Stone = Stone("blueschist", COLORS.keys, OverworldVariants);
+global Breccia as Stone = Stone("breccia", COLORS.keys, OverworldVariants);
+global Eclogite as Stone = Stone("eclogite", COLORS.keys, OverworldVariants);
+global Grayschist as Stone = Stone("grayschist", COLORS.keys, OverworldVariants);
+global Guadalupejasper as Stone = Stone("guadalupejasper", COLORS.keys, OverworldVariants);
+global Oolite as Stone = Stone("oolite", COLORS.keys, OverworldVariants);
+global Treeagate as Stone = Stone("treeagate", COLORS.keys, OverworldVariants);
+global Umber as Stone = Stone("umber", COLORS.keys, OverworldVariants);
+global Wonderstone as Stone = Stone("wonderstone", COLORS.keys, OverworldVariants);
 
-static rockResistance as float[string] = {
-    "basalt": 4.2,
-    "blackstone" : 6.0,
-    "obsidian": 1200.0,
-    "hardenedclay": 4.2,
-};
+for id, stone in STONES {
+    log.trace(`🪨 Stone *${stone.getName()}* has ${stone.colors.length} colors and ${stone.textureVariants.length} texture variants. (total: ${stone.colors.length * stone.textureVariants.length} blocks)`, "preinit");
+}

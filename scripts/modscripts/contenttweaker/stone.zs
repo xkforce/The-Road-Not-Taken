@@ -1,61 +1,73 @@
 #loader crafttweaker
-#priority 1000
+#modloaded contenttweaker contentcreator dropt
+#priority 1
 
-import scripts.variables.stone.rockData;
-import scripts.variables.stone.mossyVariants;
-import scripts.variables.stone.lichenVariants;
+import scripts.variables.misc.hammers;
+import scripts.variables.variants.defaultVariants;
+import scripts.variables.variants.mossyVariants;
+import scripts.variables.variants.lichenVariants;
 
-info("/--- CraftTweaker Stone Recipe Registration ---/");
+import scripts.classes.stone.Stone;
 
-for stonetype in rockData {
-    for color in rockData[stonetype]["colors"] {
-        for texturevariant in rockData[stonetype]["texturevariants"] {
-            if (shouldProcess(stonetype)) {
-                stoneStair(color, stonetype, texturevariant);
-                stoneSlab(color, stonetype, texturevariant);
+log.info("[🚧 MODPACK_SETUP 🚧] 🪨 Polishing stones...");
+
+// TODO add walls back once implemented
+for stonetype in STONES {
+    val stone as Stone = getStone(stonetype);
+    if (isNull(stone)) {
+        log.error(`Stonetype *${stonetype}* is not a valid stonetype!`);
+        continue;
+    }
+    for color in stone.colors {
+        for texturevariant in stone.textureVariants {
+            if (stone.hasFlag("--onlyBlocks") == false && Stone.NO_SUB_BLOCKS.indexOf(texturevariant) == -1) {
+                stone.craftStairs(color, texturevariant);
+                stone.craftSlab(color, texturevariant);
+                //stone.craftWall(color, texturevariant);
             }
             // handle block names for easier translation
-            stoneName(color, stonetype, texturevariant);
+            stone.changeName(color, texturevariant);
             // setup oredicts for all rock types
-            stoneOre(color, stonetype, texturevariant);
+            stone.oreItem(color, texturevariant);
         }
-        if (rockData[stonetype]["texturevariants"] has "chiseledbrick") {
-            stoneChiseledbrick(color, stonetype);
-        }
-        if (rockData[stonetype]["texturevariants"] has "brick") {
-            stoneBrick(color, stonetype);
-        }
-        if (rockData[stonetype]["texturevariants"] has "polished") {
-            stonePolished(color, stonetype);
-        }
-        if (rockData[stonetype]["texturevariants"] has "cobblestone") {
-            stoneSmelt(color, stonetype);
-        }
+        stone.craftChiseledBrick(color);
+        stone.craftBrick(color);
+        stone.craftPolished(color);
+        stone.smeltItem(color);
 
+        // handle mossy variants
         for mossyvariant in mossyVariants {
-            if (rockData[stonetype]["texturevariants"] has mossyvariant) {
-                stoneShapeless(color, stonetype, mossyvariant, mossyvariant.substring(5), "contenttweaker:moss");
-            }
+            stone.craftCovered(color, mossyvariant, mossyvariant.substring(5), "contenttweaker:moss");
         }
 
+        // handle lichen variants
         for lichenvariant in lichenVariants {
-            if (rockData[stonetype]["texturevariants"] has lichenvariant) {
-                stoneShapeless(color, stonetype, lichenvariant, " ", `contenttweaker:${lichenvariant.substring(6)}lichen`);
-            }
+            stone.craftCovered(color, lichenvariant, " ", `contenttweaker:${lichenvariant.substring(6)}lichen`);
         }
-        
-        stoneDrops(color, stonetype);
+
+        changeDrop(stone, color);
     }
 }
 
-function shouldProcess(stonetype as string) as bool {
-    if (isNull(rockData[stonetype]["flags"])) {
-        // stone has no flags, process...
-        return true;
-    } else {
-        if (rockData[stonetype]["flags"] has "--onlyBlocks") {
-            return false;
-        }
-        return true;
+function changeDrop(stone as Stone, color as string) as void {
+    if (stone.textureVariants.indexOf("cobblestone") == -1) {
+        log.trace(`*${stone.id}* does not have required texturevariants for drop change!`);
+        return;
+    }
+    val cobblestone as string = `contenttweaker:${stone.registryKey(color, "cobblestone")}`;
+    // handle default variants
+    for variant in intersectStringArray(stone.textureVariants, defaultVariants) {
+        val rock_default as string = stone.registryKey(color, variant);
+        replaceToolDrops(`contenttweaker:${rock_default}`, hammers, [cobblestone]);
+    }
+    // handle mossy variants
+    for variant in intersectStringArray(stone.textureVariants, mossyVariants) {
+        val rock_mossy as string = stone.registryKey(color, variant);
+        replaceToolDrops(`contenttweaker:${rock_mossy}`, hammers, [cobblestone, "contenttweaker:moss"]);
+    }
+    // handle lichen variants
+    for variant in intersectStringArray(stone.textureVariants, lichenVariants) {
+        val rock_lichen as string = stone.registryKey(color, variant);
+        replaceToolDrops(`contenttweaker:${rock_lichen}`, hammers, [cobblestone, `contenttweaker:${variant.substring(6)}lichen`]);
     }
 }
