@@ -6,8 +6,8 @@
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.825,
   "Height Variation": 0.05,
-  "Top Block": "contenttweaker:orangewhiteandesite",
-  "Filler Block": "contenttweaker:orangewhiteandesite",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

@@ -1,0 +1,85 @@
+{
+	"frame": {
+		"type": "LATERAL_OR_VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 4,
+				"maxWidth": 23,
+				"minHeight": 5,
+				"maxHeight": 23
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 23,
+				"minHeight": 5,
+				"maxHeight": 23
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 23,
+				"minHeight": 5,
+				"maxHeight": 23
+			}
+		},
+		"blocks": [],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": false,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": true,
+		"activators": [],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": true,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"RED"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 215,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 80,
+		"verticalX": 80,
+		"verticalZ": 80
+	},
+	"decorative": false
+}
