@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 11111101
+#priority 1110
 
 /**
  * Merges multiple arrays into one.
@@ -28,7 +28,7 @@ global uniqueStringArray as function(string[][])string[] = function(arrays as st
             if (!result.contains(item)) {
                 result += item;
             } else {
-                warn("Duplicate entry found in string array: " + item);
+                log.trace(`Duplicate entry found in string array: ${item}`);
             }
         }
     }
@@ -52,7 +52,6 @@ global filterStringArray as function(string[], string[][])string[] = function(ar
     return result;
 };
 
-
 /**
  * Converts an array of strings to lower case.
  * @param array The array to convert.
@@ -62,6 +61,49 @@ global lowerStringArray as function(string[])string[] = function(array as string
     var result as string[] = [];
     for item in array {
         result += item.toLowerCase();
+    }
+    return result;
+};
+
+/**
+ * Converts an array of strings to upper case.
+ * @param array The array to convert.
+ * @return The converted array.
+ */
+global upperStringArray as function(string[])string[] = function(array as string[]) as string[] {
+    var result as string[] = [];
+    for item in array {
+        result += item.toUpperCase();
+    }
+    return result;
+};
+
+/**
+ * Transforms an array of strings by replacing a template.
+ * @param array The array to transform.
+ * @param transform The template to replace.
+ * @return The transformed array.
+ */
+global transformStringArray as function(string[], string)string[] = function(array as string[], transform as string) as string[] {
+    var result as string[] = [];
+    for item in array {
+        result += transform.replace("<TEMPLATE>", item);
+    }
+    return result;
+};
+
+/**
+ * Create a new array from 2 arrays with all values that are in both arrays.
+ * @param array1 The first array.
+ * @param array2 The second array.
+ * @return The new array.
+ */
+global intersectStringArray as function(string[], string[])string[] = function(array1 as string[], array2 as string[]) as string[] {
+    var result as string[] = [];
+    for item in array1 {
+        if (array2.contains(item)) {
+            result += item;
+        }
     }
     return result;
 };

@@ -1,6 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#modloaded zenutils
-#priority 1111110
+#priority 1101
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -10,12 +9,111 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 /**
+ * A utility class for parsing item strings.
+ */
+zenClass ItemString {
+    val itemString as string = "";
+    val mod as string = "";
+    val item as string = "";
+    var meta as int = 0;
+
+    /**
+     * Creates a new item string.
+     * @param input The input string.
+     */
+    zenConstructor(input as string) {
+        itemString = input;
+        val parts as string[] = input.toLowerCase().split(":");
+        if (parts.length < 2) {
+            log.error(`Invalid item string *${input}*.`);
+            return;
+        }
+        mod = parts[0];
+        item = parts[1];
+        if (parts.length >= 3) {
+            if (parts[2] == "*") {
+                meta = 32767;
+            } else {
+                meta = parts[2] as int;
+            }
+        }
+    }
+
+    /**
+     * Gets the item without an error if it is not loaded.
+     * @return The item.
+     */
+    function silentItem() as IItemStack {
+        return itemUtils.getItem(`${mod}:${item}`, meta);
+    }
+
+    /**
+     * Checks if the mod of the item is loaded.
+     * @return True if the mod is loaded, false otherwise.
+     */
+    function modLoaded() as bool {
+        return loadedMods has mod;
+    }
+
+    /**
+     * Gets the items of the mod.
+     * @return The items.
+     */
+    function modItems() as IItemStack[] {
+        return loadedMods[mod].items;
+    }
+
+    /**
+     * Gets the item. If the item is not loaded, it will return null and log an error.
+     * @return The item.
+     */
+    function item() as IItemStack {
+        val it as IItemStack = silentItem();
+        if (isNull(it)) {
+            log.error(`String *${itemString}* could not be parsed as an item. Returning *null*.`);
+            return null;
+        }
+        return it;
+    }
+
+    /**
+     * Checks if the item is loaded.
+     * @return True if the item is loaded, false otherwise.
+     */
+    function itemLoaded() as bool {
+        if (modLoaded()) {
+            if (isNull(silentItem())) {
+                log.trace(`Item *${item}* is null, but its mod *${mod}* is loaded.`);
+                return false;
+            }
+            return true;
+        }
+        log.trace(`Mod *${mod}* is not loaded, skipping item *${item}*.`);
+        return false;
+    }
+}
+
+global iStr as function(string)ItemString = function(itemName as string) as ItemString {
+    return ItemString(itemName);
+};
+
+/**
+ * Checks if a mod is loaded.
+ * @param modid The modid of the mod.
+ * @return True if the mod is loaded, false otherwise.
+ */
+global modLoaded as function(string)bool = function(modid as string) as bool {
+    return loadedMods has modid || modid == "ore";
+};
+
+/**
  * Gets an item from the item registry.
  * @param itemName The name of the item.
  * @return The item.
  */
 global item as function(string)IItemStack = function(itemName as string) as IItemStack {
-    return itemUtils.getItem(itemName.toLowerCase());
+    val itemString as ItemString = ItemString(itemName);
+    return itemString.item();
 };
 
 /**
@@ -25,31 +123,19 @@ global item as function(string)IItemStack = function(itemName as string) as IIte
  * @return The item.
  */
 global itemMeta as function(string, int)IItemStack = function(itemName as string, meta as int) as IItemStack {
-    return itemUtils.getItem(itemName.toLowerCase(), meta);
+    val itemString as ItemString = ItemString(itemName);
+    return itemString.item().withDamage(meta);
 };
 
 /**
- * Gets an item from the item registry with a specific meta.
- * @param itemString The string of the item.
+ * Gets an item from the item registry with a specific stack size.
+ * @param itemName The name of the item.
+ * @param size The size of the item.
  * @return The item.
  */
-global itemString as function(string)IItemStack = function(itemString as string) as IItemStack {
-    val parts as string[] = itemString.toLowerCase().split(":");
-    if (parts.length < 2) {
-        error(`Invalid item string '${itemString}'.`);
-        return null;
-    }
-    val modid as string = parts[0];
-    val itemid as string = parts[1];
-    var meta as int = 0;
-    if (parts.length >= 3) {
-        if (parts[2] == "*") {
-            meta = anyMeta;
-        } else {
-            meta = parts[2] as int;
-        }
-    }
-    return itemUtils.getItem(`${modid}:${itemid}`, meta);
+global itemSize as function(string, int)IItemStack = function(itemName as string, size as int) as IItemStack {
+    val itemString as ItemString = ItemString(itemName);
+    return itemString.item().withAmount(size);
 };
 
 /**
@@ -70,15 +156,6 @@ global modItems as function(string)IItemStack[] = function(modid as string) as I
     return loadedMods[modid].items;
 };
 
-/**
- * Checks if a mod is loaded.
- * @param modid The modid of the mod.
- * @return True if the mod is loaded, false otherwise.
- */
-global modLoaded as function(string)bool = function(modid as string) as bool {
-    return loadedMods has modid || modid == "ore";
-};
-
 // These depend on each other, so the order matters
 
 /**
@@ -89,7 +166,7 @@ global modLoaded as function(string)bool = function(modid as string) as bool {
 global mod as function(string)string = function(itemString as string) as string {
     val parts as string[] = itemString.split(":");
     if (parts.length < 2) {
-        error(`Invalid item string '${itemString}'.`);
+        log.error(`Invalid item string *${itemString}*.`);
         return itemString;
     }
     return parts[0];
@@ -101,16 +178,8 @@ global mod as function(string)string = function(itemString as string) as string 
  * @return True if the item is loaded, false otherwise.
  */
 global itemLoaded as function(string)bool = function(itemName as string) as bool {
-    if (modLoaded(mod(itemName))) {
-        val stack as IItemStack = itemString(itemName);
-        if (isNull(stack)) {
-            error(`Item '${itemName}' is null.`);
-            return false;
-        }
-        return true;
-    }
-    error(`Mod for item '${itemName}' is not loaded.`);
-    return false;
+    val itemString as ItemString = ItemString(itemName);
+    return itemString.itemLoaded();
 };
 
 /**
@@ -122,15 +191,15 @@ global ingredient as function(string)IIngredient = function(ingredientName as st
     if (mod(ingredientName) == "ore") {
         return ore(ingredientName) as IIngredient;
     }
-    return itemString(ingredientName) as IIngredient;
+    return item(ingredientName) as IIngredient;
 };
 
 /**
- * Gets a fluid from the fluid registry.
+ * Gets a fluid from the fluid registry, but does not log an error if it is not found.
  * @param fluidName The name of the fluid.
  * @return The fluid.
  */
-global fluid as function(string)ILiquidStack = function(fluidName as string) as ILiquidStack {
+global silentFluid as function(string)ILiquidStack = function(fluidName as string) as ILiquidStack {
     var bucket as IItemStack = item("minecraft:bucket");
     if (fluidName == "water") {
         bucket = item("minecraft:water_bucket");
@@ -144,8 +213,30 @@ global fluid as function(string)ILiquidStack = function(fluidName as string) as 
     for liquid in bucket.liquids {
         return liquid.definition * 1;
     }
-    error(`Fluid '${fluidName}' not found.`);
     return null;
+};
+
+/**
+ * Gets a fluid from the fluid registry. If the fluid is not found, it will return null and log an error.
+ * @param fluidName The name of the fluid.
+ * @return The fluid.
+ */
+global fluid as function(string)ILiquidStack = function(fluidName as string) as ILiquidStack {
+    val fluid as ILiquidStack = silentFluid(fluidName);
+    if (isNull(fluid)) {
+        log.error(`Fluid *${fluidName}* not found. Returning *null*.`);
+        return null;
+    }
+    return fluid;
+};
+
+/**
+ * Checks if a fluid is loaded.
+ * @param fluidName The name of the fluid.
+ * @return True if the fluid is loaded, false otherwise.
+ */
+global fluidLoaded as function(string)bool = function(fluidName as string) as bool {
+    return !isNull(silentFluid(fluidName));
 };
 
 /**
@@ -157,7 +248,7 @@ global itemList as function(string[])IItemStack[] = function(itemList as string[
     var itemListArray as IItemStack[] = [];
     for itemName in itemList {
         if (itemLoaded(itemName)) {
-            itemListArray += itemString(itemName);
+            itemListArray += item(itemName);
         }
     }
     return itemListArray;
