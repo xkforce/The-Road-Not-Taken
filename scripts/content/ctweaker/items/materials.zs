@@ -1,6 +1,6 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
@@ -12,7 +12,7 @@ import scripts.functions.contenttweaker.creativeTab;
 val materials as string[] = [
     "amethyst", "aquamarine", "blackdiamond", "bronze", "chocolatediamond", "citrine", "hepatizon",
     "electrum", "iridium", "meteoriron", "rosegold", "ruby", "sapphire", "silver", "morganite", "steel", "topaz", "tin", "zircon",
-    "moonstone", "opal", "peridot", 
+    "moonstone", "opal", "peridot",
 ];
 
 for material in materials {

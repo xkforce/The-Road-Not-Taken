@@ -1,6 +1,6 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
@@ -13,8 +13,7 @@ val bugs as string[] = [
 ];
 
 for bug in bugs {
-    val name as string = bug + "inamber";
-    var newBlock as Block = VanillaFactory.createBlock(name, <blockmaterial:rock>);
+    var newBlock as Block = VanillaFactory.createBlock(`${bug}inamber`, <blockmaterial:rock>);
     newBlock.setBlockHardness(1.5);
     newBlock.setBlockResistance(6.0);
     newBlock.setToolClass("pickaxe");

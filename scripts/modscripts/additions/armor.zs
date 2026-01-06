@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded additions
+#priority 1
 
 import crafttweaker.item.IItemStack;
 
@@ -111,8 +112,9 @@ val armorMap as IItemStack[][string] = {
 };
 
 for material, armorList in armorMap {
-    val input as IItemStack = item("contenttweaker:" + material + "plate");
-    if (!isNull(input)) {
+    val inputName as string = `contenttweaker:${material}plate`;
+    if (itemLoaded(inputName)) {
+        val input as IItemStack = item(inputName);
         recipes.addShaped(material + " Helmet", armorList[0], [
             [input, input, input],
             [input, null, input]
@@ -132,6 +134,6 @@ for material, armorList in armorMap {
             [input, null, input]
         ]);
     } else {
-        warn("Armor material " + material + " not found, skipping armor recipe.");
+        log.warn("Armor material " + material + " not found, skipping armor recipe.");
     }
 }

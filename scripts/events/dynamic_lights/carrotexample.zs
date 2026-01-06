@@ -1,3 +1,5 @@
+#loader crafttweaker
+#priority 0
 #reloadable
 
 //template written with assistance from teksturepako, ACgaming, ChaosStrikez and WaitingIdly

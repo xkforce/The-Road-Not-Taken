@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 5000
+#priority 11
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
@@ -44,10 +44,10 @@ if loadedMods has "coloredstone" {
 
     ore("lampRedstone").addItems([
         <minecraft:redstone_lamp>,
-        itemMeta("coloredstone:colorstone_lamp", anyMeta)
+        itemMeta("coloredstone:colorstone_lamp", 32767)
     ]);
 } else {
-    warn("Colored Stone mod not loaded, skipping adding colored stone redstone components to oredict.");
+    log.warn("Colored Stone mod not loaded, skipping adding colored stone redstone components to oredict.");
 }
 
 if loadedMods has "deeperdepths" {
@@ -56,7 +56,7 @@ if loadedMods has "deeperdepths" {
         ore("candle").add(item(`deeperdepths:${c}`));
     }
 } else {
-    warn("Deeper Depths mod not loaded, skipping adding deeper depth candles to oredict.");
+    log.warn("Deeper Depths mod not loaded, skipping adding deeper depth candles to oredict.");
 }
 
 ore("grain").addItems([

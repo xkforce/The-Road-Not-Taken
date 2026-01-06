@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 11000
+#priority 1010
 
 static oreColors as string[] = [
     "Black",
@@ -100,3 +100,5 @@ static materials as string[] = [
     "stone",
     "zircon",
 ];
+
+static hammers as string[] = transformStringArray(materials, "additions:items-<TEMPLATE>hammer");

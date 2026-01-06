@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded speedyhoppers
+#priority 1
 
 recipes.addShaped(<speedyhoppers:speedyhopper_mk3>, [[<contenttweaker:electrum>, null, <contenttweaker:electrum>],[<contenttweaker:electrum>, <ore:chestWood>, <contenttweaker:electrum>], [null, <contenttweaker:electrum>, null]]);
 recipes.addShaped(<speedyhoppers:speedyhopper_mk2>, [[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <ore:chestWood>, <minecraft:gold_ingot>], [null, <minecraft:gold_ingot>, null]]);

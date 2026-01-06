@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 2000
+#priority 10
 
 furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);

@@ -1,11 +1,11 @@
 #loader crafttweaker
 #modloaded fluidintetweaker
-#priority 5
+#priority 1
 
 import mods.fluidintetweaker.FITweaker;
 import mods.fluidintetweaker.FBTweaker;
 import mods.fluidintetweaker.event.CustomFluidInteractionEvent;
-import mods.fluidintetweaker.interaction.Condition; 
+import mods.fluidintetweaker.interaction.Condition;
 
 FITweaker.addRecipe(<liquid:water>, <liquid:lava>, FITweaker.outputBuilder()
     .addEvent(FITweaker.eventBuilder()

@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 10
+#priority 11
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -19,9 +19,9 @@ val tooltips as string[][string][string] = {
 
 for mod in tooltips.keys {
     if loadedMods has mod {
-        for item in tooltips[mod].keys {
-            val fullName as IItemStack = itemString(`${mod}:${item}`);
-            val tooltipList as string[] = tooltips[mod][item];
+        for input in tooltips[mod].keys {
+            val fullName as IItemStack = item(`${mod}:${input}`);
+            val tooltipList as string[] = tooltips[mod][input];
             if (!isNull(fullName)) {
                 for tip in tooltipList {
                     fullName.addTooltip(tip);
@@ -29,6 +29,6 @@ for mod in tooltips.keys {
             }
         }
     } else {
-        warn(`Mod *${mod}* not loaded, skipping tooltips for it.`);
+        log.warn(`Mod *${mod}* not loaded, skipping tooltips for it.`);
     }
 }

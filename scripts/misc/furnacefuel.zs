@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 10
+#priority 11
 
 import crafttweaker.item.IIngredient;
 
@@ -78,7 +78,7 @@ for burntime, itemList in fuelMap {
         if (modLoaded(modID)) {
             furnace.setFuel(ingredient(item), burntime);
         } else {
-            warn(`Mod *${modID}* not loaded; skipping furnace fuel registration for item *${item}*.`);
+            log.warn(`Mod *${modID}* not loaded; skipping furnace fuel registration for item *${item}*.`);
         }
     }
 }

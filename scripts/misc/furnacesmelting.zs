@@ -1,4 +1,5 @@
 #loader crafttweaker
+#priority 11
 
 val smelting as string[][string] = {
     "contenttweaker:cokenugget": ["contenttweaker:charcoalnugget", "contenttweaker:coalnugget"],
@@ -21,9 +22,9 @@ val smelting as string[][string] = {
 
 for output, inputs in smelting {
     if (itemLoaded(output)) {
-        for item in inputs {
-            if (itemLoaded(item)) {
-                furnace.addRecipe(itemString(output), itemString(item), 0.1);
+        for input in inputs {
+            if (itemLoaded(input)) {
+                furnace.addRecipe(item(output), item(input), 0.1);
             }
         }
     }

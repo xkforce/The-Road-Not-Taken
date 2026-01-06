@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded albedotorches additions
+#priority 1
 
 var torch = <ore:torch>;
 
@@ -35,4 +36,4 @@ recipes.addShapeless(<albedotorches:light_blue_torch>, [<additions:items-lightbl
 recipes.addShapeless(<albedotorches:magenta_torch>, [<additions:items-magentadyenugget>,torch]);
 recipes.addShapeless(<albedotorches:orange_torch>, [<additions:items-orangedyenugget>,torch]);
 recipes.addShapeless(<albedotorches:white_torch>, [<additions:items-whitedyenugget>,torch]);
- 
+

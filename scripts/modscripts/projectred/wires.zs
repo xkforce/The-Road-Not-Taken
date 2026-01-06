@@ -1,6 +1,6 @@
 #loader crafttweaker
 #modloaded projectred-transmission futuremc
-#priority 1000
+#priority 1
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -19,8 +19,8 @@ if loadedMods has "futuremc" {
 for i in 1 .. 16 {
     val color as string = wireColor[i - 1];
     val output as IItemStack = itemMeta("projectred-transmission:wire", i);
-    val anyWire as IIngredient = itemMeta("projectred-transmission:wire", anyMeta);
-    
+    val anyWire as IIngredient = itemMeta("projectred-transmission:wire", 32767);
+
     val dye as IIngredient = ore("dye" + color);
     val nugget as IIngredient = ore("dyeNugget" + color);
 

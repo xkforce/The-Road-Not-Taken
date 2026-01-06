@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded quark
+#priority 1
 
 recipes.addShaped(<quark:paper_wall_big>, [[<ore:stickWood>, <minecraft:paper>, <ore:stickWood>],[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:stickWood>, <minecraft:paper>, <ore:stickWood>]]);
 recipes.addShaped(<quark:paper_wall> * 6, [[<quark:paper_wall_big>, <quark:paper_wall_big>, null],[<quark:paper_wall_big>, <quark:paper_wall_big>, null], [<quark:paper_wall_big>, <quark:paper_wall_big>, null]]);

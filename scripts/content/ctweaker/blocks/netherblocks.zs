@@ -1,11 +1,11 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var foolsgold = VanillaFactory.createBlock("foolsgold", <blockmaterial:rock>);
+var foolsgold as Block = VanillaFactory.createBlock("foolsgold", <blockmaterial:rock>);
 foolsgold.setBlockHardness(1.5);
 foolsgold.setBlockResistance(30.0);
 foolsgold.setToolClass("pickaxe");
@@ -17,7 +17,7 @@ val sulfur as string[] = [
 ];
 
 for s in sulfur {
-    var b = VanillaFactory.createBlock(s + "sulfurblock", <blockmaterial:rock>);
+    var b as Block = VanillaFactory.createBlock(`${s}sulfurblock`, <blockmaterial:rock>);
     b.setBlockHardness(0.5);
     b.setBlockResistance(2.5);
     b.setToolClass("pickaxe");

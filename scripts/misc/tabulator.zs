@@ -1,6 +1,6 @@
 #loader crafttweaker
 #modloaded tabulator
-#priority 10
+#priority 11
 
 import mods.tabulator.Tabs;
 

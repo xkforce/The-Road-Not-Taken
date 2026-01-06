@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded deeperdepths futuremc
+#priority 1
 
 val purpledyenugget = <ore:purpledyenugget>;
 val reddyenugget = <ore:reddyenugget>;

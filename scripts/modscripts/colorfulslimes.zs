@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded colorfulslimes contenttweaker
+#priority 1
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -30,7 +31,7 @@ val slimeColor as IIngredient[][string] = {
 for color, dye in slimeColor {
     val slimeball as IItemStack = itemUtils.getItem("colorfulslimes:slimeball/" + color);
     val stickyPiston as IItemStack = itemUtils.getItem("colorfulslimes:sticky_piston/" + color);
-    
+
     recipes.addShaped(stickyPiston, [[slimeball], [<minecraft:piston>]]);
     recipes.addShapeless(slimeball, [sb, dye[0]]);
     recipes.addShapeless(slimeball * 8, [sb, sb, sb, sb, sb, sb, sb, sb, dye[1]]);

@@ -1,7 +1,8 @@
 #loader crafttweaker
 #modloaded pvj biomesoplenty
+#priority 1
 
-recipes.addShapeless(<biomesoplenty:planks_0:6> * 4, [<pvj:log_mangrove>]); 
+recipes.addShapeless(<biomesoplenty:planks_0:6> * 4, [<pvj:log_mangrove>]);
 recipes.addShapeless(<pvj:mangrove_button>, [<biomesoplenty:planks_0:6>]);
 recipes.addShaped(<pvj:mangrove_pressure_plate>, [[null, <biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>]]);
 recipes.addShaped(<pvj:mangrove_trapdoor>, [[<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>], [<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>]]);

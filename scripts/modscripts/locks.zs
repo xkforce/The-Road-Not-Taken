@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded locks
+#priority 1
 
 recipes.addShaped(<locks:key_ring>, [[null, <contenttweaker:steelnugget>, null],[<contenttweaker:steelnugget>, null, <contenttweaker:steelnugget>], [null, <contenttweaker:steelnugget>, null]]);
 recipes.addShaped(<locks:key_blank>, [[<contenttweaker:steel>, <contenttweaker:steel>, <contenttweaker:steel>], [null, <contenttweaker:steelnugget>, <contenttweaker:steelnugget>]]);

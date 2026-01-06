@@ -1,6 +1,6 @@
 #loader crafttweaker
 #modloaded quark
-#priority 2000
+#priority 10
 
 recipes.remove(<quark:paper_wall_big> * 4);
 recipes.remove(<quark:paper_wall> * 6);
@@ -29,22 +29,3 @@ recipes.remove(<quark:sandstone_new:1> * 4);
 recipes.remove(<quark:sandstone_new:2> * 8);
 recipes.remove(<quark:sandstone_new> * 8);
 recipes.remove(<quark:nether_brick_fence_gate> * 2);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded mowziesmobs
+#priority 1
 
 import mods.jei.JEI;
 

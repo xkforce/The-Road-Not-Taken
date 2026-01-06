@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded colorfulslimes charset
+#priority 1
 
 recipes.addShapeless(<colorfulslimes:slimeball/cyan> * 9, [<charset:slime_block_colored:9>]);
 recipes.addShapeless(<charset:slime_block_colored:9>, [<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>,<colorfulslimes:slimeball/cyan>]);

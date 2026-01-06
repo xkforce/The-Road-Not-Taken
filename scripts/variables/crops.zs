@@ -1,5 +1,5 @@
 #loader preinit contenttweaker crafttweaker
-#priority 10000
+#priority 1000
 
 static edible_crops as string[] = [
     "purplecarrot", "redcarrot", "yellowcarrot", "whitecarrot", "blackcarrot", "greenbokchoy", "redbokchoy", "greencabbage",

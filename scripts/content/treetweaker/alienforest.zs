@@ -1,5 +1,6 @@
 #loader preinit
 #modloaded treetweaker biomesoplenty pvj advancedrocketry
+#priority 101
 
 import mods.treetweaker.TreeFactory;
 

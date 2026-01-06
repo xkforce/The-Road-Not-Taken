@@ -1,4 +1,5 @@
 #loader crafttweaker
+#priority 11
 
 val recyclingData as int[string][string] = {
     "minecraft:gold_nugget": {
@@ -149,7 +150,7 @@ for mods, data in recyclingData {
     if (itemLoaded(mods)) {
         for input, amount in data {
             if (itemLoaded(input)) {
-                furnace.addRecipe(itemString(mods) * amount, itemString(input), 0.1);
+                furnace.addRecipe(item(mods) * amount, item(input), 0.1);
             }
         }
     }

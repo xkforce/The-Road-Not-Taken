@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded biomesoplenty
+#priority 1
 
 recipes.addShapeless(<minecraft:dye:5>, [<biomesoplenty:flower_0:8>]);
 recipes.addShaped(<biomesoplenty:white_sandstone_stairs> * 4, [[<biomesoplenty:white_sandstone>, null, null],[<biomesoplenty:white_sandstone>, <biomesoplenty:white_sandstone>, null], [<biomesoplenty:white_sandstone>, <biomesoplenty:white_sandstone>, <biomesoplenty:white_sandstone>]]);

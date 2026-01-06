@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded ferdinandsflowers plants2 biomesoplenty
+#priority 1
 
 recipes.addShapeless(<plants2:generic:4>, [<biomesoplenty:flower_0:9>]);
 recipes.addShapeless(<plants2:generic:4>, [<biomesoplenty:flower_0:14>]);
@@ -144,4 +145,4 @@ recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowers:2>
 recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowers:7>]);
 recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowers:10>]);
 recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowersb>]);
-recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowersb:10>]); 
+recipes.addShapeless(<minecraft:dye:5>, [<ferdinandsflowers:block_cff_flowersb:10>]);

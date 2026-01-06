@@ -1,6 +1,6 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
@@ -26,5 +26,5 @@ for food, data in preservedNonmeat {
     }
     nonMeat.creativeTab = creativeTab;
     nonMeat.saturation = saturation;
-    nonMeat.register();    
+    nonMeat.register();
 }

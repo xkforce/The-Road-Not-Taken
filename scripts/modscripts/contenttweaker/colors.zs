@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 5000
+#priority 1
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -11,7 +11,7 @@ for color in oreColors {
     val c as string = color.toLowerCase();
     val nugget as IItemStack = item(`contenttweaker:${c}dyenugget`);
     val block as IItemStack = item(`contenttweaker:${c}dyeblock`);
-    val dye as IIngredient = oreDict.get("dye" + color);
+    val dye as IIngredient = oreDict.get(`dye${color}`);
 
     recipes.addShapeless(`compress_${c}_dye`, block, [
         dye, dye, dye,
@@ -34,7 +34,7 @@ for color in oreColors {
         val item as IItemStack = item(itemName);
 
         val langKey as string = `${modpackID}.item.${key}.name`;
-        val langColor as string = `${modpackID}.color.${c}.name`;
+        val langColor as string = `${modpackID}.palette.${c}.name`;
         item.displayName = I18n.format(langKey, I18n.format(langColor));
     }
 }

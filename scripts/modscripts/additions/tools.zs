@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded additions
+#priority 1
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -36,7 +37,7 @@ val materials as string[string] = {
     "iron": "minecraft:iron_ingot",
     "meteoriron": "contenttweaker:meteoriron",
     "moonstone": "contenttweaker:moonstone",
-    "netherite": "contenttweaker:netherite",
+    "netherite": "futuremc:netherite",
     "obsidian": "minecraft:obsidian",
     "opal": "contenttweaker:opal",
     "peridot": "contenttweaker:peridot",
@@ -56,9 +57,10 @@ val materials as string[string] = {
 for material, input in materials {
     for tool, pattern in tools {
         val recipeName as string = `craft_${material}_${tool}`;
-        val toolItem as IItemStack = item(`additions:items-${material}${tool}`);
-        if (!isNull(toolItem)) {
-            var builder = RecipePattern.init(recipeName, toolItem, pattern);
+        val itemName as string = `additions:items-${material}${tool}`;
+        if (itemLoaded(itemName) && itemLoaded(input)) {
+            val toolItem as IItemStack = item(itemName);
+            var builder as RecipePattern = RecipePattern.init(recipeName, toolItem, pattern);
             builder.with("x", ingredient(input));
             builder.with("s", <ore:stickWood>);
             builder.setMirrored(mirror has tool);

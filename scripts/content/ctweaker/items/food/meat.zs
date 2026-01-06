@@ -1,6 +1,6 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
@@ -64,7 +64,7 @@ for meat, data in meats {
     rawMeat.saturation = rawSaturation;
     rawMeat.register();
 
-    createFood(cookedName, cookedHunger, cookedSaturation); 
+    createFood(cookedName, cookedHunger, cookedSaturation);
 }
 
 val processedMeats as float[][string] = {
@@ -80,5 +80,5 @@ for meat, data in processedMeats {
     val hunger as int = data[0] as int;
     val saturation as float = data[1] as float;
 
-    createFood(meat, hunger, saturation);  
+    createFood(meat, hunger, saturation);
 }

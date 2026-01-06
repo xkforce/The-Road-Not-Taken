@@ -1,6 +1,6 @@
 #loader crafttweaker
 #modloaded coloredstone
-#priority 2000
+#priority 10
 
 recipes.remove(<coloredstone:redstone_torch>);
 recipes.remove(<coloredstone:redstone_repeater>);

@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded inspirations
+#priority 1
 
 val trapdoorWood = <ore:trapdoorWood>;
 

@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded contenttweaker
+#priority 1
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;

@@ -23,9 +23,9 @@ for category in categoriesToHide {
         return;
     }
     if (parts.length == 0) {
-        info(`Category *${category}* has no mod prefix, hiding unconditionally.`);
+        log.info(`Category *${category}* has no mod prefix, hiding unconditionally.`);
         JEI.hideCategory(category);
         return;
     }
-    warn(`Mod *${parts[0]}* not loaded, skipping hiding of JEI category *${category}*.`);
+    log.warn(`Mod *${parts[0]}* not loaded, skipping hiding of JEI category *${category}*.`);
 }

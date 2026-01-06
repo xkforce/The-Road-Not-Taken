@@ -1,4 +1,5 @@
 #loader crafttweaker
+#priority 1
 
 import crafttweaker.item.IItemStack;
 import mods.zenutils.I18n;
@@ -34,10 +35,10 @@ for stick, input in sticks {
     val output as IItemStack = item(`contenttweaker:${stick}`);
     val mod as string = mod(input);
     if (modLoaded(mod) && !isNull(output)) {
-        val inputStack as IItemStack = itemString(input);
+        val inputStack as IItemStack = item(input);
         recipes.addShaped(stick, output * 4, [[inputStack], [inputStack]]);
     } else {
-        warn(`Mod *${mod}* not loaded or item *contenttweaker:${stick}* not found, skipping stick recipe.`);
+        log.warn(`Mod *${mod}* not loaded or item *contenttweaker:${stick}* not found, skipping stick recipe.`);
     }
     // proper translation
     val woodKey as string = I18n.format(`${modpackID}.wood.${stick.replace("stick", "")}.name`);

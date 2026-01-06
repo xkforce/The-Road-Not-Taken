@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded sugiforest
+#priority 1
 
 recipes.addShaped(<sugiforest:sugi_fence_gate>, [[<ore:stickWood>, <sugiforest:sugi_planks>, <ore:stickWood>], [<ore:stickWood>, <sugiforest:sugi_planks>, <ore:stickWood>]]);
 recipes.addShaped(<sugiforest:sugi_fence> * 3, [[<sugiforest:sugi_planks>, <ore:stickWood>, <sugiforest:sugi_planks>], [<sugiforest:sugi_planks>, <ore:stickWood>, <sugiforest:sugi_planks>]]);

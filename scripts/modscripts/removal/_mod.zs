@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 2000
+#priority 10
 
 val mods as string[] = [
     "advancedrocketry",
@@ -56,6 +56,6 @@ for mod in mods {
     if (loadedMods in mod) {
         recipes.removeByMod(mod);
     } else {
-        info(`Mod *${mod}* is not loaded, skipping removal of recipes.`);
+        log.info(`Mod *${mod}* is not loaded, skipping removal of recipes.`);
     }
 }

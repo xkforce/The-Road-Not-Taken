@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 2000
+#priority 10
 
 recipes.remove(<minecraft:diamond_helmet>);
 recipes.remove(<minecraft:diamond_chestplate>);
@@ -12,7 +12,7 @@ recipes.remove(<minecraft:golden_boots>);
 recipes.remove(<minecraft:iron_helmet>);
 recipes.remove(<minecraft:iron_chestplate>);
 recipes.remove(<minecraft:iron_leggings>);
-recipes.remove(<minecraft:iron_boots>); 
+recipes.remove(<minecraft:iron_boots>);
 recipes.remove(<minecraft:pumpkin_pie>);
 recipes.remove(<minecraft:stone_slab> * 6);
 recipes.remove(<minecraft:painting>);

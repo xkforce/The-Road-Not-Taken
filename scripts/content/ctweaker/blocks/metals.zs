@@ -1,9 +1,11 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+
+import scripts.content.ctweaker.blocks.gems.trim;
 
 val metals as string[] = [
     "bronze",
@@ -19,8 +21,8 @@ val metals as string[] = [
 
 for metal in metals {
     for i in 0 to 3 {
-        val blockname as string = stoneRegistryKey(metal, "block", (i == 0) ? " " : toString(i));
-        var block = VanillaFactory.createBlock(blockname, <blockmaterial:iron>);
+        val blockname as string = trim(metal, "block", (i == 0) ? " " : toString(i));
+        var block as Block = VanillaFactory.createBlock(blockname, <blockmaterial:iron>);
         block.setBlockHardness(5.0);
         block.setBlockResistance(45.0);
         block.setToolClass("pickaxe");

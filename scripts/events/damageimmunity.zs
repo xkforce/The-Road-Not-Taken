@@ -1,10 +1,18 @@
+#loader crafttweaker
+#priority 0
+#reloadable
+
+/*
+    Script by Clay Duplicator
+    This script will make various mods immune to different damage sources.
+*/
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.entity.IEntity;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.event.EntityLivingHurtEvent;
-#script by Clay Duplicator
 
 events.onEntityLivingHurt(function (event as EntityLivingHurtEvent) {
     val rabbitfalldamage = event.entity;

@@ -1,3 +1,5 @@
+#loader crafttweaker
+#priority 0
 #reloadable
 
 import crafttweaker.block.IBlock;

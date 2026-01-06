@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded comforts inspirations
+#priority 1
 
 recipes.addShapeless(<comforts:rope>, [<inspirations:rope:*>,<minecraft:iron_ingot>]);
 recipes.addShaped(<comforts:hammock>, [[<inspirations:rope:*>, <minecraft:wool>, <inspirations:rope:*>],[<inspirations:rope:*>, <minecraft:wool>, <inspirations:rope:*>], [<inspirations:rope:*>, <minecraft:wool>, <inspirations:rope:*>]]);

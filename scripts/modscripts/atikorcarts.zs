@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded atikorcarts
+#priority 1
 
 recipes.addShaped(<astikorcarts:wheel>, [
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],

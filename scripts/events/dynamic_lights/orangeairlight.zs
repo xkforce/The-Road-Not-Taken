@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 0
 
 //template written with assistance from teksturepako and modified with help from ACgaming, ChaosStrikez and WaitingIdly
 

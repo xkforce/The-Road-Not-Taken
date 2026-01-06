@@ -1,5 +1,6 @@
 #loader crafttweaker
 #modloaded rockhounding_rocks
+#priority 1
 
 import crafttweaker.item.IItemStack;
 
@@ -7,7 +8,7 @@ val OUTPUT_WALL as int = 6;
 val OUTPUT_POLISHED as int = 4;
 val OUTPUT_BRICKS as int = 4;
 
-val letters as string[] = ["a","b","c","d","e","f","g", "h"];
+val letters as string[] = ["a", "b", "c", "d", "e", "f", "g", "h"];
 
 for i in 0 .. 16 {
     for letter in letters {
@@ -23,7 +24,7 @@ for i in 0 .. 16 {
                 [block, block, block]
             ]);
         } else {
-            print("Rockhounding Rocks: Missing wall or block for " + letter + " meta " + i);
+            log.error(`Rockhounding Rocks: Missing wall or block for ${letter} meta ${i}`);
         }
 
         // Polished
@@ -33,7 +34,7 @@ for i in 0 .. 16 {
                 [block, block]
             ]);
         } else {
-            print("Rockhounding Rocks: Missing polished or block for " + letter + " meta " + i);
+            log.error(`Rockhounding Rocks: Missing polished or block for ${letter} meta ${i}`);
         }
 
         // Bricks
@@ -43,11 +44,11 @@ for i in 0 .. 16 {
                 [polished, polished]
             ]);
         } else {
-            print("Rockhounding Rocks: Missing bricks or polished for " + letter + " meta " + i);
+            log.error(`Rockhounding Rocks: Missing polished or bricks for ${letter} meta ${i}`);
         }
     }
 }
 
 function getBlock(base as string, letter as string, meta as int) as IItemStack {
-    return itemUtils.getItem("rockhounding_rocks:" + base + "_" + letter, meta);
+    return item(`rockhounding_rocks:${base}_${letter}:${meta}`);
 }

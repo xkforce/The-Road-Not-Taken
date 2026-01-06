@@ -1,6 +1,6 @@
 #loader contenttweaker
 #modloaded contenttweaker
-#priority 1000
+#priority 111
 
 import scripts.functions.contenttweaker.createCreativeTabAndItem;
 import scripts.functions.contenttweaker.createItem;

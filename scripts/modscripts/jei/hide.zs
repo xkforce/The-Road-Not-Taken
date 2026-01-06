@@ -20,9 +20,8 @@ val fluidsToHide as string[] = [
 ];
 
 for f in fluidsToHide {
-    val fl = fluid(f);
-    if (!isNull(fl)) {
-        JEI.hide(fl);
+    if (fluidLoaded(f)) {
+        JEI.hide(fluid(f));
     }
 }
 
@@ -44,7 +43,7 @@ val bucketFluids as string[] = [
 ];
 
 for fluidName in bucketFluids {
-    if (!isNull(fluid(fluidName))) {
+    if (fluidLoaded(fluidName)) {
         JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: fluidName, Amount: 1000}), true);
     }
 }

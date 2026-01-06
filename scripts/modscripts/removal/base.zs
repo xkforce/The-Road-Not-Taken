@@ -1,5 +1,5 @@
 #loader crafttweaker
 #modloaded base
-#priority 2000
+#priority 10
 
 recipes.remove(<base:wrench>);

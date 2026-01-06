@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 1000
+#priority 1
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
