@@ -1,0 +1,8 @@
+{
+  "id": "nee:english",
+  "rarity": "RARE",
+  "isTreasure": true,
+  "isCurse": false,
+  "maxLvl": 4,
+  "vanilla system overrides": {}
+}

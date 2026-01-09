@@ -1,0 +1,8 @@
+{
+  "id": "nee:instability",
+  "rarity": "VERY_RARE",
+  "isTreasure": true,
+  "isCurse": true,
+  "maxLvl": 3,
+  "vanilla system overrides": {}
+}

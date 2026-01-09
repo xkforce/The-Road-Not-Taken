@@ -1,0 +1,9 @@
+{
+  "id": "nee:swordmastery",
+  "rarity": "VERY_RARE",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 3,
+  "displayColor": "YELLOW",
+  "vanilla system overrides": {}
+}

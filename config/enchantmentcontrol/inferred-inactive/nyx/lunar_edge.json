@@ -1,0 +1,8 @@
+{
+  "id": "nyx:lunar_edge",
+  "rarity": "UNCOMMON",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 5,
+  "vanilla system overrides": {}
+}

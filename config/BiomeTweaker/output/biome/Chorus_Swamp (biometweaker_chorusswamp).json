@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
-    "WET",
-    "END"
+    "END",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

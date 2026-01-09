@@ -1,0 +1,8 @@
+{
+  "id": "randomenchantments:breaking",
+  "rarity": "RARE",
+  "isTreasure": true,
+  "isCurse": true,
+  "maxLvl": 3,
+  "vanilla system overrides": {}
+}

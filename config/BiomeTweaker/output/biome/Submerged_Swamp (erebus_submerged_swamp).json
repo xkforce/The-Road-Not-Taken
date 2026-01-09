@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "WET",
-    "HOT",
+    "VOID",
     "WATER",
-    "VOID"
+    "SWAMP",
+    "HOT",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

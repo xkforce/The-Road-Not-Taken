@@ -32,6 +32,10 @@ deeperdepths:oozing
 deeperdepths:infested
 deeperdepths:weaving
 deeperdepths:wind_charged
+nyx:astral_erosion
+nyx:deep_freeze
+nyx:inferno
+nyx:paralysis
 mowziesmobs:suns_blessing
 mowziesmobs:geomancy
 mowziesmobs:frozen

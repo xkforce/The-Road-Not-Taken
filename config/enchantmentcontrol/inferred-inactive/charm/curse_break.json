@@ -1,0 +1,8 @@
+{
+  "id": "charm:curse_break",
+  "rarity": "RARE",
+  "isTreasure": true,
+  "isCurse": false,
+  "maxLvl": 1,
+  "vanilla system overrides": {}
+}

@@ -1,0 +1,8 @@
+{
+  "id": "minecraft:protection",
+  "rarity": "COMMON",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 4,
+  "vanilla system overrides": {}
+}

@@ -1,6 +1,6 @@
 {
   "configVersion": 4,
-  "renderNametagsThroughWalls": false,
+  "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "tile.beacon"
   ],

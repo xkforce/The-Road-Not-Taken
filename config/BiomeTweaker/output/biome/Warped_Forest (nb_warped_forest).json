@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
+    "VOID",
     "HOT",
-    "VOID"
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

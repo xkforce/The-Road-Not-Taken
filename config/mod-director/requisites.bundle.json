@@ -60,6 +60,11 @@
 			"addonId": 271298,
 			"fileId": 4790040,
 			"fileName": "rockhounding_core-1.12.2-3.30.jar"
+		},
+		{
+			"addonId": 999884,
+			"fileId": 5275426,
+			"fileName": "SoundFilters-0.14.0_for_1.12.jar"
 		}
 	],
 	"url":

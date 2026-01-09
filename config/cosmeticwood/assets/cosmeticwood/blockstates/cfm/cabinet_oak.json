@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cosmeticwood:cfm/cabinet"
+	},
+	"variants": {
+		"facing=north": {
+			"model": "cosmeticwood:cfm/cabinet",
+			"y": 270
+		},
+		"facing=south": {
+			"model": "cosmeticwood:cfm/cabinet",
+			"y": 90
+		},
+		"facing=east": {
+			"model": "cosmeticwood:cfm/cabinet"
+		},
+		"facing=west": {
+			"model": "cosmeticwood:cfm/cabinet",
+			"y": 180
+		}
+	}
+}

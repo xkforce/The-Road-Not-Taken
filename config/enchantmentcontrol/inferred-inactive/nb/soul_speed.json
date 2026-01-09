@@ -1,0 +1,8 @@
+{
+  "id": "nb:soul_speed",
+  "rarity": "VERY_RARE",
+  "isTreasure": true,
+  "isCurse": false,
+  "maxLvl": 3,
+  "vanilla system overrides": {}
+}

@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
+    "HILLS",
     "PLAINS",
-    "HILLS"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -227,8 +227,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 7,
-    "WET_TEMPERATE": 3
+    "WET_TEMPERATE": 3,
+    "COOL_TEMPERATE": 7
   },
   "BOP Climate Weights": {
     "WET_TEMPERATE": [

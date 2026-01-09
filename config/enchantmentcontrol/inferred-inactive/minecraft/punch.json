@@ -1,0 +1,8 @@
+{
+  "id": "minecraft:punch",
+  "rarity": "RARE",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 2,
+  "vanilla system overrides": {}
+}

@@ -1,0 +1,8 @@
+{
+  "id": "nee:cursededge",
+  "rarity": "RARE",
+  "isTreasure": true,
+  "isCurse": true,
+  "maxLvl": 5,
+  "vanilla system overrides": {}
+}

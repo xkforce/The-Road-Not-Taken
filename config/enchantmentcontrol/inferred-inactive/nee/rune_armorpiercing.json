@@ -1,0 +1,9 @@
+{
+  "id": "nee:rune_armorpiercing",
+  "rarity": "VERY_RARE",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 4,
+  "displayColor": "GREEN",
+  "vanilla system overrides": {}
+}

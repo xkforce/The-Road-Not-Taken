@@ -1,0 +1,8 @@
+{
+  "id": "nee:curseofpossession",
+  "rarity": "VERY_RARE",
+  "isTreasure": true,
+  "isCurse": true,
+  "maxLvl": 1,
+  "vanilla system overrides": {}
+}

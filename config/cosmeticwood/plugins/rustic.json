@@ -1,0 +1,19 @@
+[
+	{
+		"block": "rustic:chair_oak",
+		"exclude_modids": [
+			"minecraft",
+			"rustic"
+		]
+	},
+	{
+		"block": "rustic:table_oak",
+		"exclude_modids": [
+			"minecraft",
+			"rustic"
+		]
+	},
+	{
+		"block": "rustic:lantern_wood"
+	}
+]

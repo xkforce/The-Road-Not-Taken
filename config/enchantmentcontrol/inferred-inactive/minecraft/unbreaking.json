@@ -1,0 +1,8 @@
+{
+  "id": "minecraft:unbreaking",
+  "rarity": "UNCOMMON",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 3,
+  "vanilla system overrides": {}
+}

@@ -57,9 +57,6 @@ Rotate Vehicle Right
 Toggle Jetpack
 Toggle RCS
 
-key.aquaacrobatics.category
-key.aquaacrobatics.toggle_crawling
-
 key.categories.astikorcarts
 key.astikorcarts.desc
 
@@ -148,7 +145,38 @@ RotateRow
 key.mclib.category
 key.mclib.dashboard
 
+quark.gui.keygroupEmote
+quark.emote.cheer
+quark.emote.clap
+quark.emote.dab
+quark.emote.dance
+quark.emote.exorcist
+quark.emote.facepalm
+quark.emote.headbang
+quark.emote.jet
+quark.emote.no
+quark.emote.point
+quark.emote.salute
+quark.emote.shrug
+quark.emote.tpose
+quark.emote.think
+quark.emote.wave
+quark.emote.weep
+quark.emote.yes
+quark.emote.zombie
+
+quark.gui.keygroupInv
+quark.keybind.chestDropoff
+quark.keybind.dropoff
+quark.keybind.chestExtract
+quark.keybind.chestMerge
+quark.keybind.chestRestock
+quark.keybind.chestSort
+quark.keybind.playerSort
+
 quark.gui.keygroupMisc
+quark.keybind.changeHotbar
+quark.keybind.lockBuilding
 quark.keybind.toggleAutojump
 
 key.radenchants:category.title
@@ -162,6 +190,7 @@ key.categories.randomtweaks
 key.reloadSoundSystem
 key.toggleFoVChanges
 key.togglePotionParticles
+key.toggleTimeOfDayOverlay
 
 RebornMod
 key.vehicle_0.switch

@@ -36,6 +36,9 @@ deeperdepths:density
 deeperdepths:wind_burst
 ffenchants:vampiric
 ffenchants:bloodlust
+nyx:lunar_edge
+nyx:lunar_shield
+nyx:magnetization
 nb:soul_speed
 lava_walker:lava_walker
 nee:curseofpossession
@@ -43,8 +46,8 @@ nee:curseofinaccuracy
 nee:innerberserk
 nee:curseofvulnerability
 nee:instability
-nee:cursededge
 nee:smelter
+nee:cursededge
 oe:is_watermob
 oe:is_wet
 oe:loyalty
@@ -53,10 +56,10 @@ oe:rebound
 radenchants:deep_pockets
 radenchants:pocket_dimension
 randomenchantments:piercing
-randomenchantments:breaking
-randomenchantments:lumberjack
-randomenchantments:ricochet
 randomenchantments:true_lifesteal
+randomenchantments:breaking
+randomenchantments:ricochet
+randomenchantments:lumberjack
 wornhorseshoes:trampling
 cofhcore:soulbound
 charm:curse_break

@@ -5,6 +5,15 @@
     "mcp": {
         "": {}
     },
+    "cleanroom": {
+        "": {}
+    },
+    "mixinbooter": {
+        "": {}
+    },
+    "configanytime": {
+        "": {}
+    },
     "theimpossiblelibrary": {
         "": {}
     },
@@ -20,13 +29,16 @@
     "creativecoredummy": {
         "": {}
     },
+    "flare": {
+        "": {}
+    },
     "ivtoolkit": {
         "": {}
     },
-    "specifiedspawningcore": {
+    "scalar": {
         "": {}
     },
-    "mixinbooter": {
+    "specifiedspawningcore": {
         "": {}
     },
     "biometweakercore": {
@@ -41,16 +53,10 @@
     "obfuscate": {
         "": {}
     },
-    "randompatches": {
-        "": {}
-    },
-    "minieffects": {
-        "": {}
-    },
-    "configanytime": {
-        "": {}
-    },
     "redcore": {
+        "": {}
+    },
+    "fugue": {
         "": {}
     },
     "fermiumbooter": {
@@ -95,6 +101,9 @@
     "angermanagement": {
         "": {}
     },
+    "anothertips": {
+        "": {}
+    },
     "anvilpatch": {
         "": {}
     },
@@ -116,16 +125,19 @@
     "astikorcarts": {
         "": {}
     },
-    "atlaslib": {
+    "crafttweaker": {
         "": {}
     },
     "charset": {
         "": {}
     },
-    "crafttweaker": {
+    "jei": {
         "": {}
     },
-    "jei": {
+    "athenaeum": {
+        "": {}
+    },
+    "atlaslib": {
         "": {}
     },
     "quark": {
@@ -135,6 +147,9 @@
         "": {}
     },
     "backstab": {
+        "": {}
+    },
+    "bakedenchants": {
         "": {}
     },
     "bannerelytra": {
@@ -155,15 +170,6 @@
     "bettermobgriefinggamerule": {
         "": {}
     },
-    "collective": {
-        "": {}
-    },
-    "betterspawnercontrol": {
-        "": {}
-    },
-    "sbetterwatersplash": {
-        "": {}
-    },
     "biomeheighttweaker": {
         "": {}
     },
@@ -176,12 +182,6 @@
     "blockhighlighter": {
         "": {}
     },
-    "bps": {
-        "": {}
-    },
-    "bloodmoon": {
-        "": {}
-    },
     "bnbgaminglib": {
         "": {}
     },
@@ -189,9 +189,6 @@
         "": {}
     },
     "bookdisplay": {
-        "": {}
-    },
-    "birdwmod": {
         "": {}
     },
     "bookworm": {
@@ -207,9 +204,6 @@
         "": {}
     },
     "camoucreepers": {
-        "": {}
-    },
-    "cavegenerator": {
         "": {}
     },
     "mclib": {
@@ -236,9 +230,6 @@
     "cofhworld": {
         "": {}
     },
-    "coloredredstone": {
-        "": {}
-    },
     "hammercore": {
         "": {}
     },
@@ -246,6 +237,9 @@
         "": {}
     },
     "colorednametags": {
+        "": {}
+    },
+    "coloredstone": {
         "": {}
     },
     "colorfulpotions": {
@@ -258,9 +252,6 @@
         "": {}
     },
     "commandextras": {
-        "": {}
-    },
-    "commandomatic": {
         "": {}
     },
     "contentcreator": {
@@ -278,7 +269,7 @@
     "controlledburn": {
         "": {}
     },
-    "controlling": {
+    "cosmeticwood": {
         "": {}
     },
     "cosmeticarmorreworked": {
@@ -305,9 +296,6 @@
     "customizableelytra": {
         "": {}
     },
-    "customparticles": {
-        "": {}
-    },
     "cyclicmagic": {
         "": {}
     },
@@ -323,19 +311,13 @@
     "deeperdepths": {
         "": {}
     },
-    "dismountentity": {
-        "": {}
-    },
     "distinctpaintings": {
         "": {}
     },
-    "malisiscore": {
-        "": {}
-    },
-    "ddb": {
-        "": {}
-    },
     "doubleslabs": {
+        "": {}
+    },
+    "dropt": {
         "": {}
     },
     "mocreatures": {
@@ -353,9 +335,6 @@
     "shulker_access": {
         "": {}
     },
-    "easyelytratakeoff": {
-        "": {}
-    },
     "editableedibles": {
         "": {}
     },
@@ -365,7 +344,7 @@
     "enchdesc": {
         "": {}
     },
-    "enchcontrol": {
+    "endermodpacktweaks": {
         "": {}
     },
     "enderstorage": {
@@ -384,9 +363,6 @@
         "": {}
     },
     "eruditetweaks": {
-        "": {}
-    },
-    "eruptionspawner": {
         "": {}
     },
     "exoticbirds": {
@@ -458,9 +434,6 @@
     "giacomos_map_merging": {
         "": {}
     },
-    "globalgamerules": {
-        "": {}
-    },
     "gnetum": {
         "": {}
     },
@@ -473,9 +446,6 @@
     "gbook": {
         "": {}
     },
-    "hardcorebuoy": {
-        "": {}
-    },
     "hooklib": {
         "": {}
     },
@@ -485,16 +455,10 @@
     "waila": {
         "": {}
     },
-    "icepreventscropgrowth": {
-        "": {}
-    },
-    "incontrol": {
+    "nyx": {
         "": {}
     },
     "infinitefluids": {
-        "": {}
-    },
-    "infinitetrading": {
         "": {}
     },
     "mantle": {
@@ -512,13 +476,19 @@
     "jepb": {
         "": {}
     },
-    "jjmeteor": {
-        "": {}
-    },
     "jsonedoldobsidian": {
         "": {}
     },
+    "nb": {
+        "": {}
+    },
+    "nether_api": {
+        "": {}
+    },
     "justenoughdimensions": {
+        "": {}
+    },
+    "effectinfo": {
         "": {}
     },
     "jeresources": {
@@ -542,9 +512,6 @@
     "lpb": {
         "": {}
     },
-    "loadingprofiler": {
-        "": {}
-    },
     "lock_minecart_view": {
         "": {}
     },
@@ -566,10 +533,19 @@
     "mechanics": {
         "": {}
     },
-    "minejurassic": {
+    "minieffects": {
+        "": {}
+    },
+    "testdummy": {
         "": {}
     },
     "modifierkeyfix": {
+        "": {}
+    },
+    "llibrary": {
+        "": {}
+    },
+    "mowziesmobs": {
         "": {}
     },
     "mrtjpcore": {
@@ -581,22 +557,16 @@
     "naturescompass": {
         "": {}
     },
-    "nb": {
-        "": {}
-    },
-    "nether_api": {
-        "": {}
-    },
     "netherchest": {
-        "": {}
-    },
-    "noisethreader": {
         "": {}
     },
     "nee": {
         "": {}
     },
     "noteblock_backport": {
+        "": {}
+    },
+    "novelties": {
         "": {}
     },
     "oe": {
@@ -609,12 +579,6 @@
         "": {}
     },
     "patternbanners": {
-        "": {}
-    },
-    "performancemonitoringenhanc": {
-        "": {}
-    },
-    "petnames": {
         "": {}
     },
     "placebo": {
@@ -659,6 +623,9 @@
     "radenchants": {
         "": {}
     },
+    "raids": {
+        "": {}
+    },
     "railsplus": {
         "": {}
     },
@@ -695,6 +662,9 @@
     "rockhounding_rocks": {
         "": {}
     },
+    "roidtweaker": {
+        "": {}
+    },
     "jeid": {
         "": {}
     },
@@ -707,10 +677,10 @@
     "selfcontrol": {
         "": {}
     },
-    "soundfilters": {
+    "shulkerbox": {
         "": {}
     },
-    "spark": {
+    "soundfilters": {
         "": {}
     },
     "specifiedspawning": {
@@ -720,9 +690,6 @@
         "": {}
     },
     "speedyhoppers": {
-        "": {}
-    },
-    "startuptimer": {
         "": {}
     },
     "sasit": {
@@ -735,12 +702,6 @@
         "": {}
     },
     "tabulator": {
-        "": {}
-    },
-    "tellme": {
-        "": {}
-    },
-    "testdummy": {
         "": {}
     },
     "thenarrowgate": {
@@ -758,13 +719,10 @@
     "universaltweaks": {
         "": {}
     },
-    "villagernames": {
+    "vanillaanvilrepair": {
         "": {}
     },
     "vintagefix": {
-        "": {}
-    },
-    "witherproof": {
         "": {}
     },
     "wgblockreplacer": {
@@ -773,10 +731,16 @@
     "worldprimer": {
         "": {}
     },
+    "wornhorseshoes": {
+        "": {}
+    },
     "zawa": {
         "": {}
     },
     "lonelybiome": {
+        "": {}
+    },
+    "rebornmod": {
         "": {}
     },
     "dshuds": {

@@ -1,0 +1,8 @@
+{
+  "id": "radenchants:pocket_dimension",
+  "rarity": "VERY_RARE",
+  "isTreasure": true,
+  "isCurse": false,
+  "maxLvl": 8,
+  "vanilla system overrides": {}
+}

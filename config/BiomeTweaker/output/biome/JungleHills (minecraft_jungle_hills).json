@@ -23,10 +23,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "JUNGLE",
-    "WET",
-    "HOT",
     "DENSE",
-    "HILLS"
+    "HILLS",
+    "HOT",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -11,3 +11,6 @@ primitivemobs:sheepman_scavenger
 primitivemobs:sheepman_alchemist
 primitivemobs:sheepman_thief
 rebornmod:geneticist
+totemexpansion:witchdoctor
+cyclicmagic:sage
+cyclicmagic:druid

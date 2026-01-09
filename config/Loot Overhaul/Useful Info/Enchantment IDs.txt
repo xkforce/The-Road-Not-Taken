@@ -376,20 +376,20 @@ radenchants:pocket_dimension
    - Max Level: 8
 
 
-randomenchantments:lumberjack
-   - Id: 46
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 randomenchantments:breaking
-   - Id: 47
+   - Id: 46
    - Rarity: RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 3
+
+
+randomenchantments:lumberjack
+   - Id: 47
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
 
 
 minecraft:power
@@ -424,7 +424,7 @@ minecraft:infinity
    - Max Level: 1
 
 
-randomenchantments:ricochet
+randomenchantments:piercing
    - Id: 52
    - Rarity: RARE
    - Treasure: false
@@ -440,7 +440,7 @@ randomenchantments:true_lifesteal
    - Max Level: 1
 
 
-randomenchantments:piercing
+randomenchantments:ricochet
    - Id: 54
    - Rarity: RARE
    - Treasure: false

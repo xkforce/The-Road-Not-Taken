@@ -1,0 +1,6 @@
+
+{
+  "Name": "nyx.alien_creeper",
+  "Registry ID": "nyx:alien_creeper",
+  "Class": "de.ellpeck.nyx.entity.NyxEntityAlienCreeper"
+}
