@@ -4,51 +4,20 @@
 
 import crafttweaker.item.IItemStack;
 
-val OUTPUT_WALL as int = 6;
-val OUTPUT_POLISHED as int = 4;
-val OUTPUT_BRICKS as int = 4;
+import mods.jei.JEI;
 
-val letters as string[] = ["a", "b", "c", "d", "e", "f", "g", "h"];
+import scripts.variables.stone.USED_ROCKHOUNDING_ROCKS;
 
-for i in 0 .. 16 {
-    for letter in letters {
-        val block as IItemStack = getBlock("blocks", letter, i);
-        val wall as IItemStack = getBlock("walls", letter, i);
-        val polished as IItemStack = getBlock("polished", letter, i);
-        val bricks as IItemStack = getBlock("bricks", letter, i);
+val variants as string[] = ["blocks", "walls", "polished", "bricks", "shorts", "deboss", "carved"];
 
-        // Walls
-        if (!isNull(wall) && !isNull(block)) {
-            recipes.addShaped(wall * OUTPUT_WALL, [
-                [block, block, block],
-                [block, block, block]
-            ]);
-        } else {
-            log.error(`Rockhounding Rocks: Missing wall or block for ${letter} meta ${i}`);
+for letter, ids in USED_ROCKHOUNDING_ROCKS {
+    for i in 0 .. 16 {
+        if (ids.contains(i)) {
+            continue;
         }
-
-        // Polished
-        if (!isNull(polished) && !isNull(block)) {
-            recipes.addShaped(polished * OUTPUT_POLISHED, [
-                [block, block],
-                [block, block]
-            ]);
-        } else {
-            log.error(`Rockhounding Rocks: Missing polished or block for ${letter} meta ${i}`);
-        }
-
-        // Bricks
-        if (!isNull(bricks) && !isNull(polished)) {
-            recipes.addShaped(bricks * OUTPUT_BRICKS, [
-                [polished, polished],
-                [polished, polished]
-            ]);
-        } else {
-            log.error(`Rockhounding Rocks: Missing polished or bricks for ${letter} meta ${i}`);
+        for variant in variants {
+            val block as IItemStack = item(`rockhounding_rocks:${variant}_${letter}:${i}`);
+            JEI.removeAndHide(block);
         }
     }
-}
-
-function getBlock(base as string, letter as string, meta as int) as IItemStack {
-    return item(`rockhounding_rocks:${base}_${letter}:${meta}`);
 }
