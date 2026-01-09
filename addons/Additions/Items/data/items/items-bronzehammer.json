@@ -1,7 +1,7 @@
 {
   "name": "Bronze Hammer",
   "max_stack": 1,
-  "durability": 250,
+  "durability": 400,
   "harvest_level": 2,
   "harvest_radius_width": 1,
   "harvest_depth": 0,

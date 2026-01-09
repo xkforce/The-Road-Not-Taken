@@ -1,0 +1,6 @@
+{
+  "name": "Bismuth Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BISMUTH",
+  "type": "additions:pickaxe"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-bismutharmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

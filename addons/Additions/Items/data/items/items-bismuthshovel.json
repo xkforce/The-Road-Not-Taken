@@ -1,0 +1,6 @@
+{
+  "name": "Bismuth Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BISMUTH",
+  "type": "additions:shovel"
+}

@@ -1,16 +1,16 @@
 {
-  "name": "Bronze Battle Axe",
+  "name": "Amethyst Battle Axe",
   "max_stack": 1,
-  "durability": 400,
-  "harvest_level": 2,
+  "durability": 32,
+  "harvest_level": 1,
   "harvest_radius_width": 1,
   "harvest_depth": 0,
-  "efficiency": 6.0,
+  "efficiency": 4.0,
   "enchantability": 14,
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:bronze",
+        "item": "contenttweaker:bismuth",
         "damage": "any"
       }
     ]

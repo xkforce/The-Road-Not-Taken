@@ -1,9 +1,9 @@
 {
   "enchantability": 14,
   "harvest_level": 3,
-  "base_tool_durability": 1562,
-  "efficiency": 8.0,
-  "base_attack_damage": 3.0,
+  "base_tool_durability": 625,
+  "efficiency": 5.0,
+  "base_attack_damage": 2.5,
   "repair_item": "contenttweaker:iridium",
   "repair_meta": 32767,
   "type": "tool"

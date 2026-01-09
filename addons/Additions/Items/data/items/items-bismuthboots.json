@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Boots",
+  "max_stack": 1,
+  "material": "additions-items-bismutharmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

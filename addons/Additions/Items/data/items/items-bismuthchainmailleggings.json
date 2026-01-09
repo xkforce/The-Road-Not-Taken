@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Chainmail Leggings",
+  "max_stack": 1,
+  "material": "additions-items-bismutharmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

@@ -1,7 +1,0 @@
-{
-    "parent": "random_grabbag:block/cube_bilayer_all",
-   "textures": {
-    "inner": "erebus:blocks/umberstone",
-    "outer": "contenttweaker:blocks/1/ironore"
-  }
-}

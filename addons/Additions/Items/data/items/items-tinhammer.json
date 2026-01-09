@@ -1,8 +1,8 @@
 {
   "name": "Tin Hammer",
   "max_stack": 1,
-  "durability": 131,
-  "harvest_level": 2,
+  "durability": 32,
+  "harvest_level": 1,
   "harvest_radius_width": 1,
   "harvest_depth": 0,
   "efficiency": 4.0,
