@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
-    "RARE",
     "WET",
+    "RARE",
     "HILLS"
   ],
   "BiomeManager Entries": {},

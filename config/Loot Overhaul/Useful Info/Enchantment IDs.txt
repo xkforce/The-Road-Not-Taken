@@ -232,24 +232,8 @@ lava_walker:lava_walker
    - Max Level: 2
 
 
-nee:cursededge
-   - Id: 28
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-nee:smelter
-   - Id: 29
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 nee:curseofpossession
-   - Id: 30
+   - Id: 28
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -257,11 +241,27 @@ nee:curseofpossession
 
 
 nee:curseofinaccuracy
-   - Id: 31
+   - Id: 29
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 2
+
+
+nee:innerberserk
+   - Id: 30
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+nee:curseofvulnerability
+   - Id: 31
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
 
 
 minecraft:efficiency
@@ -296,28 +296,28 @@ minecraft:fortune
    - Max Level: 3
 
 
-nee:innerberserk
-   - Id: 36
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-nee:curseofvulnerability
-   - Id: 37
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 4
-
-
 nee:instability
-   - Id: 38
+   - Id: 36
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 3
+
+
+nee:cursededge
+   - Id: 37
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+nee:smelter
+   - Id: 38
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
 
 
 oe:is_watermob
@@ -424,7 +424,7 @@ minecraft:infinity
    - Max Level: 1
 
 
-randomenchantments:piercing
+randomenchantments:ricochet
    - Id: 52
    - Rarity: RARE
    - Treasure: false
@@ -432,7 +432,7 @@ randomenchantments:piercing
    - Max Level: 1
 
 
-randomenchantments:ricochet
+randomenchantments:true_lifesteal
    - Id: 53
    - Rarity: RARE
    - Treasure: false
@@ -440,7 +440,7 @@ randomenchantments:ricochet
    - Max Level: 1
 
 
-randomenchantments:true_lifesteal
+randomenchantments:piercing
    - Id: 54
    - Rarity: RARE
    - Treasure: false

@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "NETHER",
-    "VOID",
+    "HOT",
     "DRY",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

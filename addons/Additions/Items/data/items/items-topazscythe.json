@@ -1,0 +1,23 @@
+{
+  "name": "Topaz Scythe",
+  "max_stack": 1,
+  "durability": 131,
+  "harvest_level": 1,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 4.0,
+  "enchantability": 10,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:topaz",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "hoe"
+  ],
+  "type": "additions:multitool"
+}

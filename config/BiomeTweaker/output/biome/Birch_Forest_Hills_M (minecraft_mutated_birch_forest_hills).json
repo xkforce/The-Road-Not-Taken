@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "FOREST",
     "MOUNTAIN",
-    "SUPER_BIRCH_TREES",
+    "DENSE",
     "RARE",
-    "DENSE"
+    "SUPER_BIRCH_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

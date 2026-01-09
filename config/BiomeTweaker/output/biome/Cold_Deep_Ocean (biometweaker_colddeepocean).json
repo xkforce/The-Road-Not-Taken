@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "OCEAN",
-    "WATER",
-    "COLD"
+    "COLD",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

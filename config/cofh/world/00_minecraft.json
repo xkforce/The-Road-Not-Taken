@@ -392,119 +392,37 @@
 			"dimension": "all"
 		},
 		
-		"sulfur": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "contenttweaker:yellowsulfurblock",
-				"material": "minecraft:netherrack",
-				"cluster-size": 7
-			},
-			"cluster-count": 10,
-			"min-height": 0,
-			"max-height": 255,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
-		},
-
-		"quartz": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "quartz_ore",
-				"material": "minecraft:netherrack",
-				"cluster-size": 14
-			},
-			"cluster-count": 16,
-			"min-height": 1,
-			"max-height": 255,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
-		},
-		
-		"nethergold": {
+		"malachite": {
 			"distribution": "gaussian",
 			"generator": {
-				"block": "additions:blocks-nethergoldore",
-				"material": "minecraft:netherrack",
+				"block": "contenttweaker:malachiteore",
+				"material": "minecraft:stone",
 				"cluster-size": 7
 			},
-			"cluster-count": 2,
-			"center-height": 255,
-			"spread": 255,
+			"cluster-count": 1,
+			"center-height": 32,
+			"spread": 32,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "DESERT"
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2
+				]
+			}
 		},
-		
-		"silver": {
-			"distribution": "gaussian",
-			"generator": {
-				"block": "additions:blocks-nativesilver",
-				"material": "minecraft:netherrack",
-				"cluster-size": 7
-			},
-			"cluster-count": 2,
-			"center-height": 0,
-			"spread": 255,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
-		},
-		
-		"electrum": {
-			"distribution": "gaussian",
-			"generator": {
-				"block": "additions:blocks-nativeelectrum",
-				"material": "minecraft:netherrack",
-				"cluster-size": 7
-			},
-			"cluster-count": 2,
-			"center-height": 128,
-			"spread": 128,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
-		}
 	}
 }

@@ -92,15 +92,15 @@ advancedrocketry:arstaruibutton
 advancedrocketry:arspaceelevatorcapsule
 advancedrocketry:arhovercraft
 quark:gravisand
-quark:chest_passenger
-quark:totem_of_holding
 quark:arrow_explosive
 quark:arrow_torch
 quark:dragon_breath_bottle
+quark:totem_of_holding
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:chest_passenger
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp

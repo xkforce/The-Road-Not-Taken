@@ -1,0 +1,23 @@
+{
+  "name": "Sapphire Scythe",
+  "max_stack": 1,
+  "durability": 625,
+  "harvest_level": 3,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 4.0,
+  "enchantability": 14,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:sapphire",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "hoe",
+    "hoe"
+  ],
+  "type": "additions:multitool"
+}

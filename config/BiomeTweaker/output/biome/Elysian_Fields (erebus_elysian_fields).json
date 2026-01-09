@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "VOID",
-    "PLAINS"
+    "PLAINS",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
