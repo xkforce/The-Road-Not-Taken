@@ -105,6 +105,16 @@ zenClass Stone {
     }
 
     /**
+     * Checks if the stone has a replacement.
+     * @param color The color of the stone.
+     * @param textureVariant The texture variant of the stone.
+     * @return True if the stone has a replacement, false otherwise.
+     */
+    function hasReplacement(color as string, textureVariant as string) as bool {
+        return !isNull(getReplacement(color, textureVariant));
+    }
+
+    /**
      * Sets the hardness of the stone.
      * @param _hardness The hardness to set.
      */
@@ -143,6 +153,34 @@ zenClass Stone {
     }
 
     /**
+     * Formats a stone to an item string.
+     * @param color The color of the stone.
+     * @param texturevariant The texture variant of the stone.
+     * @param mod The mod to use.
+     * @return The formatted item string.
+     */
+    function itemKey(color as string, texturevariant as string, mod as string = "contenttweaker") as string {
+        if (hasReplacement(color, texturevariant)) {
+            return getReplacement(color, texturevariant);
+        }
+        return `${mod}:${registryKey(color, texturevariant)}`;
+    }
+
+    /**
+     * Formats an item to a recipe key.
+     * @param item The item to format.
+     * @return The formatted string.
+     */
+    function recipeKey(item as IItemStack) as string {
+        val splitted as string[] = item.definition.id.split(":");
+        if (splitted.length != 2) {
+            log.warn(`Formatting recipe key for item *${item.definition.id}* failed! This is probably a bug!`);
+            return `${item.definition.id}.${item.damage}`;
+        }
+        return `${splitted[0]}.${splitted[1]}.${item.damage}`;
+    }
+
+    /**
      * Crafts an item with another item. Internal use only.
      * @param output The output item.
      * @param input The input item.
@@ -159,8 +197,8 @@ zenClass Stone {
             log.error(`Input item for *${output}* is null!`);
             return;
         }
-        val recipeName as string = `craft_${outputItem.definition.name}_with_${inputItem.definition.name}`;
-        var builder = RecipePattern.init(recipeName, outputItem * amount, pattern);
+        val recipeName as string = `craft_${recipeKey(outputItem)}_with_${recipeKey(inputItem)}`;
+        var builder as RecipePattern = RecipePattern.init(recipeName, outputItem * amount, pattern);
         builder.with("x", inputItem);
         builder.setShapeless(pattern.length == 1 && pattern[0].length > 3);
         builder.setMirrored(mirrored);
@@ -172,26 +210,62 @@ zenClass Stone {
      * @param color The color of the stone.
      */
     function smeltItem(color as string) as void {
-        if (textureVariants.indexOf(" ") == -1 || textureVariants.indexOf("cobblestone") == -1) {
-            log.trace(`*${getName()}* does not have required texturevariants for smelting!`);
-            return;
+        // cobble -> stone
+        if (textureVariants.contains(" ") && textureVariants.contains("cobblestone")) {
+            val output as string = itemKey(color, " ");
+            val input as string = itemKey(color, "cobblestone");
+            val outputItem as IItemStack = item(output);
+            if (isNull(outputItem)) {
+                log.error(`Output item for *${output}* is null!`);
+                return;
+            }
+            val inputItem as IItemStack = item(input);
+            if (isNull(inputItem)) {
+                log.error(`Input item for *${input}* is null!`);
+                return;
+            }
+            furnace.addRecipe(outputItem, inputItem, 0.1);
+        } else {
+            log.trace(`*${getName()}* does not have required texturevariants for smelting cobblestone!`);
         }
-        val key as string = registryKey(color, " ");
-        val output as string = `contenttweaker:${key}`;
-        val input as string = `contenttweaker:${registryKey(color, "cobblestone")}`;
 
-        val outputItem as IItemStack = item(output);
-        if (isNull(outputItem)) {
-            log.error(`Output item for *${output}* is null!`);
-            return;
-        }
-        val inputItem as IItemStack = item(input);
-        if (isNull(inputItem)) {
-            log.error(`Input item for *${output}* is null!`);
-            return;
+        // brick -> cracked brick
+        if (textureVariants.contains("brick") && textureVariants.contains("crackedbrick")) {
+            val output as string = itemKey(color, "crackedbrick");
+            val input as string = itemKey(color, "brick");
+            val outputItem as IItemStack = item(output);
+            if (isNull(outputItem)) {
+                log.error(`Output item for *${output}* is null!`);
+                return;
+            }
+            val inputItem as IItemStack = item(input);
+            if (isNull(inputItem)) {
+                log.error(`Input item for *${input}* is null!`);
+                return;
+            }
+            furnace.addRecipe(outputItem, inputItem, 0.1);
+        } else {
+            log.trace(`*${getName()}* does not have required texturevariants for smelting bricks!`);
         }
 
-        furnace.addRecipe(outputItem, inputItem, 0.1);
+        // shortbrick -> cracked shortbrick
+        if (textureVariants.contains("shortbrick") && textureVariants.contains("crackedshortbrick")) {
+            val output as string = itemKey(color, "crackedshortbrick");
+            val input as string = itemKey(color, "shortbrick");
+            val outputItem as IItemStack = item(output);
+            if (isNull(outputItem)) {
+                log.error(`Output item for *${output}* is null!`);
+                return;
+            }
+            val inputItem as IItemStack = item(input);
+            if (isNull(inputItem)) {
+                log.error(`Input item for *${input}* is null!`);
+                return;
+            }
+            furnace.addRecipe(outputItem, inputItem, 0.1);
+        } else {
+            log.trace(`*${getName()}* does not have required texturevariants for smelting shortbrick!`);
+        }
     }
 
     /**
@@ -204,9 +278,8 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for stairs!`);
             return;
         }
-        val key as string = registryKey(color, texturevariant);
-        val output as string = `contentcreator:${key}stairs`;
-        val input as string = `contenttweaker:${key}`;
+        val output as string = `contentcreator:${registryKey(color, texturevariant)}stairs`;
+        val input as string = itemKey(color, texturevariant);
         val pattern as string[] = ["x  ", "xx ", "xxx"];
         craftItem(output, input, pattern, 4, true);
     }
@@ -221,9 +294,8 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for slab!`);
             return;
         }
-        val key as string = registryKey(color, texturevariant);
-        val output as string = `contentcreator:${key}slab`;
-        val input as string = `contenttweaker:${key}`;
+        val output as string = `contentcreator:${registryKey(color, texturevariant)}slab`;
+        val input as string = itemKey(color, texturevariant);
         val pattern as string[] = ["xxx"];
         craftItem(output, input, pattern, 6);
     }
@@ -238,9 +310,8 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for wall!`);
             return;
         }
-        val key as string = registryKey(color, texturevariant);
-        val output as string = `contentcreator:${key}wall`;
-        val input as string = `contenttweaker:${key}`;
+        val output as string = `contentcreator:${registryKey(color, texturevariant)}wall`;
+        val input as string = itemKey(color, texturevariant);
         val pattern as string[] = ["xxx", "xxx"];
         craftItem(output, input, pattern, 6);
     }
@@ -254,8 +325,7 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for chiseled bricks!`);
             return;
         }
-        val key as string = registryKey(color, "chiseledbrick");
-        val output as string = `contenttweaker:${key}`;
+        val output as string = itemKey(color, "chiseledbrick");
         val input as string = `contentcreator:${registryKey(color, "brick")}slab`;
         val pattern as string[] = ["x", "x"];
         craftItem(output, input, pattern);
@@ -270,9 +340,8 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for stone bricks!`);
             return;
         }
-        val key as string = registryKey(color, "brick");
-        val output as string = `contenttweaker:${key}`;
-        val input as string = `contenttweaker:${registryKey(color, " ")}`;
+        val output as string = itemKey(color, "brick");
+        val input as string = itemKey(color, " ");
         val pattern as string[] = ["xx", "xx"];
         craftItem(output, input, pattern, 4);
     }
@@ -286,9 +355,8 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for polished stone!`);
             return;
         }
-        val key as string = registryKey(color, "polished");
-        val output as string = `contenttweaker:${key}`;
-        val input as string = `contenttweaker:${registryKey(color, "brick")}`;
+        val output as string = itemKey(color, "polished");
+        val input as string = itemKey(color, "brick");
         val pattern as string[] = ["xx", "xx"];
         craftItem(output, input, pattern, 4);
     }
@@ -303,11 +371,10 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for oredict entry!`);
             return;
         }
-        val key as string = registryKey(color, texturevariant);
-        val output as IItemStack = item(`contenttweaker:${key}`);
+        val output as IItemStack = item(itemKey(color, texturevariant));
         val oredict as IOreDictEntry = ore(id);
         if (oredict.items has output) {
-            log.error(`<ore:${id}> already contains ${key}!`);
+            log.warn(`<ore:${id}> already contains ${getName()}!`);
             return;
         }
         oredict.add(output);
@@ -324,15 +391,15 @@ zenClass Stone {
             log.trace(`*${getName()}* does not have required texturevariants for covered stone crafting!`);
             return;
         }
-        val output as string = registryKey(color, outputVariant);
-        val input as string = registryKey(color, inputVariant);
+        val output as string = itemKey(color, outputVariant);
+        val input as string = itemKey(color, inputVariant);
 
-        val outputItem as IItemStack = item(`contenttweaker:${output}`);
+        val outputItem as IItemStack = item(output);
         if (isNull(outputItem)) {
             log.error(`Output item for *${output}* is null!`);
             return;
         }
-        val inputItem as IItemStack = item(`contenttweaker:${input}`);
+        val inputItem as IItemStack = item(input);
         if (isNull(inputItem)) {
             log.error(`Input item for *${output}* is null!`);
             return;
@@ -342,7 +409,7 @@ zenClass Stone {
             log.error(`Cover item for *${output}* is null!`);
             return;
         }
-        val recipeName as string = `craft_${outputItem.definition.name}_covering_${inputItem.definition.name}_with_${coverItem.definition.name}`;
+        val recipeName as string = `craft_${recipeKey(outputItem)}_covering_${recipeKey(inputItem)}_with_${recipeKey(coverItem)}`;
         var builder = RecipePattern.init(recipeName, outputItem, ["xs"]);
         builder.with("x", inputItem);
         builder.with("s", coverItem);
@@ -350,40 +417,52 @@ zenClass Stone {
         builder.build();
     }
 
+    /**
+     * Changes the name of the stone.
+     * @param color The color of the stone.
+     * @param texturevariant The texture variant of the stone.
+     */
     function changeName(color as string, texturevariant as string) as void {
         if (textureVariants.indexOf(texturevariant) == -1) {
             log.trace(`*${getName()}* does not have required texturevariant *${texturevariant}* for name change!`);
             return;
         }
-        val c as string = (isNull(Color.colors[color])) ? I18n.format(`${modpackID}.color.${color}.name`) : Color.colors[color].getName();
-        val v as string = I18n.format(`${modpackID}.variant.${(texturevariant == " " ? "base" : texturevariant)}.name`, getName());
-        var name as string = I18n.format(`${modpackID}.modifier.base.name`, c, v);
+        var name as string = "";
+        if (hasReplacement(color, texturevariant)) {
+            log.trace(`*${getName()}* has a replacement for *${color}* and *${texturevariant}* so no name change will be made!`);
+            name = item(getReplacement(color, texturevariant)).displayName;
+        } else {
+            val c as string = (isNull(Color.colors[color])) ? (color == " " ? " " : I18n.format(`${modpackID}.color.${color}.name`)) : Color.colors[color].getName();
+            val v as string = I18n.format(`${modpackID}.variant.${(texturevariant == " " ? "base" : texturevariant)}.name`, getName());
+            name = I18n.format(`${modpackID}.modifier.base.name`, c, v);
 
-        val c_split as string[] = c.split("-");
-        // We only wanna do this for colors that are not part of the 64 color base palette
-        if (isNull(Color.colors[color]) && c_split.length == 2) {
-            name = I18n.format(`${modpackID}.modifier.split.name`, c_split[0], c_split[1], v);
-            if (id == "apacherhyolite") {
-                name = I18n.format(`${modpackID}.modifier.apacherhyolite.name`, c_split[1], c_split[0], v);
+            val c_split as string[] = c.split("-");
+            // We only wanna do this for colors that are not part of the 64 color base palette
+            if (isNull(Color.colors[color]) && c_split.length == 2) {
+                name = I18n.format(`${modpackID}.modifier.split.name`, c_split[0], c_split[1], v);
+                if (id == "apacherhyolite") {
+                    name = I18n.format(`${modpackID}.modifier.apacherhyolite.name`, c_split[1], c_split[0], v);
+                }
             }
-        }
 
-        val key as string = registryKey(color, texturevariant);
-        val stack as IItemStack = item(`contenttweaker:${key}`);
-        if (isNull(stack)) {
-            log.error(`Item for *${key}* is null thus cannot change its name!`);
-            return;
+            val key as string = registryKey(color, texturevariant);
+            val stack as IItemStack = item(`contenttweaker:${key}`);
+            if (isNull(stack)) {
+                log.error(`Item for *${key}* is null thus cannot change its name!`);
+                return;
+            }
+            stack.displayName = StaticString.trim(name.replace("  ", " "));
+            log.trace(`🔧 Changing name of stone *${key}* to *${stack.displayName}*`);
         }
-        stack.displayName = StaticString.trim(name);
-        log.trace(`🔧 Changing name of stone *${key}* to *${stack.displayName}*`);
 
         if (hasFlag("--onlyBlocks") || NO_SUB_BLOCKS.contains(texturevariant)) {
-            log.trace(`🔧 Skipping name change of additional blocks for *${key}* because of its flag.`);
+            log.trace(`🔧 Skipping name change of additional blocks for *${registryKey(color, texturevariant)}* because of its flag.`);
             return;
         }
 
         // TODO: add walls back once implemented
         for blocktype in ["stairs", "slab"] {
+            val key as string = registryKey(color, texturevariant);
             val blockItem as IItemStack = item(`contentcreator:${key}${blocktype}`);
             if (isNull(blockItem)) {
                 log.error(`Item for *${key}${blocktype}* is null!`);
