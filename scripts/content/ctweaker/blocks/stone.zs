@@ -19,6 +19,10 @@ for stonetype in STONES {
     }
     for color in stone.colors {
         for texturevariant in stone.textureVariants {
+            if (stone.hasReplacement(color, texturevariant)) {
+                log.trace(`🪨 Skipping stone *${stone.getName()}* with color *${color}* and texturevariant *${texturevariant}* because it has a replacement.`);
+                continue;
+            }
             val base as string = stone.registryKey(color, texturevariant);
             var newBlock as Block = VanillaFactory.createBlock(base, <blockmaterial:rock>);
             newBlock.setBlockHardness(stone.hardness);
