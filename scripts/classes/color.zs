@@ -7,6 +7,7 @@ zenClass Color {
     var id as string = "";
     var hex as string = "";
     var mixed as string[][int]$orderly = {};
+    var vanilla as bool = false;
 
     /**
      * Creates a new color.
@@ -55,6 +56,13 @@ zenClass Color {
         }
         mixed[mixed.length] = [_mixed[0].id, _mixed[1].id];
         log.trace(`🎨 Adding mix of colors to *${getName()}*: *${_mixed[0].getName()}* and *${_mixed[1].getName()}*`, "preinit");
+    }
+
+    /**
+     * Sets the color as a vanilla color.
+     */
+    function vanilla() as void {
+        vanilla = true;
     }
 }
 

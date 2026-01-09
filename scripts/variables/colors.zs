@@ -5,28 +5,44 @@ import scripts.classes.color.Color;
 
 // Generation 0 (5 colors)
 global White as Color = Color('white', '#F9FFFE');
+White.vanilla();
 global Yellow as Color = Color('yellow', '#FED83D');
+Yellow.vanilla();
 global Blue as Color = Color('blue', '#3C44AA');
+Blue.vanilla();
 global Red as Color = Color('red', '#B02E26');
+Red.vanilla();
 global Black as Color = Color('black', '#1D1D21');
+Black.vanilla();
 
 // Generation 1 (9 colors)
 global Orange as Color = Color('orange', '#F9801D');
+Orange.vanilla();
 global LightBlue as Color = Color('light_blue', '#3AB3DA');
+LightBlue.vanilla();
 global Pink as Color = Color('pink', '#F38BAA');
+Pink.vanilla();
 global Gray as Color = Color('gray', '#474F52');
+Gray.vanilla();
 global Purple as Color = Color('purple', '#8932B8');
+Purple.vanilla();
 global Green as Color = Color('green', '#5E7C16');
+Green.vanilla();
 global ArcaneRed as Color = Color('arcane_red', '#612925');
 global Galaxea as Color = Color('galaxea', '#32355E');
 global SpaetzleYellow as Color = Color('spaetzle_yellow', '#FBEC89');
 
 // Generation 2 (23 colors)
 global Magenta as Color = Color('magenta', '#C74EBD');
+Magenta.vanilla();
 global Lime as Color = Color('lime', '#80C71F');
+Lime.vanilla();
 global LightGray as Color = Color('light_gray', '#9D9D97');
+LightGray.vanilla();
 global Cyan as Color = Color('cyan', '#169C9C');
+Cyan.vanilla();
 global Brown as Color = Color('brown', '#835432');
+Brown.vanilla();
 global WizardsBrew as Color = Color('wizards_brew', '#9890B9');
 global IndianSilk as Color = Color('indian_silk', '#845468');
 global RichGold as Color = Color('rich_gold', '#A38019');
@@ -319,14 +335,16 @@ global Seaside as Color = Color('seaside', '#6BA7B5');
 /*  0.00 */ Seaside.addMix([LightBlue, LightGray]);
 /*  6.21 */ Seaside.addMix([LightBlue, Cyan]);
 
+global COLORS_VANILLA as string[] = [];
+for key, color in COLORS {
+    if (color.vanilla) {
+        COLORS_VANILLA.add(key);
+    }
+}
+
 // these come directly from the old scripts and may be translated into the new format as needed
 
 // two colors
 static c101 as string[] = [
     "black", "blackblue", "blackbrown", "blackcyan", "blackgray", "blackgreen", "blacklightblue", "blacklightgray", "blacklime", "blackmagenta", "blackorange", "blackpink", "blackpurple", "blackred", "blackwhite", "blackyellow", "blueblack", "blue", "bluebrown", "bluecyan", "bluegray", "bluegreen", "bluelightblue", "bluelightgray", "bluelime", "bluemagenta", "blueorange", "bluepink", "bluepurple", "bluered", "bluewhite", "blueyellow", "brownblack", "brownblue", "brown", "browncyan", "browngray", "browngreen", "brownlightblue", "brownlightgray", "brownlime", "brownmagenta", "brownorange", "brownpink", "brownpurple", "brownred", "brownwhite", "brownyellow", "cyanblack", "cyanblue", "cyanbrown", "cyan", "cyangray", "cyangreen", "cyanlightblue", "cyanlightgray", "cyanlime", "cyanmagenta", "cyanorange", "cyanpink", "cyanpurple", "cyanred", "cyanwhite", "cyanyellow", "grayblack", "grayblue", "graybrown", "graycyan", "gray", "graygreen", "graylightblue", "graylightgray", "graylime", "graymagenta", "grayorange", "graypink", "graypurple", "grayred", "graywhite", "grayyellow", "greenblack", "greenblue", "greenbrown", "greencyan", "greengray", "green", "greenlightblue", "greenlightgray", "greenlime", "greenmagenta", "greenorange", "greenpink", "greenpurple", "greenred", "greenwhite", "greenyellow", "lightblueblack", "lightblueblue", "lightbluebrown", "lightbluecyan", "lightbluegray", "lightbluegreen", "lightblue", "lightbluelightgray", "lightbluelime", "lightbluemagenta", "lightblueorange", "lightbluepink", "lightbluepurple", "lightbluered", "lightbluewhite", "lightblueyellow", "lightgraygreenblack", "lightgraygreenblue", "lightgraygreenbrown", "lightgraygreencyan", "lightgraygreengray", "lightgraygreen", "lightgraylightblue", "lightgray", "lightgraylime", "lightgraymagenta", "lightgrayorange", "lightgraypink", "lightgraypurple", "lightgrayred", "lightgraywhite", "lightgrayyellow", "limeblack", "limeblue", "limebrown", "limecyan", "limegray", "limegreen", "limelightblue", "limelightgray", "lime", "limemagenta", "limeorange", "limepink", "limepurple", "limered", "limewhite", "limeyellow", "magentablack", "magentablue", "magentabrown", "magentacyan", "magentagray", "magentagreen", "magentalightblue", "magentalightgray", "magentalime", "magenta", "magentaorange", "magentapink", "magentapurple", "magentared", "magentawhite", "magentayellow", "orangeblack", "orangeblue", "orangebrown", "orangecyan", "orangegray", "orangegreen", "orangelightblue", "orangelightgray", "orangelime", "orangemagenta", "orange", "orangepink", "orangepurple", "orangered", "orangewhite", "orangeyellow", "pinkblack", "pinkblue", "pinkbrown", "pinkcyan", "pinkgray", "pinkgreen", "pinklightblue", "pinklightgray", "pinklime", "pinkmagenta", "pinkorange", "pink", "pinkpurple", "pinkred", "pinkwhite", "pinkyellow", "purpleblack", "purpleblue", "purplebrown", "purplecyan", "purplegray", "purplegreen", "purplelightblue", "purplelightgray", "purplelime", "purplemagenta", "purpleorange", "purplepink", "purple", "purplered", "purplewhite", "purpleyellow", "redblack", "redblue", "redbrown", "redcyan", "redgray", "redgreen", "redlightblue", "redlightgray", "redlime", "redmagenta", "redorange", "redpink", "redpurple", "red", "redwhite", "redyellow", "whiteblack", "whiteblue", "whitebrown", "whitecyan", "whitegray", "whitegreen", "whitelightblue", "whitelightgray", "whitelime", "whitemagenta", "whiteorange", "whitepink", "whitepurple", "whitered", "white", "whiteyellow", "yellowblack", "yellowblue", "yellowbrown", "yellowcyan", "yellowgray", "yellowgreen", "yellowlightblue", "yellowlightgray", "yellowlime", "yellowmagenta", "yelloworange", "yellowpink", "yellowpurple", "yellowred", "yellowwhite", "yellow",
-];
-
-// Nether Quartz
-static c18 as string[] = [
-    "black", "blue", "brown", "cyan", "gray", "green", "lightblue", "lightgray", "lime", "magenta", "orange", "pink", "purple", "red", "yellow",
 ];
