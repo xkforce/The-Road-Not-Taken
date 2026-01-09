@@ -9,15 +9,14 @@ import scripts.functions.contenttweaker.createCreativeTabWithItem;
 import scripts.functions.contenttweaker.createItem;
 import scripts.functions.contenttweaker.creativeTab;
 
-val materials as string[] = [
-    "amethyst", "aquamarine", "blackdiamond", "bronze", "chocolatediamond", "citrine", "hepatizon",
-    "electrum", "iridium", "meteoriron", "rosegold", "ruby", "sapphire", "silver", "morganite", "steel", "topaz", "tin", "zircon",
-    "moonstone", "opal", "peridot",
-];
+import scripts.variables.materials.baseMaterials;
+import scripts.variables.materials.additionalMaterials;
 
-for material in materials {
+log.info("[🚧 MODPACK_SETUP 🚧] 🪨 Creating materials via ContentTweaker...");
+
+for material in baseMaterials {
     var base = VanillaFactory.createItem(material);
-    if (materials.indexOf(material) == 0) {
+    if (baseMaterials.indexOf(material) == 0) {
         createCreativeTabWithItem(modpackID + ".materials", base);
     }
     base.creativeTab = creativeTab;
@@ -33,11 +32,6 @@ for material in materials {
     plate.register();
 }
 
-val additionalMats as string[] = [
-    "copperplate", "diamondnugget", "diamondplate", "emeraldnugget", "emeraldplate", "goldplate", "ironplate",
-    "netheritenugget", "netheriteplate",
-];
-
-for mat in additionalMats {
+for mat in additionalMaterials {
     createItem(mat);
 }
