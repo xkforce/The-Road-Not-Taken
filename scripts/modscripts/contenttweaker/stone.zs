@@ -20,15 +20,15 @@ for stonetype in STONES {
     }
     for color in stone.colors {
         for texturevariant in stone.textureVariants {
+            // handle block names for easier translation
+            stone.changeName(color, texturevariant);
+            // setup oredicts for all rock types
+            stone.oreItem(color, texturevariant);
             if (stone.hasFlag("--onlyBlocks") == false && Stone.NO_SUB_BLOCKS.indexOf(texturevariant) == -1) {
                 stone.craftStairs(color, texturevariant);
                 stone.craftSlab(color, texturevariant);
                 //stone.craftWall(color, texturevariant);
             }
-            // handle block names for easier translation
-            stone.changeName(color, texturevariant);
-            // setup oredicts for all rock types
-            stone.oreItem(color, texturevariant);
         }
         stone.craftChiseledBrick(color);
         stone.craftBrick(color);
@@ -49,7 +49,9 @@ for stonetype in STONES {
     }
 }
 
+// This can't be moved into the stone class because the Dropt API is not available before the "crafttweaker" loader
 function changeDrop(stone as Stone, color as string) as void {
+    // early return if the stone doesn't have a cobblestone variant
     if (stone.textureVariants.indexOf("cobblestone") == -1) {
         log.trace(`*${stone.id}* does not have required texturevariants for drop change!`);
         return;
@@ -57,17 +59,14 @@ function changeDrop(stone as Stone, color as string) as void {
     val cobblestone as string = `contenttweaker:${stone.registryKey(color, "cobblestone")}`;
     // handle default variants
     for variant in intersectStringArray(stone.textureVariants, defaultVariants) {
-        val rock_default as string = stone.registryKey(color, variant);
-        replaceToolDrops(`contenttweaker:${rock_default}`, hammers, [cobblestone]);
+        replaceToolDrops(stone.itemKey(color, variant), hammers, [cobblestone]);
     }
     // handle mossy variants
     for variant in intersectStringArray(stone.textureVariants, mossyVariants) {
-        val rock_mossy as string = stone.registryKey(color, variant);
-        replaceToolDrops(`contenttweaker:${rock_mossy}`, hammers, [cobblestone, "contenttweaker:moss"]);
+        replaceToolDrops(stone.itemKey(color, variant), hammers, [cobblestone, "contenttweaker:moss"]);
     }
     // handle lichen variants
     for variant in intersectStringArray(stone.textureVariants, lichenVariants) {
-        val rock_lichen as string = stone.registryKey(color, variant);
-        replaceToolDrops(`contenttweaker:${rock_lichen}`, hammers, [cobblestone, `contenttweaker:${variant.substring(6)}lichen`]);
+        replaceToolDrops(stone.itemKey(color, variant), hammers, [cobblestone, `contenttweaker:${variant.substring(6)}lichen`]);
     }
 }
