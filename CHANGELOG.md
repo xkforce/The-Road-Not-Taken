@@ -16,6 +16,7 @@ _Whenever we get there..._
 - a dedicated logger class for all scripts
 - all custom functions and classes now have documentation
 - a README.md file in the scripts folder, explaining how Enderman structured the scripts
+- all scripts now respect the replacement system of the stone class
 
 ### Changes
 
@@ -25,10 +26,12 @@ _Whenever we get there..._
 - every script now uses a dedicated priority
 - updated and refactored the README.md file
 - updated the EMT modpack.cfg to use the modpack data and enable some of it's main menu buttons
+- refactored Rockhounding Rocks registry
 
 ### Fixed
 
 - a lot of edge cases that would throw random errors instead of properly handling them
+- regenerated the resources/contenttweaker/blockstates/ directory to clear out any old files
 
 ## [0.0.1] - 2026-01-01
 
