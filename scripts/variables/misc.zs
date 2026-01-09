@@ -20,6 +20,25 @@ static oreColors as string[] = [
     "White",
 ];
 
+static minecraftColors as string[] = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black",
+];
+
 static lowerColors as string[] = lowerStringArray(oreColors);
 
 static coloredStone as string[] = [
