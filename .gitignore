@@ -51,3 +51,6 @@ config/dynmap.cfg
 config/dynmapblockscan.cfg
 *.cache
 icon.png
+
+config/Loot Overhaul/Useful Info/
+config/dimensionalcontrol/documentation/
