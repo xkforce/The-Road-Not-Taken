@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "WYVERN_LAIR",
-    "MAGICAL",
     "COLD",
+    "MAGICAL",
+    "WYVERN_LAIR",
+    "VOID",
     "SANDY"
   ],
   "BiomeManager Entries": {},

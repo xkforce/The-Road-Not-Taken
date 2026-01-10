@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "DENSE",
-    "HILLS",
     "MEGA_TAIGA_SPRUCE_TREES",
+    "FOREST",
+    "HILLS",
     "RARE"
   ],
   "BiomeManager Entries": {},

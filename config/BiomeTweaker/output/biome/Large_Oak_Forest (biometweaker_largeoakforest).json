@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DENSE",
     "LARGEOAKFOREST",
     "FOREST",
-    "DENSE",
     "SPOOKY",
     "BIRCH_TREES"
   ],

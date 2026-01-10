@@ -1,8 +1,0 @@
-{
-  "id": "randomenchantments:randomness",
-  "rarity": "RARE",
-  "isTreasure": false,
-  "isCurse": false,
-  "maxLvl": 5,
-  "vanilla system overrides": {}
-}

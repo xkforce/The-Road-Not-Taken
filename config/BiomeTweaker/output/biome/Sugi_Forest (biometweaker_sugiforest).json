@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "SUGIFOREST",
     "DENSE",
-    "HILLS",
-    "WET"
+    "WET",
+    "SUGIFOREST",
+    "FOREST",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
