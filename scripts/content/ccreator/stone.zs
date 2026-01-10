@@ -21,7 +21,7 @@ for stonetype in STONES {
         continue;
     }
     if (stone.hasFlag("--onlyBlocks")) {
-        log.info(`Found *--onlyBlocks* flag for ${stonetype}! No additional blocks will be added.`);
+        log.trace(`Found *--onlyBlocks* flag for ${stonetype}! No additional blocks will be added.`);
         continue;
     }
     val vars as string[] = filterStringArray(stone.textureVariants, [["chiseledbrick", "mossychiseledbrick", "debossed", "mossydebossed"]]);
