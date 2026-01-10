@@ -51,6 +51,11 @@ global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariant
 Obsidian.addReplacement("minecraft:obsidian", "black", " ");
 Obsidian.setHardness(50.0);
 Obsidian.setResistance(1200.0);
+global TransparentObsidian as Stone = Stone("transparentobsidian", COLORS.keys, defaultnocobbleVariants);
+//transparent obsidian should be completely transparent like glass
+//jobsidian, obsidian and transparent obsidian should be in ore:obsidian
+TransparentObsidian.setHardness(50.0);
+TransparentObsidian.setResistance(1200.0);
 global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
@@ -102,22 +107,27 @@ Basalt.setResistance(4.2);
 global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
 global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
 global VenusStone as Stone = Stone("venusstone", COLORS.keys, defaultVariants);
-global Augite as Stone = Stone("augite", COLORS.keys, defaultVariants);
-global Diopside as Stone = Stone("diopside", COLORS.keys, defaultVariants);
-global Enstatite as Stone = Stone("enstatite", COLORS.keys, defaultVariants);
-global Fayalite as Stone = Stone("fayalite", COLORS.keys, defaultVariants);
-global Forsterite as Stone = Stone("forsterite", COLORS.keys, defaultVariants);
-global Lunastone as Stone = Stone("lunastone", COLORS.keys, defaultVariants);
-global Marstone as Stone = Stone("marstone", COLORS.keys, defaultVariants);
-global MercuryStone as Stone = Stone("mercurystone", COLORS.keys, defaultVariants);
-global Oldhamite as Stone = Stone("oldhamite", COLORS.keys, defaultVariants);
-global Orthoclase as Stone = Stone("orthoclase", COLORS.keys, defaultVariants);
-global Orthopyroxene as Stone = Stone("orthopyroxene", COLORS.keys, defaultVariants);
-global Pigeonite as Stone = Stone("pigeonite", COLORS.keys, defaultVariants);
-global Plagioclase as Stone = Stone("plagioclase", COLORS.keys, defaultVariants);
-global Tephroite as Stone = Stone("tephroite", COLORS.keys, defaultVariants);
-global Troilite as Stone = Stone("troilite", COLORS.keys, defaultVariants);
-global Aegirine as Stone = Stone("aegirine", COLORS.keys, defaultVariants);
+global Augite as Stone = Stone("augite", none, defaultVariants);
+global Diopside as Stone = Stone("diopside", none, defaultVariants);
+global Enstatite as Stone = Stone("enstatite", none, defaultVariants);
+global Fayalite as Stone = Stone("fayalite", none, defaultVariants);
+global Forsterite as Stone = Stone("forsterite", none, defaultVariants);
+global Lunastone as Stone = Stone("lunastone", none, defaultVariants);
+global Marstone as Stone = Stone("marstone", none, defaultVariants);
+global MercuryStone as Stone = Stone("mercurystone", none, defaultVariants);
+global Oldhamite as Stone = Stone("oldhamite", none, defaultVariants);
+global Orthoclase as Stone = Stone("orthoclase", none, defaultVariants);
+global Orthopyroxene as Stone = Stone("orthopyroxene", none, defaultVariants);
+global Pigeonite as Stone = Stone("pigeonite", none, defaultVariants);
+global Plagioclase as Stone = Stone("plagioclase", none, defaultVariants);
+global Tephroite as Stone = Stone("tephroite", none, defaultVariants);
+global Troilite as Stone = Stone("troilite", none, defaultVariants);
+global Aegirine as Stone = Stone("aegirine", none, defaultVariants);
+//Jovian stone types
+global Jobsidian as Stone = Stone("jobsidian", COLORS.keys, defaultnocobbleVariants);
+Jobsidian.setHardness(50.0);
+Jobsidian.setResistance(1200.0);
+global Jovianite as Stone = Stone("jovianite", COLORS.keys, defaultVariants);
 
 // Unknown
 global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
@@ -127,8 +137,8 @@ global Violecite as Stone = Stone("violecite", COLORS.keys, defaultnocobbleVaria
 global Ammolite as Stone = Stone("ammolite", none, OverworldVariants);
 rhRep(Ammolite, "h", 1);
 
-global Apacherhyolite as Stone = Stone("apacherhyolite", none, OverworldVariants);
-rhRep(Apacherhyolite, "h", 0);
+//apacherhyolite is a 2 color stone type. the rockhounding rocks stone is completely replaced
+global Apacherhyolite as Stone = Stone("apacherhyolite", c101, defaultVariants);
 
 global Apatite as Stone = Stone("apatite", none, OverworldVariants);
 rhRep(Apatite, "h", 14);
@@ -247,6 +257,27 @@ rhRep(Wonderstone, "h", 12);
 
 global Zoisite as Stone = Stone("zoisite", none, OverworldVariants);
 rhRep(Zoisite, "d", 6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 for id, stone in STONES {
     log.trace(`🪨 Stone *${stone.getName()}* has ${stone.colors.length} colors and ${stone.textureVariants.length} texture variants. (total: ${stone.colors.length * stone.textureVariants.length} blocks)`, "preinit");

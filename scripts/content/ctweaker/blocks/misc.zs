@@ -33,12 +33,6 @@ phosphorusblock.setToolClass("pickaxe");
 phosphorusblock.setToolLevel(0);
 phosphorusblock.register();
 
-var phosphorusore = VanillaFactory.createBlock("phosphorusore", <blockmaterial:rock>);
-phosphorusore.setBlockHardness(3.0);
-phosphorusore.setBlockResistance(3.0);
-phosphorusore.setToolLevel(0);
-phosphorusore.register();
-
 var rottenfleshblock = VanillaFactory.createBlock("rottenfleshblock", <blockmaterial:sponge>);
 rottenfleshblock.setBlockHardness(0.5);
 rottenfleshblock.setBlockResistance(2.5);

@@ -8,6 +8,7 @@ import mods.contenttweaker.Block;
 import scripts.content.ctweaker.blocks.gems.trim;
 
 val metals as string[] = [
+    "bismuth",
     "bronze",
     "electrum",
     "hepatizon",
