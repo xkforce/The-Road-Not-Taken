@@ -55,3 +55,6 @@ icon.png
 config/Loot Overhaul/Useful Info/
 config/dimensionalcontrol/documentation/
 config/multimob/modInformation/
+config/tool_progression/blocks.cfg
+config/tool_progression/materials.cfg
+config/tool_progression/tools.cfg
