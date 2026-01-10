@@ -27,8 +27,13 @@ for stonetype in STONES {
             var newBlock as Block = VanillaFactory.createBlock(base, <blockmaterial:rock>);
             newBlock.setBlockHardness(stone.hardness);
             newBlock.setBlockResistance(stone.resistance);
+            if (stone.hasFlag("--transparent")) {
+                newBlock.blockLayer = "TRANSLUCENT";
+                newBlock.lightOpacity = 0;
+                newBlock.translucent = true;
+            }
             newBlock.setToolClass("pickaxe");
-            newBlock.setToolLevel(0);
+            newBlock.setToolLevel(stone.toolLevel);
             newBlock.register();
         }
     }

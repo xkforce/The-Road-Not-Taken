@@ -15,6 +15,8 @@ zenClass Stone {
     static NO_SUB_BLOCKS as string[] = ["chiseledbrick", "mossychiseledbrick", "debossed", "mossydebossed"];
 
     var id as string = "";
+    var toolLevel as int = 0;
+    var toolClass as string = "pickaxe";
     var resistance as float = 10.0 as float;
     var hardness as float = 1.5 as float;
     var colors as string[] = [];
@@ -130,6 +132,31 @@ zenClass Stone {
     function setResistance(_resistance as float) as void {
         resistance = _resistance;
         log.trace(`🔧 Setting resistance of stone *${id}* to *${resistance}*`, "preinit");
+    }
+
+    /**
+     * Sets the tool level of the stone.
+     * - 0 = wood
+     * - 1 = stone
+     * - 2 = iron
+     * - 3 = diamond
+     * @param _toolLevel The tool level to set.
+     */
+    function setToolLevel(_toolLevel as int) as void {
+        toolLevel = _toolLevel;
+        log.trace(`🔧 Setting tool level of stone *${id}* to *${toolLevel}*`, "preinit");
+    }
+
+    /**
+     * Sets the tool class of the stone.
+     * - pickaxe
+     * - shovel
+     * - axe
+     * @param _toolClass The tool class to set.
+     */
+    function setToolClass(_toolClass as string) as void {
+        toolClass = _toolClass;
+        log.trace(`🔧 Setting tool class of stone *${id}* to *${toolClass}*`, "preinit");
     }
 
     // External Functions
@@ -373,8 +400,16 @@ zenClass Stone {
         }
         val output as IItemStack = item(itemKey(color, texturevariant));
         val oredict as IOreDictEntry = ore(id);
+        if (hasFlag("--dragonProof")) {
+            ore("proofEnderDragon").add(output);
+            log.trace(`🔧 Adding *${getName()}* to the *proofEnderDragon* oredict entry.`);
+        }
+        if (hasFlag("--witherProof")) {
+            ore("proofWither").add(output);
+            log.trace(`🔧 Adding *${getName()}* to the *proofWither* oredict entry.`);
+        }
         if (oredict.items has output) {
-            log.warn(`<ore:${id}> already contains ${getName()}!`);
+            log.info(`<ore:${id}> already contains ${getName()}!`);
             return;
         }
         oredict.add(output);

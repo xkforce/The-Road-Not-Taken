@@ -35,6 +35,7 @@ function rhRep(rock as Stone, letter as string, meta as int, color as string = "
 global Andesite as Stone = Stone("andesite", COLORS.keys, OverworldVariants);
 Andesite.addReplacement("minecraft:stone:5", "indian_silk", " ");
 Andesite.addReplacement("minecraft:stone:6", "indian_silk", "polished");
+
 global Concrete as Stone = Stone("concrete", COLORS_VANILLA, defaultnocobbleVariants);
 for i in 0 .. 16 {
     Concrete.addReplacement(`minecraft:concrete:${i}`, minecraftColors[i], " ");
@@ -43,6 +44,7 @@ for i in 0 .. 16 {
 global Diorite as Stone = Stone("diorite", COLORS.keys, OverworldVariants);
 Diorite.addReplacement("minecraft:stone:3", "iron_fist", " ");
 Diorite.addReplacement("minecraft:stone:4", "iron_fist", "polished");
+
 global Granite as Stone = Stone("granite", COLORS.keys, OverworldVariants);
 Granite.addReplacement("minecraft:stone:1", "pink", " ");
 Granite.addReplacement("minecraft:stone:2", "pink", "polished");
@@ -51,15 +53,23 @@ global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariant
 Obsidian.addReplacement("minecraft:obsidian", "black", " ");
 Obsidian.setHardness(50.0);
 Obsidian.setResistance(1200.0);
+Obsidian.addFlag("--dragonProof");
+Obsidian.setToolLevel(3);
+
 global TransparentObsidian as Stone = Stone("transparentobsidian", COLORS.keys, defaultnocobbleVariants);
 //transparent obsidian should be completely transparent like glass
 //jobsidian, obsidian and transparent obsidian should be in ore:obsidian
 TransparentObsidian.setHardness(50.0);
 TransparentObsidian.setResistance(1200.0);
+TransparentObsidian.addFlag("--dragonProof");
+TransparentObsidian.addFlag("--transparent");
+TransparentObsidian.setToolLevel(3);
+
 global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
 Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "fourxfour");
+
 global Sandstone as Stone = Stone("sandstone", mergeStringArray([COLORS.keys, none]), sandstoneVariants);
 Sandstone.addFlag("--onlyBlocks");
 
@@ -76,6 +86,7 @@ for i in 0 .. 16 {
 }
 global PolishedStone as Stone = Stone("polishedstone", none, defaultnocobbleVariants);
 PolishedStone.addReplacement("quark:polished_stone", " ", " ");
+
 global Wool as Stone = Stone("wool", COLORS.keys, none);
 Wool.addFlag("--onlyBlocks");
 for i in 0 .. 16 {
@@ -95,8 +106,11 @@ Purpur.addReplacement("minecraft:purpur_pillar", "super_pink", "pillar");
 // global BlackStone as Stone = Stone("blackstone", none, none);
 // BlackStone.setHardness(6.0);
 global CryingObsidian as Stone = Stone("cryingobsidian", c101, defaultnocobbleVariants);
+CryingObsidian.setToolLevel(3);
+
 global NetherQuartz as Stone = Stone("netherquartz", COLORS_VANILLA, [" ", "chiseled", "pillar", "polished"]);
 NetherQuartz.addFlag("--onlyBlocks");
+
 global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
 global NetherStone as Stone = Stone("netherstone", COLORS.keys, mergeStringArray([defaultnocobbleVariants, ["gilded"]]));
 
@@ -123,10 +137,13 @@ global Plagioclase as Stone = Stone("plagioclase", none, defaultVariants);
 global Tephroite as Stone = Stone("tephroite", none, defaultVariants);
 global Troilite as Stone = Stone("troilite", none, defaultVariants);
 global Aegirine as Stone = Stone("aegirine", none, defaultVariants);
+
 //Jovian stone types
 global Jobsidian as Stone = Stone("jobsidian", COLORS.keys, defaultnocobbleVariants);
 Jobsidian.setHardness(50.0);
 Jobsidian.setResistance(1200.0);
+Jobsidian.addFlag("--transparent");
+Jobsidian.setToolLevel(3);
 global Jovianite as Stone = Stone("jovianite", COLORS.keys, defaultVariants);
 
 // Unknown
@@ -257,27 +274,6 @@ rhRep(Wonderstone, "h", 12);
 
 global Zoisite as Stone = Stone("zoisite", none, OverworldVariants);
 rhRep(Zoisite, "d", 6);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 for id, stone in STONES {
     log.trace(`🪨 Stone *${stone.getName()}* has ${stone.colors.length} colors and ${stone.textureVariants.length} texture variants. (total: ${stone.colors.length * stone.textureVariants.length} blocks)`, "preinit");
