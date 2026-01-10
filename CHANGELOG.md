@@ -17,6 +17,7 @@ _Whenever we get there..._
 - all custom functions and classes now have documentation
 - a README.md file in the scripts folder, explaining how Enderman structured the scripts
 - all scripts now respect the replacement system of the stone class
+- the stone class now supports more flags
 
 ### Changes
 
@@ -32,6 +33,7 @@ _Whenever we get there..._
 
 - a lot of edge cases that would throw random errors instead of properly handling them
 - regenerated the resources/contenttweaker/blockstates/ directory to clear out any old files
+- EMT boss proof tweak throwing errors, because _someone_ insisted on putting contenttweaker block IDs there instead of rading the description, which states to use the oreDict instead _sigh_
 
 ## [0.0.1] - 2026-01-01
 
