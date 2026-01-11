@@ -70,7 +70,18 @@ Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
 Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "fourxfour");
 
-global Sandstone as Stone = Stone("sandstone", mergeStringArray([COLORS.keys, none]), sandstoneVariants);
+global Sandstone as Stone = Stone("sandstone", COLORS.keys, sandstoneVariants);
+Sandstone.addReplacement("minecraft:sandstone:0", "spaetzel_yellow", " ");
+Sandstone.addReplacement("minecraft:sandstone:1", "spaetzel_yellow", "carvedcreeper");
+Sandstone.addReplacement("minecraft:sandstone:2", "spaetzel_yellow", "cut");
+Sandstone.addReplacement("quark:sandstone_new:0", "spaetzel_yellow", "polished");
+Sandstone.addReplacement("minecraft:red_sandstone:0", "red", " ");
+Sandstone.addReplacement("minecraft:red_sandstone:1", "red", "wither");
+Sandstone.addReplacement("minecraft:red_sandstone:2", "red", "cut");
+Sandstone.addReplacement("quark:sandstone_new:2", "red", "polished");
+Sandstone.addReplacement("biomesoplenty:white_sandstone:0", "white", " ");
+Sandstone.addReplacement("biomesoplenty:white_sandstone:1", "white", "carvedzombie");
+Sandstone.addReplacement("biomesoplenty:white_sandstone:2", "white", "cut");
 Sandstone.addFlag("--onlyBlocks");
 
 // Misc
@@ -95,6 +106,7 @@ for i in 0 .. 16 {
 
 // End Stones
 global EndStone as Stone = Stone("endstone", COLORS.keys, defaultnocobbleVariants);
+EndStone.addReplacement("minecraft:end_stone:0", "spaetzel_yellow", " ");
 global EnderStone as Stone = Stone("enderstone", COLORS.keys, defaultnocobbleVariants);
 global Flavolite as Stone = Stone("flavolite", COLORS.keys, defaultnocobbleVariants);
 global Purpur as Stone = Stone("purpur", COLORS.keys, [" ", "pillar"]);
