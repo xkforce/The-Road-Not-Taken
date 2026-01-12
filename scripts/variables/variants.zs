@@ -38,7 +38,7 @@ static sandstoneVariants as string[] = [
     "archerleft", "archerright", "armsdown", "armsup", "axeleft",
     "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper",
     "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft",
-    "chibicreeperright", "dogleft", "dogright", "explorerleft", "explorerright",
+    "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright",
     "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart",
     "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright",
     "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft",

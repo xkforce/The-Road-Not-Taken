@@ -69,7 +69,7 @@ Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
 Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "fourxfour");
 
-global Sandstone as Stone = Stone("sandstone", COLORS.keys, mergeStringArray([none, ["cut", "polished"], sandstoneVariants]));
+global Sandstone as Stone = Stone("sandstone", COLORS.keys, mergeStringArray([none, ["polished"], sandstoneVariants]));
 Sandstone.addReplacement("minecraft:sandstone:0", "spaetzel_yellow", " ");
 Sandstone.addReplacement("minecraft:sandstone:1", "spaetzel_yellow", "carvedcreeper");
 Sandstone.addReplacement("minecraft:sandstone:2", "spaetzel_yellow", "cut");
@@ -90,7 +90,7 @@ for c in COLORS.keys {
 }
 
 // Misc
-global HardenedClay as Stone = Stone("hardenedclay", mergeStringArray([none, COLORS_VANILLA]), defaultnocobbleVariants);
+global HardenedClay as Stone = Stone("hardenedclay", mergeStringArray([none, COLORS.keys]), defaultnocobbleVariants);
 for i in 0 .. 16 {
     HardenedClay.addReplacement(`minecraft:hardened_clay:${i}`, minecraftColors[i], " ");
     // screw you rockhounding rocks for using the reversed colors

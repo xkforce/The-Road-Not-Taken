@@ -1,0 +1,54 @@
+{
+	"populate": {
+
+	"amethyst": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:amethystore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-15,
+				-14,
+				1,
+				185,
+				186,
+				201
+				]
+			}
+		},
+	
+		"citrine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:citrineore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-15,
+				-14,
+				1,
+				185,
+				186,
+				201
+				]
+			}
+		}
+   }
+}

@@ -20,7 +20,17 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-4,
+				-3,
+				-1,
+				196,
+				197,
+				199
+				]
+			}
 		},
 
 		"quartz": {
@@ -43,7 +53,17 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-4,
+				-3,
+				-1,
+				196,
+				197,
+				199
+				]
+			}
 		},
 		
 		"nethergold": {
@@ -66,7 +86,17 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-4,
+				-3,
+				-1,
+				196,
+				197,
+				199
+				]
+			}
 		},
 		
 		"silver": {
@@ -89,7 +119,17 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-4,
+				-3,
+				-1,
+				196,
+				197,
+				199
+				]
+			}
 		},
 		
 		"electrum": {
@@ -112,7 +152,17 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-4,
+				-3,
+				-1,
+				196,
+				197,
+				199
+				]
+			}
 		}
    }
 }
