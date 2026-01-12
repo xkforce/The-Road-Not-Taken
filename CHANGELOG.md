@@ -28,6 +28,7 @@ _Whenever we get there..._
 - updated and refactored the README.md file
 - updated the EMT modpack.cfg to use the modpack data and enable some of it's main menu buttons
 - refactored Rockhounding Rocks registry
+- replaced world primers functionality with ZenScript events
 
 ### Fixed
 
