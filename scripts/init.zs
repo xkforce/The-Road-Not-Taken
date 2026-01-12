@@ -76,7 +76,7 @@ zenClass Log {
     */
     function isStage(loader as string) as bool {
         val stage as string = ZenUtils.currentLoader();
-        return stage == loader;
+        return isNull(stage) || stage == loader.toLowerCase();
     }
 
     /** Gets the current time.
@@ -103,7 +103,8 @@ zenClass Log {
     * @return The formatted message.
     */
     function rawLog(icon as string, message as string) as string {
-        return `[${time()}][${ZenUtils.currentLoader().toUpperCase()}][${icon}]${msg(message)}`;
+        val load as string = isNull(ZenUtils.currentLoader()) ? "RUNNING" : ZenUtils.currentLoader().toUpperCase();
+        return `[${time()}][${load}][${icon}]${msg(message)}`;
     }
 
     /**
