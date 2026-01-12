@@ -1,5 +1,5 @@
 #loader crafttweaker
-#modloaded biomesoplenty
+#modloaded biomesoplenty bblsom
 #priority 1
 
 recipes.addShapeless(<minecraft:dye:5>, [<biomesoplenty:flower_0:8>]);

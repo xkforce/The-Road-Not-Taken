@@ -21,24 +21,31 @@ for stonetype in STONES {
         continue;
     }
     if (stone.hasFlag("--onlyBlocks")) {
-        log.trace(`Found *--onlyBlocks* flag for ${stonetype}! No additional blocks will be added.`);
+        for addi in stone.specialAdditions["stairs"] {
+            GenericBlock.createStairs(`${addi}stairs`, <blockstate:minecraft:stone_stairs>).setStrength(stone.hardness, stone.resistance).register();
+        }
+
+        for addi in stone.specialAdditions["slab"] {
+            GenericBlock.createSlab(rock, `${addi}slab`).setStrength(stone.hardness, stone.resistance).register();
+        }
+        /*
+        for add_wall in stone.specialAdditions["wall"] {
+            val base as string = stone.registryKey(add_wall[0], add_wall[1]);
+            val wall as string = base + "wall";
+            GenericBlock.createFence(rock, wall).setStrength(stone.hardness, stone.resistance).register();
+        }
+        */
         continue;
     }
-    val vars as string[] = filterStringArray(stone.textureVariants, [["chiseledbrick", "mossychiseledbrick", "debossed", "mossydebossed"]]);
+    val vars as string[] = filterStringArray(stone.textureVariants, [Stone.NO_SUB_BLOCKS]);
     for texturevariant in vars {
         for color in stone.colors {
             val base as string = stone.registryKey(color, texturevariant);
-            val hardness as float = stone.hardness;
-            val resistance as float = stone.resistance;
-
-            val stair as string = base + "stairs";
-            GenericBlock.createStairs(stair, <blockstate:minecraft:stone_stairs>).setStrength(hardness, resistance).register();
-
-            val slab as string = base + "slab";
-            GenericBlock.createSlab(rock, slab).setStrength(hardness, resistance).register();
-
-            // val wall as string = base + "wall";
-            // GenericBlock.createFence(rock, wall).setStrength(hardness, resistance).register();
+                GenericBlock.createStairs(`${base}stairs`, <blockstate:minecraft:stone_stairs>).setStrength(stone.hardness, stone.resistance).register();
+                GenericBlock.createSlab(rock, `${base}slab`).setStrength(stone.hardness, stone.resistance).register();
+        /*
+                GenericBlock.createFence(rock, `${base}wall`).setStrength(stone.hardness, stone.resistance).register();
+        */
         }
     }
 }

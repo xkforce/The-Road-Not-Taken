@@ -11,7 +11,7 @@ static defaultVariants as string[] = mergeStringArray([none, [
     "crackedshortbrick",
     "debossed",
     "polished",
-    "shortbrick"
+    "shortbrick",
 ]]);
 
 static mossyVariants as string[] = [
@@ -34,13 +34,13 @@ static OverworldVariants as string[] = mergeStringArray([defaultVariants, mossyV
 
 static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, [["cobblestone"]]);
 
-static sandstoneVariants as string[] = mergeStringArray([none, [
+static sandstoneVariants as string[] = [
     "archerleft", "archerright", "armsdown", "armsup", "axeleft",
     "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper",
     "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft",
-    "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright",
+    "chibicreeperright", "dogleft", "dogright", "explorerleft", "explorerright",
     "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart",
     "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright",
     "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft",
     "waveright", "wither"
-]]);
+];

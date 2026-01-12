@@ -52,7 +52,7 @@ zenClass ItemString {
      * @return True if the mod is loaded, false otherwise.
      */
     function modLoaded() as bool {
-        return loadedMods has mod;
+        return loadedMods has mod || mod == "ore";
     }
 
     /**

@@ -15,6 +15,7 @@ zenClass Stone {
     static NO_SUB_BLOCKS as string[] = ["chiseledbrick", "mossychiseledbrick", "debossed", "mossydebossed"];
 
     var id as string = "";
+    var oreName as string = "";
     var toolLevel as int = 0;
     var toolClass as string = "pickaxe";
     var resistance as float = 10.0 as float;
@@ -23,6 +24,7 @@ zenClass Stone {
     var textureVariants as string[] = [];
     var flags as string[] = [];
     var replacements as string[][string]$orderly = {};
+    var specialAdditions as string[][string]$orderly = {"stairs": [], "slab": [], "wall": []};
 
     /**
      * Creates a new stone.
@@ -34,6 +36,7 @@ zenClass Stone {
         id = _id;
         colors = _colors;
         textureVariants = _textureVariants;
+        oreName = id;
         stones[id] = this;
         log.trace(`🗿 Registering new stone: *${id}*`, "preinit");
     }
@@ -98,6 +101,14 @@ zenClass Stone {
      * @return The replacement of the stone.
      */
      function getReplacement(color as string, textureVariant as string) as string {
+        if (colors.indexOf(color) == -1) {
+            log.error(`Color *${color}* is not a valid color for stone *${id}*!`);
+            return null;
+        }
+        if (textureVariants.indexOf(textureVariant) == -1) {
+            log.error(`Texture variant *${textureVariant}* is not a valid texture variant for stone *${id}*!`);
+            return null;
+        }
         for replacement, inputs in replacements {
             if (inputs[0] == color && inputs[1] == textureVariant) {
                 return replacement;
@@ -114,6 +125,29 @@ zenClass Stone {
      */
     function hasReplacement(color as string, textureVariant as string) as bool {
         return !isNull(getReplacement(color, textureVariant));
+    }
+
+    /**
+     * Adds a special addition to the stone.
+     * @param color The color of the stone.
+     * @param textureVariant The texture variant of the stone.
+     * @param addition The addition to add.
+     */
+    function addSpecialAddition(color as string, textureVariant as string, addition as string) as void {
+        if (isNull(specialAdditions[addition])) {
+            log.error(`Addition *${addition}* is not a valid addition for stone *${id}*!`);
+            return;
+        }
+        if (colors.indexOf(color) == -1) {
+            log.error(`Color *${color}* is not a valid color for stone *${id}*!`);
+            return;
+        }
+        if (textureVariants.indexOf(textureVariant) == -1) {
+            log.error(`Texture variant *${textureVariant}* is not a valid texture variant for stone *${id}*!`);
+            return;
+        }
+        specialAdditions[addition].add(registryKey(color, textureVariant));
+        log.trace(`🔧 Adding *${addition}* to stone *${registryKey(color, textureVariant)}*`, "preinit");
     }
 
     /**
@@ -389,6 +423,15 @@ zenClass Stone {
     }
 
     /**
+     * Overrides the ore name of the stone.
+     * @param name The new ore name.
+     */
+    function overrideOreName(name as string) as void {
+        oreName = name;
+        log.trace(`🔧 Overriding ore name of stone *${id}* to *${name}*`, "preinit");
+    }
+
+    /**
      * Adds a stone to the oredict.
      * @param color The color of the stone.
      * @param texturevariant The texture variant of the stone.
@@ -399,7 +442,7 @@ zenClass Stone {
             return;
         }
         val output as IItemStack = item(itemKey(color, texturevariant));
-        val oredict as IOreDictEntry = ore(id);
+        val oredict as IOreDictEntry = ore(oreName);
         if (hasFlag("--dragonProof")) {
             ore("proofEnderDragon").add(output);
             log.trace(`🔧 Adding *${getName()}* to the *proofEnderDragon* oredict entry.`);
@@ -409,7 +452,7 @@ zenClass Stone {
             log.trace(`🔧 Adding *${getName()}* to the *proofWither* oredict entry.`);
         }
         if (oredict.items has output) {
-            log.info(`<ore:${id}> already contains ${getName()}!`);
+            log.info(`<ore:${oreName}> already contains ${getName()}!`);
             return;
         }
         oredict.add(output);

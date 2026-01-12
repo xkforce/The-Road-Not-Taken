@@ -57,20 +57,19 @@ Obsidian.addFlag("--dragonProof");
 Obsidian.setToolLevel(3);
 
 global TransparentObsidian as Stone = Stone("transparentobsidian", COLORS.keys, defaultnocobbleVariants);
-//transparent obsidian should be completely transparent like glass
-//jobsidian, obsidian and transparent obsidian should be in ore:obsidian
 TransparentObsidian.setHardness(50.0);
 TransparentObsidian.setResistance(1200.0);
 TransparentObsidian.addFlag("--dragonProof");
 TransparentObsidian.addFlag("--transparent");
 TransparentObsidian.setToolLevel(3);
+TransparentObsidian.overrideOreName("obsidian");
 
 global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
 Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "fourxfour");
 
-global Sandstone as Stone = Stone("sandstone", COLORS.keys, sandstoneVariants);
+global Sandstone as Stone = Stone("sandstone", COLORS.keys, mergeStringArray([none, ["cut", "polished"], sandstoneVariants]));
 Sandstone.addReplacement("minecraft:sandstone:0", "spaetzel_yellow", " ");
 Sandstone.addReplacement("minecraft:sandstone:1", "spaetzel_yellow", "carvedcreeper");
 Sandstone.addReplacement("minecraft:sandstone:2", "spaetzel_yellow", "cut");
@@ -83,6 +82,12 @@ Sandstone.addReplacement("biomesoplenty:white_sandstone:0", "white", " ");
 Sandstone.addReplacement("biomesoplenty:white_sandstone:1", "white", "carvedzombie");
 Sandstone.addReplacement("biomesoplenty:white_sandstone:2", "white", "cut");
 Sandstone.addFlag("--onlyBlocks");
+for c in COLORS.keys {
+    for v in ["stairs", "slab"] {
+        Sandstone.addSpecialAddition(c, " ", v);
+        Sandstone.addSpecialAddition(c, "polished", v);
+    }
+}
 
 // Misc
 global HardenedClay as Stone = Stone("hardenedclay", mergeStringArray([none, COLORS_VANILLA]), defaultnocobbleVariants);
@@ -95,6 +100,7 @@ for i in 0 .. 16 {
     HardenedClay.addReplacement(`rockhounding_rocks:deboss_clay:${i}`, revColors[i], "debossed");
     HardenedClay.addReplacement(`rockhounding_rocks:carved_clay:${i}`, revColors[i], "chiseledbrick");
 }
+
 global PolishedStone as Stone = Stone("polishedstone", none, defaultnocobbleVariants);
 PolishedStone.addReplacement("quark:polished_stone", " ", " ");
 
@@ -107,6 +113,7 @@ for i in 0 .. 16 {
 // End Stones
 global EndStone as Stone = Stone("endstone", COLORS.keys, defaultnocobbleVariants);
 EndStone.addReplacement("minecraft:end_stone:0", "spaetzel_yellow", " ");
+
 global EnderStone as Stone = Stone("enderstone", COLORS.keys, defaultnocobbleVariants);
 global Flavolite as Stone = Stone("flavolite", COLORS.keys, defaultnocobbleVariants);
 global Purpur as Stone = Stone("purpur", COLORS.keys, [" ", "pillar"]);
@@ -130,6 +137,7 @@ global NetherStone as Stone = Stone("netherstone", COLORS.keys, mergeStringArray
 global Basalt as Stone = Stone("basalt", COLORS.keys, defaultnocobbleVariants);
 Basalt.setHardness(1.25);
 Basalt.setResistance(4.2);
+
 global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
 global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
 global VenusStone as Stone = Stone("venusstone", COLORS.keys, defaultVariants);
@@ -156,6 +164,8 @@ Jobsidian.setHardness(50.0);
 Jobsidian.setResistance(1200.0);
 Jobsidian.addFlag("--transparent");
 Jobsidian.setToolLevel(3);
+Jobsidian.overrideOreName("obsidian");
+
 global Jovianite as Stone = Stone("jovianite", COLORS.keys, defaultVariants);
 
 // Unknown

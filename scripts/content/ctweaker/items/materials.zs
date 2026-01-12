@@ -12,7 +12,7 @@ import scripts.functions.contenttweaker.creativeTab;
 import scripts.variables.materials.baseMaterials;
 import scripts.variables.materials.additionalMaterials;
 
-log.info("[🚧 MODPACK_SETUP 🚧] 🪨 Creating materials via ContentTweaker...");
+log.info("[🚧 MODPACK_SETUP 🚧] 🪻 Creating materials via ContentTweaker...");
 
 for material in baseMaterials {
     var base = VanillaFactory.createItem(material);
