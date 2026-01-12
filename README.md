@@ -1,8 +1,8 @@
 # 🌲 The Road Not Taken
 
-*Building blocks, terrain, magic, tools, armor, weapons, music — and a deeper sense of immersion.*
+*Building blocks, terrain, magic, tools, armor, weapons, music - and a deeper sense of immersion.*
 
-**The Road Not Taken** is a lovingly crafted Minecraft **1.12** modpack that explores a different evolutionary path for the game — one that feels *familiar*, *grounded*, and *distinctly Minecraft*, without chasing the design of newer versions.
+**The Road Not Taken** is a lovingly crafted Minecraft **1.12** modpack that explores a different evolutionary path for the game - one that feels *familiar*, *grounded*, and *distinctly Minecraft*, without chasing the design of newer versions.
 
 ## 📦 Get the Modpack
 
@@ -22,7 +22,7 @@ Expect:
 - Expanded progression without modern feature bloat
 - Selective backports to smooth rough edges
 
-The goal is *depth over spectacle* — evolution, not reinvention.
+The goal is *depth over spectacle* - evolution, not reinvention.
 
 ### 👾 CraftTweaker
 
@@ -42,7 +42,7 @@ Explore entirely new worlds inspired by **NASA imagery** and **pulp sci‑fi**:
 - **Luna** (The Moon)
 - **Mars**
 - **Titan**
-- **Venus** — a rain‑soaked jungle/swamp planet filled with dangerous creatures and exotic plants
+- **Venus** - a rain‑soaked jungle/swamp planet filled with dangerous creatures and exotic plants
 - Several additional, mysterious realms
 
 Each dimension has its own atmosphere, materials, and challenges.
@@ -60,8 +60,8 @@ New materials expand progression and specialization:
 ### 🧪 Potions & Brewing
 
 - New potion types
-- **Potion mugs** — split effects into shorter durations
-- **Honey potions** — can be stored and reverted from blocks, just like honey in later versions
+- **Potion mugs** - split effects into shorter durations
+- **Honey potions** - can be stored and reverted from blocks, just like honey in later versions
 
 ### 🐘 Mobs
 
