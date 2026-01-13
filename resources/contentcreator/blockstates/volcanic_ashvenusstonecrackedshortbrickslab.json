@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/volcanic_ashvenusstonecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/volcanic_ashvenusstonecrackedshortbrickslab",
+      "side": "contentcreator:blocks/volcanic_ashvenusstonecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/spaetzle_yellowobsidianjovianitepolishedslab",
+      "bottom": "contentcreator:blocks/spaetzle_yellowobsidianjovianitepolishedslab",
+      "side": "contentcreator:blocks/spaetzle_yellowobsidianjovianitepolishedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

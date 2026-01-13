@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/kryptonite_greenandesitejovianitecrackedbrickslab",
+      "bottom": "contentcreator:blocks/kryptonite_greenandesitejovianitecrackedbrickslab",
+      "side": "contentcreator:blocks/kryptonite_greenandesitejovianitecrackedbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

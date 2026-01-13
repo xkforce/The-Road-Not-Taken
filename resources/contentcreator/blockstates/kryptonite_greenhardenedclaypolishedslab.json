@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/kryptonite_greenhardenedclaypolishedslab",
+      "bottom": "contentcreator:blocks/kryptonite_greenhardenedclaypolishedslab",
+      "side": "contentcreator:blocks/kryptonite_greenhardenedclaypolishedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

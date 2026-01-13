@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/lightbluemagentaapacherhyolitecrackedbrickslab",
+      "bottom": "contentcreator:blocks/lightbluemagentaapacherhyolitecrackedbrickslab",
+      "side": "contentcreator:blocks/lightbluemagentaapacherhyolitecrackedbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

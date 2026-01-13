@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/spaetzle_yellowandesitejovianitecobblestoneslab",
+      "bottom": "contentcreator:blocks/spaetzle_yellowandesitejovianitecobblestoneslab",
+      "side": "contentcreator:blocks/spaetzle_yellowandesitejovianitecobblestoneslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

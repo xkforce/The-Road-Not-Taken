@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/spaetzle_yellowrutilecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/spaetzle_yellowrutilecrackedshortbrickslab",
+      "side": "contentcreator:blocks/spaetzle_yellowrutilecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

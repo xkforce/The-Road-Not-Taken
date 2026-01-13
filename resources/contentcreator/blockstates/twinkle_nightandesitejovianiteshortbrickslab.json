@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/twinkle_nightandesitejovianiteshortbrickslab",
+      "bottom": "contentcreator:blocks/twinkle_nightandesitejovianiteshortbrickslab",
+      "side": "contentcreator:blocks/twinkle_nightandesitejovianiteshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

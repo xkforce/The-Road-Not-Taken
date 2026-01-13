@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/totally_broccoliandesitemossyshortbrickslab",
+      "bottom": "contentcreator:blocks/totally_broccoliandesitemossyshortbrickslab",
+      "side": "contentcreator:blocks/totally_broccoliandesitemossyshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

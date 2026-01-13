@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/fluorescenceandesitejovianitecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/fluorescenceandesitejovianitecrackedshortbrickslab",
+      "side": "contentcreator:blocks/fluorescenceandesitejovianitecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

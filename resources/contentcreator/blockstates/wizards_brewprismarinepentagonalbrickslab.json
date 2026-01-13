@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/wizards_brewprismarinepentagonalbrickslab",
+      "bottom": "contentcreator:blocks/wizards_brewprismarinepentagonalbrickslab",
+      "side": "contentcreator:blocks/wizards_brewprismarinepentagonalbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/yellowlightgrayapacherhyolitecobblestoneslab",
+      "bottom": "contentcreator:blocks/yellowlightgrayapacherhyolitecobblestoneslab",
+      "side": "contentcreator:blocks/yellowlightgrayapacherhyolitecobblestoneslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

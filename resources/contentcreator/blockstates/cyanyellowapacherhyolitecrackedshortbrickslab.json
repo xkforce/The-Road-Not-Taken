@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/cyanyellowapacherhyolitecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/cyanyellowapacherhyolitecrackedshortbrickslab",
+      "side": "contentcreator:blocks/cyanyellowapacherhyolitecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

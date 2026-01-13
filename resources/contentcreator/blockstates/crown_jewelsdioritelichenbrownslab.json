@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/crown_jewelsdioritelichenbrownslab",
+      "bottom": "contentcreator:blocks/crown_jewelsdioritelichenbrownslab",
+      "side": "contentcreator:blocks/crown_jewelsdioritelichenbrownslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -64,10 +64,10 @@ TransparentObsidian.addFlag("--transparent");
 TransparentObsidian.setToolLevel(3);
 TransparentObsidian.overrideOreName("obsidian");
 
-global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "fourxfour", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
+global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "grid", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
-Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "fourxfour");
+Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "grid");
 
 global Sandstone as Stone = Stone("sandstone", COLORS.keys, mergeStringArray([none, ["polished"], sandstoneVariants]));
 Sandstone.addReplacement("minecraft:sandstone:0", "spaetzel_yellow", " ");
@@ -159,14 +159,13 @@ global Troilite as Stone = Stone("troilite", none, defaultVariants);
 global Aegirine as Stone = Stone("aegirine", none, defaultVariants);
 
 //Jovian stone types
-global Jobsidian as Stone = Stone("jobsidian", COLORS.keys, defaultnocobbleVariants);
-Jobsidian.setHardness(50.0);
-Jobsidian.setResistance(1200.0);
-Jobsidian.addFlag("--transparent");
-Jobsidian.setToolLevel(3);
-Jobsidian.overrideOreName("obsidian");
+global Obsidianjovianite as Stone = Stone("obsidianjovianite", COLORS.keys, defaultnocobbleVariants);
+Obsidianjovianite.setHardness(50.0);
+Obsidianjovianite.setResistance(1200.0);
+Obsidianjovianite.setToolLevel(3);
+Obsidianjovianite.overrideOreName("obsidian");
 
-global Jovianite as Stone = Stone("jovianite", COLORS.keys, defaultVariants);
+global Andesitejovianite as Stone = Stone("andesitejovianite", COLORS.keys, defaultVariants);
 
 // Unknown
 global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
