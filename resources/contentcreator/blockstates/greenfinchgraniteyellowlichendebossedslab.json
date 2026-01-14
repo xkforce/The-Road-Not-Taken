@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/greenfinchgraniteyellowlichendebossedslab",
+      "bottom": "contentcreator:blocks/greenfinchgraniteyellowlichendebossedslab",
+      "side": "contentcreator:blocks/greenfinchgraniteyellowlichendebossedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

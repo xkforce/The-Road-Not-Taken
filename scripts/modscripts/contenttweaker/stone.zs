@@ -5,7 +5,6 @@
 import scripts.variables.misc.hammers;
 import scripts.variables.variants.defaultVariants;
 import scripts.variables.variants.mossyVariants;
-import scripts.variables.variants.lichenVariants;
 
 import scripts.classes.stone.Stone;
 
@@ -40,11 +39,6 @@ for stonetype in STONES {
             stone.craftCovered(color, mossyvariant, mossyvariant.substring(5), "contenttweaker:moss");
         }
 
-        // handle lichen variants
-        for lichenvariant in lichenVariants {
-            stone.craftCovered(color, lichenvariant, " ", `contenttweaker:${lichenvariant.substring(6)}lichen`);
-        }
-
         changeDrop(stone, color);
     }
 }
@@ -65,8 +59,9 @@ function changeDrop(stone as Stone, color as string) as void {
     for variant in intersectStringArray(stone.textureVariants, mossyVariants) {
         replaceToolDrops(stone.itemKey(color, variant), hammers, [cobblestone, "contenttweaker:moss"]);
     }
-    // handle lichen variants
+    /* handle lichen variants
     for variant in intersectStringArray(stone.textureVariants, lichenVariants) {
         replaceToolDrops(stone.itemKey(color, variant), hammers, [cobblestone, `contenttweaker:${variant.substring(6)}lichen`]);
     }
+    */
 }

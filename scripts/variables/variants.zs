@@ -23,14 +23,7 @@ static mossyVariants as string[] = [
     "mossyshortbrick",
 ];
 
-static lichenVariants as string[] = [
-    "lichenbrown",
-    "lichenorange",
-    "lichenred",
-    "lichenyellow",
-];
-
-static OverworldVariants as string[] = mergeStringArray([defaultVariants, mossyVariants, lichenVariants]);
+static OverworldVariants as string[] = mergeStringArray([defaultVariants, mossyVariants]);
 
 static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, [["cobblestone"]]);
 

@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/volcanic_ashandesitebrownlichenbrickslab",
+      "bottom": "contentcreator:blocks/volcanic_ashandesitebrownlichenbrickslab",
+      "side": "contentcreator:blocks/volcanic_ashandesitebrownlichenbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

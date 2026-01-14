@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/iron_fistdioriteorangelichenshortbrickslab",
+      "bottom": "contentcreator:blocks/iron_fistdioriteorangelichenshortbrickslab",
+      "side": "contentcreator:blocks/iron_fistdioriteorangelichenshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

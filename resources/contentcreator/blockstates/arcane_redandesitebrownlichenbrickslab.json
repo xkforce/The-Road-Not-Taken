@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/arcane_redandesitebrownlichenbrickslab",
+      "bottom": "contentcreator:blocks/arcane_redandesitebrownlichenbrickslab",
+      "side": "contentcreator:blocks/arcane_redandesitebrownlichenbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

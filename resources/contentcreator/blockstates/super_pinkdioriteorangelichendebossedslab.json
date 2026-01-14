@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/super_pinkdioriteorangelichendebossedslab",
+      "bottom": "contentcreator:blocks/super_pinkdioriteorangelichendebossedslab",
+      "side": "contentcreator:blocks/super_pinkdioriteorangelichendebossedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

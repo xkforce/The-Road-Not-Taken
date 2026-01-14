@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/spicy_purplegraniteyellowlichenchiseledbrickslab",
+      "bottom": "contentcreator:blocks/spicy_purplegraniteyellowlichenchiseledbrickslab",
+      "side": "contentcreator:blocks/spicy_purplegraniteyellowlichenchiseledbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

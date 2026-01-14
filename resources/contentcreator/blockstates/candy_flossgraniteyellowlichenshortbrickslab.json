@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/candy_flossgraniteyellowlichenshortbrickslab",
+      "bottom": "contentcreator:blocks/candy_flossgraniteyellowlichenshortbrickslab",
+      "side": "contentcreator:blocks/candy_flossgraniteyellowlichenshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

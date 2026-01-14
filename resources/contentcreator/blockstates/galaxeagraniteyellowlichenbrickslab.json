@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/galaxeagraniteyellowlichenbrickslab",
+      "bottom": "contentcreator:blocks/galaxeagraniteyellowlichenbrickslab",
+      "side": "contentcreator:blocks/galaxeagraniteyellowlichenbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

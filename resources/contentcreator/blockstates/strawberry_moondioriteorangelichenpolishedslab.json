@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/strawberry_moondioriteorangelichenpolishedslab",
+      "bottom": "contentcreator:blocks/strawberry_moondioriteorangelichenpolishedslab",
+      "side": "contentcreator:blocks/strawberry_moondioriteorangelichenpolishedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

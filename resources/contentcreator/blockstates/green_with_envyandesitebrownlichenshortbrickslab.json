@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/green_with_envyandesitebrownlichenshortbrickslab",
+      "bottom": "contentcreator:blocks/green_with_envyandesitebrownlichenshortbrickslab",
+      "side": "contentcreator:blocks/green_with_envyandesitebrownlichenshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

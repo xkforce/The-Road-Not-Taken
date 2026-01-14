@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/rich_goldgraniteyellowlichendebossedslab",
+      "bottom": "contentcreator:blocks/rich_goldgraniteyellowlichendebossedslab",
+      "side": "contentcreator:blocks/rich_goldgraniteyellowlichendebossedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}
