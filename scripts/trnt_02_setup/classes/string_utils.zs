@@ -8,6 +8,8 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.zenutils.StaticString;
+
 /**
  * A utility class for parsing item strings.
  */
@@ -24,18 +26,22 @@ zenClass ItemString {
     zenConstructor(input as string) {
         itemString = input;
         val parts as string[] = input.toLowerCase().split(":");
-        if (parts.length < 2) {
+        if (parts.length <= 1) {
             LOG.error(`Invalid item string *${input}*.`);
             return;
         }
         mod = parts[0];
         item = parts[1];
-        if (parts.length >= 3) {
+        if (parts.length == 3) {
             if (parts[2] == "*") {
                 meta = 32767;
             } else {
                 meta = parts[2] as int;
             }
+        }
+        if (parts.length > 3) {
+            LOG.error(`Invalid item string *${input}*.`);
+            return;
         }
     }
 
@@ -82,7 +88,10 @@ zenClass ItemString {
      */
     function itemLoaded() as bool {
         if (modLoaded()) {
-            if (mod == "ore" && oreDict.get(`${mod}:${item}`).items.isNotEmpty()) return true;
+            if (mod == "ore") {
+                if (oreDict.get(`${mod}:${item}`).items.isNotEmpty()) LOG.warn(`Accessing an empty oredict entry *${mod}:${item}*.`);
+                return true;
+            }
             if (isNull(silentItem())) {
                 LOG.debug(`Item *${item}* is null, but its mod *${mod}* is loaded.`);
                 return false;

@@ -1,11 +1,13 @@
 #loader crafttweaker
 #priority 1
-#norun
 
 import crafttweaker.item.IItemStack;
+import mods.ctintegration.util.RecipePattern;
 import mods.zenutils.I18n;
 
-static planks as string[] = {
+LOG.info("🩼 Adding stick recipes...");
+
+static planks as string[] = [
     "minecraft:planks:4",
     "pvj:planks_baobab",
     "minecraft:planks:2",
@@ -30,7 +32,7 @@ static planks as string[] = {
     "sugiforest:sugi_planks",
     "biomesoplenty:planks_0:2",
     "biomesoplenty:planks_0:9",
-};
+];
 
 for i, wood in WOOD_TYPES {
     if (WOOD_TYPES.length != planks.length) {
@@ -38,18 +40,20 @@ for i, wood in WOOD_TYPES {
         break;
     }
     if (itemLoaded(`contenttweaker:${wood}stick`) && itemLoaded(planks[i])) {
-        recipes.addShaped(`${wood}stick`, item(`contenttweaker:${wood}stick`) * 4, [
-            [planks[i]],
-            [planks[i]]
-        ]);
+        RecipePattern.init(item(`contenttweaker:${wood}stick`) * 4, ["x", "x"])
+            .setName(`craft_${wood}stick`)
+            .with("x", item(planks[i]))
+            .build();
     } else {
-        LOG.warn(`Mod *${mod}* not loaded or item *contenttweaker:${wood}stick* not found, skipping stick recipe.`);
+        LOG.debug(`🩼 Mod *${mod(planks[i])}* not loaded or item *contenttweaker:${wood}stick* not found, skipping stick recipe.`);
     }
     // proper translation
-    val woodKey as string = I18n.format(`${modpackID}.wood.${wood}.name`);
-    val stickName as string = I18n.format(`${modpackID}.item.stick.name`, woodKey);
+    val woodKey as string = I18n.format(`${MODPACK.id}.wood.${wood}.name`);
+    val stickName as string = I18n.format(`${MODPACK.id}.item.stick.name`, woodKey);
     item(`contenttweaker:${wood}stick`).displayName = stickName;
 
     // add all sticks to the appropiate oredict
-    <ore:stickWood>.add(item(`contenttweaker:${wood}stick`));
+    ore("stickWood").add(item(`contenttweaker:${wood}stick`));
 }
+
+ore("stickWood").remove(item("minecraft:stick"));

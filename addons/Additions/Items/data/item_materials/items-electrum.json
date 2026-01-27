@@ -7,7 +7,7 @@
   "leggings_armor": 4,
   "boots_armor": 2,
   "equip_sound": "minecraft:item.armor.equip_generic",
-  "repair_item": "contenttweaker:electrum",
+  "repair_item": "contenttweaker:electrum_ingot",
   "repair_meta": 32767,
   "type": "armor"
 }

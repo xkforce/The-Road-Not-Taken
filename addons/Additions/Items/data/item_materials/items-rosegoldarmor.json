@@ -7,7 +7,7 @@
   "leggings_armor": 3,
   "boots_armor": 1,
   "equip_sound": "minecraft:item.armor.equip_generic",
-  "repair_item": "contenttweaker:rosegold",
+  "repair_item": "contenttweaker:rosegold_ingot",
   "repair_meta": 32767,
   "type": "armor"
 }

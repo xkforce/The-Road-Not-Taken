@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:meteoriron",
+        "item": "contenttweaker:meteoriron_ingot",
         "damage": "any"
       }
     ]

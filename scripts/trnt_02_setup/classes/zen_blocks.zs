@@ -483,7 +483,7 @@ zenClass ZenBlock {
             LOG.debug(`🔧 Adding *${getName()}* to the *proofWither* oredict entry.`);
         }
         if (oredict.items has output) {
-            LOG.info(`<ore:${oreName}> already contains ${getName()}!`);
+            LOG.debug(`👻 <ore:${oreName}> already contains ${getName()}!`);
             return;
         }
         oredict.add(output);

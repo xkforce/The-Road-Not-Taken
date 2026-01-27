@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:electrum",
+        "item": "contenttweaker:electrum_ingot",
         "damage": "any"
       }
     ]

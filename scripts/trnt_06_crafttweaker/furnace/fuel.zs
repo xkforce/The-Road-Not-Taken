@@ -76,7 +76,7 @@ for burntime, itemList in fuelMap {
         if (itemLoaded(item)) {
             furnace.setFuel(ingredient(item), burntime);
         } else {
-            LOG.warn(`Item *${item}* not loaded; skipping furnace fuel registration for item *${item}*.`);
+            LOG.debug(`Item *${item}* not loaded; skipping furnace fuel registration for item *${item}*.`);
         }
     }
 }

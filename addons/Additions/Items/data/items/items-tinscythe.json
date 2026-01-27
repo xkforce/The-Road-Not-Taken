@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:tin",
+        "item": "contenttweaker:tin_ingot",
         "damage": "any"
       }
     ]

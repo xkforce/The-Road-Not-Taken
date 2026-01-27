@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:silver",
+        "item": "contenttweaker:silver_ingot",
         "damage": "any"
       }
     ]

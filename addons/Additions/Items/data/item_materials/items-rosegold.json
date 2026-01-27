@@ -4,7 +4,7 @@
   "base_tool_durability": 33,
   "efficiency": 12.0,
   "base_attack_damage": 1.0,
-  "repair_item": "contenttweaker:rosegold",
+  "repair_item": "contenttweaker:rosegold_ingot",
   "repair_meta": 32767,
   "type": "tool"
 }

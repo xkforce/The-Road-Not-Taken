@@ -1,9 +1,11 @@
 #loader crafttweaker
 
+import crafttweaker.item.IItemStack;
+
 LOG.info("♻️ Adding furnace recycling recipes...");
 
 static recyclingData as int[string][string]$orderly = {
-    "minecraft:gold_nugget": {
+    "gold": {
         "additions:items-goldchainhelmet": 5,
         "additions:items-goldchainchestplate": 8,
         "additions:items-goldchainleggings": 7,
@@ -18,9 +20,8 @@ static recyclingData as int[string][string]$orderly = {
         "minecraft:golden_pickaxe": 3,
         "minecraft:golden_shovel": 1,
         "minecraft:golden_sword": 2,
-        "contenttweaker:goldplate": 1,
     },
-    "minecraft:iron_nugget": {
+    "iron": {
         "backstab:iron_dagger": 1,
         "minecraft:iron_boots": 4,
         "minecraft:iron_leggings": 7,
@@ -31,9 +32,8 @@ static recyclingData as int[string][string]$orderly = {
         "minecraft:iron_axe": 3,
         "minecraft:iron_pickaxe": 3,
         "minecraft:iron_shovel": 1,
-        "contenttweaker:ironplate": 1,
     },
-    "contenttweaker:bronzenugget": {
+    "bronze": {
         "additions:items-bronzehelmet": 5,
         "additions:items-bronzechestplate": 8,
         "additions:items-bronzeleggings": 7,
@@ -45,9 +45,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-bronzeaxe": 3,
         "additions:items-bronzepickaxe": 3,
         "additions:items-bronzesword": 2,
-        "contenttweaker:bronzeplate": 1,
     },
-    "deeperdepths:material:4": {
+    "copper": {
         "deeperdepths:copper_helmet": 5,
         "deeperdepths:copper_chestplate": 8,
         "deeperdepths:copper_leggings": 7,
@@ -61,7 +60,7 @@ static recyclingData as int[string][string]$orderly = {
         "deeperdepths:copper_sword": 2,
         "contenttweaker:copperplate": 1,
     },
-    "contenttweaker:electrumnugget": {
+    "electrum": {
         "additions:items-electrumhelmet": 5,
         "additions:items-electrumchestplate": 8,
         "additions:items-electrumleggings": 7,
@@ -73,9 +72,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-electrumaxe": 3,
         "additions:items-electrumpickaxe": 3,
         "additions:items-electrumsword": 2,
-        "contenttweaker:electrumplate": 1,
     },
-    "contenttweaker:iridiumnugget": {
+    "iridium": {
         "additions:items-iridiumhelmet": 5,
         "additions:items-iridiumchestplate": 8,
         "additions:items-iridiumleggings": 7,
@@ -87,9 +85,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-iridiumaxe": 3,
         "additions:items-iridiumpickaxe": 3,
         "additions:items-iridiumsword": 2,
-        "contenttweaker:iridiumplate": 1,
     },
-    "contenttweaker:meteorironnugget": {
+    "meteoriron": {
         "additions:items-meteorironhelmet": 5,
         "additions:items-meteorironchestplate": 8,
         "additions:items-meteorironleggings": 7,
@@ -101,9 +98,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-meteorironaxe": 3,
         "additions:items-meteorironpickaxe": 3,
         "additions:items-meteorironsword": 2,
-        "contenttweaker:meteorironplate": 1,
     },
-    "contenttweaker:silvernugget": {
+    "silver": {
         "additions:items-silverhelmet": 5,
         "additions:items-silverchestplate": 8,
         "additions:items-silverleggings": 7,
@@ -115,9 +111,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-silveraxe": 3,
         "additions:items-silverpickaxe": 3,
         "additions:items-silversword": 2,
-        "contenttweaker:silverplate": 1,
     },
-    "contenttweaker:steelnugget": {
+    "steel": {
         "additions:items-steelhelmet": 5,
         "additions:items-steelchestplate": 8,
         "additions:items-steelleggings": 7,
@@ -129,9 +124,8 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-steelaxe": 3,
         "additions:items-steelpickaxe": 3,
         "additions:items-steelsword": 2,
-        "contenttweaker:steelplate": 1,
     },
-    "contenttweaker:tinnugget": {
+    "tin": {
         "additions:items-tinhelmet": 5,
         "additions:items-tinchestplate": 8,
         "additions:items-tinleggings": 7,
@@ -143,7 +137,6 @@ static recyclingData as int[string][string]$orderly = {
         "additions:items-tinaxe": 3,
         "additions:items-tinpickaxe": 3,
         "additions:items-tinsword": 2,
-        "contenttweaker:tinplate": 1,
     },
 };
 
@@ -151,11 +144,10 @@ furnace.remove(<minecraft:gold_nugget>);
 furnace.remove(<minecraft:iron_nugget>);
 
 for output, inputs in recyclingData {
-    if (itemLoaded(output)) {
-        for input, amount in inputs {
-            if (itemLoaded(input)) {
-                furnace.addRecipe(item(output) * amount, item(input), 0.1);
-            }
+    val out as IItemStack = getMaterial("nugget", output);
+    for input, amount in inputs {
+        if (itemLoaded(input)) {
+            furnace.addRecipe(out * amount, item(input), 0.1);
         }
     }
 }

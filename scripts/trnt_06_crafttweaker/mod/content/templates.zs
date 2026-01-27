@@ -3,7 +3,7 @@
 import mods.zenutils.I18n;
 
 for template in VARIANTS.templates {
-    if (itemLoaded(`contenttweaker:${template}template`) == false) {
+    if (!itemLoaded(`contenttweaker:${template}template`)) {
         LOG.error(`Template *${template}template* does not exist!`);
         continue;
     }

@@ -4,7 +4,7 @@
   "base_tool_durability": 33,
   "efficiency": 12.0,
   "base_attack_damage": 0.0,
-  "repair_item": "contenttweaker:silver",
+  "repair_item": "contenttweaker:silver_ingot",
   "repair_meta": 32767,
   "type": "tool"
 }

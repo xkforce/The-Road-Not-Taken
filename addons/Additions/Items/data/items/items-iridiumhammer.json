@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:iridium",
+        "item": "contenttweaker:iridium_ingot",
         "damage": "any"
       }
     ]

@@ -6,14 +6,12 @@ import mods.contenttweaker.Item;
 LOG.info("💎 Creating materials...");
 
 static baseMaterials as string[] = [
-    "amethyst", "aquamarine", "bismuth", "blackdiamond", "bronze", "chocolatediamond", "citrine", "electrum", "hepatizon", "iridium",
-    "meteoriron", "moonstone", "morganite", "opal", "peridot", "rosegold", "ruby", "sapphire", "silver", "steel", "topaz", "tin",
-    "zircon",
+    "amethyst", "aquamarine", "bismuth", "blackdiamond", "chocolatediamond", "citrine", "hepatizon",
+    "moonstone", "morganite", "opal", "peridot", "ruby", "sapphire", "topaz", "zircon",
 ];
 
 static additionalMaterials as string[] = [
-    "copperplate", "diamondnugget", "diamondplate", "emeraldnugget", "emeraldplate",
-    "netheritenugget", "netheriteplate",
+    "diamondnugget", "diamondplate", "emeraldnugget", "emeraldplate",
 ];
 
 for material in baseMaterials {
@@ -35,6 +33,5 @@ for mat in additionalMaterials {
 }
 
 for id, mat in MATERIAL_REGISTRY {
-    LOG.info(`💎 Registering material *${id}*!`);
-    mat.register();
+    mat.registerCot();
 }

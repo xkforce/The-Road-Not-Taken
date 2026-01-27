@@ -58,6 +58,6 @@ for mod in mods {
     if (loadedMods in mod) {
         recipes.removeByMod(mod);
     } else {
-        LOG.info(`Mod *${mod}* is not loaded, skipping removal of recipes.`);
+        LOG.debug(`🗑️ Skipping remove of *${mod}* because it is not loaded.`);
     }
 }
