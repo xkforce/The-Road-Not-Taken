@@ -9,7 +9,7 @@ touch crafttweaker.log
   echo "# Everything that is not a FATAL, ERROR, WARNING,                              #"
   echo "# or a modpack related message was removed.                                    #"
   echo "#------------------------------------------------------------------------------#"
-  grep -E 'FATAL|ERROR|WARNING' crafttweaker.log | grep -v 'ROAD'
+  grep -E 'FATAL|ERROR|WARNING' crafttweaker.log | grep -v 'TRNT'
 } > crafttweaker.tmp
 mv crafttweaker.tmp crafttweaker.log
 

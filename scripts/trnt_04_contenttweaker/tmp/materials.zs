@@ -10,10 +10,6 @@ static baseMaterials as string[] = [
     "moonstone", "morganite", "opal", "peridot", "ruby", "sapphire", "topaz", "zircon",
 ];
 
-static additionalMaterials as string[] = [
-    "diamondnugget", "diamondplate", "emeraldnugget", "emeraldplate",
-];
-
 for material in baseMaterials {
     var base as Item = VanillaFactory.createItem(material);
     if (baseMaterials.indexOf(material) == 0) {
@@ -28,10 +24,7 @@ for material in baseMaterials {
     ITEM_COUNTER.add(3);
 }
 
-for mat in additionalMaterials {
-    COT_UTILS.createItem(mat);
-}
-
+// TODO relocate to separate file
 for id, mat in MATERIAL_REGISTRY {
     mat.registerCot();
 }

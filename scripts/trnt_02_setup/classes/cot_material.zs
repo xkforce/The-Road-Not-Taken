@@ -14,6 +14,7 @@ import mods.contenttweaker.VanillaFactory;
 
 import mods.ctintegration.util.RecipePattern;
 import mods.zenutils.StaticString;
+import mods.zenutils.StringList;
 
 zenClass MaterialType {
 	static types as MaterialType[string] = {};
@@ -38,9 +39,6 @@ zenClass CotMaterial {
 	static valid_armor_stats as string[] = ["durability", "enchantability", "reduction", "toughness"];
 	static valid_fluid_stats as string[] = ["density", "viscosity", "temperature", "vaporize", "luminosity"];
 
-	static type_item as PartType = MaterialSystem.getPartType("item");
-	static type_block as PartType = MaterialSystem.getPartType("block");
-
 	val type as string;
 	val material as Material;
 	var parts as string[] = [];
@@ -59,17 +57,11 @@ zenClass CotMaterial {
 			.setColor(Color.fromHex(_color.replace("#", "")))
 			.build();
 		LOG.debug(`💎 Registering material *${material.getName()}*!`);
-		if (isNull(type_item) || isNull(type_block)) LOG.error(`Unable to find item or block part type for material *${_mat}*!`);
 		if (_type.id == "metal") {
 			parts += "ingot";
 		}
 		if (_type.id == "gem") {
-			var gem as Part = MaterialSystem.getPartBuilder()
-				.setName(`gem_${_mat}`)
-				.setPartType(type_item)
-				.setOreDictName("gem")
-				.build();
-			parts += gem.getName();
+			parts += `gem_${_mat}`;
 		}
 		type = _type.id;
 		registry[_mat] = this;
@@ -86,7 +78,7 @@ zenClass CotMaterial {
 	function newPart(_part as string) as void {
 		var p as Part = MaterialSystem.getPartBuilder()
 			.setName(`${_part}_${id()}`)
-			.setPartType(type_item)
+			.setPartType(MaterialSystem.getPartType("item"))
 			.setOreDictName(_part)
 			.build();
 		parts += p.getName();
@@ -149,18 +141,31 @@ zenClass CotMaterial {
 	}
 
 	function getPartItem(part as string) as IItemStack {
-		if (replacements.keys.contains(part.toLowerCase())) {
-			return item(replacements[part.toLowerCase()]);
+		val p as string = part.toLowerCase();
+		if (replacements.keys.contains(p)) {
+			return item(replacements[p]);
 		}
-		for e in ore(`${part.toLowerCase()}${name()}`).items {
+		for e in ore(`${p}${name()}`).items {
 			if (e.definition.owner == "contenttweaker") return e;
 		}
-		LOG.error(`Unable to find an item for *${part}* and *${name()}*. Valid parts: ${StaticString.join(replacements.keys, ", ")}`);
+		if (StaticString.contains(p, "gem_")) {
+			for e in ore(`gem${name()}`).items {
+				if (e.definition.owner == "contenttweaker") return e;
+			}
+		}
+		LOG.error(`Unable to find an item for *${part}* and *${name()}*. Valid parts: ${StaticString.join(parts, ", ")}`);
 		return null;
 	}
 
 	function registerCot() as void {
 		var validParts as string[] = StringArray.filter(parts, [replacements.keys]);
+		if (validParts.contains(parts[0]) && StaticString.contains(parts[0], "gem_")) {
+			var gem as Part = MaterialSystem.getPartBuilder()
+				.setName(parts[0])
+				.setPartType(MaterialSystem.getPartType("item"))
+				.setOreDictName("gem")
+				.build();
+		}
 		material.registerParts(validParts);
 		ITEM_COUNTER.add(validParts.length);
 		LOG.debug(`💎 For material *${name()}*, registered parts: ${StaticString.join(validParts, ", ")}`);
@@ -177,7 +182,7 @@ zenClass CotMaterial {
 			for i in 0 .. block_count {
 				var bl as Part = MaterialSystem.getPartBuilder()
 					.setName(`block_${id()}_${i}`)
-					.setPartType(type_block)
+					.setPartType(MaterialSystem.getPartType("block"))
 					.setOreDictName("block")
 					.build();
 				parts += bl.getName();
@@ -229,7 +234,7 @@ zenClass CotMaterial {
 		if (parts.contains("nugget")) {
 			furnace.remove(getPartItem("nugget"));
 			if (parts.contains("plate")) {
-				furnace.addRecipe(getPartItem("plate"), getPartItem("nugget"), 0.1);
+				furnace.addRecipe(getPartItem("nugget"), getPartItem("plate"), 0.1);
 			}
 		}
 		// TODO: add recipes for plates
