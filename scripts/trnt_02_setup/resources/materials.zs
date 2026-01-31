@@ -57,6 +57,9 @@ global NETHERITE as CotMaterial = CotMaterial(TYPE_METAL, "netherite", "#211a1a"
 NETHERITE.addParts(["ingot", "nugget", "plate"]);
 NETHERITE.addReplacement("ingot", "futuremc:netherite_ingot");
 
+global HEPATIZON as CotMaterial = CotMaterial(TYPE_METAL, "hepatizon", "#0a2f06");
+HEPATIZON.addParts(["ingot", "nugget", "plate"]);
+
 // Gems
 /*
 {
@@ -101,9 +104,6 @@ DIAMOND.addReplacement("gem", "minecraft:diamond");
 global EMERALD as CotMaterial = CotMaterial(TYPE_GEM, "emerald", "#00ff44");
 EMERALD.addParts(["nugget", "plate"]);
 EMERALD.addReplacement("gem", "minecraft:emerald");
-
-global HEPATIZON as CotMaterial = CotMaterial(TYPE_GEM, "hepatizon", "#0a2f06");
-HEPATIZON.addParts(["nugget", "plate"]);
 
 global MOONSTONE as CotMaterial = CotMaterial(TYPE_GEM, "moonstone", "#c8d9d9");
 MOONSTONE.addParts(["nugget", "plate"]);
