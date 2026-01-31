@@ -7,6 +7,8 @@ import mixin.CallbackInfoReturnable;
 
 import native.com.tmtravlr.additions.addon.blocks.IBlockAdded;
 
+// TODO: the ladder names still aren't localized
+
 #mixin {targets: "com.tmtravlr.additions.addon.blocks.CommonBlockMethods"}
 zenClass zenBlockAddedLadder {
     #mixin Static

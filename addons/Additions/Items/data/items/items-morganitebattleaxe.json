@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:morganite",
+        "item": "contenttweaker:morganite_gem_morganite",
         "damage": "any"
       }
     ]

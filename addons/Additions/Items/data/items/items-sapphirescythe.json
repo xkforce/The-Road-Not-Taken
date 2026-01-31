@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:sapphire",
+        "item": "contenttweaker:sapphire_gem_sapphire",
         "damage": "any"
       }
     ]

@@ -8,12 +8,7 @@
   "efficiency": 8.0,
   "enchantability": 10,
   "repair_stacks": {
-    "stack_list": [
-      {
-        "item": "minecraft:diamond",
-        "damage": "any"
-      }
-    ]
+    "ore_name": "gemDiamond"
   },
   "tool_classes": [
     "sword",

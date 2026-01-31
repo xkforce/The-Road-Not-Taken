@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:moonstone",
+        "item": "contenttweaker:moonstone_gem_moonstone",
         "damage": "any"
       }
     ]

@@ -4,7 +4,7 @@
   "base_tool_durability": 131,
   "efficiency": 4.0,
   "base_attack_damage": 1.0,
-  "repair_item": "contenttweaker:peridot",
+  "repair_item": "contenttweaker:peridot_gem_peridot",
   "repair_meta": 32767,
   "type": "tool"
 }

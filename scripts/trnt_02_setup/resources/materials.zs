@@ -58,8 +58,29 @@ NETHERITE.addParts(["ingot", "nugget", "plate"]);
 NETHERITE.addReplacement("ingot", "futuremc:netherite_ingot");
 
 // Gems
+/*
+{
+  "enchantability": 10,
+  "base_armor_durability": 11,
+  "toughness": 0.0,
+  "helmet_armor": 2,
+  "chestplate_armor": 5,
+  "leggings_armor": 4,
+  "boots_armor": 2,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "contenttweaker:amethyst_gem_amethyst",
+  "repair_meta": 32767,
+  "type": "armor"
+}
+
+	static valid_armor_stats as string[] = ["durability", "enchantability", "reduction", "toughness"];
+ */
 global AMETHYST as CotMaterial = CotMaterial(TYPE_GEM, "amethyst", "#9B4FDD");
 AMETHYST.addParts(["nugget", "plate"]);
+AMETHYST.addArmor("chainmail");
+AMETHYST.addArmorStat("durability", "11");
+AMETHYST.addArmorStat("enchantability", "10");
+AMETHYST.addArmorStat("reduction", "2,5,4,2");
 
 global AQUAMARINE as CotMaterial = CotMaterial(TYPE_GEM, "aquamarine", "#06b5c8");
 AQUAMARINE.addParts(["nugget", "plate"]);

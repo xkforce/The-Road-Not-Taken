@@ -4,7 +4,7 @@
   "base_tool_durability": 400,
   "efficiency": 6.0,
   "base_attack_damage": 2.0,
-  "repair_item": "contenttweaker:hepatizon",
+  "repair_item": "contenttweaker:hepatizon_gem_hepatizon",
   "repair_meta": 32767,
   "type": "tool"
 }

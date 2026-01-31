@@ -7,7 +7,7 @@
   "leggings_armor": 2,
   "boots_armor": 1,
   "equip_sound": "minecraft:item.armor.equip_generic",
-  "repair_item": "contenttweaker:opal",
+  "repair_item": "contenttweaker:opal_gem_opal",
   "repair_meta": 32767,
   "type": "armor"
 }

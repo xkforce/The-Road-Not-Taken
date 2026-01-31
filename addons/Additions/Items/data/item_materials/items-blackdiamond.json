@@ -4,7 +4,7 @@
   "base_tool_durability": 1561,
   "efficiency": 8.0,
   "base_attack_damage": 3.0,
-  "repair_item": "contenttweaker:blackdiamond",
+  "repair_item": "contenttweaker:blackdiamond_gem_blackdiamond",
   "repair_meta": 32767,
   "type": "tool"
 }

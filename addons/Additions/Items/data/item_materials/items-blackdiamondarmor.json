@@ -7,7 +7,7 @@
   "leggings_armor": 6,
   "boots_armor": 3,
   "equip_sound": "minecraft:item.armor.equip_generic",
-  "repair_item": "contenttweaker:blackdiamond",
+  "repair_item": "contenttweaker:blackdiamond_gem_blackdiamond",
   "repair_meta": 32767,
   "type": "armor"
 }

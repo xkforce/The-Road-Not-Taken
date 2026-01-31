@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "contenttweaker:amethyst",
+        "item": "contenttweaker:amethyst_gem_amethyst",
         "damage": "any"
       }
     ]

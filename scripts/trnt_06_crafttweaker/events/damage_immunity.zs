@@ -8,9 +8,33 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.event.EntityLivingHurtEvent;
 
+/**
+ * Available Minecraft damage types:
+ * - inFire
+ * - lightningBolt
+ * - onFire
+ * - lava
+ * - hotFloor
+ * - inWall
+ * - cramming
+ * - drown
+ * - starve
+ * - cactus
+ * - fall
+ * - flyIntoWall
+ * - outOfWorld
+ * - generic
+ * - magic
+ * - wither
+ * - anvil
+ * - fallingBlock
+ * - dragonBreath
+ * - fireworks
+ */
 static mobImmunity as string[][string]$orderly = {
     "minecraft:rabbit": ["fall"],
     "biomesoplenty:wasp": ["lava", "onFire", "inFire"],
+    "camels:camel": ["cactus"],
 };
 
 events.register(function(event as EntityLivingHurtEvent) {

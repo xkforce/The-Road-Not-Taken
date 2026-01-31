@@ -8,12 +8,7 @@
   "efficiency": 4.0,
   "enchantability": 10,
   "repair_stacks": {
-    "stack_list": [
-      {
-        "item": "deeperdepths:material",
-        "damage": "0"
-      }
-    ]
+    "ore_name": "ingotCopper"
   },
   "tool_classes": [
     "sword",

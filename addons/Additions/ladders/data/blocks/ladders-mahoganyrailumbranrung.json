@@ -1,10 +1,10 @@
 {
   "item_block": {
-    "name": "Ladder",
+    "name": "trnt.block.ladder.name",
     "burn_time": 30,
     "type": "additions:block_ladder"
   },
-  "name": "Ladder",
+  "name": "trnt.block.ladder.name",
   "material": "minecraft:wood",
   "place_sound": "minecraft:block.ladder.place",
   "break_sound": "minecraft:block.ladder.break",

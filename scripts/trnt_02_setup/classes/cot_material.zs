@@ -42,6 +42,7 @@ zenClass CotMaterial {
 	val type as string;
 	val material as Material;
 	var parts as string[] = [];
+	var armors as string[] = ["armor"];
 	var block_count as int = 0;
 
 	val replacements as string[string]$orderly = {};
@@ -126,8 +127,13 @@ zenClass CotMaterial {
 	}
 
 	function addArmorStat(key as string, value as string) as void {
-		if (!valid_block_stats.contains(key)) LOG.error(`Invalid armor stat *${key}*!`);
+		if (!valid_armor_stats.contains(key)) LOG.error(`Invalid armor stat *${key}*!`);
 		stats_armor[key] = value;
+	}
+
+	function addArmor(armor as string) as void {
+		if (armors.contains(armor)) return;
+		armors += armor;
 	}
 
 	function addFluidStat(key as string, value as string) as void {
@@ -194,11 +200,19 @@ zenClass CotMaterial {
 			}
 		}
 		if (stats_armor.keys.isNotEmpty()) {
-			var a as MaterialPartData = material.registerPart("armor").getData();
-			for s_key, s_value in stats_armor {
-				a.addDataValue(s_key, s_value);
+			for arm in armors {
+				if (!MaterialSystem.getParts().keys.contains(arm)) {
+					var newArmor as Part = MaterialSystem.getPartBuilder()
+						.setName(arm)
+						.setPartType(MaterialSystem.getPartType("armor"))
+						.build();
+				}
+				var a as MaterialPartData = material.registerPart(arm).getData();
+				for s_key, s_value in stats_armor {
+					a.addDataValue(s_key, s_value);
+				}
+				ITEM_COUNTER.add(4);
 			}
-			ITEM_COUNTER.add(4);
 		}
 		if (stats_molten.keys.isNotEmpty()) {
 			var m as MaterialPartData = material.registerPart("molten").getData();
