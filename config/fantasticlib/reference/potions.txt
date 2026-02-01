@@ -72,7 +72,6 @@ raids:bad_omen
 raids:raid_omen
 switchbow:freeze
 switchbow:love
-totemexpansion:spelunking
 cyclicmagic:potion.magnet
 cyclicmagic:potion.ender
 cyclicmagic:potion.waterwalk

@@ -401,12 +401,12 @@ ingotAncientDebris
 oreAncientDebris
 locksLock
 locksLockPick
+stoneBasaltPolished
 stonePolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
-stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil
@@ -538,7 +538,6 @@ milk
 sugar
 illagersstealthis
 proofEnderDragon
-transparentobsidian
 prismarine
 hardenedclay
 polishedstone
@@ -550,7 +549,7 @@ netherstone
 basalt
 cythereastone
 rutile
-venusstone
+venustone
 augite
 diopside
 enstatite
@@ -567,8 +566,7 @@ plagioclase
 tephroite
 troilite
 aegirine
-jobsidian
-jovianite
+joviangranite
 umbralith
 violecite
 ammolite
@@ -578,7 +576,7 @@ aventurine
 azurite
 basanite
 bloodstone
-carnlian
+carnelian
 chalk
 chrysocolla
 chrysoprase
@@ -591,7 +589,7 @@ jet
 kakortokite
 labradorite
 laterite
-luxulianite
+luxulyanite
 migmatite
 mudstone
 pietersite
@@ -600,7 +598,6 @@ portoro
 rhodonite
 schist
 serpentinite
-snowflakeobsidian
 sodalite
 treeagate
 unakite
@@ -623,6 +620,14 @@ browndyenugget
 greendyenugget
 reddyenugget
 blackdyenugget
+carrot
+celery
+cheese
+mushroomone
+mushroomtwo
+onion
+potato
+tomato
 listAllfishraw
 listAllfishcooked
 listAllMilk

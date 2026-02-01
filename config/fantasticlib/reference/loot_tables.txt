@@ -100,7 +100,6 @@ exoticbirds:birds/ostrich
 minecraft:chests/stronghold_corridor
 minecraft:entities/wolf
 minecraft:entities/skeleton
-futuremc:entities/tropical_fish
 abyssaldepths:entities/bannerfish
 deeperdepths:chamber_chest_loot
 primitivemobs:entities/support_creeper

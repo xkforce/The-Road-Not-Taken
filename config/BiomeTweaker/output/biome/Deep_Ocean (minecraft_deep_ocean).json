@@ -109,12 +109,6 @@
       "Max Group Count": 5
     },
     {
-      "Entity Class": "thedarkcolour.futuremc.entity.fish.tropical.EntityTropicalFish",
-      "Weight": 25,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    },
-    {
       "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityJellyFish",
       "Weight": 8,
       "Min Group Count": 1,

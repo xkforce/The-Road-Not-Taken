@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "DENSE",
     "WET",
+    "HILLS",
     "SUGIFOREST",
-    "FOREST",
-    "HILLS"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

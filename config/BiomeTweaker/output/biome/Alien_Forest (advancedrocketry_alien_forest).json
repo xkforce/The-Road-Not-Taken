@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "MAGICAL",
     "VOID",
-    "DISABLED"
+    "DISABLED",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

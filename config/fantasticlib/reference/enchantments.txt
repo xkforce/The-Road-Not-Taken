@@ -41,13 +41,13 @@ nyx:lunar_shield
 nyx:magnetization
 nb:soul_speed
 lava_walker:lava_walker
+nee:cursededge
+nee:smelter
 nee:curseofpossession
 nee:curseofinaccuracy
 nee:innerberserk
 nee:curseofvulnerability
 nee:instability
-nee:cursededge
-nee:smelter
 oe:is_watermob
 oe:is_wet
 oe:loyalty
@@ -55,9 +55,9 @@ oe:mobstomp
 oe:rebound
 radenchants:deep_pockets
 radenchants:pocket_dimension
+randomenchantments:piercing
 randomenchantments:ricochet
 randomenchantments:breaking
-randomenchantments:piercing
 randomenchantments:true_lifesteal
 randomenchantments:lumberjack
 wornhorseshoes:trampling

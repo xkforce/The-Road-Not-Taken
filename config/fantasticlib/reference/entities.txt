@@ -91,13 +91,13 @@ advancedrocketry:arplanetuibutton
 advancedrocketry:arstaruibutton
 advancedrocketry:arspaceelevatorcapsule
 advancedrocketry:arhovercraft
-quark:totem_of_holding
 quark:chest_passenger
 quark:gravisand
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:totem_of_holding
 quark:arrow_explosive
 quark:arrow_torch
 quark:dragon_breath_bottle
@@ -596,7 +596,6 @@ futuremc:bee
 futuremc:cod
 futuremc:pufferfish
 futuremc:salmon
-futuremc:tropical_fish
 nyx:falling_star
 nyx:falling_meteor
 nyx:alien_creeper
@@ -786,4 +785,3 @@ switchbow:arrowsplitloveupgrade
 switchbow:entityfire
 switchbow:entityburial
 switchbow:littleirongolem
-additions:projectile
