@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:cherryrailacaciarungladder" },
+        "facing=east":  { "model": "trnt:cherryrailacaciarungladder", "y": 90 },
+        "facing=south": { "model": "trnt:cherryrailacaciarungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:cherryrailacaciarungladder", "y": 270 }
+    }
+}

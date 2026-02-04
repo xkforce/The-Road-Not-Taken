@@ -1,0 +1,8 @@
+{
+  "parent": "trnt:block/base/ladder",
+  "textures": {
+    "particle": "blocks/ladder",
+    "siderail": "pvj:blocks/planks_juniper",
+    "rung": "biomesoplenty:blocks/umbran_planks"
+  }
+}

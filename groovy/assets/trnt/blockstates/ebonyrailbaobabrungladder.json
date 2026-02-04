@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:ebonyrailbaobabrungladder" },
+        "facing=east":  { "model": "trnt:ebonyrailbaobabrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:ebonyrailbaobabrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:ebonyrailbaobabrungladder", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:mahoganyraileucalyptusrungladder" },
+        "facing=east":  { "model": "trnt:mahoganyraileucalyptusrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:mahoganyraileucalyptusrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:mahoganyraileucalyptusrungladder", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:darkoakrailjuniperrungladder" },
+        "facing=east":  { "model": "trnt:darkoakrailjuniperrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:darkoakrailjuniperrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:darkoakrailjuniperrungladder", "y": 270 }
+    }
+}

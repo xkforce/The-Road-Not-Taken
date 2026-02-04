@@ -1,0 +1,8 @@
+{
+  "parent": "trnt:block/base/ladder",
+  "textures": {
+    "particle": "blocks/ladder",
+    "siderail": "sugiforest:blocks/planks_sugi",
+    "rung": "biomesoplenty:blocks/mangrove_planks"
+  }
+}

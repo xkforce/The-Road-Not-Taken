@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:willowrailbirchrungladder" },
+        "facing=east":  { "model": "trnt:willowrailbirchrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:willowrailbirchrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:willowrailbirchrungladder", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:maplerailincensecedarrungladder" },
+        "facing=east":  { "model": "trnt:maplerailincensecedarrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:maplerailincensecedarrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:maplerailincensecedarrungladder", "y": 270 }
+    }
+}

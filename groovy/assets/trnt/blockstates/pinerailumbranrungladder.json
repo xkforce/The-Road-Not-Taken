@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:pinerailumbranrungladder" },
+        "facing=east":  { "model": "trnt:pinerailumbranrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:pinerailumbranrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:pinerailumbranrungladder", "y": 270 }
+    }
+}

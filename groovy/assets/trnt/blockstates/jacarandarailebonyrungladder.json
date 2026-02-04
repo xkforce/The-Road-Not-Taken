@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:jacarandarailebonyrungladder" },
+        "facing=east":  { "model": "trnt:jacarandarailebonyrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:jacarandarailebonyrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:jacarandarailebonyrungladder", "y": 270 }
+    }
+}

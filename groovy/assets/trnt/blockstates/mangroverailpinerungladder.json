@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:mangroverailpinerungladder" },
+        "facing=east":  { "model": "trnt:mangroverailpinerungladder", "y": 90 },
+        "facing=south": { "model": "trnt:mangroverailpinerungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:mangroverailpinerungladder", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:sugirailsugirungladder" },
+        "facing=east":  { "model": "trnt:sugirailsugirungladder", "y": 90 },
+        "facing=south": { "model": "trnt:sugirailsugirungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:sugirailsugirungladder", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:maplerailsprucerungladder" },
+        "facing=east":  { "model": "trnt:maplerailsprucerungladder", "y": 90 },
+        "facing=south": { "model": "trnt:maplerailsprucerungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:maplerailsprucerungladder", "y": 270 }
+    }
+}

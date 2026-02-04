@@ -1,0 +1,8 @@
+{
+  "parent": "trnt:block/base/ladder",
+  "textures": {
+    "particle": "blocks/ladder",
+    "siderail": "plants2:blocks/cosmetic/tree/black_kauri_planks",
+    "rung": "biomesoplenty:blocks/redwood_planks"
+  }
+}

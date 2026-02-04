@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:maplerailblackkaurirungladder" },
+        "facing=east":  { "model": "trnt:maplerailblackkaurirungladder", "y": 90 },
+        "facing=south": { "model": "trnt:maplerailblackkaurirungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:maplerailblackkaurirungladder", "y": 270 }
+    }
+}

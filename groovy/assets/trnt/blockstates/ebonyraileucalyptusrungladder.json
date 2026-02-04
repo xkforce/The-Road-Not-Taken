@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:ebonyraileucalyptusrungladder" },
+        "facing=east":  { "model": "trnt:ebonyraileucalyptusrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:ebonyraileucalyptusrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:ebonyraileucalyptusrungladder", "y": 270 }
+    }
+}

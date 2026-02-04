@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:maplerailjunglerungladder" },
+        "facing=east":  { "model": "trnt:maplerailjunglerungladder", "y": 90 },
+        "facing=south": { "model": "trnt:maplerailjunglerungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:maplerailjunglerungladder", "y": 270 }
+    }
+}

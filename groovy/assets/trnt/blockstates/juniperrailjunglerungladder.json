@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:juniperrailjunglerungladder" },
+        "facing=east":  { "model": "trnt:juniperrailjunglerungladder", "y": 90 },
+        "facing=south": { "model": "trnt:juniperrailjunglerungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:juniperrailjunglerungladder", "y": 270 }
+    }
+}

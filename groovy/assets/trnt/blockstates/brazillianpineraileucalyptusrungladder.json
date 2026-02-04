@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:brazillianpineraileucalyptusrungladder" },
+        "facing=east":  { "model": "trnt:brazillianpineraileucalyptusrungladder", "y": 90 },
+        "facing=south": { "model": "trnt:brazillianpineraileucalyptusrungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:brazillianpineraileucalyptusrungladder", "y": 270 }
+    }
+}

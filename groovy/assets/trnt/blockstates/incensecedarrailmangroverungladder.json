@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:incensecedarrailmangroverungladder" },
+        "facing=east":  { "model": "trnt:incensecedarrailmangroverungladder", "y": 90 },
+        "facing=south": { "model": "trnt:incensecedarrailmangroverungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:incensecedarrailmangroverungladder", "y": 270 }
+    }
+}

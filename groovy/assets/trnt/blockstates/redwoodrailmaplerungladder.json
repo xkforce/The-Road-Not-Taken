@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "trnt:redwoodrailmaplerungladder" },
+        "facing=east":  { "model": "trnt:redwoodrailmaplerungladder", "y": 90 },
+        "facing=south": { "model": "trnt:redwoodrailmaplerungladder", "y": 180 },
+        "facing=west":  { "model": "trnt:redwoodrailmaplerungladder", "y": 270 }
+    }
+}
