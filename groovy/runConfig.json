@@ -1,0 +1,29 @@
+{
+  "packName": "The Road Not Taken",
+  "packId": "trnt",
+  "author": "Penteractgaming, _MasterEnderman_",
+  "version": "1.0.0",
+  "debug": false,
+  "loaders": {
+    "preInit": [
+      "classes/",
+      "core/",
+      "data/",
+      "content/"
+    ],
+    "postInit": [
+      "common",
+      "misc/",
+      "mods/removal/",
+      "mods/addition/",
+      "mods/",
+      "events/"
+    ]
+  },
+  "packmode": {
+    "values": [],
+    "default": "",
+    "_comment": "By default the packmode is not synced with the packmode mod. You can enable integration, but you can no longer change packmode on the fly.",
+    "integratePackmodeMod": false
+  }
+}

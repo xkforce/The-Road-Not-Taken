@@ -1,0 +1,28 @@
+class Variables {
+    final static def WOOD_TYPES = [
+        "acacia",
+        "baobab",
+        "birch",
+        "blackkauri",
+        "brazillianpine",
+        "cherry",
+        "cottonwood",
+        "darkoak",
+        "ebony",
+        "eucalyptus",
+        "fir",
+        "incensecedar",
+        "jacaranda",
+        "jungle",
+        "juniper",
+        "mahogany",
+        "mangrove",
+        "maple",
+        "oak",
+        "pine",
+        "redwood",
+        "sugi",
+        "umbran",
+        "willow",
+    ]
+}
