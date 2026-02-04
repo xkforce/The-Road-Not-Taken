@@ -5,6 +5,7 @@ TombManyGraves/
 astralsorcery/
 worldedit/
 asm/
+cache/
 MEutilities/
 screenshots/
 local/client/
@@ -32,7 +33,6 @@ mods/
 *.log
 *.dll
 *.dat
-*.py
 *.dump
 *.csv
 \.ReAuth\.cfg
