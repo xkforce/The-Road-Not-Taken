@@ -1,27 +1,18 @@
-import net.minecraftforge.fml.common.FMLCommonHandler
-import net.minecraft.client.resources.I18n
+import net.minecraft.client.resources.I18n as clientI18n
+import net.minecraft.util.text.translation.I18n as serverI18n
+import org.apache.commons.lang3.StringUtils
 
 class Utils {
-    static def isClient() {
-        return FMLCommonHandler.instance().getEffectiveSide().isClient()
-    }
-
-    static def isDedicatedClient() {
-        return FMLCommonHandler.instance().getSide().isClient()
-    }
-
-    static def isServer() {
-        return FMLCommonHandler.instance().getEffectiveSide().isServer()
-    }
-
-    static def isDedicatedServer() {
-        return FMLCommonHandler.instance().getSide().isServer()
-    }
-
     static def translate(String key, String... args) {
         if (isClient()) {
-            return I18n.format(key, args)
+            return clientI18n.format(key, args)
         }
-        return net.minecraft.util.text.translation.I18n.translateToLocalFormatted(key, args)
+        return serverI18n.translateToLocalFormatted(key, args)
+    }
+
+    static ArrayList<ArrayList<String>> readConfig(String cfgName) {
+        return file("groovy/config", cfgName).readLines()
+            .findAll { !it.startsWith("#") && !StringUtils.isBlank(it) }
+            .collect { it.split(";") }
     }
 }

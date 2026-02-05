@@ -6,18 +6,26 @@
   "debug": false,
   "loaders": {
     "preInit": [
+      "classes/main/",
       "classes/",
-      "core/",
+      "core/Modpack.groovy",
+      "core/timer_preinit.groovy",
+      "core/boot.groovy",
       "data/",
       "content/"
     ],
+    "init": [
+      "core/timer_init.groovy"
+    ],
     "postInit": [
+      "core/timer_postinit.groovy",
       "common",
       "misc/",
       "mods/removal/",
       "mods/addition/",
       "mods/",
-      "events/"
+      "events/",
+      "core/timer_finish.groovy"
     ]
   },
   "packmode": {

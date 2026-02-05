@@ -1,9 +1,9 @@
 import net.minecraft.block.BlockLadder
 import net.minecraft.item.ItemBlock
-import net.minecraft.item.ItemStack
 
 import classes.Utils
 import classes.Variables
+import core.Modpack
 
 content.createCreativeTab("trnt.ladders", item('minecraft:ladder'))
 content.createCreativeTab("trnt.materials", item('minecraft:stick'))
@@ -31,7 +31,7 @@ Variables.WOOD_TYPES.each { rail ->
                 return this.block.getLocalizedName()
             }
         }
-        content.registerBlock(name, b, ib)
+        Modpack.registerBlock(name, b, ib)
     }
     def stick = "${rail}stick"
     def i = (new Item() {
@@ -44,5 +44,5 @@ Variables.WOOD_TYPES.each { rail ->
             return Utils.translate("trnt.item.stick.name", Utils.translate("trnt.wood.${rail}.name"))
         }
     }).setCreativeTab(creativeTab("trnt.materials"))
-    content.registerItem(stick, i)
+    Modpack.registerItem(stick, i)
 }

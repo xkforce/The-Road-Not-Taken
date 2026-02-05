@@ -1,5 +1,3 @@
-import net.minecraftforge.fml.common.Loader
-
 import classes.Variables
 
 def planks = [
@@ -43,7 +41,7 @@ Variables.WOOD_TYPES.each { rail ->
             .register()
     }
     def plank = planks[Variables.WOOD_TYPES.indexOf(rail)]
-    if (Loader.isModLoaded(plank.split(":")[0])) {
+    if (isLoaded(plank.split(":")[0])) {
         crafting.shapedBuilder()
             .name(resource("trnt:stick/${stick1}"))
             .output(item("trnt:${stick1}"))
