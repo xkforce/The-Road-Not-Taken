@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "trnt:items/# fruits are a food item that can be eaten to restore hunger."
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "trnt:items/# this file ignores lines that start with \u0027#\u0027 or are blank."
-  }
-}

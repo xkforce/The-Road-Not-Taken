@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "trnt:items/# food value and saturation value are both optional."
-  }
-}
