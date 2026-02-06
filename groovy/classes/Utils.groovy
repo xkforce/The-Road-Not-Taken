@@ -3,7 +3,7 @@ import net.minecraft.util.text.translation.I18n as serverI18n
 import org.apache.commons.lang3.StringUtils
 
 class Utils {
-    static def translate(String key, String... args) {
+    static String translate(String key, String... args) {
         if (isClient()) {
             return clientI18n.format(key, args)
         }

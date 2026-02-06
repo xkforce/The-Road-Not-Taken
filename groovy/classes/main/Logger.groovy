@@ -5,10 +5,11 @@ import org.apache.commons.lang3.StringUtils
 
 class Logger {
     private enum Stage {
-        BOOT("■□□□"),
-        PRE_INIT("■■□□"),
-        INIT("■■■□"),
-        POST_INIT("■■■■"),
+        BOOT("□□□□"),
+        PRE_INIT("■□□□"),
+        INIT("■■□□"),
+        POST_INIT("■■■□"),
+        FINISH("■■■■");
 
         Stage(String emoji) {
             this.emoji = emoji

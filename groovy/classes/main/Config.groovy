@@ -3,9 +3,9 @@ import roidrole.roidtweaker.mods.forge.config.Reader
 import roidrole.roidtweaker.mods.forge.config.IConfigFile
 
 class Config {
-    public static final Config MODPACK = new Config("groovy/config/trnt.cfg");
+    public static final Config MODPACK = new Config("groovy/config/trnt.cfg")
 
-    private Configuration config;
+    private Configuration config
 
     Config(String path) {
         try {
@@ -16,66 +16,74 @@ class Config {
     }
 
     public boolean getBoolean(String category, String name) {
-        return config.getCategory(category).get(name).getBoolean();
+        return config.getCategory(category)?.get(name)?.getBoolean()
     }
 
     public boolean getBooleanOrDefault(String category, String name, boolean defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getBoolean();
+        return config.get(category, name, defaultValue, comment)?.getBoolean()
     }
 
     public int getInt(String category, String name) {
-        return config.getCategory(category).get(name).getInt();
+        return config.getCategory(category)?.get(name)?.getInt()
     }
 
     public int getIntOrDefault(String category, String name, int defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getInt();
+        return config.get(category, name, defaultValue, comment)?.getInt()
     }
 
     public String getString(String category, String name) {
-        return config.getCategory(category).get(name).getString();
+        return config.getCategory(category)?.get(name)?.getString()
     }
 
     public String getStringOrDefault(String category, String name, String defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getString();
+        return config.get(category, name, defaultValue, comment)?.getString()
     }
 
     public double getDouble(String category, String name) {
-        return config.getCategory(category).get(name).getDouble();
+        return config.getCategory(category)?.get(name)?.getDouble()
     }
 
     public double getDoubleOrDefault(String category, String name, double defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getDouble();
+        return config.get(category, name, defaultValue, comment)?.getDouble()
+    }
+
+    public float getFloat(String category, String name) {
+        return (float) getDouble(category, name)
+    }
+
+    public float getFloatOrDefault(String category, String name, float defaultValue, String comment) {
+        return (float) getDoubleOrDefault(category, name, defaultValue, comment)
     }
 
     public long getLong(String category, String name) {
-        return config.getCategory(category).get(name).getLong();
+        return config.getCategory(category)?.get(name)?.getLong()
     }
 
     public long getLongOrDefault(String category, String name, long defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getLong();
+        return config.get(category, name, defaultValue, comment)?.getLong()
     }
 
     public boolean[] getBooleanArray(String category, String name) {
-        return config.getCategory(category).get(name).getBooleanList();
+        return config.getCategory(category)?.get(name)?.getBooleanList()
     }
 
     public boolean[] getBooleanArrayOrDefault(String category, String name, boolean[] defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getBooleanList();
+        return config.get(category, name, defaultValue, comment)?.getBooleanList()
     }
 
     public int[] getIntArray(String category, String name) {
-        return config.getCategory(category).get(name).getIntList();
+        return config.getCategory(category)?.get(name)?.getIntList()
     }
 
     public int[] getIntArrayOrDefault(String category, String name, int[] defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getIntList();
+        return config.get(category, name, defaultValue, comment)?.getIntList()
     }
 
     public String[] getStringArray(String category, String name) {
-        return config.getCategory(category).get(name).getStringList();
+        return config.getCategory(category)?.get(name)?.getStringList()
     }
 
     public String[] getStringArrayOrDefault(String category, String name, String[] defaultValue, String comment) {
-        return config.get(category, name, defaultValue, comment).getStringList();
+        return config.get(category, name, defaultValue, comment)?.getStringList()
     }
 }

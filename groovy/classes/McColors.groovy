@@ -1,6 +1,5 @@
-
 class McColors {
-    def static ore = [
+    final static def ore = [
         "Black",
         "Red",
         "Green",
@@ -19,9 +18,9 @@ class McColors {
         "White",
     ];
 
-    def static oreLower = ore.collect { it.toLowerCase() };
+    final static def oreLower = ore.collect { it.toLowerCase() };
 
-    def static colors = [
+    final static def colors = [
         "white",
         "orange",
         "magenta",

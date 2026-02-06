@@ -1,6 +1,4 @@
-import net.minecraftforge.fml.common.Loader
-import net.minecraft.item.Item
-import net.minecraft.item.ItemStack
+import classes.main.Logger
 
 class ItemString {
     private String itemString
@@ -10,9 +8,9 @@ class ItemString {
 
     ItemString(String input) {
         itemString = input
-        def parts = input.toLowerCase().split(":")
+        def parts = input.split(":")
         if (parts.length < 2 || parts.length > 3) {
-            throw new IllegalArgumentException("Invalid item string *${input}*.")
+            Logger.error("Invalid item string: ${input}")
         }
         mod = parts[0]
         item = parts[1]
@@ -20,7 +18,7 @@ class ItemString {
     }
 
     def isModLoaded() {
-        return Loader.isModLoaded(mod) || mod == "ore"
+        return isLoaded(mod) || mod == "ore"
     }
 
     def isItemLoaded() {
@@ -28,16 +26,30 @@ class ItemString {
     }
 
     def getItem() {
-        if (!isModLoaded()) throw new IllegalArgumentException("Mod *${mod}* is not loaded.")
-        if (!isItemLoaded()) throw new IllegalArgumentException("Item *${item}* is not loaded.")
+        if (!isModLoaded()) {
+            Logger.error("Mod *${mod}* is not loaded.")
+            return null
+        }
+        if (!isItemLoaded()) {
+            Logger.error("Item *${item}* is not loaded.")
+            return null
+        }
         return Item.getByNameOrId("${mod}:${item}")
     }
 
     def getItemStack() {
-        return new ItemStack(getItem(), 1, meta)
+        return item("${mod}:${item}", meta)
     }
 
     def getItemStack(int size) {
-        return new ItemStack(getItem(), size, meta)
+        return item("${mod}:${item}", meta).withAmount(size)
+    }
+
+    def getIngredient() {
+        return (mod == "ore") ? ore(item) : getItemStack()
+    }
+
+    def getIngredient(int size) {
+        return (mod == "ore") ? ore(item).withAmount(size) : getItemStack(size)
     }
 }

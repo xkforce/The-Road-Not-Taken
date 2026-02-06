@@ -2,14 +2,14 @@ import net.minecraft.block.BlockLadder
 import net.minecraft.item.ItemBlock
 
 import classes.Utils
-import classes.Variables
 import core.Modpack
 
-content.createCreativeTab("trnt.ladders", item('minecraft:ladder'))
-content.createCreativeTab("trnt.materials", item('minecraft:stick'))
+Modpack.LOGGER.info("🪜 Creating ladders and sticks...")
 
-Variables.WOOD_TYPES.each { rail ->
-    Variables.WOOD_TYPES.each { rung ->
+def woods = Utils.readConfig("blocks/wood.cfg").collect { it[0] }
+
+woods.each { rail ->
+    woods.each { rung ->
         def name = "${rail}rail${rung}rungladder"
 
         def b = (new BlockLadder() {

@@ -41,4 +41,8 @@ class ZenColor {
     def setVanilla() {
         this.vanilla = true
     }
+
+    def vanilla() {
+        return colors.values().findAll { it.vanilla }.collect { it.id }
+    }
 }

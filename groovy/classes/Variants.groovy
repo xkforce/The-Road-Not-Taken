@@ -1,20 +1,20 @@
 class Variants {
-    def static none = [" "]
-    def static brick = ["brick", "chiseledbrick", "cobblestone", "debossed", "polished", "shortbrick"]
-    def static cracked = ["crackedbrick", "crackedshortbrick"]
+    final static def NONE = [" "]
+    final static def BRICK = ["brick", "chiseledbrick", "cobblestone", "debossed", "polished", "shortbrick"]
+    final static def CRACKED = ["crackedbrick", "crackedshortbrick"]
 
-    def static defaultBlocks = none + brick + cracked
+    final static def DEFAULT_BLOCKS = NONE + BRICK + CRACKED
 
-    def static mossy = brick.collect { "mossy" + it }
-    def static brownlichen = brick.collect { "brownlichen" + it }
-    def static redlichen = brick.collect { "redlichen" + it }
-    def static orangelichen = brick.collect { "orangelichen" + it }
-    def static yellowlichen = brick.collect { "yellowlichen" + it }
+    final static def MOSSY = BRICK.collect { "mossy" + it }
+    final static def BROWN_LICHEN = BRICK.collect { "brownlichen" + it }
+    final static def RED_LICHEN = BRICK.collect { "redlichen" + it }
+    final static def ORANGE_LICHEN = BRICK.collect { "orangelichen" + it }
+    final static def YELLOW_LICHEN = BRICK.collect { "yellowlichen" + it }
 
-    def static overworld = defaultBlocks + mossy
-    def static defaultnocobble = defaultBlocks.findAll { it != "cobblestone" }
-    def static brickNoCobble = brick.findAll { it != "cobblestone" }
-    def static sandstone = [
+    final static def OVERWORLD = DEFAULT_BLOCKS + MOSSY
+    final static def DEFAULT_NO_COBBLE = DEFAULT_BLOCKS.findAll { it != "cobblestone" }
+    final static def BRICK_NO_COBBLE = BRICK.findAll { it != "cobblestone" }
+    final static def SANDSTONE = [
         "archerleft", "archerright", "armsdown", "armsup", "axeleft",
         "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper",
         "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft",
@@ -25,5 +25,5 @@ class Variants {
         "waveright", "wither"
     ]
 
-    def static templates = brickNoCobble + sandstone + ["tile", "blank", "grid", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "pillar"]
+    final static def TEMPLATES = BRICK_NO_COBBLE + SANDSTONE + ["tile", "blank", "grid", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "pillar"]
 }

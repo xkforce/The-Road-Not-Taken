@@ -1,0 +1,11 @@
+{
+    "charm" : {
+        "totem_of_shielding" : ["This totem absorbs damage taken by the player"]
+    },
+    "chesttransporter" : {
+        "chesttransporter_diamond" : ["Creative Only"]
+    },
+    "rockhounding_rocks" : {
+        "rocks_b:12" : ["Form of Enstatite", "Found in asteroids"]
+    }
+}

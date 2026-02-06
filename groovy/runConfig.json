@@ -12,6 +12,7 @@
       "core/timer_preinit.groovy",
       "core/boot.groovy",
       "data/",
+      "content/tabs.groovy",
       "content/"
     ],
     "init": [

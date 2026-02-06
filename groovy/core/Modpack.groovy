@@ -1,6 +1,5 @@
 import net.minecraft.item.ItemBlock
 import net.minecraftforge.fml.common.FMLCommonHandler
-import net.minecraftforge.fml.common.Loader
 import classes.main.Config
 import classes.main.Counter
 import classes.main.Logger
@@ -15,6 +14,8 @@ import classes.main.Timer
 /* ╚═══════════════════════════════════════════════════════════════════╝ */
 
 final class Modpack {
+    public static final Config CFG = Config.MODPACK
+
     public static final String NAME = Config.MODPACK.getStringOrDefault("trnt.modpack", "name", getPackName(), "The name of the modpack.")
     public static final String ID = Config.MODPACK.getStringOrDefault("trnt.modpack", "id", getPackId(), "The ID of the modpack.")
     public static final String VERSION = Config.MODPACK.getStringOrDefault("trnt.modpack", "version", getPackVersion(), "The version of the modpack.")
@@ -35,6 +36,11 @@ final class Modpack {
 
     public static void registerItem(String name, Item item) {
         content.registerItem(name, item)
+        ITEM_COUNTER.increment()
+    }
+
+    public static void createItem(String name, String tab) {
+        content.createItem(name).setCreativeTab(creativeTab(tab)).register()
         ITEM_COUNTER.increment()
     }
 

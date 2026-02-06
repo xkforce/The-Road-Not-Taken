@@ -1,16 +1,15 @@
 import classes.Variants
 import classes.Utils
-import net.minecraft.item.Item
-import net.minecraft.item.ItemStack
+import core.Modpack
 
-content.createCreativeTab("trnt.templates", item('minecraft:paper'))
+Modpack.LOGGER.info("🧩 Creating templates...")
 
-Variants.templates.each { template ->
+Variants.TEMPLATES.each { template ->
     def name = "${template}template"
     def i = (new Item() {
         String func_77653_i(ItemStack stack) {
             return Utils.translate("trnt.variant.${template}.name", Utils.translate("trnt.item.template.name"))
         }
     }).setCreativeTab(creativeTab("trnt.templates"))
-    content.registerItem(name, i)
+    Modpack.registerItem(name, i)
 }

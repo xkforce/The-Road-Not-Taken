@@ -1,5 +1,8 @@
 import classes.McColors
 import classes.ZenColor
+import core.Modpack
+
+Modpack.LOGGER.info("🍼 Creating fluids...")
 
 McColors.colors.each { c ->
     content.createFluid("${c}dyedwater")

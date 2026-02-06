@@ -1,5 +1,6 @@
 import core.Modpack
 
+Modpack.LOGGER.advanceStage()
 Modpack.LOGGER.shoutout("[💾 BOOT 💾]", [
     "The scripts has been loaded successfully! :)",
     "The whole loading process took ${Modpack.TIMER.timeTotal()} minutes.",
