@@ -5,7 +5,6 @@
 import mods.jei.JEI;
 
 val categoriesToHide as string[] = [
-    "bursting",
     "jeresources.plant",
     "jeresources.worldgen",
     "jeresources.mob",

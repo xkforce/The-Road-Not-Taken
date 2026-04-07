@@ -22,7 +22,7 @@ val sticks as string[string] = {
     "redwoodstick" : "biomesoplenty:planks_0:8",
     "umbranstick" : "biomesoplenty:planks_0:2",
     "willowstick" : "biomesoplenty:planks_0:9",
-    "sugistick" : "sugiforest:sugi_planks",
+    "sugistick" : "contenttweaker:sugiplank",
     "juniperstick" : "pvj:planks_juniper",
     "cottonwoodstick" : "pvj:planks_cottonwood",
     "baobabstick" : "pvj:planks_baobab",

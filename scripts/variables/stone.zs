@@ -5,7 +5,7 @@ import scripts.classes.stone.Stone;
 
 import scripts.variables.misc.minecraftColors;
 import scripts.variables.colors.c101;
-
+import scripts.variables.colors.c184;
 import scripts.variables.variants.none;
 import scripts.variables.variants.defaultVariants;
 import scripts.variables.variants.mossyVariants;
@@ -35,7 +35,7 @@ global Andesite as Stone = Stone("andesite", COLORS.keys, mergeStringArray([Over
 Andesite.addReplacement("minecraft:stone:5", "volcanic_ash", " ");
 Andesite.addReplacement("minecraft:stone:6", "volcanic_ash", "polished");
 
-global Concrete as Stone = Stone("concrete", COLORS_VANILLA, defaultnocobbleVariants);
+global Concrete as Stone = Stone("concrete", COLORS.keys, defaultnocobbleVariants);
 for i in 0 .. 16 {
     Concrete.addReplacement(`minecraft:concrete:${i}`, minecraftColors[i], " ");
 }
@@ -47,6 +47,8 @@ Diorite.addReplacement("minecraft:stone:4", "iron_fist", "polished");
 global Granite as Stone = Stone("granite", COLORS.keys, mergeStringArray([OverworldVariants, ["yellowlichenbrick", "yellowlichenchiseledbrick", "yellowlichendebossed", "yellowlichencobblestone", "yellowlichenpolished", "yellowlichenshortbrick"]]));
 Granite.addReplacement("minecraft:stone:1", "pink", " ");
 Granite.addReplacement("minecraft:stone:2", "pink", "polished");
+
+global Calade as Stone = Stone("calade", none, none);
 
 global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariants);
 Obsidian.addReplacement("minecraft:obsidian", "black", " ");
@@ -62,12 +64,12 @@ TransparentObsidian.addFlag("--dragonProof");
 TransparentObsidian.addFlag("--transparent");
 TransparentObsidian.setToolLevel(3);
 TransparentObsidian.overrideOreName("obsidian");
-
+/*
 global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "grid", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
 Prismarine.addReplacement("minecraft:prismarine:1", "cyan", "brick");
 Prismarine.addReplacement("minecraft:prismarine:2", "deep_sea_diver", "grid");
-
+*/
 global Sandstone as Stone = Stone("sandstone", COLORS.keys, mergeStringArray([none, ["polished"], sandstoneVariants]));
 Sandstone.addReplacement("minecraft:sandstone:0", "spaetzel_yellow", " ");
 Sandstone.addReplacement("minecraft:sandstone:1", "spaetzel_yellow", "carvedcreeper");
@@ -121,25 +123,24 @@ Purpur.addReplacement("minecraft:purpur_block", "super_pink", " ");
 Purpur.addReplacement("minecraft:purpur_pillar", "super_pink", "pillar");
 
 // Nether Stones
-// global NetherStone as Stone = Stone("blackstone", none, none);
-// NetherStone.setHardness(6.0);
-global CryingObsidian as Stone = Stone("cryingobsidian", c101, defaultnocobbleVariants);
-CryingObsidian.setToolLevel(3);
+global FoolsGold as Stone = Stone("foolsgold", none, none);
+global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
+Netherrack.addFlag("--onlyBlocks");
+Netherrack.setHardness(0.4);
+Netherrack.setResistance(2.0);
+global NetherStone as Stone = Stone("netherstone", COLORS.keys, [" ", "brick", "chiseledbrick", "debossed", "gilded", "polished", "shortbrick"]);
 
 global NetherQuartz as Stone = Stone("netherquartz", COLORS_VANILLA, [" ", "chiseled", "pillar", "polished"]);
 NetherQuartz.addFlag("--onlyBlocks");
 
-global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
-global NetherStone as Stone = Stone("netherstone", COLORS.keys, mergeStringArray([defaultnocobbleVariants, ["redlichenbrick", "redlichenchiseledbrick", "redlichendebossed", "redlichenpolished", "redlichenshortbrick", "gilded"]]));
-
 // Extraterrestrial Stones
 global Basalt as Stone = Stone("basalt", COLORS.keys, defaultnocobbleVariants);
 Basalt.setHardness(1.25);
-Basalt.setResistance(4.2);
+Basalt.setResistance(21.0);
 
 global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
 global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
-global VenusStone as Stone = Stone("venusstone", COLORS.keys, defaultVariants);
+global Venustone as Stone = Stone("venustone", COLORS.keys, defaultVariants);
 global Augite as Stone = Stone("augite", none, defaultVariants);
 global Diopside as Stone = Stone("diopside", none, defaultVariants);
 global Enstatite as Stone = Stone("enstatite", none, defaultVariants);
@@ -157,14 +158,12 @@ global Tephroite as Stone = Stone("tephroite", none, defaultVariants);
 global Troilite as Stone = Stone("troilite", none, defaultVariants);
 global Aegirine as Stone = Stone("aegirine", none, defaultVariants);
 
-//Jovian stone types
-global Obsidianjovianite as Stone = Stone("obsidianjovianite", COLORS.keys, defaultnocobbleVariants);
-Obsidianjovianite.setHardness(50.0);
-Obsidianjovianite.setResistance(1200.0);
-Obsidianjovianite.setToolLevel(3);
-Obsidianjovianite.overrideOreName("obsidian");
-
-global Andesitejovianite as Stone = Stone("andesitejovianite", COLORS.keys, defaultVariants);
+//Gas giant stone types
+global Jupiterstone as Stone = Stone("jupiterstone", c184, defaultnocobbleVariants);
+global Saturnstone as Stone = Stone("saturnstone", c184, defaultnocobbleVariants);
+global Uranustone as Stone = Stone("uranustone", c184, defaultnocobbleVariants);
+global Neptunestone as Stone = Stone("neptunestone", c184, defaultnocobbleVariants);
+global Persephonestone as Stone = Stone("persephonestone", c184, defaultnocobbleVariants);
 
 // Unknown
 global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
@@ -276,9 +275,6 @@ rhRep(Schist, "h", 4, "gray");
 
 global Serpentinite as Stone = Stone("serpentinite", none, OverworldVariants);
 rhRep(Serpentinite, "d", 5);
-
-global SnowflakeObsidian as Stone = Stone("snowflakeobsidian", none, OverworldVariants);
-rhRep(SnowflakeObsidian, "a", 7);
 
 global Sodalite as Stone = Stone("sodalite", none, OverworldVariants);
 rhRep(Sodalite, "b", 3);

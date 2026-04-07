@@ -29,11 +29,11 @@ static defaultnocobbleVariants as string[] = filterStringArray(defaultVariants, 
 
 static sandstoneVariants as string[] = [
     "archerleft", "archerright", "armsdown", "armsup", "axeleft",
-    "axeright", "bladeleft", "bladeright", "brokenheart", "carvedcreeper",
+    "axeright", "beetle", "bladeleft", "bladeright", "brokenheart", "carvedcreeper",
     "carvedskeleton", "carvedzombie", "chestleft", "chestright", "chibicreeperleft",
     "chibicreeperright", "cut", "dogleft", "dogright", "explorerleft", "explorerright",
     "fire", "fishingrodleft", "fishingrodright", "friend", "ghast", "guster", "heart",
     "miner", "mourner", "potion", "prize", "sheaf", "shelter", "slimeleft", "slimeright",
-    "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", "waveleft",
-    "waveright", "wither"
+    "spider", "swirlcb", "swirlccb", "swirlcct", "swirlct", "turtleleft", "turtleright", 
+    "waveleft", "waveright", "wither"
 ];
