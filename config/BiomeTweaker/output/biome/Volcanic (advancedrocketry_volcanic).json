@@ -1,10 +1,10 @@
 
 {
-  "ID": 93,
+  "ID": 90,
   "Name": "Volcanic",
   "Resource Location": "advancedrocketry:volcanic",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenVolcanic",
-  "Root Height": 3.7,
+  "Root Height": 0.0,
   "Height Variation": 0.9,
   "Top Block": "advancedrocketry:basalt",
   "Filler Block": "advancedrocketry:basalt",
@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "MOUNTAIN",
-    "DRY",
     "WASTELAND",
-    "HOT"
+    "DRY",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

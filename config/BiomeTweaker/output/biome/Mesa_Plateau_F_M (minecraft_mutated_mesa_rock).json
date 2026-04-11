@@ -4,7 +4,7 @@
   "Name": "Mesa Plateau F M",
   "Resource Location": "minecraft:mutated_mesa_rock",
   "Class": "net.minecraft.world.biome.BiomeMesa",
-  "Root Height": 4.15,
+  "Root Height": 0.45,
   "Height Variation": 0.3,
   "Top Block": "minecraft:sand[variant\u003dred_sand]",
   "Filler Block": "minecraft:stained_hardened_clay[color\u003dwhite]",
@@ -22,12 +22,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "HILLS",
-    "MESA",
-    "DRY",
+    "HOT",
     "RARE",
-    "HOT"
+    "MESA",
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

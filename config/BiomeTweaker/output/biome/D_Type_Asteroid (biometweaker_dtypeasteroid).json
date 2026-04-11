@@ -1,6 +1,6 @@
 
 {
-  "ID": 255,
+  "ID": 252,
   "Name": "D Type Asteroid",
   "Resource Location": "biometweaker:dtypeasteroid",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",

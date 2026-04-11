@@ -4,7 +4,7 @@
   "Name": "The Void",
   "Resource Location": "minecraft:void",
   "Class": "net.minecraft.world.biome.BiomeVoid",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

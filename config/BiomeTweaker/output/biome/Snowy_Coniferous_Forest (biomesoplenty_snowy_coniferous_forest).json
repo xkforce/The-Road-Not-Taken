@@ -1,13 +1,13 @@
 
 {
-  "ID": 59,
+  "ID": 58,
   "Name": "Snowy Coniferous Forest",
   "Resource Location": "biomesoplenty:snowy_coniferous_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyConiferousForest",
-  "Root Height": 0.1764706,
+  "Root Height": 3.9411764,
   "Height Variation": 0.23125,
-  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dloamy]",
-  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dloamy]",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -23,10 +23,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "DENSE",
+    "SNOWY",
     "FOREST",
-    "CONIFEROUS",
-    "SNOWY"
+    "DENSE",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -208,22 +208,6 @@
   "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "dead_leaf_piles"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
-      }
-    ],
     "SAND_PASS2 Generators": [
       {
         "ID": "waterside",

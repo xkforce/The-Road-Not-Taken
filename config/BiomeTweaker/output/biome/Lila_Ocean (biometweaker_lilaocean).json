@@ -1,11 +1,11 @@
 
 {
-  "ID": 177,
+  "ID": 175,
   "Name": "Lila Ocean",
   "Resource Location": "biometweaker:lilaocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 2.7,
-  "Height Variation": 0.1,
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
   "Top Block": "minecraft:end_stone",
   "Filler Block": "minecraft:end_stone",
   "Ocean Top Block": "minecraft:gravel",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "OCEAN",
     "WATER",
-    "LILA",
-    "END"
+    "END",
+    "LILA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

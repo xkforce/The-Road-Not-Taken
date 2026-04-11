@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 67,
   "Name": "SnowyTundra",
   "Resource Location": "biomesoplenty:snowy_tundra",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenTundra",
@@ -23,11 +23,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
+    "DEAD",
     "WET",
     "SPARSE",
-    "DEAD",
-    "WASTELAND",
-    "SNOWY"
+    "SNOWY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

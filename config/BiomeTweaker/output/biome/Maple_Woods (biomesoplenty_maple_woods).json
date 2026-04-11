@@ -1,10 +1,10 @@
 
 {
-  "ID": 53,
+  "ID": 52,
   "Name": "Maple Woods",
   "Resource Location": "biomesoplenty:maple_woods",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMapleWoods",
-  "Root Height": 0.29411766,
+  "Root Height": 4.0588236,
   "Height Variation": 0.2625,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "DENSE",
     "FOREST",
+    "DENSE",
     "CONIFEROUS"
   ],
   "BiomeManager Entries": {},

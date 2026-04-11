@@ -1,13 +1,13 @@
 
 {
-  "ID": 170,
+  "ID": 168,
   "Name": "Saturnian Ocean",
   "Resource Location": "biometweaker:saturnianocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 0.125,
   "Height Variation": 0.05,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Top Block": "contenttweaker:apricotsaturnstone",
+  "Filler Block": "contenttweaker:apricotsaturnstone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

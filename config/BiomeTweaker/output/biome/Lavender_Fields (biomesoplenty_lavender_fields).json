@@ -1,13 +1,13 @@
 
 {
-  "ID": 51,
+  "ID": 50,
   "Name": "Lavender Fields",
   "Resource Location": "biomesoplenty:lavender_fields",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLavenderFields",
-  "Root Height": -0.05882353,
+  "Root Height": 3.7058823,
   "Height Variation": 0.03125,
-  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dsilty]",
-  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dsilty]",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
+    "LUSH",
     "PLAINS",
-    "LUSH"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

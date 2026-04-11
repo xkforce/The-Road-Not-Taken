@@ -1,6 +1,6 @@
 
 {
-  "ID": 101,
+  "ID": 99,
   "Name": "Yellow Beach",
   "Resource Location": "biometweaker:yellowbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",

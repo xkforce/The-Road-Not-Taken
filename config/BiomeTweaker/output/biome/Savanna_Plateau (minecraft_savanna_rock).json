@@ -4,7 +4,7 @@
   "Name": "Savanna Plateau",
   "Resource Location": "minecraft:savanna_rock",
   "Class": "net.minecraft.world.biome.BiomeSavanna",
-  "Root Height": 4.5,
+  "Root Height": 5.2,
   "Height Variation": 0.025,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
+    "HOT",
     "PLAINS",
-    "SAVANNA",
     "RARE",
-    "HOT"
+    "SAVANNA",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -218,15 +218,8 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "ruby"
-      }
-    ]
-  },
+  "Tweaked": true,
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

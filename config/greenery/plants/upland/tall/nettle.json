@@ -1,5 +1,5 @@
 {
-    "maxAge": 3,
+    "maxAge": 1,
     "worldGen": [
         "0 | minecraft:minecraft:forest | 1.0 | 8 | 32",
         "0 | minecraft:taiga | 1.0 | 8 | 32",

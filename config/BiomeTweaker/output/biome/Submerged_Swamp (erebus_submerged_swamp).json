@@ -1,10 +1,10 @@
 
 {
-  "ID": 79,
+  "ID": 77,
   "Name": "Submerged Swamp",
   "Resource Location": "erebus:submerged_swamp",
   "Class": "erebus.world.biomes.BiomeSubmergedSwamp",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "VOID",
+    "HOT",
     "WATER",
+    "WET",
     "SWAMP",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

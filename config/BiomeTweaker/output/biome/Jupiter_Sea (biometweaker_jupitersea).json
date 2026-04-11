@@ -1,13 +1,13 @@
 
 {
-  "ID": 113,
+  "ID": 111,
   "Name": "Jupiter Sea",
   "Resource Location": "biometweaker:jupitersea",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 2.7,
   "Height Variation": 0.1,
-  "Top Block": "contenttweaker:redandesite",
-  "Filler Block": "contenttweaker:redandesite",
+  "Top Block": "contenttweaker:redjupiterstone",
+  "Filler Block": "contenttweaker:redjupiterstone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

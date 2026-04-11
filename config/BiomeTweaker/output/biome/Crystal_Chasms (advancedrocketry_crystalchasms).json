@@ -1,10 +1,10 @@
 
 {
-  "ID": 88,
+  "ID": 85,
   "Name": "Crystal Chasms",
   "Resource Location": "advancedrocketry:crystalchasms",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenCrystal",
-  "Root Height": 4.5,
+  "Root Height": 1.0,
   "Height Variation": 0.1,
   "Top Block": "minecraft:snow",
   "Filler Block": "minecraft:packed_ice",
@@ -22,10 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "COLD",
     "DISABLED",
+    "SNOWY",
     "WASTELAND",
-    "SNOWY"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

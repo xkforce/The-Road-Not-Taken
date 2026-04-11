@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "SPOOKY",
     "BIRCH_TREES",
-    "FOREST"
+    "FOREST",
+    "DENSE",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -191,15 +191,8 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "amber"
-      }
-    ]
-  },
+  "Tweaked": true,
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {

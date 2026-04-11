@@ -65,7 +65,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "bed_explodes"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -179,7 +179,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "bed_explodes"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -292,7 +292,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "bed_explodes"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -403,7 +403,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "bed_explodes"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -518,7 +518,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "bed_explodes"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -563,7 +563,7 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 0,
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 5,
                 "trigger_y": 700,
@@ -609,7 +609,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -645,7 +645,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 5,
                 "trigger_y": 700,
@@ -723,7 +723,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -759,7 +759,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 8,
                 "trigger_y": 700,
@@ -839,7 +839,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -875,7 +875,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 11,
                 "trigger_y": 700,
@@ -916,7 +916,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 14,
                 "trigger_y": 700,
@@ -965,7 +965,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1002,7 +1002,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 14,
                 "trigger_y": 700,
@@ -1043,7 +1043,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 17,
                 "trigger_y": 700,
@@ -1095,7 +1095,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1131,7 +1131,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 17,
                 "trigger_y": 700,
@@ -1172,7 +1172,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 20,
                 "trigger_y": 700,
@@ -1222,7 +1222,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1258,7 +1258,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 20,
                 "trigger_y": 700,
@@ -1342,7 +1342,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1377,7 +1377,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 23,
                 "trigger_y": 700,
@@ -1415,7 +1415,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 26,
                 "trigger_y": 700,
@@ -1467,7 +1467,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1504,7 +1504,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 26,
                 "trigger_y": 700,
@@ -1539,7 +1539,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 29,
                 "trigger_y": 700,
@@ -1587,7 +1587,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1623,7 +1623,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 29,
                 "trigger_y": 700,
@@ -1657,7 +1657,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 32,
                 "trigger_y": 700,
@@ -1705,7 +1705,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1741,7 +1741,7 @@
                 "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 32,
                 "trigger_y": 700,
@@ -1775,7 +1775,7 @@
                 "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 35,
                 "trigger_y": 700,
@@ -1824,7 +1824,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1861,7 +1861,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 35,
                 "trigger_y": 700,
@@ -1896,7 +1896,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 38,
                 "trigger_y": 700,
@@ -1944,7 +1944,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -1980,7 +1980,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 38,
                 "trigger_y": 700,
@@ -2014,7 +2014,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 41,
                 "trigger_y": 700,
@@ -2063,7 +2063,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2100,7 +2100,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 41,
                 "trigger_y": 700,
@@ -2135,7 +2135,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 44,
                 "trigger_y": 700,
@@ -2184,7 +2184,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2221,7 +2221,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
                 "dimension": 46,
                 "trigger_y": 700,
@@ -2254,7 +2254,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -2305,7 +2305,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2342,7 +2342,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 47,
                 "trigger_y": 700,
@@ -2375,7 +2375,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -2426,7 +2426,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2463,7 +2463,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 50,
                 "trigger_y": 700,
@@ -2498,7 +2498,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 53,
                 "trigger_y": 700,
@@ -2546,7 +2546,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2582,7 +2582,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 53,
                 "trigger_y": 700,
@@ -2616,7 +2616,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 56,
                 "trigger_y": 700,
@@ -2665,7 +2665,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2702,7 +2702,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 56,
                 "trigger_y": 700,
@@ -2734,7 +2734,7 @@
                 "FogColor": "ffaa88",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -2785,7 +2785,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2821,7 +2821,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 59,
                 "trigger_y": 700,
@@ -2855,7 +2855,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 68,
                 "trigger_y": 700,
@@ -2904,7 +2904,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -2940,7 +2940,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 62,
                 "trigger_y": 700,
@@ -2972,7 +2972,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -3022,7 +3022,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3058,7 +3058,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 65,
                 "trigger_y": 700,
@@ -3092,7 +3092,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 68,
                 "trigger_y": 700,
@@ -3140,7 +3140,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3176,7 +3176,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 68,
                 "trigger_y": 700,
@@ -3208,7 +3208,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -3258,7 +3258,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3294,7 +3294,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 71,
                 "trigger_y": 700,
@@ -3328,7 +3328,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 74,
                 "trigger_y": 700,
@@ -3375,7 +3375,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3409,7 +3409,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "DontAdvanceWeatherWhenSleeping": true,
                 "sky_teleport": {
                 "dimension": 74,
@@ -3445,7 +3445,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
                 "dimension": 2,
                 "trigger_y": 700,
@@ -3532,7 +3532,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3652,7 +3652,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3771,7 +3771,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -3888,7 +3888,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4009,7 +4009,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4056,7 +4056,7 @@
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 0,
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 205,
                 "trigger_y": 700,
@@ -4104,7 +4104,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4142,7 +4142,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 205,
                 "trigger_y": 700,
@@ -4225,7 +4225,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4263,7 +4263,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 208,
                 "trigger_y": 700,
@@ -4347,7 +4347,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4385,7 +4385,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 211,
                 "trigger_y": 700,
@@ -4428,7 +4428,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 214,
                 "trigger_y": 700,
@@ -4480,7 +4480,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4519,7 +4519,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 214,
                 "trigger_y": 700,
@@ -4562,7 +4562,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 217,
                 "trigger_y": 700,
@@ -4616,7 +4616,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4654,7 +4654,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 217,
                 "trigger_y": 700,
@@ -4697,7 +4697,7 @@
                 "NightLength": 1000000,
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 220,
                 "trigger_y": 700,
@@ -4749,7 +4749,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4787,7 +4787,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 220,
                 "trigger_y": 700,
@@ -4875,7 +4875,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -4912,7 +4912,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 223,
                 "trigger_y": 700,
@@ -4952,7 +4952,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 26,
                 "trigger_y": 700,
@@ -5006,7 +5006,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5045,7 +5045,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 26,
                 "trigger_y": 700,
@@ -5082,7 +5082,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 229,
                 "trigger_y": 700,
@@ -5132,7 +5132,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5170,7 +5170,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 229,
                 "trigger_y": 700,
@@ -5206,7 +5206,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 232,
                 "trigger_y": 700,
@@ -5256,7 +5256,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5294,7 +5294,7 @@
                 "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 232,
                 "trigger_y": 700,
@@ -5330,7 +5330,7 @@
                 "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 235,
                 "trigger_y": 700,
@@ -5381,7 +5381,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5420,7 +5420,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 235,
                 "trigger_y": 700,
@@ -5457,7 +5457,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 238,
                 "trigger_y": 700,
@@ -5507,7 +5507,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5545,7 +5545,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 238,
                 "trigger_y": 700,
@@ -5581,7 +5581,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 241,
                 "trigger_y": 700,
@@ -5632,7 +5632,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5671,7 +5671,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 241,
                 "trigger_y": 700,
@@ -5708,7 +5708,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 244,
                 "trigger_y": 700,
@@ -5759,7 +5759,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5798,7 +5798,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
                 "dimension": 246,
                 "trigger_y": 700,
@@ -5833,7 +5833,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -5886,7 +5886,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -5925,7 +5925,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 247,
                 "trigger_y": 700,
@@ -5960,7 +5960,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -6013,7 +6013,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6052,7 +6052,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 250,
                 "trigger_y": 700,
@@ -6089,7 +6089,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 253,
                 "trigger_y": 700,
@@ -6139,7 +6139,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6177,7 +6177,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 253,
                 "trigger_y": 700,
@@ -6213,7 +6213,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 256,
                 "trigger_y": 700,
@@ -6264,7 +6264,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6303,7 +6303,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 256,
                 "trigger_y": 700,
@@ -6337,7 +6337,7 @@
                 "FogColor": "ffaa88",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -6390,7 +6390,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6428,7 +6428,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 259,
                 "trigger_y": 700,
@@ -6464,7 +6464,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 268,
                 "trigger_y": 700,
@@ -6515,7 +6515,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6553,7 +6553,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 262,
                 "trigger_y": 700,
@@ -6587,7 +6587,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -6639,7 +6639,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6677,7 +6677,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 265,
                 "trigger_y": 700,
@@ -6713,7 +6713,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 268,
                 "trigger_y": 700,
@@ -6763,7 +6763,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6801,7 +6801,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 268,
                 "trigger_y": 700,
@@ -6835,7 +6835,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "sky_teleport": {
@@ -6887,7 +6887,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -6925,7 +6925,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 271,
                 "trigger_y": 700,
@@ -6961,7 +6961,7 @@
                 "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
-                "CanSleepHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 274,
                 "trigger_y": 700,
@@ -7010,7 +7010,7 @@
                     "max_y": 255
                 },
                 "CanRespawnHere": false,
-                "CanSleepHere": false
+                "CanSleepHere": "deny"
             },
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
@@ -7046,7 +7046,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "DontAdvanceWeatherWhenSleeping": true,
                 "sky_teleport": {
                 "dimension": 274,
@@ -7084,7 +7084,7 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": true,
-                "CanSleepHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
                 "dimension": 202,
                 "trigger_y": 700,

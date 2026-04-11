@@ -75,6 +75,7 @@ exoticbirds:birds/bluejay
 exoticbirds:birds/roadrunner
 primitivemobs:entities/rocket_creeper
 primitivemobs:entities/harpy
+phantoms:entities/phantom
 betteranimalsplus:eely
 betteranimalsplus:wolf_snowy
 minecraft:entities/sheep/cyan

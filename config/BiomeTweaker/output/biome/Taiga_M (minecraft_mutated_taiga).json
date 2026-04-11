@@ -4,7 +4,7 @@
   "Name": "Taiga M",
   "Resource Location": "minecraft:mutated_taiga",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 4.0,
+  "Root Height": 0.3,
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "COLD",
     "MOUNTAIN",
-    "FOREST",
     "RARE",
+    "FOREST",
     "CONIFEROUS"
   ],
   "BiomeManager Entries": {},

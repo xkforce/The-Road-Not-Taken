@@ -1,11 +1,11 @@
 
 {
-  "ID": 169,
+  "ID": 159,
   "Name": "Io Mountains",
   "Resource Location": "biometweaker:iomountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 0.125,
-  "Height Variation": 0.05,
+  "Root Height": 6.18,
+  "Height Variation": 0.98,
   "Top Block": "contenttweaker:redandesite",
   "Filler Block": "contenttweaker:redandesite",
   "Ocean Top Block": "minecraft:gravel",

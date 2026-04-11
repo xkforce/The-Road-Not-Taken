@@ -1,10 +1,10 @@
 
 {
-  "ID": 43,
+  "ID": 42,
   "Name": "Bayou",
   "Resource Location": "biomesoplenty:bayou",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBayou",
-  "Root Height": -0.1764706,
+  "Root Height": 3.5882354,
   "Height Variation": 0.025,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "WET",
+    "HOT",
     "SWAMP",
-    "HOT"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

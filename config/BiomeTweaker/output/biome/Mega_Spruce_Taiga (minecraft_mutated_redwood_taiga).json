@@ -4,7 +4,7 @@
   "Name": "Mega Spruce Taiga",
   "Resource Location": "minecraft:mutated_redwood_taiga",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 3.9,
+  "Root Height": 0.2,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "MEGA_TAIGA_SPRUCE_TREES",
+    "RARE",
     "FOREST",
-    "RARE"
+    "DENSE",
+    "MEGA_TAIGA_SPRUCE_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,10 +1,10 @@
 
 {
-  "ID": 47,
+  "ID": 46,
   "Name": "Crag",
   "Resource Location": "biomesoplenty:crag",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenCrag",
-  "Root Height": 2.0588236,
+  "Root Height": 5.8235292,
   "Height Variation": 3.1062498,
   "Top Block": "minecraft:gravel",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "COLD",
     "HILLS",
+    "COLD",
     "MOUNTAIN",
+    "WASTELAND",
     "DRY",
-    "WASTELAND"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

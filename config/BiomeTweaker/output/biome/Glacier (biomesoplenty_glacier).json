@@ -1,10 +1,10 @@
 
 {
-  "ID": 67,
+  "ID": 66,
   "Name": "Glacier",
   "Resource Location": "biomesoplenty:glacier",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGlacier",
-  "Root Height": 1.3529412,
+  "Root Height": 5.117647,
   "Height Variation": 0.118750006,
   "Top Block": "minecraft:ice",
   "Filler Block": "biomesoplenty:hard_ice",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "WASTELAND",
-    "SNOWY"
+    "SNOWY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

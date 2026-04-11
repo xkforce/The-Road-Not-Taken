@@ -1,10 +1,10 @@
 
 {
-  "ID": 224,
+  "ID": 221,
   "Name": "Sugi Forest",
   "Resource Location": "biometweaker:sugiforest",
-  "Class": "net.minecraft.world.biome.BiomeForest",
-  "Root Height": 2.25,
+  "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
+  "Root Height": 3.85,
   "Height Variation": 0.65,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "WET",
     "HILLS",
     "SUGIFOREST",
-    "FOREST"
+    "WET",
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -51,12 +51,6 @@
     {
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
       "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityWolf",
-      "Weight": 5,
       "Min Group Count": 4,
       "Max Group Count": 4
     },
@@ -193,7 +187,7 @@
       "Max Group Count": 2
     }
   ],
-  "Spawn Biome": true,
+  "Spawn Biome": false,
   "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",

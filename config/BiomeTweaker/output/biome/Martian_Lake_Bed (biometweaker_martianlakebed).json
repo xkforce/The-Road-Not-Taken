@@ -1,10 +1,10 @@
 
 {
-  "ID": 231,
+  "ID": 228,
   "Name": "Martian Lake Bed",
   "Resource Location": "biometweaker:martianlakebed",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.0,
+  "Root Height": 3.6,
   "Height Variation": 0.05,
   "Top Block": "bblsom:martiandirt",
   "Filler Block": "contenttweaker:marstone",

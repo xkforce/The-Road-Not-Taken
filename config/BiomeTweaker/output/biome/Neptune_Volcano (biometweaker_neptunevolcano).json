@@ -1,13 +1,13 @@
 
 {
-  "ID": 218,
+  "ID": 216,
   "Name": "Neptune Volcano",
   "Resource Location": "biometweaker:neptunevolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 7.0,
   "Height Variation": 1.42,
-  "Top Block": "contenttweaker:blueandesite",
-  "Filler Block": "contenttweaker:blueandesite",
+  "Top Block": "contenttweaker:blueneptunestone",
+  "Filler Block": "contenttweaker:blueneptunestone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

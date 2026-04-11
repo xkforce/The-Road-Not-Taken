@@ -1,10 +1,10 @@
 
 {
-  "ID": 74,
+  "ID": 72,
   "Name": "Volcanic Desert",
   "Resource Location": "erebus:volcanic_desert",
   "Class": "erebus.world.biomes.BiomeVolcanicDesert",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sandstone[type\u003dsandstone]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "SANDY",
     "DRY",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

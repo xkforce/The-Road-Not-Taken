@@ -1,10 +1,10 @@
 
 {
-  "ID": 54,
+  "ID": 53,
   "Name": "Meadow",
   "Resource Location": "biomesoplenty:meadow",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMeadow",
-  "Root Height": -0.05882353,
+  "Root Height": 3.7058823,
   "Height Variation": 0.0125,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -23,10 +23,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
+    "LUSH",
+    "PLAINS",
     "WET",
     "SPARSE",
-    "PLAINS",
-    "LUSH",
     "FOREST"
   ],
   "BiomeManager Entries": {},
@@ -206,47 +206,11 @@
     "LILYPAD Generators": [
       {
         "ID": "flora",
-        "Name": "medium_lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "algae"
-      },
-      {
-        "ID": "flora",
-        "Name": "water_reeds"
-      },
-      {
-        "ID": "flora",
-        "Name": "small_lily"
-      },
-      {
-        "ID": "flora",
         "Name": "flower_lily"
       },
       {
         "ID": "flora",
         "Name": "lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "tiny_lily"
-      }
-    ],
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "bushes"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "peridot"
       }
     ],
     "SAND_PASS2 Generators": [
@@ -264,8 +228,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "BOREAL": 7,
-    "COOL_TEMPERATE": 3
+    "COOL_TEMPERATE": 3,
+    "BOREAL": 7
   },
   "BOP Climate Weights": {
     "BOREAL": [

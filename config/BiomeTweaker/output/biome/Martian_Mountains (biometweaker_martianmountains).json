@@ -1,11 +1,11 @@
 
 {
-  "ID": 96,
+  "ID": 94,
   "Name": "Martian Mountains",
   "Resource Location": "biometweaker:martianmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 4.7,
-  "Height Variation": 0.3,
+  "Root Height": 6.18,
+  "Height Variation": 0.98,
   "Top Block": "contenttweaker:marstone",
   "Filler Block": "contenttweaker:marstone",
   "Ocean Top Block": "minecraft:gravel",

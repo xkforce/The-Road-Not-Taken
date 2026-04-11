@@ -1,11 +1,11 @@
 
 {
-  "ID": 100,
+  "ID": 98,
   "Name": "Persephone Volcano",
   "Resource Location": "biometweaker:persephonevolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 0.125,
-  "Height Variation": 0.05,
+  "Root Height": 7.0,
+  "Height Variation": 1.42,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",

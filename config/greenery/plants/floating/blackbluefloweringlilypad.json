@@ -1,0 +1,12 @@
+{
+    "worldGen": [
+    ],
+    "drops": [
+        "greenery:plant/floating/lightbluewhitefloweringlilypad | 1.0"
+    ],
+    "compatibleFluids": [
+        "water"
+    ],
+    "hasOffset": false,
+    "isSolid": true
+} 

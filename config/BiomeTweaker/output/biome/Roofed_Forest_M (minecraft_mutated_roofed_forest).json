@@ -4,7 +4,7 @@
   "Name": "Roofed Forest M",
   "Resource Location": "minecraft:mutated_roofed_forest",
   "Class": "net.minecraft.world.biome.BiomeForest",
-  "Root Height": 3.9,
+  "Root Height": 0.2,
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "SPOOKY",
     "MOUNTAIN",
+    "RARE",
     "FOREST",
-    "RARE"
+    "DENSE",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

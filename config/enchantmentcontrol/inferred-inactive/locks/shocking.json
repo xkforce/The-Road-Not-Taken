@@ -1,0 +1,8 @@
+{
+  "id": "locks:shocking",
+  "rarity": "UNCOMMON",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 5,
+  "vanilla system overrides": {}
+}

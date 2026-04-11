@@ -1,6 +1,6 @@
 
 {
-  "ID": 226,
+  "ID": 223,
   "Name": "Zagrean Desert",
   "Resource Location": "biometweaker:zagreandesert",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "OCEAN",
-    "WATER",
-    "HOT"
+    "SPACE",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

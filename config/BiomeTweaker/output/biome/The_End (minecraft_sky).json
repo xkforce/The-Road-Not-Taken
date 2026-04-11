@@ -52,23 +52,8 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "ORE_PRE Generators": [
-      {
-        "ID": "crystals",
-        "Name": "crystals"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "amethyst"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "biome_essence"
-      }
-    ]
-  },
+  "Tweaked": true,
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

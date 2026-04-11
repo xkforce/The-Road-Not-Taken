@@ -1,11 +1,11 @@
 
 {
-  "ID": 182,
+  "ID": 180,
   "Name": "Extinct Lunar Volcano",
   "Resource Location": "biometweaker:extinctlunarvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.176,
-  "Height Variation": 1.0,
+  "Root Height": 7.0,
+  "Height Variation": 1.42,
   "Top Block": "quark:basalt[variant\u003dstone_basalt]",
   "Filler Block": "quark:basalt[variant\u003dstone_basalt]",
   "Ocean Top Block": "minecraft:gravel",

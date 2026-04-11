@@ -2,14 +2,6 @@
   "beachBiomeLocation": "minecraft:beaches",
   "generators": {
     "glowshrooms": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "glowshroom"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 1.5,
       "enable": true
     },
     "cattail": {
@@ -24,9 +16,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.6,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "miners_delight": {
       "with": {
@@ -40,49 +30,15 @@
       "enable": true
     },
     "medium_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "medium"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     },
     "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 10.0,
       "enable": true
     },
     "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "malachite": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "malachite"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
       "enable": true
     },
     "trees": {
@@ -91,14 +47,6 @@
       "generators": {}
     },
     "water_reeds": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "reed"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.3,
       "enable": true
     },
     "toadstools": {
@@ -113,14 +61,6 @@
       "enable": true
     },
     "small_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "small"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     },
     "flower_lily": {
@@ -135,20 +75,10 @@
       "enable": true
     },
     "koru": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "koru"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.2,
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 0.2,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "double_cattail": {
       "with": {
@@ -170,25 +100,9 @@
       }
     },
     "tiny_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "tiny"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
       "enable": true
     },
     "mud": {
-      "with": {
-        "block": "biomesoplenty:mud",
-        "properties": {
-          "variant": "mud"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 3.0,
       "enable": true
     }
   }

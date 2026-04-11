@@ -4,7 +4,7 @@
   "Name": "Gravel Beach",
   "Resource Location": "biomesoplenty:gravel_beach",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGravelBeach",
-  "Root Height": -0.05882353,
+  "Root Height": 3.7058823,
   "Height Variation": 0.043750003,
   "Top Block": "minecraft:gravel",
   "Filler Block": "minecraft:gravel",

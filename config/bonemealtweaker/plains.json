@@ -1,6 +1,9 @@
 {
-  "block": "minecraft:grass",
+  "blocks": [
+        "minecraft:grass"
+  ],
   "replaceBlock": "minecraft:air",
+  "adjacentBlock": "minecraft:grass",
   "iterations": 128,
   "applyMode": "BOTH",
   "genDensity": 50,

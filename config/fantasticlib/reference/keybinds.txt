@@ -40,7 +40,6 @@ key.chat
 key.command
 
 key.categories.misc
-key.advancements
 key.spectatorOutlines
 gnetum.config.keyMapping
 key.screenshot
@@ -177,6 +176,10 @@ key.vehicle_helicopter.rotate_right
 key.vehicle_helicopter.third_person_view_zoom_in
 key.vehicle_helicopter.third_person_view_zoom_out
 key.vehicle_helicopter.up
+
+RozUtils
+Gamemode Switcher - Next
+Gamemode Switcher - Show
 
 Universal Tweaks
 keybind.universaltweaks.clear_toasts

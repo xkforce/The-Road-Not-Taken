@@ -1,13 +1,13 @@
 
 {
-  "ID": 232,
+  "ID": 229,
   "Name": "Neptune Plains",
   "Resource Location": "biometweaker:neptuneplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.825,
   "Height Variation": 0.05,
-  "Top Block": "contenttweaker:blueandesite",
-  "Filler Block": "contenttweaker:blueandesite",
+  "Top Block": "contenttweaker:blueneptunestone",
+  "Filler Block": "contenttweaker:blueneptunestone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

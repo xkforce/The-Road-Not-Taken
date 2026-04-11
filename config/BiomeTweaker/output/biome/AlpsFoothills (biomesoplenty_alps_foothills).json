@@ -1,10 +1,10 @@
 
 {
-  "ID": 64,
+  "ID": 63,
   "Name": "AlpsFoothills",
   "Resource Location": "biomesoplenty:alps_foothills",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
-  "Root Height": 3.235294,
+  "Root Height": 7.0,
   "Height Variation": 1.45625,
   "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dovergrown_stone]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -23,11 +23,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "SPARSE",
     "MOUNTAIN",
-    "DRY",
+    "SPARSE",
+    "SNOWY",
     "FOREST",
-    "SNOWY"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

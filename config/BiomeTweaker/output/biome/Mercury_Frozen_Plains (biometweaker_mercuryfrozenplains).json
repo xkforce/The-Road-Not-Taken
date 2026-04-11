@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 100,
   "Name": "Mercury Frozen Plains",
   "Resource Location": "biometweaker:mercuryfrozenplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",

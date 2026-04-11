@@ -1,0 +1,9 @@
+{
+  "id": "nee:ancientcurseinflicter",
+  "rarity": "VERY_RARE",
+  "isTreasure": true,
+  "isCurse": false,
+  "maxLvl": 1,
+  "displayColor": "YELLOW",
+  "vanilla system overrides": {}
+}

@@ -199,15 +199,8 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
-      }
-    ]
-  },
+  "Tweaked": true,
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {

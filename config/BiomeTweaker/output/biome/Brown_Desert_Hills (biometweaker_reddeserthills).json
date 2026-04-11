@@ -1,6 +1,6 @@
 
 {
-  "ID": 257,
+  "ID": 254,
   "Name": "Brown Desert Hills",
   "Resource Location": "biometweaker:reddeserthills",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -19,13 +19,13 @@
   "Temperature": 2.0,
   "Humidity": 0.0,
   "Water Tint": 4159204,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "HILLS",
+    "HOT",
     "SANDY",
-    "DRY",
-    "HOT"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -40,18 +40,6 @@
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     }
   ],
   "Spawnable Monsters": [
@@ -110,12 +98,6 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
-      "Weight": 7,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -127,12 +109,6 @@
       "Entity Class": "net.minecraft.entity.passive.EntitySquid",
       "Weight": 10,
       "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
-      "Weight": 10,
-      "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],
@@ -148,18 +124,6 @@
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityRoach",

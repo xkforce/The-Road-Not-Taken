@@ -1,0 +1,9 @@
+{
+  "id": "nee:rune_resurrection",
+  "rarity": "VERY_RARE",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 2,
+  "displayColor": "GREEN",
+  "vanilla system overrides": {}
+}

@@ -1,10 +1,10 @@
 
 {
-  "ID": 69,
+  "ID": 68,
   "Name": "Obsidian Volcano",
   "Resource Location": "biomesoplenty:volcanic_island",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenVolcanicIsland",
-  "Root Height": 3.235294,
+  "Root Height": 7.0,
   "Height Variation": 1.41875,
   "Top Block": "minecraft:obsidian",
   "Filler Block": "minecraft:obsidian",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
+    "HOT",
     "MOUNTAIN",
     "WATER",
-    "DRY",
+    "DEAD",
     "WASTELAND",
-    "HOT"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -80,10 +80,6 @@
       {
         "ID": "lakes",
         "Name": "lava_lakes"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "ruby"
       }
     ]
   },

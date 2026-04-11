@@ -1,11 +1,11 @@
 
 {
-  "ID": 264,
+  "ID": 261,
   "Name": "Mercury Mountains",
   "Resource Location": "biometweaker:mercurymountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 4.7,
-  "Height Variation": 0.3,
+  "Root Height": 6.18,
+  "Height Variation": 0.98,
   "Top Block": "bblsom:mercuriandirt",
   "Filler Block": "bblsom:mercuriandirt",
   "Ocean Top Block": "minecraft:gravel",

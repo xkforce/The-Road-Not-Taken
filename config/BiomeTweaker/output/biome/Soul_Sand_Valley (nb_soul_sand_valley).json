@@ -1,10 +1,10 @@
 
 {
-  "ID": 274,
+  "ID": 271,
   "Name": "Soul Sand Valley",
   "Resource Location": "nb:soul_sand_valley",
   "Class": "com.unseen.nb.common.world.biome.BiomeSoulValley",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "nb:soul_soil",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "DRY",
+    "HOT",
     "NETHER",
-    "HOT"
+    "DRY",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

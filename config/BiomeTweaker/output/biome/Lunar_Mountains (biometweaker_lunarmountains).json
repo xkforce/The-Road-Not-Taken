@@ -1,11 +1,11 @@
 
 {
-  "ID": 234,
+  "ID": 231,
   "Name": "Lunar Mountains",
   "Resource Location": "biometweaker:lunarmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.176,
-  "Height Variation": 1.0,
+  "Root Height": 6.18,
+  "Height Variation": 0.98,
   "Top Block": "contenttweaker:lunastone",
   "Filler Block": "contenttweaker:lunastone",
   "Ocean Top Block": "minecraft:gravel",

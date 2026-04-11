@@ -1,11 +1,11 @@
 
 {
-  "ID": 152,
+  "ID": 148,
   "Name": "End Volcano",
   "Resource Location": "biometweaker:endvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.175,
-  "Height Variation": 0.3,
+  "Root Height": 7.0,
+  "Height Variation": 1.42,
   "Top Block": "minecraft:end_stone",
   "Filler Block": "minecraft:end_stone",
   "Ocean Top Block": "minecraft:gravel",

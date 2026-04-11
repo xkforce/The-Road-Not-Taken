@@ -4,7 +4,7 @@
   "Name": "Desert M",
   "Resource Location": "minecraft:mutated_desert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.925,
+  "Root Height": 0.225,
   "Height Variation": 0.25,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
-    "DRY",
+    "HOT",
     "RARE",
-    "HOT"
+    "SANDY",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

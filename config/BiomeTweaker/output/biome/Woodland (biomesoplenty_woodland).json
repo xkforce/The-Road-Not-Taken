@@ -1,10 +1,10 @@
 
 {
-  "ID": 63,
+  "ID": 62,
   "Name": "Woodland",
   "Resource Location": "biomesoplenty:woodland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenWoodland",
-  "Root Height": -0.05882353,
+  "Root Height": 3.7058823,
   "Height Variation": 0.1625,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
+    "FOREST",
     "DRY",
-    "FOREST"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -188,36 +188,6 @@
   "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
-    "LILYPAD Generators": [
-      {
-        "ID": "flora",
-        "Name": "water_reeds"
-      }
-    ],
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "dead_leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "poison_ivy"
-      },
-      {
-        "ID": "flora",
-        "Name": "berry_bushes"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "amber"
-      }
-    ],
     "SAND_PASS2 Generators": [
       {
         "ID": "waterside",

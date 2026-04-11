@@ -1,0 +1,15 @@
+[
+  {
+    "mob": "minecraft:squid",
+    "biometype": "OCEAN",
+    "result": "default"
+  },
+  {
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:sheep","minecraft:squid"],
+    "biometype": "SPACE",
+    "result": "deny"
+  }
+]

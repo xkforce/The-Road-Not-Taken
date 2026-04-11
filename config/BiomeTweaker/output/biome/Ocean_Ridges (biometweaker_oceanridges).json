@@ -1,11 +1,11 @@
 
 {
-  "ID": 187,
+  "ID": 185,
   "Name": "Ocean Ridges",
   "Resource Location": "biometweaker:oceanridges",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 1.0,
-  "Height Variation": 1.0,
+  "Root Height": -1.5,
+  "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
   "Ocean Top Block": "minecraft:gravel",

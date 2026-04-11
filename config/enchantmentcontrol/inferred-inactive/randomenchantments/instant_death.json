@@ -1,0 +1,8 @@
+{
+  "id": "randomenchantments:instant_death",
+  "rarity": "RARE",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 1,
+  "vanilla system overrides": {}
+}

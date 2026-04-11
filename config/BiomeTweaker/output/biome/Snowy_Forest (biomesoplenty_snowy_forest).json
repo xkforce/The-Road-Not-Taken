@@ -1,13 +1,13 @@
 
 {
-  "ID": 60,
+  "ID": 59,
   "Name": "Snowy Forest",
   "Resource Location": "biomesoplenty:snowy_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyForest",
-  "Root Height": 0.05882353,
+  "Root Height": 3.8235295,
   "Height Variation": 0.1375,
-  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dsilty]",
-  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dsilty]",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -25,8 +25,8 @@
     "COLD",
     "WET",
     "SPARSE",
-    "FOREST",
-    "SNOWY"
+    "SNOWY",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -199,25 +199,9 @@
       "Max Group Count": 2
     }
   ],
-  "Spawn Biome": true,
+  "Spawn Biome": false,
   "Tweaked": false,
   "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "dead_leaf_piles"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
-      }
-    ],
     "TREE Generators": [
       {
         "ID": "weighted",

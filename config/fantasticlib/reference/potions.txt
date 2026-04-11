@@ -43,6 +43,7 @@ mowziesmobs:poison_resist
 oe:conduit_power
 oe:descent
 oe:dolphins_grace
+phantoms:slow_falling
 potioncore:love
 potioncore:extension
 potioncore:broken_magic_shield

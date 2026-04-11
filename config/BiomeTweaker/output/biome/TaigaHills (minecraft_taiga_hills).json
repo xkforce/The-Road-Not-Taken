@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "HILLS",
+    "COLD",
     "FOREST",
     "CONIFEROUS"
   ],
@@ -199,15 +199,8 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": false,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
-      }
-    ]
-  },
+  "Tweaked": true,
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

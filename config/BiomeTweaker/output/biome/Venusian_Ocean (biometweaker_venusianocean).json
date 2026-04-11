@@ -1,11 +1,11 @@
 
 {
-  "ID": 223,
+  "ID": 220,
   "Name": "Venusian Ocean",
   "Resource Location": "biometweaker:venusianocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 2.7,
-  "Height Variation": 0.1,
+  "Height Variation": 0.05,
   "Top Block": "bblsom:venusiangrass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,9 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "OCEAN",
-    "WATER",
-    "HOT"
+    "SPACE",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

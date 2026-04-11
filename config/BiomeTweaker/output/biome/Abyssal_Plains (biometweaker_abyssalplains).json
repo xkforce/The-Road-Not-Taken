@@ -1,10 +1,10 @@
 
 {
-  "ID": 249,
+  "ID": 246,
   "Name": "Abyssal Plains",
   "Resource Location": "biometweaker:abyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": -1.0,
+  "Root Height": -1.5,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",

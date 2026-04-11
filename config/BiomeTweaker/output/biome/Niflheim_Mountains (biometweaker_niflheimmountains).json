@@ -1,11 +1,11 @@
 
 {
-  "ID": 138,
+  "ID": 136,
   "Name": "Niflheim Mountains",
   "Resource Location": "biometweaker:niflheimmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 4.15,
-  "Height Variation": 0.3,
+  "Root Height": 6.18,
+  "Height Variation": 0.05,
   "Top Block": "minecraft:snow",
   "Filler Block": "minecraft:packed_ice",
   "Ocean Top Block": "minecraft:gravel",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "COLD",
     "MOUNTAIN",
-    "WASTELAND",
-    "SNOWY"
+    "SNOWY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

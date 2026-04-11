@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 123,
   "Name": "Chorus Swamp",
   "Resource Location": "biometweaker:chorusswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "END",
-    "SWAMP"
+    "SWAMP",
+    "END"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

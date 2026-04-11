@@ -1,0 +1,47 @@
+{
+  "block": "minecraft:grass",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biomesoplenty:tropical_rainforest"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 100
+    },
+    {
+      "block": "minecraft:tallgrass[type=tall_grass]",
+      "weight": 50
+    },
+    {
+      "block": "minecraft:tallgrass[type=fern]",
+      "weight": 100
+    },
+    {
+      "block": "minecraft:yellow_flower[type=dandelion]",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:red_flower[type=poppy]",
+      "weight": 5
+    },
+    {
+      "block": "biomesoplenty:flower_0[variant=orange_cosmos]",
+      "weight": 5
+    },
+    {
+      "block": "biomesoplenty:plant_1[variant=rafflesia]",
+      "weight": 5
+    },
+    {
+      "block": "minecraft:double_plant[half=lower,variant=double_grass]",
+      "weight": 5
+    }
+  ]
+}

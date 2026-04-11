@@ -4,7 +4,7 @@
   "Name": "Ice Plains Spikes",
   "Resource Location": "minecraft:mutated_ice_flats",
   "Class": "net.minecraft.world.biome.BiomeSnow",
-  "Root Height": 4.125,
+  "Root Height": 0.425,
   "Height Variation": 0.45000002,
   "Top Block": "minecraft:snow",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "HILLS",
+    "COLD",
     "RARE",
     "SNOWY"
   ],

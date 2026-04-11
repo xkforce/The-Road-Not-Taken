@@ -1,10 +1,14 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
+  "rainfall": 1.0,
   "skyColor": -1,
+  "guiColour": 5746228,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
   "variationAbove": 10.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -27,8 +31,10 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.7,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
+  "enableSnow": false,
   "generators": {
     "cattail": {
       "with": {
@@ -42,14 +48,6 @@
       "enable": true
     },
     "medium_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "medium"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.3,
       "enable": true
     },
     "brown_mushrooms": {
@@ -62,31 +60,9 @@
       "enable": true
     },
     "poison_lakes": {
-      "liquid": {
-        "block": "biomesoplenty:poison",
-        "properties": {
-          "level": "0"
-        }
-      },
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
-      }
+      "enable": true
     },
     "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 2.0,
       "enable": true
     },
     "trees": {
@@ -95,14 +71,6 @@
       "generators": {}
     },
     "small_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "small"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
       "enable": true
     },
     "flower_lily": {
@@ -117,14 +85,6 @@
       "enable": true
     },
     "koru": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "koru"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.3,
       "enable": true
     },
     "grass": {
@@ -163,14 +123,6 @@
       }
     },
     "tiny_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "tiny"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
       "enable": true
     },
     "red_mushrooms": {
@@ -183,25 +135,9 @@
       "enable": true
     },
     "glowshrooms": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "glowshroom"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 1.5,
       "enable": true
     },
     "leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "leafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     },
     "flowers": {
@@ -221,37 +157,12 @@
       "enable": true
     },
     "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "malachite": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "malachite"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
       "enable": true
     },
     "water_reeds": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "reed"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.7,
       "enable": true
     },
     "toadstools": {
@@ -300,29 +211,10 @@
       "enable": true
     },
     "mud": {
-      "with": {
-        "block": "biomesoplenty:mud",
-        "properties": {
-          "variant": "mud"
-        }
-      },
-      "maxRadius": 8,
-      "amountPerChunk": 0.5,
       "enable": true
     },
     "river_cane": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "rivercane"
-        }
-      },
-      "generationAttempts": 24,
-      "amountPerChunk": 0.3,
-      "maxHeight": 3,
-      "enable": true,
-      "randomDirection": false
+      "enable": true
     }
   },
   "weights": {

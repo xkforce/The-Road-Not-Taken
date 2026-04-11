@@ -1,0 +1,8 @@
+{
+  "id": "cofhcore:multishot",
+  "rarity": "UNCOMMON",
+  "isTreasure": false,
+  "isCurse": false,
+  "maxLvl": 4,
+  "vanilla system overrides": {}
+}

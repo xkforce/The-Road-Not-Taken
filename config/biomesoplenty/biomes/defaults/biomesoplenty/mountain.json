@@ -1,10 +1,14 @@
 {
+  "enableRain": true,
   "canGenerateRivers": false,
+  "rainfall": 0.1,
   "skyColor": -1,
+  "guiColour": 8430421,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 30.0,
   "variationAbove": 60.0,
+  "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -27,18 +31,12 @@
     }
   },
   "fogColor": -1,
+  "temperature": 0.5,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
+  "enableSnow": false,
   "generators": {
     "glowshrooms": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "glowshroom"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 1.5,
       "enable": true
     },
     "gravel": {
@@ -51,14 +49,6 @@
       "enable": true
     },
     "leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "leafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.8,
       "enable": true
     },
     "miners_delight": {
@@ -73,14 +63,6 @@
       "enable": true
     },
     "dead_leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "deadleafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.2,
       "enable": true
     },
     "emeralds": {
@@ -99,14 +81,6 @@
       "generators": {}
     },
     "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "lakes": {

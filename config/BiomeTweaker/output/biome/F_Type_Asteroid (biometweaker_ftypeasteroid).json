@@ -1,10 +1,10 @@
 
 {
-  "ID": 171,
+  "ID": 169,
   "Name": "F Type Asteroid",
   "Resource Location": "biometweaker:ftypeasteroid",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 0.125,
+  "Root Height": 3.825,
   "Height Variation": 0.05,
   "Top Block": "bblsom:redasteroiddirt",
   "Filler Block": "contenttweaker:fayalite",

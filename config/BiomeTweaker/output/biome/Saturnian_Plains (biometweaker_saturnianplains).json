@@ -1,13 +1,13 @@
 
 {
-  "ID": 144,
+  "ID": 142,
   "Name": "Saturnian Plains",
   "Resource Location": "biometweaker:saturnianplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.825,
   "Height Variation": 0.05,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Top Block": "contenttweaker:apricotsaturnstone",
+  "Filler Block": "contenttweaker:apricotsaturnstone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

@@ -1,10 +1,10 @@
 
 {
-  "ID": 70,
+  "ID": 92,
   "Name": "A mod doesn\u0027t support extended biome IDs -- report to REID",
   "Resource Location": "jeid:error_biome",
   "Class": "org.dimdev.jeid.biome.BiomeError",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -19,11 +19,11 @@
   "Temperature": 0.5,
   "Humidity": 0.5,
   "Water Tint": 4159204,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "PLAINS"
+    "PLAINS",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

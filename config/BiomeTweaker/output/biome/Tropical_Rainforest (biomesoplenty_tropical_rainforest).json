@@ -1,10 +1,10 @@
 
 {
-  "ID": 62,
+  "ID": 61,
   "Name": "Tropical Rainforest",
   "Resource Location": "biomesoplenty:tropical_rainforest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenTropicalRainforest",
-  "Root Height": 0.11764706,
+  "Root Height": 3.8823528,
   "Height Variation": 0.2625,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "WET",
+    "HOT",
     "LUSH",
+    "WET",
     "JUNGLE",
-    "HOT"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -151,22 +151,10 @@
       "Max Group Count": 2
     }
   ],
-  "Spawn Biome": false,
+  "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
-      {
-        "ID": "flora",
-        "Name": "medium_lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "algae"
-      },
-      {
-        "ID": "flora",
-        "Name": "small_lily"
-      },
       {
         "ID": "flora",
         "Name": "flower_lily"
@@ -174,38 +162,6 @@
       {
         "ID": "flora",
         "Name": "lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "tiny_lily"
-      }
-    ],
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "melons"
-      },
-      {
-        "ID": "flora",
-        "Name": "poison_ivy"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "lakes",
-        "Name": "quicksand"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "topaz"
       }
     ],
     "SAND_PASS2 Generators": [

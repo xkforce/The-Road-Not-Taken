@@ -1,10 +1,10 @@
 
 {
-  "ID": 87,
+  "ID": 84,
   "Name": "Stormland",
   "Resource Location": "advancedrocketry:stormland",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenStormland",
-  "Root Height": 4.5,
+  "Root Height": 1.0,
   "Height Variation": 0.1,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "WET",
-    "VOID",
     "WASTELAND",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

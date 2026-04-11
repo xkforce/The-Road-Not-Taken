@@ -1,10 +1,10 @@
 
 {
-  "ID": 49,
+  "ID": 48,
   "Name": "Grassland",
   "Resource Location": "biomesoplenty:grassland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGrassland",
-  "Root Height": -0.05882353,
+  "Root Height": 3.7058823,
   "Height Variation": 0.1625,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
+    "HILLS",
     "PLAINS",
-    "HILLS"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

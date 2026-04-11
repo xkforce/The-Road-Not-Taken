@@ -1,10 +1,10 @@
 
 {
-  "ID": 77,
+  "ID": 75,
   "Name": "Ulterior Outback",
   "Resource Location": "erebus:ulterior_outback",
   "Class": "erebus.world.biomes.BiomeUlteriorOutback",
-  "Root Height": 3.8,
+  "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand[variant\u003dred_sand]",
   "Filler Block": "minecraft:red_sandstone[type\u003dred_sandstone]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "SANDY",
     "DRY",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

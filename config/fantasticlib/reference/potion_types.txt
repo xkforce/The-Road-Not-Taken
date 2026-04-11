@@ -45,6 +45,8 @@ oe:turtle_master
 oe:turtle_master_long
 oe:turtle_master_strong
 oe:descent
+phantoms:slow_falling
+phantoms:extended_slow_falling
 potioncore:love
 potioncore:extension
 potioncore:strong_extension

@@ -1,11 +1,11 @@
 
 {
-  "ID": 216,
+  "ID": 214,
   "Name": "Mercury Ice Mountains",
   "Resource Location": "biometweaker:mercuryicemountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 4.8,
-  "Height Variation": 0.3,
+  "Root Height": 6.18,
+  "Height Variation": 0.98,
   "Top Block": "minecraft:packed_ice",
   "Filler Block": "bblsom:mercuriandirt",
   "Ocean Top Block": "minecraft:gravel",

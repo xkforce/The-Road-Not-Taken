@@ -1,13 +1,13 @@
 
 {
-  "ID": 122,
+  "ID": 120,
   "Name": "Jupiter Volcano",
   "Resource Location": "biometweaker:jupitervolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 7.0,
   "Height Variation": 1.42,
-  "Top Block": "contenttweaker:redandesite",
-  "Filler Block": "contenttweaker:redandesite",
+  "Top Block": "contenttweaker:redjupiterstone",
+  "Filler Block": "contenttweaker:redjupiterstone",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

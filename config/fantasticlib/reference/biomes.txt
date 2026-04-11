@@ -61,7 +61,6 @@ minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
 biomesoplenty:gravel_beach
-biomesoplenty:white_beach
 biomesoplenty:alps
 biomesoplenty:bayou
 biomesoplenty:cherry_blossom_grove
@@ -90,7 +89,6 @@ biomesoplenty:redwood_forest_edge
 biomesoplenty:glacier
 biomesoplenty:snowy_tundra
 biomesoplenty:volcanic_island
-jeid:error_biome
 mocreatures:wyvern_isles
 mocreatures:wyvern_desert_isles
 erebus:underground_jungle
@@ -102,7 +100,6 @@ erebus:fungal_forest
 erebus:submerged_swamp
 erebus:fields_sub_forest
 erebus:petrified_forest
-sugiforest:sugi_forest
 advancedrocketry:moon
 advancedrocketry:alien_forest
 advancedrocketry:hotdryrock
@@ -115,6 +112,7 @@ advancedrocketry:oceanspires
 advancedrocketry:moondark
 advancedrocketry:volcanic
 advancedrocketry:volcanicbarren
+jeid:error_biome
 biometweaker:warmoceanridges
 biometweaker:martianmountains
 biometweaker:neptunemountains
@@ -220,7 +218,6 @@ biometweaker:neptunevolcano
 biometweaker:zagreanocean
 biometweaker:neptuneocean
 biometweaker:redbeach
-biometweaker:wetland
 biometweaker:venusianocean
 biometweaker:sugiforest
 biometweaker:mercurymare

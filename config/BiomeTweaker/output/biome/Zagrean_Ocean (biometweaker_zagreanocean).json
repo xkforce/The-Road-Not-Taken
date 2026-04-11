@@ -1,6 +1,6 @@
 
 {
-  "ID": 219,
+  "ID": 217,
   "Name": "Zagrean Ocean",
   "Resource Location": "biometweaker:zagreanocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "OCEAN",
-    "WATER",
-    "HOT"
+    "SPACE",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
