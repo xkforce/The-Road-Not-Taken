@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:healing",
+  "effects": [
+    {
+      "potion": "minecraft:instant_health",
+      "level": 1,
+      "duration_min": 8.3333335E-4,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "minecraft:speckled_melon"
+    }
+  ],
+  "tipped_arrow_duration": 1
+}

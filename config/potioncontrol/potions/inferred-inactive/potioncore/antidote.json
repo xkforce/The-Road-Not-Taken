@@ -1,0 +1,6 @@
+{
+  "id": "potioncore:antidote",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#CC99"
+}

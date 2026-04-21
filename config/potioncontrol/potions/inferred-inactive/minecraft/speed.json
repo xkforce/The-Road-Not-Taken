@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:speed",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#7CAFC6",
+  "beaconLevels": [
+    0
+  ],
+  "attributeModifiers": [
+    {
+      "attribute": "generic.movementSpeed",
+      "modifierName": "effect.moveSpeed",
+      "amount": 0.20000000298023224,
+      "operation": 2,
+      "uuid": "91aeaa56-376b-4498-935b-2f7f68070635"
+    }
+  ]
+}

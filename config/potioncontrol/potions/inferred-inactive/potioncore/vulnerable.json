@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:vulnerable",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#557700",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.damageResistance",
+      "modifierName": "effect.vulnerable",
+      "amount": -0.5,
+      "operation": 2,
+      "uuid": "6b165744-5259-44e1-b600-e169bc06173b"
+    }
+  ]
+}

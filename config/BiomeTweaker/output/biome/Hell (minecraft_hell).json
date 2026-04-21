@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "NETHER",
+    "HOT",
     "DRY"
   ],
   "BiomeManager Entries": {},
@@ -102,14 +102,7 @@
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {
-    "PRE Generators": [
-      {
-        "ID": "hive",
-        "Name": "hive"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {

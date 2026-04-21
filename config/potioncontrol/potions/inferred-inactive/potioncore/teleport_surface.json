@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:teleport_surface",
+  "isGood": true,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF99"
+}

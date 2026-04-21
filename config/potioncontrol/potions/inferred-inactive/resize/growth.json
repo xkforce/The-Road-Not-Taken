@@ -1,0 +1,43 @@
+{
+  "id": "resize:growth",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF9600",
+  "attributeModifiers": [
+    {
+      "attribute": "artemislib.entityWidth",
+      "modifierName": "effect.growth",
+      "amount": 0.5,
+      "operation": 2,
+      "uuid": "ecb12bf7-3a91-4783-9750-d62bc9b7f3f1"
+    },
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "effect.growth",
+      "amount": -0.2,
+      "operation": 2,
+      "uuid": "ecb12bf7-3a91-4783-9750-d62bc9b7f3f1"
+    },
+    {
+      "attribute": "generic.attackDamage",
+      "modifierName": "effect.growth",
+      "amount": 0.5,
+      "operation": 2,
+      "uuid": "ecb12bf7-3a91-4783-9750-d62bc9b7f3f1"
+    },
+    {
+      "attribute": "generic.knockbackResistance",
+      "modifierName": "effect.growth",
+      "amount": 0.5,
+      "operation": 2,
+      "uuid": "ecb12bf7-3a91-4783-9750-d62bc9b7f3f1"
+    },
+    {
+      "attribute": "artemislib.entityHeight",
+      "modifierName": "effect.growth",
+      "amount": 0.5,
+      "operation": 2,
+      "uuid": "ecb12bf7-3a91-4783-9750-d62bc9b7f3f1"
+    }
+  ]
+}

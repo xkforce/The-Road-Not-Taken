@@ -1,0 +1,19 @@
+{
+  "id": "oe:descent",
+  "effects": [
+    {
+      "potion": "oe:descent",
+      "level": 1,
+      "duration_min": 2.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "oe:barnacle_shells"
+    }
+  ],
+  "tipped_arrow_duration": 300
+}

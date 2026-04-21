@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:dispel",
+  "isGood": false,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#990099"
+}

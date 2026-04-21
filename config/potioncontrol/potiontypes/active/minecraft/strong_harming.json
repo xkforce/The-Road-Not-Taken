@@ -1,0 +1,27 @@
+{
+  "id": "minecraft:strong_harming",
+  "effects": [
+    {
+      "potion": "minecraft:instant_damage",
+      "level": 2,
+      "duration_min": 8.3333335E-4,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:strong_healing",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:harming",
+      "reagent": "minecraft:glowstone_dust"
+    },
+    {
+      "from": "minecraft:strong_poison",
+      "reagent": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "tipped_arrow_duration": 1
+}

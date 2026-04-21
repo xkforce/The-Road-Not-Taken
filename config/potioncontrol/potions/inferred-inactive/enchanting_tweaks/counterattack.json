@@ -1,0 +1,15 @@
+{
+  "id": "enchanting_tweaks:counterattack",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#FEC213",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.attackDamage",
+      "modifierName": "effect.counterattack",
+      "amount": 0.20000000298023224,
+      "operation": 2,
+      "uuid": "26107045-abed-4c54-a645-75c3ae5c7a27"
+    }
+  ]
+}

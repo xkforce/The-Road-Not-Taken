@@ -25,7 +25,6 @@ minecraft:glowing
 minecraft:levitation
 minecraft:luck
 minecraft:unluck
-biomesoplenty:curse
 deeperdepths:bad_omen
 deeperdepths:trial_omen
 deeperdepths:oozing
@@ -36,10 +35,6 @@ nyx:astral_erosion
 nyx:deep_freeze
 nyx:inferno
 nyx:paralysis
-mowziesmobs:suns_blessing
-mowziesmobs:geomancy
-mowziesmobs:frozen
-mowziesmobs:poison_resist
 oe:conduit_power
 oe:descent
 oe:dolphins_grace
@@ -67,12 +62,9 @@ potioncore:klutz
 potioncore:magic_shield
 potioncore:antidote
 potioncore:archery
-radenchants:insomnia
 raids:hero_of_the_village
 raids:bad_omen
 raids:raid_omen
-switchbow:freeze
-switchbow:love
 cyclicmagic:potion.magnet
 cyclicmagic:potion.ender
 cyclicmagic:potion.waterwalk

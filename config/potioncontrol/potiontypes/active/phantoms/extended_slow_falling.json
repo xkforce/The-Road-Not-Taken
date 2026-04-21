@@ -1,0 +1,19 @@
+{
+  "id": "phantoms:extended_slow_falling",
+  "effects": [
+    {
+      "potion": "phantoms:slow_falling",
+      "level": 1,
+      "duration_min": 4.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "phantoms:slow_falling",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 600
+}

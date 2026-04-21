@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:long_magic_shield",
+  "effects": [
+    {
+      "potion": "potioncore:magic_shield",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

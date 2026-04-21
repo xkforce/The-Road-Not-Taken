@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:jump_boost",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#22FF4C",
+  "beaconLevels": [
+    1
+  ],
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.jumpHeight",
+      "modifierName": "effect.jump",
+      "amount": 0.75,
+      "operation": 0,
+      "uuid": "3f9ee864-485e-4ce8-9226-a0a4dbc50b0f"
+    }
+  ]
+}

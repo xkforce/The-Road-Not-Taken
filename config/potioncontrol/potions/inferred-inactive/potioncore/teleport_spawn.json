@@ -1,0 +1,6 @@
+{
+  "id": "potioncore:teleport_spawn",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#9955FF"
+}

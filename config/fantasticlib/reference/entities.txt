@@ -91,15 +91,15 @@ advancedrocketry:arplanetuibutton
 advancedrocketry:arstaruibutton
 advancedrocketry:arspaceelevatorcapsule
 advancedrocketry:arhovercraft
+quark:gravisand
+quark:chest_passenger
 quark:arrow_explosive
 quark:arrow_torch
 quark:dragon_breath_bottle
-quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:gravisand
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
@@ -327,7 +327,6 @@ creatures:lapwing
 creatures:creatures_skua
 iceologer:iceologer
 iceologer:icecube
-grapplemod:grapplemod
 nb:piglin
 nb:strider
 nb:piglin_brute

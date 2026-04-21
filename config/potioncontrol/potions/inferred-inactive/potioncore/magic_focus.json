@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:magic_focus",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#E69FFF",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.magicDamage",
+      "modifierName": "effect.magic_focus",
+      "amount": 0.75,
+      "operation": 2,
+      "uuid": "2da2fa36-cbe5-4211-8316-51e4d687ef2d"
+    }
+  ]
+}

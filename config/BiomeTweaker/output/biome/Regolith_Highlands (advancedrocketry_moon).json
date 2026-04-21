@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "DISABLED",
     "WASTELAND",
     "DRY",
+    "DISABLED",
     "VOID"
   ],
   "BiomeManager Entries": {},

@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:long_regeneration",
+  "effects": [
+    {
+      "potion": "minecraft:regeneration",
+      "level": 1,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:regeneration",
+      "reagent": "minecraft:redstone"
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "creatures:parrot_feather"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

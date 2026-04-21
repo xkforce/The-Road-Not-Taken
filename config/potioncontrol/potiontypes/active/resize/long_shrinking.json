@@ -1,0 +1,23 @@
+{
+  "id": "resize:long_shrinking",
+  "effects": [
+    {
+      "potion": "resize:shrinking",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "resize:shrinking",
+      "reagent": "minecraft:redstone"
+    },
+    {
+      "from": "resize:strong_shrinking",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

@@ -1,0 +1,7 @@
+{
+  "id": "minecraft:saturation",
+  "isGood": true,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#F82423"
+}

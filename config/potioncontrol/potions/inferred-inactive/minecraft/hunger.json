@@ -1,0 +1,6 @@
+{
+  "id": "minecraft:hunger",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#587653"
+}

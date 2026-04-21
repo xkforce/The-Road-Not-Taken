@@ -23,10 +23,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HILLS",
-    "SUGIFOREST",
-    "WET",
+    "DENSE",
     "FOREST",
-    "DENSE"
+    "SUGIFOREST",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

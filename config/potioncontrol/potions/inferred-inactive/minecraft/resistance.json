@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:resistance",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#99453A",
+  "beaconLevels": [
+    1
+  ],
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.damageResistance",
+      "modifierName": "effect.resistance",
+      "amount": 0.2,
+      "operation": 1,
+      "uuid": "f26465f4-bdf0-4014-99ae-2d52c22953e0"
+    }
+  ]
+}

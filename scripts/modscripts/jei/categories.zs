@@ -5,12 +5,6 @@
 import mods.jei.JEI;
 
 val categoriesToHide as string[] = [
-    "jeresources.plant",
-    "jeresources.worldgen",
-    "jeresources.mob",
-    "jeresources.enchantment",
-    "jeresources.dungeon",
-    "jeresources.villager",
     "rockhounding_rocks.stone_rammer",
     "jei.information"
 ];

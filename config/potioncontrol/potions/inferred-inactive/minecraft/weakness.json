@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:weakness",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#484D48",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.attackDamage",
+      "modifierName": "effect.weakness",
+      "amount": -4.0,
+      "operation": 0,
+      "uuid": "22653b89-116e-49dc-9b6b-9971489b5be5"
+    }
+  ]
+}

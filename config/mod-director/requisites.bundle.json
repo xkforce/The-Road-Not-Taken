@@ -17,11 +17,6 @@
 			"fileName": "bookworm-1.12.2-2.5.2.1.jar"
 		},
 		{
-			"addonId": 244447,
-			"fileId": 2823903,
-			"fileName": "camouflagedcreepers-1.7.1.jar"
-		},
-		{
 			"addonId": 253947,
 			"fileId": 2435092,
 			"fileName": "DeathQuotes-1.2.0-mc1.12-forge.jar"
@@ -47,11 +42,6 @@
 			"fileName": "FreeLook-1.2.2.jar"
 		},
 		{
-			"addonId": 417768,
-			"fileId": 3930474,
-			"fileName": "LotTweaks-mc1.12.2-version-3.0.6.jar"
-		},
-		{
 			"addonId": 262396,
 			"fileId": 4797898,
 			"fileName": "rockhounding_rocks-1.12.2-3.23.jar"
@@ -66,9 +56,6 @@
 	[
 		{
 			"url": "https://cdn.modrinth.com/data/WC654je6/versions/QaMeGgf7/Erosion-2.2.1%20for%201.12.jar"
-		},
-		{
-			"url": "https://cdn.modrinth.com/data/L55Wy0Fz/versions/QBprvpeM/JSON-Paintings-v1.3.0-mc1.12.2.jar"
 		},
 		{
 			"url": "https://cdn.modrinth.com/data/OsLkXa0u/versions/KqSPQ4Uv/frikinzis-fauna-1.4.0-1.12.2.jar"

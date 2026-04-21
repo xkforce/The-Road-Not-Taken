@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:archery",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#995500",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.projectileDamage",
+      "modifierName": "effect.archery",
+      "amount": 3.0,
+      "operation": 0,
+      "uuid": "ad83c3cc-e133-41f2-bd3c-c553902f7eca"
+    }
+  ]
+}

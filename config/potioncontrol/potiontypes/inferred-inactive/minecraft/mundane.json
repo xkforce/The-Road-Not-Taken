@@ -1,0 +1,38 @@
+{
+  "id": "minecraft:mundane",
+  "effects": [],
+  "brews_from": [
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:speckled_melon"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:ghast_tear"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:rabbit_foot"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:blaze_powder"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:spider_eye"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:sugar"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:magma_cream"
+    },
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:redstone"
+    }
+  ]
+}

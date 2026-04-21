@@ -1,0 +1,15 @@
+{
+  "id": "oe:dolphins_grace",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#88A3BE",
+  "attributeModifiers": [
+    {
+      "attribute": "forge.swimSpeed",
+      "modifierName": "effect.oe.dolphins_grace",
+      "amount": 1.0,
+      "operation": 0,
+      "uuid": "020e0dfb-87ae-4653-9556-831010e291a0"
+    }
+  ]
+}

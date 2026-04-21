@@ -1,0 +1,6 @@
+{
+  "id": "potioncore:revival",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF0000"
+}

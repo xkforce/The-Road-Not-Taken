@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:strong_broken_magic_shield",
+  "effects": [
+    {
+      "potion": "potioncore:broken_magic_shield",
+      "level": 2,
+      "duration_min": 0.375,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 56
+}

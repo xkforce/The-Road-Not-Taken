@@ -1,0 +1,25 @@
+{
+  "id": "nyx:paralysis",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 25,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#FFEDED",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.movementSpeed",
+      "modifierName": "mob_effect.paralysis",
+      "amount": -1.0,
+      "operation": 2,
+      "uuid": "f8dc5256-1dbd-465e-9326-cefae193d742"
+    },
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "mob_effect.paralysis",
+      "amount": -1.0,
+      "operation": 2,
+      "uuid": "ccaaebeb-6740-4f50-9249-3e1fffcf3a35"
+    }
+  ]
+}

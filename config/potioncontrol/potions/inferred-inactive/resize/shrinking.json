@@ -1,0 +1,43 @@
+{
+  "id": "resize:shrinking",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#FFC8",
+  "attributeModifiers": [
+    {
+      "attribute": "artemislib.entityWidth",
+      "modifierName": "effect.shrinking",
+      "amount": -0.5,
+      "operation": 2,
+      "uuid": "3df9b27f-a0d4-4b4f-8110-7e3fc740e8d6"
+    },
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "effect.shrinking",
+      "amount": 0.5,
+      "operation": 2,
+      "uuid": "2a69b27f-e024-4b4f-8110-7e35c740e8d6"
+    },
+    {
+      "attribute": "generic.attackDamage",
+      "modifierName": "effect.shrinking",
+      "amount": -0.25,
+      "operation": 2,
+      "uuid": "2a69b27f-e024-4b4f-8110-7e35c740e8d6"
+    },
+    {
+      "attribute": "generic.knockbackResistance",
+      "modifierName": "effect.shrinking",
+      "amount": -1.0,
+      "operation": 2,
+      "uuid": "2a69b27f-e024-4b4f-8110-7e35c740e8d6"
+    },
+    {
+      "attribute": "artemislib.entityHeight",
+      "modifierName": "effect.shrinking",
+      "amount": -0.5,
+      "operation": 2,
+      "uuid": "3df9b27f-a0d4-4b4f-8110-7e3fc740e8d6"
+    }
+  ]
+}

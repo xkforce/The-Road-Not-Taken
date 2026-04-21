@@ -1,0 +1,23 @@
+{
+  "id": "resize:strong_growth",
+  "effects": [
+    {
+      "potion": "resize:growth",
+      "level": 2,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "resize:growth",
+      "reagent": "minecraft:glowstone_dust"
+    },
+    {
+      "from": "resize:long_growth",
+      "reagent": "minecraft:glowstone_dust"
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

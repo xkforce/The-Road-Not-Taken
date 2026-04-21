@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:regeneration",
+  "effects": [
+    {
+      "potion": "minecraft:regeneration",
+      "level": 1,
+      "duration_min": 0.75,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "minecraft:ghast_tear"
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "creatures:item_goldfish"
+    }
+  ],
+  "tipped_arrow_duration": 112
+}

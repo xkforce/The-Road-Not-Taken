@@ -23,10 +23,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "BIRCH_TREES",
-    "LARGEOAKFOREST",
-    "FOREST",
     "DENSE",
-    "SPOOKY"
+    "SPOOKY",
+    "FOREST",
+    "LARGEOAKFOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

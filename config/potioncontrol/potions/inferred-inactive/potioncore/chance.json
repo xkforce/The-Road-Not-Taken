@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:chance",
+  "isGood": true,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF"
+}

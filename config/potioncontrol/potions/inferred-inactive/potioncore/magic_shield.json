@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:magic_shield",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF46AA",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.magicShielding",
+      "modifierName": "effect.magic_shield",
+      "amount": 4.0,
+      "operation": 0,
+      "uuid": "6a64d921-fa98-45da-b8da-67e82f7ceafd"
+    }
+  ]
+}

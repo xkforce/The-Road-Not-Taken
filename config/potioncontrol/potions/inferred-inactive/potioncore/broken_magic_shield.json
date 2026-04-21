@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:broken_magic_shield",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#A80B60",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.magicShielding",
+      "modifierName": "effect.broken_magic_shield",
+      "amount": -0.25,
+      "operation": 2,
+      "uuid": "a6386f42-fc22-4d3b-bb43-0ab607738894"
+    }
+  ]
+}

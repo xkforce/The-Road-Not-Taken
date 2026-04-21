@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:teleport",
+  "isGood": false,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#CC99"
+}

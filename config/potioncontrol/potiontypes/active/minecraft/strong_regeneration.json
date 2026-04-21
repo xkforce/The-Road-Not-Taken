@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:strong_regeneration",
+  "effects": [
+    {
+      "potion": "minecraft:regeneration",
+      "level": 2,
+      "duration_min": 0.375,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:regeneration",
+      "reagent": "minecraft:glowstone_dust"
+    }
+  ],
+  "tipped_arrow_duration": 56
+}

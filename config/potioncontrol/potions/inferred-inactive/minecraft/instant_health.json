@@ -1,0 +1,7 @@
+{
+  "id": "minecraft:instant_health",
+  "isGood": true,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#F82423"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:long_invisibility",
+  "effects": [
+    {
+      "potion": "minecraft:invisibility",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:long_night_vision",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:invisibility",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

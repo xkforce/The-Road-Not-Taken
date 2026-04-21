@@ -5,20 +5,6 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var cokeblock = VanillaFactory.createBlock("cokeblock", <blockmaterial:rock>);
-cokeblock.setBlockHardness(30.0);
-cokeblock.setBlockResistance(5.0);
-cokeblock.setToolClass("pickaxe");
-cokeblock.setToolLevel(0);
-cokeblock.register();
-
-var graphiteblock = VanillaFactory.createBlock("graphiteblock", <blockmaterial:rock>);
-graphiteblock.setBlockHardness(30.0);
-graphiteblock.setBlockResistance(5.0);
-graphiteblock.setToolClass("pickaxe");
-graphiteblock.setToolLevel(0);
-graphiteblock.register();
-
 var phosphorusblock = VanillaFactory.createBlock("phosphorusblock", <blockmaterial:rock>);
 phosphorusblock.setBlockHardness(0.5);
 phosphorusblock.setBlockResistance(2.5);
@@ -47,17 +33,18 @@ for s in salts {
 }
 
 val sulfur as string[] = [
-    "amber", 
-    "chartreuse", 
-    "green", 
-    "lightbrown", 
-    "orange", 
-    "peach", 
-    "red", 
-    "tan", 
-    "vermillion", 
-    "white", 
-    "yellow", 
+    "amber",
+    "chartreuse",
+    "cream",
+    "green",
+    "lightbrown",
+    "orange",
+    "peach",
+    "red",
+    "tan",
+    "vermillion",
+    "white",
+    "yellow",
 ];
 
 for t in sulfur {
@@ -155,4 +142,52 @@ for p in planks {
     e.setBlockResistance(15.0);
     e.setToolLevel(0);
     e.register();
+}
+
+val clay as string[] = [
+    "black", 
+    "brown", 
+    "gray", 
+    "green", 
+    "orange", 
+    "pink", 
+    "purple", 
+    "red", 
+    "tan", 
+    "white", 
+    "winered", 
+    "yellow", 
+];
+
+for y in clay {
+    var f as Block = VanillaFactory.createBlock(`${y}clayblock`, <blockmaterial:clay>);
+    f.setBlockHardness(0.5);
+    f.setBlockResistance(2.5);
+    f.setToolClass("pickaxe");
+    f.setToolLevel(0);
+    f.register();
+}
+
+val stonetype as string[] = [
+    "bornite", 
+    "cattierite", 
+    "chlorite", 
+    "cobaltite", 
+    "coke", 
+    "djurleite", 
+    "foolsgold", 
+    "geerite", 
+    "graphite", 
+    "hematite", 
+    "kesterite", 
+    "magnetite", 
+    "montbrayite", 
+    "pyrrhotite", 
+];
+
+for v in stonetype {
+    var w as Block = VanillaFactory.createBlock(`${v}block`, <blockmaterial:rock>);
+    w.setToolClass("pickaxe");
+    w.setToolLevel(0);
+    w.register();
 }

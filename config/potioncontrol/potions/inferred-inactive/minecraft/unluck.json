@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:unluck",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#C0A44D",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.luck",
+      "modifierName": "effect.unluck",
+      "amount": -1.0,
+      "operation": 0,
+      "uuid": "cc5af142-2bd2-4215-b636-2605aed11727"
+    }
+  ]
+}

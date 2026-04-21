@@ -1,0 +1,10 @@
+{
+  "id": "minecraft:thick",
+  "effects": [],
+  "brews_from": [
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:glowstone_dust"
+    }
+  ]
+}

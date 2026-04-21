@@ -108,20 +108,6 @@ key.freelook.category
 key.togglemode.desc
 key.freelook.desc
 
-key.grapplemod.category
-key.climb.desc
-key.climbdown.desc
-key.climbup.desc
-key.enderlaunch.desc
-key.jumpanddetach.desc
-key.motoronoff.desc
-key.rocket.desc
-key.slide.desc
-key.slow.desc
-key.boththrow.desc
-key.leftthrow.desc
-key.rightthrow.desc
-
 key.categories.hotswap
 key.hotswap.rotateRowDown
 key.hotswap.rotateDown
@@ -137,25 +123,11 @@ key.itemzoom.toggle
 key.itemzoom.zoom.in
 key.itemzoom.zoom.out
 
-LotTweaks
-Ex Pick
-Extend Reach Range
-Open Palette
-Replace
-RotateRow
-
 key.mclib.category
 key.mclib.dashboard
 
 quark.gui.keygroupMisc
 quark.keybind.toggleAutojump
-
-key.radenchants:category.title
-key.radenchants.access_ender_chest
-key.radenchants.access_pocket
-key.radenchants.gallop
-key.radenchants.sockets_info
-key.radenchants.sockets_show
 
 RebornMod
 key.vehicle_0.switch
@@ -191,15 +163,10 @@ waila.keybind.recipe
 waila.keybind.usage
 waila.keybind.wailadisplay
 
-flare.key.category
-flare.key.open_tick_tracking_menu
-flare.key.start_client_sampling
-flare.key.start_sampling
-flare.key.stop_client_sampling
-flare.key.stop_sampling
-
 jei (Had Enough Items)
+key.hei.bookmarkToTop
 key.jei.bookmark
+key.hei.recipeBookmark
 key.hei.crafting
 key.jei.focusSearch
 key.jei.nextPage
@@ -211,4 +178,6 @@ key.hei.toggleBookmarkOverlay
 key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode
+key.hei.nextCategory
+key.hei.previousCategory
 

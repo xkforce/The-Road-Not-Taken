@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:long_revival",
+  "effects": [
+    {
+      "potion": "potioncore:revival",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:luck",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#339900",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.luck",
+      "modifierName": "effect.luck",
+      "amount": 1.0,
+      "operation": 0,
+      "uuid": "03c3c89d-7037-4b42-869f-b146bcb64d2e"
+    }
+  ]
+}

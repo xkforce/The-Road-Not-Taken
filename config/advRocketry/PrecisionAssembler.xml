@@ -32,6 +32,30 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+			<itemStack>minecraft:stone_button</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:weathercontroller</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;2;1</itemStack>
+			<itemStack>libvulpes:productrod;1;7</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;6</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="900" power ="50">
 		<input>
 			<itemStack>minecraft:redstone</itemStack>
@@ -51,6 +75,95 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="4000" power ="900">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>libvulpes:productgem</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="4000" power ="800">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>libvulpes:productgem</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;8</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="4000" power ="700">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="3000" power ="600">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="3000" power ="500">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="3000" power ="400">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="300">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="200">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="100">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:nuclearrocketmotor;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearrocketmotor</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="2000" power ="250">
@@ -106,6 +219,93 @@
 			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="2700" power ="900">
+		<input>
+			<itemStack>libvulpes:productingot;2;6</itemStack>
+			<itemStack>libvulpes:productplate;2;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="800">
+		<input>
+			<itemStack>libvulpes:productingot;2;6</itemStack>
+			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="700">
+		<input>
+			<itemStack>libvulpes:productingot;2;6</itemStack>
+			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="600">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="500">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="400">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="300">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="200">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>libvulpes:productingot;1;6</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="100" power ="1">
 		<input>
 			<itemStack>advancedrocketry:spacestationchip</itemStack>
@@ -153,6 +353,19 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:biomechanger</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="1000" power ="1">
@@ -208,6 +421,93 @@
 			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="2700" power ="900">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="900">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;8</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="700">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="600">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="500">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="400">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="300">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="200">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advrocketmotor;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="900" power ="100">
 		<input>
 			<itemStack>minecraft:gold_ingot</itemStack>
@@ -216,6 +516,93 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="900">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="800">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;8</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2700" power ="700">
+		<input>
+			<itemStack>advancedrocketry:productingot;2;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;7</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="600">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="500">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="400">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productplate</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="300">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="200">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advbipropellantrocketmotor</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

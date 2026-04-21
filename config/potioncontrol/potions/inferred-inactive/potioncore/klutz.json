@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:klutz",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#999933",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.projectileDamage",
+      "modifierName": "effect.klutz",
+      "amount": -4.0,
+      "operation": 0,
+      "uuid": "fd747754-0718-456c-8538-330c4ab65793"
+    }
+  ]
+}

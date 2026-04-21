@@ -1,0 +1,7 @@
+{
+  "id": "minecraft:instant_damage",
+  "isGood": false,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#430A09"
+}

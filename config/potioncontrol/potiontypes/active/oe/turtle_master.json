@@ -1,0 +1,25 @@
+{
+  "id": "oe:turtle_master",
+  "effects": [
+    {
+      "potion": "minecraft:resistance",
+      "level": 4,
+      "duration_min": 0.33333334,
+      "is_beacon_style": false,
+      "shows_particles": true
+    },
+    {
+      "potion": "minecraft:slowness",
+      "level": 4,
+      "duration_min": 0.33333334,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "oe:turtle_helmet"
+    }
+  ]
+}

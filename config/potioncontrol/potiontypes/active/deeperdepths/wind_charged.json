@@ -1,0 +1,22 @@
+{
+  "id": "deeperdepths:wind_charged",
+  "effects": [
+    {
+      "potion": "deeperdepths:wind_charged",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": {
+        "item": "deeperdepths:material",
+        "meta": 3
+      }
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

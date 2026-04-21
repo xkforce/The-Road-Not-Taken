@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:love",
+  "isGood": true,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF3333"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:long_poison",
+  "effects": [
+    {
+      "potion": "minecraft:poison",
+      "level": 1,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:poison",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

@@ -13,10 +13,6 @@
   "spawnBlocks": [
     {
       "block": "biomesoplenty:flower_1[variant=lavender]",
-      "weight": 5
-    },
-    {
-      "block": "minecraft:tallgrass[type=tall_grass]",
       "weight": 1
     }
   ]

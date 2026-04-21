@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:long_fire_resistance",
+  "effects": [
+    {
+      "potion": "minecraft:fire_resistance",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:fire_resistance",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

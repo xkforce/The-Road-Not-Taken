@@ -1,0 +1,27 @@
+{
+  "id": "minecraft:harming",
+  "effects": [
+    {
+      "potion": "minecraft:instant_damage",
+      "level": 1,
+      "duration_min": 8.3333335E-4,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:healing",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:poison",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:long_poison",
+      "reagent": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "tipped_arrow_duration": 1
+}

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Asteroids>
 	<asteroid name="Small Asteroid" distance="10" mass="200" massVariability="0.5" minLevel="0" probability="20" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="15" />

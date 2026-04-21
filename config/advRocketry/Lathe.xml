@@ -34,18 +34,10 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotCopper;2</oreDict>
+			<oreDict>ingotTitaniumAluminide</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod;2;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotSteel</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod;2;6</itemStack>
+			<itemStack>advancedrocketry:productrod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -58,6 +50,14 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotIridium;2</oreDict>
 		</input>
 		<output>
@@ -66,10 +66,18 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTitaniumAluminide</oreDict>
+			<oreDict>ingotCopper;2</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productrod;2</itemStack>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;6</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

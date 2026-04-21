@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:purity",
+  "effects": [
+    {
+      "potion": "potioncore:purity",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

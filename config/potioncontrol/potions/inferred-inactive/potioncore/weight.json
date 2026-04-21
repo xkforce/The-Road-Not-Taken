@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:weight",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#555555",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.jumpHeight",
+      "modifierName": "effect.weight",
+      "amount": -0.5,
+      "operation": 1,
+      "uuid": "e4a96c88-9ac4-4b4b-afe5-fa13e4bcef6c"
+    }
+  ]
+}

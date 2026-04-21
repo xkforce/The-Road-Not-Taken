@@ -1,0 +1,9 @@
+{
+  "id": "minecraft:wither",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 40,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#352A27"
+}

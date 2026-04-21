@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:fire",
+  "isGood": false,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#FF5500"
+}

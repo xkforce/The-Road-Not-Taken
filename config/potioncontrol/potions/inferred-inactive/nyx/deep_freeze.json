@@ -1,0 +1,25 @@
+{
+  "id": "nyx:deep_freeze",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 40,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#C0DAFF",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.movementSpeed",
+      "modifierName": "mob_effect.deep_freeze",
+      "amount": -0.25,
+      "operation": 2,
+      "uuid": "f8dc5256-1dbd-465e-9326-cefae193d742"
+    },
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "mob_effect.deep_freeze",
+      "amount": -0.2,
+      "operation": 2,
+      "uuid": "ccaaebeb-6740-4f50-9249-3e1fffcf3a35"
+    }
+  ]
+}

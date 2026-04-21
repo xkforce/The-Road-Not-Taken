@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:long_night_vision",
+  "effects": [
+    {
+      "potion": "minecraft:night_vision",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:night_vision",
+      "reagent": "minecraft:redstone"
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

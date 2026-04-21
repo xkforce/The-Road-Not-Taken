@@ -561,9 +561,9 @@
             <atmosphereDensity>0</atmosphereDensity>
         </planet>
         <planet name="Jupiter" customIcon="Jupiter" DIMID="55" dimMapping="">
-            <gravitationalMultiplier>253</gravitationalMultiplier>
+            <gravitationalMultiplier>200</gravitationalMultiplier>
             <orbitalDistance>520</orbitalDistance>
-            <orbitalTheta>200</orbitalTheta>
+            <orbitalTheta>253</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
             <atmosphereDensity>100</atmosphereDensity>
             <planet name="Io" customIcon="Io" DIMID="58" dimMapping="">

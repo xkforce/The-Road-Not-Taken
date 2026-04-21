@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:teleport_spawn",
+  "effects": [
+    {
+      "potion": "potioncore:teleport_spawn",
+      "level": 1,
+      "duration_min": 0.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 75
+}

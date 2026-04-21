@@ -1,0 +1,27 @@
+{
+  "id": "resize:shrinking",
+  "effects": [
+    {
+      "potion": "resize:shrinking",
+      "level": 1,
+      "duration_min": 4.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:mundane",
+      "reagent": "minecraft:brown_mushroom"
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "minecraft:brown_mushroom"
+    },
+    {
+      "from": "minecraft:thick",
+      "reagent": "minecraft:brown_mushroom"
+    }
+  ],
+  "tipped_arrow_duration": 600
+}

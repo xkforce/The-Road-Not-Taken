@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:invisibility",
+  "effects": [
+    {
+      "potion": "minecraft:invisibility",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:night_vision",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "pvj:spectral_wrappings"
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

@@ -1,0 +1,9 @@
+{
+  "id": "nyx:inferno",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 20,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#550000"
+}

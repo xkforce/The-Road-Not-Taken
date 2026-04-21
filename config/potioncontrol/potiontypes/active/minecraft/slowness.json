@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:slowness",
+  "effects": [
+    {
+      "potion": "minecraft:slowness",
+      "level": 1,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:leaping",
+      "reagent": "minecraft:fermented_spider_eye"
+    },
+    {
+      "from": "minecraft:swiftness",
+      "reagent": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:long_strength",
+  "effects": [
+    {
+      "potion": "minecraft:strength",
+      "level": 1,
+      "duration_min": 8.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:strength",
+      "reagent": "minecraft:redstone"
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "creatures:bird_of_prey_feather"
+    }
+  ],
+  "tipped_arrow_duration": 1200
+}

@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:weakness",
+  "effects": [
+    {
+      "potion": "minecraft:weakness",
+      "level": 1,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

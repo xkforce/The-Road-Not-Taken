@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:haste",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#D9C043",
+  "beaconLevels": [
+    0
+  ],
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.digSpeed",
+      "modifierName": "effect.digSpeed",
+      "amount": 0.2,
+      "operation": 1,
+      "uuid": "00b4c426-2fae-46dd-a3f1-708c95beb21c"
+    },
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "effect.digSpeed",
+      "amount": 0.10000000149011612,
+      "operation": 2,
+      "uuid": "af8b6e3f-3328-4c0a-aa36-5ba2bb9dbef3"
+    }
+  ]
+}

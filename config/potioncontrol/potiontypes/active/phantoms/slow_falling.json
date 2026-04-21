@@ -1,0 +1,19 @@
+{
+  "id": "phantoms:slow_falling",
+  "effects": [
+    {
+      "potion": "phantoms:slow_falling",
+      "level": 1,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "phantoms:phantom_membrane"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

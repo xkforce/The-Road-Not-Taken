@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:solid_core",
+  "isGood": true,
+  "milkRemovable": true,
+  "liquidColor": "#222222",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.knockbackResistance",
+      "modifierName": "effect.solid_core",
+      "amount": 1.0,
+      "operation": 0,
+      "uuid": "9bface7b-f0d0-4bdb-9c0c-09c3237fa99c"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "minecraft:awkward",
+  "effects": [],
+  "brews_from": [
+    {
+      "from": "minecraft:water",
+      "reagent": "minecraft:nether_wart"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minecraft:poison",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 25,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#4E9331"
+}

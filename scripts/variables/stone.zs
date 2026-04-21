@@ -122,8 +122,7 @@ Purpur.addFlag("--onlyBlocks");
 Purpur.addReplacement("minecraft:purpur_block", "super_pink", " ");
 Purpur.addReplacement("minecraft:purpur_pillar", "super_pink", "pillar");
 
-// Nether Stones
-global FoolsGold as Stone = Stone("foolsgold", none, none);
+// Nether Stone Types
 global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
 Netherrack.addFlag("--onlyBlocks");
 Netherrack.setHardness(0.4);
@@ -167,7 +166,6 @@ global Persephonestone as Stone = Stone("persephonestone", c184, defaultnocobble
 
 // Unknown
 global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
-global Violecite as Stone = Stone("violecite", COLORS.keys, defaultnocobbleVariants);
 
 // Rockhounding Rocks
 global Ammolite as Stone = Stone("ammolite", none, OverworldVariants);

@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:regeneration",
+  "isGood": true,
+  "isRepeating": true,
+  "repeatingPeriod": 50,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#CD5CAB",
+  "beaconLevels": [
+    3
+  ]
+}

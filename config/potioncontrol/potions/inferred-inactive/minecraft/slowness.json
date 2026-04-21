@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:slowness",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#5A6C81",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.movementSpeed",
+      "modifierName": "effect.moveSlowdown",
+      "amount": -0.15000000596046448,
+      "operation": 2,
+      "uuid": "7107de5e-7ce8-4030-940e-514c1f160890"
+    }
+  ]
+}

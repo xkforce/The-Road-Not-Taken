@@ -1,0 +1,19 @@
+{
+  "id": "minecraft:strong_leaping",
+  "effects": [
+    {
+      "potion": "minecraft:jump_boost",
+      "level": 2,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:leaping",
+      "reagent": "minecraft:glowstone_dust"
+    }
+  ],
+  "tipped_arrow_duration": 225
+}

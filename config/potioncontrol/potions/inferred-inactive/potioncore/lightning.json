@@ -1,0 +1,7 @@
+{
+  "id": "potioncore:lightning",
+  "isGood": false,
+  "isInstant": true,
+  "milkRemovable": true,
+  "liquidColor": "#FFFF00"
+}

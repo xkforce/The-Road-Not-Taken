@@ -1,0 +1,9 @@
+{
+  "id": "nyx:astral_erosion",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 10,
+  "periodAmpModifier": 1,
+  "milkRemovable": true,
+  "liquidColor": "#FFE197"
+}

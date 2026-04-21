@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
+    "DRY",
     "RARE",
-    "SANDY",
-    "DRY"
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -25,9 +25,9 @@
     "COLD",
     "MOUNTAIN",
     "RARE",
-    "SNOWY",
     "FOREST",
-    "CONIFEROUS"
+    "CONIFEROUS",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

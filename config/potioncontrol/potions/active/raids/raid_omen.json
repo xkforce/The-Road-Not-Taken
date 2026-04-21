@@ -1,0 +1,9 @@
+{
+  "id": "raids:raid_omen",
+  "isGood": false,
+  "isRepeating": true,
+  "repeatingPeriod": 3,
+  "periodAmpModifier": 0,
+  "milkRemovable": false,
+  "liquidColor": "#DE4058"
+}

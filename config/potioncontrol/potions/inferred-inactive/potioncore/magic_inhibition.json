@@ -1,0 +1,15 @@
+{
+  "id": "potioncore:magic_inhibition",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#A57EB3",
+  "attributeModifiers": [
+    {
+      "attribute": "potioncore.magicDamage",
+      "modifierName": "effect.magic_inhibition",
+      "amount": -0.30000001192092896,
+      "operation": 2,
+      "uuid": "3ffc62ff-aed2-4db2-a19e-cebe0c297648"
+    }
+  ]
+}

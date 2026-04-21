@@ -1,0 +1,13 @@
+{
+  "id": "potioncore:strong_vulnerable",
+  "effects": [
+    {
+      "potion": "potioncore:vulnerable",
+      "level": 2,
+      "duration_min": 1.5,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 225
+}
