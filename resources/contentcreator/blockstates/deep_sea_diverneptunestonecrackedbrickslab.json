@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/deep_sea_diverneptunestonecrackedbrickslab",
+      "bottom": "contentcreator:blocks/deep_sea_diverneptunestonecrackedbrickslab",
+      "side": "contentcreator:blocks/deep_sea_diverneptunestonecrackedbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

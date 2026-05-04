@@ -1,10 +1,10 @@
 
 {
-  "ID": 265,
+  "ID": 268,
   "Name": "Zagrean Mountains",
   "Resource Location": "biometweaker:zagreanmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.18,
+  "Root Height": 6.29,
   "Height Variation": 0.98,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "SPACE",
     "HOT",
-    "OCEAN",
-    "SPACE"
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

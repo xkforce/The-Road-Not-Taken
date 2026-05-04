@@ -1,10 +1,10 @@
 
 {
-  "ID": 244,
+  "ID": 246,
   "Name": "Callisto Plains",
   "Resource Location": "biometweaker:callistoplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 0.125,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

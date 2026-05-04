@@ -3,6 +3,9 @@
   "isGood": false,
   "milkRemovable": false,
   "liquidColor": "#4A4217",
+  "beaconLevels": [
+    0
+  ],
   "attributeModifiers": [
     {
       "attribute": "generic.attackSpeed",

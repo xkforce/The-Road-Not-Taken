@@ -393,11 +393,11 @@ oreAncientDebris
 locksLock
 locksLockPick
 stoneBasaltPolished
-stonePolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
+stonePolished
 oreJade
 orePetrifiedWood
 oreFossil

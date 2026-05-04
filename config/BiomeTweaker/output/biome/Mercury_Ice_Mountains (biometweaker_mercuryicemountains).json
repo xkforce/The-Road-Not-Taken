@@ -1,10 +1,10 @@
 
 {
-  "ID": 214,
+  "ID": 215,
   "Name": "Mercury Ice Mountains",
   "Resource Location": "biometweaker:mercuryicemountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.18,
+  "Root Height": 6.29,
   "Height Variation": 0.98,
   "Top Block": "minecraft:packed_ice",
   "Filler Block": "bblsom:mercuriandirt",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

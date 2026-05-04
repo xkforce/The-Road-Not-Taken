@@ -1,10 +1,10 @@
 
 {
-  "ID": 258,
+  "ID": 261,
   "Name": "Green Beach",
   "Resource Location": "biometweaker:greenbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.7,
+  "Root Height": 3.76,
   "Height Variation": 0.025,
   "Top Block": "bblsom:greensand",
   "Filler Block": "bblsom:greensand",

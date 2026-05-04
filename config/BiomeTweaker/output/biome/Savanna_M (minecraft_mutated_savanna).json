@@ -4,7 +4,7 @@
   "Name": "Savanna M",
   "Resource Location": "minecraft:mutated_savanna",
   "Class": "net.minecraft.world.biome.BiomeSavannaMutated",
-  "Root Height": 0.3625,
+  "Root Height": 4.12,
   "Height Variation": 1.225,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,12 +22,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "HOT",
-    "DRY",
-    "MOUNTAIN",
     "RARE",
-    "SAVANNA"
+    "MOUNTAIN",
+    "HOT",
+    "SPARSE",
+    "SAVANNA",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -171,7 +171,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},

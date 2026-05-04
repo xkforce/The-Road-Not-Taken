@@ -1,10 +1,10 @@
 
 {
-  "ID": 219,
+  "ID": 220,
   "Name": "Red Beach",
   "Resource Location": "biometweaker:redbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.7,
+  "Root Height": 3.76,
   "Height Variation": 0.025,
   "Top Block": "minecraft:sand[variant\u003dred_sand]",
   "Filler Block": "minecraft:sand[variant\u003dred_sand]",

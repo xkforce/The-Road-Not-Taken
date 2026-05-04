@@ -1,10 +1,10 @@
 
 {
-  "ID": 187,
+  "ID": 188,
   "Name": "Enceladus Geysers",
   "Resource Location": "biometweaker:enceladusgeysers",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

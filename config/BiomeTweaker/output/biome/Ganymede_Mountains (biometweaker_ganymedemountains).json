@@ -1,10 +1,10 @@
 
 {
-  "ID": 238,
+  "ID": 239,
   "Name": "Ganymede Mountains",
   "Resource Location": "biometweaker:ganymedemountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.18,
+  "Root Height": 6.29,
   "Height Variation": 0.98,
   "Top Block": "contenttweaker:redandesite",
   "Filler Block": "contenttweaker:redandesite",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

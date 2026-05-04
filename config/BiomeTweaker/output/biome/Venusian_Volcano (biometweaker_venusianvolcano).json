@@ -1,6 +1,6 @@
 
 {
-  "ID": 267,
+  "ID": 270,
   "Name": "Venusian Volcano",
   "Resource Location": "biometweaker:venusianvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -11,7 +11,8 @@
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:gravel",
   "Actual Filler Blocks": [
-    "minecraft:stone[variant\u003dstone]"
+    "minecraft:stone[variant\u003dstone]",
+    "minecraft:sandstone[type\u003dsandstone]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
@@ -22,10 +23,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "SPACE",
     "HOT",
-    "OCEAN",
-    "SPACE"
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

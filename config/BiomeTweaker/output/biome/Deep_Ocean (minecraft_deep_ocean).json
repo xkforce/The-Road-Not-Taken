@@ -4,7 +4,7 @@
   "Name": "Deep Ocean",
   "Resource Location": "minecraft:deep_ocean",
   "Class": "net.minecraft.world.biome.BiomeOcean",
-  "Root Height": 1.9,
+  "Root Height": 1.94,
   "Height Variation": 0.1,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

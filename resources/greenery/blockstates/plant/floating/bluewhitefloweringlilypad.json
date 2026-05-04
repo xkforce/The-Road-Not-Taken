@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "age=0,frosted=false": {
-      "model": "greenery:plant/floating/bluewhitefloweringlilypad/age_0"
-    }
-  }
-}

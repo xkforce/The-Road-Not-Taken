@@ -593,7 +593,7 @@ item.contenttweaker.kaniwa.name=Kaniwa
 trnt.item.template.name=Template
 
 # Greetings for dim changes
-trnt.greetings.msg.name=§eWelcome to the §r§l%s§r §e!§r
+trnt.greetings.msg.name=§r§l%s§r
 trnt.greetings.endsurface.name=§dEnd Surface
 trnt.greetings.endcaves.name=§dEnd Caves
 trnt.greetings.niflheimskyislands.name=Niflheim Sky Islands

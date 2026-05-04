@@ -4,7 +4,7 @@
   "Name": "JungleHills",
   "Resource Location": "minecraft:jungle_hills",
   "Class": "net.minecraft.world.biome.BiomeJungle",
-  "Root Height": 4.15,
+  "Root Height": 4.23,
   "Height Variation": 0.3,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "HILLS",
-    "HOT",
     "DENSE",
-    "WET"
+    "HOT",
+    "WET",
+    "JUNGLE",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -83,6 +83,12 @@
       "Weight": 10,
       "Min Group Count": 2,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [
@@ -131,12 +137,6 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
       "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
-      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

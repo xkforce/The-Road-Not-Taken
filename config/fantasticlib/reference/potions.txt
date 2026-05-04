@@ -39,6 +39,9 @@ oe:conduit_power
 oe:descent
 oe:dolphins_grace
 phantoms:slow_falling
+potioncore:drown
+custom:anti_water_breathing
+raids:bad_omen
 potioncore:love
 potioncore:extension
 potioncore:broken_magic_shield
@@ -47,7 +50,6 @@ potioncore:teleport
 potioncore:teleport_surface
 potioncore:magic_focus
 potioncore:cure
-potioncore:drown
 potioncore:teleport_spawn
 potioncore:vulnerable
 potioncore:solid_core
@@ -63,7 +65,6 @@ potioncore:magic_shield
 potioncore:antidote
 potioncore:archery
 raids:hero_of_the_village
-raids:bad_omen
 raids:raid_omen
 cyclicmagic:potion.magnet
 cyclicmagic:potion.ender

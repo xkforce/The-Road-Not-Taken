@@ -1,6 +1,6 @@
 
 {
-  "ID": 242,
+  "ID": 243,
   "Name": "Callisto Volcano",
   "Resource Location": "biometweaker:callistovolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

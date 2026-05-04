@@ -1,6 +1,6 @@
 
 {
-  "ID": 270,
+  "ID": 273,
   "Name": "Warped Forest",
   "Resource Location": "nb:warped_forest",
   "Class": "com.unseen.nb.common.world.biome.BiomeWarpedForest",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "VOID",
     "NETHER",
-    "HOT",
-    "VOID"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

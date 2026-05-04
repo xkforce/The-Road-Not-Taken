@@ -1,10 +1,10 @@
 
 {
-  "ID": 260,
+  "ID": 263,
   "Name": "Yellow Desert",
   "Resource Location": "biometweaker:yellowdesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "PLAINS",
-    "DRY",
-    "SANDY"
+    "SANDY",
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

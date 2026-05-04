@@ -4,7 +4,7 @@
   "Name": "Taiga",
   "Resource Location": "minecraft:taiga",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 3.9,
+  "Root Height": 3.94,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

@@ -4,7 +4,7 @@
   "Name": "Sunflower Plains",
   "Resource Location": "minecraft:mutated_plains",
   "Class": "net.minecraft.world.biome.BiomePlains",
-  "Root Height": 0.125,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -185,7 +185,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},

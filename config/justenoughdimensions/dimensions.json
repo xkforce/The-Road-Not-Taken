@@ -3398,8 +3398,8 @@
             },
             "jed": {
                 "CustomDayCycle": true,
-                "DayLength": 790800,
-                "NightLength": 790800,
+                "DayLength": 48000,
+                "NightLength": 48000,
                 "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
@@ -7035,8 +7035,8 @@
             },
             "jed": {
                 "CustomDayCycle": true,
-                "DayLength": 790800,
-                "NightLength": 790800,
+                "DayLength": 48000,
+                "NightLength": 48000,
                 "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",

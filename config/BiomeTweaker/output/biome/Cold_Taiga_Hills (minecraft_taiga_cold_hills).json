@@ -4,7 +4,7 @@
   "Name": "Cold Taiga Hills",
   "Resource Location": "minecraft:taiga_cold_hills",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 4.15,
+  "Root Height": 4.23,
   "Height Variation": 0.3,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "SNOWY",
     "COLD",
-    "HILLS",
     "FOREST",
     "CONIFEROUS",
-    "SNOWY"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

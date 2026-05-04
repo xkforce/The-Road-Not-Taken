@@ -4,7 +4,7 @@
   "Name": "TaigaHills",
   "Resource Location": "minecraft:taiga_hills",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 4.15,
+  "Root Height": 4.23,
   "Height Variation": 0.3,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "HILLS",
     "FOREST",
-    "CONIFEROUS"
+    "CONIFEROUS",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

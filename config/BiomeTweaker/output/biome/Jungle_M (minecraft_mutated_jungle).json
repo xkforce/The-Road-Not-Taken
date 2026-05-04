@@ -4,7 +4,7 @@
   "Name": "Jungle M",
   "Resource Location": "minecraft:mutated_jungle",
   "Class": "net.minecraft.world.biome.BiomeJungle",
-  "Root Height": 0.2,
+  "Root Height": 3.94,
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "HOT",
+    "RARE",
     "DENSE",
     "MOUNTAIN",
-    "RARE",
-    "WET"
+    "HOT",
+    "WET",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -84,6 +84,12 @@
       "Weight": 10,
       "Min Group Count": 2,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [
@@ -136,12 +142,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -189,7 +189,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},

@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "VOID",
+    "SANDY",
     "COLD",
     "WYVERN_LAIR",
-    "MAGICAL",
-    "SANDY",
-    "VOID"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

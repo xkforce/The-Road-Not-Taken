@@ -1,10 +1,10 @@
 
 {
-  "ID": 192,
+  "ID": 193,
   "Name": "Black Beach",
   "Resource Location": "biometweaker:blackbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.7,
+  "Root Height": 3.76,
   "Height Variation": 0.025,
   "Top Block": "bblsom:blacksand",
   "Filler Block": "bblsom:blacksand",

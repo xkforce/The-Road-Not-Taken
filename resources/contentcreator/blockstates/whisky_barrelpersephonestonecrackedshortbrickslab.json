@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/whisky_barrelpersephonestonecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/whisky_barrelpersephonestonecrackedshortbrickslab",
+      "side": "contentcreator:blocks/whisky_barrelpersephonestonecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

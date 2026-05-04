@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "contentcreator:blocks/blackbeet_stage_0"
+    }
+}

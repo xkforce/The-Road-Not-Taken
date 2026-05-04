@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/strawberry_moonpersephonestonecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/strawberry_moonpersephonestonecrackedshortbrickslab",
+      "side": "contentcreator:blocks/strawberry_moonpersephonestonecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

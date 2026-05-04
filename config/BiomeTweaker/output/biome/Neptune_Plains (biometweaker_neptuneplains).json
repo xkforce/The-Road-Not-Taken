@@ -1,10 +1,10 @@
 
 {
-  "ID": 229,
+  "ID": 230,
   "Name": "Neptune Plains",
   "Resource Location": "biometweaker:neptuneplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "contenttweaker:blueneptunestone",
   "Filler Block": "contenttweaker:blueneptunestone",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

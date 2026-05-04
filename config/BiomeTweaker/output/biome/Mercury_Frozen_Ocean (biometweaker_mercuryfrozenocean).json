@@ -4,7 +4,7 @@
   "Name": "Mercury Frozen Ocean",
   "Resource Location": "biometweaker:mercuryfrozenocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 2.7,
+  "Root Height": 2.76,
   "Height Variation": 0.1,
   "Top Block": "minecraft:packed_ice",
   "Filler Block": "minecraft:packed_ice",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -4,7 +4,7 @@
   "Name": "Forest",
   "Resource Location": "minecraft:forest",
   "Class": "net.minecraft.world.biome.BiomeForest",
-  "Root Height": 3.8,
+  "Root Height": 3.88,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

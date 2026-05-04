@@ -4,7 +4,7 @@
   "Name": "Cold Taiga M",
   "Resource Location": "minecraft:mutated_taiga_cold",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 0.3,
+  "Root Height": 4.06,
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
-    "MOUNTAIN",
     "RARE",
+    "SNOWY",
+    "MOUNTAIN",
+    "COLD",
     "FOREST",
-    "CONIFEROUS",
-    "SNOWY"
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -207,7 +207,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},

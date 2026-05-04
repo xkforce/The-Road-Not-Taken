@@ -4,7 +4,10 @@
     "transform": "forge:default-block",
     "model": "cube_all",
     "textures": {
-      "all": "contentcreator:blocks/bananasquash"
+      "top": "contentcreator:blocks/bananasquash",
+      "bottom": "contentcreator:blocks/bananasquash",
+      "side": "contentcreator:blocks/bananasquash",
+      "front": "contentcreator:blocks/bananasquash"
     }
   },
   "variants": {

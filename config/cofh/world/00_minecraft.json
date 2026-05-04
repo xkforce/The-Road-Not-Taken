@@ -544,5 +544,49 @@
 				]
 			}
 		},
+		
+		"amazonite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "rockhounding_rocks:rocks_c",
+					"properties": {
+						"type": "amazonite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "RIVER"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		}
 	}
 }

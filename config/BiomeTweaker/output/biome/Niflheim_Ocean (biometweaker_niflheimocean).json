@@ -4,7 +4,7 @@
   "Name": "Niflheim Ocean",
   "Resource Location": "biometweaker:niflheimocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 2.7,
+  "Root Height": 2.76,
   "Height Variation": 0.1,
   "Top Block": "minecraft:snow",
   "Filler Block": "minecraft:packed_ice",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "SNOWY",
     "COLD",
     "WATER",
-    "SNOWY",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

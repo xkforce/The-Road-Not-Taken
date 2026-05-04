@@ -4,7 +4,7 @@
   "Name": "Chorus Swamp",
   "Resource Location": "biometweaker:chorusswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.8,
+  "Root Height": 3.59,
   "Height Variation": 0.1,
   "Top Block": "minecraft:end_stone",
   "Filler Block": "minecraft:end_stone",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
-    "WET",
-    "END"
+    "END",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

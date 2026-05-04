@@ -4,7 +4,7 @@
   "Name": "Ocean",
   "Resource Location": "minecraft:ocean",
   "Class": "net.minecraft.world.biome.BiomeOcean",
-  "Root Height": 2.7,
+  "Root Height": 2.76,
   "Height Variation": 0.1,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

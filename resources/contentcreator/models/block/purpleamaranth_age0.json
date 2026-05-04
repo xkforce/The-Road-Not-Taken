@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "contentcreator:blocks/purpleamaranth_stage_0"
+    }
+}

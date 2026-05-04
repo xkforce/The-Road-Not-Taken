@@ -4,7 +4,7 @@
   "Name": "Yellow Beach",
   "Resource Location": "biometweaker:yellowbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.7,
+  "Root Height": 3.76,
   "Height Variation": 0.025,
   "Top Block": "bblsom:yellowsand",
   "Filler Block": "bblsom:yellowsand",

@@ -4,7 +4,7 @@
   "Name": "Ice Mountains",
   "Resource Location": "minecraft:ice_mountains",
   "Class": "net.minecraft.world.biome.BiomeSnow",
-  "Root Height": 4.15,
+  "Root Height": 4.23,
   "Height Variation": 0.3,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
+    "SNOWY",
     "MOUNTAIN",
-    "SNOWY"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

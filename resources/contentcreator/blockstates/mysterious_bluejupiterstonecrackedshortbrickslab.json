@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/mysterious_bluejupiterstonecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/mysterious_bluejupiterstonecrackedshortbrickslab",
+      "side": "contentcreator:blocks/mysterious_bluejupiterstonecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

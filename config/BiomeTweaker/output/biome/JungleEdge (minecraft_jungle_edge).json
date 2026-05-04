@@ -4,7 +4,7 @@
   "Name": "JungleEdge",
   "Resource Location": "minecraft:jungle_edge",
   "Class": "net.minecraft.world.biome.BiomeJungle",
-  "Root Height": 3.8,
+  "Root Height": 3.94,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "HOT",
     "RARE",
+    "HOT",
     "FOREST",
-    "WET"
+    "WET",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

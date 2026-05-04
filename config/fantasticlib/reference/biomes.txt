@@ -183,6 +183,7 @@ biometweaker:jupitermountains
 biometweaker:mercurytwilightmountains
 biometweaker:browndeserthills
 biometweaker:ctypeasteroid
+biometweaker:vestacraters
 biometweaker:oceanridges
 biometweaker:mercuryvolcano
 biometweaker:enceladusgeysers
@@ -242,6 +243,7 @@ biometweaker:titanocean
 biometweaker:orangedesert
 biometweaker:callistovolcano
 biometweaker:orangedeserthills
+biometweaker:vestamountains
 biometweaker:callistoplains
 biometweaker:venusianmountains
 biometweaker:abyssalplains
@@ -250,6 +252,7 @@ biometweaker:lunarplains
 biometweaker:saturnianrings
 biometweaker:saturnianvolcano
 biometweaker:venusianswamp
+biometweaker:vestaplains
 biometweaker:dtypeasteroid
 biometweaker:uranianrings
 biometweaker:reddeserthills

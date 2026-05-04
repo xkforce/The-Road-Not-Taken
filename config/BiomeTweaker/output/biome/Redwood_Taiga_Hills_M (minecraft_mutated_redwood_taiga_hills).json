@@ -4,7 +4,7 @@
   "Name": "Redwood Taiga Hills M",
   "Resource Location": "minecraft:mutated_redwood_taiga_hills",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 0.2,
+  "Root Height": 3.94,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "MEGA_TAIGA_SPRUCE_TREES",
-    "DENSE",
     "RARE",
-    "FOREST"
+    "DENSE",
+    "MEGA_TAIGA_SPRUCE_TREES",
+    "FOREST",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -200,7 +200,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},

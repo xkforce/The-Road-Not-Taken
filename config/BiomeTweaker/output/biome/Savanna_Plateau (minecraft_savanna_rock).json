@@ -4,7 +4,7 @@
   "Name": "Savanna Plateau",
   "Resource Location": "minecraft:savanna_rock",
   "Class": "net.minecraft.world.biome.BiomeSavanna",
-  "Root Height": 5.2,
+  "Root Height": 5.23,
   "Height Variation": 0.025,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "HOT",
     "PLAINS",
     "RARE",
+    "HOT",
+    "SPARSE",
     "SAVANNA"
   ],
   "BiomeManager Entries": {},

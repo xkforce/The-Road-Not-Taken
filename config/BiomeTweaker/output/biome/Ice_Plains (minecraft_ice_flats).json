@@ -4,7 +4,7 @@
   "Name": "Ice Plains",
   "Resource Location": "minecraft:ice_flats",
   "Class": "net.minecraft.world.biome.BiomeSnow",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "WASTELAND",
-    "SNOWY"
+    "SNOWY",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

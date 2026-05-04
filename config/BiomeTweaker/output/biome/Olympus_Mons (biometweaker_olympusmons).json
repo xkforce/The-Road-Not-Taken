@@ -1,11 +1,11 @@
 
 {
-  "ID": 257,
+  "ID": 260,
   "Name": "Olympus Mons",
   "Resource Location": "biometweaker:olympusmons",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.825,
-  "Height Variation": 0.05,
+  "Root Height": 9.7,
+  "Height Variation": 0.23,
   "Top Block": "contenttweaker:marstone",
   "Filler Block": "contenttweaker:marstone",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

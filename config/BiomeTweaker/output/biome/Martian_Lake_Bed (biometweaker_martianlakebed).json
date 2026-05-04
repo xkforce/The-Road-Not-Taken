@@ -1,10 +1,10 @@
 
 {
-  "ID": 228,
+  "ID": 229,
   "Name": "Martian Lake Bed",
   "Resource Location": "biometweaker:martianlakebed",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 3.6,
+  "Root Height": 3.65,
   "Height Variation": 0.05,
   "Top Block": "bblsom:martiandirt",
   "Filler Block": "contenttweaker:marstone",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPACE",
     "COLD",
-    "DRY",
-    "SPACE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

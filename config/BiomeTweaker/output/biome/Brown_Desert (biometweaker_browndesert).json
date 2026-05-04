@@ -4,7 +4,7 @@
   "Name": "Brown Desert",
   "Resource Location": "biometweaker:browndesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SANDY",
     "HOT",
-    "DRY",
-    "SANDY"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

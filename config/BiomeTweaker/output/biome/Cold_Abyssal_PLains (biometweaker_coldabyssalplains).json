@@ -1,10 +1,10 @@
 
 {
-  "ID": 196,
+  "ID": 197,
   "Name": "Cold Abyssal PLains",
   "Resource Location": "biometweaker:coldabyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": -1.5,
+  "Root Height": 2.29,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SNOWY",
     "COLD",
     "WATER",
-    "SNOWY",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

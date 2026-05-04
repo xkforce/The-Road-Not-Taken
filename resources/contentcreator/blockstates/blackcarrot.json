@@ -1,18 +1,12 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "transform": "forge:default-block",
-    "model": "cube_all",
-    "textures": {
-      "all": "contentcreator:blocks/blackcarrot"
+    "variants": {
+        "age=0": { "model": "contentcreator:blackcarrot_age0" },
+        "age=1": { "model": "contentcreator:blackcarrot_age0" },
+        "age=2": { "model": "contentcreator:blackcarrot_age1" },
+        "age=3": { "model": "contentcreator:blackcarrot_age1" },
+        "age=4": { "model": "contentcreator:blackcarrot_age2" },
+        "age=5": { "model": "contentcreator:blackcarrot_age2" },
+        "age=6": { "model": "contentcreator:blackcarrot_age2" },
+        "age=7": { "model": "contentcreator:blackcarrot_age3" }
     }
-  },
-  "variants": {
-    "normal": [
-      {}
-    ],
-    "inventory": [
-      {}
-    ]
-  }
 }

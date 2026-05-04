@@ -3,14 +3,14 @@
   "effects": [
     {
       "potion": "minecraft:resistance",
-      "level": 6,
+      "level": 4,
       "duration_min": 0.33333334,
       "is_beacon_style": false,
       "shows_particles": true
     },
     {
       "potion": "minecraft:slowness",
-      "level": 6,
+      "level": 4,
       "duration_min": 0.33333334,
       "is_beacon_style": false,
       "shows_particles": true

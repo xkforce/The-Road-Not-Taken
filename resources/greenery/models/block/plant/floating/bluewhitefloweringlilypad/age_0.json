@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "greenery:items/bluewhitefloweringlilypad",
-        "lilypad": "greenery:blocks/plant/floating/bluewhitefloweringlilypad/lilypad",
-		"flower": "greenery:blocks/plant/floating/bluewhitefloweringlilypad/bluewhiteflower"
+        "particle": "greenery:items/lightbluewhitefloweringlilypad",
+        "lilypad": "greenery:blocks/plant/floating/lightbluewhitefloweringlilypad/lilypad",
+		"flower": "greenery:blocks/plant/floating/lightbluewhitefloweringlilypad/bluewhiteflower"
     },
     "elements": [
         {   "from": [ 0, 0.25, 0 ],

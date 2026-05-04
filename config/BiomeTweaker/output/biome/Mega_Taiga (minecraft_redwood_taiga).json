@@ -4,7 +4,7 @@
   "Name": "Mega Taiga",
   "Resource Location": "minecraft:redwood_taiga",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
-  "Root Height": 3.9,
+  "Root Height": 3.94,
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "COLD",
     "FOREST",
-    "CONIFEROUS",
-    "MEGA_TAIGA_TREES"
+    "MEGA_TAIGA_TREES",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

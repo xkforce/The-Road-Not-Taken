@@ -79,23 +79,7 @@ locks:shocking
 locks:complexity
 locks:sturdy
 advancedrocketry:spacebreathing
-cyclicmagic:slowfall
-cyclicmagic:bounce
-cyclicmagic:butter
-cyclicmagic:ender
-cyclicmagic:frostwalker
-cyclicmagic:magnet
-cyclicmagic:saturation
-cyclicmagic:snow
-cyclicmagic:stunned
-cyclicmagic:waterwalk
-biomesoplenty:curse
-mowziesmobs:frozen
-mowziesmobs:geomancy
-mowziesmobs:poison_resist
-mowziesmobs:suns_blessing
-switchbow:freeze
-switchbow:love
+
 
 
 

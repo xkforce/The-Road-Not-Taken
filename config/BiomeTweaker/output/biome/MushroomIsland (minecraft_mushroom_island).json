@@ -4,7 +4,7 @@
   "Name": "MushroomIsland",
   "Resource Location": "minecraft:mushroom_island",
   "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
-  "Root Height": 3.9,
+  "Root Height": 3.94,
   "Height Variation": 0.3,
   "Top Block": "minecraft:mycelium[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",

@@ -4,7 +4,7 @@
   "Name": "Mesa",
   "Resource Location": "minecraft:mesa",
   "Class": "net.minecraft.world.biome.BiomeMesa",
-  "Root Height": 3.8,
+  "Root Height": 3.88,
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand[variant\u003dred_sand]",
   "Filler Block": "minecraft:stained_hardened_clay[color\u003dwhite]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "MESA",
-    "SANDY"
+    "SANDY",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

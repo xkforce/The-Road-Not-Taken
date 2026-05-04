@@ -4,7 +4,7 @@
   "Name": "Brown Beach",
   "Resource Location": "biometweaker:brownbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.7,
+  "Root Height": 3.76,
   "Height Variation": 0.025,
   "Top Block": "bblsom:brownsand",
   "Filler Block": "bblsom:brownsand",

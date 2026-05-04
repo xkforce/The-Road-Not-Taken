@@ -4,7 +4,7 @@
   "Name": "Plains",
   "Resource Location": "minecraft:plains",
   "Class": "net.minecraft.world.biome.BiomePlains",
-  "Root Height": 3.825,
+  "Root Height": 3.88,
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
