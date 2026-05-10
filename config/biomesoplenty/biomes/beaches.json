@@ -10,7 +10,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "sea_oats": {
       "with": {
@@ -22,7 +22,7 @@
       },
       "generationAttempts": 96,
       "amountPerChunk": 6.0,
-      "enable": true,
+      "enable": false,
       "withTop": {
         "block": "biomesoplenty:double_plant",
         "properties": {
@@ -51,7 +51,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     }
   }
 }

@@ -1,6 +1,6 @@
 
 {
-  "ID": 225,
+  "ID": 235,
   "Name": "Deep Dark",
   "Resource Location": "biometweaker:deepdark",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

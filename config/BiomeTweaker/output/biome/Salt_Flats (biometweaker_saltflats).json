@@ -1,6 +1,6 @@
 
 {
-  "ID": 227,
+  "ID": 238,
   "Name": "Salt Flats",
   "Resource Location": "biometweaker:saltflats",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
     "HOT",
-    "DRY"
+    "DRY",
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

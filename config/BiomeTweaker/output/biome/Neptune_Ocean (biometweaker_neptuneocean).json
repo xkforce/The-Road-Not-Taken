@@ -1,6 +1,6 @@
 
 {
-  "ID": 219,
+  "ID": 229,
   "Name": "Neptune Ocean",
   "Resource Location": "biometweaker:neptuneocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

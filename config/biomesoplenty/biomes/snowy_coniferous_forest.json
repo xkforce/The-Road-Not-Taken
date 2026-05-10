@@ -100,7 +100,7 @@
     },
     "grass": {
       "amountPerChunk": 1.0,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "roots": {

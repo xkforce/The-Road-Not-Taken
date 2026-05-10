@@ -1,6 +1,6 @@
 
 {
-  "ID": 242,
+  "ID": 254,
   "Name": "Orange Desert",
   "Resource Location": "biometweaker:orangedesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
     "HOT",
-    "DRY"
+    "DRY",
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 196,
+  "ID": 201,
   "Name": "Cold Deep Ocean",
   "Resource Location": "biometweaker:colddeepocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "WATER",
+    "COLD",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

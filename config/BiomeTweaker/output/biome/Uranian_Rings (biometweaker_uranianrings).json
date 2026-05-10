@@ -1,6 +1,6 @@
 
 {
-  "ID": 256,
+  "ID": 269,
   "Name": "Uranian Rings",
   "Resource Location": "biometweaker:uranianrings",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

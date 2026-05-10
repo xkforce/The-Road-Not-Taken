@@ -1,6 +1,6 @@
 
 {
-  "ID": 246,
+  "ID": 258,
   "Name": "Callisto Plains",
   "Resource Location": "biometweaker:callistoplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

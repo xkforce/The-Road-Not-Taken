@@ -1,6 +1,6 @@
 
 {
-  "ID": 173,
+  "ID": 178,
   "Name": "Lunar Alps",
   "Resource Location": "biometweaker:lunaralps",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

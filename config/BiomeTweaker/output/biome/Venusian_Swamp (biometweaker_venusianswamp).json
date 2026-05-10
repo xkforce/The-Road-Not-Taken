@@ -1,6 +1,6 @@
 
 {
-  "ID": 253,
+  "ID": 266,
   "Name": "Venusian Swamp",
   "Resource Location": "biometweaker:venusianswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
-    "HOT",
     "WATER",
+    "HOT",
+    "SPACE",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

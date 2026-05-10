@@ -162,7 +162,7 @@
     },
     "grass": {
       "amountPerChunk": 1.2,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "red_mushrooms": {

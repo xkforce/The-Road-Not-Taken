@@ -91,11 +91,11 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 1.5,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "roots": {

@@ -1,6 +1,6 @@
 
 {
-  "ID": 233,
+  "ID": 244,
   "Name": "Fungai Forest",
   "Resource Location": "biometweaker:fungaiforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
     "HOT",
-    "DRY"
+    "DRY",
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

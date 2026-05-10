@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "VOID",
     "WASTELAND",
-    "COLD",
     "DRY",
+    "COLD",
     "DISABLED"
   ],
   "BiomeManager Entries": {},

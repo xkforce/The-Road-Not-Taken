@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
-    "HOT",
     "LUSH",
+    "HOT",
     "WET",
     "JUNGLE"
   ],

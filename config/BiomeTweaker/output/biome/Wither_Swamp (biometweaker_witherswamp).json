@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 148,
   "Name": "Wither Swamp",
   "Resource Location": "biometweaker:witherswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

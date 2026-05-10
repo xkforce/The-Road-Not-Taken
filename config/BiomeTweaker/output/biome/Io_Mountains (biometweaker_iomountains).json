@@ -1,6 +1,6 @@
 
 {
-  "ID": 159,
+  "ID": 172,
   "Name": "Io Mountains",
   "Resource Location": "biometweaker:iomountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

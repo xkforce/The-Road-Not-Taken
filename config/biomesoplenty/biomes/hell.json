@@ -10,7 +10,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "hive": {
       "maxRadius": 8,
@@ -30,7 +30,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -41,7 +41,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     }
   }
 }

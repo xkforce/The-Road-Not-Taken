@@ -24,9 +24,8 @@
   "Dictionary Types": [
     "VOID",
     "WASTELAND",
-    "SNOWY",
-    "COLD",
-    "DISABLED"
+    "DISABLED",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

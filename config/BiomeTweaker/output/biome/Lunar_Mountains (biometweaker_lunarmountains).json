@@ -1,6 +1,6 @@
 
 {
-  "ID": 232,
+  "ID": 243,
   "Name": "Lunar Mountains",
   "Resource Location": "biometweaker:lunarmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

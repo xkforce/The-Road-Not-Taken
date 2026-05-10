@@ -1,6 +1,6 @@
 
 {
-  "ID": 201,
+  "ID": 206,
   "Name": "E Type Asteroid",
   "Resource Location": "biometweaker:etypeasteroid",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 268,
+  "ID": 280,
   "Name": "Zagrean Mountains",
   "Resource Location": "biometweaker:zagreanmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
-    "HOT",
     "WATER",
+    "HOT",
+    "SPACE",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

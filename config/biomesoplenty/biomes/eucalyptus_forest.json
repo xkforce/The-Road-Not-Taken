@@ -3,7 +3,7 @@
   "beachBiomeLocation": "minecraft:beaches",
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 10.0,
   "variationAbove": 20.0,
   "seaFloorBlock": {
@@ -28,7 +28,7 @@
     }
   },
   "fogColor": -1,
-  "canGenerateVillages": false,
+  "canGenerateVillages": true,
   "canSpawnInBiome": true,
   "generators": {
     "glowshrooms": {
@@ -40,11 +40,11 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "flowers": {
       "amountPerChunk": 0.5,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "melons": {
@@ -54,7 +54,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.015625,
-      "enable": true
+      "enable": false
     },
     "miners_delight": {
       "with": {
@@ -76,7 +76,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.3,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -87,7 +87,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     },
     "trees": {
       "amountPerChunk": 10.0,
@@ -103,7 +103,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
-      "enable": true
+      "enable": false
     },
     "rafflesia": {
       "with": {
@@ -114,11 +114,11 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 6.0,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "bushes": {
@@ -130,7 +130,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
-      "enable": true
+      "enable": false
     },
     "lily": {
       "with": {
@@ -151,7 +151,7 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "tiny_lily": {
       "with": {
@@ -162,7 +162,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
-      "enable": true
+      "enable": false
     },
     "sprouts": {
       "with": {
@@ -173,7 +173,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

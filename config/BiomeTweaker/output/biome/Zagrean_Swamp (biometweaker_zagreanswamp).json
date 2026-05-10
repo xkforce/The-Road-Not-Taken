@@ -1,6 +1,6 @@
 
 {
-  "ID": 209,
+  "ID": 214,
   "Name": "Zagrean Swamp",
   "Resource Location": "biometweaker:zagreanswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
-    "HOT",
     "WATER",
+    "HOT",
+    "SPACE",
     "OCEAN"
   ],
   "BiomeManager Entries": {},

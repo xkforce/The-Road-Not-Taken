@@ -6,9 +6,10 @@
   "variationBelow": 6.0,
   "variationAbove": 3.0,
   "seaFloorBlock": {
-    "block": "biomesoplenty:mud",
+    "block": "minecraft:dirt",
     "properties": {
-      "variant": "mud"
+      "snowy": "false",
+      "variant": "dirt"
     }
   },
   "fillerBlock": {
@@ -38,7 +39,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "cattail": {
       "with": {
@@ -49,7 +50,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 6.0,
-      "enable": true
+      "enable": false
     },
     "miners_delight": {
       "with": {
@@ -71,7 +72,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 2.0,
-      "enable": true
+      "enable": false
     },
     "brown_mushrooms": {
       "with": {
@@ -92,7 +93,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -103,7 +104,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     },
     "malachite": {
       "minHeight": 4,
@@ -115,7 +116,7 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "trees": {
       "amountPerChunk": 8.0,
@@ -131,7 +132,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.8,
-      "enable": true
+      "enable": false
     },
     "small_lily": {
       "with": {
@@ -142,7 +143,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "flower_lily": {
       "with": {
@@ -164,7 +165,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.3,
-      "enable": true
+      "enable": false
     },
     "sugar_cane": {
       "minHeight": 1,
@@ -182,7 +183,7 @@
     },
     "grass": {
       "amountPerChunk": 2.0,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "lily": {
@@ -203,7 +204,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.2,
-      "enable": true
+      "enable": false
     },
     "double_cattail": {
       "with": {
@@ -215,7 +216,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 8.0,
-      "enable": true,
+      "enable": false,
       "withTop": {
         "block": "biomesoplenty:double_plant",
         "properties": {
@@ -233,7 +234,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "red_mushrooms": {
       "with": {
@@ -253,7 +254,7 @@
       },
       "maxRadius": 3,
       "amountPerChunk": 1.0,
-      "enable": true
+      "enable": false
     },
     "flat_mushroom": {
       "with": {

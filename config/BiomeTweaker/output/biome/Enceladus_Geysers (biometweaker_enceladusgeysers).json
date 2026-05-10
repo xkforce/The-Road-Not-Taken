@@ -1,6 +1,6 @@
 
 {
-  "ID": 188,
+  "ID": 193,
   "Name": "Enceladus Geysers",
   "Resource Location": "biometweaker:enceladusgeysers",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

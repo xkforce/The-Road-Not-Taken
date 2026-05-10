@@ -1,6 +1,6 @@
 
 {
-  "ID": 203,
+  "ID": 208,
   "Name": "End Mountains",
   "Resource Location": "biometweaker:endmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
     "SPARSE",
-    "FOREST",
+    "DRY",
     "END",
-    "DRY"
+    "MOUNTAIN",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

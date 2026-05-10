@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "VOID",
     "HOT",
-    "WET",
-    "DISABLED"
+    "DISABLED",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

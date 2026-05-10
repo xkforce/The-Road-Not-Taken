@@ -1,6 +1,6 @@
 
 {
-  "ID": 259,
+  "ID": 272,
   "Name": "Io Lava Ocean",
   "Resource Location": "biometweaker:iolavaocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

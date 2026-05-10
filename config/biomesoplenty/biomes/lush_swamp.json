@@ -27,7 +27,7 @@
     }
   },
   "fogColor": -1,
-  "canGenerateVillages": false,
+  "canGenerateVillages": true,
   "canSpawnInBiome": true,
   "generators": {
     "cattail": {
@@ -39,7 +39,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
-      "enable": true
+      "enable": false
     },
     "medium_lily": {
       "with": {
@@ -129,7 +129,7 @@
     },
     "grass": {
       "amountPerChunk": 1.7,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "blue_milk_caps": {
@@ -153,7 +153,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
-      "enable": true,
+      "enable": false,
       "withTop": {
         "block": "biomesoplenty:double_plant",
         "properties": {
@@ -206,7 +206,7 @@
     },
     "flowers": {
       "amountPerChunk": 0.25,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "miners_delight": {

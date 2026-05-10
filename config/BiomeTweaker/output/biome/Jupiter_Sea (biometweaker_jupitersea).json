@@ -1,6 +1,6 @@
 
 {
-  "ID": 111,
+  "ID": 112,
   "Name": "Jupiter Sea",
   "Resource Location": "biometweaker:jupitersea",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 120,
   "Name": "Titanic Plains",
   "Resource Location": "biometweaker:titanplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

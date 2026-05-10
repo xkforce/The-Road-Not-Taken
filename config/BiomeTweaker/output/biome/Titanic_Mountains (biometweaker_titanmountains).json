@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 122,
   "Name": "Titanic Mountains",
   "Resource Location": "biometweaker:titanmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

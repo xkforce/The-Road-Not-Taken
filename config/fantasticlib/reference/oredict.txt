@@ -392,12 +392,12 @@ ingotAncientDebris
 oreAncientDebris
 locksLock
 locksLockPick
+stonePolished
 stoneBasaltPolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
-stonePolished
 oreJade
 orePetrifiedWood
 oreFossil

@@ -10,11 +10,11 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "flowers": {
       "amountPerChunk": 0.5,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "miners_delight": {
@@ -30,7 +30,7 @@
     },
     "grass": {
       "amountPerChunk": 5.0,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "peridot": {
@@ -54,7 +54,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     }
   }
 }

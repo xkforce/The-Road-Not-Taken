@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "VOID",
-    "FOREST",
     "MAGICAL",
-    "DISABLED"
+    "DISABLED",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

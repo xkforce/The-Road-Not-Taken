@@ -1,6 +1,6 @@
 
 {
-  "ID": 170,
+  "ID": 175,
   "Name": "Ganymede Volcano",
   "Resource Location": "biometweaker:ganymedevolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

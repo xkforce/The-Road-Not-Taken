@@ -10,7 +10,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "miners_delight": {
       "with": {
@@ -32,7 +32,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {}

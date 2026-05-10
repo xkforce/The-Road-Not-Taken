@@ -1,6 +1,6 @@
 
 {
-  "ID": 229,
+  "ID": 240,
   "Name": "Martian Lake Bed",
   "Resource Location": "biometweaker:martianlakebed",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

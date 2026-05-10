@@ -43,7 +43,7 @@
     },
     "flowers": {
       "amountPerChunk": 1.5,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "miners_delight": {
@@ -65,11 +65,11 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 2.0,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "roots": {

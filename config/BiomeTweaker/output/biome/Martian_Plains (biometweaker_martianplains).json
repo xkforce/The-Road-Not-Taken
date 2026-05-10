@@ -1,6 +1,6 @@
 
 {
-  "ID": 128,
+  "ID": 139,
   "Name": "Martian Plains",
   "Resource Location": "biometweaker:martianplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPACE",
-    "COLD",
-    "DRY"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

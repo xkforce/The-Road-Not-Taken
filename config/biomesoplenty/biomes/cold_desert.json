@@ -3,7 +3,7 @@
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 5.0,
   "variationAbove": 10.0,
   "seaFloorBlock": {
@@ -37,11 +37,11 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "hard_ice_splatter": {
       "with": {
-        "block": "biomesoplenty:hard_ice",
+        "block": "minecraft:packed_ice",
         "properties": {}
       },
       "generationAttempts": 64,
@@ -79,7 +79,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     },
     "stone_patches": {
       "with": {
@@ -102,7 +102,7 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     }
   },
   "weights": {

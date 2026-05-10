@@ -1,6 +1,6 @@
 
 {
-  "ID": 152,
+  "ID": 169,
   "Name": "Niflheim Plains",
   "Resource Location": "biometweaker:niflheimplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "WASTELAND",
-    "SNOWY",
-    "COLD"
+    "COLD",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

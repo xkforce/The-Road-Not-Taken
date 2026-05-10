@@ -124,6 +124,7 @@ biometweaker:mercuryfrozenplains
 biometweaker:tropicalocean
 biometweaker:persephoneplains
 biometweaker:ioplains
+biometweaker:olympusmons5
 biometweaker:titanvolcano
 biometweaker:poisonsea
 biometweaker:melinoewastes
@@ -134,11 +135,15 @@ biometweaker:tritonvolcano
 biometweaker:jupitersea
 biometweaker:mercuryicevolcano
 biometweaker:mercuryfrozenocean
+biometweaker:overworldcratercenter
 biometweaker:venusianjungle
+biometweaker:olympusmons9
+biometweaker:olympusmons10
 biometweaker:pinkbeach
 biometweaker:titanplains
 biometweaker:yellowdeserhills
 biometweaker:titanmountains
+biometweaker:olympusmons1
 biometweaker:lightbluebeach
 biometweaker:jupitervolcano
 biometweaker:tropicalabyssalplains
@@ -213,10 +218,15 @@ biometweaker:tropicaloceanridges
 biometweaker:martianicecap
 biometweaker:warmocean
 biometweaker:tropicaldeepocean
+biometweaker:olympusmons7
 biometweaker:mercuryicemountains
 biometweaker:martianaegirinerockplains
 biometweaker:neptunevolcano
+biometweaker:olympusmons8
+biometweaker:olympusmons6
 biometweaker:zagreanocean
+biometweaker:taigasavanna
+biometweaker:olympusmons2
 biometweaker:neptuneocean
 biometweaker:redbeach
 biometweaker:venusianocean
@@ -225,6 +235,7 @@ biometweaker:mercurymare
 biometweaker:zagreandesert
 biometweaker:deepdark
 biometweaker:zagreanplains
+biometweaker:olympusmons3
 biometweaker:saltflats
 biometweaker:deadforest
 biometweaker:martianlakebed
@@ -235,6 +246,7 @@ biometweaker:fungaiforest
 biometweaker:btypeasteroid
 biometweaker:mixedmapleforest
 biometweaker:lilithvolcano
+biometweaker:overworldcraterrim
 biometweaker:persephoneocean
 biometweaker:ganymedeplains
 biometweaker:ganymedemountains
@@ -250,6 +262,7 @@ biometweaker:abyssalplains
 biometweaker:yellowstone
 biometweaker:lunarplains
 biometweaker:saturnianrings
+biometweaker:olympusmons4
 biometweaker:saturnianvolcano
 biometweaker:venusianswamp
 biometweaker:vestaplains
@@ -258,7 +271,6 @@ biometweaker:uranianrings
 biometweaker:reddeserthills
 biometweaker:melinoevolcano
 biometweaker:iolavaocean
-biometweaker:olympusmons
 biometweaker:greenbeach
 biometweaker:enceladusplains
 biometweaker:yellowdesert

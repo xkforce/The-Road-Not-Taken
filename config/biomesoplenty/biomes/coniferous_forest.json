@@ -3,7 +3,7 @@
   "beachBiomeLocation": "biomesoplenty:gravel_beach",
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 10.0,
   "variationAbove": 20.0,
   "seaFloorBlock": {
@@ -14,10 +14,10 @@
     }
   },
   "fillerBlock": {
-    "block": "biomesoplenty:dirt",
+    "block": "minecraft:dirt",
     "properties": {
-      "coarse": "false",
-      "variant": "loamy"
+      "snowy": "false",
+      "variant": "dirt"
     }
   },
   "averageHeight": 132.0,
@@ -40,7 +40,7 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 1.5,
-      "enable": true
+      "enable": false
     },
     "leaf_piles": {
       "with": {
@@ -51,11 +51,11 @@
       },
       "generationAttempts": 64,
       "amountPerChunk": 0.3,
-      "enable": true
+      "enable": false
     },
     "flowers": {
       "amountPerChunk": 0.3,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "miners_delight": {
@@ -78,7 +78,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.7,
-      "enable": true
+      "enable": false
     },
     "brown_mushrooms": {
       "with": {
@@ -99,7 +99,7 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
     },
     "roots": {
       "with": {
@@ -110,7 +110,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
-      "enable": true
+      "enable": false
     },
     "trees": {
       "amountPerChunk": 8.0,
@@ -126,7 +126,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.8,
-      "enable": true
+      "enable": false
     },
     "toadstools": {
       "with": {
@@ -148,7 +148,7 @@
       },
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
-      "enable": true
+      "enable": false
     },
     "gravel": {
       "with": {
@@ -169,7 +169,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
-      "enable": true,
+      "enable": false,
       "withTop": {
         "block": "biomesoplenty:double_plant",
         "properties": {
@@ -180,7 +180,7 @@
     },
     "grass": {
       "amountPerChunk": 1.7,
-      "enable": true,
+      "enable": false,
       "generators": {}
     },
     "blue_milk_caps": {
