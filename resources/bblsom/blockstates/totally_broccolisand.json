@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:totally_broccolisand" },
+            { "model": "bblsom:totally_broccolisand", "y": 90 },
+            { "model": "bblsom:totally_broccolisand", "y": 180 },
+            { "model": "bblsom:totally_broccolisand", "y": 270 }
+        ]
+    }
+}

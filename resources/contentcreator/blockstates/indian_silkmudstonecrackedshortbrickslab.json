@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/indian_silkmudstonecrackedshortbrickslab",
+      "bottom": "contentcreator:blocks/indian_silkmudstonecrackedshortbrickslab",
+      "side": "contentcreator:blocks/indian_silkmudstonecrackedshortbrickslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

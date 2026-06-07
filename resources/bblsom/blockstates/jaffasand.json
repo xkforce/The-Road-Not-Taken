@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:jaffasand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:jaffasand" },
+            { "model": "bblsom:jaffasand", "y": 90 },
+            { "model": "bblsom:jaffasand", "y": 180 },
+            { "model": "bblsom:jaffasand", "y": 270 }
+        ]
+    }
 }

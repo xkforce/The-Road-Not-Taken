@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:frappesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:frappesand" },
+            { "model": "bblsom:frappesand", "y": 90 },
+            { "model": "bblsom:frappesand", "y": 180 },
+            { "model": "bblsom:frappesand", "y": 270 }
+        ]
+    }
 }

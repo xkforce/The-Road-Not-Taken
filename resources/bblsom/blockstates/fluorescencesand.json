@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:fluorescencesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:fluorescencesand" },
+            { "model": "bblsom:fluorescencesand", "y": 90 },
+            { "model": "bblsom:fluorescencesand", "y": 180 },
+            { "model": "bblsom:fluorescencesand", "y": 270 }
+        ]
+    }
 }

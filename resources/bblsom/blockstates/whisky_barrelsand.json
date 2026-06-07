@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:whisky_barrelsand" },
+            { "model": "bblsom:whisky_barrelsand", "y": 90 },
+            { "model": "bblsom:whisky_barrelsand", "y": 180 },
+            { "model": "bblsom:whisky_barrelsand", "y": 270 }
+        ]
+    }
+}

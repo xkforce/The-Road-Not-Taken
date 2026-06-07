@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:rich_goldsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:rich_goldsand" },
+            { "model": "bblsom:rich_goldsand", "y": 90 },
+            { "model": "bblsom:rich_goldsand", "y": 180 },
+            { "model": "bblsom:rich_goldsand", "y": 270 }
+        ]
+    }
 }

@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:light_bluesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:light_bluesand" },
+            { "model": "bblsom:light_bluesand", "y": 90 },
+            { "model": "bblsom:light_bluesand", "y": 180 },
+            { "model": "bblsom:light_bluesand", "y": 270 }
+        ]
+    }
 }

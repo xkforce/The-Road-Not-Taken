@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:toad_kingsand" },
+            { "model": "bblsom:toad_kingsand", "y": 90 },
+            { "model": "bblsom:toad_kingsand", "y": 180 },
+            { "model": "bblsom:toad_kingsand", "y": 270 }
+        ]
+    }
+}

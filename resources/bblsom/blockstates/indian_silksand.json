@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:indian_silksand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:indian_silksand" },
+            { "model": "bblsom:indian_silksand", "y": 90 },
+            { "model": "bblsom:indian_silksand", "y": 180 },
+            { "model": "bblsom:indian_silksand", "y": 270 }
+        ]
+    }
 }

@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:deep_sea_diversand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:deep_sea_diversand" },
+            { "model": "bblsom:deep_sea_diversand", "y": 90 },
+            { "model": "bblsom:deep_sea_diversand", "y": 180 },
+            { "model": "bblsom:deep_sea_diversand", "y": 270 }
+        ]
+    }
 }

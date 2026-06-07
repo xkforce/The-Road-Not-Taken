@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/limewoolslab",
+      "bottom": "contentcreator:blocks/limewoolslab",
+      "side": "contentcreator:blocks/limewoolslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

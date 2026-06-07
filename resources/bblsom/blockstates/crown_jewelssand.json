@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:crown_jewelssand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:crown_jewelssand" },
+            { "model": "bblsom:crown_jewelssand", "y": 90 },
+            { "model": "bblsom:crown_jewelssand", "y": 180 },
+            { "model": "bblsom:crown_jewelssand", "y": 270 }
+        ]
+    }
 }

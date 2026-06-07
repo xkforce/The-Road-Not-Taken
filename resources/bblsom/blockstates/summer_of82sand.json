@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:summer_of82sand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:summer_of82sand" },
+            { "model": "bblsom:summer_of82sand", "y": 90 },
+            { "model": "bblsom:summer_of82sand", "y": 180 },
+            { "model": "bblsom:summer_of82sand", "y": 270 }
+        ]
+    }
 }

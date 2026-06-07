@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:berries_n_creamsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:berries_n_creamsand" },
+            { "model": "bblsom:berries_n_creamsand", "y": 90 },
+            { "model": "bblsom:berries_n_creamsand", "y": 180 },
+            { "model": "bblsom:berries_n_creamsand", "y": 270 }
+        ]
+    }
 }

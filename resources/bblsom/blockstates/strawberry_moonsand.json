@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:strawberry_moonsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:strawberry_moonsand" },
+            { "model": "bblsom:strawberry_moonsand", "y": 90 },
+            { "model": "bblsom:strawberry_moonsand", "y": 180 },
+            { "model": "bblsom:strawberry_moonsand", "y": 270 }
+        ]
+    }
 }

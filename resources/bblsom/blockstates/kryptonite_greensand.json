@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:kryptonite_greensand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:kryptonite_greensand" },
+            { "model": "bblsom:kryptonite_greensand", "y": 90 },
+            { "model": "bblsom:kryptonite_greensand", "y": 180 },
+            { "model": "bblsom:kryptonite_greensand", "y": 270 }
+        ]
+    }
 }

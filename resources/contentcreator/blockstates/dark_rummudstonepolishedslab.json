@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/dark_rummudstonepolishedslab",
+      "bottom": "contentcreator:blocks/dark_rummudstonepolishedslab",
+      "side": "contentcreator:blocks/dark_rummudstonepolishedslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

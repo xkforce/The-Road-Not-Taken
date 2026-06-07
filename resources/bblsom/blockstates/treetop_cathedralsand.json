@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:treetop_cathedralsand" },
+            { "model": "bblsom:treetop_cathedralsand", "y": 90 },
+            { "model": "bblsom:treetop_cathedralsand", "y": 180 },
+            { "model": "bblsom:treetop_cathedralsand", "y": 270 }
+        ]
+    }
+}

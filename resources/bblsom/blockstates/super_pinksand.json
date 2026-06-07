@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:super_pinksand" },
+            { "model": "bblsom:super_pinksand", "y": 90 },
+            { "model": "bblsom:super_pinksand", "y": 180 },
+            { "model": "bblsom:super_pinksand", "y": 270 }
+        ]
+    }
+}

@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:grape_candysand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:grape_candysand" },
+            { "model": "bblsom:grape_candysand", "y": 90 },
+            { "model": "bblsom:grape_candysand", "y": 180 },
+            { "model": "bblsom:grape_candysand", "y": 270 }
+        ]
+    }
 }

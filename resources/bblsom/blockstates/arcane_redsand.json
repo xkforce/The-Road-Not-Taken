@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:arcane_redsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:arcane_redsand" },
+            { "model": "bblsom:arcane_redsand", "y": 90 },
+            { "model": "bblsom:arcane_redsand", "y": 180 },
+            { "model": "bblsom:arcane_redsand", "y": 270 }
+        ]
+    }
 }

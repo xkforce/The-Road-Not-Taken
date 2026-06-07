@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:salsa_verdesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:salsa_verdesand" },
+            { "model": "bblsom:salsa_verdesand", "y": 90 },
+            { "model": "bblsom:salsa_verdesand", "y": 180 },
+            { "model": "bblsom:salsa_verdesand", "y": 270 }
+        ]
+    }
 }

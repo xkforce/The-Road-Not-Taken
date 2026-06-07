@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:fading_nightsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:fading_nightsand" },
+            { "model": "bblsom:fading_nightsand", "y": 90 },
+            { "model": "bblsom:fading_nightsand", "y": 180 },
+            { "model": "bblsom:fading_nightsand", "y": 270 }
+        ]
+    }
 }

@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:purplesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:purplesand" },
+            { "model": "bblsom:purplesand", "y": 90 },
+            { "model": "bblsom:purplesand", "y": 180 },
+            { "model": "bblsom:purplesand", "y": 270 }
+        ]
+    }
 }

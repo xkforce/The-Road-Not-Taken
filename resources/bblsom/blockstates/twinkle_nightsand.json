@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:twinkle_nightsand" },
+            { "model": "bblsom:twinkle_nightsand", "y": 90 },
+            { "model": "bblsom:twinkle_nightsand", "y": 180 },
+            { "model": "bblsom:twinkle_nightsand", "y": 270 }
+        ]
+    }
+}

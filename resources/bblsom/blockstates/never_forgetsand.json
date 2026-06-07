@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:never_forgetsand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:never_forgetsand" },
+            { "model": "bblsom:never_forgetsand", "y": 90 },
+            { "model": "bblsom:never_forgetsand", "y": 180 },
+            { "model": "bblsom:never_forgetsand", "y": 270 }
+        ]
+    }
 }

@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:bimi_greensand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:bimi_greensand" },
+            { "model": "bblsom:bimi_greensand", "y": 90 },
+            { "model": "bblsom:bimi_greensand", "y": 180 },
+            { "model": "bblsom:bimi_greensand", "y": 270 }
+        ]
+    }
 }

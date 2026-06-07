@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:seasidesand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:seasidesand" },
+            { "model": "bblsom:seasidesand", "y": 90 },
+            { "model": "bblsom:seasidesand", "y": 180 },
+            { "model": "bblsom:seasidesand", "y": 270 }
+        ]
+    }
 }

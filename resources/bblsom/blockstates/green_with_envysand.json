@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:green_with_envysand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:green_with_envysand" },
+            { "model": "bblsom:green_with_envysand", "y": 90 },
+            { "model": "bblsom:green_with_envysand", "y": 180 },
+            { "model": "bblsom:green_with_envysand", "y": 270 }
+        ]
+    }
 }

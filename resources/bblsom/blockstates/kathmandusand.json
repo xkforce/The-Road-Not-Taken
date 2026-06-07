@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:kathmandusand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:kathmandusand" },
+            { "model": "bblsom:kathmandusand", "y": 90 },
+            { "model": "bblsom:kathmandusand", "y": 180 },
+            { "model": "bblsom:kathmandusand", "y": 270 }
+        ]
+    }
 }

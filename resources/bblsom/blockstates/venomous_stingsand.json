@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:venomous_stingsand" },
+            { "model": "bblsom:venomous_stingsand", "y": 90 },
+            { "model": "bblsom:venomous_stingsand", "y": 180 },
+            { "model": "bblsom:venomous_stingsand", "y": 270 }
+        ]
+    }
+}

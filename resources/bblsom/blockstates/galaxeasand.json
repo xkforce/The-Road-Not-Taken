@@ -1,5 +1,10 @@
 {
-  "variants": {
-    "normal": { "model": "bblsom:galaxeasand" }
-  }
+    "variants": {
+        "normal": [
+            { "model": "bblsom:galaxeasand" },
+            { "model": "bblsom:galaxeasand", "y": 90 },
+            { "model": "bblsom:galaxeasand", "y": 180 },
+            { "model": "bblsom:galaxeasand", "y": 270 }
+        ]
+    }
 }

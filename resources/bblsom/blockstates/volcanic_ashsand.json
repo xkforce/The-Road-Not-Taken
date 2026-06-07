@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "bblsom:volcanic_ashsand" },
+            { "model": "bblsom:volcanic_ashsand", "y": 90 },
+            { "model": "bblsom:volcanic_ashsand", "y": 180 },
+            { "model": "bblsom:volcanic_ashsand", "y": 270 }
+        ]
+    }
+}
