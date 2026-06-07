@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "COLD",
+    "DRY",
     "SNOWY"
   ],
   "BiomeManager Entries": {},
@@ -130,10 +130,6 @@
       {
         "ID": "splotches",
         "Name": "stone_patches"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
       }
     ],
     "SAND_PASS2 Generators": [

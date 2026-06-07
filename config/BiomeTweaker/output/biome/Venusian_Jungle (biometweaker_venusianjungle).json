@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 119,
   "Name": "Venusian Jungle",
   "Resource Location": "biometweaker:venusianjungle",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
+    "OCEAN",
     "HOT",
-    "SPACE",
-    "OCEAN"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

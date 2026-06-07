@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "LUSH",
-    "MAGICAL",
     "WET",
-    "FOREST"
+    "MAGICAL",
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -193,18 +193,10 @@
       "Max Group Count": 2
     }
   ],
-  "Spawn Biome": false,
+  "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
-      {
-        "ID": "flora",
-        "Name": "medium_lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "small_lily"
-      },
       {
         "ID": "flora",
         "Name": "flower_lily"
@@ -212,26 +204,6 @@
       {
         "ID": "flora",
         "Name": "lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "tiny_lily"
-      }
-    ],
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "topaz"
       }
     ],
     "TREE Generators": [

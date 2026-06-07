@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MESA",
+    "SANDY",
     "DRY",
-    "SANDY"
+    "MESA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -127,26 +127,7 @@
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "tiny_cacti"
-      }
-    ],
-    "GRASS Generators": [
-      {
-        "ID": "grass",
-        "Name": "desertgrass"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "ruby"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

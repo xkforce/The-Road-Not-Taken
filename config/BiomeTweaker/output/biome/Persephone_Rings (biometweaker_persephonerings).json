@@ -1,6 +1,6 @@
 
 {
-  "ID": 150,
+  "ID": 170,
   "Name": "Persephone Rings",
   "Resource Location": "biometweaker:persephonerings",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
+    "COLD",
     "DRY",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

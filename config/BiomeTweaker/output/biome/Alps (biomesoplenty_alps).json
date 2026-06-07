@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DRY",
     "MOUNTAIN",
     "COLD",
+    "DRY",
     "SNOWY"
   ],
   "BiomeManager Entries": {},
@@ -115,18 +115,11 @@
   ],
   "Spawn Biome": false,
   "Tweaked": false,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "emeralds"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "ICE_CAP": 5,
-    "TUNDRA": 3
+    "TUNDRA": 3,
+    "ICE_CAP": 5
   },
   "BOP Climate Weights": {
     "ICE_CAP": [

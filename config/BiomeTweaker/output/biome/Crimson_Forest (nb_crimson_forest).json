@@ -1,6 +1,6 @@
 
 {
-  "ID": 284,
+  "ID": 318,
   "Name": "Crimson Forest",
   "Resource Location": "nb:crimson_forest",
   "Class": "com.unseen.nb.common.world.biome.BiomeCrimsonForest",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "VOID",
-    "HOT",
-    "NETHER"
+    "NETHER",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

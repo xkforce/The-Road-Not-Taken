@@ -12,7 +12,58 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"dirt2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "dirt",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -43,7 +94,58 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"gravel2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gravel",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -79,7 +181,63 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"diorite2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -115,7 +273,63 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"granite2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -151,7 +365,63 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"andesite2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -182,7 +452,58 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"coal2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 17
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -213,7 +534,58 @@
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-7,
+				-6,
+				-5,
+				-2,
+				0,
+				2,
+				193,
+				194,
+				195,
+				198,
+				200,
+				202
+				]
+			}
+		},
+		
+		"iron2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:redpaintmines"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SPARSE",
-    "DRY",
     "MOUNTAIN",
+    "SPARSE",
+    "FOREST",
     "COLD",
-    "SNOWY",
-    "FOREST"
+    "DRY",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -173,16 +173,6 @@
   "Spawn Biome": false,
   "Tweaked": false,
   "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "lakes",
-        "Name": "hot_springs"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "emeralds"
-      }
-    ],
     "TREE Generators": [
       {
         "ID": "weighted",

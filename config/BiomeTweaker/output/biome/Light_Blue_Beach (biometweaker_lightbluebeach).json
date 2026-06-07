@@ -1,13 +1,13 @@
 
 {
-  "ID": 124,
+  "ID": 136,
   "Name": "Light Blue Beach",
   "Resource Location": "biometweaker:lightbluebeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
   "Root Height": 3.76,
   "Height Variation": 0.025,
-  "Top Block": "bblsom:lightbluesand",
-  "Filler Block": "bblsom:lightbluesand",
+  "Top Block": "minecraft:sand[variant\u003dsand]",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

@@ -4,7 +4,7 @@
   "Name": "DesertHills",
   "Resource Location": "minecraft:desert_hills",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 4.23,
+  "Root Height": 4.43,
   "Height Variation": 0.3,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HILLS",
-    "HOT",
+    "SANDY",
     "DRY",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -134,20 +134,7 @@
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "tiny_cacti"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "ruby"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

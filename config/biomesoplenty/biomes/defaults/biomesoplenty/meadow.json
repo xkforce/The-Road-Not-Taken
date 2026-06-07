@@ -41,9 +41,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "miners_delight": {
       "with": {
@@ -105,9 +103,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 1.8,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "peridot": {
       "enable": true

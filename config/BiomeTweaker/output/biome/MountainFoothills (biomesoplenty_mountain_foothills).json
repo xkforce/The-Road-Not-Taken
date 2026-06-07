@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "HILLS",
-    "DRY",
     "MOUNTAIN",
-    "FOREST"
+    "SPARSE",
+    "FOREST",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -191,10 +191,6 @@
   "Tweaked": false,
   "BOP Generators": {
     "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "emeralds"
-      },
       {
         "ID": "lakes",
         "Name": "lakes"

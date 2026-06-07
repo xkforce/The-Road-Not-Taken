@@ -37,14 +37,6 @@
   "enableSnow": false,
   "generators": {
     "cattail": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "cattail"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
       "enable": true
     },
     "medium_lily": {
@@ -88,9 +80,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 1.7,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "blue_milk_caps": {
       "with": {
@@ -104,23 +94,7 @@
       "enable": true
     },
     "double_cattail": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "tall_cattail"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "tall_cattail"
-        }
-      }
+      "enable": true
     },
     "tiny_lily": {
       "enable": true
@@ -141,9 +115,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.25,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "miners_delight": {
       "with": {

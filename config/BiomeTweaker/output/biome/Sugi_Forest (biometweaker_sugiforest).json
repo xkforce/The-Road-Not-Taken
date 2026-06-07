@@ -1,6 +1,6 @@
 
 {
-  "ID": 232,
+  "ID": 254,
   "Name": "Sugi Forest",
   "Resource Location": "biometweaker:sugiforest",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
+    "WET",
     "HILLS",
     "SUGIFOREST",
-    "WET",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -192,10 +192,6 @@
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "WET_TEMPERATE": [
-      10
-    ]
-  },
+  "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

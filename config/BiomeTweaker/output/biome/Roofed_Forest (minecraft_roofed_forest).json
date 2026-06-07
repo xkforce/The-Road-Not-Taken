@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "BIRCH_TREES",
-    "DENSE",
+    "FOREST",
     "SPOOKY",
-    "FOREST"
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

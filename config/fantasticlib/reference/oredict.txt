@@ -529,6 +529,7 @@ breadgrain
 milk
 sugar
 illagersstealthis
+mudstone
 calade
 proofEnderDragon
 hardenedclay
@@ -538,17 +539,16 @@ flavolite
 purpur
 netherstone
 basalt
-cythereastone
+mercurystone
+lunastone
 rutile
+cythereastone
 venustone
 augite
 diopside
 enstatite
 fayalite
 forsterite
-lunastone
-marstone
-mercurystone
 oldhamite
 orthoclase
 orthopyroxene
@@ -585,7 +585,6 @@ labradorite
 laterite
 luxulianite
 migmatite
-mudstone
 pietersite
 porphyry
 portoro

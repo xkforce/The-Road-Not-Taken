@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "WASTELAND",
-    "DRY",
     "MOUNTAIN",
+    "HILLS",
+    "MAGICAL",
+    "WASTELAND",
     "COLD",
-    "MAGICAL"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -113,10 +113,6 @@
   "Tweaked": false,
   "BOP Generators": {
     "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "emeralds"
-      },
       {
         "ID": "splotches",
         "Name": "overgrown_stone_patches"

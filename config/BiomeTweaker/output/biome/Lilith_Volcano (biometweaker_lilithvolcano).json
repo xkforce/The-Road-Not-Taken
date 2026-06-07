@@ -1,6 +1,6 @@
 
 {
-  "ID": 247,
+  "ID": 273,
   "Name": "Lilith Volcano",
   "Resource Location": "biometweaker:lilithvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
+    "COLD",
     "DRY",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

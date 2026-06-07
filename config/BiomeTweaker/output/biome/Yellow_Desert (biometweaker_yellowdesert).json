@@ -1,10 +1,10 @@
 
 {
-  "ID": 275,
+  "ID": 307,
   "Name": "Yellow Desert",
   "Resource Location": "biometweaker:yellowdesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.88,
+  "Root Height": 4.1,
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -23,9 +23,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "HOT",
+    "SANDY",
     "DRY",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -173,10 +173,6 @@
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "HOT_DESERT": [
-      5
-    ]
-  },
+  "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

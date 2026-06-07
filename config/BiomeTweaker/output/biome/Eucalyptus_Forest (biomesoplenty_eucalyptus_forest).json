@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "EUCALYPTUS",
-    "DENSE",
     "LUSH",
     "WET",
     "FOREST",
-    "JUNGLE"
+    "JUNGLE",
+    "DENSE",
+    "EUCALYPTUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -218,39 +218,7 @@
     "LILYPAD Generators": [
       {
         "ID": "flora",
-        "Name": "medium_lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "small_lily"
-      },
-      {
-        "ID": "flora",
         "Name": "lily"
-      },
-      {
-        "ID": "flora",
-        "Name": "tiny_lily"
-      }
-    ],
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "melons"
-      },
-      {
-        "ID": "flora",
-        "Name": "bushes"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "topaz"
       }
     ],
     "TREE Generators": [

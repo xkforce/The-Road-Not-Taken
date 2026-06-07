@@ -1,10 +1,10 @@
 
 {
-  "ID": 108,
+  "ID": 110,
   "Name": "White Desert",
   "Resource Location": "biometweaker:whitedesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.88,
+  "Root Height": 4.1,
   "Height Variation": 0.05,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "SANDY",
     "DRY",
-    "SANDY"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -136,10 +136,6 @@
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "HOT_DESERT": [
-      5
-    ]
-  },
+  "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

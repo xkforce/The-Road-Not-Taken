@@ -1,6 +1,6 @@
 
 {
-  "ID": 101,
+  "ID": 102,
   "Name": "Tropical Ocean",
   "Resource Location": "biometweaker:tropicalocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "HOT",
-    "OCEAN"
+    "OCEAN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

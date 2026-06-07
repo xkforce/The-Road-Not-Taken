@@ -686,7 +686,8 @@
     "minecraft:quartz_ore": "asmc:block.nether_ore.step",
     "quark:magma_bricks": "brickstone,fire",
 	"quark:magma_bricks_stairs": "brickstone,fire",
-	"quark:magma_bricks_slab": "brickstone,fire"
+	"quark:magma_bricks_slab": "brickstone,fire",
+	"biomesoplenty:white_sandstone": "minecraft:block.stone.step"
     },
     "forgeMappings":[
     ]

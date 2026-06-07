@@ -57,13 +57,6 @@
       "enable": true
     },
     "emeralds": {
-      "minHeight": 4,
-      "with": {
-        "block": "minecraft:emerald_ore",
-        "properties": {}
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
       "enable": true
     },
     "roots": {
@@ -90,9 +83,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 1.5,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "berry_bushes": {
       "enable": true

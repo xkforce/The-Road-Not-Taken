@@ -4,8 +4,8 @@
   "Name": "MushroomIsland",
   "Resource Location": "minecraft:mushroom_island",
   "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
-  "Root Height": 3.94,
-  "Height Variation": 0.3,
+  "Root Height": 3.9,
+  "Height Variation": 0.0,
   "Top Block": "minecraft:mycelium[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
@@ -59,20 +59,7 @@
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "sapphire"
-      }
-    ],
-    "SHROOM Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms_surface"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

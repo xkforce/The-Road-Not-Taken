@@ -1,0 +1,27 @@
+{
+  "block": "minecraft:mycelium",
+  "replaceBlock": "minecraft:air",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "minecraft:mushroom_island_shore"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "minecraft:air",
+      "weight": 200
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "weight": 1
+    },
+    {
+      "block": "minecraft:red_mushroom",
+      "weight": 1
+    }
+  ]
+}

@@ -192,36 +192,7 @@
   ],
   "Spawn Biome": true,
   "Tweaked": true,
-  "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "dead_leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "poison_ivy"
-      },
-      {
-        "ID": "flora",
-        "Name": "berry_bushes"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "amber"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

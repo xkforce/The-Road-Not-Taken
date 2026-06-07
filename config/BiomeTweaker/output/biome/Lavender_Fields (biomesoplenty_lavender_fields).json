@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "PLAINS",
-    "MAGICAL"
+    "MAGICAL",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -182,12 +182,6 @@
   "Spawn Biome": false,
   "Tweaked": false,
   "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "peridot"
-      }
-    ],
     "TREE Generators": [
       {
         "ID": "weighted",

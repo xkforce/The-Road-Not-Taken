@@ -4,7 +4,7 @@
   "Name": "Stone Beach",
   "Resource Location": "minecraft:stone_beach",
   "Class": "net.minecraft.world.biome.BiomeStoneBeach",
-  "Root Height": 3.76,
+  "Root Height": 3.6,
   "Height Variation": 0.8,
   "Top Block": "minecraft:stone[variant\u003dstone]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",

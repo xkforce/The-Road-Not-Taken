@@ -48,20 +48,7 @@
       "enable": true
     },
     "hot_springs": {
-      "liquid": {
-        "block": "biomesoplenty:hot_spring_water",
-        "properties": {
-          "level": "0"
-        }
-      },
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
-      }
+      "enable": true
     },
     "miners_delight": {
       "with": {
@@ -75,24 +62,9 @@
       "enable": true
     },
     "emeralds": {
-      "minHeight": 4,
-      "with": {
-        "block": "minecraft:emerald_ore",
-        "properties": {}
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
       "enable": true
     },
     "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "trees": {

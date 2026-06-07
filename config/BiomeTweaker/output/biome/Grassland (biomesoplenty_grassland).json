@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HILLS",
-    "PLAINS",
-    "WET"
+    "WET",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -188,27 +188,13 @@
   "Spawn Biome": true,
   "Tweaked": false,
   "BOP Generators": {
-    "LILYPAD Generators": [
-      {
-        "ID": "flora",
-        "Name": "water_reeds"
-      }
-    ],
     "FLOWERS Generators": [
       {
         "ID": "columns",
         "Name": "sugar_cane"
-      },
-      {
-        "ID": "columns",
-        "Name": "river_cane"
       }
     ],
     "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "peridot"
-      },
       {
         "ID": "lakes",
         "Name": "lakes"

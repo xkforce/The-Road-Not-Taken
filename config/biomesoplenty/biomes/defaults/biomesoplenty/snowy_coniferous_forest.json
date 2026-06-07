@@ -80,9 +80,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 1.0,
-      "enable": true,
-      "generators": {}
+      "enable": true
     },
     "roots": {
       "enable": true

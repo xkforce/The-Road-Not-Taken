@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "MEGA_TAIGA_TREES",
-    "CONIFEROUS",
     "COLD",
+    "CONIFEROUS",
     "FOREST"
   ],
   "BiomeManager Entries": {},

@@ -4,7 +4,7 @@
   "Name": "Cold Beach",
   "Resource Location": "minecraft:cold_beach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
-  "Root Height": 3.76,
+  "Root Height": 3.6,
   "Height Variation": 0.025,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",

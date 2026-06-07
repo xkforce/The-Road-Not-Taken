@@ -91,15 +91,15 @@ advancedrocketry:arplanetuibutton
 advancedrocketry:arstaruibutton
 advancedrocketry:arspaceelevatorcapsule
 advancedrocketry:arhovercraft
+quark:arrow_explosive
+quark:arrow_torch
+quark:dragon_breath_bottle
 quark:chest_passenger
 quark:gravisand
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:arrow_explosive
-quark:arrow_torch
-quark:dragon_breath_bottle
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
@@ -599,7 +599,6 @@ nyx:falling_meteor
 nyx:alien_creeper
 nyx:comet_kitty
 nyx:alien_kitty
-nyx:eyezor
 nyx:laser
 inspirations:arrow
 mowziesmobs:foliaath

@@ -1,6 +1,6 @@
 
 {
-  "ID": 260,
+  "ID": 290,
   "Name": "Abyssal Plains",
   "Resource Location": "biometweaker:abyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -225,10 +225,6 @@
   "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "HOT_DESERT": [
-      5
-    ]
-  },
+  "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

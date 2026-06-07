@@ -1,6 +1,6 @@
 
 {
-  "ID": 142,
+  "ID": 150,
   "Name": "Niflheim Mountains",
   "Resource Location": "biometweaker:niflheimmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "MOUNTAIN",
     "WASTELAND",
     "COLD",
-    "MOUNTAIN",
     "SNOWY"
   ],
   "BiomeManager Entries": {},

@@ -4,9 +4,9 @@
   "Name": "Ocean",
   "Resource Location": "minecraft:ocean",
   "Class": "net.minecraft.world.biome.BiomeOcean",
-  "Root Height": 2.76,
-  "Height Variation": 0.1,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Root Height": 2.6,
+  "Height Variation": 0.025,
+  "Top Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -203,14 +203,7 @@
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "sapphire"
-      }
-    ]
-  },
+  "BOP Generators": {},
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
   "BOP Climate Weights": {},

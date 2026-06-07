@@ -1,6 +1,6 @@
 
 {
-  "ID": 249,
+  "ID": 276,
   "Name": "Persephone Ocean",
   "Resource Location": "biometweaker:persephoneocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPACE",
+    "COLD",
     "DRY",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

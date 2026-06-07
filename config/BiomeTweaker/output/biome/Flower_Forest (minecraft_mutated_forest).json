@@ -194,26 +194,6 @@
   "Spawn Biome": false,
   "Tweaked": true,
   "BOP Generators": {
-    "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "leaf_piles"
-      },
-      {
-        "ID": "flora",
-        "Name": "berry_bushes"
-      },
-      {
-        "ID": "flora",
-        "Name": "sprouts"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "amber"
-      }
-    ],
     "TREE Generators": [
       {
         "ID": "weighted",
