@@ -1,0 +1,20 @@
+#modloader alfinivia
+
+//right click cow with glass bottle to obtain milk bottle
+mods.alfinivia.Milking.add(<minecraft:glass_bottle>,<entity:minecraft:cow>,<additions:drinks-milkbottle>,false);
+mods.alfinivia.Milking.add(<minecraft:glass_bottle>,<entity:brownmooshrooms:brown_mooshroom>,<additions:drinks-milkbottle>,false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

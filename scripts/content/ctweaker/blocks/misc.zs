@@ -5,19 +5,6 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var phosphorusblock = VanillaFactory.createBlock("phosphorusblock", <blockmaterial:rock>);
-phosphorusblock.setBlockHardness(0.5);
-phosphorusblock.setBlockResistance(2.5);
-phosphorusblock.setToolClass("pickaxe");
-phosphorusblock.setToolLevel(0);
-phosphorusblock.register();
-
-var rottenfleshblock = VanillaFactory.createBlock("rottenfleshblock", <blockmaterial:sponge>);
-rottenfleshblock.setBlockHardness(0.5);
-rottenfleshblock.setBlockResistance(2.5);
-rottenfleshblock.setToolLevel(0);
-rottenfleshblock.register();
-
 val salts as string[] = [
     "salt", 
     "saltpeter", 
@@ -32,23 +19,24 @@ for s in salts {
     b.register();
 }
 
-val sulfur as string[] = [
-    "amber",
-    "chartreuse",
-    "cream",
-    "green",
-    "lightbrown",
-    "orange",
-    "peach",
-    "red",
-    "tan",
-    "vermillion",
-    "white",
-    "yellow",
+val softstone as string[] = [
+    "phosphorus",
+    "ambersulfur",
+    "chartreusesulfur",
+    "creamsulfur",
+    "greensulfur",
+    "lightbrownsulfur",
+    "orangesulfur",
+    "peachsulfur",
+    "redsulfur",
+    "tansulfur",
+    "vermillionsulfur",
+    "whitesulfur",
+    "yellowsulfur",
 ];
 
-for t in sulfur {
-    var c as Block = VanillaFactory.createBlock(`${t}sulfurblock`, <blockmaterial:rock>);
+for t in softstone {
+    var c as Block = VanillaFactory.createBlock(`${t}block`, <blockmaterial:rock>);
     c.setBlockHardness(0.5);
     c.setBlockResistance(2.5);
     c.setToolClass("pickaxe");
@@ -133,6 +121,7 @@ for g in obsidiangravel {
 }
 
 val planks as string[] = [
+    "poplar", 
     "sugi", 
 ];
 
@@ -168,6 +157,37 @@ for y in clay {
     f.register();
 }
 
+val grasspath as string[] = [
+    "blueasteroid", 
+    "grayasteroid", 
+    "greenasteroid", 
+    "redasteroid", 
+    "lunar", 
+    "martian", 
+    "mercurian", 
+    "black", 
+    "blackobsidian", 
+    "gray", 
+    "green", 
+    "orange", 
+    "orangered", 
+    "orangeyellow", 
+    "overgrownstone",
+    "purplered", 
+    "red", 
+    "white", 
+    "yellow", 
+    "venusian",
+];
+
+for z in grasspath {
+    var f as Block = VanillaFactory.createBlock(`${z}grasspath`, <blockmaterial:ground>);
+    f.setBlockHardness(0.5);
+    f.setBlockResistance(2.5);
+    f.setToolLevel(0);
+    f.register();
+}
+
 val stonetype as string[] = [
     "bornite", 
     "cattierite", 
@@ -190,4 +210,33 @@ for v in stonetype {
     w.setToolClass("pickaxe");
     w.setToolLevel(0);
     w.register();
+}
+
+val coarsedirt as string[] = [
+    "blueasteroid", 
+    "grayasteroid", 
+    "greenasteroid", 
+    "redasteroid", 
+    "lunar", 
+    "martian", 
+    "mercurian", 
+    "black", 
+    "gray", 
+    "green", 
+    "orange", 
+    "orangered", 
+    "orangeyellow", 
+    "purplered", 
+    "red", 
+    "white", 
+    "yellow", 
+    "venusian",
+];
+
+for aa in coarsedirt {
+    var h as Block = VanillaFactory.createBlock(`${aa}coarsedirt`, <blockmaterial:ground>);
+    h.setBlockHardness(0.5);
+    h.setBlockResistance(2.5);
+    h.setToolLevel(0);
+    h.register();
 }

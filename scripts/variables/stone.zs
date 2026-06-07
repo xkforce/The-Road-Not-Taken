@@ -48,6 +48,8 @@ global Granite as Stone = Stone("granite", COLORS.keys, mergeStringArray([Overwo
 Granite.addReplacement("minecraft:stone:1", "pink", " ");
 Granite.addReplacement("minecraft:stone:2", "pink", "polished");
 
+global Mudstone as Stone = Stone("mudstone", COLORS.keys, defaultnocobbleVariants);
+
 global Calade as Stone = Stone("calade", none, none);
 
 global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariants);
@@ -106,7 +108,6 @@ global PolishedStone as Stone = Stone("polishedstone", none, defaultnocobbleVari
 PolishedStone.addReplacement("quark:polished_stone", " ", " ");
 
 global Wool as Stone = Stone("wool", COLORS.keys, none);
-Wool.addFlag("--onlyBlocks");
 for i in 0 .. 16 {
     Wool.addReplacement(`minecraft:wool:${i}`, minecraftColors[i], " ");
 }
@@ -136,18 +137,16 @@ NetherQuartz.addFlag("--onlyBlocks");
 global Basalt as Stone = Stone("basalt", COLORS.keys, defaultnocobbleVariants);
 Basalt.setHardness(1.25);
 Basalt.setResistance(21.0);
-
-global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
+global MercuryStone as Stone = Stone("mercurystone", none, defaultVariants);
+global Lunastone as Stone = Stone("lunastone", none, defaultVariants);
 global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
+global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
 global Venustone as Stone = Stone("venustone", COLORS.keys, defaultVariants);
 global Augite as Stone = Stone("augite", none, defaultVariants);
 global Diopside as Stone = Stone("diopside", none, defaultVariants);
 global Enstatite as Stone = Stone("enstatite", none, defaultVariants);
 global Fayalite as Stone = Stone("fayalite", none, defaultVariants);
 global Forsterite as Stone = Stone("forsterite", none, defaultVariants);
-global Lunastone as Stone = Stone("lunastone", none, defaultVariants);
-global Marstone as Stone = Stone("marstone", none, defaultVariants);
-global MercuryStone as Stone = Stone("mercurystone", none, defaultVariants);
 global Oldhamite as Stone = Stone("oldhamite", none, defaultVariants);
 global Orthoclase as Stone = Stone("orthoclase", none, defaultVariants);
 global Orthopyroxene as Stone = Stone("orthopyroxene", none, defaultVariants);
@@ -250,9 +249,6 @@ rhRep(Luxulianite, "a", 4);
 
 global Migmatite as Stone = Stone("migmatite", none, OverworldVariants);
 rhRep(Migmatite, "c", 11);
-
-global Mudstone as Stone = Stone("mudstone", none, OverworldVariants);
-rhRep(Mudstone, "g", 14);
 
 global Pietersite as Stone = Stone("pietersite", none, OverworldVariants);
 rhRep(Pietersite, "b", 2);
