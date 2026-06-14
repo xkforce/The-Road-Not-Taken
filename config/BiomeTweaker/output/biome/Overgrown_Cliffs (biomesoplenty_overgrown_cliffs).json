@@ -24,10 +24,10 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "HILLS",
-    "LUSH",
-    "WET",
     "JUNGLE",
-    "DENSE"
+    "DENSE",
+    "WET",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

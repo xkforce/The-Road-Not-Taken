@@ -1,0 +1,59 @@
+Tweaker.setScriptStage("BIOME_REGISTRY")
+
+Tweaker.createBiome("coniferousforest", "minecraft:forest")
+coniferousforest = forBiomes("biometweaker:coniferousforest")
+coniferousforest.set("name", "Coniferous Forest")
+coniferousforest.set("height", 3.94)
+coniferousforest.set("heightVariation", 0.23)
+coniferousforest.set("temperature", 0.45)
+coniferousforest.set("humidity", 0.5)
+coniferousforest.set("enableRain", true)
+coniferousforest.set("enableSnow", false)
+coniferousforest.set("genVillages", true)
+coniferousforest.addDicTypes("CONIFEROUS")
+coniferousforest.addDicTypes("COLD")
+coniferousforest.addDicTypes("DENSE")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

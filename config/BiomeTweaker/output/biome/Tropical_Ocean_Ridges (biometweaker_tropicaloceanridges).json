@@ -1,6 +1,6 @@
 
 {
-  "ID": 233,
+  "ID": 232,
   "Name": "Tropical Ocean Ridges",
   "Resource Location": "biometweaker:tropicaloceanridges",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "HOT",
     "OCEAN",
-    "HOT"
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

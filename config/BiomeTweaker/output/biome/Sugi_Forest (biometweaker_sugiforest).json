@@ -1,6 +1,6 @@
 
 {
-  "ID": 254,
+  "ID": 253,
   "Name": "Sugi Forest",
   "Resource Location": "biometweaker:sugiforest",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
     "HILLS",
-    "SUGIFOREST",
+    "DENSE",
     "FOREST",
-    "DENSE"
+    "SUGIFOREST",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

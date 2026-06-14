@@ -1,6 +1,6 @@
 
 {
-  "ID": 237,
+  "ID": 236,
   "Name": "Tropical Deep Ocean",
   "Resource Location": "biometweaker:tropicaldeepocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "HOT",
     "OCEAN",
-    "HOT"
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

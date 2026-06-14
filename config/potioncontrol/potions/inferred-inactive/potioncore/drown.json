@@ -1,0 +1,6 @@
+{
+  "id": "potioncore:drown",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#FFFF"
+}

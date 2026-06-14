@@ -24,10 +24,10 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "HILLS",
-    "MAGICAL",
-    "WASTELAND",
     "COLD",
-    "DRY"
+    "DRY",
+    "MAGICAL",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

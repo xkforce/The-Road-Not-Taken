@@ -1,11 +1,11 @@
 
 {
-  "ID": 176,
+  "ID": 177,
   "Name": "Niflheim Plains",
   "Resource Location": "biometweaker:niflheimplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.88,
-  "Height Variation": 0.05,
+  "Height Variation": 0.025,
   "Top Block": "minecraft:snow",
   "Filler Block": "minecraft:packed_ice",
   "Ocean Top Block": "minecraft:gravel",
@@ -16,15 +16,15 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "4159204",
-  "Temperature": -2.0,
+  "Temperature": 0.0,
   "Humidity": 0.5,
   "Water Tint": 4159204,
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "WASTELAND",
     "COLD",
-    "SNOWY"
+    "SNOWY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

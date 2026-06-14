@@ -91,10 +91,10 @@ advancedrocketry:arplanetuibutton
 advancedrocketry:arstaruibutton
 advancedrocketry:arspaceelevatorcapsule
 advancedrocketry:arhovercraft
+quark:chest_passenger
 quark:arrow_explosive
 quark:arrow_torch
 quark:dragon_breath_bottle
-quark:chest_passenger
 quark:gravisand
 quark:flat_item_frame
 quark:leash_knot

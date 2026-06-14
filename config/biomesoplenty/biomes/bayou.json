@@ -2,7 +2,7 @@
   "canGenerateRivers": false,
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 6.0,
   "variationAbove": 3.0,
   "seaFloorBlock": {
@@ -27,7 +27,7 @@
     }
   },
   "fogColor": -1,
-  "canGenerateVillages": false,
+  "canGenerateVillages": true,
   "canSpawnInBiome": false,
   "generators": {
     "glowshrooms": {

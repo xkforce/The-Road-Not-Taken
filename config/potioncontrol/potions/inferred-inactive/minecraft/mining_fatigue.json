@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:mining_fatigue",
+  "isGood": false,
+  "milkRemovable": true,
+  "liquidColor": "#4A4217",
+  "attributeModifiers": [
+    {
+      "attribute": "generic.attackSpeed",
+      "modifierName": "effect.digSlowDown",
+      "amount": -0.10000000149011612,
+      "operation": 2,
+      "uuid": "55fced67-e92a-486e-9800-b47f202c4386"
+    }
+  ]
+}

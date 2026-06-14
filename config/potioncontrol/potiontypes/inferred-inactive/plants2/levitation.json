@@ -1,0 +1,13 @@
+{
+  "id": "plants2:levitation",
+  "effects": [
+    {
+      "potion": "minecraft:levitation",
+      "level": 1,
+      "duration_min": 0.33333334,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "tipped_arrow_duration": 50
+}

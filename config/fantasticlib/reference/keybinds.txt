@@ -182,3 +182,6 @@ key.jei.toggleEditMode
 key.hei.nextCategory
 key.hei.previousCategory
 
+squeedometer
+squeedometer.key.settings
+

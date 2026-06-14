@@ -28,7 +28,7 @@
     }
   },
   "fogColor": -1,
-  "canGenerateVillages": true,
+  "canGenerateVillages": false,
   "canSpawnInBiome": true,
   "generators": {
     "glowshrooms": {

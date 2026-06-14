@@ -1,0 +1,19 @@
+{
+  "id": "mowziesmobs:poison_resist",
+  "effects": [
+    {
+      "potion": "mowziesmobs:poison_resist",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": "mowziesmobs:naga_fang"
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

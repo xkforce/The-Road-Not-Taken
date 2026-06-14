@@ -1,6 +1,6 @@
 
 {
-  "ID": 272,
+  "ID": 271,
   "Name": "Mixed Maple Forest",
   "Resource Location": "biometweaker:mixedmapleforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DENSE",
     "COLD",
-    "MAPLE",
-    "DENSE"
+    "MAPLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

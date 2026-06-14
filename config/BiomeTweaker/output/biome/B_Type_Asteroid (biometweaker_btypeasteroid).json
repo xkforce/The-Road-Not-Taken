@@ -1,12 +1,12 @@
 
 {
-  "ID": 271,
+  "ID": 270,
   "Name": "B Type Asteroid",
   "Resource Location": "biometweaker:btypeasteroid",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.88,
   "Height Variation": 0.05,
-  "Top Block": "bblsom:blueasteroiddirt",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "contenttweaker:fayalite",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",

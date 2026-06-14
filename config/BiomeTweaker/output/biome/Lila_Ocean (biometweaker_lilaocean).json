@@ -1,6 +1,6 @@
 
 {
-  "ID": 189,
+  "ID": 190,
   "Name": "Lila Ocean",
   "Resource Location": "biometweaker:lilaocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "OCEAN",
     "LILA",
-    "END"
+    "OCEAN",
+    "END",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

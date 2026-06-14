@@ -1,0 +1,22 @@
+{
+  "id": "cyclicmagic:slowfall",
+  "effects": [
+    {
+      "potion": "cyclicmagic:potion.slowfall",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": {
+        "item": "minecraft:fish",
+        "meta": 2
+      }
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

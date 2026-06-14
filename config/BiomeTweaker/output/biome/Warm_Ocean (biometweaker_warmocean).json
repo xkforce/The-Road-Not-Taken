@@ -1,6 +1,6 @@
 
 {
-  "ID": 236,
+  "ID": 235,
   "Name": "Warm Ocean",
   "Resource Location": "biometweaker:warmocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "HOT",
     "OCEAN",
-    "HOT"
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

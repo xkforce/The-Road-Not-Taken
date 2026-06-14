@@ -1,6 +1,6 @@
 
 {
-  "ID": 255,
+  "ID": 254,
   "Name": "Mercury Mare",
   "Resource Location": "biometweaker:mercurymare",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",

@@ -1,11 +1,11 @@
 
 {
-  "ID": 138,
+  "ID": 139,
   "Name": "Tropical Abyssal Plains",
   "Resource Location": "biometweaker:tropicalabyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 2.29,
-  "Height Variation": 0.05,
+  "Root Height": -1.0,
+  "Height Variation": 0.025,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
+    "HOT",
     "OCEAN",
-    "HOT"
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

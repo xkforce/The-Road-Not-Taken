@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "SPARSE",
-    "FOREST",
     "COLD",
     "DRY",
+    "FOREST",
     "SNOWY"
   ],
   "BiomeManager Entries": {},

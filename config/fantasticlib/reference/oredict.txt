@@ -393,11 +393,11 @@ oreAncientDebris
 locksLock
 locksLockPick
 stonePolished
-stoneBasaltPolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
+stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil
@@ -529,13 +529,12 @@ breadgrain
 milk
 sugar
 illagersstealthis
-mudstone
-calade
 proofEnderDragon
 hardenedclay
 polishedstone
 enderstone
 flavolite
+endfel
 purpur
 netherstone
 basalt
@@ -564,7 +563,6 @@ neptunestone
 persephonestone
 umbralith
 ammolite
-apacherhyolite
 apatite
 aventurine
 azurite

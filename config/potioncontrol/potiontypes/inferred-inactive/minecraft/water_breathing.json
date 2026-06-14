@@ -1,0 +1,26 @@
+{
+  "id": "minecraft:water_breathing",
+  "effects": [
+    {
+      "potion": "minecraft:water_breathing",
+      "level": 1,
+      "duration_min": 3.0,
+      "is_beacon_style": false,
+      "shows_particles": true
+    }
+  ],
+  "brews_from": [
+    {
+      "from": "minecraft:awkward",
+      "reagent": {
+        "item": "minecraft:fish",
+        "meta": 3
+      }
+    },
+    {
+      "from": "minecraft:awkward",
+      "reagent": "creatures:guppy_tail"
+    }
+  ],
+  "tipped_arrow_duration": 450
+}

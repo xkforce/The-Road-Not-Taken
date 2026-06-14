@@ -137,8 +137,9 @@ biometweaker:tritonvolcano
 biometweaker:jupitersea
 biometweaker:tandesert
 biometweaker:mercuryicevolcano
+biometweaker:redvioletpaintmines
 biometweaker:mercuryfrozenocean
-biometweaker:overworldcratercenter
+biometweaker:overworldcrater
 biometweaker:venusianjungle
 biometweaker:olympusmons9
 biometweaker:olympusmons10
@@ -177,11 +178,11 @@ biometweaker:vtypeasteroid
 biometweaker:niflheimplains
 biometweaker:apricotsanddunes
 biometweaker:whitedeserthills
+biometweaker:paintminesbase
 biometweaker:iomountains
 biometweaker:saturnianocean
 biometweaker:tanpaintmines
 biometweaker:ftypeasteroid
-biometweaker:bluepaintmines
 biometweaker:ganymedevolcano
 biometweaker:niflheimocean
 biometweaker:persephonemountains
@@ -191,7 +192,6 @@ biometweaker:lilaocean
 biometweaker:orangesanddunes
 biometweaker:tritonplains
 biometweaker:brownbeach
-biometweaker:magentapaintmines
 biometweaker:mercurytwilightvolcano
 biometweaker:zagreanjungle
 biometweaker:extinctlunarvolcano
@@ -217,7 +217,6 @@ biometweaker:coldabyssalplains
 biometweaker:reddesert
 biometweaker:mirandaplains
 biometweaker:mtypeasteroid
-biometweaker:purpleredpaintmines
 biometweaker:etypeasteroid
 biometweaker:wineredpaintmines
 biometweaker:urainianmountains
@@ -240,7 +239,6 @@ biometweaker:olympusmons7
 biometweaker:mercuryicemountains
 biometweaker:amberdesert
 biometweaker:martianaegirinerockplains
-biometweaker:lightbluepaintmines
 biometweaker:neptunevolcano
 biometweaker:olympusmons8
 biometweaker:olympusmons6
@@ -249,6 +247,7 @@ biometweaker:apricotdesert
 biometweaker:taigasavanna
 biometweaker:olympusmons2
 biometweaker:neptuneocean
+biometweaker:craterlake
 biometweaker:blackdeserthills
 biometweaker:redbeach
 biometweaker:venusianocean
@@ -258,6 +257,7 @@ biometweaker:zagreandesert
 biometweaker:deepdark
 biometweaker:zagreanplains
 biometweaker:yellowsanddunes
+biometweaker:apricotpaintmines
 biometweaker:tandeserthills
 biometweaker:olympusmons3
 biometweaker:saltflats
@@ -267,7 +267,6 @@ biometweaker:neptuneplains
 biometweaker:lightvanillamesa
 biometweaker:warmdeepocean
 biometweaker:lunarmountains
-biometweaker:lightbrownpaintmines
 biometweaker:fungaiforest
 biometweaker:btypeasteroid
 biometweaker:mixedmapleforest
@@ -276,6 +275,7 @@ biometweaker:pinkpaintmines
 biometweaker:overworldcraterrim
 biometweaker:persephoneocean
 biometweaker:ganymedeplains
+biometweaker:magentapaintmines
 biometweaker:ganymedemountains
 biometweaker:mercuryjungle
 biometweaker:titanocean
@@ -295,13 +295,13 @@ biometweaker:saturnianrings
 biometweaker:olympusmons4
 biometweaker:saturnianvolcano
 biometweaker:venusianswamp
+biometweaker:craterlakerim
 biometweaker:vestaplains
 biometweaker:dtypeasteroid
 biometweaker:brownsanddunes
 biometweaker:uranianrings
 biometweaker:reddeserthills
 biometweaker:melinoevolcano
-biometweaker:amberpaintmines
 biometweaker:iolavaocean
 biometweaker:greenbeach
 biometweaker:enceladusplains
