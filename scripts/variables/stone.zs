@@ -6,6 +6,7 @@ import scripts.classes.stone.Stone;
 import scripts.variables.misc.minecraftColors;
 import scripts.variables.colors.c101;
 import scripts.variables.colors.c184;
+import scripts.variables.colors.cmud;
 import scripts.variables.variants.none;
 import scripts.variables.variants.defaultVariants;
 import scripts.variables.variants.mossyVariants;
@@ -47,10 +48,6 @@ Diorite.addReplacement("minecraft:stone:4", "iron_fist", "polished");
 global Granite as Stone = Stone("granite", COLORS.keys, mergeStringArray([OverworldVariants, ["yellowlichenbrick", "yellowlichenchiseledbrick", "yellowlichendebossed", "yellowlichencobblestone", "yellowlichenpolished", "yellowlichenshortbrick"]]));
 Granite.addReplacement("minecraft:stone:1", "pink", " ");
 Granite.addReplacement("minecraft:stone:2", "pink", "polished");
-
-global Mudstone as Stone = Stone("mudstone", COLORS.keys, defaultnocobbleVariants);
-
-global Calade as Stone = Stone("calade", none, none);
 
 global Obsidian as Stone = Stone("obsidian", COLORS.keys, defaultnocobbleVariants);
 Obsidian.addReplacement("minecraft:obsidian", "black", " ");
@@ -118,6 +115,7 @@ EndStone.addReplacement("minecraft:end_stone:0", "spaetzel_yellow", " ");
 
 global EnderStone as Stone = Stone("enderstone", COLORS.keys, defaultnocobbleVariants);
 global Flavolite as Stone = Stone("flavolite", COLORS.keys, defaultnocobbleVariants);
+global Endfel as Stone = Stone("endfel", COLORS.keys, defaultnocobbleVariants);
 global Purpur as Stone = Stone("purpur", COLORS.keys, [" ", "pillar"]);
 Purpur.addFlag("--onlyBlocks");
 Purpur.addReplacement("minecraft:purpur_block", "super_pink", " ");
@@ -169,9 +167,6 @@ global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVaria
 // Rockhounding Rocks
 global Ammolite as Stone = Stone("ammolite", none, OverworldVariants);
 rhRep(Ammolite, "h", 1);
-
-//apacherhyolite is a 2 color stone type. the rockhounding rocks stone is completely replaced
-global Apacherhyolite as Stone = Stone("apacherhyolite", c101, defaultVariants);
 
 global Apatite as Stone = Stone("apatite", none, OverworldVariants);
 rhRep(Apatite, "h", 14);

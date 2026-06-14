@@ -1,5 +1,5 @@
 #loader crafttweaker
-#modloaded atikorcarts
+#modloaded astikorcarts
 #priority 1
 
 recipes.addShaped(<astikorcarts:wheel>, [
