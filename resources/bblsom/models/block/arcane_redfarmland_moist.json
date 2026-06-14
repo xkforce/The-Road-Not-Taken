@@ -1,0 +1,8 @@
+{
+  "parent": "block/farmland",
+  "textures": {
+    "particle": "bblsom:blocks/arcane_reddirt",
+    "dirt": "bblsom:blocks/arcane_reddirt",
+    "top": "bblsom:blocks/arcane_redfarmland_moist"
+  }
+}

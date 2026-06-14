@@ -1,12 +1,18 @@
 {
-    "variants": {
-        "age=0": { "model": "contentcreator:orangebeet_age0" },
-        "age=1": { "model": "contentcreator:orangebeet_age0" },
-        "age=2": { "model": "contentcreator:orangebeet_age1" },
-        "age=3": { "model": "contentcreator:orangebeet_age1" },
-        "age=4": { "model": "contentcreator:orangebeet_age2" },
-        "age=5": { "model": "contentcreator:orangebeet_age2" },
-        "age=6": { "model": "contentcreator:orangebeet_age2" },
-        "age=7": { "model": "contentcreator:orangebeet_age3" }
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "all": "contentcreator:blocks/orangebeet"
     }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "parent": "bblsom:block/grass",
+  "textures": {
+    "particle": "bblsom:blocks/light_bluedirt",
+    "bottom": "bblsom:blocks/light_bluedirt",
+    "top": "bblsom:blocks/grass_top",
+    "side": "bblsom:blocks/light_bluedirt",
+    "overlay": "bblsom:blocks/grass_side_overlay"
+  }
+}

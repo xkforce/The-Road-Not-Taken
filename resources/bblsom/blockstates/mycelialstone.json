@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:mycelialstone" },
+    "snowy=true":  { "model": "bblsom:mycelialstonesnow" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:purple_protegemycelium" },
+    "snowy=true":  { "model": "bblsom:purple_protegegrasssnow" }
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/farmland",
-  "textures": {
-    "particle": "bblsom:blocks/orangereddirt",
-    "dirt": "bblsom:blocks/orangereddirt",
-    "top": "bblsom:blocks/orangeredfarmland_moist"
-  }
-}

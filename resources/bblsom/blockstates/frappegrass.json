@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:frappegrass" },
+    "snowy=true":  { "model": "bblsom:frappegrasssnow" }
+  }
+}
