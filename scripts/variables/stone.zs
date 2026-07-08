@@ -6,7 +6,6 @@ import scripts.classes.stone.Stone;
 import scripts.variables.misc.minecraftColors;
 import scripts.variables.colors.c101;
 import scripts.variables.colors.c184;
-import scripts.variables.colors.cmud;
 import scripts.variables.variants.none;
 import scripts.variables.variants.defaultVariants;
 import scripts.variables.variants.mossyVariants;
@@ -104,6 +103,8 @@ for i in 0 .. 16 {
 global PolishedStone as Stone = Stone("polishedstone", none, defaultnocobbleVariants);
 PolishedStone.addReplacement("quark:polished_stone", " ", " ");
 
+global Limestone as Stone = Stone("limestone", none, defaultnocobbleVariants);
+
 global Wool as Stone = Stone("wool", COLORS.keys, none);
 for i in 0 .. 16 {
     Wool.addReplacement(`minecraft:wool:${i}`, minecraftColors[i], " ");
@@ -118,15 +119,15 @@ global Flavolite as Stone = Stone("flavolite", COLORS.keys, defaultnocobbleVaria
 global Endfel as Stone = Stone("endfel", COLORS.keys, defaultnocobbleVariants);
 global Purpur as Stone = Stone("purpur", COLORS.keys, [" ", "pillar"]);
 Purpur.addFlag("--onlyBlocks");
-Purpur.addReplacement("minecraft:purpur_block", "super_pink", " ");
-Purpur.addReplacement("minecraft:purpur_pillar", "super_pink", "pillar");
+Purpur.addReplacement("minecraft:purpur_block", "purple", " ");
+Purpur.addReplacement("minecraft:purpur_pillar", "purple", "pillar");
 
 // Nether Stone Types
 global Netherrack as Stone = Stone("netherrack", COLORS.keys, none);
 Netherrack.addFlag("--onlyBlocks");
 Netherrack.setHardness(0.4);
 Netherrack.setResistance(2.0);
-global NetherStone as Stone = Stone("netherstone", COLORS.keys, [" ", "brick", "chiseledbrick", "debossed", "gilded", "polished", "shortbrick"]);
+global NetherStone as Stone = Stone("netherstone", COLORS.keys, [" ", "brick", "chiseled", "chiseledbrick", "crackedbrick", "crackedshortbrick", "debossed", "polished", "shortbrick"]);
 
 global NetherQuartz as Stone = Stone("netherquartz", COLORS_VANILLA, [" ", "chiseled", "pillar", "polished"]);
 NetherQuartz.addFlag("--onlyBlocks");
@@ -136,7 +137,7 @@ global Basalt as Stone = Stone("basalt", COLORS.keys, defaultnocobbleVariants);
 Basalt.setHardness(1.25);
 Basalt.setResistance(21.0);
 global MercuryStone as Stone = Stone("mercurystone", none, defaultVariants);
-global Lunastone as Stone = Stone("lunastone", none, defaultVariants);
+global Anorthosite as Stone = Stone("anorthosite", none, defaultVariants);
 global Rutile as Stone = Stone("rutile", COLORS.keys, defaultnocobbleVariants);
 global Cythereastone as Stone = Stone("cythereastone", COLORS.keys, defaultnocobbleVariants);
 global Venustone as Stone = Stone("venustone", COLORS.keys, defaultVariants);
@@ -188,9 +189,9 @@ rhRep(Basanite, "a", 1);
 global Bloodstone as Stone = Stone("bloodstone", none, OverworldVariants);
 rhRep(Bloodstone, "d", 2);
 
-global Carnlian as Stone = Stone("carnlian", ["brown", "red"], OverworldVariants);
-rhRep(Carnlian, "b", 8, "brown");
-rhRep(Carnlian, "e", 13, "red");
+global Carnelian as Stone = Stone("carnelian", ["brown", "red"], OverworldVariants);
+rhRep(Carnelian, "b", 8, "brown");
+rhRep(Carnelian, "e", 13, "red");
 
 global Chalk as Stone = Stone("chalk", none, OverworldVariants);
 rhRep(Chalk, "f", 11);

@@ -3,6 +3,4 @@
 //#Remove
 //Don't touch me!
 //#Add
-recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<biomesoplenty:flesh>]);
-recipes.addShaped(<biomesoplenty:flesh>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 //File End

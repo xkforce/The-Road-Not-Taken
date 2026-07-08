@@ -7,6 +7,8 @@ import scripts.functions.contenttweaker.createItem;
 import scripts.variables.misc.sticks;
 
 val miscs as string[] = [
+    "brownlichen",
+    "caramelizedsugar",
     "charcoalnugget",
     "coalnugget",
     "coke",
@@ -15,16 +17,15 @@ val miscs as string[] = [
     "gear",
     "graphite",
     "graphitenugget",
+    "moss",
+    "orangelichen",
     "phosphorus",
     "purpursalt",
     "redflint",
+    "redlichen",
     "salt",
     "saltpeter",
     "sulfur",
-    "moss",
-    "brownlichen",
-    "redlichen",
-    "orangelichen",
     "yellowlichen"
 ];
 

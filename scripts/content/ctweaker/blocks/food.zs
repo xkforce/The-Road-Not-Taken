@@ -6,13 +6,14 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
 val foodBlocks as string[] = [
-    "jerky",
     "bacon",
-    "saltedfish",
-    "smokedsalmon",
-    "smokedfish",
-    "pemmican",
+    "caramelizedsugar",
     "driedfruit",
+    "jerky",
+    "pemmican",
+    "saltedfish",
+    "smokedfish",
+    "smokedsalmon",
 ];
 
 for food in foodBlocks {

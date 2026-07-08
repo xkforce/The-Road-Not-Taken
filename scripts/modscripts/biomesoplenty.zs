@@ -90,3 +90,23 @@ recipes.addShaped(<biomesoplenty:wood_slab_1:7> * 6, [[<biomesoplenty:planks_0:1
 recipes.addShaped(<biomesoplenty:eucalyptus_stairs> * 4, [[<biomesoplenty:planks_0:15>, null, null],[<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, null], [<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>]]);
 recipes.addShapeless(<biomesoplenty:planks_0:15> * 4, [<biomesoplenty:log_3:7>]);
 recipes.addShaped(<biomesoplenty:other_slab:1> * 6, [[<biomesoplenty:white_sandstone>, <biomesoplenty:white_sandstone>, <biomesoplenty:white_sandstone>]]);
+recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<biomesoplenty:flesh>]);
+recipes.addShaped(<biomesoplenty:flesh>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
