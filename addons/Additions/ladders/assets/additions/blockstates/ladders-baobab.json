@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-baobab"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-baobab",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-baobab",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-baobab",
+      "y": 270
+    }
+  }
+}

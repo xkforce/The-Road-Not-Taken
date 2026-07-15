@@ -41,6 +41,10 @@ val armorMap as IItemStack[][string] = {
         <additions:items-emeraldhelmet>, <additions:items-emeraldchestplate>,
         <additions:items-emeraldleggings>, <additions:items-emeraldboots>
     ],
+    "fluorite": [
+        <additions:items-fluoritehelmet>, <additions:items-fluoritechestplate>,
+        <additions:items-fluoriteleggings>, <additions:items-fluoriteboots>
+    ],
     "gold": [
         <minecraft:golden_helmet>, <minecraft:golden_chestplate>,
         <minecraft:golden_leggings>, <minecraft:golden_boots>

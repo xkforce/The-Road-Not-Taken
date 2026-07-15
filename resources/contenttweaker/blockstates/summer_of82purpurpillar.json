@@ -1,16 +1,5 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/summer_of82purpurpillar",
-      "particle": "contenttweaker:blocks/summer_of82purpurpillar"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": { "model": "contenttweaker:summer_of82purpurpillar" }
+    }
 }

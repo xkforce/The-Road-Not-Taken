@@ -4,10 +4,10 @@
   "Name": "Martian Mountains",
   "Resource Location": "biometweaker:martianmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 8.5,
-  "Height Variation": 0.2,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "contenttweaker:light_brownbasalt",
+  "Filler Block": "contenttweaker:light_brownbasalt",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

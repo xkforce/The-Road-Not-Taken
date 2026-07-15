@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

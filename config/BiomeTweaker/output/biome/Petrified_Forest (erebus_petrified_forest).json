@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 76,
   "Name": "Petrified Forest",
   "Resource Location": "erebus:petrified_forest",
   "Class": "erebus.world.biomes.BiomePetrifiedForest",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "HOT",
     "DRY",
-    "VOID"
+    "DEAD",
+    "VOID",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

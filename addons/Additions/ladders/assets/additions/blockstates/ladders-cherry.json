@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-cherry"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-cherry",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-cherry",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-cherry",
+      "y": 270
+    }
+  }
+}

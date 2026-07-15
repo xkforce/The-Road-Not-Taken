@@ -1,0 +1,7 @@
+{
+  "name": "Copper Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "COPPER",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

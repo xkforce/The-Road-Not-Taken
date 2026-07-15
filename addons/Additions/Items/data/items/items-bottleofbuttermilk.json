@@ -1,0 +1,9 @@
+{
+  "name": "Bottle of Buttermilk",
+  "container": "minecraft:bucket",
+  "max_stack": 1,
+  "hunger": 0,
+  "saturation": 0.0,
+  "is_drink": true,
+  "type": "additions:food"
+}

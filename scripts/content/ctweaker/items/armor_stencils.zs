@@ -7,8 +7,8 @@ import scripts.functions.contenttweaker.createItem;
 
 val stencils as string[] = [
     "amethyst", "aquamarine", "blackdiamond", "bronze", "chocolatediamond", "citrine", "copper", "diamond", "electrum", "emerald",
-    "gold", "hepatizon", "iridium", "iron", "meteoriciron", "moonstone", "morganite", "netherite", "opal", "peridot", "rosegold",
-    "ruby", "sapphire", "silver", "steel", "tin", "topaz", "zircon",
+    "fluorite", "gold", "hepatizon", "iridium", "iron", "meteoriciron", "moonstone", "morganite", "netherite", "opal", "peridot", 
+    "rosegold", "ruby", "sapphire", "silver", "steel", "tin", "topaz", "zircon",
 ];
 
 for color in stencils {

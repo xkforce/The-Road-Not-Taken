@@ -83,18 +83,18 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "contenttweaker:lunastone"
+						"name": "contenttweaker:anorthosite"
 					}
 				],
 				"surface": [
 					"bblsom:lunardirt",
-					"contenttweaker:lunastone"
+					"contenttweaker:anorthosite"
 				],
 				"cluster-size": 1
 			},
 			"material": [
 				"bblsom:lunardirt",
-				"contenttweaker:lunastone"
+				"contenttweaker:anorthosite"
 			],
 			"cluster-count": 10,
 			"retrogen": "true",

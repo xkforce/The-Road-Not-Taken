@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "plants2:blocks/cosmetic/tree/black_kauri_sapling"
+    }
+}

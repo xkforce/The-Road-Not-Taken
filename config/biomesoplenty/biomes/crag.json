@@ -2,7 +2,7 @@
   "canGenerateRivers": false,
   "skyColor": -1,
   "fogDensity": 1.0,
-  "hasBiomeEssence": true,
+  "hasBiomeEssence": false,
   "variationBelow": 80.0,
   "variationAbove": 200.0,
   "seaFloorBlock": {

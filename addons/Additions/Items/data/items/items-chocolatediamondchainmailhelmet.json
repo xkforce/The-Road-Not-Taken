@@ -1,0 +1,7 @@
+{
+  "name": "Chocolate Diamond Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CHOCOLATEDIAMONDARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

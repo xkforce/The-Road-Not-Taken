@@ -1,13 +1,13 @@
 
 {
-  "ID": 188,
+  "ID": 189,
   "Name": "Lunar Alps",
   "Resource Location": "biometweaker:lunaralps",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 7.8,
   "Height Variation": 0.23,
-  "Top Block": "contenttweaker:lunastone",
-  "Filler Block": "contenttweaker:lunastone",
+  "Top Block": "contenttweaker:anorthosite",
+  "Filler Block": "contenttweaker:anorthosite",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

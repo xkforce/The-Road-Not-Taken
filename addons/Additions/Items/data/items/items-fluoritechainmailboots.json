@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Chainmail Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITE",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

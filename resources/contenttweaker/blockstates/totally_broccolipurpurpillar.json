@@ -1,16 +1,5 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/totally_broccolipurpurpillar",
-      "particle": "contenttweaker:blocks/totally_broccolipurpurpillar"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": { "model": "contenttweaker:totally_broccolipurpurpillar" }
+    }
 }

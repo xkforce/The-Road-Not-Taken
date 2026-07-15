@@ -298,7 +298,7 @@
             "worldinfo_onetime": {
                 "generatorName": "customized",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -615,7 +615,7 @@
             "worldinfo_onetime": {
                 "generatorName": "customized",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -729,7 +729,7 @@
             "worldinfo_onetime": {
                 "generatorName": "customized",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -3778,7 +3778,7 @@
                 "generatorName": "customized",
                 "RandomSeed": "",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -4111,7 +4111,7 @@
                 "generatorName": "customized",
                 "RandomSeed": "",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -4232,7 +4232,7 @@
                 "generatorName": "customized",
                 "RandomSeed": "",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:lunastone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:anorthosite,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }

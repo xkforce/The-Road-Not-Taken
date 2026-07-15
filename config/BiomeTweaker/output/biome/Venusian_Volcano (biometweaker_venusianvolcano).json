@@ -1,6 +1,6 @@
 
 {
-  "ID": 316,
+  "ID": 322,
   "Name": "Venusian Volcano",
   "Resource Location": "biometweaker:venusianvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,9 +23,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
     "HOT",
     "OCEAN",
-    "WATER",
     "SPACE"
   ],
   "BiomeManager Entries": {},

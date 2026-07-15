@@ -1,6 +1,6 @@
 
 {
-  "ID": 64,
+  "ID": 63,
   "Name": "MountainFoothills",
   "Resource Location": "biomesoplenty:mountain_foothills",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMountain",
@@ -23,10 +23,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HILLS",
-    "MOUNTAIN",
-    "SPARSE",
+    "FOREST",
     "DRY",
-    "FOREST"
+    "MOUNTAIN",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

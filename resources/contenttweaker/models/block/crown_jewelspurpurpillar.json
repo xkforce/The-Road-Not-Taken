@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/crown_jewelspurpurpillartop",
+        "side": "contenttweaker:blocks/crown_jewelspurpurpillarside"
+    }
+}

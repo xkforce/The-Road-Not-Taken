@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 67,
   "Name": "Obsidian Volcano",
   "Resource Location": "biomesoplenty:volcanic_island",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenVolcanicIsland",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "MOUNTAIN",
-    "HOT",
-    "DRY",
+    "WASTELAND",
     "WATER",
-    "WASTELAND"
+    "DEAD",
+    "DRY",
+    "MOUNTAIN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

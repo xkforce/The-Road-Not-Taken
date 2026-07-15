@@ -1,16 +1,5 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/crown_jewelspurpurpillar",
-      "particle": "contenttweaker:blocks/crown_jewelspurpurpillar"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": { "model": "contenttweaker:crown_jewelspurpurpillar" }
+    }
 }

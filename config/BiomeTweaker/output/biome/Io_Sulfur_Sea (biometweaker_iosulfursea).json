@@ -1,6 +1,6 @@
 
 {
-  "ID": 209,
+  "ID": 210,
   "Name": "Io Sulfur Sea",
   "Resource Location": "biometweaker:iosulfursea",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

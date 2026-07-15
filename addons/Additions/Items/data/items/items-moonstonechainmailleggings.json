@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Chainmail Leggings",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

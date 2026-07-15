@@ -72,7 +72,6 @@ biomesoplenty:grassland
 biomesoplenty:highland
 biomesoplenty:lavender_fields
 biomesoplenty:lush_swamp
-biomesoplenty:maple_woods
 biomesoplenty:meadow
 biomesoplenty:mountain
 biomesoplenty:overgrown_cliffs
@@ -89,8 +88,6 @@ biomesoplenty:redwood_forest_edge
 biomesoplenty:glacier
 biomesoplenty:snowy_tundra
 biomesoplenty:volcanic_island
-mocreatures:wyvern_isles
-mocreatures:wyvern_desert_isles
 erebus:underground_jungle
 erebus:volcanic_desert
 erebus:subterranean_savannah
@@ -100,6 +97,9 @@ erebus:fungal_forest
 erebus:submerged_swamp
 erebus:fields_sub_forest
 erebus:petrified_forest
+mocreatures:wyvern_isles
+mocreatures:wyvern_desert_isles
+sugiforest:sugi_forest
 advancedrocketry:moon
 advancedrocketry:alien_forest
 advancedrocketry:hotdryrock
@@ -122,6 +122,7 @@ biometweaker:uranianplains
 biometweaker:persephonevolcano
 biometweaker:yellowbeach
 biometweaker:mercuryfrozenplains
+biometweaker:andesiteplateau
 biometweaker:tropicalocean
 biometweaker:persephoneplains
 biometweaker:ioplains
@@ -228,8 +229,10 @@ biometweaker:chorusforest
 biometweaker:blackdesert
 biometweaker:orangepaintmines
 biometweaker:redpaintmines
+biometweaker:granitebase
 biometweaker:zagreanswamp
 biometweaker:stypeasteroid
+biometweaker:stonebase
 biometweaker:tropicaloceanridges
 biometweaker:martianicecap
 biometweaker:tansanddunes
@@ -251,9 +254,9 @@ biometweaker:craterlake
 biometweaker:blackdeserthills
 biometweaker:redbeach
 biometweaker:venusianocean
-biometweaker:sugiforest
 biometweaker:mercurymare
 biometweaker:zagreandesert
+biometweaker:oakchestnutforest
 biometweaker:deepdark
 biometweaker:zagreanplains
 biometweaker:yellowsanddunes
@@ -267,6 +270,7 @@ biometweaker:neptuneplains
 biometweaker:lightvanillamesa
 biometweaker:warmdeepocean
 biometweaker:lunarmountains
+biometweaker:graniteplateau
 biometweaker:fungaiforest
 biometweaker:btypeasteroid
 biometweaker:mixedmapleforest
@@ -308,6 +312,8 @@ biometweaker:enceladusplains
 biometweaker:yellowdesert
 biometweaker:mercurymountains
 biometweaker:saturnianmountains
+biometweaker:oakhickoryforest
+biometweaker:andesitebase
 biometweaker:melinoewitherocean
 biometweaker:orangebeach
 biometweaker:zagreanmountains
@@ -315,7 +321,9 @@ biometweaker:redsanddunes
 biometweaker:yellowpaintmines
 biometweaker:europanocean
 biometweaker:venusianvolcano
+biometweaker:icewastes
 biometweaker:mercuryocean
+biometweaker:stoneplateau
 nb:crimson_forest
 nb:warped_forest
 nb:soul_sand_valley

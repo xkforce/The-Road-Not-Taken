@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/fading_nightpurpurpillartop",
+        "side": "contenttweaker:blocks/fading_nightpurpurpillarside"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Chainmail Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

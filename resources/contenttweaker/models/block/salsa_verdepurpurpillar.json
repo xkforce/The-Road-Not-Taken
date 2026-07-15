@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/salsa_verdepurpurpillartop",
+        "side": "contenttweaker:blocks/salsa_verdepurpurpillarside"
+    }
+}

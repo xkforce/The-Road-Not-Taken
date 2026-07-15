@@ -1,15 +1,15 @@
 
 {
-  "ID": 264,
+  "ID": 267,
   "Name": "Martian Lake Bed",
   "Resource Location": "biometweaker:martianlakebed",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 3.65,
   "Height Variation": 0.05,
   "Top Block": "bblsom:martiandirt",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Filler Block": "contenttweaker:light_brownbasalt",
+  "Ocean Top Block": "contenttweaker:light_brownbasalt",
+  "Ocean Filler Block": "contenttweaker:light_brownbasalt",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

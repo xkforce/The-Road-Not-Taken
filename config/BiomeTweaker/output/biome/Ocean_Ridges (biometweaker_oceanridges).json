@@ -1,6 +1,6 @@
 
 {
-  "ID": 202,
+  "ID": 203,
   "Name": "Ocean Ridges",
   "Resource Location": "biometweaker:oceanridges",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "WATER"
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

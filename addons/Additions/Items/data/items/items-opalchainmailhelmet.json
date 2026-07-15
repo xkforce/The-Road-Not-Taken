@@ -1,0 +1,7 @@
+{
+  "name": "Opal Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-OPAL",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

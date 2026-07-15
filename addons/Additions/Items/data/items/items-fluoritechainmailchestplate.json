@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITE",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

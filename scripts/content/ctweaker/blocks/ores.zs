@@ -46,6 +46,7 @@ val stoneoreone as string[] = [
 
 val stoneoretwo as string[] = [
     "aquamarine",
+    "fluorite",
     "jupiterdiamond",
     "jupitergold",
     "lunardiamond",
@@ -98,6 +99,7 @@ val obsidianore as string[] = [
     "obsidiancopper",
     "obsidiandiamond",
     "obsidianemerald",
+    "obsidianfluorite",
     "obsidiangold",
     "obsidianiron",
     "obsidianlapis",

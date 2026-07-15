@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Chainmail Boots",
+  "max_stack": 1,
+  "material": "additions-items-bronzearmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

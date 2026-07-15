@@ -1,6 +1,6 @@
 
 {
-  "ID": 63,
+  "ID": 62,
   "Name": "AlpsFoothills",
   "Resource Location": "biomesoplenty:alps_foothills",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "MOUNTAIN",
-    "SPARSE",
-    "COLD",
-    "DRY",
     "FOREST",
+    "DRY",
+    "MOUNTAIN",
+    "COLD",
+    "SPARSE",
     "SNOWY"
   ],
   "BiomeManager Entries": {},

@@ -22,8 +22,8 @@ val mirror as string[] = ["hoe", "axe", "hammer"];
 
 val materials as string[string] = {
     "amethyst": "contenttweaker:amethyst",
-    "blackdiamond": "contenttweaker:blackdiamond",
     "aquamarine": "contenttweaker:aquamarine",
+    "blackdiamond": "contenttweaker:blackdiamond",
     "bronze": "contenttweaker:bronze",
     "chocolatediamond": "contenttweaker:chocolatediamond",
     "citrine": "contenttweaker:citrine",
@@ -31,6 +31,7 @@ val materials as string[string] = {
     "diamond": "minecraft:diamond",
     "electrum": "contenttweaker:electrum",
     "emerald": "minecraft:emerald",
+    "fluorite": "contenttweaker:fluorite",
     "gold": "minecraft:gold_ingot",
     "hepatizon": "contenttweaker:hepatizon",
     "iridium": "contenttweaker:iridium",

@@ -1,0 +1,9 @@
+{
+  "name": "Caramelized Honey Bottle",
+  "container": "minecraft:glass_bottle",
+  "max_stack": 16,
+  "hunger": 6,
+  "saturation": 0.1,
+  "is_drink": true,
+  "type": "additions:food"
+}

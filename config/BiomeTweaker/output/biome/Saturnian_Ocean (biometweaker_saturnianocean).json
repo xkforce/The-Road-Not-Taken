@@ -1,6 +1,6 @@
 
 {
-  "ID": 182,
+  "ID": 183,
   "Name": "Saturnian Ocean",
   "Resource Location": "biometweaker:saturnianocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

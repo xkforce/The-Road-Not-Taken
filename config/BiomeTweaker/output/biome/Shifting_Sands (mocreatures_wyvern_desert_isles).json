@@ -1,6 +1,6 @@
 
 {
-  "ID": 70,
+  "ID": 78,
   "Name": "Shifting Sands",
   "Resource Location": "mocreatures:wyvern_desert_isles",
   "Class": "drzhark.mocreatures.dimension.biome.MoCBiomeWyvernIslesDesert",
@@ -22,10 +22,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WYVERN_LAIR",
     "SANDY",
-    "COLD",
     "VOID",
+    "COLD",
+    "WYVERN_LAIR",
     "MAGICAL"
   ],
   "BiomeManager Entries": {},

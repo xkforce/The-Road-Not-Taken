@@ -1,11 +1,11 @@
 
 {
-  "ID": 222,
+  "ID": 223,
   "Name": "End Mountains",
   "Resource Location": "biometweaker:endmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.29,
-  "Height Variation": 0.98,
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
   "Top Block": "minecraft:end_stone",
   "Filler Block": "minecraft:end_stone",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,11 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
-    "SPARSE",
-    "END",
     "DRY",
-    "FOREST"
+    "MOUNTAIN",
+    "END"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -53,24 +51,6 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntityRaccoon",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "mod.reborn.server.entity.animal.GoatEntity",
@@ -129,18 +109,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityWerewolf",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
-      "Weight": 7,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -152,12 +120,6 @@
       "Entity Class": "net.minecraft.entity.passive.EntitySquid",
       "Weight": 10,
       "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
-      "Weight": 10,
-      "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],
@@ -173,18 +135,6 @@
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     }
   ],
   "Spawn Biome": false,

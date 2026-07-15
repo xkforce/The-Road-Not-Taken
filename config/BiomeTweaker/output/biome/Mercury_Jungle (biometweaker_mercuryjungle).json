@@ -1,6 +1,6 @@
 
 {
-  "ID": 279,
+  "ID": 283,
   "Name": "Mercury Jungle",
   "Resource Location": "biometweaker:mercuryjungle",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

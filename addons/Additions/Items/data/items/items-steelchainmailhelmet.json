@@ -1,0 +1,7 @@
+{
+  "name": "Steel Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEEL",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

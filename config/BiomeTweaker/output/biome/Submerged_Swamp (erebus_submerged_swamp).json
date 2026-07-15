@@ -1,6 +1,6 @@
 
 {
-  "ID": 77,
+  "ID": 74,
   "Name": "Submerged Swamp",
   "Resource Location": "erebus:submerged_swamp",
   "Class": "erebus.world.biomes.BiomeSubmergedSwamp",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
+    "VOID",
     "HOT",
     "SWAMP",
-    "VOID",
-    "WATER",
     "WET"
   ],
   "BiomeManager Entries": {},

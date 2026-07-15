@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/deep_sea_diverpurpurpillartop",
+        "side": "contenttweaker:blocks/deep_sea_diverpurpurpillarside"
+    }
+}

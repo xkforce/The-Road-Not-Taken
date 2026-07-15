@@ -1,10 +1,10 @@
 
 {
-  "ID": 227,
+  "ID": 228,
   "Name": "Black Desert",
   "Resource Location": "biometweaker:blackdesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 4.1,
+  "Root Height": 4.2,
   "Height Variation": 0.05,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
-    "DRY"
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

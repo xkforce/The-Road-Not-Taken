@@ -2,9 +2,9 @@
 #priority 1000
 
 static baseMaterials as string[] = [
-    "amethyst", "aquamarine", "bismuth", "blackdiamond", "bronze", "chocolatediamond", "citrine", "electrum", "hepatizon", "iridium", 
-    "meteoriron", "moonstone", "morganite", "opal", "peridot", "rosegold", "ruby", "sapphire", "silver", "steel", "topaz", "tin", 
-    "zircon",
+    "amethyst", "aquamarine", "bismuth", "blackdiamond", "bronze", "chocolatediamond", "citrine", "electrum", "fluorite", "hepatizon", 
+    "iridium", "meteoriron", "moonstone", "morganite", "opal", "peridot", "rosegold", "ruby", "sapphire", "silver", "steel", "topaz", 
+    "tin", "zircon",
 ];
 
 static additionalMaterials as string[] = [

@@ -1,11 +1,11 @@
 
 {
-  "ID": 309,
+  "ID": 313,
   "Name": "Saturnian Mountains",
   "Resource Location": "biometweaker:saturnianmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.29,
-  "Height Variation": 0.98,
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
   "Top Block": "contenttweaker:apricotsaturnstone",
   "Filler Block": "contenttweaker:apricotsaturnstone",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

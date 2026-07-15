@@ -1,6 +1,6 @@
 
 {
-  "ID": 186,
+  "ID": 187,
   "Name": "Niflheim Ocean",
   "Resource Location": "biometweaker:niflheimocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "WATER",
     "OCEAN",
     "COLD",
-    "SNOWY",
-    "WATER"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/mysterious_bluepurpurpillartop",
+        "side": "contenttweaker:blocks/mysterious_bluepurpurpillarside"
+    }
+}

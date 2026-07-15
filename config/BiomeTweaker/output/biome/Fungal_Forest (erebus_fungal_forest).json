@@ -1,6 +1,6 @@
 
 {
-  "ID": 76,
+  "ID": 73,
   "Name": "Fungal Forest",
   "Resource Location": "erebus:fungal_forest",
   "Class": "erebus.world.biomes.BiomeFungalForest",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "MUSHROOM",
     "VOID",
-    "SPOOKY"
+    "SPOOKY",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

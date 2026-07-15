@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 77,
   "Name": "Wyvern Isles",
   "Resource Location": "mocreatures:wyvern_isles",
   "Class": "drzhark.mocreatures.dimension.biome.MoCBiomeWyvernIsles",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WYVERN_LAIR",
-    "COLD",
     "VOID",
+    "COLD",
+    "WYVERN_LAIR",
     "MAGICAL"
   ],
   "BiomeManager Entries": {},

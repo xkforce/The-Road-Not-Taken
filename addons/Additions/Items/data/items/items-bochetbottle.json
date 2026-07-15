@@ -1,0 +1,10 @@
+{
+  "name": "Bottle of Bochet Mead",
+  "tooltip": "Brewed from caramelized honey",
+  "max_stack": 1,
+  "hunger": 1,
+  "saturation": 2.0,
+  "eat_time": 16,
+  "is_drink": true,
+  "type": "additions:food"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Rose Gold Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ROSEGOLD",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

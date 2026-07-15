@@ -1,0 +1,7 @@
+{
+  "name": "Diamond Chainmail Helmet",
+  "max_stack": 1,
+  "material": "DIAMOND",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

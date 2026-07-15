@@ -1,6 +1,6 @@
 
 {
-  "ID": 159,
+  "ID": 168,
   "Name": "Io Volcano",
   "Resource Location": "biometweaker:iovolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

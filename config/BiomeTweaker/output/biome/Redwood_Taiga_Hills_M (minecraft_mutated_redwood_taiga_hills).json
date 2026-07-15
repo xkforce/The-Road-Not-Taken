@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "RARE",
     "HILLS",
-    "DENSE",
     "THEMED_TREES",
     "FOREST",
     "MEGA_TAIGA_SPRUCE_TREES",
-    "RARE"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

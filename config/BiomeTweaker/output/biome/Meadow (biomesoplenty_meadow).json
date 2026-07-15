@@ -1,6 +1,6 @@
 
 {
-  "ID": 53,
+  "ID": 52,
   "Name": "Meadow",
   "Resource Location": "biomesoplenty:meadow",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMeadow",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "SPARSE",
+    "LUSH",
     "PLAINS",
     "FOREST",
-    "WET",
-    "LUSH"
+    "COLD",
+    "SPARSE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -228,8 +228,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

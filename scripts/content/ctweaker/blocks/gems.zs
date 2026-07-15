@@ -13,6 +13,7 @@ val gemBlocks as string[] = [
     "blackdiamond",
     "chocolatediamond",
     "citrine",
+    "fluorite",
     "moonstone",
     "morganite",
     "opal",

@@ -1,6 +1,6 @@
 
 {
-  "ID": 290,
+  "ID": 294,
   "Name": "Abyssal Plains",
   "Resource Location": "biometweaker:abyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "WATER"
+    "WATER",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

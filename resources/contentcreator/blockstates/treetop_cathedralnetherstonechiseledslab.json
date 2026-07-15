@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/treetop_cathedralnetherstonechiseledslab",
+      "bottom": "contentcreator:blocks/treetop_cathedralnetherstonechiseledslab",
+      "side": "contentcreator:blocks/treetop_cathedralnetherstonechiseledslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

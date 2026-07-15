@@ -1,6 +1,6 @@
 
 {
-  "ID": 113,
+  "ID": 114,
   "Name": "Triton Volcano",
   "Resource Location": "biometweaker:tritonvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

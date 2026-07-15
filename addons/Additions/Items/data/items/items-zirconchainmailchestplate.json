@@ -1,0 +1,7 @@
+{
+  "name": "Zircon Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ZIRCON",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

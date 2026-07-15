@@ -1,6 +1,6 @@
 
 {
-  "ID": 139,
+  "ID": 141,
   "Name": "Tropical Abyssal Plains",
   "Resource Location": "biometweaker:tropicalabyssalplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
     "HOT",
-    "OCEAN",
-    "WATER"
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

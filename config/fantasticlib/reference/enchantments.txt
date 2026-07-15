@@ -55,11 +55,11 @@ oe:is_wet
 oe:loyalty
 oe:mobstomp
 oe:rebound
+randomenchantments:true_lifesteal
 randomenchantments:lumberjack
-randomenchantments:breaking
 randomenchantments:ricochet
 randomenchantments:piercing
-randomenchantments:true_lifesteal
+randomenchantments:breaking
 wornhorseshoes:trampling
 cofhcore:soulbound
 charm:curse_break

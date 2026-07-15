@@ -1,6 +1,6 @@
 
 {
-  "ID": 195,
+  "ID": 196,
   "Name": "Zagrean Jungle",
   "Resource Location": "biometweaker:zagreanjungle",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
     "HOT",
     "OCEAN",
-    "WATER",
     "SPACE"
   ],
   "BiomeManager Entries": {},

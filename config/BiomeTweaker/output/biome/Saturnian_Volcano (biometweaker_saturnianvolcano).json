@@ -1,6 +1,6 @@
 
 {
-  "ID": 295,
+  "ID": 299,
   "Name": "Saturnian Volcano",
   "Resource Location": "biometweaker:saturnianvolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

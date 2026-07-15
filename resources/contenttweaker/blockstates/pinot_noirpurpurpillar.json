@@ -1,16 +1,5 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/pinot_noirpurpurpillar",
-      "particle": "contenttweaker:blocks/pinot_noirpurpurpillar"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+    "variants": {
+        "normal": { "model": "contenttweaker:pinot_noirpurpurpillar" }
+    }
 }

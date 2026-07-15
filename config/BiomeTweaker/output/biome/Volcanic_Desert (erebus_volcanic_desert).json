@@ -1,6 +1,6 @@
 
 {
-  "ID": 72,
+  "ID": 69,
   "Name": "Volcanic Desert",
   "Resource Location": "erebus:volcanic_desert",
   "Class": "erebus.world.biomes.BiomeVolcanicDesert",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
     "DRY",
-    "VOID"
+    "VOID",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

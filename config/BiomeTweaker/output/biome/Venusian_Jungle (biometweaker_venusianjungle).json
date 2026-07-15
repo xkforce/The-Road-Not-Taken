@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 121,
   "Name": "Venusian Jungle",
   "Resource Location": "biometweaker:venusianjungle",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WATER",
     "HOT",
     "OCEAN",
-    "WATER",
     "SPACE"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 217,
+  "ID": 218,
   "Name": "Miranda Plains",
   "Resource Location": "biometweaker:mirandaplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

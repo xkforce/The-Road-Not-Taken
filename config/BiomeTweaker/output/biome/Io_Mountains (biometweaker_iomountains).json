@@ -1,11 +1,11 @@
 
 {
-  "ID": 181,
+  "ID": 182,
   "Name": "Io Mountains",
   "Resource Location": "biometweaker:iomountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.29,
-  "Height Variation": 0.98,
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
   "Top Block": "contenttweaker:redandesite",
   "Filler Block": "contenttweaker:redandesite",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

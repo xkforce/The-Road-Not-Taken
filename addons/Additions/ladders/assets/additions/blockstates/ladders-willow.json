@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing\u003dnorth": {
+      "model": "additions:ladders-willow"
+    },
+    "facing\u003deast": {
+      "model": "additions:ladders-willow",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:ladders-willow",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:ladders-willow",
+      "y": 270
+    }
+  }
+}

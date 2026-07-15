@@ -100,29 +100,75 @@ item.bblsom.horsearmor_morganite.name=Morganite Horse Armor
 item.bblsom.horsearmor_silver.name=Silver Horse Armor
 item.bblsom.horsearmor_electrum.name=Electrum Horse Armor
 tile.bblsom.blacksand.name=Black Sand
-tile.bblsom.cyansand.name=Cyan Sand
-tile.bblsom.orangesand.name=Orange Sand
-tile.bblsom.yellowsand.name=Yellow Sand
-tile.bblsom.greensand.name=Green Sand
+tile.bblsom.apricotsand.name=Apricot Sand
+tile.bblsom.arcane_redsand.name=Wine Red Sand
+tile.bblsom.atlantissand.name=Atlantis Sand
+tile.bblsom.beersand.name=Amber Sand
+tile.bblsom.berries_n_creamsand.name=Salmon Pink Sand
+tile.bblsom.bimi_greensand.name=Dark Green Sand
 tile.bblsom.bluesand.name=Blue Sand
 tile.bblsom.brownsand.name=Brown Sand
-tile.bblsom.whitesand.name=White Sand
+tile.bblsom.candy_flosssand.name=Candy Floss Sand
+tile.bblsom.crown_jewelssand.name=Crown Jewel Sand
+tile.bblsom.cyansand.name=Cyan Sand
+tile.bblsom.dark_rumsand.name=Dark Brown Sand
+tile.bblsom.deep_sea_diversand.name=Dark Cyan Sand
+tile.bblsom.fading_nightsand.name=Fading Night Sand
+tile.bblsom.fluorescencesand.name=Fluorescence Sand
+tile.bblsom.frappesand.name=Tan Sand
+tile.bblsom.galaxeasand.name=Navy Blue Sand
 tile.bblsom.graysand.name=Gray Sand
-tile.bblsom.lightgraysand.name=Light Gray Sand
-tile.bblsom.pinksand.name=Pink Sand
-tile.bblsom.purplesand.name=Purple Sand
-tile.bblsom.lightbluesand.name=Light Blue Sand
-tile.bblsom.magentasand.name=Magenta Sand
+tile.bblsom.greenfinchsand.name=Green Finch Sand
+tile.bblsom.greensand.name=Green Sand
+tile.bblsom.green_with_envysand.name=Green With Envy Sand
+tile.bblsom.indian_silksand.name=Indian Silk Sand
+tile.bblsom.iron_fistsand.name=Iron Fist Sand
+tile.bblsom.jaffasand.name=Jaffa Sand
+tile.bblsom.kathmandusand.name=Kathmandu Sand
+tile.bblsom.kryptonite_greensand.name=Kryptonite Sand
+tile.bblsom.langoustinesand.name=Langoustine Sand
+tile.bblsom.light_bluesand.name=Light Blue Sand
+tile.bblsom.light_brownsand.name=Light Brown Sand
+tile.bblsom.light_graysand.name=Light Gray Sand
 tile.bblsom.limesand.name=Lime Sand
+tile.bblsom.lizardsand.name=Lizard Sand
+tile.bblsom.magentasand.name=Magenta Sand
+tile.bblsom.mingsand.name=Ming Sand
+tile.bblsom.moroccosand.name=Morocco Sand
+tile.bblsom.mysterious_bluesand.name=Mysterious Blue Sand
+tile.bblsom.never_forgetsand.name=Never Forget Sand
+tile.bblsom.orangesand.name=Orange Sand
+tile.bblsom.pinksand.name=Pink Sand
+tile.bblsom.pinot_noirsand.name=Pinot Noir Sand
+tile.bblsom.purple_protegesand.name=Dark Purple Sand
+tile.bblsom.purplesand.name=Purple Sand
+tile.bblsom.rich_goldsand.name=Rich Gold Sand
+tile.bblsom.salsa_verdesand.name=Salsa Verde Sand
+tile.bblsom.seasidesand.name=Seaside Sand
+tile.bblsom.spicy_purplesand.name=Spicy Purple Sand
+tile.bblsom.strawberry_moonsand.name=Strawberry Moon Sand
+tile.bblsom.summer_of82sand.name=Summer of 82 Sand
+tile.bblsom.super_pinksand.name=Super Pink Sand
+tile.bblsom.tempestsand.name=Tempest Sand
+tile.bblsom.toad_kingsand.name=Toad King Sand
+tile.bblsom.totally_broccolisand.name=Totally Broccoli Sand
+tile.bblsom.treetop_cathedralsand.name=Treetop Cathedral Sand
+tile.bblsom.twinkle_nightsand.name=Twinkle Night Sand
+tile.bblsom.venomous_stingsand.name=Venomous Sting Sand
+tile.bblsom.volcanic_ashsand.name=Volcanic Ash Sand
+tile.bblsom.whisky_barrelsand.name=Whisky Barrel Sand
+tile.bblsom.whitesand.name=White Sand
+tile.bblsom.wizards_brewsand.name=Wizard's Brew Sand
+tile.bblsom.yellowsand.name=Yellow Sand
 tile.bblsom.vanillagrass.name=Grass
-
-
-
-
-
-
-
-
+tile.bblsom.leaves_brownmaple.name=Brown Maple Leaves
+tile.bblsom.leaves_greenmaple.name=Boxelder Maple Leaves
+tile.bblsom.leaves_orangemaple.name=Orange Maple Leaves
+tile.bblsom.leaves_pinkmaple.name=Purple Leaf Japanese Maple Leaves
+tile.bblsom.leaves_purplemaple.name=Crimson King Maple Leaves
+tile.bblsom.leaves_redmaple.name=Red Maple Leaves
+tile.bblsom.leaves_yellowmaple.name=Yellow Maple Leaves
+tile.bblsom.leaves_whitemaple.name=Silver Maple Leaves
 
 
 

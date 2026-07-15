@@ -1,6 +1,6 @@
 
 {
-  "ID": 73,
+  "ID": 70,
   "Name": "Subterranean Savannah",
   "Resource Location": "erebus:subterranean_savannah",
   "Class": "erebus.world.biomes.BiomeSubterraneanSavannah",

@@ -1,0 +1,7 @@
+{
+  "name": "Diamond Chainmail Boots",
+  "max_stack": 1,
+  "material": "DIAMOND",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

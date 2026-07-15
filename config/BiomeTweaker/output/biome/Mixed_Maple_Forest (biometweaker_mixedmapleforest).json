@@ -1,6 +1,6 @@
 
 {
-  "ID": 271,
+  "ID": 275,
   "Name": "Mixed Maple Forest",
   "Resource Location": "biometweaker:mixedmapleforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -22,9 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "COLD",
-    "MAPLE"
+    "FOREST",
+    "ORANGEMAPLE",
+    "REDMAPLE",
+    "BROWNMAPLE",
+    "YELLOWMAPLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -57,6 +59,24 @@
       "Weight": 5,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntityRaccoon",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "mod.reborn.server.entity.animal.GoatEntity",
@@ -115,6 +135,18 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityWerewolf",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -127,6 +159,12 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Cave Creatures": [
@@ -135,6 +173,24 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawn Biome": true,

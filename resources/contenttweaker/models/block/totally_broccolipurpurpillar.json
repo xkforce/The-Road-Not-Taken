@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/totally_broccolipurpurpillartop",
+        "side": "contenttweaker:blocks/totally_broccolipurpurpillarside"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "Brown Shelf Fungus",
+    "type": "additions:block_simple"
+  },
+  "name": "Brown Shelf Fungus",
+  "material": "minecraft:wood",
+  "light_opacity": 0,
+  "is_slime": true,
+  "can_pistons_push": false,
+  "semi_transparent": true,
+  "bounding_box_min_x": 0.5625,
+  "bounding_box_min_y": 0.4375,
+  "bounding_box_min_z": 0.1875,
+  "bounding_box_max_y": 0.5625,
+  "bounding_box_max_z": 0.8125,
+  "type": "additions:facing"
+}

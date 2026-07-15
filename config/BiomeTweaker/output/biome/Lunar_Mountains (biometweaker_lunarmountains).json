@@ -1,13 +1,13 @@
 
 {
-  "ID": 268,
+  "ID": 271,
   "Name": "Lunar Mountains",
   "Resource Location": "biometweaker:lunarmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
-  "Root Height": 6.29,
-  "Height Variation": 0.98,
-  "Top Block": "contenttweaker:lunastone",
-  "Filler Block": "contenttweaker:lunastone",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "contenttweaker:anorthosite",
+  "Filler Block": "contenttweaker:anorthosite",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "DRY",
+    "COLD",
     "SPACE"
   ],
   "BiomeManager Entries": {},

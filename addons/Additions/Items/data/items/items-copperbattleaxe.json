@@ -1,17 +1,16 @@
 {
   "name": "Copper Battle Axe",
   "max_stack": 1,
-  "durability": 131,
+  "durability": 190,
   "harvest_level": 1,
   "harvest_radius_width": 1,
   "harvest_depth": 0,
   "efficiency": 4.0,
-  "enchantability": 10,
+  "enchantability": 13,
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "deeperdepths:material",
-        "damage": "0"
+        "item": "deeperdepths:material"
       }
     ]
   },

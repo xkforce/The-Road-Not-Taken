@@ -1,0 +1,7 @@
+{
+  "name": "Copper Chainmail Boots",
+  "max_stack": 1,
+  "material": "COPPER",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

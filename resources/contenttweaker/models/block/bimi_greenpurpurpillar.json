@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/bimi_greenpurpurpillartop",
+        "side": "contenttweaker:blocks/bimi_greenpurpurpillarside"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITE",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

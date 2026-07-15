@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing\u003dup": {
+      "model": "additions:misc-brownshelffunguslarge",
+      "x": 270
+    },
+    "facing\u003ddown": {
+      "model": "additions:misc-brownshelffunguslarge",
+      "x": 90
+    },
+    "facing\u003deast": {
+      "model": "additions:misc-brownshelffunguslarge",
+      "y": 90
+    },
+    "facing\u003dsouth": {
+      "model": "additions:misc-brownshelffunguslarge",
+      "y": 180
+    },
+    "facing\u003dwest": {
+      "model": "additions:misc-brownshelffunguslarge",
+      "y": 270
+    },
+    "facing\u003dnorth": {
+      "model": "additions:misc-brownshelffunguslarge"
+    }
+  }
+}

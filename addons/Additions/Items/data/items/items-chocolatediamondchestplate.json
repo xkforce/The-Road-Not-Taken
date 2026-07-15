@@ -1,7 +1,7 @@
 {
   "name": "Chocolate Diamond Chestplate",
   "max_stack": 1,
-  "material": "additions-items-chocolatediamondarmor",
+  "material": "additions-items-CHOCOLATEDIAMONDARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }
