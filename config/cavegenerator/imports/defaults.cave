@@ -1180,18 +1180,11 @@
     contenttweaker:tempestvenustone
     contenttweaker:grape_candyvenustone
     contenttweaker:seasidevenustone
-    contenttweaker:apricotjupiterstone
-    contenttweaker:arcane_redjupiterstone
-    contenttweaker:atlantisjupiterstone
-    contenttweaker:beerjupiterstone
-    contenttweaker:berries_n_creamjupiterstone
-    contenttweaker:bimi_greenjupiterstone
     contenttweaker:blackbluejupiterstone
     contenttweaker:blackbrownjupiterstone
     contenttweaker:blackcyanjupiterstone
     contenttweaker:blackgrayjupiterstone
     contenttweaker:blackgreenjupiterstone
-    contenttweaker:blackjupiterstone
     contenttweaker:blacklightbluejupiterstone
     contenttweaker:blacklightgrayjupiterstone
     contenttweaker:blacklimejupiterstone
@@ -1205,7 +1198,6 @@
     contenttweaker:bluebrownjupiterstone
     contenttweaker:bluecyanjupiterstone
     contenttweaker:bluegreenjupiterstone
-    contenttweaker:bluejupiterstone
     contenttweaker:bluelightbluejupiterstone
     contenttweaker:bluelightgrayjupiterstone
     contenttweaker:bluelimejupiterstone
@@ -1218,7 +1210,6 @@
     contenttweaker:blueyellowjupiterstone
     contenttweaker:browncyanjupiterstone
     contenttweaker:browngreenjupiterstone
-    contenttweaker:brownjupiterstone
     contenttweaker:brownlightbluejupiterstone
     contenttweaker:brownlightgrayjupiterstone
     contenttweaker:brownlimejupiterstone
@@ -1228,9 +1219,6 @@
     contenttweaker:brownredjupiterstone
     contenttweaker:brownwhitejupiterstone
     contenttweaker:brownyellowjupiterstone
-    contenttweaker:candy_flossjupiterstone
-    contenttweaker:crown_jewelsjupiterstone
-    contenttweaker:cyanjupiterstone
     contenttweaker:cyanlightbluejupiterstone
     contenttweaker:cyanlightgrayjupiterstone
     contenttweaker:cyanlimejupiterstone
@@ -1238,18 +1226,10 @@
     contenttweaker:cyanpinkjupiterstone
     contenttweaker:cyanwhitejupiterstone
     contenttweaker:cyanyellowjupiterstone
-    contenttweaker:dark_rumjupiterstone
-    contenttweaker:deep_sea_diverjupiterstone
-    contenttweaker:fading_nightjupiterstone
-    contenttweaker:fluorescencejupiterstone
-    contenttweaker:frappejupiterstone
-    contenttweaker:galaxeajupiterstone
-    contenttweaker:grape_candyjupiterstone
     contenttweaker:graybluejupiterstone
     contenttweaker:graybrownjupiterstone
     contenttweaker:graycyanjupiterstone
     contenttweaker:graygreenjupiterstone
-    contenttweaker:grayjupiterstone
     contenttweaker:graylightbluejupiterstone
     contenttweaker:graylightgrayjupiterstone
     contenttweaker:graylimejupiterstone
@@ -1260,10 +1240,7 @@
     contenttweaker:grayredjupiterstone
     contenttweaker:graywhitejupiterstone
     contenttweaker:grayyellowjupiterstone
-    contenttweaker:green_with_envyjupiterstone
     contenttweaker:greencyanjupiterstone
-    contenttweaker:greenfinchjupiterstone
-    contenttweaker:greenjupiterstone
     contenttweaker:greenlightbluejupiterstone
     contenttweaker:greenlightgrayjupiterstone
     contenttweaker:greenlimejupiterstone
@@ -1272,15 +1249,6 @@
     contenttweaker:greenpinkjupiterstone
     contenttweaker:greenwhitejupiterstone
     contenttweaker:greenyellowjupiterstone
-    contenttweaker:indian_silkjupiterstone
-    contenttweaker:iron_fistjupiterstone
-    contenttweaker:jaffajupiterstone
-    contenttweaker:kathmandujupiterstone
-    contenttweaker:kryptonite_greenjupiterstone
-    contenttweaker:langoustinejupiterstone
-    contenttweaker:light_brownjupiterstone
-    contenttweaker:light_grayjupiterstone
-    contenttweaker:lightbluejupiterstone
     contenttweaker:lightbluelimejupiterstone
     contenttweaker:lightbluepinkjupiterstone
     contenttweaker:lightbluewhitejupiterstone
@@ -1291,13 +1259,10 @@
     contenttweaker:lightgraypinkjupiterstone
     contenttweaker:lightgraywhitejupiterstone
     contenttweaker:lightgrayyellowjupiterstone
-    contenttweaker:limejupiterstone
     contenttweaker:limepinkjupiterstone
     contenttweaker:limewhitejupiterstone
     contenttweaker:limeyellowjupiterstone
-    contenttweaker:lizardjupiterstone
     contenttweaker:magentacyanjupiterstone
-    contenttweaker:magentajupiterstone
     contenttweaker:magentalightbluejupiterstone
     contenttweaker:magentalightgrayjupiterstone
     contenttweaker:magentalimejupiterstone
@@ -1305,25 +1270,16 @@
     contenttweaker:magentapinkjupiterstone
     contenttweaker:magentawhitejupiterstone
     contenttweaker:magentayellowjupiterstone
-    contenttweaker:mingjupiterstone
-    contenttweaker:moroccojupiterstone
-    contenttweaker:mysterious_bluejupiterstone
-    contenttweaker:never_forgetjupiterstone
-    contenttweaker:orangejupiterstone
     contenttweaker:orangelightbluejupiterstone
     contenttweaker:orangelimejupiterstone
     contenttweaker:orangepinkjupiterstone
     contenttweaker:orangewhitejupiterstone
     contenttweaker:orangeyellowjupiterstone
-    contenttweaker:pinkjupiterstone
     contenttweaker:pinkwhitejupiterstone
     contenttweaker:pinkyellowjupiterstone
-    contenttweaker:pinot_noirjupiterstone
-    contenttweaker:purple_protegejupiterstone
     contenttweaker:purplebrownjupiterstone
     contenttweaker:purplecyanjupiterstone
     contenttweaker:purplegreenjupiterstone
-    contenttweaker:purplejupiterstone
     contenttweaker:purplelightbluejupiterstone
     contenttweaker:purplelightgrayjupiterstone
     contenttweaker:purplelimejupiterstone
@@ -1335,7 +1291,6 @@
     contenttweaker:purpleyellowjupiterstone
     contenttweaker:redcyanjupiterstone
     contenttweaker:redgreenjupiterstone
-    contenttweaker:redjupiterstone
     contenttweaker:redlightbluejupiterstone
     contenttweaker:redlightgrayjupiterstone
     contenttweaker:redlimejupiterstone
@@ -1344,38 +1299,12 @@
     contenttweaker:redpinkjupiterstone
     contenttweaker:redwhitejupiterstone
     contenttweaker:redyellowjupiterstone
-    contenttweaker:rich_goldjupiterstone
-    contenttweaker:salsa_verdejupiterstone
-    contenttweaker:seasidejupiterstone
-    contenttweaker:spaetzle_yellowjupiterstone
-    contenttweaker:spicy_purplejupiterstone
-    contenttweaker:strawberry_moonjupiterstone
-    contenttweaker:summer_of82jupiterstone
-    contenttweaker:super_pinkjupiterstone
-    contenttweaker:tempestjupiterstone
-    contenttweaker:toad_kingjupiterstone
-    contenttweaker:totally_broccolijupiterstone
-    contenttweaker:treetop_cathedraljupiterstone
-    contenttweaker:twinkle_nightjupiterstone
-    contenttweaker:venomous_stingjupiterstone
-    contenttweaker:volcanic_ashjupiterstone
-    contenttweaker:whisky_barreljupiterstone
-    contenttweaker:whitejupiterstone
-    contenttweaker:wizards_brewjupiterstone
-    contenttweaker:yellowjupiterstone
     contenttweaker:yellowwhitejupiterstone
-    contenttweaker:apricotsaturnstone
-    contenttweaker:arcane_redsaturnstone
-    contenttweaker:atlantissaturnstone
-    contenttweaker:beersaturnstone
-    contenttweaker:berries_n_creamsaturnstone
-    contenttweaker:bimi_greensaturnstone
     contenttweaker:blackbluesaturnstone
     contenttweaker:blackbrownsaturnstone
     contenttweaker:blackcyansaturnstone
     contenttweaker:blackgraysaturnstone
     contenttweaker:blackgreensaturnstone
-    contenttweaker:blacksaturnstone
     contenttweaker:blacklightbluesaturnstone
     contenttweaker:blacklightgraysaturnstone
     contenttweaker:blacklimesaturnstone
@@ -1389,7 +1318,6 @@
     contenttweaker:bluebrownsaturnstone
     contenttweaker:bluecyansaturnstone
     contenttweaker:bluegreensaturnstone
-    contenttweaker:bluesaturnstone
     contenttweaker:bluelightbluesaturnstone
     contenttweaker:bluelightgraysaturnstone
     contenttweaker:bluelimesaturnstone
@@ -1402,7 +1330,6 @@
     contenttweaker:blueyellowsaturnstone
     contenttweaker:browncyansaturnstone
     contenttweaker:browngreensaturnstone
-    contenttweaker:brownsaturnstone
     contenttweaker:brownlightbluesaturnstone
     contenttweaker:brownlightgraysaturnstone
     contenttweaker:brownlimesaturnstone
@@ -1412,9 +1339,6 @@
     contenttweaker:brownredsaturnstone
     contenttweaker:brownwhitesaturnstone
     contenttweaker:brownyellowsaturnstone
-    contenttweaker:candy_flosssaturnstone
-    contenttweaker:crown_jewelssaturnstone
-    contenttweaker:cyansaturnstone
     contenttweaker:cyanlightbluesaturnstone
     contenttweaker:cyanlightgraysaturnstone
     contenttweaker:cyanlimesaturnstone
@@ -1422,18 +1346,10 @@
     contenttweaker:cyanpinksaturnstone
     contenttweaker:cyanwhitesaturnstone
     contenttweaker:cyanyellowsaturnstone
-    contenttweaker:dark_rumsaturnstone
-    contenttweaker:deep_sea_diversaturnstone
-    contenttweaker:fading_nightsaturnstone
-    contenttweaker:fluorescencesaturnstone
-    contenttweaker:frappesaturnstone
-    contenttweaker:galaxeasaturnstone
-    contenttweaker:grape_candysaturnstone
     contenttweaker:graybluesaturnstone
     contenttweaker:graybrownsaturnstone
     contenttweaker:graycyansaturnstone
     contenttweaker:graygreensaturnstone
-    contenttweaker:graysaturnstone
     contenttweaker:graylightbluesaturnstone
     contenttweaker:graylightgraysaturnstone
     contenttweaker:graylimesaturnstone
@@ -1444,10 +1360,7 @@
     contenttweaker:grayredsaturnstone
     contenttweaker:graywhitesaturnstone
     contenttweaker:grayyellowsaturnstone
-    contenttweaker:green_with_envysaturnstone
     contenttweaker:greencyansaturnstone
-    contenttweaker:greenfinchsaturnstone
-    contenttweaker:greensaturnstone
     contenttweaker:greenlightbluesaturnstone
     contenttweaker:greenlightgraysaturnstone
     contenttweaker:greenlimesaturnstone
@@ -1456,15 +1369,6 @@
     contenttweaker:greenpinksaturnstone
     contenttweaker:greenwhitesaturnstone
     contenttweaker:greenyellowsaturnstone
-    contenttweaker:indian_silksaturnstone
-    contenttweaker:iron_fistsaturnstone
-    contenttweaker:jaffasaturnstone
-    contenttweaker:kathmandusaturnstone
-    contenttweaker:kryptonite_greensaturnstone
-    contenttweaker:langoustinesaturnstone
-    contenttweaker:light_brownsaturnstone
-    contenttweaker:light_graysaturnstone
-    contenttweaker:lightbluesaturnstone
     contenttweaker:lightbluelimesaturnstone
     contenttweaker:lightbluepinksaturnstone
     contenttweaker:lightbluewhitesaturnstone
@@ -1475,13 +1379,10 @@
     contenttweaker:lightgraypinksaturnstone
     contenttweaker:lightgraywhitesaturnstone
     contenttweaker:lightgrayyellowsaturnstone
-    contenttweaker:limesaturnstone
     contenttweaker:limepinksaturnstone
     contenttweaker:limewhitesaturnstone
     contenttweaker:limeyellowsaturnstone
-    contenttweaker:lizardsaturnstone
     contenttweaker:magentacyansaturnstone
-    contenttweaker:magentasaturnstone
     contenttweaker:magentalightbluesaturnstone
     contenttweaker:magentalightgraysaturnstone
     contenttweaker:magentalimesaturnstone
@@ -1489,25 +1390,16 @@
     contenttweaker:magentapinksaturnstone
     contenttweaker:magentawhitesaturnstone
     contenttweaker:magentayellowsaturnstone
-    contenttweaker:mingsaturnstone
-    contenttweaker:moroccosaturnstone
-    contenttweaker:mysterious_bluesaturnstone
-    contenttweaker:never_forgetsaturnstone
-    contenttweaker:orangesaturnstone
     contenttweaker:orangelightbluesaturnstone
     contenttweaker:orangelimesaturnstone
     contenttweaker:orangepinksaturnstone
     contenttweaker:orangewhitesaturnstone
     contenttweaker:orangeyellowsaturnstone
-    contenttweaker:pinksaturnstone
     contenttweaker:pinkwhitesaturnstone
     contenttweaker:pinkyellowsaturnstone
-    contenttweaker:pinot_noirsaturnstone
-    contenttweaker:purple_protegesaturnstone
     contenttweaker:purplebrownsaturnstone
     contenttweaker:purplecyansaturnstone
     contenttweaker:purplegreensaturnstone
-    contenttweaker:purplesaturnstone
     contenttweaker:purplelightbluesaturnstone
     contenttweaker:purplelightgraysaturnstone
     contenttweaker:purplelimesaturnstone
@@ -1519,7 +1411,6 @@
     contenttweaker:purpleyellowsaturnstone
     contenttweaker:redcyansaturnstone
     contenttweaker:redgreensaturnstone
-    contenttweaker:redsaturnstone
     contenttweaker:redlightbluesaturnstone
     contenttweaker:redlightgraysaturnstone
     contenttweaker:redlimesaturnstone
@@ -1528,38 +1419,12 @@
     contenttweaker:redpinksaturnstone
     contenttweaker:redwhitesaturnstone
     contenttweaker:redyellowsaturnstone
-    contenttweaker:rich_goldsaturnstone
-    contenttweaker:salsa_verdesaturnstone
-    contenttweaker:seasidesaturnstone
-    contenttweaker:spaetzle_yellowsaturnstone
-    contenttweaker:spicy_purplesaturnstone
-    contenttweaker:strawberry_moonsaturnstone
-    contenttweaker:summer_of82saturnstone
-    contenttweaker:super_pinksaturnstone
-    contenttweaker:tempestsaturnstone
-    contenttweaker:toad_kingsaturnstone
-    contenttweaker:totally_broccolisaturnstone
-    contenttweaker:treetop_cathedralsaturnstone
-    contenttweaker:twinkle_nightsaturnstone
-    contenttweaker:venomous_stingsaturnstone
-    contenttweaker:volcanic_ashsaturnstone
-    contenttweaker:whisky_barrelsaturnstone
-    contenttweaker:whitesaturnstone
-    contenttweaker:wizards_brewsaturnstone
-    contenttweaker:yellowsaturnstone
     contenttweaker:yellowwhitesaturnstone
-    contenttweaker:apricoturanustone
-    contenttweaker:arcane_reduranustone
-    contenttweaker:atlantisuranustone
-    contenttweaker:beeruranustone
-    contenttweaker:berries_n_creamuranustone
-    contenttweaker:bimi_greenuranustone
     contenttweaker:blackblueuranustone
     contenttweaker:blackbrownuranustone
     contenttweaker:blackcyanuranustone
     contenttweaker:blackgrayuranustone
     contenttweaker:blackgreenuranustone
-    contenttweaker:blackuranustone
     contenttweaker:blacklightblueuranustone
     contenttweaker:blacklightgrayuranustone
     contenttweaker:blacklimeuranustone
@@ -1573,7 +1438,6 @@
     contenttweaker:bluebrownuranustone
     contenttweaker:bluecyanuranustone
     contenttweaker:bluegreenuranustone
-    contenttweaker:blueuranustone
     contenttweaker:bluelightblueuranustone
     contenttweaker:bluelightgrayuranustone
     contenttweaker:bluelimeuranustone
@@ -1586,7 +1450,6 @@
     contenttweaker:blueyellowuranustone
     contenttweaker:browncyanuranustone
     contenttweaker:browngreenuranustone
-    contenttweaker:brownuranustone
     contenttweaker:brownlightblueuranustone
     contenttweaker:brownlightgrayuranustone
     contenttweaker:brownlimeuranustone
@@ -1596,9 +1459,6 @@
     contenttweaker:brownreduranustone
     contenttweaker:brownwhiteuranustone
     contenttweaker:brownyellowuranustone
-    contenttweaker:candy_flossuranustone
-    contenttweaker:crown_jewelsuranustone
-    contenttweaker:cyanuranustone
     contenttweaker:cyanlightblueuranustone
     contenttweaker:cyanlightgrayuranustone
     contenttweaker:cyanlimeuranustone
@@ -1606,18 +1466,10 @@
     contenttweaker:cyanpinkuranustone
     contenttweaker:cyanwhiteuranustone
     contenttweaker:cyanyellowuranustone
-    contenttweaker:dark_rumuranustone
-    contenttweaker:deep_sea_diveruranustone
-    contenttweaker:fading_nighturanustone
-    contenttweaker:fluorescenceuranustone
-    contenttweaker:frappeuranustone
-    contenttweaker:galaxeauranustone
-    contenttweaker:grape_candyuranustone
     contenttweaker:grayblueuranustone
     contenttweaker:graybrownuranustone
     contenttweaker:graycyanuranustone
     contenttweaker:graygreenuranustone
-    contenttweaker:grayuranustone
     contenttweaker:graylightblueuranustone
     contenttweaker:graylightgrayuranustone
     contenttweaker:graylimeuranustone
@@ -1628,10 +1480,7 @@
     contenttweaker:grayreduranustone
     contenttweaker:graywhiteuranustone
     contenttweaker:grayyellowuranustone
-    contenttweaker:green_with_envyuranustone
     contenttweaker:greencyanuranustone
-    contenttweaker:greenfinchuranustone
-    contenttweaker:greenuranustone
     contenttweaker:greenlightblueuranustone
     contenttweaker:greenlightgrayuranustone
     contenttweaker:greenlimeuranustone
@@ -1640,15 +1489,6 @@
     contenttweaker:greenpinkuranustone
     contenttweaker:greenwhiteuranustone
     contenttweaker:greenyellowuranustone
-    contenttweaker:indian_silkuranustone
-    contenttweaker:iron_fisturanustone
-    contenttweaker:jaffauranustone
-    contenttweaker:kathmanduuranustone
-    contenttweaker:kryptonite_greenuranustone
-    contenttweaker:langoustineuranustone
-    contenttweaker:light_brownuranustone
-    contenttweaker:light_grayuranustone
-    contenttweaker:lightblueuranustone
     contenttweaker:lightbluelimeuranustone
     contenttweaker:lightbluepinkuranustone
     contenttweaker:lightbluewhiteuranustone
@@ -1659,13 +1499,10 @@
     contenttweaker:lightgraypinkuranustone
     contenttweaker:lightgraywhiteuranustone
     contenttweaker:lightgrayyellowuranustone
-    contenttweaker:limeuranustone
     contenttweaker:limepinkuranustone
     contenttweaker:limewhiteuranustone
     contenttweaker:limeyellowuranustone
-    contenttweaker:lizarduranustone
     contenttweaker:magentacyanuranustone
-    contenttweaker:magentauranustone
     contenttweaker:magentalightblueuranustone
     contenttweaker:magentalightgrayuranustone
     contenttweaker:magentalimeuranustone
@@ -1673,25 +1510,16 @@
     contenttweaker:magentapinkuranustone
     contenttweaker:magentawhiteuranustone
     contenttweaker:magentayellowuranustone
-    contenttweaker:minguranustone
-    contenttweaker:moroccouranustone
-    contenttweaker:mysterious_blueuranustone
-    contenttweaker:never_forgeturanustone
-    contenttweaker:orangeuranustone
     contenttweaker:orangelightblueuranustone
     contenttweaker:orangelimeuranustone
     contenttweaker:orangepinkuranustone
     contenttweaker:orangewhiteuranustone
     contenttweaker:orangeyellowuranustone
-    contenttweaker:pinkuranustone
     contenttweaker:pinkwhiteuranustone
     contenttweaker:pinkyellowuranustone
-    contenttweaker:pinot_noiruranustone
-    contenttweaker:purple_protegeuranustone
     contenttweaker:purplebrownuranustone
     contenttweaker:purplecyanuranustone
     contenttweaker:purplegreenuranustone
-    contenttweaker:purpleuranustone
     contenttweaker:purplelightblueuranustone
     contenttweaker:purplelightgrayuranustone
     contenttweaker:purplelimeuranustone
@@ -1703,7 +1531,6 @@
     contenttweaker:purpleyellowuranustone
     contenttweaker:redcyanuranustone
     contenttweaker:redgreenuranustone
-    contenttweaker:reduranustone
     contenttweaker:redlightblueuranustone
     contenttweaker:redlightgrayuranustone
     contenttweaker:redlimeuranustone
@@ -1712,38 +1539,12 @@
     contenttweaker:redpinkuranustone
     contenttweaker:redwhiteuranustone
     contenttweaker:redyellowuranustone
-    contenttweaker:rich_golduranustone
-    contenttweaker:salsa_verdeuranustone
-    contenttweaker:seasideuranustone
-    contenttweaker:spaetzle_yellowuranustone
-    contenttweaker:spicy_purpleuranustone
-    contenttweaker:strawberry_moonuranustone
-    contenttweaker:summer_of82uranustone
-    contenttweaker:super_pinkuranustone
-    contenttweaker:tempesturanustone
-    contenttweaker:toad_kinguranustone
-    contenttweaker:totally_broccoliuranustone
-    contenttweaker:treetop_cathedraluranustone
-    contenttweaker:twinkle_nighturanustone
-    contenttweaker:venomous_stinguranustone
-    contenttweaker:volcanic_ashuranustone
-    contenttweaker:whisky_barreluranustone
-    contenttweaker:whiteuranustone
-    contenttweaker:wizards_brewuranustone
-    contenttweaker:yellowuranustone
     contenttweaker:yellowwhiteuranustone
-    contenttweaker:apricotneptunestone
-    contenttweaker:arcane_redneptunestone
-    contenttweaker:atlantisneptunestone
-    contenttweaker:beerneptunestone
-    contenttweaker:berries_n_creamneptunestone
-    contenttweaker:bimi_greenneptunestone
     contenttweaker:blackblueneptunestone
     contenttweaker:blackbrownneptunestone
     contenttweaker:blackcyanneptunestone
     contenttweaker:blackgrayneptunestone
     contenttweaker:blackgreenneptunestone
-    contenttweaker:blackneptunestone
     contenttweaker:blacklightblueneptunestone
     contenttweaker:blacklightgrayneptunestone
     contenttweaker:blacklimeneptunestone
@@ -1757,7 +1558,6 @@
     contenttweaker:bluebrownneptunestone
     contenttweaker:bluecyanneptunestone
     contenttweaker:bluegreenneptunestone
-    contenttweaker:blueneptunestone
     contenttweaker:bluelightblueneptunestone
     contenttweaker:bluelightgrayneptunestone
     contenttweaker:bluelimeneptunestone
@@ -1770,7 +1570,6 @@
     contenttweaker:blueyellowneptunestone
     contenttweaker:browncyanneptunestone
     contenttweaker:browngreenneptunestone
-    contenttweaker:brownneptunestone
     contenttweaker:brownlightblueneptunestone
     contenttweaker:brownlightgrayneptunestone
     contenttweaker:brownlimeneptunestone
@@ -1780,9 +1579,6 @@
     contenttweaker:brownredneptunestone
     contenttweaker:brownwhiteneptunestone
     contenttweaker:brownyellowneptunestone
-    contenttweaker:candy_flossneptunestone
-    contenttweaker:crown_jewelsneptunestone
-    contenttweaker:cyanneptunestone
     contenttweaker:cyanlightblueneptunestone
     contenttweaker:cyanlightgrayneptunestone
     contenttweaker:cyanlimeneptunestone
@@ -1790,18 +1586,10 @@
     contenttweaker:cyanpinkneptunestone
     contenttweaker:cyanwhiteneptunestone
     contenttweaker:cyanyellowneptunestone
-    contenttweaker:dark_rumneptunestone
-    contenttweaker:deep_sea_diverneptunestone
-    contenttweaker:fading_nightneptunestone
-    contenttweaker:fluorescenceneptunestone
-    contenttweaker:frappeneptunestone
-    contenttweaker:galaxeaneptunestone
-    contenttweaker:grape_candyneptunestone
     contenttweaker:grayblueneptunestone
     contenttweaker:graybrownneptunestone
     contenttweaker:graycyanneptunestone
     contenttweaker:graygreenneptunestone
-    contenttweaker:grayneptunestone
     contenttweaker:graylightblueneptunestone
     contenttweaker:graylightgrayneptunestone
     contenttweaker:graylimeneptunestone
@@ -1812,10 +1600,7 @@
     contenttweaker:grayredneptunestone
     contenttweaker:graywhiteneptunestone
     contenttweaker:grayyellowneptunestone
-    contenttweaker:green_with_envyneptunestone
     contenttweaker:greencyanneptunestone
-    contenttweaker:greenfinchneptunestone
-    contenttweaker:greenneptunestone
     contenttweaker:greenlightblueneptunestone
     contenttweaker:greenlightgrayneptunestone
     contenttweaker:greenlimeneptunestone
@@ -1824,15 +1609,6 @@
     contenttweaker:greenpinkneptunestone
     contenttweaker:greenwhiteneptunestone
     contenttweaker:greenyellowneptunestone
-    contenttweaker:indian_silkneptunestone
-    contenttweaker:iron_fistneptunestone
-    contenttweaker:jaffaneptunestone
-    contenttweaker:kathmanduneptunestone
-    contenttweaker:kryptonite_greenneptunestone
-    contenttweaker:langoustineneptunestone
-    contenttweaker:light_brownneptunestone
-    contenttweaker:light_grayneptunestone
-    contenttweaker:lightblueneptunestone
     contenttweaker:lightbluelimeneptunestone
     contenttweaker:lightbluepinkneptunestone
     contenttweaker:lightbluewhiteneptunestone
@@ -1843,13 +1619,10 @@
     contenttweaker:lightgraypinkneptunestone
     contenttweaker:lightgraywhiteneptunestone
     contenttweaker:lightgrayyellowneptunestone
-    contenttweaker:limeneptunestone
     contenttweaker:limepinkneptunestone
     contenttweaker:limewhiteneptunestone
     contenttweaker:limeyellowneptunestone
-    contenttweaker:lizardneptunestone
     contenttweaker:magentacyanneptunestone
-    contenttweaker:magentaneptunestone
     contenttweaker:magentalightblueneptunestone
     contenttweaker:magentalightgrayneptunestone
     contenttweaker:magentalimeneptunestone
@@ -1857,25 +1630,16 @@
     contenttweaker:magentapinkneptunestone
     contenttweaker:magentawhiteneptunestone
     contenttweaker:magentayellowneptunestone
-    contenttweaker:mingneptunestone
-    contenttweaker:morocconeptunestone
-    contenttweaker:mysterious_blueneptunestone
-    contenttweaker:never_forgetneptunestone
-    contenttweaker:orangeneptunestone
     contenttweaker:orangelightblueneptunestone
     contenttweaker:orangelimeneptunestone
     contenttweaker:orangepinkneptunestone
     contenttweaker:orangewhiteneptunestone
     contenttweaker:orangeyellowneptunestone
-    contenttweaker:pinkneptunestone
     contenttweaker:pinkwhiteneptunestone
     contenttweaker:pinkyellowneptunestone
-    contenttweaker:pinot_noirneptunestone
-    contenttweaker:purple_protegeneptunestone
     contenttweaker:purplebrownneptunestone
     contenttweaker:purplecyanneptunestone
     contenttweaker:purplegreenneptunestone
-    contenttweaker:purpleneptunestone
     contenttweaker:purplelightblueneptunestone
     contenttweaker:purplelightgrayneptunestone
     contenttweaker:purplelimeneptunestone
@@ -1887,7 +1651,6 @@
     contenttweaker:purpleyellowneptunestone
     contenttweaker:redcyanneptunestone
     contenttweaker:redgreenneptunestone
-    contenttweaker:redneptunestone
     contenttweaker:redlightblueneptunestone
     contenttweaker:redlightgrayneptunestone
     contenttweaker:redlimeneptunestone
@@ -1896,38 +1659,12 @@
     contenttweaker:redpinkneptunestone
     contenttweaker:redwhiteneptunestone
     contenttweaker:redyellowneptunestone
-    contenttweaker:rich_goldneptunestone
-    contenttweaker:salsa_verdeneptunestone
-    contenttweaker:seasideneptunestone
-    contenttweaker:spaetzle_yellowneptunestone
-    contenttweaker:spicy_purpleneptunestone
-    contenttweaker:strawberry_moonneptunestone
-    contenttweaker:summer_of82neptunestone
-    contenttweaker:super_pinkneptunestone
-    contenttweaker:tempestneptunestone
-    contenttweaker:toad_kingneptunestone
-    contenttweaker:totally_broccolineptunestone
-    contenttweaker:treetop_cathedralneptunestone
-    contenttweaker:twinkle_nightneptunestone
-    contenttweaker:venomous_stingneptunestone
-    contenttweaker:volcanic_ashneptunestone
-    contenttweaker:whisky_barrelneptunestone
-    contenttweaker:whiteneptunestone
-    contenttweaker:wizards_brewneptunestone
-    contenttweaker:yellowneptunestone
     contenttweaker:yellowwhiteneptunestone
-    contenttweaker:apricotpersephonestone
-    contenttweaker:arcane_redpersephonestone
-    contenttweaker:atlantispersephonestone
-    contenttweaker:beerpersephonestone
-    contenttweaker:berries_n_creampersephonestone
-    contenttweaker:bimi_greenpersephonestone
     contenttweaker:blackbluepersephonestone
     contenttweaker:blackbrownpersephonestone
     contenttweaker:blackcyanpersephonestone
     contenttweaker:blackgraypersephonestone
     contenttweaker:blackgreenpersephonestone
-    contenttweaker:blackpersephonestone
     contenttweaker:blacklightbluepersephonestone
     contenttweaker:blacklightgraypersephonestone
     contenttweaker:blacklimepersephonestone
@@ -1941,7 +1678,6 @@
     contenttweaker:bluebrownpersephonestone
     contenttweaker:bluecyanpersephonestone
     contenttweaker:bluegreenpersephonestone
-    contenttweaker:bluepersephonestone
     contenttweaker:bluelightbluepersephonestone
     contenttweaker:bluelightgraypersephonestone
     contenttweaker:bluelimepersephonestone
@@ -1954,7 +1690,6 @@
     contenttweaker:blueyellowpersephonestone
     contenttweaker:browncyanpersephonestone
     contenttweaker:browngreenpersephonestone
-    contenttweaker:brownpersephonestone
     contenttweaker:brownlightbluepersephonestone
     contenttweaker:brownlightgraypersephonestone
     contenttweaker:brownlimepersephonestone
@@ -1964,9 +1699,6 @@
     contenttweaker:brownredpersephonestone
     contenttweaker:brownwhitepersephonestone
     contenttweaker:brownyellowpersephonestone
-    contenttweaker:candy_flosspersephonestone
-    contenttweaker:crown_jewelspersephonestone
-    contenttweaker:cyanpersephonestone
     contenttweaker:cyanlightbluepersephonestone
     contenttweaker:cyanlightgraypersephonestone
     contenttweaker:cyanlimepersephonestone
@@ -1974,18 +1706,10 @@
     contenttweaker:cyanpinkpersephonestone
     contenttweaker:cyanwhitepersephonestone
     contenttweaker:cyanyellowpersephonestone
-    contenttweaker:dark_rumpersephonestone
-    contenttweaker:deep_sea_diverpersephonestone
-    contenttweaker:fading_nightpersephonestone
-    contenttweaker:fluorescencepersephonestone
-    contenttweaker:frappepersephonestone
-    contenttweaker:galaxeapersephonestone
-    contenttweaker:grape_candypersephonestone
     contenttweaker:graybluepersephonestone
     contenttweaker:graybrownpersephonestone
     contenttweaker:graycyanpersephonestone
     contenttweaker:graygreenpersephonestone
-    contenttweaker:graypersephonestone
     contenttweaker:graylightbluepersephonestone
     contenttweaker:graylightgraypersephonestone
     contenttweaker:graylimepersephonestone
@@ -1996,10 +1720,7 @@
     contenttweaker:grayredpersephonestone
     contenttweaker:graywhitepersephonestone
     contenttweaker:grayyellowpersephonestone
-    contenttweaker:green_with_envypersephonestone
     contenttweaker:greencyanpersephonestone
-    contenttweaker:greenfinchpersephonestone
-    contenttweaker:greenpersephonestone
     contenttweaker:greenlightbluepersephonestone
     contenttweaker:greenlightgraypersephonestone
     contenttweaker:greenlimepersephonestone
@@ -2008,15 +1729,6 @@
     contenttweaker:greenpinkpersephonestone
     contenttweaker:greenwhitepersephonestone
     contenttweaker:greenyellowpersephonestone
-    contenttweaker:indian_silkpersephonestone
-    contenttweaker:iron_fistpersephonestone
-    contenttweaker:jaffapersephonestone
-    contenttweaker:kathmandupersephonestone
-    contenttweaker:kryptonite_greenpersephonestone
-    contenttweaker:langoustinepersephonestone
-    contenttweaker:light_brownpersephonestone
-    contenttweaker:light_graypersephonestone
-    contenttweaker:lightbluepersephonestone
     contenttweaker:lightbluelimepersephonestone
     contenttweaker:lightbluepinkpersephonestone
     contenttweaker:lightbluewhitepersephonestone
@@ -2027,13 +1739,10 @@
     contenttweaker:lightgraypinkpersephonestone
     contenttweaker:lightgraywhitepersephonestone
     contenttweaker:lightgrayyellowpersephonestone
-    contenttweaker:limepersephonestone
     contenttweaker:limepinkpersephonestone
     contenttweaker:limewhitepersephonestone
     contenttweaker:limeyellowpersephonestone
-    contenttweaker:lizardpersephonestone
     contenttweaker:magentacyanpersephonestone
-    contenttweaker:magentapersephonestone
     contenttweaker:magentalightbluepersephonestone
     contenttweaker:magentalightgraypersephonestone
     contenttweaker:magentalimepersephonestone
@@ -2041,25 +1750,16 @@
     contenttweaker:magentapinkpersephonestone
     contenttweaker:magentawhitepersephonestone
     contenttweaker:magentayellowpersephonestone
-    contenttweaker:mingpersephonestone
-    contenttweaker:moroccopersephonestone
-    contenttweaker:mysterious_bluepersephonestone
-    contenttweaker:never_forgetpersephonestone
-    contenttweaker:orangepersephonestone
     contenttweaker:orangelightbluepersephonestone
     contenttweaker:orangelimepersephonestone
     contenttweaker:orangepinkpersephonestone
     contenttweaker:orangewhitepersephonestone
     contenttweaker:orangeyellowpersephonestone
-    contenttweaker:pinkpersephonestone
     contenttweaker:pinkwhitepersephonestone
     contenttweaker:pinkyellowpersephonestone
-    contenttweaker:pinot_noirpersephonestone
-    contenttweaker:purple_protegepersephonestone
     contenttweaker:purplebrownpersephonestone
     contenttweaker:purplecyanpersephonestone
     contenttweaker:purplegreenpersephonestone
-    contenttweaker:purplepersephonestone
     contenttweaker:purplelightbluepersephonestone
     contenttweaker:purplelightgraypersephonestone
     contenttweaker:purplelimepersephonestone
@@ -2071,7 +1771,6 @@
     contenttweaker:purpleyellowpersephonestone
     contenttweaker:redcyanpersephonestone
     contenttweaker:redgreenpersephonestone
-    contenttweaker:redpersephonestone
     contenttweaker:redlightbluepersephonestone
     contenttweaker:redlightgraypersephonestone
     contenttweaker:redlimepersephonestone
@@ -2080,90 +1779,7 @@
     contenttweaker:redpinkpersephonestone
     contenttweaker:redwhitepersephonestone
     contenttweaker:redyellowpersephonestone
-    contenttweaker:rich_goldpersephonestone
-    contenttweaker:salsa_verdepersephonestone
-    contenttweaker:seasidepersephonestone
-    contenttweaker:spaetzle_yellowpersephonestone
-    contenttweaker:spicy_purplepersephonestone
-    contenttweaker:strawberry_moonpersephonestone
-    contenttweaker:summer_of82persephonestone
-    contenttweaker:super_pinkpersephonestone
-    contenttweaker:tempestpersephonestone
-    contenttweaker:toad_kingpersephonestone
-    contenttweaker:totally_broccolipersephonestone
-    contenttweaker:treetop_cathedralpersephonestone
-    contenttweaker:twinkle_nightpersephonestone
-    contenttweaker:venomous_stingpersephonestone
-    contenttweaker:volcanic_ashpersephonestone
-    contenttweaker:whisky_barrelpersephonestone
-    contenttweaker:whitepersephonestone
-    contenttweaker:wizards_brewpersephonestone
-    contenttweaker:yellowpersephonestone
     contenttweaker:yellowwhitepersephonestone
-    contenttweaker:whiteumbralith
-    contenttweaker:yellowumbralith
-    contenttweaker:blueumbralith
-    contenttweaker:redumbralith
-    contenttweaker:blackumbralith
-    contenttweaker:orangeumbralith
-    contenttweaker:light_blueumbralith
-    contenttweaker:pinkumbralith
-    contenttweaker:grayumbralith
-    contenttweaker:purpleumbralith
-    contenttweaker:greenumbralith
-    contenttweaker:arcane_redumbralith
-    contenttweaker:galaxeaumbralith
-    contenttweaker:spaetzle_yellowumbralith
-    contenttweaker:magentaumbralith
-    contenttweaker:limeumbralith
-    contenttweaker:light_grayumbralith
-    contenttweaker:cyanumbralith
-    contenttweaker:brownumbralith
-    contenttweaker:wizards_brewumbralith
-    contenttweaker:indian_silkumbralith
-    contenttweaker:rich_goldumbralith
-    contenttweaker:fading_nightumbralith
-    contenttweaker:treetop_cathedralumbralith
-    contenttweaker:purple_protegeumbralith
-    contenttweaker:beerumbralith
-    contenttweaker:lizardumbralith
-    contenttweaker:totally_broccoliumbralith
-    contenttweaker:mysterious_blueumbralith
-    contenttweaker:langoustineumbralith
-    contenttweaker:berries_n_creamumbralith
-    contenttweaker:strawberry_moonumbralith
-    contenttweaker:apricotumbralith
-    contenttweaker:fluorescenceumbralith
-    contenttweaker:bimi_greenumbralith
-    contenttweaker:atlantisumbralith
-    contenttweaker:never_forgetumbralith
-    contenttweaker:moroccoumbralith
-    contenttweaker:toad_kingumbralith
-    contenttweaker:frappeumbralith
-    contenttweaker:dark_rumumbralith
-    contenttweaker:volcanic_ashumbralith
-    contenttweaker:candy_flossumbralith
-    contenttweaker:spicy_purpleumbralith
-    contenttweaker:light_brownumbralith
-    contenttweaker:salsa_verdeumbralith
-    contenttweaker:twinkle_nightumbralith
-    contenttweaker:deep_sea_diverumbralith
-    contenttweaker:pinot_noirumbralith
-    contenttweaker:kryptonite_greenumbralith
-    contenttweaker:summer_of82umbralith
-    contenttweaker:iron_fistumbralith
-    contenttweaker:greenfinchumbralith
-    contenttweaker:venomous_stingumbralith
-    contenttweaker:crown_jewelsumbralith
-    contenttweaker:green_with_envyumbralith
-    contenttweaker:whisky_barrelumbralith
-    contenttweaker:super_pinkumbralith
-    contenttweaker:jaffaumbralith
-    contenttweaker:kathmanduumbralith
-    contenttweaker:mingumbralith
-    contenttweaker:tempestumbralith
-    contenttweaker:grape_candyumbralith
-    contenttweaker:seasideumbralith
     contenttweaker:whiteaventurine
     contenttweaker:orangeaventurine
     contenttweaker:light_blueaventurine

@@ -1,7 +1,7 @@
 {
   "name": "Electrum Hammer",
   "max_stack": 1,
-  "durability": 60,
+  "durability": 59,
   "harvest_level": 2,
   "harvest_radius_width": 1,
   "harvest_depth": 0,

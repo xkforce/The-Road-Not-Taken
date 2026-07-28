@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "NETHER",
     "DRY",
     "VOID",
-    "NETHER",
     "HOT"
   ],
   "BiomeManager Entries": {},

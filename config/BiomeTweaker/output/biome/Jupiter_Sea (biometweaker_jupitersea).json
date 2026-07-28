@@ -6,8 +6,8 @@
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 2.76,
   "Height Variation": 0.1,
-  "Top Block": "contenttweaker:redjupiterstone",
-  "Filler Block": "contenttweaker:redjupiterstone",
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

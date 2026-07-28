@@ -7,8 +7,10 @@ import crafttweaker.block.IMaterial as Mat;
 
 import scripts.variables.crops.edible_crops;
 import scripts.variables.crops.inedible_crops;
+import scripts.variables.crops.placeable_edible_crops;
+import scripts.variables.crops.placeable_inedible_crops;
 
-val allCrops as string[] = mergeStringArray([edible_crops, inedible_crops]);
+val allCrops as string[] = mergeStringArray([edible_crops, inedible_crops, placeable_edible_crops, placeable_inedible_crops]);
 
 val crops as string[] = [
     "agave", 
@@ -56,7 +58,8 @@ val crops as string[] = [
     "yellowcabbage", 
     "whitecabbage", 
     "caraway", 
-    "cardamom", 
+    "greencardamom", 
+    "redcardamom", 
     "blackcarrot", 
     "lavendercarrot", 
     "purplecarrot", 
@@ -142,7 +145,6 @@ val crops as string[] = [
     "leek", 
     "greenlettuce",
     "redlettuce", 
-    "lymegrass", 
     "barnyardmillet", 
     "fingermillet", 
     "foxtailmillet", 
@@ -166,6 +168,7 @@ val crops as string[] = [
     "whitepineapple", 
     "yellowpineapple", 
     "poppy", 
+    "blackpotato", 
     "bluepotato", 
     "brownpotato", 
     "orangepotato", 

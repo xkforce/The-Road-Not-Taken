@@ -1,7 +1,7 @@
 {
   "name": "Hepatizon Battle Axe",
   "max_stack": 1,
-  "durability": 131,
+  "durability": 400,
   "harvest_level": 1,
   "harvest_radius_width": 1,
   "harvest_depth": 0,

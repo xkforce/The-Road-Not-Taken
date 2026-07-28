@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "WASTELAND",
     "DRY",
+    "MOUNTAIN",
     "VOID",
-    "HOT",
-    "MOUNTAIN"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

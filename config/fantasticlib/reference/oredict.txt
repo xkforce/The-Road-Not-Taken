@@ -393,12 +393,12 @@ ingotAncientDebris
 oreAncientDebris
 locksLock
 locksLockPick
-stoneBasaltPolished
-stonePolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
+stonePolished
+stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil
@@ -529,7 +529,6 @@ saturnstone
 uranustone
 neptunestone
 persephonestone
-umbralith
 ammolite
 apatite
 aventurine

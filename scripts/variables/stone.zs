@@ -5,7 +5,7 @@ import scripts.classes.stone.Stone;
 
 import scripts.variables.misc.minecraftColors;
 import scripts.variables.colors.c101;
-import scripts.variables.colors.c184;
+import scripts.variables.colors.c120;
 import scripts.variables.variants.none;
 import scripts.variables.variants.defaultVariants;
 import scripts.variables.variants.mossyVariants;
@@ -62,6 +62,12 @@ TransparentObsidian.addFlag("--dragonProof");
 TransparentObsidian.addFlag("--transparent");
 TransparentObsidian.setToolLevel(3);
 TransparentObsidian.overrideOreName("obsidian");
+
+global Calcite as Stone = Stone("calcite", COLORS.keys, defaultnocobbleVariants);
+Calcite.setToolLevel(0);
+Calcite.addReplacement("deeperdepths:stone:5", "white", " ");
+Calcite.overrideOreName("stoneCalcite");
+
 /*
 global Prismarine as Stone = Stone("prismarine", COLORS.keys, [" ", "grid", "brick", "chiseledjellyfish", "hexagonalbrick", "pentagonalbrick", "polished"]);
 Prismarine.addReplacement("minecraft:prismarine:0", "cyan", " ");
@@ -156,14 +162,11 @@ global Troilite as Stone = Stone("troilite", none, defaultVariants);
 global Aegirine as Stone = Stone("aegirine", none, defaultVariants);
 
 //Gas giant stone types
-global Jupiterstone as Stone = Stone("jupiterstone", c184, defaultnocobbleVariants);
-global Saturnstone as Stone = Stone("saturnstone", c184, defaultnocobbleVariants);
-global Uranustone as Stone = Stone("uranustone", c184, defaultnocobbleVariants);
-global Neptunestone as Stone = Stone("neptunestone", c184, defaultnocobbleVariants);
-global Persephonestone as Stone = Stone("persephonestone", c184, defaultnocobbleVariants);
-
-// Unknown
-global Umbrilith as Stone = Stone("umbralith", COLORS.keys, defaultnocobbleVariants);
+global Jupiterstone as Stone = Stone("jupiterstone", c120, defaultnocobbleVariants);
+global Saturnstone as Stone = Stone("saturnstone", c120, defaultnocobbleVariants);
+global Uranustone as Stone = Stone("uranustone", c120, defaultnocobbleVariants);
+global Neptunestone as Stone = Stone("neptunestone", c120, defaultnocobbleVariants);
+global Persephonestone as Stone = Stone("persephonestone", c120, defaultnocobbleVariants);
 
 // Rockhounding Rocks
 global Ammolite as Stone = Stone("ammolite", none, OverworldVariants);
@@ -193,7 +196,7 @@ global Carnelian as Stone = Stone("carnelian", ["brown", "red"], OverworldVarian
 rhRep(Carnelian, "b", 8, "brown");
 rhRep(Carnelian, "e", 13, "red");
 
-global Chalk as Stone = Stone("chalk", none, OverworldVariants);
+global Chalk as Stone = Stone("chalk", none, defaultnocobbleVariants);
 rhRep(Chalk, "f", 11);
 
 global Chrysocolla as Stone = Stone("chrysocolla", none, OverworldVariants);
