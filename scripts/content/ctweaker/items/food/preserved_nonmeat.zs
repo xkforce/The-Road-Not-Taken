@@ -21,10 +21,6 @@ for food, data in preservedNonmeat {
     val saturation as float = data[1] as float;
 
     var nonMeat = VanillaFactory.createItemFood(food, hunger);
-    if (preservedNonmeat.keys.indexOf(food) == 0) {
-        createCreativeTabWithItem(modpackID + ".preservednonmeat", nonMeat);
-    }
-    nonMeat.creativeTab = creativeTab;
     nonMeat.saturation = saturation;
     nonMeat.register();
 }

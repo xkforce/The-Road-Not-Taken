@@ -1,4 +1,5 @@
 #loader mixin
+#mixin by Nischi
 
 import native.net.minecraft.item.Item;
 import native.net.minecraft.item.ItemSeedFood;
@@ -82,11 +83,7 @@ zenClass BlockGenericCropMixin { # func_77655_b = setTranslationKey
    if(this0.cropID == "contenttweaker:taro") 
      return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());     
    if(this0.cropID == "contenttweaker:wasabi") 
-     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());     
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());    
    return original.call(instance, key);
  }
 }
-
-
-
- 

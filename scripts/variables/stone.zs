@@ -4,7 +4,6 @@
 import scripts.classes.stone.Stone;
 
 import scripts.variables.misc.minecraftColors;
-import scripts.variables.colors.c101;
 import scripts.variables.colors.c120;
 import scripts.variables.variants.none;
 import scripts.variables.variants.defaultVariants;
