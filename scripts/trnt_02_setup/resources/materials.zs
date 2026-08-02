@@ -80,7 +80,7 @@ HEPATIZON.addParts(["ingot", "nugget", "plate"]);
  */
 global AMETHYST as CotMaterial = CotMaterial(TYPE_GEM, "amethyst", "#9B4FDD");
 AMETHYST.addParts(["nugget", "plate"]);
-AMETHYST.addArmor("chainmail");
+//AMETHYST.addArmor("chainmail");
 AMETHYST.addArmorStat("durability", "11");
 AMETHYST.addArmorStat("enchantability", "10");
 AMETHYST.addArmorStat("reduction", "2,5,4,2");

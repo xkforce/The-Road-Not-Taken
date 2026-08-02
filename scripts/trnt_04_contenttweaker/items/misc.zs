@@ -30,7 +30,4 @@ for misc in miscs {
     }
 }
 
-for stick in WOOD_TYPES {
-    COT_UTILS.createItem(`${stick}stick`);
-}
 COT_UTILS.resetCreativeTab();
