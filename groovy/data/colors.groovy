@@ -395,3 +395,5 @@ def Seaside = new ZenColor('seaside', '#6BA7B5')
 //  Seaside
 /*  0.00 */ Seaside.addMix([LightBlue, LightGray])
 /*  6.21 */ Seaside.addMix([LightBlue, Cyan])
+
+Modpack.LOGGER.info("🎨 Created ${ZenColor.size()} colors!")

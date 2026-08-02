@@ -1,9 +1,17 @@
 import classes.Utils
 
 class ZenColor {
-    def static colors = [:]
+    final static def colors = [:]
 
-    def static getColor(String id) {
+    static def size() {
+        return colors.size()
+    }
+
+    static def vanilla() {
+        return colors.values().findAll { it.vanilla }.collect { it.id }
+    }
+
+    static def getColor(String id) {
         return colors[id]
     }
 
@@ -40,9 +48,5 @@ class ZenColor {
 
     def setVanilla() {
         this.vanilla = true
-    }
-
-    def vanilla() {
-        return colors.values().findAll { it.vanilla }.collect { it.id }
     }
 }
