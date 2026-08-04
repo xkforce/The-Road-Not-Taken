@@ -1,0 +1,21 @@
+Enderman: Single handedly rewrote the zenscript scripting, developed several pack making tools such as PaletteCreator, PaletteMixer
+and PngBlender, developed and maintains the Ender's tweaks mod and contributes directly to pack development via Git
+
+FonnyMunkey: RLMixins commissions, BBLSOMY commissions, Technical assistance with Recurrant Complex, scripts, debugging
+
+Masa: developer of multiple mods foremost of which is just enough dimensions which is critical to the workings of this pack. I am also
+indebted to them for their technical assistance in the troubleshooting and development of JED's configuration which allows the main
+post-late game plant, moon and fantasy dimension teleportation mechanic to work. Masa also specifically coded the temporary dimension
+functionality into JED on my request which is very much appreciated. Without that feature, the temporary dimension mechanic would be
+dead in the water.
+
+Bluefire: Technical assistance with dimensional control
+
+Kindlich: technical assistance with crafttweaker as well as implementation of foods into contenttweaker
+
+Fullskele: Technical assistance, content creator and other mod commissions
+
+Teksturepako: created the teleportation zenscript that allows the end to connect to the end surface and the haunted/shattered overworld
+
+Voidsongdragonfly: technical assistance with advanced rocketry
+ 
