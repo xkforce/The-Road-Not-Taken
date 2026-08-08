@@ -83,7 +83,7 @@ val sticks as string[string] = {
     "mangostick" : "contenttweaker:mangoplank",
     "mangosteenstick" : "contenttweaker:mangosteenplank",
     "mesquitestick" : "contenttweaker:mesquiteplank",
-    "mycheestick" : "contenttweaker:mycheeplank",
+    "lycheestick" : "contenttweaker:lycheeplank",
     "myrrhstick" : "contenttweaker:myrrhplank",
     "nonistick" : "contenttweaker:noniplank",
     "nutmegstick" : "contenttweaker:nutmegplank",

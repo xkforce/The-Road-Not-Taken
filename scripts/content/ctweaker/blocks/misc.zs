@@ -175,7 +175,7 @@ val planks as string[] = [
     "mango", 
     "mangosteen", 
     "mesquite", 
-    "mychee", 
+    "lychee", 
     "myrrh", 
     "noni", 
     "nutmeg", 

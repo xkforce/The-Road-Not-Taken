@@ -46,7 +46,7 @@ greenmaple.register();
 
 var greenpoplar = TreeFactory.createTree("greenpoplar");
 greenpoplar.setTreeType("OAK");
-greenpoplar.setLeaf("bblsom:leaves_greenpoplar");
+greenpoplar.setLeaf("bblsom:leaves_poplar");
 greenpoplar.setLog("additions:logs-poplar");
 greenpoplar.setMinHeight(4);
 greenpoplar.setExtraHeight(3);
@@ -376,7 +376,7 @@ greenmaplebush.register();
 
 var greenpoplarbush = TreeFactory.createTree("greenpoplarbush");
 greenpoplarbush.setTreeType("OAK");
-greenpoplarbush.setLeaf("bblsom:leaves_greenpoplar");
+greenpoplarbush.setLeaf("bblsom:leaves_poplar");
 greenpoplarbush.setLog("additions:logs-poplar");
 greenpoplarbush.setMinHeight(1);
 greenpoplarbush.setExtraHeight(0);
