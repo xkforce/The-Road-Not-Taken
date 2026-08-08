@@ -1,6 +1,6 @@
 
 {
-  "ID": 310,
+  "ID": 313,
   "Name": "Enceladus Plains",
   "Resource Location": "biometweaker:enceladusplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

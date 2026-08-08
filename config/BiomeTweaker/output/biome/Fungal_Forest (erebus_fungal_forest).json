@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPOOKY",
     "DENSE",
-    "VOID",
     "MUSHROOM",
-    "SPOOKY"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

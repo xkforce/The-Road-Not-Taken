@@ -156,6 +156,7 @@ biometweaker:jupitervolcano
 biometweaker:tropicalabyssalplains
 biometweaker:martianrockyplains
 biometweaker:chorusswamp
+biometweaker:sahelplateau
 biometweaker:melinoepoisonswamp
 biometweaker:mirandacliffs
 biometweaker:browndesert
@@ -213,6 +214,7 @@ biometweaker:blackbeach
 biometweaker:warmabyssalplains
 biometweaker:mercuryplains
 biometweaker:sanddunes
+biometweaker:sahelsavanna
 biometweaker:colddeepocean
 biometweaker:coldabyssalplains
 biometweaker:reddesert
@@ -263,6 +265,7 @@ biometweaker:yellowsanddunes
 biometweaker:apricotpaintmines
 biometweaker:tandeserthills
 biometweaker:olympusmons3
+biometweaker:sahelgrassland
 biometweaker:saltflats
 biometweaker:deadforest
 biometweaker:martianlakebed

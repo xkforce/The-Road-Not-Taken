@@ -1,6 +1,6 @@
 
 {
-  "ID": 324,
+  "ID": 327,
   "Name": "Mercury Ocean",
   "Resource Location": "biometweaker:mercuryocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

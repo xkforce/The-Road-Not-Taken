@@ -1,6 +1,6 @@
 
 {
-  "ID": 289,
+  "ID": 292,
   "Name": "Orange Desert Hills",
   "Resource Location": "biometweaker:orangedeserthills",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "SANDY",
     "DRY",
-    "PLAINS",
-    "HOT"
+    "HOT",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

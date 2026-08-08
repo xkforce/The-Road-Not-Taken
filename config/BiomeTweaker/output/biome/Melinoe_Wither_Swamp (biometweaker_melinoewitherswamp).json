@@ -1,6 +1,6 @@
 
 {
-  "ID": 190,
+  "ID": 191,
   "Name": "Melinoe Wither Swamp",
   "Resource Location": "biometweaker:melinoewitherswamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

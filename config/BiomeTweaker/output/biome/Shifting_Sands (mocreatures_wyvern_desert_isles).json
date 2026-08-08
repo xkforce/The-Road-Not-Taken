@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "SANDY",
     "WYVERN_LAIR",
-    "COLD",
     "VOID",
-    "MAGICAL"
+    "MAGICAL",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

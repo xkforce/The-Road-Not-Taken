@@ -1,6 +1,6 @@
 
 {
-  "ID": 313,
+  "ID": 316,
   "Name": "Saturnian Mountains",
   "Resource Location": "biometweaker:saturnianmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

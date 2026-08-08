@@ -1,6 +1,6 @@
 
 {
-  "ID": 236,
+  "ID": 238,
   "Name": "Martian Ice Cap",
   "Resource Location": "biometweaker:martianicecap",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 293,
+  "ID": 296,
   "Name": "Venusian Mountains",
   "Resource Location": "biometweaker:venusianmountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "WATER",
+    "SPACE",
     "HOT",
-    "SPACE"
+    "OCEAN",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

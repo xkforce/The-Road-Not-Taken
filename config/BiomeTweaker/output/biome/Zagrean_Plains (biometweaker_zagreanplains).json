@@ -1,6 +1,6 @@
 
 {
-  "ID": 260,
+  "ID": 262,
   "Name": "Zagrean Plains",
   "Resource Location": "biometweaker:zagreanplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "WATER",
+    "SPACE",
     "HOT",
-    "SPACE"
+    "OCEAN",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -393,12 +393,12 @@ ingotAncientDebris
 oreAncientDebris
 locksLock
 locksLockPick
+stonePolished
+stoneBasaltPolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
-stonePolished
-stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil
@@ -429,8 +429,6 @@ ingotSilver
 gearIron
 rodBreeze
 wax
-blockStar
-gemTektite
 dyeSilver
 chitinScorpion
 twigs
@@ -608,13 +606,6 @@ proofWither
 bakingEgg
 foodSimpleEgg
 ingredientEgg
-blockFrezarite
-blockKreknorite
-blockMeteorite
-blockTektite
-ingotFrezarite
-ingotKreknorite
-ingotMeteorite
 book
 mushroomAny
 trapdoorCarpeted

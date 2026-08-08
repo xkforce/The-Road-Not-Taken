@@ -1,6 +1,6 @@
 
 {
-  "ID": 145,
+  "ID": 146,
   "Name": "Miranda Cliffs",
   "Resource Location": "biometweaker:mirandacliffs",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

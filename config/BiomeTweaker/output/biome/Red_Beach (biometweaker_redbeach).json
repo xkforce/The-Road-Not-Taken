@@ -1,6 +1,6 @@
 
 {
-  "ID": 254,
+  "ID": 256,
   "Name": "Red Beach",
   "Resource Location": "biometweaker:redbeach",
   "Class": "net.minecraft.world.biome.BiomeBeach",
@@ -22,15 +22,28 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "BEACH"
+    "SANDY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "mod.reborn.server.entity.animal.EntityCrab",
-      "Weight": 20,
-      "Min Group Count": 4,
-      "Max Group Count": 8
+      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntityLion",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "org.zawamod.entity.flying.EntityAlbatross",
@@ -89,6 +102,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -103,28 +122,10 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAnchovy",
-      "Weight": 12,
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
+      "Weight": 10,
       "Min Group Count": 1,
-      "Max Group Count": 6
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngler",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 6
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityHippoTang",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 6
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityManderin",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 6
+      "Max Group Count": 4
     }
   ],
   "Spawnable Cave Creatures": [
@@ -133,6 +134,24 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawn Biome": false,

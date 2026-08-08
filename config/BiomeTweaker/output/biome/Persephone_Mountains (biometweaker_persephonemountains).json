@@ -1,6 +1,6 @@
 
 {
-  "ID": 188,
+  "ID": 189,
   "Name": "Persephone Mountains",
   "Resource Location": "biometweaker:persephonemountains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "SPACE"
+    "SPACE",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
