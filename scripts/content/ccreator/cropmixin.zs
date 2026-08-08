@@ -61,7 +61,13 @@ zenClass BlockGenericCropMixin { # func_77655_b = setTranslationKey
    if(this0.cropID == "contenttweaker:redpotato") 
      return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());
    if(this0.cropID == "contenttweaker:whitepotato") 
-     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());            
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());  
+   if(this0.cropID == "contenttweaker:blacksalsify") 
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());   
+   if(this0.cropID == "contenttweaker:whitesalsify") 
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());   
+   if(this0.cropID == "contenttweaker:skirret") 
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());  
    if(this0.cropID == "contenttweaker:blacksweetpotato") 
      return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());
    if(this0.cropID == "contenttweaker:brownsweetpotato") 
@@ -83,7 +89,6 @@ zenClass BlockGenericCropMixin { # func_77655_b = setTranslationKey
    if(this0.cropID == "contenttweaker:taro") 
      return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());     
    if(this0.cropID == "contenttweaker:wasabi") 
-     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());    
-   return original.call(instance, key);
+     return ItemSeedFood(3, 0.5, block, Blocks.FARMLAND).setRegistryName(block.getRegistryName());          
  }
 }
