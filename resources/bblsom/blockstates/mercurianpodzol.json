@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:mercurianpodzol" },
+    "snowy=true":  { "model": "bblsom:mercurianpodzol" }
+  }
+}

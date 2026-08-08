@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:martianpodzol" },
+    "snowy=true":  { "model": "bblsom:martianpodzol" }
+  }
+}

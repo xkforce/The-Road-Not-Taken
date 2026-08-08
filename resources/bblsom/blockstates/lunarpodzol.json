@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:lunarpodzol" },
+    "snowy=true":  { "model": "bblsom:lunarpodzol" }
+  }
+}

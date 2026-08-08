@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:frappepodzol" },
+    "snowy=true":  { "model": "bblsom:frappepodzol" }
+  }
+}

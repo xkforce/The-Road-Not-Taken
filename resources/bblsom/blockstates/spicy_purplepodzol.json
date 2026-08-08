@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:spicy_purplepodzol" },
+    "snowy=true":  { "model": "bblsom:spicy_purplepodzol" }
+  }
+}

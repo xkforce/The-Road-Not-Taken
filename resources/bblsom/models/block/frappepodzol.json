@@ -1,0 +1,9 @@
+{
+  "parent": "bblsom:block/mycelium",
+  "textures": {
+    "particle": "bblsom:blocks/frappepodzol",
+    "bottom": "bblsom:blocks/frappepodzol",
+    "top": "bblsom:blocks/frappepodzoltop",
+    "side": "bblsom:blocks/frappepodzolside"
+  }
+}

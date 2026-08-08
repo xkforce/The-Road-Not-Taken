@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "snowy=false": { "model": "bblsom:lavenderpodzol" },
+    "snowy=true":  { "model": "bblsom:lavenderpodzol" }
+  }
+}
