@@ -1,6 +1,0 @@
-
-{
-  "Name": "rebornmod.megatherium",
-  "Registry ID": "rebornmod:entities.megatherium",
-  "Class": "mod.reborn.server.entity.dinosaur.MegatheriumEntity"
-}
