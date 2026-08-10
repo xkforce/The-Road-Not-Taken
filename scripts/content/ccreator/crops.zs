@@ -12,9 +12,10 @@ import scripts.variables.crops.placeable_edible_crops;
 import scripts.variables.crops.placeable_inedible_crops;
 
 val allCrops as string[] = mergeStringArray([edible_crops, inedible_crops, block_crops, placeable_edible_crops, placeable_inedible_crops]);
+var cacheCrops as string[] = [];
 
 val crops as string[] = [
-    "agave", 
+    "agave",
     "alfalfa", 
     "arugala", 
     "barley", 
@@ -241,6 +242,10 @@ val crops as string[] = [
 ];
 
 for crop in crops {
+    if (cacheCrops.contains(crop)) {
+        log.error("Crop with id: <" + crop + "> already exists!");
+    }
+    cacheCrops += crop;
     val item as string = "contenttweaker:" + crop;
     if (allCrops.contains(crop)) {
         GenericBlock.createCrop(crop, item).register();
@@ -269,6 +274,10 @@ val squashes as string[] = [
 ];
 
 for squash in squashes {
+    if (cacheCrops.contains(squash)) {
+        log.error("Crop with id: <" + squash + "> already exists!");
+    }
+    cacheCrops += squash;
     val item as string = "contentcreator:" + squash;
     if (allCrops.contains(squash)) {
         GenericBlock.createStem(squash + "seeds", item, 0).register();
@@ -291,6 +300,10 @@ val melons as string[] = [
 ];
 
 for melon in melons {
+    if (cacheCrops.contains(melon)) {
+        log.error("Crop with id: <" + melon + "> already exists!");
+    }
+    cacheCrops += melon;
     val item as string = "contentcreator:" + melon;
     if (allCrops.contains(melon)) {
         GenericBlock.createStem(melon + "seeds", item, 0).register();
@@ -395,6 +408,10 @@ val vineCrops as string[] = [
 ];
 
 for vine in vineCrops {
+    if (cacheCrops.contains(vine)) {
+        log.error("Crop with id: <" + vine + "> already exists!");
+    }
+    cacheCrops += vine;
     val item as string = "contenttweaker:" + vine;
     if (allCrops.contains(vine)) {
         GenericBlock.createCropRestrictedByBlock(vine, item, "minecraft:string", 0, 0, 1, 3).register();
@@ -422,6 +439,10 @@ val tallVines as string[] = [
 ];
 
 for vine in tallVines {
+    if (cacheCrops.contains(vine)) {
+        log.error("Crop with id: <" + vine + "> already exists!");
+    }
+    cacheCrops += vine;
     val item as string = "contenttweaker:" + vine;
     if (allCrops.contains(vine)) {
         GenericBlock.createCropTallRestrictedByOreDictionary(vine, item, "ore:fence", 0, 1, 3).register();

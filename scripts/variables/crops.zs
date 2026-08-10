@@ -193,8 +193,6 @@ static edible_crops as string[] = [
     "honeydewmelon", 
     "hornedmelon", 
     "pepinomelon", 
-    "orangewatermelon", 
-    "yellowwatermelon", 
     "wintermelon", 
     "oposquash",
     "mexicanasummersquash",
@@ -274,6 +272,8 @@ static block_crops as string[] = [
     "wineredpumpkin",
     "whitepumpkin",
     "yellowpumpkin",
+    "orangewatermelon", 
+    "yellowwatermelon", 
 ];
 
 static placeable_edible_crops as string[] = [
