@@ -7,10 +7,11 @@ import crafttweaker.block.IMaterial as Mat;
 
 import scripts.variables.crops.edible_crops;
 import scripts.variables.crops.inedible_crops;
+import scripts.variables.crops.block_crops;
 import scripts.variables.crops.placeable_edible_crops;
 import scripts.variables.crops.placeable_inedible_crops;
 
-val allCrops as string[] = mergeStringArray([edible_crops, inedible_crops, placeable_edible_crops, placeable_inedible_crops]);
+val allCrops as string[] = mergeStringArray([edible_crops, inedible_crops, block_crops, placeable_edible_crops, placeable_inedible_crops]);
 
 val crops as string[] = [
     "agave", 
@@ -249,20 +250,22 @@ for crop in crops {
 }
 
 val squashes as string[] = [
-    "acornsquash",
-    "buttercupsquash",
-    "butternutsquash",
-    "delicatasquash",
-    "hubbardsquash",
-    "lakotasquash",
-    "pattypansquash",
-    "australianbluepumpkin",
-    "jarrahdalepumpkin",
-    "rougedetampespumpkin",
+    "amberpumpkin",
+    "blackpumpkin",
+    "creampumpkin",
+    "darkgreenpumpkin",
+    "greenpumpkin",
+    "lavenderpumpkin",
+    "lightgraypumpkin",
+    "palegreenpumpkin",
+    "peachpumpkin",
+    "pinkpumpkin",
+    "redpumpkin",
+    "tanpumpkin",
+    "vermilionpumpkin",
+    "wineredpumpkin",
     "whitepumpkin",
     "yellowpumpkin",
-    "spaghettisquash",
-    "sweetdumplingsquash",
 ];
 
 for squash in squashes {
@@ -297,6 +300,7 @@ for melon in melons {
 }
 
 val vineCrops as string[] = [
+    "acornsquash",
     "adzukibean", 
     "anaheimpepper", 
     "bananapepper", 
@@ -314,12 +318,22 @@ val vineCrops as string[] = [
     "blackeyedpea", 
     "blackhungarianpepper", 
     "butterbean", 
+    "buttercupsquash",
+    "butternutsquash",
+    "calabazasquash",
+    "carnivalsquash",
     "cannellinibean", 
     "cayennepepper", 
+    "chayotesquash",
     "chilipepper", 
+    "cousasquash",
     "cranberrybean", 
+    "crooknecksquash",
+    "cucamelon", 
     "greencucumber",
     "yellowcucumber", 
+    "cushawsquash",
+    "delicatasquash",
     "favabean", 
     "greatnorthernbean", 
     "greenbean", 
@@ -327,6 +341,7 @@ val vineCrops as string[] = [
     "redkidneybean",
     "whitekidneybean", 
     "garbanzobean", 
+    "gemsquash",
     "blackhabaneropepper", 
     "chocolatehabaneropepper", 
     "orangehabaneropepper", 
@@ -334,29 +349,49 @@ val vineCrops as string[] = [
     "redhabaneropepper", 
     "yellowhabaneropepper", 
     "whitehabaneropepper", 
+    "bluehubbardsquash",
+    "orangehubbardsquash",
     "brownjalapenopepper", 
     "orangejalapenopepper", 
     "redjalapenopepper", 
     "yellowjalapenopepper", 
+    "jauneetvertesquash",
+    "lakotasquash",
     "limabean", 
     "longbean", 
+    "mexicanasummersquash",
     "navybean", 
+    "oposquash",
+    "greenpattypansquash",
+    "orangepattypansquash",
+    "whitepattypansquash",
+    "yellowpattypansquash",
     "peppercorn", 
     "pigeonpea", 
     "pimentopepper", 
     "pinkbean", 
     "pintobean", 
     "poblanopepper", 
+    "redkurisquash",
     "greensnappea", 
     "purplesnappea", 
     "blacksoybean", 
     "greensoybean", 
     "yellowsoybean", 
+    "spaghettisquash",
+    "sweetdumplingsquash",
     "szechuanpepper", 
     "tabascopepper", 
+    "tromboncinosquash",
+    "turbansquash",
     "waxbean", 
     "wingedbean", 
     "yardlongbean", 
+    "yellowsquash",
+    "greenzucchini",
+    "roundzucchini",
+    "stripedzucchini",
+    "yellowzucchini",
 ];
 
 for vine in vineCrops {

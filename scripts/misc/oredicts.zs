@@ -404,9 +404,41 @@ plant.removeItems([
 
 ]);
 
+val summersquash = <ore:summersquash>;
+summersquash.addItems([<contentcreator:oposquash>,
+<contentcreator:mexicanasummersquash>,
+<contentcreator:jauneetvertesquash>,
+<contentcreator:crooknecksquash>,
+<contentcreator:cousasquash>,
+<contentcreator:chayotesquash>,
+<contentcreator:orangepattypansquash>,
+<contentcreator:greenpattypansquash>,
+<contentcreator:whitepattypansquash>,
+<contentcreator:yellowpattypansquash>,
+<contentcreator:yellowsquash>,
+<contentcreator:greenzucchini>,
+<contentcreator:roundzucchini>,
+<contentcreator:stripedzucchini>,
+<contentcreator:yellowzucchini>]);
 
-
-
+val wintersquash = <ore:wintersquash>;
+wintersquash.addItems([<contentcreator:acornsquash>,
+<contentcreator:bananasquash>,
+<contentcreator:bluehubbardsquash>,
+<contentcreator:orangehubbardsquash>,
+<contentcreator:buttercupsquash>,
+<contentcreator:butternutsquash>,
+<contentcreator:calabazasquash>,
+<contentcreator:carnivalsquash>,
+<contentcreator:cushawsquash>,
+<contentcreator:delicatasquash>,
+<contentcreator:gemsquash>,
+<contentcreator:lakotasquash>,
+<contentcreator:redkurisquash>,
+<contentcreator:spaghettisquash>,
+<contentcreator:sweetdumplingsquash>,
+<contentcreator:tromboncinosquash>,
+<contentcreator:turbansquash>]);
 
 
 
