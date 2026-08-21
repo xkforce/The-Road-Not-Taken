@@ -131,6 +131,19 @@ val flowers = [
 "pinkcorncockle",
 "purplecorncockle",
 "whitecorncockle",
+"blackcornflower",
+"blackpurplecornflower",
+"blackredcornflower",
+"bluepurplecornflower",
+"lightbluecornflower",
+"magentacornflower",
+"pinkcornflower",
+"pinkredcornflower",
+"purplecornflower",
+"purpleredcornflower",
+"purplewhitecornflower",
+"redcornflower",
+"whitecornflower",
 "blackbrowncosmos",
 "blackredcosmos",
 "bluecosmos",
@@ -459,6 +472,11 @@ val flowers = [
 
 for flower in flowers {
 Block.create(IMaterial.plants(), flower)
+.setHardness(0.0)
+.setResistance(0.0)
+.setRenderLayer("TRANSLUCENT")
+.setLightOpacity(0)
+.setNonOpaque()
 .setSubItem() # make the new block have an item
 .canPlace(function(worldIn as IWorld, pos as IBlockPos) as bool {
     if(!worldIn.getBlockState(pos).isReplaceable(worldIn,pos)) return false; # = super.canPlaceBlockAt
@@ -473,9 +491,6 @@ Block.create(IMaterial.plants(), flower)
     return soil == Blocks.GRASS || soil == Blocks.DIRT || soil == Blocks.FARMLAND || soil instanceof CustomBlockFarmland;
 });
 }
-
-
-
 
 
 
