@@ -168,6 +168,10 @@ seedPumpkin
 seedWheat
 cofh:potion
 fence
+cropBanana
+fruitBanana
+seed
+cropRice
 stoneBasalt
 ballMud
 blockMeatRaw
@@ -393,12 +397,12 @@ ingotAncientDebris
 oreAncientDebris
 locksLock
 locksLockPick
-stonePolished
-stoneBasaltPolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
+stonePolished
+stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil

@@ -1,0 +1,23 @@
+{
+  "blocks": [
+        "minecraft:dirt",
+        "minecraft:sand",
+        "minecraft:gravel"
+  ],
+  "replaceBlock": "minecraft:water",
+  "iterations": 128,
+  "applyMode": "BOTH",
+  "genDensity": 50,
+  "biomes": [
+    "biometweaker:seagrassplains"
+  ],
+  "dimensions": [
+    0
+  ],
+  "spawnBlocks": [
+    {
+      "block": "oe:seagrass",
+      "weight": 200
+    }
+  ]
+}

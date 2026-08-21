@@ -1,0 +1,10 @@
+{
+    "maxAge": 1,
+    "soil": [
+        "material:ground",
+        "material:grass"
+    ],
+    "compatibleFluids": [
+        "water"
+    ]
+}

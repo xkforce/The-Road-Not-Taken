@@ -323,6 +323,7 @@ biometweaker:zagreanmountains
 biometweaker:redsanddunes
 biometweaker:yellowpaintmines
 biometweaker:europanocean
+biometweaker:seagrassplains
 biometweaker:venusianvolcano
 biometweaker:icewastes
 biometweaker:mercuryocean
