@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/redvioletwatermelon",
+      "bottom": "contentcreator:blocks/redvioletwatermelon",
+      "side": "contentcreator:blocks/redvioletwatermelon",
+      "front": "contentcreator:blocks/redvioletwatermelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

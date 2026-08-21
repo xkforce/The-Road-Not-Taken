@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/creampumpkin",
+      "bottom": "contentcreator:blocks/creampumpkin",
+      "side": "contentcreator:blocks/creampumpkin",
+      "front": "contentcreator:blocks/creampumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

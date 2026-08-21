@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/lightgraypumpkin",
+      "bottom": "contentcreator:blocks/lightgraypumpkin",
+      "side": "contentcreator:blocks/lightgraypumpkin",
+      "front": "contentcreator:blocks/lightgraypumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -71,7 +71,7 @@ tile.warped_gate.name=Warped Fence Gate
 tile.crimson_gate.name=Crimson Fence Gate
 tile.piglin_head.name=Pigman Head
 tile.piglin_brute_head.name=Pigman Brute Head
-tile.piglin_zombie_head.name=Zombified Pigman Head
+tile.piglin_zombie_head.name=Zombie Pigman Head
 
 #ENCHANTMENT
 enchantment.soul_speed=Soul Speed
@@ -82,7 +82,7 @@ enchantment.nb.soul_speed.desc=Applied to boots and allows the player to move mo
 entity.piglin.name=Pigman
 entity.strider.name=Strider
 entity.piglin_brute.name=Pigman Brute
-entity.piglin_zombie.name=Zombified Pigman
+entity.piglin_zombie.name=Zombie Pigman
 entity.hoglin.name=Hoglin
 entity.zoglin.name=Zoglin
 

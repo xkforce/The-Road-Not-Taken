@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/tanpumpkin",
+      "bottom": "contentcreator:blocks/tanpumpkin",
+      "side": "contentcreator:blocks/tanpumpkin",
+      "front": "contentcreator:blocks/tanpumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

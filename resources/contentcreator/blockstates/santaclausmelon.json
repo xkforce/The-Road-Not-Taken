@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/santaclausmelon",
+      "bottom": "contentcreator:blocks/santaclausmelon",
+      "side": "contentcreator:blocks/santaclausmelon",
+      "front": "contentcreator:blocks/santaclausmelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

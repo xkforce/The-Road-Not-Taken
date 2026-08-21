@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/wineredpumpkin",
+      "bottom": "contentcreator:blocks/wineredpumpkin",
+      "side": "contentcreator:blocks/wineredpumpkin",
+      "front": "contentcreator:blocks/wineredpumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

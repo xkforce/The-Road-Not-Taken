@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/yellowcantaloupemelon",
+      "bottom": "contentcreator:blocks/yellowcantaloupemelon",
+      "side": "contentcreator:blocks/yellowcantaloupemelon",
+      "front": "contentcreator:blocks/yellowcantaloupemelon"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}
