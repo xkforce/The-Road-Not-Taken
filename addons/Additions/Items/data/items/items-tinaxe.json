@@ -1,6 +1,6 @@
 {
   "name": "Tin Axe",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-TINTOOLS",
+  "material": "ADDITIONS-ITEMS-TINARMOR",
   "type": "additions:axe"
 }

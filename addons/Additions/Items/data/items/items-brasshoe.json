@@ -1,0 +1,6 @@
+{
+  "name": "Brass Hoe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRASSTOOLS",
+  "type": "additions:hoe"
+}

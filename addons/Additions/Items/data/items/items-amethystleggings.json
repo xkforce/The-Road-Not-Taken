@@ -1,7 +1,7 @@
 {
   "name": "Amethyst Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-AMETHYST",
+  "material": "ADDITIONS-ITEMS-AMETHYSTARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

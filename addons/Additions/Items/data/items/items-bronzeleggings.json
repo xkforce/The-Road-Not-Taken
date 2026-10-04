@@ -1,7 +1,7 @@
 {
   "name": "Bronze Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-BRONZE",
+  "material": "ADDITIONS-ITEMS-BRONZEARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

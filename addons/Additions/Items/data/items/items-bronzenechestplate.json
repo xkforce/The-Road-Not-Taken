@@ -1,0 +1,7 @@
+{
+  "name": "Bronze Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRONZEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

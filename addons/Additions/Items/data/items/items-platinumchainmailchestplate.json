@@ -1,0 +1,7 @@
+{
+  "name": "Platinum Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-PLATINUMARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

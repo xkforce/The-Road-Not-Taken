@@ -1,0 +1,7 @@
+{
+  "name": "White Gold Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-WHITEGOLDARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

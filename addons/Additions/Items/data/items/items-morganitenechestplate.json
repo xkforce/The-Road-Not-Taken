@@ -1,0 +1,7 @@
+{
+  "name": "Morganite Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MORGANITEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

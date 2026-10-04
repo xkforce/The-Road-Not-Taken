@@ -1,7 +1,7 @@
 {
   "name": "Bismuth Leggings",
   "max_stack": 1,
-  "material": "additions-items-BISMUTHARMOR",
+  "material": "ADDITIONS-ITEMS-BISMUTHARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

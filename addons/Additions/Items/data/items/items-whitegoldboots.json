@@ -1,0 +1,7 @@
+{
+  "name": "White Gold Boots",
+  "max_stack": 1,
+  "material": "additions-items-whitegold",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

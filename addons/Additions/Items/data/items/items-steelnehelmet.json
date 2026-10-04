@@ -1,0 +1,7 @@
+{
+  "name": "Steel Netherite Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-STEELARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

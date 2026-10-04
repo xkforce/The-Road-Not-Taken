@@ -1,7 +1,7 @@
 {
   "name": "Opal Boots",
   "max_stack": 1,
-  "material": "additions-items-opalarmor",
+  "material": "ADDITIONS-ITEMS-OPALARMOR",
   "slot": "FEET",
   "type": "additions:armor"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Moonstone Chainmail Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-MOONSTONE",
+  "material": "ADDITIONS-ITEMS-MOONSTONEARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

@@ -1,0 +1,7 @@
+{
+  "name": "Copper Iron Style Helmet",
+  "max_stack": 1,
+  "material": "COPPER",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

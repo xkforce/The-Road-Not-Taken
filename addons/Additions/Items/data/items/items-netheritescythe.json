@@ -2,7 +2,7 @@
   "name": "Netherite Scythe",
   "max_stack": 1,
   "durability": 2031,
-  "harvest_level": 3,
+  "harvest_level": 4,
   "harvest_radius_width": 1,
   "harvest_depth": 0,
   "efficiency": 9.0,
@@ -10,7 +10,7 @@
   "repair_stacks": {
     "stack_list": [
       {
-        "item": "minecraft:stone",
+        "item": "futuremc:netherite_ingot",
         "damage": "any"
       }
     ]

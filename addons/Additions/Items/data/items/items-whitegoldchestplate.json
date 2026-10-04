@@ -1,0 +1,7 @@
+{
+  "name": "White Gold Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-whitegold",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

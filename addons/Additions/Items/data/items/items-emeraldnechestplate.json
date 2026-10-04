@@ -1,0 +1,7 @@
+{
+  "name": "Emerald Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-EMERALDARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "White Gold Helmet",
+  "max_stack": 1,
+  "material": "additions-items-whitegold",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

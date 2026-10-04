@@ -1,0 +1,7 @@
+{
+  "name": "Lonsdaleite Netherite Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-LONSDALEITEARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

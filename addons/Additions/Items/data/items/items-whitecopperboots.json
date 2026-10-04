@@ -1,0 +1,7 @@
+{
+  "name": "White Copper Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-WHITECOPPERARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

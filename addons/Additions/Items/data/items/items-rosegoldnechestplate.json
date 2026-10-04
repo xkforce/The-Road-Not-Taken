@@ -1,0 +1,7 @@
+{
+  "name": "Rose Gold Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ROSEGOLDARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

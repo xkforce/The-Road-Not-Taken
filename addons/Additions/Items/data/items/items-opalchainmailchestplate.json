@@ -1,7 +1,7 @@
 {
   "name": "Opal Chainmail Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-OPAL",
+  "material": "ADDITIONS-ITEMS-OPALARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

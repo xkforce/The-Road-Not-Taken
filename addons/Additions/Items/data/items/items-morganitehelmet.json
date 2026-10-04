@@ -1,7 +1,7 @@
 {
   "name": "Morganite Helmet",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-MORGANITE",
+  "material": "ADDITIONS-ITEMS-MORGANITEARMOR",
   "slot": "HEAD",
   "type": "additions:armor"
 }

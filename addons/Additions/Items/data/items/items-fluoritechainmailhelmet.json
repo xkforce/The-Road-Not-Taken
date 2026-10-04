@@ -1,7 +1,7 @@
 {
   "name": "Fluorite Chainmail Helmet",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-FLUORITE",
+  "material": "ADDITIONS-ITEMS-FLUORITEARMOR",
   "slot": "HEAD",
   "type": "additions:armor"
 }

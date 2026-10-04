@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BISMUTHARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

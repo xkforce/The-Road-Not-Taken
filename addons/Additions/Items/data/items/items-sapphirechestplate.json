@@ -1,7 +1,7 @@
 {
   "name": "Sapphire Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-SAPPHIRE",
+  "material": "ADDITIONS-ITEMS-SAPPHIREARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Platinum Battle Axe",
+  "max_stack": 1,
+  "durability": 625,
+  "harvest_level": 1,
+  "harvest_radius_width": 1,
+  "harvest_depth": 0,
+  "efficiency": 4.0,
+  "enchantability": 10,
+  "repair_stacks": {
+    "stack_list": [
+      {
+        "item": "contenttweaker:platinum",
+        "damage": "any"
+      }
+    ]
+  },
+  "tool_classes": [
+    "sword",
+    "axe"
+  ],
+  "type": "additions:multitool"
+}

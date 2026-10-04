@@ -1,7 +1,7 @@
 {
   "name": "Emerald Chainmail Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-EMERALD",
+  "material": "ADDITIONS-ITEMS-EMERALDARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

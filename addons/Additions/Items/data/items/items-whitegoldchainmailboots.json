@@ -1,0 +1,7 @@
+{
+  "name": "White Gold Chainmail Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-WHITEGOLDARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

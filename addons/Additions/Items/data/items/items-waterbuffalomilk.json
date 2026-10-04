@@ -1,0 +1,10 @@
+{
+  "name": "Water Buffalo Milk",
+  "container": "minecraft:bucket",
+  "max_stack": 1,
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "is_drink": true,
+  "type": "additions:food"
+}

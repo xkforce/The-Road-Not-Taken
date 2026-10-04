@@ -1,0 +1,11 @@
+{
+  "item_block": {
+    "name": "Yellow Carved Pumpkin",
+    "type": "additions:block_simple"
+  },
+  "name": "Yellow Carved Pumpkin",
+  "material": "minecraft:gourd",
+  "hardness": 1.0,
+  "resistance": 5.0,
+  "type": "additions:facing"
+}

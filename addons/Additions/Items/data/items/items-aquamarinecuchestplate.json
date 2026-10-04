@@ -1,0 +1,7 @@
+{
+  "name": "Aquamarine Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-AQUAMARINEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

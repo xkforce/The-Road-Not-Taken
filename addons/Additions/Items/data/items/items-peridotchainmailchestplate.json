@@ -1,7 +1,7 @@
 {
   "name": "Peridot Chainmail Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-PERIDOT",
+  "material": "ADDITIONS-ITEMS-PERIDOTARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

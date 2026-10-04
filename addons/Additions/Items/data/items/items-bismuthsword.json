@@ -1,6 +1,6 @@
 {
   "name": "Bismuth Sword",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-BISMUTH",
+  "material": "ADDITIONS-ITEMS-BISMUTHTOOLS",
   "type": "additions:sword"
 }

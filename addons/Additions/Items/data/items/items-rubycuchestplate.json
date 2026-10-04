@@ -1,0 +1,7 @@
+{
+  "name": "Ruby Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-RUBYARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

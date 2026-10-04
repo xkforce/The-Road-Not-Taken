@@ -1,7 +1,7 @@
 {
   "name": "Bismuth Chestplate",
   "max_stack": 1,
-  "material": "additions-items-BISMUTHARMOR",
+  "material": "ADDITIONS-ITEMS-BISMUTHARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

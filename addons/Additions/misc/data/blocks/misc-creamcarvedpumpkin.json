@@ -1,0 +1,11 @@
+{
+  "item_block": {
+    "name": "Cream Carved Pumpkin",
+    "type": "additions:block_simple"
+  },
+  "name": "Cream Carved Pumpkin",
+  "material": "minecraft:gourd",
+  "hardness": 1.0,
+  "resistance": 5.0,
+  "type": "additions:facing"
+}

@@ -1,6 +1,6 @@
 {
   "name": "Zircon Sword",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-ZIRCON",
+  "material": "ADDITIONS-ITEMS-ZIRCONTOOLS",
   "type": "additions:sword"
 }

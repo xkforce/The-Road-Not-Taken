@@ -1,0 +1,7 @@
+{
+  "name": "Billon Helmet",
+  "max_stack": 1,
+  "material": "additions-items-billonarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

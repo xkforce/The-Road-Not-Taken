@@ -1,0 +1,7 @@
+{
+  "name": "Billon Netherite Style Boots",
+  "max_stack": 1,
+  "material": "additions-items-billonarmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Amethyst Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-AMETHYST",
+  "material": "ADDITIONS-ITEMS-AMETHYSTARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

@@ -1,0 +1,7 @@
+{
+  "name": "Sapphire Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-SAPPHIREARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

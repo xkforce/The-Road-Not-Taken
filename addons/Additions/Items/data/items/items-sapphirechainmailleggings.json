@@ -1,7 +1,7 @@
 {
   "name": "Sapphire Chainmail Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-SAPPHIRE",
+  "material": "ADDITIONS-ITEMS-SAPPHIREARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

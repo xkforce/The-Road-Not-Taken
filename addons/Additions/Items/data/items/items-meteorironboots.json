@@ -1,7 +1,7 @@
 {
   "name": "Meteor Iron Boots",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-METEORIRON",
+  "material": "ADDITIONS-ITEMS-METEORIRONARMOR",
   "slot": "FEET",
   "type": "additions:armor"
 }

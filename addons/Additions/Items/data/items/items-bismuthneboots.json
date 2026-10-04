@@ -1,0 +1,7 @@
+{
+  "name": "Bismuth Netherite Style Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BISMUTHARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

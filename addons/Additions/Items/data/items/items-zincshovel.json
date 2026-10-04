@@ -1,0 +1,6 @@
+{
+  "name": "Zinc Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ZINCTOOLS",
+  "type": "additions:shovel"
+}

@@ -1,0 +1,11 @@
+{
+  "item_block": {
+    "name": "Lavender Carved Pumpkin",
+    "type": "additions:block_simple"
+  },
+  "name": "Lavender Carved Pumpkin",
+  "material": "minecraft:gourd",
+  "hardness": 1.0,
+  "resistance": 5.0,
+  "type": "additions:facing"
+}

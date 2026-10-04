@@ -1,7 +1,7 @@
 {
   "name": "Opal Helmet",
   "max_stack": 1,
-  "material": "additions-items-opalarmor",
+  "material": "ADDITIONS-ITEMS-OPALARMOR",
   "slot": "HEAD",
   "type": "additions:armor"
 }

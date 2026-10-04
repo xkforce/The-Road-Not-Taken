@@ -1,0 +1,7 @@
+{
+  "name": "Brass Helmet",
+  "max_stack": 1,
+  "material": "additions-items-brassarmor",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

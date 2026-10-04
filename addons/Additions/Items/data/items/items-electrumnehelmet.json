@@ -1,0 +1,7 @@
+{
+  "name": "Electrum Netherite Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ELECTRUMARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

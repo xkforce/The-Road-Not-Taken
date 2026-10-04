@@ -1,0 +1,7 @@
+{
+  "name": "White Copper Helmet",
+  "max_stack": 1,
+  "material": "additions-items-whitecopper",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

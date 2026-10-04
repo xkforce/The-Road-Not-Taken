@@ -1,0 +1,7 @@
+{
+  "name": "Zinc Leggings",
+  "max_stack": 1,
+  "material": "additions-items-zincarmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

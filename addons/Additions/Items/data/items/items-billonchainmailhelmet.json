@@ -1,0 +1,7 @@
+{
+  "name": "Billon Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BILLONARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

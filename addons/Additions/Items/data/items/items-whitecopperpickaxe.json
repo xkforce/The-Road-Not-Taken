@@ -1,0 +1,6 @@
+{
+  "name": "White Copper Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-WHITECOPPERTOOLS",
+  "type": "additions:pickaxe"
+}

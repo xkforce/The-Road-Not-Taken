@@ -1,0 +1,7 @@
+{
+  "name": "Tin Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-TINARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

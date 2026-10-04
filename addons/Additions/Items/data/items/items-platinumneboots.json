@@ -1,0 +1,7 @@
+{
+  "name": "Platinum Netherite Style Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-PLATINUMARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

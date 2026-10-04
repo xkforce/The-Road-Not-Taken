@@ -1,7 +1,7 @@
 {
   "name": "Ruby Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-RUBY",
+  "material": "ADDITIONS-ITEMS-RUBYARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

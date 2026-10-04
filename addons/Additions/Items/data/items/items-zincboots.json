@@ -1,0 +1,7 @@
+{
+  "name": "Zinc Boots",
+  "max_stack": 1,
+  "material": "additions-items-zincarmor",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

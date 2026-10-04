@@ -1,7 +1,7 @@
 {
   "name": "Black Diamond Leggings",
   "max_stack": 1,
-  "material": "additions-items-blackdiamondarmor",
+  "material": "ADDITIONS-ITEMS-BLACKDIAMONDARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

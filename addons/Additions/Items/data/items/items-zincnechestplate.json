@@ -1,0 +1,7 @@
+{
+  "name": "Zinc Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ZINCARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

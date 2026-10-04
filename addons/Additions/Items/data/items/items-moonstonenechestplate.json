@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Peridot Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-PERIDOTARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

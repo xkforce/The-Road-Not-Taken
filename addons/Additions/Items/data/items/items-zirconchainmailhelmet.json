@@ -1,7 +1,7 @@
 {
   "name": "Zircon Chainmail Helmet",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-ZIRCON",
+  "material": "ADDITIONS-ITEMS-ZIRCONARMOR",
   "slot": "HEAD",
   "type": "additions:armor"
 }

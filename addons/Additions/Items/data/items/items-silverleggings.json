@@ -1,7 +1,7 @@
 {
   "name": "Silver Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-SILVER",
+  "material": "ADDITIONS-ITEMS-SILVERARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

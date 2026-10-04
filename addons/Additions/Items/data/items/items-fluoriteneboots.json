@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Netherite Style Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITEARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

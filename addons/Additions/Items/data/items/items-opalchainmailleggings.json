@@ -1,7 +1,7 @@
 {
   "name": "Opal Chainmail Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-OPAL",
+  "material": "ADDITIONS-ITEMS-OPALARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

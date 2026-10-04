@@ -1,7 +1,7 @@
 {
   "name": "Tin Chainmail Helmet",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-TIN",
+  "material": "ADDITIONS-ITEMS-TINARMOR",
   "slot": "HEAD",
   "type": "additions:armor"
 }

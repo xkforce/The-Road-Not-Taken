@@ -1,7 +1,7 @@
 {
   "name": "Rose Gold Boots",
   "max_stack": 1,
-  "material": "additions-items-rosegoldarmor",
+  "material": "ADDITIONS-ITEMS-ROSEGOLDARMOR",
   "slot": "FEET",
   "type": "additions:armor"
 }

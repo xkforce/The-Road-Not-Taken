@@ -1,0 +1,7 @@
+{
+  "name": "Billon Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "additions-items-billonarmor",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

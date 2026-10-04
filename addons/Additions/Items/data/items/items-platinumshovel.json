@@ -1,0 +1,6 @@
+{
+  "name": "Platinum Shovel",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-PLATINUMTOOLS",
+  "type": "additions:shovel"
+}

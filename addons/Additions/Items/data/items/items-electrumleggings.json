@@ -1,7 +1,7 @@
 {
   "name": "Electrum Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-ELECTRUM",
+  "material": "ADDITIONS-ITEMS-ELECTRUMARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

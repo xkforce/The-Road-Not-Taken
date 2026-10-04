@@ -1,0 +1,7 @@
+{
+  "name": "Ceresite Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-CERESITEARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Zinc Chainmail Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ZINCARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

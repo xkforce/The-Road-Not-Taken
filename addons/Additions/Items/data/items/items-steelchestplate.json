@@ -1,7 +1,7 @@
 {
   "name": "Steel Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-STEEL",
+  "material": "ADDITIONS-ITEMS-STEELARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

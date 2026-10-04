@@ -1,0 +1,7 @@
+{
+  "name": "Lonsdaleite Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-AMETHYSTARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

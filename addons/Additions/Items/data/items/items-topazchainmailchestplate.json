@@ -1,7 +1,7 @@
 {
   "name": "Topaz Chainmail Chestplate",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-TOPAZ",
+  "material": "ADDITIONS-ITEMS-TOPAZARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

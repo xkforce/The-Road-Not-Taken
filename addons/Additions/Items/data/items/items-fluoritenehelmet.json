@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Netherite Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITEARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

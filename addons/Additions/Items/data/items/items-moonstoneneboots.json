@@ -1,0 +1,7 @@
+{
+  "name": "Moonstone Netherite Style Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-MOONSTONEARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

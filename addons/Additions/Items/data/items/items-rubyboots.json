@@ -1,7 +1,7 @@
 {
   "name": "Ruby Boots",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-RUBY",
+  "material": "ADDITIONS-ITEMS-RUBYARMOR",
   "slot": "FEET",
   "type": "additions:armor"
 }

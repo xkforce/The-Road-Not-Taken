@@ -1,7 +1,7 @@
 {
   "name": "Opal Chestplate",
   "max_stack": 1,
-  "material": "additions-items-opalarmor",
+  "material": "ADDITIONS-ITEMS-OPALARMOR",
   "slot": "CHEST",
   "type": "additions:armor"
 }

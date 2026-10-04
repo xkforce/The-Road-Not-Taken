@@ -1,0 +1,6 @@
+{
+  "name": "Brass Pickaxe",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRASSTOOLS",
+  "type": "additions:pickaxe"
+}

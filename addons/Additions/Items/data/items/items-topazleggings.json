@@ -1,7 +1,7 @@
 {
   "name": "Topaz Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-TOPAZ",
+  "material": "ADDITIONS-ITEMS-TOPAZARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

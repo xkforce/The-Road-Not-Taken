@@ -1,0 +1,7 @@
+{
+  "name": "Fluorite Copper Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-FLUORITEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

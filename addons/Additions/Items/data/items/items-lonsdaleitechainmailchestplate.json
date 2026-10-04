@@ -1,0 +1,7 @@
+{
+  "name": "Lonsdaleite Chainmail Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-LONSDALEITEARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

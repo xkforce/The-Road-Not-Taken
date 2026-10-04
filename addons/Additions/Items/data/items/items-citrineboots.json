@@ -1,7 +1,7 @@
 {
   "name": "Citrine Boots",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-CITRINE",
+  "material": "ADDITIONS-ITEMS-CITRINEARMOR",
   "slot": "FEET",
   "type": "additions:armor"
 }

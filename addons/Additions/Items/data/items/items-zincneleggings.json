@@ -1,0 +1,7 @@
+{
+  "name": "Zinc Netherite Style Leggings",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-ZINCARMOR",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

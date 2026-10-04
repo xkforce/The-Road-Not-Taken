@@ -1,0 +1,7 @@
+{
+  "name": "Brass Copper Style Boots",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BRASSARMOR",
+  "slot": "FEET",
+  "type": "additions:armor"
+}

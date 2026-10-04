@@ -1,7 +1,7 @@
 {
   "name": "Hepatizon Chainmail Leggings",
   "max_stack": 1,
-  "material": "ADDITIONS-ITEMS-HEPATIZON",
+  "material": "ADDITIONS-ITEMS-HEPATIZONARMOR",
   "slot": "LEGS",
   "type": "additions:armor"
 }

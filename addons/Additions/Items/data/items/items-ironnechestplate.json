@@ -1,0 +1,7 @@
+{
+  "name": "Iron Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "IRON",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}
