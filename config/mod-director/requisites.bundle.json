@@ -69,6 +69,9 @@
 		},
 		{
 			"url": "https://cdn.modrinth.com/data/OsLkXa0u/versions/KqSPQ4Uv/frikinzis-fauna-1.4.0-1.12.2.jar"
+		},
+		{
+			"url": "https://github.com/BlueFeuer/CaveGenerator/releases/download/v1.4-arch/CaveGenerator-1.4-arch.jar"
 		}
 	]
 }

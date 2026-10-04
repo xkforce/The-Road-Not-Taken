@@ -96,7 +96,6 @@ cyclicmagic:potion.frostwalker
 cyclicmagic:potion.butter
 cyclicmagic:potion.stunned
 cyclicmagic:potion.saturation
-enchanting_tweaks:counterattack
 hungeroverhaul:wellfed
 resize:shrinking
 resize:growth

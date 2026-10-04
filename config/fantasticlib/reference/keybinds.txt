@@ -109,6 +109,11 @@ key.freelook.category
 key.togglemode.desc
 key.freelook.desc
 
+key.categories.groovyscript
+keybind.groovyscript.copy
+keybind.groovyscript.quick_reload
+keybind.groovyscript.reload
+
 key.categories.hotswap
 key.hotswap.rotateRowDown
 key.hotswap.rotateDown
@@ -150,10 +155,6 @@ key.vehicle_helicopter.third_person_view_zoom_in
 key.vehicle_helicopter.third_person_view_zoom_out
 key.vehicle_helicopter.up
 
-RozUtils
-Gamemode Switcher - Next
-Gamemode Switcher - Show
-
 Universal Tweaks
 keybind.universaltweaks.clear_toasts
 
@@ -165,13 +166,18 @@ waila.keybind.usage
 waila.keybind.wailadisplay
 
 jei (Had Enough Items)
-key.hei.bookmarkToTop
-key.jei.bookmark
-key.hei.recipeBookmark
 key.hei.crafting
+key.jei.bookmark
+key.hei.bookmarkToTop
+key.hei.bookmarkNewGroup
+key.hei.bookmarkNewGroupToTop
+key.hei.moveGroupDown
+key.hei.moveGroupUp
 key.jei.focusSearch
 key.jei.nextPage
+key.hei.nextCategory
 key.jei.previousPage
+key.hei.previousCategory
 key.jei.recipeBack
 key.jei.showRecipe
 key.jei.showUses
@@ -179,9 +185,4 @@ key.hei.toggleBookmarkOverlay
 key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode
-key.hei.nextCategory
-key.hei.previousCategory
-
-squeedometer
-squeedometer.key.settings
 

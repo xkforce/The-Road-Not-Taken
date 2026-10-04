@@ -1,0 +1,187 @@
+{
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #    Standardized noise settings
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # $snakeNoise(seed, threshold, frequency)
+  # $snakeNoise(52, -0.24, 0.012)
+  snakeNoise: {
+    seed: @1
+    cache: true
+    frequency: @3
+    stretch: 1
+    octaves: 1
+    perturb: false
+    perturbAmp: 8
+    perturbFreq: 0.07
+    type: Cellular
+    jitterY: 1
+    jitterX: 1
+    jitterZ: 1
+    returnType: Distance2Div
+    invert: true
+    interp: Hermite
+    fractal: FBM
+    threshold: @2
+  }
+  # $blobNoise(seed, threshold, frequency)
+  # $blobNoise(52, -0.4, 0.05)
+  blobNoise: {
+    seed: @1
+    cache: true
+    frequency: @3
+    threshold: @2
+    lacunarity: 2
+    octaves: 1
+    gain: 0.5
+    perturb: false
+    perturbAmp: 5
+    perturbFreq: 0.1
+    invert: false
+    interp: Quintic
+    fractal: FBM
+  }
+  # $blobNoise2D(seed, threshold, frequency)
+  # $blobNoise2D(52, -0.4, 0.05)
+  blobNoise2D: {
+    seed: @1
+    cache: true
+    frequency: @3
+    threshold: @2
+    lacunarity: 2
+    octaves: 1
+    gain: 0.5
+    perturb: false
+    perturbAmp: 5
+    perturbFreq: 0.1
+    invert: false
+    interp: Quintic
+    fractal: FBM
+    stretch: 500
+  }
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #      Generic Fallback
+  #      > Rough Stone
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  genericWallDecorFallback: [
+    {
+      states: contenttweaker:rough_stone
+      directions: all
+      matchers: [ "minecraft:stone" ]
+      height: [ 10, 80 ]
+      placement: EMBED
+      integrity: 0.04
+    }
+  ]
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #      Generic Decor A
+  #      > Ponds w/ Moss Stone
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  genericRegionA: {
+    scale: 0.5
+    frequency: 0.002
+    seed: 42
+    cache: true
+  }
+  genericWallDecorA: [
+    {
+      states: minecraft:mossy_cobblestone
+      directions: all
+      matchers: [ "minecraft:cobblestone" ]
+      height: [ 10, 80 ]
+      placement: EMBED
+      integrity: 0.4
+      noise: $blobNoise(52, -0.4, 0.05)
+    }
+    {
+      states: minecraft:mossy_cobblestone
+      directions: all
+      matchers: [ "minecraft:stone" ]
+      height: [ 10, 80 ]
+      placement: EMBED
+      integrity: 0.2
+      noise: $blobNoise(52, -0.4, 0.05)
+    }
+    {
+      states: minecraft:mossy_cobblestone
+      directions: [ "side", "up" ]
+      matchers: [ "minecraft:water" ]
+      height: [ 10, 80 ]
+      placement: EMBED
+      integrity: 1
+      noise: $blobNoise(52, -0.4, 0.05)
+    }
+  ]
+  genericWallShellA: {
+    radius: 3
+    sphereResolution: 2
+    noiseThreshold: 0.17
+    decorators: [
+      {
+        states: [ "minecraft:cobblestone" ]
+        matchers: [ "minecraft:stone" ]
+        height: [ 10, 80 ]
+        chance: 0.8
+        noise: $blobNoise(52, -0.33, 0.05)
+      }
+    ]
+  }
+  genericWallPondA: [
+    {
+      height: [ 10, 40 ]
+      depth: 1
+      matchers: [ "minecraft:stone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "contenttweaker:rough_stone" ]
+      states: water
+      integrity: 1
+      noise: $blobNoise(52, -0.5, 0.05)
+    }
+  ]
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #      Generic Decor B
+  #      > Cobblestone Snakes
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  genericRegionB: {
+    scale: 0.5
+    frequency: 0.002
+    seed: 43
+    cache: true
+  }
+  genericWallShellB: {
+    radius: 3
+    sphereResolution: 2
+    noiseThreshold: 0.17
+    decorators: [
+      {
+        states: [ "minecraft:cobblestone" ]
+        matchers: [ "minecraft:stone" ]
+        height: [ 10, 80 ]
+        integrity: 0.7
+        noise: $snakeNoise(52, -0.28, 0.012)
+      }
+    ]
+  }
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #      Generic Decor C
+  #      > Dirt Snakes
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  genericRegionC: {
+    scale: 0.5
+    frequency: 0.002
+    seed: 44
+    cache: true
+  }
+  genericWallShellC: {
+    radius: 2
+    sphereResolution: 2
+    noiseThreshold: 0.12
+    decorators: [
+      {
+        # states: [ "minecraft:cobblestone" ]
+        states: [ "minecraft:dirt" ]
+        matchers: [ "minecraft:stone" ]
+        height: [ 10, 80 ]
+        integrity: 0.3
+        noise: $snakeNoise(53, -0.22, 0.012)
+      }
+    ]
+  }
+}

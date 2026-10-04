@@ -1,0 +1,17 @@
+{
+    "pattern": [
+        "II",
+        "PP",
+        "PP"
+    ],
+    "key": {
+        "I": {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+        },
+        "P": {
+            "type": "forge:ore_dict",
+            "ore": "plankWood"
+        }
+    }
+}

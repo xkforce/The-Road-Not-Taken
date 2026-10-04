@@ -36,11 +36,11 @@
       "weight": 1
     },
     {
-      "block": "bimesoplenty:double_plant[half=lower,variant=flax]",
+      "block": "biomesoplenty:double_plant[half=lower,variant=flax]",
       "weight": 1
     },
     {
-      "block": "bimesoplenty:flower_1[variant=bluebells]",
+      "block": "biomesoplenty:flower_1[variant=bluebells]",
       "weight": 1
     }
   ]

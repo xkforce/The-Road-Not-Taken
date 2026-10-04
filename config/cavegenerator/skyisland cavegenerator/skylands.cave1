@@ -1,0 +1,129 @@
+{
+  imports: [
+    blue_templates_genericdecor.cave
+    blue_templates_archaenearrays.cave
+    blue_templates_archaenewalls.cave
+    blue_templates_archaeneheight.cave
+  ]
+  variables: {
+    CAVMAP: {
+      dummy: false
+      range: [ 0, 4 ]
+      frequency: 0.02
+      seed: 99
+    }
+  }
+  enabled: true
+  dimensions: [ 2 ]
+  # proxyDimension: 1
+  # biomes: { IDs: [ 0, 1, 2, 3, 4, 5 ] }
+  # proxyDimension2: 0
+  # biomes2: { names: [ "minecraft:beaches", "minecraft:ocean", "minecraft:deep_ocean" ] }
+  # blacklistBiomes2: true
+  replaceableBlocks: [ "air" ]
+  replaceDecorators: false
+  caverns: [
+    {
+      archaeneWallArray: $arrayNormal
+      archaeneWalls: $wallsNonLinear
+      archaeneHeight: $skylands32x224
+      offset: {
+        frequency: 0.0018
+        range: [ -5, 0 ]
+        lacunarity: 5
+        octaves: 3
+      }
+      ceiling: {
+        dummy: false
+        range: [ -3, 3 ]
+        frequency: 0.012
+        seed: 99
+        cache: true
+      }
+      floor: {
+        dummy: false
+        range: [ -3, -3 ]
+        frequency: 0.012
+        seed: 99
+        cache: true
+      }
+      height: [ 30, 226 ]
+      archaeneInterpolation: true
+      archaeneInterpStretch: 0.8
+      archaeneInterpX: 8
+      archaeneInterpY: 8
+      archaeneInterpZ: 8
+      generators: {
+        seed: 99
+        frequency: 0.0038
+        lacunarity: 3
+        octaves: 3
+        gain: 0.5
+        perturb: true
+        perturbAmp: 15
+        perturbFreq: 0.06
+        invert: true
+        interp: Linear
+        fractal: FBM
+        threshold: -0.1
+        #threshold: 0.1
+        stretch: 0.2
+      }
+    }
+    # Decorators
+    {
+      # Place grass on stone
+      replaceableBlocks: [ "air" ]
+      #biomes: { names: [ "minecraft:plains" ] }
+      archaeneDecorator: true
+      archaeneWallArray: $arrayDecor
+      ceiling: {
+        dummy: false
+        range: [ 0, 10 ]
+        frequency: 0.012
+        seed: 99
+      }
+      floor: $CAVMAP
+      offset: $CAVMAP
+      height: [ 32, 224 ]
+      wallDecorators: [ {
+          states: grass
+          directions: down
+          matchers: [ "stone", "dirt" ]
+          height: [ 32, 225 ]
+          placement: EMBED
+          integrity: 1
+        } ]
+    }
+    {
+      # Place grass on dirt, tall grass on grass
+      replaceableBlocks: [ "air" ]
+      #biomes: { names: [ "minecraft:plains" ] }
+      archaeneDecorator: true
+      archaeneWallArray: $arrayDecor
+      ceiling: {
+        dummy: false
+        range: [ 0, 10 ]
+        frequency: 0.012
+        seed: 99
+      }
+      floor: $CAVMAP
+      offset: $CAVMAP
+      height: [ 32, 224 ]
+      wallDecorators: [ {
+          states: minecraft:tallgrass:1
+          directions: down
+          matchers: [ "grass" ]
+          height: [ 32, 225 ]
+          placement: OVERLAY
+          integrity: 0.9
+        } ]
+    }
+  ]
+  caveBlocks: [
+    {
+      states: minecraft:stone
+      height: [ 0, 256 ]
+    }
+  ]
+}

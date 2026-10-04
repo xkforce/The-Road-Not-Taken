@@ -20,7 +20,7 @@
       "weight": 10
     },
     {
-      "block": "bimesoplenty:double_plant[half=lower,variant=flax]",
+      "block": "biomesoplenty:double_plant[half=lower,variant=flax]",
       "weight": 1
     },
     {
