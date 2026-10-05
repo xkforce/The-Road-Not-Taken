@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/totally_broccoliprismarinechiseledjellyfishslab",
+      "bottom": "contentcreator:blocks/totally_broccoliprismarinechiseledjellyfishslab",
+      "side": "contentcreator:blocks/totally_broccoliprismarinechiseledjellyfishslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

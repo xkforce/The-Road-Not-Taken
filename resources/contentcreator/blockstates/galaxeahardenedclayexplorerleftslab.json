@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/galaxeahardenedclayexplorerleftslab",
+      "bottom": "contentcreator:blocks/galaxeahardenedclayexplorerleftslab",
+      "side": "contentcreator:blocks/galaxeahardenedclayexplorerleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

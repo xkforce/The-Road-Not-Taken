@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/jaffahardenedclaychibicreeperrightslab",
+      "bottom": "contentcreator:blocks/jaffahardenedclaychibicreeperrightslab",
+      "side": "contentcreator:blocks/jaffahardenedclaychibicreeperrightslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

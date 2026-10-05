@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/spaetzle_yellowhardenedclaybladeleftslab",
+      "bottom": "contentcreator:blocks/spaetzle_yellowhardenedclaybladeleftslab",
+      "side": "contentcreator:blocks/spaetzle_yellowhardenedclaybladeleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

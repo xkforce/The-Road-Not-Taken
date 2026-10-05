@@ -1,8 +1,8 @@
 {
   "parent": "bblsom:block/mycelium",
   "textures": {
-    "particle": "bblsom:blocks/greenpodzol",
-    "bottom": "bblsom:blocks/greenpodzol",
+    "particle": "bblsom:blocks/greendirt",
+    "bottom": "bblsom:blocks/greendirt",
     "top": "bblsom:blocks/greenpodzoltop",
     "side": "bblsom:blocks/greenpodzolside"
   }

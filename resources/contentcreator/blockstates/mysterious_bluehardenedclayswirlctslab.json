@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/mysterious_bluehardenedclayswirlctslab",
+      "bottom": "contentcreator:blocks/mysterious_bluehardenedclayswirlctslab",
+      "side": "contentcreator:blocks/mysterious_bluehardenedclayswirlctslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

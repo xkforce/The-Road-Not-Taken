@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/kathmanduhardenedclaychibicreeperleftslab",
+      "bottom": "contentcreator:blocks/kathmanduhardenedclaychibicreeperleftslab",
+      "side": "contentcreator:blocks/kathmanduhardenedclaychibicreeperleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

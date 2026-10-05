@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/berries_n_creamhardenedclayturtleleftslab",
+      "bottom": "contentcreator:blocks/berries_n_creamhardenedclayturtleleftslab",
+      "side": "contentcreator:blocks/berries_n_creamhardenedclayturtleleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

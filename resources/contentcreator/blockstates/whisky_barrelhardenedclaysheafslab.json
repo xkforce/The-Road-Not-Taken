@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/whisky_barrelhardenedclaysheafslab",
+      "bottom": "contentcreator:blocks/whisky_barrelhardenedclaysheafslab",
+      "side": "contentcreator:blocks/whisky_barrelhardenedclaysheafslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

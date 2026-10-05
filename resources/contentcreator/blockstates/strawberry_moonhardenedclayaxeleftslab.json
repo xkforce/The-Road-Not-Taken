@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/strawberry_moonhardenedclayaxeleftslab",
+      "bottom": "contentcreator:blocks/strawberry_moonhardenedclayaxeleftslab",
+      "side": "contentcreator:blocks/strawberry_moonhardenedclayaxeleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

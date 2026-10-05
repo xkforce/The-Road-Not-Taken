@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/arcane_redhardenedclayexplorerrightslab",
+      "bottom": "contentcreator:blocks/arcane_redhardenedclayexplorerrightslab",
+      "side": "contentcreator:blocks/arcane_redhardenedclayexplorerrightslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

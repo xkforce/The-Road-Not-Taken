@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/atlantishardenedclayfishingrodrightslab",
+      "bottom": "contentcreator:blocks/atlantishardenedclayfishingrodrightslab",
+      "side": "contentcreator:blocks/atlantishardenedclayfishingrodrightslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

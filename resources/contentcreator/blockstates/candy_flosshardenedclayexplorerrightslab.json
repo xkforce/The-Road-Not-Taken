@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/candy_flosshardenedclayexplorerrightslab",
+      "bottom": "contentcreator:blocks/candy_flosshardenedclayexplorerrightslab",
+      "side": "contentcreator:blocks/candy_flosshardenedclayexplorerrightslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": {
+      "top": "contentcreator:blocks/lavendercarvedpumpkin",
+      "bottom": "contentcreator:blocks/lavendercarvedpumpkin",
+      "side": "contentcreator:blocks/lavendercarvedpumpkin",
+      "front": "contentcreator:blocks/lavendercarvedpumpkin"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

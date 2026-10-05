@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/purple_protegehardenedclayarmsdownslab",
+      "bottom": "contentcreator:blocks/purple_protegehardenedclayarmsdownslab",
+      "side": "contentcreator:blocks/purple_protegehardenedclayarmsdownslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}

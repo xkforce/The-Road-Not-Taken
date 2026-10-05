@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "half_slab",
+    "textures": {
+      "top": "contentcreator:blocks/purple_protegehardenedclayexplorerleftslab",
+      "bottom": "contentcreator:blocks/purple_protegehardenedclayexplorerleftslab",
+      "side": "contentcreator:blocks/purple_protegehardenedclayexplorerleftslab"
+    }
+  },
+  "variants": {
+    "half": {
+      "bottom": {},
+      "top": {
+        "model": "upper_slab"
+      }
+    },
+    "variant": {
+      "normal": {}
+    },
+    "inventory": [
+      {}
+    ]
+  }
+}
