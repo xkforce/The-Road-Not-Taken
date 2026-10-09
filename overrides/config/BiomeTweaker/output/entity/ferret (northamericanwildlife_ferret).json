@@ -1,0 +1,6 @@
+
+{
+  "Name": "ferret",
+  "Registry ID": "northamericanwildlife:ferret",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityFerret.EntityCustom"
+}

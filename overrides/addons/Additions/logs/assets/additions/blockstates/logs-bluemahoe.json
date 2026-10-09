@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-bluemahoe"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-bluemahoe",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-bluemahoe",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

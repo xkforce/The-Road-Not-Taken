@@ -1,0 +1,7 @@
+{
+  "name": "Meteor Iron Netherite Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-METEORIRONARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

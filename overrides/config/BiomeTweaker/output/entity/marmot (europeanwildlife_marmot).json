@@ -1,0 +1,6 @@
+
+{
+  "Name": "marmot",
+  "Registry ID": "europeanwildlife:marmot",
+  "Class": "net.mcreator.europeanwildlife.entity.EntityMarmot.EntityCustom"
+}

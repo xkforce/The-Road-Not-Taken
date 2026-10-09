@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-poplar"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-poplar",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-poplar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "golden_eagle",
+  "Registry ID": "creatures:golden_eagle",
+  "Class": "com.creatures.afrikinzi.entity.golden_eagle.EntityGoldenEagle"
+}

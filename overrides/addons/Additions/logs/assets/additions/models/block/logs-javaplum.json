@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "additions:blocks/logs-javaplum_top",
+    "side": "additions:blocks/logs-javaplum"
+  }
+}

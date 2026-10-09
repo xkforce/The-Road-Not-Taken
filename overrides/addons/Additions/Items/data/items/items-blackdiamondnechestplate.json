@@ -1,0 +1,7 @@
+{
+  "name": "Black Diamond Netherite Style Chestplate",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-BLACKDIAMONDARMOR",
+  "slot": "CHEST",
+  "type": "additions:armor"
+}

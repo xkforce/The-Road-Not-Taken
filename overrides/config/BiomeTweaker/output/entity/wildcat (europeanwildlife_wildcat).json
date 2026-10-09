@@ -1,0 +1,6 @@
+
+{
+  "Name": "wildcat",
+  "Registry ID": "europeanwildlife:wildcat",
+  "Class": "net.mcreator.europeanwildlife.entity.EntityWildcat.EntityCustom"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "zawa.ZooKeeper",
+  "Registry ID": "zawa:zookeeper",
+  "Class": "org.zawamod.entity.npc.EntityZooKeeper"
+}

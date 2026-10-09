@@ -1,0 +1,6 @@
+
+{
+  "Name": "centipede",
+  "Registry ID": "southamericanwildlife:centipede",
+  "Class": "net.mcreator.southamericanwildlife.entity.EntityCentipede.EntityCustom"
+}

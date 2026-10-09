@@ -1,0 +1,6 @@
+
+{
+  "Name": "groundhog",
+  "Registry ID": "northamericanwildlife:groundhog",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityGroundhog.EntityCustom"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "chimpmunk",
+  "Registry ID": "northamericanwildlife:chimpmunk",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityChimpmunk.EntityCustom"
+}

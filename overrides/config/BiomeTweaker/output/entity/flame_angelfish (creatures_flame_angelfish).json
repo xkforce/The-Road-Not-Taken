@@ -1,0 +1,6 @@
+
+{
+  "Name": "flame_angelfish",
+  "Registry ID": "creatures:flame_angelfish",
+  "Class": "com.creatures.afrikinzi.entity.flame_angelfish.EntityFlameAngelfish"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.leptictidium",
+  "Registry ID": "rebornmod:entities.leptictidium",
+  "Class": "mod.reborn.server.entity.dinosaur.LeptictidiumEntity"
+}

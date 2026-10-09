@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-redpine"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-redpine",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-redpine",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

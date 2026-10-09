@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:logs-hickory",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:logs-hickory"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

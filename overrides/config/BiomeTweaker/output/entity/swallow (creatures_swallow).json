@@ -1,0 +1,6 @@
+
+{
+  "Name": "swallow",
+  "Registry ID": "creatures:swallow",
+  "Class": "com.creatures.afrikinzi.entity.swallow.EntitySwallow"
+}

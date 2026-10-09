@@ -1,0 +1,6 @@
+
+{
+  "Name": "swift",
+  "Registry ID": "northamericanwildlife:swift",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntitySwift.EntityCustom"
+}

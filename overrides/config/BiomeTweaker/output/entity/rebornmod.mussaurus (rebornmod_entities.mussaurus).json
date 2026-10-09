@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.mussaurus",
+  "Registry ID": "rebornmod:entities.mussaurus",
+  "Class": "mod.reborn.server.entity.dinosaur.MussaurusEntity"
+}

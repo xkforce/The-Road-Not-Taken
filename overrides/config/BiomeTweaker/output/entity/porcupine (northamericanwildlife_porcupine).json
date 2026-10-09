@@ -1,0 +1,6 @@
+
+{
+  "Name": "porcupine",
+  "Registry ID": "northamericanwildlife:porcupine",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityPorcupine.EntityCustom"
+}

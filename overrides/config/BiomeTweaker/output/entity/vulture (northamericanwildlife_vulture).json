@@ -1,0 +1,6 @@
+
+{
+  "Name": "vulture",
+  "Registry ID": "northamericanwildlife:vulture",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityVulture.EntityCustom"
+}

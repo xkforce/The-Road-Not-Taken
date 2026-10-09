@@ -1,0 +1,41 @@
+import net.minecraft.block.BlockDoublePlant
+import net.minecraft.item.ItemMultiTexture
+
+def tallflowers = ["blackpurplerose",
+"blackredrose",
+"blackrose",
+"bluepurplerose",
+"bluerose",
+"brownredrose",
+"brownrose",
+"brownwhiterose",
+"lightbluerose",
+"limewhiterose",
+"limeyellowrose",
+"magentarose",
+"orangeredrose",
+"orangerose",
+"orangewhiterose",
+"orangeyellowrose",
+"pinkredrose",
+"pinkrose",
+"purpleredrose",
+"purplerose",
+"purplewhiterose",
+"whiterose",
+"whiteyellowrose",
+"yellowrose"]
+
+tallflowers.each { name ->
+    def block = (new BlockDoublePlant()).setTranslationKey(name); block
+
+    def item = (new ItemMultiTexture(block, block, new ItemMultiTexture.Mapper()
+        {
+            public String apply(ItemStack p_apply_1_)
+            {
+                return BlockDoublePlant.EnumPlantType.byMetadata(p_apply_1_.getMetadata()).getTranslationKey();
+            }
+        })).setTranslationKey(name);
+
+    content.registerBlock(name, block, item)
+}

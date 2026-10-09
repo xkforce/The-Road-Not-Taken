@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "trnt:blocks/brownrose_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "pike",
+  "Registry ID": "creatures:pike",
+  "Class": "com.creatures.afrikinzi.entity.pike.EntityPike"
+}

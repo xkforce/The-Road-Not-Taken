@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-butternut"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-butternut",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-butternut",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

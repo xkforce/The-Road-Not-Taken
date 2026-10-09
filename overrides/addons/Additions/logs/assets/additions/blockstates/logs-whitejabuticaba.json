@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-whitejabuticaba"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-whitejabuticaba",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-whitejabuticaba",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

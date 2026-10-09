@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-apple"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-apple",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-apple",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

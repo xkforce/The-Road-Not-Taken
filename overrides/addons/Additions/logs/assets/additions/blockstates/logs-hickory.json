@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-hickory"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-hickory",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-hickory",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

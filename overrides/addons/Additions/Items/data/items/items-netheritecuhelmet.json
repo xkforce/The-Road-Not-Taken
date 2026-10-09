@@ -1,0 +1,7 @@
+{
+  "name": "Netherite Copper Style Helmet",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-NETHERITEARMOR",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

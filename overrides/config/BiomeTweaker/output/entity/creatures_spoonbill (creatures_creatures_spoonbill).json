@@ -1,0 +1,6 @@
+
+{
+  "Name": "creatures_spoonbill",
+  "Registry ID": "creatures:creatures_spoonbill",
+  "Class": "com.creatures.afrikinzi.entity.creatures_spoonbill.EntityCreaturesSpoonbill"
+}

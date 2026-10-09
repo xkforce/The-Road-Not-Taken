@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-beech"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-beech",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-beech",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

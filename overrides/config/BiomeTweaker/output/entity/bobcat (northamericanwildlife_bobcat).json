@@ -1,0 +1,6 @@
+
+{
+  "Name": "bobcat",
+  "Registry ID": "northamericanwildlife:bobcat",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityBobcat.EntityCustom"
+}

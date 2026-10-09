@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-brownivory"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-brownivory",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-brownivory",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

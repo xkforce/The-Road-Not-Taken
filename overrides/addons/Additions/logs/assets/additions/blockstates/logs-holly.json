@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-holly"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-holly",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-holly",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

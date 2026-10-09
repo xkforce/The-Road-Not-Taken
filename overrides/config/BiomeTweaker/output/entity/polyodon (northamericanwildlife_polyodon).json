@@ -1,0 +1,6 @@
+
+{
+  "Name": "polyodon",
+  "Registry ID": "northamericanwildlife:polyodon",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityPolyodon.EntityCustom"
+}

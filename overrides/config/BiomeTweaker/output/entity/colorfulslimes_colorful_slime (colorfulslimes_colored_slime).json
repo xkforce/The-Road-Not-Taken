@@ -1,0 +1,6 @@
+
+{
+  "Name": "colorfulslimes:colorful_slime",
+  "Registry ID": "colorfulslimes:colored_slime",
+  "Class": "com.zeitheron.colorfulslimes.entity.EntityColoredSlime"
+}

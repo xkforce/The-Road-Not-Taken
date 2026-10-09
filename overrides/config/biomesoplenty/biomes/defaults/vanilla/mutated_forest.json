@@ -1,0 +1,68 @@
+{
+  "beachBiomeLocation": "minecraft:beaches",
+  "generators": {
+    "glowshrooms": {
+      "enable": true
+    },
+    "leaf_piles": {
+      "enable": true
+    },
+    "flowers": {
+      "enable": true
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "amber": {
+      "enable": true
+    },
+    "roots": {
+      "enable": true
+    },
+    "trees": {
+      "enable": true
+    },
+    "toadstools": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "toadstool"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "flax": {
+      "enable": true
+    },
+    "grass": {
+      "enable": true
+    },
+    "berry_bushes": {
+      "enable": true
+    },
+    "blue_milk_caps": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "blue_milk_cap"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.05,
+      "enable": true
+    },
+    "sprouts": {
+      "enable": true
+    }
+  }
+}

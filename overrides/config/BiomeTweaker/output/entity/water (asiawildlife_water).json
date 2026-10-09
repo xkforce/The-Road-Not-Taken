@@ -1,0 +1,6 @@
+
+{
+  "Name": "water",
+  "Registry ID": "asiawildlife:water",
+  "Class": "net.mcreator.asiawildlife.entity.EntityWater.EntityCustom"
+}

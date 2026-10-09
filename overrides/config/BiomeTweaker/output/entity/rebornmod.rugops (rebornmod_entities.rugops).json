@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.rugops",
+  "Registry ID": "rebornmod:entities.rugops",
+  "Class": "mod.reborn.server.entity.dinosaur.RugopsEntity"
+}

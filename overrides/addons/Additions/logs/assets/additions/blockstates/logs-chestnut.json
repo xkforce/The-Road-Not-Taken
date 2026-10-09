@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-chestnut"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-chestnut",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-chestnut",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

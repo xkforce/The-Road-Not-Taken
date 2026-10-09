@@ -1,0 +1,6 @@
+
+{
+  "Name": "raids.Pillager",
+  "Registry ID": "raids:pillager",
+  "Class": "net.smileycorp.raids.common.entities.EntityPillager"
+}

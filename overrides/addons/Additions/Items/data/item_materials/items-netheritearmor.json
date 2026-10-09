@@ -1,0 +1,13 @@
+{
+  "enchantability": 15,
+  "base_armor_durability": 43,
+  "toughness": 3.0,
+  "helmet_armor": 3,
+  "chestplate_armor": 8,
+  "leggings_armor": 6,
+  "boots_armor": 3,
+  "equip_sound": "minecraft:item.armor.equip_generic",
+  "repair_item": "futuremc:netherite_ingot",
+  "repair_meta": 32767,
+  "type": "armor"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "hamster",
+  "Registry ID": "europeanwildlife:hamster",
+  "Class": "net.mcreator.europeanwildlife.entity.EntityHamster.EntityCustom"
+}

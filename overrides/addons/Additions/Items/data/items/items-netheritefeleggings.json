@@ -1,0 +1,7 @@
+{
+  "name": "Netherite Iron Style Leggings",
+  "max_stack": 1,
+  "material": "additions-items-netheritearmor",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-whitecedar"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-whitecedar",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-whitecedar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

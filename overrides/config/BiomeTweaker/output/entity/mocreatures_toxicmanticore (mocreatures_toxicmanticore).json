@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:toxicmanticore",
+  "Registry ID": "mocreatures:toxicmanticore",
+  "Class": "drzhark.mocreatures.entity.hostile.MoCEntityToxicManticore"
+}

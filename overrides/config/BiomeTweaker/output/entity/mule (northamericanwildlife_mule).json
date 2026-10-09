@@ -1,0 +1,6 @@
+
+{
+  "Name": "mule",
+  "Registry ID": "northamericanwildlife:mule",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityMule.EntityCustom"
+}

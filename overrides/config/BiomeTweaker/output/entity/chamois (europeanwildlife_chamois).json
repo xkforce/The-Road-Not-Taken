@@ -1,0 +1,6 @@
+
+{
+  "Name": "chamois",
+  "Registry ID": "europeanwildlife:chamois",
+  "Class": "net.mcreator.europeanwildlife.entity.EntityChamois.EntityCustom"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "pacman",
+  "Registry ID": "southamericanwildlife:pacman",
+  "Class": "net.mcreator.southamericanwildlife.entity.EntityPacman.EntityCustom"
+}

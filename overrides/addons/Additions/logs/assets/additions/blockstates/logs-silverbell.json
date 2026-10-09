@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-silverbell"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-silverbell",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-silverbell",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "vicuna",
+  "Registry ID": "southamericanwildlife:vicuna",
+  "Class": "net.mcreator.southamericanwildlife.entity.EntityVicuna.EntityCustom"
+}

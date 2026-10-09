@@ -1,0 +1,6 @@
+
+{
+  "Name": "creatures_skua",
+  "Registry ID": "creatures:creatures_skua",
+  "Class": "com.creatures.afrikinzi.entity.skua.EntitySkua"
+}

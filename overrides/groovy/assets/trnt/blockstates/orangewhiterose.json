@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=north,half=lower,variant=sunflower": {
+            "model": "trnt:orangewhiterose_bottom"
+        },
+        "facing=north,half=upper,variant=sunflower": {
+            "model": "trnt:orangewhiterose_top"
+        }
+    }
+}

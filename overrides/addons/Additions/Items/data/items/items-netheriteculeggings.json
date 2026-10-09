@@ -1,0 +1,7 @@
+{
+  "name": "Netherite Copper Style Leggings",
+  "max_stack": 1,
+  "material": "ADDITIONS-ITEMS-NETHERITEARMOR",
+  "slot": "LEGS",
+  "type": "additions:armor"
+}

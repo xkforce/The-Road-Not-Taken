@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "additions:blocks/logs-kapok_top",
+    "side": "additions:blocks/logs-kapok"
+  }
+}

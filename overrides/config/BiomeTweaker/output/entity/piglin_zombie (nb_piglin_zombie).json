@@ -1,0 +1,6 @@
+
+{
+  "Name": "piglin_zombie",
+  "Registry ID": "nb:piglin_zombie",
+  "Class": "com.unseen.nb.common.entity.entities.EntityPiglinZombie"
+}

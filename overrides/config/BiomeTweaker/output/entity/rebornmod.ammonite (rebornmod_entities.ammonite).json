@@ -1,0 +1,6 @@
+
+{
+  "Name": "rebornmod.ammonite",
+  "Registry ID": "rebornmod:entities.ammonite",
+  "Class": "mod.reborn.server.entity.dinosaur.AmmoniteEntity"
+}

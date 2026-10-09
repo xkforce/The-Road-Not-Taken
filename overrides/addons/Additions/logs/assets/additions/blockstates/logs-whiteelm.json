@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-whiteelm"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-whiteelm",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-whiteelm",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

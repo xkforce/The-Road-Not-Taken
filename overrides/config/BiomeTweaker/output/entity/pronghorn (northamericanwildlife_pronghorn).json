@@ -1,0 +1,6 @@
+
+{
+  "Name": "pronghorn",
+  "Registry ID": "northamericanwildlife:pronghorn",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityPronghorn.EntityCustom"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "lemming",
+  "Registry ID": "europeanwildlife:lemming",
+  "Class": "net.mcreator.europeanwildlife.entity.EntityLemming.EntityCustom"
+}

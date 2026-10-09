@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "Cocobolo Wood Log",
+    "burn_time": 30,
+    "type": "additions:block_simple"
+  },
+  "name": "Cocobolo Wood Log",
+  "material": "minecraft:wood",
+  "hardness": 2.0,
+  "resistance": 5.0,
+  "effective_tools": "axe",
+  "type": "additions:pillar"
+}

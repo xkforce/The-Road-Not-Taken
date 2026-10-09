@@ -1,0 +1,6 @@
+
+{
+  "Name": "hellbender",
+  "Registry ID": "northamericanwildlife:hellbender",
+  "Class": "net.mcreator.northamericanwildlife.entity.EntityHellbender.EntityCustom"
+}

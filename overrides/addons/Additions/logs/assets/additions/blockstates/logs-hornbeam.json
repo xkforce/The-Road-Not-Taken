@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:logs-hornbeam"
+    },
+    "axis\u003dz": {
+      "model": "additions:logs-hornbeam",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:logs-hornbeam",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
