@@ -17,6 +17,13 @@ val fluidsToHide as string[] = [
     "hydrogen",
     "milk",
     "liquidsulfur",
+    "light_bluedyedwater",
+    "light_graydyedwater",
+    "blacklava",
+    "redlava",
+    "whitelava",
+    "yellowlava",
+    "ichor",
 ];
 
 for f in fluidsToHide {

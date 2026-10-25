@@ -32,8 +32,8 @@ events.register(
         ) {
             world.setBlockState(<blockstate:minecraft:grass>, event.position);
             event.damageItem(1);
-            player.getItemOffHand().withAmount(player.getItemOffHand().amount - 1);
-            event.cancel();
+            //player.getItemOffHand().withAmount(player.getItemOffHand().amount - 1);
+            //event.cancel();
         }
     }
 );

@@ -14,6 +14,7 @@ val bugs as string[] = [
 
 for bug in bugs {
     var newBlock as Block = VanillaFactory.createBlock(`${bug}inamber`, <blockmaterial:rock>);
+    newBlock.setLightOpacity(0);
     newBlock.setBlockHardness(1.5);
     newBlock.setBlockResistance(6.0);
     newBlock.setToolClass("pickaxe");

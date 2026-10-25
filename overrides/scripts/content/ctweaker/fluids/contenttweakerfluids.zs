@@ -20,35 +20,58 @@ for c in minecraftColors {
 }
 
 var liquidsulfur = VanillaFactory.createFluid("liquidsulfur", Color.fromHex("FFFFFFA0"));
-liquidsulfur.luminosity = 3;
+liquidsulfur.colorize = false;
+liquidsulfur.luminosity = 1;
 liquidsulfur.temperature = 400;
 liquidsulfur.density = 1800;
 liquidsulfur.viscosity = 5000;
 liquidsulfur.material = <blockmaterial:Lava>;
+liquidsulfur.setStillLocation("contenttweaker:fluids/liquidsulfur");
+liquidsulfur.setFlowingLocation("contenttweaker:fluids/liquidsulfur_flow");
 liquidsulfur.register();
 
 var blacklava = VanillaFactory.createFluid("blacklava", Color.fromHex("FFFFFFA0"));
-blacklava.luminosity = 3;
+blacklava.colorize = false;
+blacklava.luminosity = 7;
 blacklava.temperature = 800;
 blacklava.density = 1800;
 blacklava.viscosity = 5000;
 blacklava.material = <blockmaterial:Lava>;
+blacklava.setStillLocation("contenttweaker:fluids/blacklava");
+blacklava.setFlowingLocation("contenttweaker:fluids/blacklava_flow");
 blacklava.register();
 
 var redlava = VanillaFactory.createFluid("redlava", Color.fromHex("FFFFFFA0"));
-redlava.luminosity = 3;
-redlava.temperature = 1500;
+redlava.colorize = false;
+redlava.luminosity = 11;
+redlava.temperature = 1100;
 redlava.density = 1800;
 redlava.viscosity = 5000;
 redlava.material = <blockmaterial:Lava>;
+redlava.setStillLocation("contenttweaker:fluids/redlava");
+redlava.setFlowingLocation("contenttweaker:fluids/redlava_flow");
 redlava.register();
 
+var whitelava = VanillaFactory.createFluid("whitelava", Color.fromHex("FFFFFFA0"));
+whitelava.colorize = false;
+whitelava.luminosity = 15;
+whitelava.temperature = 1600;
+whitelava.density = 1800;
+whitelava.viscosity = 5000;
+whitelava.material = <blockmaterial:Lava>;
+whitelava.setStillLocation("contenttweaker:fluids/whitelava");
+whitelava.setFlowingLocation("contenttweaker:fluids/whitelava_flow");
+whitelava.register();
+
 var yellowlava = VanillaFactory.createFluid("yellowlava", Color.fromHex("FFFFFFA0"));
-yellowlava.luminosity = 3;
-yellowlava.temperature = 800;
+yellowlava.colorize = false;
+yellowlava.luminosity = 15;
+yellowlava.temperature = 1400;
 yellowlava.density = 1800;
 yellowlava.viscosity = 5000;
 yellowlava.material = <blockmaterial:Lava>;
+yellowlava.setStillLocation("contenttweaker:fluids/yellowlava");
+yellowlava.setFlowingLocation("contenttweaker:fluids/yellowlava_flow");
 yellowlava.register();
 
 var oil = VanillaFactory.createFluid("oil", Color.fromHex("000000"));
@@ -153,9 +176,12 @@ var purpleprotegemud = VanillaFactory.createFluid("purpleprotegemud", Color.from
 purpleprotegemud.vaporize = true;
 purpleprotegemud.register();
 
-
-
-
+var ichor = VanillaFactory.createFluid("ichor", Color.fromHex("8000D0"));
+ichor.vaporize = true;
+ichor.colorize = false;
+ichor.setStillLocation("contenttweaker:fluids/ichor");
+ichor.setFlowingLocation("contenttweaker:fluids/ichor_flow");
+ichor.register();
 
 
 

@@ -183,7 +183,7 @@ global Saturnstone as Stone = Stone("saturnstone", c120, defaultnocobbleVariants
 global Uranustone as Stone = Stone("uranustone", c120, defaultnocobbleVariants);
 global Neptunestone as Stone = Stone("neptunestone", c120, defaultnocobbleVariants);
 global Persephonestone as Stone = Stone("persephonestone", c120, defaultnocobbleVariants);
-global Tnostone as Stone = Stone("tnostone", c120, defaultnocobbleVariants);
+global Tnostone as Stone = Stone("tnostone", COLORS.keys, defaultnocobbleVariants);
 
 // Rockhounding Rocks
 global Ammolite as Stone = Stone("ammolite", none, OverworldVariants);
