@@ -1,6 +1,6 @@
 
 {
-  "ID": 206,
+  "ID": 205,
   "Name": "Tan Paint Mines",
   "Resource Location": "biometweaker:tanpaintmines",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "HOT"
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

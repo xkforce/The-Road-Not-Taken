@@ -1,6 +1,6 @@
 
 {
-  "ID": 71,
+  "ID": 69,
   "Name": "Elysian Fields",
   "Resource Location": "erebus:elysian_fields",
   "Class": "erebus.world.biomes.BiomeElysianFields",

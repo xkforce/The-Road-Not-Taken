@@ -11,9 +11,9 @@
 ########################################################################
 JED Surface Loaded 0
 	- Id: 0
-	- Height: 512
+	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 256.0
+	- Cloud Height: 512.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
@@ -29,7 +29,7 @@ the_nether
 
 the_end
 	- Id: 1
-	- Height: 512
+	- Height: 256
 	- Has Sky? false
 	- Cloud Height: 8.0
 	- Can Respawn Here? false

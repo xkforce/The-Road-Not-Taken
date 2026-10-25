@@ -1,6 +1,6 @@
 
 {
-  "ID": 86,
+  "ID": 84,
   "Name": "Marsh",
   "Resource Location": "advancedrocketry:marsh",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMarsh",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "WET",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

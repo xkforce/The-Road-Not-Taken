@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 79,
   "Name": "Ferric Regolith Wasteland",
   "Resource Location": "advancedrocketry:hotdryrock",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "DRY",
     "VOID",
-    "HOT",
     "WASTELAND"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 376,
+  "ID": 379,
   "Name": "North American Swamp",
   "Resource Location": "biometweaker:na_swamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "WET"
+    "WET",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

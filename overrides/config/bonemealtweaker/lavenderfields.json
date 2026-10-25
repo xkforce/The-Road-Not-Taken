@@ -5,7 +5,7 @@
   "applyMode": "BOTH",
   "genDensity": 50,
   "biomes": [
-    "biomesoplenty:lavender_fields"
+    "biometweaker:lavender_fields"
   ],
   "dimensions": [
     0

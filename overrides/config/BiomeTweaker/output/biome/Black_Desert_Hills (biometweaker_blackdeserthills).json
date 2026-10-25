@@ -1,6 +1,6 @@
 
 {
-  "ID": 296,
+  "ID": 299,
   "Name": "Black Desert Hills",
   "Resource Location": "biometweaker:blackdeserthills",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY",
     "HOT",
-    "SANDY"
+    "DRY",
+    "SANDY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

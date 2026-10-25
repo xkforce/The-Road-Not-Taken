@@ -1,6 +1,6 @@
 
 {
-  "ID": 84,
+  "ID": 82,
   "Name": "Crystal Chasms",
   "Resource Location": "advancedrocketry:crystalchasms",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenCrystal",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SNOWY",
     "VOID",
-    "WASTELAND",
-    "SNOWY"
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

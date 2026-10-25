@@ -1,6 +1,6 @@
 
 {
-  "ID": 315,
+  "ID": 318,
   "Name": "Neptune Plains",
   "Resource Location": "biometweaker:neptuneplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

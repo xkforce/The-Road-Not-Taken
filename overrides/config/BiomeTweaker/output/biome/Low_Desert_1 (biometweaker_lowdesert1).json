@@ -1,6 +1,6 @@
 
 {
-  "ID": 255,
+  "ID": 256,
   "Name": "Low Desert 1",
   "Resource Location": "biometweaker:lowdesert1",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -8,8 +8,8 @@
   "Height Variation": 0.025,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Ocean Top Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Filler Block": "minecraft:sand[variant\u003dsand]",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
@@ -19,12 +19,15 @@
   "Temperature": 2.0,
   "Humidity": 0.0,
   "Water Tint": 4159204,
-  "Enable Rain": false,
+  "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "HOT",
-    "SANDY"
+    "DRY",
+    "SANDY",
+    "WATER",
+    "PLAINS",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -39,6 +42,18 @@
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Monsters": [
@@ -97,6 +112,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -108,6 +129,102 @@
       "Entity Class": "net.minecraft.entity.passive.EntitySquid",
       "Weight": 10,
       "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityJellyFish",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityMantaRay",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityShark",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAnchovy",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngler",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityHippoTang",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityManderin",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityGlowSquid",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityCod",
+      "Weight": 15,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntitySalmon",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityDolphin",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityTropicalFish",
+      "Weight": 30,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityClam",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityLobster",
+      "Weight": 3,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityDrowned",
+      "Weight": 3,
+      "Min Group Count": 2,
       "Max Group Count": 4
     }
   ],
@@ -123,6 +240,18 @@
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityRoach",

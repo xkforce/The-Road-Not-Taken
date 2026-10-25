@@ -1,63 +1,60 @@
 
 {
-  "ID": 312,
+  "ID": 315,
   "Name": "Salt Flats",
   "Resource Location": "biometweaker:saltflats",
-  "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.5,
-  "Height Variation": 0.025,
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
+  "Root Height": 2.0588236,
+  "Height Variation": 0.95,
   "Top Block": "contenttweaker:saltblock",
   "Filler Block": "contenttweaker:saltblock",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Ocean Top Block": "contenttweaker:saltblock",
+  "Ocean Filler Block": "contenttweaker:saltblock",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "4159204",
-  "Temperature": 2.0,
-  "Humidity": 0.0,
+  "Temperature": 0.6,
+  "Humidity": 0.8,
   "Water Tint": 4159204,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY",
-    "HOT",
-    "SAVANNA"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-      "Weight": 4,
-      "Min Group Count": 2,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntityKomodo",
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
       "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 2
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.hunter.MoCEntityLion",
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
       "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 3
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
+      "Entity Class": "mod.reborn.server.entity.animal.GoatEntity",
       "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
+      "Min Group Count": 2,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -66,6 +63,18 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
@@ -98,30 +107,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-      "Weight": 19,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityHusk",
-      "Weight": 80,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.hostile.MoCEntityRat",
-      "Weight": 7,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
       "Weight": 2,
       "Min Group Count": 1,
@@ -134,12 +119,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Cave Creatures": [
@@ -148,37 +127,22 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityRoach",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     }
   ],
   "Spawn Biome": false,
   "Tweaked": true,
-  "BOP Generators": {},
-  "BOP Owner": "OTHER",
-  "BOP Weight Map": {},
+  "BOP Generators": {
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "emerald"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "COOL_TEMPERATE": 7
+  },
   "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

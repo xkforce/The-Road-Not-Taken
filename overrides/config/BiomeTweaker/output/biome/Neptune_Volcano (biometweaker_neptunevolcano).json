@@ -1,6 +1,6 @@
 
 {
-  "ID": 285,
+  "ID": 287,
   "Name": "Neptune Volcano",
   "Resource Location": "biometweaker:neptunevolcano",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 302,
+  "ID": 305,
   "Name": "Oak Chestnut Forest",
   "Resource Location": "biometweaker:oakchestnutforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "CHESTNUT",
     "FOREST",
+    "CHESTNUT",
     "OAK"
   ],
   "BiomeManager Entries": {},

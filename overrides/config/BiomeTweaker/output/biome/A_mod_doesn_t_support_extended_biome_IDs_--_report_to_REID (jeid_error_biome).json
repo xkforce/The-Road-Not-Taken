@@ -1,6 +1,6 @@
 
 {
-  "ID": 91,
+  "ID": 89,
   "Name": "A mod doesn\u0027t support extended biome IDs -- report to REID",
   "Resource Location": "jeid:error_biome",
   "Class": "org.dimdev.jeid.biome.BiomeError",

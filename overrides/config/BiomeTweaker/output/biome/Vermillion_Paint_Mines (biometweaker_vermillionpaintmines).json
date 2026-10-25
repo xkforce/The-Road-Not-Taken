@@ -1,6 +1,6 @@
 
 {
-  "ID": 144,
+  "ID": 143,
   "Name": "Vermillion Paint Mines",
   "Resource Location": "biometweaker:vermillionpaintmines",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "HOT"
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

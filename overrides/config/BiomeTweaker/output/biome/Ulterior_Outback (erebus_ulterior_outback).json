@@ -1,6 +1,6 @@
 
 {
-  "ID": 72,
+  "ID": 70,
   "Name": "Ulterior Outback",
   "Resource Location": "erebus:ulterior_outback",
   "Class": "erebus.world.biomes.BiomeUlteriorOutback",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "VOID",
     "HOT",
-    "SANDY"
+    "DRY",
+    "SANDY",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 54,
+  "ID": 53,
   "Name": "Overgrown Cliffs",
   "Resource Location": "biomesoplenty:overgrown_cliffs",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOvergrownCliffs",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
     "WET",
-    "HILLS",
     "MOUNTAIN",
+    "JUNGLE",
+    "DENSE",
     "LUSH",
-    "DENSE"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

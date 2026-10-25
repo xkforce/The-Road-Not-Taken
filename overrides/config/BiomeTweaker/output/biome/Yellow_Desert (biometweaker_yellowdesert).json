@@ -1,6 +1,6 @@
 
 {
-  "ID": 360,
+  "ID": 363,
   "Name": "Yellow Desert",
   "Resource Location": "biometweaker:yellowdesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY",
     "HOT",
-    "SANDY"
+    "DRY",
+    "SANDY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

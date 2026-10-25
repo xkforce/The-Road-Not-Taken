@@ -1,6 +1,6 @@
 
 {
-  "ID": 105,
+  "ID": 103,
   "Name": "European Swamp",
   "Resource Location": "biometweaker:eu_swamp",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",

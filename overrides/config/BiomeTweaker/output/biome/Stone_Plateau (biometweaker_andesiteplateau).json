@@ -1,6 +1,6 @@
 
 {
-  "ID": 101,
+  "ID": 99,
   "Name": "Stone Plateau",
   "Resource Location": "biometweaker:andesiteplateau",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",

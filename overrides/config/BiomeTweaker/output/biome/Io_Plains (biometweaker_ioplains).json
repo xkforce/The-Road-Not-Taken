@@ -1,6 +1,6 @@
 
 {
-  "ID": 106,
+  "ID": 104,
   "Name": "Io Plains",
   "Resource Location": "biometweaker:ioplains",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -32,19 +32,15 @@
       "weight": 1
     },
     {
+      "block": "futuremc:cornflower",
+      "weight": 1
+    },
+    {
       "block": "minecraft:red_flower[type=poppy]",
       "weight": 1
     },
     {
       "block": "minecraft:red_flower[type=oxeye_daisy]",
-      "weight": 1
-    },
-    {
-      "block": "biomesoplenty:flower_0[variant=white_anemone]",
-      "weight": 1
-    },
-    {
-      "block": "minecraft:double_plant[half=lower,variant=sunflower]",
       "weight": 1
     },
     {

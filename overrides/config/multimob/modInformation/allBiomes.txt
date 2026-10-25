@@ -70,7 +70,6 @@ biomesoplenty:crag
 biomesoplenty:eucalyptus_forest
 biomesoplenty:grassland
 biomesoplenty:highland
-biomesoplenty:lavender_fields
 biomesoplenty:lush_swamp
 biomesoplenty:meadow
 biomesoplenty:mountain
@@ -78,7 +77,6 @@ biomesoplenty:overgrown_cliffs
 biomesoplenty:redwood_forest
 biomesoplenty:shield
 biomesoplenty:snowy_coniferous_forest
-biomesoplenty:snowy_forest
 biomesoplenty:temperate_rainforest
 biomesoplenty:tropical_rainforest
 biomesoplenty:woodland
@@ -150,6 +148,7 @@ biometweaker:mercuryfrozenocean
 biometweaker:plutocraters
 biometweaker:venusianjungle
 biometweaker:olympusmons9
+biometweaker:siftmountains
 biometweaker:olympusmons10
 biometweaker:pinkbeach
 biometweaker:titanplains
@@ -241,6 +240,7 @@ biometweaker:iosulfursea
 biometweaker:blackbeach
 biometweaker:warmabyssalplains
 biometweaker:na_plains
+biometweaker:lavalake
 biometweaker:mercuryplains
 biometweaker:sanddunes
 biometweaker:sahelsavanna
@@ -250,10 +250,12 @@ biometweaker:coldabyssalplains
 biometweaker:lowdesert9
 biometweaker:lowdesert8
 biometweaker:plutoplains
+biometweaker:lavender_fields
 biometweaker:reddesert
 biometweaker:mirandaplains
 biometweaker:mtypeasteroid
 biometweaker:lowdesert1
+biometweaker:ichorocean
 biometweaker:etypeasteroid
 biometweaker:wineredpaintmines
 biometweaker:urainianmountains
@@ -287,6 +289,7 @@ biometweaker:neptunevolcano
 biometweaker:olympusmons8
 biometweaker:charonmountains
 biometweaker:olympusmons6
+biometweaker:siftplains
 biometweaker:zagreanocean
 biometweaker:apricotdesert
 biometweaker:taigasavanna

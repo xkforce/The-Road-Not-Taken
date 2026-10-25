@@ -1,11 +1,11 @@
 
 {
-  "ID": 221,
+  "ID": 220,
   "Name": "Sand Dunes",
   "Resource Location": "biometweaker:dunelagoon",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
-  "Root Height": 3.6470587,
-  "Height Variation": 0.48125,
+  "Root Height": 2.0588236,
+  "Height Variation": 0.95,
   "Top Block": "minecraft:stone[variant\u003dstone]",
   "Filler Block": "minecraft:stone[variant\u003dstone]",
   "Ocean Top Block": "minecraft:gravel",
@@ -22,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "WET",
-    "HILLS",
-    "MOUNTAIN",
     "HOT",
-    "SANDY"
+    "DRY",
+    "SANDY",
+    "WET",
+    "MOUNTAIN",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

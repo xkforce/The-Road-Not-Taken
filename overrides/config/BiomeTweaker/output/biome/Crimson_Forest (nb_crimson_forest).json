@@ -1,6 +1,6 @@
 
 {
-  "ID": 379,
+  "ID": 382,
   "Name": "Crimson Forest",
   "Resource Location": "nb:crimson_forest",
   "Class": "com.unseen.nb.common.world.biome.BiomeCrimsonForest",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "NETHER",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -44,13 +44,13 @@
   "Spawnable Monsters": [
     {
       "Entity Class": "com.unseen.nb.common.entity.entities.EntityPiglin",
-      "Weight": 20,
+      "Weight": 30,
       "Min Group Count": 2,
       "Max Group Count": 4
     },
     {
       "Entity Class": "com.unseen.nb.common.entity.entities.EntityPiglinZombie",
-      "Weight": 4,
+      "Weight": 8,
       "Min Group Count": 2,
       "Max Group Count": 4
     },

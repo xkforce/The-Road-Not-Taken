@@ -1,6 +1,6 @@
 
 {
-  "ID": 380,
+  "ID": 383,
   "Name": "Warped Forest",
   "Resource Location": "nb:warped_forest",
   "Class": "com.unseen.nb.common.world.biome.BiomeWarpedForest",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
+    "HOT",
     "NETHER",
-    "HOT"
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -38,7 +38,7 @@
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-      "Weight": 4,
+      "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 4
     },

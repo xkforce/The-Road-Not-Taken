@@ -661,7 +661,7 @@
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
-                "CloudHeight": 256
+                "CloudHeight": 512
             }
         },
         {
@@ -1309,7 +1309,125 @@
                 "doDaylightCycle": false
                 }
             }
-        },        
+        },
+        {
+            "dim": 18,
+            "dimensiontype": {
+                "id": 18,
+                "name": "Venusian Caves",
+                "suffix": "_dim18",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny"
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 19,
+            "dimensiontype": {
+                "id": 19,
+                "name": "Venus Surface",
+                "suffix": "_dim19",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "CustomDayCycle": true,
+                "DayLength": 48000,
+                "NightLength": 48000,
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
+                "DontAdvanceWeatherWhenSleeping": true,
+                "sky_teleport": {
+                "dimension": 20,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "raining": 1,
+                "thundering": 1,
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 20,
+            "dimensiontype": {
+                "id": 20,
+                "name": "Venusian Sky Islands",
+                "suffix": "_dim20",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
+                "sky_teleport": {
+                "dimension": 23,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 19,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false,
+                "raining": 0
+                }
+            }
+        },
         {
             "dim": 18,
             "dimensiontype": {
@@ -1350,11 +1468,11 @@
             }
         },
         {
-            "dim": 19,
+            "dim": 22,
             "dimensiontype": {
-                "id": 19,
+                "id": 22,
                 "name": "Mars Surface",
-                "suffix": "_dim19",
+                "suffix": "_dim22",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -1375,7 +1493,7 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 20,
+                "dimension": 23,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -1388,11 +1506,11 @@
             }
         },
         {
-            "dim": 20,
+            "dim": 23,
             "dimensiontype": {
-                "id": 20,
+                "id": 23,
                 "name": "Phobos and Deimos",
-                "suffix": "_dim20",
+                "suffix": "_dim23",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -1411,13 +1529,13 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "sky_teleport": {
-                "dimension": 23,
+                "dimension": 26,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 19,
+                "dimension": 22,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -1470,11 +1588,11 @@
             }
         },
         {
-            "dim": 22,
+            "dim": 25,
             "dimensiontype": {
-                "id": 22,
+                "id": 25,
                 "name": "Ceres Surface",
-                "suffix": "_dim22",
+                "suffix": "_dim25",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -1494,7 +1612,7 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 23,
+                "dimension": 26,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -1508,11 +1626,11 @@
             }
         },
         {
-            "dim": 23,
+            "dim": 26,
             "dimensiontype": {
-                "id": 23,
+                "id": 26,
                 "name": "Inner Belt Asteroids",
-                "suffix": "_dim23",
+                "suffix": "_dim26",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -1532,13 +1650,13 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 26,
+                "dimension": 29,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 22,
+                "dimension": 25,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -1554,133 +1672,10 @@
             }
         },
         {
-            "dim": 24,
-            "dimensiontype": {
-                "id": 24,
-                "name": "Saturnian Caves",
-                "suffix": "_dim24",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyDisableFlags": 7,
-                "SkyRenderType": 1,
-                "IsSurfaceWorld": false,
-                "WaterVaporizes": false,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "IsSurfaceWorld": false,
-                "WaterVaporizes": false,
-                "SpawnPointSearchType": {
-                    "type": "cavern",
-                    "min_y": 5,
-                    "max_y": 255
-                },
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny"
-            },
-            "chunkgenerator": "ChunkGeneratorFlatJED",
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
-            "dim": 25,
-            "dimensiontype": {
-                "id": 25,
-                "name": "Saturn Surface",
-                "suffix": "_dim25",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "SkyDisableFlags": 7,
-                "CustomDayCycle": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "DayLength": 5350,
-                "NightLength": 5350,
-                "DisableDawnDuskColors": true,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 26,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "MapFeatures": 0,
-                "generatorOptions": "{\"useMineShafts\":false}"
-            }
-        },
-        {
-            "dim": 26,
-            "dimensiontype": {
-                "id": 26,
-                "name": "Saturn's Rings",
-                "suffix": "_dim26",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 29,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                },
-                "void_teleport": {
-                "dimension": 25,
-                "trigger_y": 0,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "MapFeatures": 0,
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
             "dim": 27,
             "dimensiontype": {
                 "id": 27,
-                "name": "Enceladus Caves",
+                "name": "Jupiter Caves",
                 "suffix": "_dim27",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1690,8 +1685,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -1718,7 +1714,7 @@
             "dim": 28,
             "dimensiontype": {
                 "id": 28,
-                "name": "Enceladus Surface",
+                "name": "Jupiter Surface",
                 "suffix": "_dim28",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1729,13 +1725,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 16450,
-                "NightLength": 16450,
+                "DayLength": 4970,
+                "NightLength": 4970,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -1756,7 +1753,7 @@
             "dim": 29,
             "dimensiontype": {
                 "id": 29,
-                "name": "Enceladus Sky Islands",
+                "name": "Jupiter Small Moons",
                 "suffix": "_dim29",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1764,15 +1761,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 32,
                 "trigger_y": 700,
@@ -1798,7 +1795,7 @@
             "dim": 30,
             "dimensiontype": {
                 "id": 30,
-                "name": "Titanian Caves",
+                "name": "Ionian Caves",
                 "suffix": "_dim30",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1808,8 +1805,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -1836,7 +1834,7 @@
             "dim": 31,
             "dimensiontype": {
                 "id": 31,
-                "name": "Titan Surface",
+                "name": "Io Surface",
                 "suffix": "_dim31",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1847,13 +1845,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 51800,
-                "NightLength": 51800,
+                "DayLength": 21000,
+                "NightLength": 21000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -1874,7 +1872,7 @@
             "dim": 32,
             "dimensiontype": {
                 "id": 32,
-                "name": "Titanian Sky Islands",
+                "name": "Ionian Sky Islands",
                 "suffix": "_dim32",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1885,9 +1883,9 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -1916,7 +1914,7 @@
             "dim": 33,
             "dimensiontype": {
                 "id": 33,
-                "name": "Neptunian Caves",
+                "name": "Europan Caves",
                 "suffix": "_dim33",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1926,8 +1924,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "436bfd",
-                "FogColor": "2c378e",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
@@ -1955,7 +1953,7 @@
             "dim": 34,
             "dimensiontype": {
                 "id": 34,
-                "name": "Neptune Surface",
+                "name": "Europa Surface",
                 "suffix": "_dim34",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -1966,14 +1964,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 8050,
-                "NightLength": 8050,
+                "DayLength": 42500,
+                "NightLength": 42500,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "4dd8eb",
-                "FogColor": "2c378e",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -1994,7 +1991,7 @@
             "dim": 35,
             "dimensiontype": {
                 "id": 35,
-                "name": "Neptune Small Moons",
+                "name": "Europan Sky Islands",
                 "suffix": "_dim35",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2002,16 +1999,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "436bfd",
-                "FogColor": "2c378e",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 38,
                 "trigger_y": 700,
@@ -2037,7 +2033,7 @@
             "dim": 36,
             "dimensiontype": {
                 "id": 36,
-                "name": "Triton Caves",
+                "name": "Ganymede Caves",
                 "suffix": "_dim36",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2075,7 +2071,7 @@
             "dim": 37,
             "dimensiontype": {
                 "id": 37,
-                "name": "Triton Surface",
+                "name": "Ganymede Surface",
                 "suffix": "_dim37",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2086,8 +2082,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 19100,
-                "NightLength": 19100,
+                "DayLength": 23186,
+                "NightLength": 23186,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -2113,7 +2109,7 @@
             "dim": 38,
             "dimensiontype": {
                 "id": 38,
-                "name": "Triton Sky Islands",
+                "name": "Ganymede Sky Islands",
                 "suffix": "_dim38",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2155,7 +2151,7 @@
             "dim": 39,
             "dimensiontype": {
                 "id": 39,
-                "name": "Persephone Caves",
+                "name": "Callisto Caves",
                 "suffix": "_dim39",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2165,9 +2161,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -2194,7 +2189,7 @@
             "dim": 40,
             "dimensiontype": {
                 "id": 40,
-                "name": "Persephone Surface",
+                "name": "Callisto Surface",
                 "suffix": "_dim40",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2205,14 +2200,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 54345,
+                "NightLength": 54345,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2233,7 +2227,7 @@
             "dim": 41,
             "dimensiontype": {
                 "id": 41,
-                "name": "Persephone Rings",
+                "name": "Callisto Sky Islands",
                 "suffix": "_dim41",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2241,16 +2235,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 44,
                 "trigger_y": 700,
@@ -2276,7 +2269,7 @@
             "dim": 42,
             "dimensiontype": {
                 "id": 42,
-                "name": "Zagreus Caves",
+                "name": "Saturnian Caves",
                 "suffix": "_dim42",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2284,15 +2277,17 @@
             "jed": {
                 "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
-                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
                 "SpawnPointSearchType": {
                     "type": "cavern",
                     "min_y": 5,
@@ -2315,7 +2310,7 @@
             "dim": 43,
             "dimensiontype": {
                 "id": 43,
-                "name": "Zagreus Surface",
+                "name": "Saturn Surface",
                 "suffix": "_dim43",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2326,19 +2321,19 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 5350,
+                "NightLength": 5350,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 46,
+                "dimension": 44,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -2354,7 +2349,7 @@
             "dim": 44,
             "dimensiontype": {
                 "id": 44,
-                "name": "Zagreus Sky Islands",
+                "name": "Saturn's Rings",
                 "suffix": "_dim44",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2362,16 +2357,16 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 47,
                 "trigger_y": 700,
@@ -2397,7 +2392,7 @@
             "dim": 45,
             "dimensiontype": {
                 "id": 45,
-                "name": "Melinoe Caves",
+                "name": "Enceladus Caves",
                 "suffix": "_dim45",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2407,9 +2402,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -2436,7 +2430,7 @@
             "dim": 46,
             "dimensiontype": {
                 "id": 46,
-                "name": "Melinoe Surface",
+                "name": "Enceladus Surface",
                 "suffix": "_dim46",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2447,14 +2441,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 16450,
+                "NightLength": 16450,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2475,7 +2468,7 @@
             "dim": 47,
             "dimensiontype": {
                 "id": 47,
-                "name": "Melinoe Sky Islands",
+                "name": "Enceladus Sky Islands",
                 "suffix": "_dim47",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2483,16 +2476,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 50,
                 "trigger_y": 700,
@@ -2518,7 +2510,7 @@
             "dim": 48,
             "dimensiontype": {
                 "id": 48,
-                "name": "Uranian Caves",
+                "name": "Titanian Caves",
                 "suffix": "_dim48",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2528,9 +2520,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "4fdaed",
-                "FogColor": "5b8696",
-                "SkyBlend": "1.0",
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -2557,7 +2548,7 @@
             "dim": 49,
             "dimensiontype": {
                 "id": 49,
-                "name": "Uranus Surface",
+                "name": "Titan Surface",
                 "suffix": "_dim49",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2568,14 +2559,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 8620,
-                "NightLength": 8620,
+                "DayLength": 51800,
+                "NightLength": 51800,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "4fdaed",
-                "FogColor": "5b8696",
-                "SkyBlend": "1.0",
+                "CloudHeight": 512,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2596,7 +2586,7 @@
             "dim": 50,
             "dimensiontype": {
                 "id": 50,
-                "name": "Uranus Rings",
+                "name": "Titanian Sky Islands",
                 "suffix": "_dim50",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2608,9 +2598,8 @@
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 0,
-                "SkyColor": "4fdaed",
-                "FogColor": "5b8696",
-                "SkyBlend": "1.0",
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2639,7 +2628,7 @@
             "dim": 51,
             "dimensiontype": {
                 "id": 51,
-                "name": "Miranda Caves",
+                "name": "Uranian Caves",
                 "suffix": "_dim51",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2649,8 +2638,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -2677,7 +2667,7 @@
             "dim": 52,
             "dimensiontype": {
                 "id": 52,
-                "name": "Miranda Surface",
+                "name": "Uranus Surface",
                 "suffix": "_dim52",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2688,13 +2678,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 17000,
-                "NightLength": 17000,
+                "DayLength": 8620,
+                "NightLength": 8620,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2715,7 +2706,7 @@
             "dim": 53,
             "dimensiontype": {
                 "id": 53,
-                "name": "Miranda Sky Islands",
+                "name": "Uranus Rings",
                 "suffix": "_dim53",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2726,9 +2717,10 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "4fdaed",
+                "FogColor": "5b8696",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2757,7 +2749,7 @@
             "dim": 54,
             "dimensiontype": {
                 "id": 54,
-                "name": "Jupiter Caves",
+                "name": "Miranda Caves",
                 "suffix": "_dim54",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2767,9 +2759,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -2796,7 +2787,7 @@
             "dim": 55,
             "dimensiontype": {
                 "id": 55,
-                "name": "Jupiter Surface",
+                "name": "Miranda Surface",
                 "suffix": "_dim55",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2807,14 +2798,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 4970,
-                "NightLength": 4970,
+                "DayLength": 17000,
+                "NightLength": 17000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2835,7 +2825,7 @@
             "dim": 56,
             "dimensiontype": {
                 "id": 56,
-                "name": "Jupiter Small Moons",
+                "name": "Miranda Sky Islands",
                 "suffix": "_dim56",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2843,15 +2833,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 59,
                 "trigger_y": 700,
@@ -2877,7 +2867,7 @@
             "dim": 57,
             "dimensiontype": {
                 "id": 57,
-                "name": "Ionian Caves",
+                "name": "Neptunian Caves",
                 "suffix": "_dim57",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2887,8 +2877,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
@@ -2916,7 +2906,7 @@
             "dim": 58,
             "dimensiontype": {
                 "id": 58,
-                "name": "Io Surface",
+                "name": "Neptune Surface",
                 "suffix": "_dim58",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2927,13 +2917,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 21000,
-                "NightLength": 21000,
+                "DayLength": 8050,
+                "NightLength": 8050,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "4dd8eb",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -2954,7 +2945,7 @@
             "dim": 59,
             "dimensiontype": {
                 "id": 59,
-                "name": "Ionian Sky Islands",
+                "name": "Neptune Small Moons",
                 "suffix": "_dim59",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -2965,20 +2956,21 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 68,
+                "dimension": 62,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 60,
+                "dimension": 58,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -2996,7 +2988,7 @@
             "dim": 60,
             "dimensiontype": {
                 "id": 60,
-                "name": "Europan Caves",
+                "name": "Triton Caves",
                 "suffix": "_dim60",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3008,7 +3000,6 @@
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
                 "FogColor": "000000",
-                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -3035,7 +3026,7 @@
             "dim": 61,
             "dimensiontype": {
                 "id": 61,
-                "name": "Europa Surface",
+                "name": "Triton Surface",
                 "suffix": "_dim61",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3046,8 +3037,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 42500,
-                "NightLength": 42500,
+                "DayLength": 19100,
+                "NightLength": 19100,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -3073,7 +3064,7 @@
             "dim": 62,
             "dimensiontype": {
                 "id": 62,
-                "name": "Europan Sky Islands",
+                "name": "Triton Sky Islands",
                 "suffix": "_dim62",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3081,6 +3072,8 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
@@ -3088,8 +3081,6 @@
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 65,
                 "trigger_y": 700,
@@ -3115,7 +3106,7 @@
             "dim": 63,
             "dimensiontype": {
                 "id": 63,
-                "name": "Ganymede Caves",
+                "name": "Pluto Caves",
                 "suffix": "_dim63",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3153,7 +3144,7 @@
             "dim": 64,
             "dimensiontype": {
                 "id": 64,
-                "name": "Ganymede Surface",
+                "name": "Pluto Surface",
                 "suffix": "_dim64",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3164,8 +3155,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 23186,
-                "NightLength": 23186,
+                "DayLength": 76800,
+                "NightLength": 76800,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -3191,7 +3182,7 @@
             "dim": 65,
             "dimensiontype": {
                 "id": 65,
-                "name": "Ganymede Sky Islands",
+                "name": "Pluto's Small Moons",
                 "suffix": "_dim65",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3215,7 +3206,7 @@
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 64,
+                "dimension": 70,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -3233,7 +3224,7 @@
             "dim": 66,
             "dimensiontype": {
                 "id": 66,
-                "name": "Callisto Caves",
+                "name": "Charon Caves",
                 "suffix": "_dim66",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3271,7 +3262,7 @@
             "dim": 67,
             "dimensiontype": {
                 "id": 67,
-                "name": "Callisto Surface",
+                "name": "Charon Surface",
                 "suffix": "_dim67",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3282,8 +3273,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 54345,
-                "NightLength": 54345,
+                "DayLength": 76800,
+                "NightLength": 76800,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -3309,7 +3300,7 @@
             "dim": 68,
             "dimensiontype": {
                 "id": 68,
-                "name": "Callisto Sky Islands",
+                "name": "Charon Sky Islands",
                 "suffix": "_dim68",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3317,6 +3308,8 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
@@ -3324,8 +3317,6 @@
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 71,
                 "trigger_y": 700,
@@ -3351,7 +3342,7 @@
             "dim": 69,
             "dimensiontype": {
                 "id": 69,
-                "name": "Pluto Caves",
+                "name": "Persephone Caves",
                 "suffix": "_dim69",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3361,8 +3352,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -3389,7 +3381,7 @@
             "dim": 70,
             "dimensiontype": {
                 "id": 70,
-                "name": "Pluto Surface",
+                "name": "Persephone Surface",
                 "suffix": "_dim70",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3400,13 +3392,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 76800,
-                "NightLength": 76800,
+                "DayLength": 12000,
+                "NightLength": 12000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -3427,7 +3420,7 @@
             "dim": 71,
             "dimensiontype": {
                 "id": 71,
-                "name": "Pluto's Small Moons",
+                "name": "Persephone Rings",
                 "suffix": "_dim71",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3438,9 +3431,10 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -3469,7 +3463,7 @@
             "dim": 72,
             "dimensiontype": {
                 "id": 72,
-                "name": "Charon Caves",
+                "name": "Zagreus Caves",
                 "suffix": "_dim72",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3479,8 +3473,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -3507,7 +3502,7 @@
             "dim": 73,
             "dimensiontype": {
                 "id": 73,
-                "name": "Charon Surface",
+                "name": "Zagreus Surface",
                 "suffix": "_dim73",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3518,18 +3513,19 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 76800,
-                "NightLength": 76800,
+                "DayLength": 12000,
+                "NightLength": 12000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
-                "dimension": 74,
+                "dimension": 76,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -3545,7 +3541,7 @@
             "dim": 74,
             "dimensiontype": {
                 "id": 74,
-                "name": "Charon Sky Islands",
+                "name": "Zagreus Sky Islands",
                 "suffix": "_dim74",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3553,15 +3549,16 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 77,
                 "trigger_y": 700,
@@ -3587,7 +3584,7 @@
             "dim": 75,
             "dimensiontype": {
                 "id": 75,
-                "name": "Venusian Caves",
+                "name": "Melinoe Caves",
                 "suffix": "_dim75",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3597,11 +3594,13 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "SpawnPointSearchType": {
                     "type": "cavern",
                     "min_y": 5,
@@ -3614,7 +3613,7 @@
             "worldinfo_onetime": {
                 "generatorName": "customized",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -3624,26 +3623,28 @@
             "dim": 76,
             "dimensiontype": {
                 "id": 76,
-                "name": "Venus Surface",
+                "name": "Melinoe Surface",
                 "suffix": "_dim76",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
             "jed": {
-                "CustomDayCycle": true,
-                "DayLength": 48000,
-                "NightLength": 48000,
-                "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12000,
+                "NightLength": 12000,
+                "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "CloudHeight": 512,
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
-                "DontAdvanceWeatherWhenSleeping": true,
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 77,
                 "trigger_y": 700,
@@ -3652,8 +3653,6 @@
                 }
             },
             "worldinfo_onetime": {
-                "raining": 1,
-                "thundering": 1,
                 "generatorName": "customized",
                 "MapFeatures": 0,
                 "generatorOptions": "{\"useMineShafts\":false}"
@@ -3663,7 +3662,7 @@
             "dim": 77,
             "dimensiontype": {
                 "id": 77,
-                "name": "Venusian Sky Islands",
+                "name": "Melinoe Sky Islands",
                 "suffix": "_dim77",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -3673,12 +3672,14 @@
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 0,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 2,
                 "trigger_y": 700,
@@ -3696,8 +3697,7 @@
                 "generatorName": "customized",
                 "MapFeatures": 0,
                 "GameRules": {
-                "doDaylightCycle": false,
-                "raining": 0
+                "doDaylightCycle": false
                 }
             }
         },
@@ -4376,7 +4376,7 @@
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
-                "CloudHeight": 256
+                "CloudHeight": 512
             }
         },
         {
@@ -4581,7 +4581,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 207,
-                "name": "Luna Farside Mirror World",
+                "name": "Lunar Farside Mirror World",
                 "suffix": "_dim207",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -4621,7 +4621,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 208,
-                "name": "Luna Farside Sky Islands Mirror World",
+                "name": "Lunar Farside Sky Islands Mirror World",
                 "suffix": "_dim208",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5058,14 +5058,138 @@
                 "doDaylightCycle": false
                 }
             }
-        },        
+        },
         {
             "dim": 218,
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 218,
-                "name": "Mars Caves Mirror World",
+                "name": "Venusian Caves Mirror World",
                 "suffix": "_dim218",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny"
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 219,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 219,
+                "name": "Venus Surface Mirror World",
+                "suffix": "_dim219",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "CustomDayCycle": true,
+                "DayLength": 48000,
+                "NightLength": 48000,
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
+                "DontAdvanceWeatherWhenSleeping": true,
+                "sky_teleport": {
+                "dimension": 220,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "raining": 1,
+                "thundering": 1,
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 220,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 220,
+                "name": "Venusian Sky Islands Mirror World",
+                "suffix": "_dim220",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "d2cac1",
+                "FogColor": "4BB5D6",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
+                "sky_teleport": {
+                "dimension": 223,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 219,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false,
+                "raining": 0
+                }
+            }
+        },
+        {
+            "dim": 221,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 221,
+                "name": "Mars Caves Mirror World",
+                "suffix": "_dim221",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5101,12 +5225,12 @@
             }
         },
         {
-            "dim": 219,
+            "dim": 222,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 219,
+                "id": 222,
                 "name": "Mars Surface Mirror World",
-                "suffix": "_dim219",
+                "suffix": "_dim222",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5127,7 +5251,7 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 220,
+                "dimension": 223,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -5141,12 +5265,12 @@
             }
         },
         {
-            "dim": 220,
+            "dim": 223,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 220,
+                "id": 223,
                 "name": "Phobos and Deimos Mirror World",
-                "suffix": "_dim220",
+                "suffix": "_dim223",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5165,13 +5289,13 @@
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "sky_teleport": {
-                "dimension": 223,
+                "dimension": 226,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 19,
+                "dimension": 222,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -5188,12 +5312,12 @@
             }
         },
         {
-            "dim": 221,
+            "dim": 224,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 221,
+                "id": 224,
                 "name": "Ceres Caves Mirror World",
-                "suffix": "_dim221",
+                "suffix": "_dim224",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5227,12 +5351,12 @@
             }
         },
         {
-            "dim": 222,
+            "dim": 225,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 222,
+                "id": 225,
                 "name": "Ceres Surface Mirror World",
-                "suffix": "_dim222",
+                "suffix": "_dim225",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5252,7 +5376,7 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 223,
+                "dimension": 226,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -5267,12 +5391,12 @@
             }
         },
         {
-            "dim": 223,
+            "dim": 226,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 223,
+                "id": 226,
                 "name": "Inner Belt Asteroids Mirror World",
-                "suffix": "_dim223",
+                "suffix": "_dim226",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -5292,13 +5416,13 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 26,
+                "dimension": 229,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 222,
+                "dimension": 225,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -5315,140 +5439,11 @@
             }
         },
         {
-            "dim": 224,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 224,
-                "name": "Saturnian Caves Mirror World",
-                "suffix": "_dim224",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyDisableFlags": 7,
-                "SkyRenderType": 1,
-                "IsSurfaceWorld": false,
-                "WaterVaporizes": false,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "IsSurfaceWorld": false,
-                "WaterVaporizes": false,
-                "SpawnPointSearchType": {
-                    "type": "cavern",
-                    "min_y": 5,
-                    "max_y": 255
-                },
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny"
-            },
-            "chunkgenerator": "ChunkGeneratorFlatJED",
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
-            "dim": 225,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 225,
-                "name": "Saturn Mirror World",
-                "suffix": "_dim225",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "SkyDisableFlags": 7,
-                "CustomDayCycle": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "DayLength": 5350,
-                "NightLength": 5350,
-                "DisableDawnDuskColors": true,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 26,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "generatorOptions": "{\"useMineShafts\":false}"
-            }
-        },
-        {
-            "dim": 226,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 226,
-                "name": "Saturn's Rings Mirror World",
-                "suffix": "_dim226",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "e2c080",
-                "FogColor": "af9b76",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 229,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                },
-                "void_teleport": {
-                "dimension": 225,
-                "trigger_y": 0,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
             "dim": 227,
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 227,
-                "name": "Enceladus Caves Mirror World",
+                "name": "Jupiter Caves Mirror World",
                 "suffix": "_dim227",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5458,8 +5453,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -5488,7 +5484,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 228,
-                "name": "Enceladus Surface Mirror World",
+                "name": "Jupiter Mirror World",
                 "suffix": "_dim228",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5499,13 +5495,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 16450,
-                "NightLength": 16450,
+                "DayLength": 4970,
+                "NightLength": 4970,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -5528,7 +5525,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 229,
-                "name": "Enceladus Sky Islands Mirror World",
+                "name": "Jupiter Small Moons Mirror World",
                 "suffix": "_dim229",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5536,15 +5533,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "880000",
+                "FogColor": "ffaa88",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 232,
                 "trigger_y": 700,
@@ -5572,7 +5569,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 230,
-                "name": "Titanian Caves Mirror World",
+                "name": "Ionian Caves Mirror World",
                 "suffix": "_dim230",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5582,8 +5579,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "SkyColor": "000000",
+                "FogColor": "000000",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -5612,7 +5610,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 231,
-                "name": "Titan Surface Mirror World",
+                "name": "Io Surface Mirror World",
                 "suffix": "_dim231",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5623,13 +5621,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 51800,
-                "NightLength": 51800,
+                "DayLength": 21000,
+                "NightLength": 21000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -5652,7 +5650,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 232,
-                "name": "Titanian Sky Islands Mirror World",
+                "name": "Ionian Sky Islands Mirror World",
                 "suffix": "_dim232",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5663,9 +5661,9 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "e7d883",
-                "FogColor": "635c42",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -5696,7 +5694,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 233,
-                "name": "Neptunian Caves Mirror World",
+                "name": "Europan Caves Mirror World",
                 "suffix": "_dim233",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5706,8 +5704,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "436bfd",
-                "FogColor": "2c378e",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
@@ -5737,7 +5735,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 234,
-                "name": "Neptune Surface Mirror World",
+                "name": "Europa Surface Mirror World",
                 "suffix": "_dim234",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5748,14 +5746,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 8050,
-                "NightLength": 8050,
+                "DayLength": 42500,
+                "NightLength": 42500,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "4dd8eb",
-                "FogColor": "2c378e",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -5778,7 +5775,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 235,
-                "name": "Neptune Small Moons Mirror World",
+                "name": "Europan Sky Islands Mirror World",
                 "suffix": "_dim235",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5786,16 +5783,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "436bfd",
-                "FogColor": "2c378e",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 238,
                 "trigger_y": 700,
@@ -5823,7 +5819,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 236,
-                "name": "Triton Caves Mirror World",
+                "name": "Ganymede Caves Mirror World",
                 "suffix": "_dim236",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5863,7 +5859,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 237,
-                "name": "Triton Surface Mirror World",
+                "name": "Ganymede Mirror World",
                 "suffix": "_dim237",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5874,8 +5870,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 19100,
-                "NightLength": 19100,
+                "DayLength": 23186,
+                "NightLength": 23186,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -5903,7 +5899,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 238,
-                "name": "Triton Sky Islands Mirror World",
+                "name": "Ganymede Sky Islands Mirror World",
                 "suffix": "_dim238",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5947,7 +5943,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 239,
-                "name": "Persephone Caves Mirror World",
+                "name": "Callisto Caves Mirror World",
                 "suffix": "_dim239",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5957,9 +5953,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -5988,7 +5983,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 240,
-                "name": "Persephone Surface Mirror World",
+                "name": "Callisto Mirror World",
                 "suffix": "_dim240",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -5999,14 +5994,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 54345,
+                "NightLength": 54345,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -6029,7 +6023,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 241,
-                "name": "Persephone Rings Mirror World",
+                "name": "Callisto Sky Islands Mirror World",
                 "suffix": "_dim241",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6037,16 +6031,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "9955DD",
-                "FogColor": "440088",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 244,
                 "trigger_y": 700,
@@ -6074,7 +6067,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 242,
-                "name": "Zagreus Caves Mirror World",
+                "name": "Saturnian Caves Mirror World",
                 "suffix": "_dim242",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6082,15 +6075,17 @@
             "jed": {
                 "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
-                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
                 "SpawnPointSearchType": {
                     "type": "cavern",
                     "min_y": 5,
@@ -6115,7 +6110,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 243,
-                "name": "Zagreus Surface Mirror World",
+                "name": "Saturn Mirror World",
                 "suffix": "_dim243",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6126,19 +6121,19 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 5350,
+                "NightLength": 5350,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 246,
+                "dimension": 244,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -6156,7 +6151,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 244,
-                "name": "Zagreus Sky Islands Mirror World",
+                "name": "Saturn's Rings Mirror World",
                 "suffix": "_dim244",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6164,16 +6159,16 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "FF8800",
-                "FogColor": "884400",
-                "SkyBlend": "1.0",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e2c080",
+                "FogColor": "af9b76",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 247,
                 "trigger_y": 700,
@@ -6201,7 +6196,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 245,
-                "name": "Melinoe Caves Mirror World",
+                "name": "Enceladus Caves Mirror World",
                 "suffix": "_dim245",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6211,9 +6206,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -6242,7 +6236,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 246,
-                "name": "Melinoe Surface Mirror World",
+                "name": "Enceladus Surface Mirror World",
                 "suffix": "_dim246",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6253,14 +6247,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 12000,
-                "NightLength": 12000,
+                "DayLength": 16450,
+                "NightLength": 16450,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -6283,7 +6276,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 247,
-                "name": "Melinoe Sky Islands Mirror World",
+                "name": "Enceladus Sky Islands Mirror World",
                 "suffix": "_dim247",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6291,16 +6284,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "AA0000",
-                "FogColor": "442200",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 250,
                 "trigger_y": 700,
@@ -6328,8 +6320,132 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 248,
-                "name": "Uranian Caves Mirror World",
+                "name": "Titanian Caves Mirror World",
                 "suffix": "_dim248",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyDisableFlags": 7,
+                "SkyRenderType": 1,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": -1000,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "IsSurfaceWorld": false,
+                "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "SpawnPointSearchType": {
+                    "type": "cavern",
+                    "min_y": 5,
+                    "max_y": 255
+                },
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny"
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED",
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 249,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 249,
+                "name": "Titan Surface Mirror World",
+                "suffix": "_dim249",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 51800,
+                "NightLength": 51800,
+                "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
+                "sky_teleport": {
+                "dimension": 250,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "generatorOptions": "{\"useMineShafts\":false}"
+            }
+        },
+        {
+            "dim": 250,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 250,
+                "name": "Titanian Sky Islands Mirror World",
+                "suffix": "_dim250",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "SkyRenderType": 1,
+                "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "e7d883",
+                "FogColor": "635c42",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
+                "sky_teleport": {
+                "dimension": 253,
+                "trigger_y": 700,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                },
+                "void_teleport": {
+                "dimension": 249,
+                "trigger_y": 0,
+                "teleport_type": "relative_location",
+                "relative_location": "~ 250 ~"
+                }
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "RandomSeed": "",
+                "MapFeatures": 0,
+                "GameRules": {
+                "doDaylightCycle": false
+                }
+            }
+        },
+        {
+            "dim": 251,
+            "temporary_dimension": true,
+            "dimensiontype": {
+                "id": 251,
+                "name": "Uranian Caves Mirror World",
+                "suffix": "_dim251",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -6365,12 +6481,12 @@
             }
         },
         {
-            "dim": 249,
+            "dim": 252,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 249,
+                "id": 252,
                 "name": "Uranus Surface Mirror World",
-                "suffix": "_dim249",
+                "suffix": "_dim252",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -6384,7 +6500,7 @@
                 "NightLength": 8620,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
+                "CloudHeight": 512,
                 "SkyColor": "4fdaed",
                 "FogColor": "5b8696",
                 "SkyBlend": "1.0",
@@ -6392,7 +6508,7 @@
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 250,
+                "dimension": 253,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -6406,12 +6522,12 @@
             }
         },
         {
-            "dim": 250,
+            "dim": 253,
             "temporary_dimension": true,
             "dimensiontype": {
-                "id": 250,
+                "id": 253,
                 "name": "Uranus Rings Mirror World",
-                "suffix": "_dim250",
+                "suffix": "_dim253",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -6451,135 +6567,11 @@
             }
         },
         {
-            "dim": 251,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 251,
-                "name": "Miranda Caves Mirror World",
-                "suffix": "_dim251",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyDisableFlags": 7,
-                "SkyRenderType": 1,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
-                "IsSurfaceWorld": false,
-                "WaterVaporizes": false,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "SpawnPointSearchType": {
-                    "type": "cavern",
-                    "min_y": 5,
-                    "max_y": 255
-                },
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny"
-            },
-            "chunkgenerator": "ChunkGeneratorFlatJED",
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
-            "dim": 252,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 252,
-                "name": "Miranda Mirror World",
-                "suffix": "_dim252",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "SkyDisableFlags": 7,
-                "CustomDayCycle": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "DayLength": 17000,
-                "NightLength": 17000,
-                "DisableDawnDuskColors": true,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 253,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "generatorOptions": "{\"useMineShafts\":false}"
-            }
-        },
-        {
-            "dim": 253,
-            "temporary_dimension": true,
-            "dimensiontype": {
-                "id": 253,
-                "name": "Miranda Sky Islands Mirror World",
-                "suffix": "_dim253",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            },
-            "jed": {
-                "SkyRenderType": 1,
-                "DisableDawnDuskColors": true,
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
-                "sky_teleport": {
-                "dimension": 256,
-                "trigger_y": 700,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                },
-                "void_teleport": {
-                "dimension": 252,
-                "trigger_y": 0,
-                "teleport_type": "relative_location",
-                "relative_location": "~ 250 ~"
-                }
-            },
-            "worldinfo_onetime": {
-                "generatorName": "customized",
-                "RandomSeed": "",
-                "MapFeatures": 0,
-                "GameRules": {
-                "doDaylightCycle": false
-                }
-            }
-        },
-        {
             "dim": 254,
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 254,
-                "name": "Jupiter Caves Mirror World",
+                "name": "Miranda Caves Mirror World",
                 "suffix": "_dim254",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6589,9 +6581,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
-                "SkyBlend": "1.0",
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -6620,7 +6611,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 255,
-                "name": "Jupiter Mirror World",
+                "name": "Miranda Mirror World",
                 "suffix": "_dim255",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6631,14 +6622,13 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 4970,
-                "NightLength": 4970,
+                "DayLength": 17000,
+                "NightLength": 17000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
-                "SkyBlend": "1.0",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -6661,7 +6651,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 256,
-                "name": "Jupiter Small Moons Mirror World",
+                "name": "Miranda Sky Islands Mirror World",
                 "suffix": "_dim256",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6669,15 +6659,15 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 0,
-                "SkyColor": "880000",
-                "FogColor": "ffaa88",
+                "CloudHeight": -1000,
+                "SkyColor": "000000",
+                "FogColor": "000000",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 259,
                 "trigger_y": 700,
@@ -6705,7 +6695,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 257,
-                "name": "Ionian Caves Mirror World",
+                "name": "Neptunian Caves Mirror World",
                 "suffix": "_dim257",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6715,8 +6705,8 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
@@ -6746,7 +6736,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 258,
-                "name": "Io Surface Mirror World",
+                "name": "Neptune Surface Mirror World",
                 "suffix": "_dim258",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6757,13 +6747,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 21000,
-                "NightLength": 21000,
+                "DayLength": 8050,
+                "NightLength": 8050,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "4dd8eb",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -6786,7 +6777,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 259,
-                "name": "Ionian Sky Islands Mirror World",
+                "name": "Neptune Small Moons Mirror World",
                 "suffix": "_dim259",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6797,20 +6788,21 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "436bfd",
+                "FogColor": "2c378e",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
                 "sky_teleport": {
-                "dimension": 268,
+                "dimension": 262,
                 "trigger_y": 700,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
                 },
                 "void_teleport": {
-                "dimension": 260,
+                "dimension": 258,
                 "trigger_y": 0,
                 "teleport_type": "relative_location",
                 "relative_location": "~ 250 ~"
@@ -6830,7 +6822,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 260,
-                "name": "Europan Caves Mirror World",
+                "name": "Triton Caves Mirror World",
                 "suffix": "_dim260",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6842,7 +6834,6 @@
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
                 "FogColor": "000000",
-                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -6871,7 +6862,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 261,
-                "name": "Europa Surface Mirror World",
+                "name": "Triton Surface Mirror World",
                 "suffix": "_dim261",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6882,8 +6873,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 42500,
-                "NightLength": 42500,
+                "DayLength": 19100,
+                "NightLength": 19100,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -6911,7 +6902,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 262,
-                "name": "Europan Sky Islands Mirror World",
+                "name": "Triton Sky Islands Mirror World",
                 "suffix": "_dim262",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6919,6 +6910,8 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
@@ -6926,8 +6919,6 @@
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 265,
                 "trigger_y": 700,
@@ -6955,7 +6946,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 263,
-                "name": "Ganymede Caves Mirror World",
+                "name": "Pluto Caves Mirror World",
                 "suffix": "_dim263",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -6995,7 +6986,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 264,
-                "name": "Ganymede Mirror World",
+                "name": "Pluto Surface Mirror World",
                 "suffix": "_dim264",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7006,8 +6997,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 23186,
-                "NightLength": 23186,
+                "DayLength": 17360,
+                "NightLength": 17360,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -7035,7 +7026,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 265,
-                "name": "Ganymede Sky Islands Mirror World",
+                "name": "Pluto's Small Moons Mirror World",
                 "suffix": "_dim265",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7076,10 +7067,9 @@
         },
         {
             "dim": 266,
-            "temporary_dimension": true,
             "dimensiontype": {
                 "id": 266,
-                "name": "Callisto Caves Mirror World",
+                "name": "Charon Caves",
                 "suffix": "_dim266",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7106,7 +7096,6 @@
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
                 "generatorName": "customized",
-                "RandomSeed": "",
                 "MapFeatures": 0,
                 "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
                 "GameRules": {
@@ -7116,10 +7105,9 @@
         },
         {
             "dim": 267,
-            "temporary_dimension": true,
             "dimensiontype": {
                 "id": 267,
-                "name": "Callisto Mirror World",
+                "name": "Charon Surface",
                 "suffix": "_dim267",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7130,8 +7118,8 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 54345,
-                "NightLength": 54345,
+                "DayLength": 76800,
+                "NightLength": 76800,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
@@ -7149,17 +7137,15 @@
             },
             "worldinfo_onetime": {
                 "generatorName": "customized",
-                "RandomSeed": "",
                 "MapFeatures": 0,
                 "generatorOptions": "{\"useMineShafts\":false}"
             }
         },
         {
             "dim": 268,
-            "temporary_dimension": true,
             "dimensiontype": {
                 "id": 268,
-                "name": "Callisto Sky Islands Mirror World",
+                "name": "Charon Sky Islands",
                 "suffix": "_dim268",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7167,6 +7153,8 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
                 "SkyColor": "000000",
@@ -7174,8 +7162,6 @@
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
-                "CanSpawnPeacefulMobs": false,
-                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 271,
                 "trigger_y": 700,
@@ -7191,7 +7177,6 @@
             },
             "worldinfo_onetime": {
                 "generatorName": "customized",
-                "RandomSeed": "",
                 "MapFeatures": 0,
                 "GameRules": {
                 "doDaylightCycle": false
@@ -7203,7 +7188,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 269,
-                "name": "Pluto Caves Mirror World",
+                "name": "Persephone Caves Mirror World",
                 "suffix": "_dim269",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7213,8 +7198,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -7243,7 +7229,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 270,
-                "name": "Pluto Surface Mirror World",
+                "name": "Persephone Surface Mirror World",
                 "suffix": "_dim270",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7254,13 +7240,14 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 17360,
-                "NightLength": 17360,
+                "DayLength": 12000,
+                "NightLength": 12000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -7283,7 +7270,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 271,
-                "name": "Pluto's Small Moons Mirror World",
+                "name": "Persephone Rings Mirror World",
                 "suffix": "_dim271",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7294,9 +7281,10 @@
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 0,
+                "SkyColor": "9955DD",
+                "FogColor": "440088",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
                 "CanRespawnHere": false,
                 "CanSleepHere": "deny",
@@ -7323,11 +7311,12 @@
             }
         },
         {
-            "dim": 269,
+            "dim": 272,
+            "temporary_dimension": true,
             "dimensiontype": {
-                "id": 269,
-                "name": "Charon Caves",
-                "suffix": "_dim269",
+                "id": 272,
+                "name": "Zagreus Caves Mirror World",
+                "suffix": "_dim272",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
@@ -7336,8 +7325,9 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
                 "CanSpawnPeacefulMobs": false,
@@ -7353,6 +7343,7 @@
             "chunkgenerator": "ChunkGeneratorFlatJED",
             "worldinfo_onetime": {
                 "generatorName": "customized",
+                "RandomSeed": "",
                 "MapFeatures": 0,
                 "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
                 "GameRules": {
@@ -7362,9 +7353,10 @@
         },
         {
             "dim": 273,
+            "temporary_dimension": true,
             "dimensiontype": {
                 "id": 273,
-                "name": "Charon Surface",
+                "name": "Zagreus Surface Mirror World",
                 "suffix": "_dim273",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7375,16 +7367,17 @@
                 "CustomDayCycle": true,
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "DayLength": 76800,
-                "NightLength": 76800,
+                "DayLength": 12000,
+                "NightLength": 12000,
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
+                "CloudHeight": 512,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
                 "sky_teleport": {
                 "dimension": 274,
                 "trigger_y": 700,
@@ -7394,15 +7387,17 @@
             },
             "worldinfo_onetime": {
                 "generatorName": "customized",
+                "RandomSeed": "",
                 "MapFeatures": 0,
                 "generatorOptions": "{\"useMineShafts\":false}"
             }
         },
         {
             "dim": 274,
+            "temporary_dimension": true,
             "dimensiontype": {
                 "id": 274,
-                "name": "Charon Sky Islands",
+                "name": "Zagreus Sky Islands Mirror World",
                 "suffix": "_dim274",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7410,15 +7405,16 @@
             "jed": {
                 "SkyRenderType": 1,
                 "DisableDawnDuskColors": true,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 0,
+                "SkyColor": "FF8800",
+                "FogColor": "884400",
+                "SkyBlend": "1.0",
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+                "CanRespawnHere": true,
+                "CanSleepHere": "allow",
                 "CanSpawnPeacefulMobs": false,
                 "CanSpawnHostiles": false,
-                "CloudRenderer": "DummyRenderer",
-                "CloudHeight": -1000,
-                "SkyColor": "000000",
-                "FogColor": "000000",
-                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": false,
-                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 277,
                 "trigger_y": 700,
@@ -7434,6 +7430,7 @@
             },
             "worldinfo_onetime": {
                 "generatorName": "customized",
+                "RandomSeed": "",
                 "MapFeatures": 0,
                 "GameRules": {
                 "doDaylightCycle": false
@@ -7445,7 +7442,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 275,
-                "name": "Venusian Caves Mirror World",
+                "name": "Melinoe Caves Mirror World",
                 "suffix": "_dim275",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7455,11 +7452,13 @@
                 "SkyRenderType": 1,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": -1000,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "IsSurfaceWorld": false,
                 "WaterVaporizes": false,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "SpawnPointSearchType": {
                     "type": "cavern",
                     "min_y": 5,
@@ -7473,7 +7472,7 @@
                 "generatorName": "customized",
                 "RandomSeed": "",
                 "MapFeatures": 0,
-                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:marstone,minecraft:bedrock;1;caves",
+                "generatorOptions": "3;minecraft:bedrock,254*contenttweaker:mercurystone,minecraft:bedrock;1;caves",
                 "GameRules": {
                 "doDaylightCycle": false
                 }
@@ -7484,26 +7483,28 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 276,
-                "name": "Venus Surface Mirror World",
+                "name": "Melinoe Surface Mirror World",
                 "suffix": "_dim276",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
             },
             "jed": {
-                "CustomDayCycle": true,
-                "DayLength": 48000,
-                "NightLength": 48000,
-                "SkyDisableFlags": 7,
                 "SkyRenderType": 1,
+                "SkyDisableFlags": 7,
+                "CustomDayCycle": true,
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
+                "DayLength": 12000,
+                "NightLength": 12000,
+                "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
-                "CloudHeight": 256,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "CloudHeight": 512,
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
-                "DontAdvanceWeatherWhenSleeping": true,
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
                 "sky_teleport": {
                 "dimension": 277,
                 "trigger_y": 700,
@@ -7512,8 +7513,6 @@
                 }
             },
             "worldinfo_onetime": {
-                "raining": 1,
-                "thundering": 1,
                 "generatorName": "customized",
                 "RandomSeed": "",
                 "MapFeatures": 0,
@@ -7525,7 +7524,7 @@
             "temporary_dimension": true,
             "dimensiontype": {
                 "id": 277,
-                "name": "Venusian Sky Islands Mirror World",
+                "name": "Melinoe Sky Islands Mirror World",
                 "suffix": "_dim277",
                 "keeploaded": false,
                 "worldprovider": "WorldProviderSurfaceJED"
@@ -7535,12 +7534,14 @@
                 "DisableDawnDuskColors": true,
                 "CloudRenderer": "DummyRenderer",
                 "CloudHeight": 0,
-                "SkyColor": "d2cac1",
-                "FogColor": "4BB5D6",
+                "SkyColor": "AA0000",
+                "FogColor": "442200",
                 "SkyBlend": "1.0",
                 "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-                "CanRespawnHere": true,
-                "CanSleepHere": "allow",
+                "CanRespawnHere": false,
+                "CanSleepHere": "deny",
+                "CanSpawnPeacefulMobs": false,
+                "CanSpawnHostiles": false,
                 "sky_teleport": {
                 "dimension": 202,
                 "trigger_y": 700,
@@ -7559,8 +7560,7 @@
                 "RandomSeed": "",
                 "MapFeatures": 0,
                 "GameRules": {
-                "doDaylightCycle": false,
-                "raining": 0
+                "doDaylightCycle": false
                 }
             }
         }

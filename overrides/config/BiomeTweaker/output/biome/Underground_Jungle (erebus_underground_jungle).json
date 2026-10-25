@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 66,
   "Name": "Underground Jungle",
   "Resource Location": "erebus:underground_jungle",
   "Class": "erebus.world.biomes.BiomeUndergroundJungle",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "JUNGLE",
     "HOT",
-    "LUSH",
-    "DENSE"
+    "JUNGLE",
+    "VOID",
+    "DENSE",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

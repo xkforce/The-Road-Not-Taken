@@ -1,13 +1,13 @@
 
 {
-  "ID": 294,
+  "ID": 297,
   "Name": "Crater Lake",
   "Resource Location": "biometweaker:craterlake",
   "Class": "net.minecraft.world.biome.BiomeOcean",
-  "Root Height": 2.6,
-  "Height Variation": 0.2,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Root Height": 2.5,
+  "Height Variation": 0.025,
+  "Top Block": "bblsom:blackpodzol",
+  "Filler Block": "bblsom:blackdirt",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [

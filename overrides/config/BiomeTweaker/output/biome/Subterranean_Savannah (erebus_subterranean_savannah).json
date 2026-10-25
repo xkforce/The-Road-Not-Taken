@@ -1,6 +1,6 @@
 
 {
-  "ID": 70,
+  "ID": 68,
   "Name": "Subterranean Savannah",
   "Resource Location": "erebus:subterranean_savannah",
   "Class": "erebus.world.biomes.BiomeSubterraneanSavannah",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "SAVANNA"
+    "SAVANNA",
+    "VOID"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

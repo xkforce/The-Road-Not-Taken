@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 114,
   "Name": "Large Oak Forest",
   "Resource Location": "biometweaker:largeoakforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "BIRCH_TREES",
     "SPOOKY",
+    "FOREST",
+    "DENSE",
     "LARGEOAKFOREST",
-    "DENSE"
+    "BIRCH_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

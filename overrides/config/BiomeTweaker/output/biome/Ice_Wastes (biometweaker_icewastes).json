@@ -1,6 +1,6 @@
 
 {
-  "ID": 375,
+  "ID": 378,
   "Name": "Ice Wastes",
   "Resource Location": "biometweaker:icewastes",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "COLD"
+    "COLD",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

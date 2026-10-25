@@ -1,6 +1,6 @@
 
 {
-  "ID": 61,
+  "ID": 59,
   "Name": "Woodland",
   "Resource Location": "biomesoplenty:woodland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenWoodland",

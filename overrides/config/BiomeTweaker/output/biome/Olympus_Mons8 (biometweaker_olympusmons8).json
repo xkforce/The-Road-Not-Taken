@@ -1,6 +1,6 @@
 
 {
-  "ID": 286,
+  "ID": 288,
   "Name": "Olympus Mons8",
   "Resource Location": "biometweaker:olympusmons8",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 372,
+  "ID": 375,
   "Name": "Asian River",
   "Resource Location": "biometweaker:as_river",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "HOT",
     "WET",
-    "HOT"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

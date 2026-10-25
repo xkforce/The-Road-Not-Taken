@@ -232,8 +232,16 @@ lava_walker:lava_walker
    - Max Level: 2
 
 
-nee:curseofpossession
+nee:cursededge
    - Id: 28
+   - Rarity: RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
+
+
+nee:curseofpossession
+   - Id: 29
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -241,7 +249,7 @@ nee:curseofpossession
 
 
 nee:curseofinaccuracy
-   - Id: 29
+   - Id: 30
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -249,17 +257,9 @@ nee:curseofinaccuracy
 
 
 nee:innerberserk
-   - Id: 30
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-nee:curseofvulnerability
    - Id: 31
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
@@ -296,8 +296,16 @@ minecraft:fortune
    - Max Level: 3
 
 
-nee:instability
+nee:curseofvulnerability
    - Id: 36
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 4
+
+
+nee:instability
+   - Id: 37
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -305,19 +313,11 @@ nee:instability
 
 
 nee:smelter
-   - Id: 37
+   - Id: 38
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
-
-
-nee:cursededge
-   - Id: 38
-   - Rarity: RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
 
 
 oe:is_watermob
@@ -360,7 +360,7 @@ oe:rebound
    - Max Level: 2
 
 
-randomenchantments:lumberjack
+randomenchantments:true_lifesteal
    - Id: 44
    - Rarity: RARE
    - Treasure: false
@@ -368,12 +368,12 @@ randomenchantments:lumberjack
    - Max Level: 1
 
 
-randomenchantments:breaking
+randomenchantments:piercing
    - Id: 45
    - Rarity: RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
 randomenchantments:ricochet
@@ -384,12 +384,12 @@ randomenchantments:ricochet
    - Max Level: 1
 
 
-randomenchantments:piercing
+randomenchantments:breaking
    - Id: 47
    - Rarity: RARE
-   - Treasure: false
+   - Treasure: true
    - Min Level: 1
-   - Max Level: 1
+   - Max Level: 3
 
 
 minecraft:power
@@ -424,7 +424,7 @@ minecraft:infinity
    - Max Level: 1
 
 
-randomenchantments:true_lifesteal
+randomenchantments:lumberjack
    - Id: 52
    - Rarity: RARE
    - Treasure: false
@@ -432,8 +432,16 @@ randomenchantments:true_lifesteal
    - Max Level: 1
 
 
-cofhcore:soulbound
+wornhorseshoes:trampling
    - Id: 53
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cofhcore:soulbound
+   - Id: 54
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -441,7 +449,7 @@ cofhcore:soulbound
 
 
 charm:curse_break
-   - Id: 54
+   - Id: 55
    - Rarity: RARE
    - Treasure: true
    - Min Level: 1
@@ -449,7 +457,7 @@ charm:curse_break
 
 
 charm:salvage
-   - Id: 55
+   - Id: 56
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -457,7 +465,7 @@ charm:salvage
 
 
 cyclicmagic:enchantment.magnet
-   - Id: 56
+   - Id: 57
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -465,14 +473,6 @@ cyclicmagic:enchantment.magnet
 
 
 cyclicmagic:enchantment.multishot
-   - Id: 57
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cyclicmagic:enchantment.quickdraw
    - Id: 58
    - Rarity: VERY_RARE
    - Treasure: false
@@ -480,8 +480,16 @@ cyclicmagic:enchantment.quickdraw
    - Max Level: 1
 
 
-cyclicmagic:enchantment.expboost
+cyclicmagic:enchantment.quickdraw
    - Id: 59
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.expboost
+   - Id: 60
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1

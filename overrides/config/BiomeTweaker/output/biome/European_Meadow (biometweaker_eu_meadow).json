@@ -1,6 +1,6 @@
 
 {
-  "ID": 282,
+  "ID": 284,
   "Name": "European Meadow",
   "Resource Location": "biometweaker:eu_meadow",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "WET",
     "COLD",
-    "LUSH",
-    "SPARSE"
+    "SPARSE",
+    "WET",
+    "FOREST",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

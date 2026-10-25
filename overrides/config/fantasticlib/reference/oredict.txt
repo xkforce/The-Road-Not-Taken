@@ -395,12 +395,12 @@ blockNetherite
 ingotNetherite
 ingotAncientDebris
 oreAncientDebris
+stoneBasaltPolished
 trapdoorWood
 pressurePlateWood
 buttonWood
 blockCharcoal
 stonePolished
-stoneBasaltPolished
 oreJade
 orePetrifiedWood
 oreFossil
@@ -427,9 +427,9 @@ plankVarnished
 foodMushroom
 dropHoney
 rodIron
+gearIron
 rodBreeze
 wax
-gearIron
 chitinScorpion
 twigs
 cactus

@@ -1,6 +1,6 @@
 
 {
-  "ID": 179,
+  "ID": 178,
   "Name": "Wet Mimobo Woodlands",
   "Resource Location": "biometweaker:wet_miombo_woodlands",
   "Class": "net.minecraft.world.biome.BiomeHills",
@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "SAVANNA",
     "HOT",
-    "SPARSE"
+    "SPARSE",
+    "SAVANNA",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

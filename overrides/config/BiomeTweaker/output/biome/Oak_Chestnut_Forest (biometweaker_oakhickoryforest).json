@@ -1,6 +1,6 @@
 
 {
-  "ID": 363,
+  "ID": 366,
   "Name": "Oak Chestnut Forest",
   "Resource Location": "biometweaker:oakhickoryforest",
   "Class": "net.minecraft.world.biome.BiomeForest",
@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "HICKORY",
-    "OAK"
+    "OAK",
+    "HICKORY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

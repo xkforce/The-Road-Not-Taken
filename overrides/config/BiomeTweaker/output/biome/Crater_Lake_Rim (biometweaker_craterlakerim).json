@@ -1,12 +1,12 @@
 
 {
-  "ID": 350,
+  "ID": 353,
   "Name": "Crater Lake Rim",
   "Resource Location": "biometweaker:craterlakerim",
   "Class": "net.minecraft.world.biome.BiomeTaiga",
   "Root Height": 7.0,
   "Height Variation": 0.2,
-  "Top Block": "bblsom:blackdirt",
+  "Top Block": "bblsom:blackcoarsedirt",
   "Filler Block": "bblsom:blackdirt",
   "Ocean Top Block": "minecraft:gravel",
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
@@ -16,7 +16,7 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "4159204",
-  "Temperature": 0.25,
+  "Temperature": 0.8,
   "Humidity": 0.8,
   "Water Tint": 4159204,
   "Enable Rain": true,

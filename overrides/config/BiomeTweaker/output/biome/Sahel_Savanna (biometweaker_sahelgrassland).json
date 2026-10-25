@@ -1,6 +1,6 @@
 
 {
-  "ID": 311,
+  "ID": 314,
   "Name": "Sahel Savanna",
   "Resource Location": "biometweaker:sahelgrassland",
   "Class": "net.minecraft.world.biome.BiomePlains",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
     "HOT",
+    "SAVANNA",
     "SPARSE"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 113,
+  "ID": 111,
   "Name": "White Desert",
   "Resource Location": "biometweaker:whitedesert",
   "Class": "net.minecraft.world.biome.BiomeDesert",
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "HOT",
+    "DRY",
     "SANDY"
   ],
   "BiomeManager Entries": {},

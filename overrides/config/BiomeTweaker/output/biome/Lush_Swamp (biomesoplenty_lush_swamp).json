@@ -1,6 +1,6 @@
 
 {
-  "ID": 51,
+  "ID": 50,
   "Name": "Lush Swamp",
   "Resource Location": "biomesoplenty:lush_swamp",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLushSwamp",
@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "WET",
     "SWAMP",
-    "LUSH",
-    "DENSE"
+    "DENSE",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

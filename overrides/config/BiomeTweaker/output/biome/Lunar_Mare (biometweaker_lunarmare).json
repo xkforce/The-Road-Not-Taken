@@ -1,6 +1,6 @@
 
 {
-  "ID": 237,
+  "ID": 236,
   "Name": "Lunar Mare",
   "Resource Location": "biometweaker:lunarmare",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

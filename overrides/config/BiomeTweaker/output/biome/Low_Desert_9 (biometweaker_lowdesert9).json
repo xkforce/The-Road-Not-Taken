@@ -4,12 +4,12 @@
   "Name": "Low Desert 9",
   "Resource Location": "biometweaker:lowdesert9",
   "Class": "net.minecraft.world.biome.BiomeDesert",
-  "Root Height": 3.5,
+  "Root Height": 3.8,
   "Height Variation": 0.025,
   "Top Block": "minecraft:sand[variant\u003dsand]",
   "Filler Block": "minecraft:sand[variant\u003dsand]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Ocean Top Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Filler Block": "minecraft:sand[variant\u003dsand]",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]"
   ],
@@ -22,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "HOT",
+    "DRY",
     "SANDY"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 55,
+  "ID": 54,
   "Name": "RedwoodForest",
   "Resource Location": "biomesoplenty:redwood_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest",

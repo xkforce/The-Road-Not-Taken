@@ -1,6 +1,6 @@
 
 {
-  "ID": 57,
+  "ID": 56,
   "Name": "Snowy Coniferous Forest",
   "Resource Location": "biomesoplenty:snowy_coniferous_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyConiferousForest",
@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "COLD",
     "CONIFEROUS",
     "FOREST",
-    "COLD",
     "SNOWY",
     "DENSE"
   ],

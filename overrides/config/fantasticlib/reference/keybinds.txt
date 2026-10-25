@@ -165,23 +165,18 @@ waila.keybind.recipe
 waila.keybind.usage
 waila.keybind.wailadisplay
 
-jei (Had Enough Items)
-key.hei.crafting
+jei (Just Enough Items)
 key.jei.bookmark
-key.hei.bookmarkToTop
-key.hei.bookmarkNewGroup
-key.hei.bookmarkNewGroupToTop
-key.hei.moveGroupDown
-key.hei.moveGroupUp
-key.jei.focusSearch
+key.jei.closeRecipeGui
+key.jei.copy.recipe.id
 key.jei.nextPage
-key.hei.nextCategory
+key.jei.pauseRecipeCycling
 key.jei.previousPage
-key.hei.previousCategory
 key.jei.recipeBack
+key.jei.focusSearch
 key.jei.showRecipe
 key.jei.showUses
-key.hei.toggleBookmarkOverlay
+key.jei.toggleBookmarkOverlay
 key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode

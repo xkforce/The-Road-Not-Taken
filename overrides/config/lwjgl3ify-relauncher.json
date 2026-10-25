@@ -1,0 +1,26 @@
+{
+  "javaInstallationsCache": [
+    "/usr/java/jdk-23-oracle-x64/bin/java",
+    "/usr/java/jdk-24-oracle-x64/bin/java",
+    "/usr/lib/jvm/default-java/bin/java",
+    "/usr/lib/jvm/java-1.21.0-openjdk-amd64/bin/java",
+    "/usr/lib/jvm/java-21-openjdk-amd64/bin/java",
+    "/usr/lib/jvm/jdk-23.0.2-oracle-x64/bin/java",
+    "/usr/lib/jvm/jdk-24.0.1-oracle-x64/bin/java"
+  ],
+  "javaInstallation": 0,
+  "minMemoryMB": 512,
+  "maxMemoryMB": 6144,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

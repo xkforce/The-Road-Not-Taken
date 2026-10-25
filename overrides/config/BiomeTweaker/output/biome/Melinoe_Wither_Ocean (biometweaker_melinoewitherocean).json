@@ -1,6 +1,6 @@
 
 {
-  "ID": 365,
+  "ID": 368,
   "Name": "Melinoe Wither Ocean",
   "Resource Location": "biometweaker:melinoewitherocean",
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
@@ -22,9 +22,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DRY",
-    "SPACE",
-    "COLD"
+    "SPACE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
